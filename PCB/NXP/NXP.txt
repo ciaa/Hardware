@@ -1,1 +1,1 @@
-CIAA-NXP
+CIAA-NXP directory. It contains the KiCad project files for the -NXP flavor.
