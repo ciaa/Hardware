@@ -1,0 +1,423 @@
+ref	value	Campo1	Campo2	Campo3	Campo4	Campo5	Campo6	Campo7	Campo8
+BT1	BK-913								
+C1	10uF								
+C2	100nF								
+C3	100nF								
+C4	100nF								
+C5	10uF								
+C6	100nF								
+C7	470pF								
+C8	1nF								
+C9	100nF								
+C10	100nF								
+C11	18pF								
+C12	18pF								
+C13	18pF								
+C14	18pF								
+C15	100nF								
+C16	470uF								
+C17	330uF								
+C18	10uF								
+C19	100nF								
+C20	100nF								
+C21	10uF / 6V3								
+C22	100nF								
+C23	100nF								
+C24	100nF								
+C25	100nF								
+C26	100nF								
+C27	100nF								
+C28	10uF / 6V3								
+C29	100nF								
+C30	100nF								
+C31	10uF								
+C32	100nF								
+C33	100nF								
+C34	10uF								
+C35	100nF								
+C36	1nF								
+C37	100nF								
+C38	470pF								
+C39	100nF								
+C40	470pF								
+C41	100nF								
+C42	1nF								
+C43	100nF								
+C44	470pF								
+C45	100nF								
+C47	100nF								
+C48	100nF								
+C49	100nF								
+C50	100nF								
+C51	100nF								
+C52	100nF								
+C53	100nF								
+C54	100nF								
+C55	100nF								
+C56	100nF								
+C57	100nF								
+C58	100nF								
+C59	100nF								
+C60	10uF								
+C61	100nF								
+C62	100nF								
+C63	100nF								
+C64	100nF								
+C65	100nF								
+C66	100nF								
+C67	100nF								
+C68	10uF								
+C69	100nF								
+C70	100nF								
+C71	100nF								
+C72	100nF								
+C73	100nF								
+C74	100nF								
+C75	100nF								
+C76	100nF								
+C77	100nF								
+C78	10uF								
+C79	15p								
+C80	3.3uF								
+C81	15p								
+C82	20p								
+C83	20p								
+C84	22p								
+C85	22p								
+C86	100nF								
+C87	100nF								
+C90	100nF								
+C91	1nF								
+C92	470pF								
+C93	1nF								
+D1	PMEG3020EH								
+D2	RS3J-E3/57T								
+D3	B540C-13-F								
+D4	LED red								
+D5	PMEG3020EH								
+D6	PSD12C								
+D7	PSD12C								
+D8	PSD12C								
+D9	BAV199								
+D10	BAV199								
+D11	BAV199								
+D12	BAV199								
+D13	LED red								
+D14	LL4148								
+D15	LL4148								
+D16	LED red								
+D17	LL4148								
+D18	LED red								
+D19	LL4148								
+D20	LED red								
+D21	LED red								
+D22	LED red								
+D23	LED red								
+D24	LED red								
+D25	BZX585-B6V8								
+D26	BZX585-B6V8								
+D27	LL4148								
+D28	LL4148								
+D29	BZX585-B6V8								
+D30	LL4148								
+D31	LL4148								
+D32	BZX585-B6V8								
+D33	LED red								
+D34	LED red								
+D35	LED red								
+D36	LED red								
+D37	LL4148								
+D38	LED red								
+D39	LL4148								
+D40	LED red								
+D41	LL4148								
+D42	LED red								
+D43	LL4148								
+D44	LED red								
+D45	PMEG3020EH								
+FB1	MMZ1608B601C								
+FB2	MMZ1608B601C								
+FB3	MMZ1608B601C								
+FB4	MMZ1608B601C								
+FB5	MMZ1608B601C								
+FB6	MMZ1608B601C								
+FB7	BLM18KG221SN1								
+FB8	MMZ1608B601C								
+FB9	MMZ1608B601C								
+FB10	MMZ1608B601C								
+FB11	BLM18KG221SN1								
+FB12	BLM18BD470SN1								
+FB13	BLM18BD470SN1								
+FB14	BLM18KG221SN1								
+FB15	BLM18KG221SN1								
+FB16	BLM18KG221SN1								
+FB17	BLM18BD470SN1								
+FB18	BLM18BD470SN1								
+FB19	BLM18BD470SN1								
+FB20	MMZ1608B601C								
+GS1	GS2								
+GS2	GS2								
+GS3	GS2								
+GS4	GS2								
+GS5	GS2								
+GS6	GS3								
+GS7	GS3								
+GS8	GS3								
+GS9	GS3								
+GS10	GS3								
+IC1	PS2801-4								
+IC2	PS2801-4								
+J1	TB_1X3								
+J2	TB_1X3								
+J3	DB9								
+J4	TB_1X3								
+J6	ZX62-AB-5PA								
+J7	ZX62-AB-5PA								
+J8	TB_1X3								
+J9	TB_1X3								
+J10	TB_1X3								
+J11	TB_1X2								
+J12	TB_1X3								
+J13	TB_1X3								
+J14	TB_1X2								
+J15	TB_1X3								
+J16	TB_1X3								
+J17	TB_1X2								
+J18	TB_1X2								
+J19	TB_1X2								
+JP1	JUMPER-2								
+JP2	JUMPER-2								
+JP3	JUMPER-2								
+JP4	JUMPER-2								
+JP5	JUMPER-2								
+JP6	JUMPER-2								
+JP7	JUMPER								
+JP8	JUMPER3								
+JP9	JUMPER								
+JP10	JUMPER3								
+JP11	JUMPER								
+JP12	JUMPER3								
+JP13	JUMPER								
+JP14	JUMPER3								
+JP15	ISP								
+K1	G5V-2-DC5								
+K2	G5V-2-DC5								
+K3	G5V-2-DC5								
+K4	G5V-2-DC5								
+L1	BK1608HS220-T								
+L2	47uH								
+P1	HR911105A								
+P2	CONN_6X2								
+P3	CONN_1								
+P4	CONN_1								
+P8	Cortex-Debug								
+P9	FT_NC								
+P12	GPIO								
+P13	I2C								
+P14	SPI								
+P15	Analog								
+P16	ZX62-B-5PA								
+PS1	USMF020								
+PS2	USMF020								
+Q2	IRF820S								
+Q3	NDS7002A								
+Q4	IRF820S								
+Q5	NDS7002A								
+Q6	NDS7002A								
+Q7	NDS7002A								
+Q8	IRF820S								
+Q9	NDS7002A								
+Q10	IRF820S								
+Q11	NDS7002A								
+Q12	NDS7002A								
+Q13	NDS7002A								
+R1	1k5								
+R2	10k								
+R3	50								
+R4	50								
+R5	50								
+R6	50								
+R7	0								
+R8	0								
+R9	0								
+R10	22								
+R11	22								
+R12	22								
+R13	0								
+R14	0								
+R15	10k								
+R16	10k								
+R17	270								
+R18	270								
+R19	12.1k 1%								
+R20	24.9								
+R21	100k								
+R22	1k								
+R23	0								
+R24	0								
+R25	0								
+R26	0								
+R27	0								
+R28	0								
+R29	0								
+R30	0								
+R32	680								
+R33	100K								
+R34	4K7								
+R35	120								
+R36	4K7								
+R37	4K7								
+R38	100K								
+R39	680								
+R40	100 / 1/2W								
+R41	4K7								
+R42	1K5								
+R43	60								
+R44	270R								
+R45	1K5								
+R46	60								
+R47	4K7								
+R48	10k								
+R49	10k								
+R50	15k	0.1%	25 ppm/°C						
+R51	100	5%							
+R52	15k	0.1%	25 ppm/°C						
+R53	4.7	1%	25 ppm/°C						
+R54	100	5%							
+R55	237	0.1%	25 ppm/°C						
+R56	15k	0.1%	25 ppm/°C						
+R57	100	5%							
+R58	15k	0.1%	25 ppm/°C						
+R59	15k	0.1%	25 ppm/°C						
+R60	100	5%							
+R61	4.7	1%	25 ppm/°C						
+R62	237	0.1%	25 ppm/°C						
+R63	15k	0.1%	25 ppm/°C						
+R64	10k								
+R65	100								
+R66	10k								
+R67	100								
+R68	10k								
+R69	100								
+R70	10k								
+R71	100								
+R72	10k								
+R73	100								
+R74	10k								
+R75	100								
+R76	10k								
+R77	100								
+R78	10k								
+R79	100								
+R84	270								
+R85	10k								
+R86	0								
+R87	0								
+R88	0								
+R89	0								
+R90	10K								
+R91	10K								
+R92	10K								
+R93	15K								
+R94	15K								
+R95	12K 1%								
+R96	10M								
+R97	12K								
+R98	1k								
+R99	2.2k								
+R100	2.2k								
+R101	10K								
+R102	10K								
+R103	10K								
+R104	2.2K								
+R106	100k								
+R108	100k								
+R110	100k								
+R111	100k								
+R112	100k								
+R114	100k								
+R115	100k								
+R116	100k								
+R117	10k								
+R118	10k								
+R119	10k								
+R120	10k								
+R121	15k	0.1%	25 ppm/°C						
+R122	15k	0.1%	25 ppm/°C						
+R123	4.7	1%	25 ppm/°C						
+R124	237	0.1%	25 ppm/°C						
+R125	15k	0.1%	25 ppm/°C						
+R126	15k	0.1%	25 ppm/°C						
+R127	15k	0.1%	25 ppm/°C						
+R128	4.7	1%	25 ppm/°C						
+R129	237	0.1%	25 ppm/°C						
+R130	15k	0.1%	25 ppm/°C						
+R131	330								
+R132	330								
+R133	330								
+R134	330								
+R135	330								
+R136	330								
+R137	330								
+R138	330								
+SW1	SW_PUSH								
+T1	NSI45020T1G								
+T2	NSI45020T1G								
+T3	NSI45020T1G								
+T4	NSI45020T1G								
+T5	NSI45020T1G								
+T6	NSI45020T1G								
+T7	NSI45020T1G								
+T8	NSI45020T1G								
+T9	NSI45020T1G								
+T10	NSI45020T1G								
+T11	NSI45020T1G								
+T12	NSI45020T1G								
+TH1	PTS18126V300								
+TH2	PTS12066V100								
+TH3	PTS12066V100								
+TH4	PTS12066V100								
+TH5	PTS12066V100								
+TH6	PTS12066V100								
+TH7	PTS12066V100								
+TH8	MF-MSMF030-2								
+TH9	MF-MSMF030-2								
+TR1	DLW21HN900SQ2								
+TR2	DLW21HN900SQ2								
+TR3	DLW21HN900SQ2								
+U1	LAN8720A-CP								
+U2	SI502								
+U3	LM2596-5.0								
+U4	NCP1117ST33T3G								
+U5	MAX3072								
+U6	ST3232E								
+U7	TJA1040								
+U8	PESD1CAN								
+U9	PRTR5V0U2X								
+U10	MIC2025-2YM								
+U11	MCP6024								
+U12	24AA1025								
+U13	24AA025E48								
+U14	TXB0108								
+U15	IS42S16400F								
+U16	LPC4337JBD144								
+U17	FT2232H								
+U19	93C46								
+U20	S25FL032P0XMFI013								
+X1	32.768K								
+X2	12MHz								
+X3	12MHz								
+ZA1	P6SMB33CA								
+ZA2	SMBJ20CA								
+ZA3	SMBJ20CA								
+ZA4	SMBJ20CA								
+ZA5	SMBJ20CA								
+ZA6	P6SMB33CA								
+ZA7	P6SMB33CA								
+ZA8	P6SMB33CA								
+ZA9	P6SMB33CA								
+ZA10	P6SMB33CA								
+ZA11	P6SMB33CA								
+ZA12	P6SMB33CA								
+ZA13	P6SMB33CA								
+ZA14	SMAZ5V6								
