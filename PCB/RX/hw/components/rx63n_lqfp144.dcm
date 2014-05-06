@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: 6/1/2012-05:30AM IST
+#
+$CMP R5F563NxxDFB
+D Renesas MCU RX63N LQFP-144
+K MCU Renesas RX63N
+$ENDCMP
+#
+# End Doc Library
