@@ -71,7 +71,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 12
 Title "CIAA CPU - LPC4337"
-Date "19 apr 2014"
+Date "15 apr 2014"
 Rev "1.0"
 Comp ""
 Comment1 ""
