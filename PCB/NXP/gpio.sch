@@ -71,7 +71,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 12
 Title "CIAA GPIO/SPI/I2C/USB/ANALOG"
-Date "15 apr 2014"
+Date "10 jun 2014"
 Rev "1.0"
 Comp ""
 Comment1 ""
@@ -79,62 +79,62 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 5100 2050 0    60   BiDi ~ 0
+Text HLabel 5250 2050 0    60   BiDi ~ 0
 GPIO0
 Wire Wire Line
-	5100 2050 5350 2050
-Text HLabel 5100 2150 0    60   BiDi ~ 0
+	5250 2050 5500 2050
+Text HLabel 5250 2150 0    60   BiDi ~ 0
 GPIO2
 Wire Wire Line
-	5100 2150 5350 2150
-Text HLabel 5100 2250 0    60   BiDi ~ 0
+	5250 2150 5500 2150
+Text HLabel 5250 2250 0    60   BiDi ~ 0
 GPIO4
 Wire Wire Line
-	5100 2250 5350 2250
-Text HLabel 5100 2350 0    60   BiDi ~ 0
+	5250 2250 5500 2250
+Text HLabel 5250 2350 0    60   BiDi ~ 0
 GPIO6
 Wire Wire Line
-	5100 2350 5350 2350
-Text HLabel 5100 2450 0    60   BiDi ~ 0
+	5250 2350 5500 2350
+Text HLabel 5250 2450 0    60   BiDi ~ 0
 GPIO8
 Wire Wire Line
-	5100 2450 5350 2450
-Text HLabel 5100 2550 0    60   BiDi ~ 0
+	5250 2450 5500 2450
+Text HLabel 5250 2550 0    60   BiDi ~ 0
 GPIO10
 Wire Wire Line
-	5100 2550 5350 2550
-Text HLabel 5100 2650 0    60   BiDi ~ 0
+	5250 2550 5500 2550
+Text HLabel 5250 2650 0    60   BiDi ~ 0
 GPIO12
 Wire Wire Line
-	5100 2650 5350 2650
-Text HLabel 6750 2050 2    60   BiDi ~ 0
+	5250 2650 5500 2650
+Text HLabel 6600 2050 2    60   BiDi ~ 0
 GPIO1
 Wire Wire Line
-	6500 2050 6750 2050
-Text HLabel 6750 2150 2    60   BiDi ~ 0
+	6300 2050 6600 2050
+Text HLabel 6600 2150 2    60   BiDi ~ 0
 GPIO3
 Wire Wire Line
-	6500 2150 6750 2150
-Text HLabel 6750 2250 2    60   BiDi ~ 0
+	6300 2150 6600 2150
+Text HLabel 6600 2250 2    60   BiDi ~ 0
 GPIO5
 Wire Wire Line
-	6500 2250 6750 2250
-Text HLabel 6750 2350 2    60   BiDi ~ 0
+	6300 2250 6600 2250
+Text HLabel 6600 2350 2    60   BiDi ~ 0
 GPIO7
 Wire Wire Line
-	6500 2350 6750 2350
-Text HLabel 6750 2450 2    60   BiDi ~ 0
+	6300 2350 6600 2350
+Text HLabel 6600 2450 2    60   BiDi ~ 0
 GPIO9
 Wire Wire Line
-	6500 2450 6750 2450
-Text HLabel 6750 2550 2    60   BiDi ~ 0
+	6300 2450 6600 2450
+Text HLabel 6600 2550 2    60   BiDi ~ 0
 GPIO11
 Wire Wire Line
-	6500 2550 6750 2550
-Text HLabel 6750 2650 2    60   BiDi ~ 0
+	6300 2550 6600 2550
+Text HLabel 6600 2650 2    60   BiDi ~ 0
 GPIO13
 Wire Wire Line
-	6500 2650 6750 2650
+	6300 2650 6600 2650
 $Comp
 L THERMISTOR TH8
 U 1 1 52CA1D91
@@ -198,7 +198,7 @@ F 3 "" H 6550 2800 60  0000 C CNN
 	1    6550 2800
 	1    0    0    -1  
 $EndComp
-Text Label 6650 1450 0    60   ~ 0
+Text Label 6600 1750 0    60   ~ 0
 USR_5V
 Text HLabel 5200 3000 0    60   BiDi ~ 0
 I2C_SDA
@@ -404,10 +404,10 @@ F 3 "" H 5850 3550 60  0000 C CNN
 	1    5850 3550
 	1    0    0    -1  
 $EndComp
-Text Label 4100 3300 0    60   ~ 0
+Text Label 5000 3500 0    60   ~ 0
 USR_3.3V
 Wire Wire Line
-	4100 3300 4550 3300
+	5000 3500 5450 3500
 $Comp
 L GND #PWR0127
 U 1 1 52CCD441
@@ -571,17 +571,6 @@ Wire Wire Line
 	8300 1950 8300 1900
 Wire Wire Line
 	6300 1750 7250 1750
-$Comp
-L +3.3V #PWR0132
-U 1 1 5344A9C9
-P 5350 3500
-F 0 "#PWR0132" H 5350 3460 30  0001 C CNN
-F 1 "+3.3V" H 5350 3610 30  0000 C CNN
-F 2 "" H 5350 3500 60  0000 C CNN
-F 3 "" H 5350 3500 60  0000 C CNN
-	1    5350 3500
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5350 3500 5450 3500
+NoConn ~ 5500 5250
+NoConn ~ 5500 5350
 $EndSCHEMATC

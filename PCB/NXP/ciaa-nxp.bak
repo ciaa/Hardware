@@ -71,7 +71,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 12
 Title "CIAA NXP"
-Date "15 apr 2014"
+Date "10 jun 2014"
 Rev "1.0"
 Comp ""
 Comment1 ""
@@ -233,7 +233,6 @@ F26 "AN1" O R 2150 3350 60
 F27 "AN2" O R 2150 3450 60 
 F28 "AN3" O R 2150 3550 60 
 F29 "GPIO6" B R 2150 1700 60 
-F30 "+24V_AUX" I L 1050 2500 60 
 $EndSheet
 $Sheet
 S 1050 4100 1100 900 
@@ -597,7 +596,6 @@ F1 "fuente.sch" 50
 F2 "USB_VBUS" I R 2150 6450 60 
 F3 "USB_VBUS3" I R 2150 6650 60 
 F4 "USB_VBUS2" I R 2150 6550 60 
-F5 "+24V_AUX" O R 2150 6750 60 
 $EndSheet
 Wire Wire Line
 	2150 6650 3350 6650
@@ -620,14 +618,6 @@ Text Label 5950 3250 0    60   ~ 0
 GPIO0
 Wire Wire Line
 	5950 3250 6250 3250
-Wire Wire Line
-	2150 6750 2800 6750
-Text Label 2800 6750 2    60   ~ 0
-+24V_AUX
-Text Label 550  2500 0    60   ~ 0
-+24V_AUX
-Wire Wire Line
-	1050 2500 550  2500
 Text Label 3000 2950 2    60   ~ 0
 DAC_OUT
 Text Label 6400 6800 0    60   ~ 0
@@ -800,4 +790,17 @@ F 3 "" H 9500 5200 60  0000 C CNN
 	1    9500 5200
 	1    0    0    -1  
 $EndComp
+NoConn ~ 9750 3900
+NoConn ~ 9750 4000
+NoConn ~ 9750 4100
+NoConn ~ 10300 3900
+NoConn ~ 10300 4000
+NoConn ~ 10300 4100
+NoConn ~ 9350 4350
+NoConn ~ 9350 4500
+NoConn ~ 9350 4650
+NoConn ~ 9350 4800
+NoConn ~ 9350 5000
+NoConn ~ 9350 5200
+NoConn ~ 9350 5100
 $EndSCHEMATC
