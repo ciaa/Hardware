@@ -1,0 +1,28 @@
+Copyright (c) 2014, ACSE & CADIEEL
+    ACSE   : http://www.sase.com.ar/asociacion-civil-sistemas-embebidos/ciaa/
+    CADIEEL: http://www.cadieel.org.ar
+
+Copyright (c) 2014, Electrocomponentes S.A.
+
+Copyright (c) 2014, INTI-CMNB Instituto Nacional de Tecnología Industrial,
+Centro de Micro y Nanoelectróncia del Bicentenario.
+
+Esta documentación de la CIAA-FSL constituye "Open Hardware" y está publicada
+bajo la licencia CERN OHL v. 1.2. (Ver cern_ohl_v_1_2.pdf).
+
+Las instituciones y empresas argentinas interesadas en producir o aplicar la 
+CIAA-FSL bajo distintas condiciones podrán acordar otras formas de
+licenciamiento bajo pedido y sin costo alguno.
+Contactarse con la ACSE para tal fin: info@sase.com.ar.
+
+============================================================================
+
+This documentation for the CIAA-FSL describes Open Hardware and is licensed
+under the CERN OHL v. 1.2.
+
+You may redistribute and modify this documentation under the terms of the
+CERN OHL v.1.2. (http://ohwr.org/cernohl). This documentation is distributed
+WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY,
+SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.
+Please see the CERN OHL v.1.2 for applicable conditions.
+

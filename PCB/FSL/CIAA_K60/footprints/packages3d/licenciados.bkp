@@ -1,0 +1,60 @@
+Se resumen las las licencias de los archivos 3D que se utilizaron para el proyecto.
+Todos los que se omitan en este archivo, fueron extraídos de Kicad.
+
+Página web de Walter
+====================
+
+Web : http://smisioto.no-ip.org/elettronica/kicad/kicad-en.htm
+
+  Licencia: Kicad 3d Packages by W. Lain - kcswalter@member.fsf.org
+
+  These packages are released under the terms of the Creative Commons license
+  v3.0, Attribution-Share Alike.
+  The author holds no responsibility for any damage that can be caused by the
+  usage of these 3d models. You are however welcome to report any error or
+  discrepance to the author, provided that you give also the correct
+  information and its source (i.e. the correct datasheet).
+  Note that the author used publicly available data sheets from many different
+  companies, and that package dimensions may vary slightly between companies.
+
+  Archivos:
+
+    bornier_2.wrl
+    bornier_3.wrl
+    crystal_smd_ma-406.wrl
+    crystal_fa-128.wrl
+    keystone_3008.wrl
+    DO-214AA_SMB.wrl
+    led_0603.wrl
+    inductor_smd_10x9.8.wrl
+    RJ45_8.wrl
+    usb_B_micro_smd.wrl
+    tssop-14.wrl
+    tssop-16.wrl
+    tssop-20.wrl
+    qfp-64.wrl
+    qfp-48.wrl
+    TO-223AB.wrl
+    so-16.wrl
+    sot223.wrl
+    SOT-143-4.wrl
+    relay.wrl
+    smd_push.wrl
+
+Molex:
+======
+ web: http://www.molex.com/molex/products/datasheet.jsp?part=active/0472190001_MEMORY_CARD_SOCKET.xml&channel=Products
+ Licencia: ?
+
+ Archivos:
+   SD.wrl
+
+Digikey:
+========
+
+  web: http://www.norcomp.net/3d-drawings/step/190series/190-009-263.step.zip
+  Licencia: ?
+
+  Archivos:
+   DB9.wrl
+

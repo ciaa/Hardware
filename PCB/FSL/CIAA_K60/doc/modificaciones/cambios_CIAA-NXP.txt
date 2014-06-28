@@ -1,0 +1,153 @@
+#Proyecto CIAA - FSL#
+Autor: INTI CMNB - Unidad técnica de integración de sistemas
+Fecha: $Date: 2014/06/26 21:14:47 $
+
+##Resumen cambios realizados en CIAA-FSL respecto de CIAA-NXP-19-04-2014 ##
+### Generales ###
+* Ampliación de textos a tamaños legibles.
+* Eliminado de librerías tipo cache del proyecto.
+* Ordenamiento de librerías, todas se encuentran en un solo archivo: CIAAK60LIB.lib
+* Edición de librerías de esquemático para darles unicidad: tamaño de textos, color
+de fondo, tamaños de componentes pasivos a los normales de Kicad, unificación
+de designator, etc.
+* Agregado de notas de aclaración y detalles.
+* Completado de Rótulos.
+* Completado de campos de componentes, para elaboración de BOM automática y completa.
+* Verificación de funcionalidad, propuestas y aplicación de cambios para
+mejoras técnicas del circuito.
+* Aplicación de licencia, se utiliza la licencia CERN OHL v1.2.
+
+##### Propuestas y problemas a resolver #####
+* Hay que verificar cómo deben conectarse los shield de los conectores. Para
+esto resulta necesario conocer las normas de EMC que aplican a este producto,
+a fin de determinar su conexión. Podría plantearse una pequeña conexión de
+masa para los chasis, que se uniría al chasis del equipo (si es metálico) o
+a su conexión a tierra, con algún filtro intermedio. Es necesario verificar el
+punto, para poder cumplir con la normativa específica.
+
+### Descripción por cada hoja ###
+#### 1- RAÍZ ####
+* Se eliminó el jumper SMD denominado GS para multiplexar el pin del MCU
+DAC o ADC. Era innecesario en este caso, ya que el MCU contaba con varias señales de ADC que no tenían uso.
+* Se modificó el componente FIDUCIAL y se conectaron los agujeros de la placa al
+CHASSIS.
+* Correcciones en la dirección de varios pines jerárquicos.
+
+#### 2- CPU ####
+* Todo lo referido a JTAG se movió a la hoja correspondiente (JTAG.sch).
+* El componente que describe a la CPU se genera por script, de forma que los pines queden
+agrupados por funcionalidad y con tamaños de texto legibles.
+* La pila se movió a la hoja de la fuente.
+* Circuitería extra al pulsador de reset para poder resetearse por el cable JTAG.
+
+#### 3- ETHERNET ####
+* Se utiliza otro PHY de Ethernet común a las aplicaciones típicas de Freescale,
+junto con un PLL necesario para este PHY.
+* Se utiliza otro conector Ethernet.
+* Se separó el chassis-GND del jack RJ-45 con el GND general de la placa mediante
+una resistencia de 1M y un capacitor de 100nF.
+
+#### 4- RS485-RS232-CAN ####
+* Cambio del driver RS485 por el MAX3072.
+* Corregido la conexión del TVS D8 en NXP que estaba conectado a VCC y debería ir
+a masa.
+* Agregado de ferrites para separar las masas del chasis del conector
+respecto al GND del sistema.
+
+#### 5- USB-OTG ####
+* Se cambió el conector micro USB por uno diseñado por nosotros, con un
+símbolo más representativo.
+* Se conectó el conector USB al chasis gnd.
+* Agregado de TVS en la línea OTG ID para protección ESD.
+* Corrección de los pines del componente MIC2025.
+
+#### 6- GPIO ####
+* Se agregó la masa analógica en los conectores que pueden ir a un ADC.
+* Se eliminó la conexión entre un conector al pin de RESET del micro. Esto
+hubiese traído problemas y era innecesaria el uso alternativo del pin de
+RESET como GPIO.
+* Se agregó un conector auxiliar con GPIO y entradas analógicas.
+* Se agregaron los diodos clamping en todas las entradas.
+
+#### 7- ENTRADAS DIGITALES ####
+* Modificación general de funcionamiento, se eliminaron las fuentes de
+corriente para polarizar al led IR. Se reemplazaron por 2 resistencias de 5K6
+y 4K7 y un capacitor de 100nF. La resistencia de 5K6 hace el anti-rebote para
+un cambio ascendente, cargando el capacitor de 100nF. La de 4K7 permite la
+descarga del capacitor para un cambio descendente. Los valores de
+resistencias se calcularon para que logren polarizar al led IR entrando con
+10V o 30V. La disipación de energía es de 45mW aproximadamente para cada
+resistencia, considerando el peor caso (30V de entrada).
+* Se agregó la referencia DCOM para especificar la masa digital de las
+señales de entrada.
+
+#### 8- SALIDAS DIGITALES ####
+* Se cambió la forma de manejar los MOSFET de las salidas open-drain por un
+fet-driver. De esta forma, disipará mucha menos energía que con la fuente
+de corriente para polarizar al Zener y así encender al MOSFET.
+* Se bajó la corriente de los leds a la mitad.
+* Se cambiaron los termistores por unos de similares características pero de
+33V.
+
+##### Propuesta de Cambio #####
+* Se propone cambiar el RELAY de las salidas digitales por este otro:
+Este es el relay sugerido:
+[http://www.digikey.com/product-detail/en/9-1462038-9/PB1172CT-ND/1828462](http://www.digikey.com/product-detail/en/9-1462038-9/PB1172CT-ND/1828462).
+Por los siguientes motivos:
+    * Es SMD, ocupa mucho menos lugar
+    * Menor corriente de bobina (casi la cuarta parte)
+    * Mayor corriente de contacto (5A en vez de 2A)
+    * Mayor tensión de contacto (250 VCA en vez de 125).
+      Es una ventaja si se quiere soporte para 220V.
+
+#### 9- ENTRADAS ANALÓGICAS ####
+* Sin cambios significativos.
+
+#### 10- MEMORIAS ####
+* Se agregó una micro SD.
+
+#### 11- FUENTE ####
+* Se cambió el capacitor de entrada de 470uF por uno de 35V en vez de 50V para 
+disminuir su altura.
+* Se pasó por un diodo aparte el pin de 24V de las borneras. La net actualmente 
+se llama +VIN.
+* Se agregaron capacitores de desacople de 100nF en la entrada de 24V y en la
+salida de 5V para mejorar el desacople general de la fuente. Principalmente
+el capacitor a la entrada de 24V ayuda a filtrar la radiación conducida.
+##### Propuesta de Cambio #####
+* El PTC (TH1101), mejor conectarlo diréctamente a la entrada general de 
+alimentación (J1101)?
+* Para la fuente switching (U1101), sería mejor que el TVS sea unidireccional y
+además que esté despues de un fusible SMD de 2A para lograr una buena protección
+en caso de que la tensión sea superior a 5V por alguna posible falla. 
+
+#### 12- SALIDAS ANALÓGICAS ####
+##### Propuesta de Cambio #####
+* El Op Amp elegido tiene un Offset Input de 3mV. Esto genera mucho error al
+convertir la tensión en corriente que opaca a la precisión de las
+resistencias elegidas. En la web: 
+[http://www.edn.com/design/power-management/4371307/Convert-1-to-5V-signal-to-4-to-20-mA-output](http://www.edn.com/design/power-management/4371307/Convert-1-to-5V-signal-to-4-to-20-mA-output)
+indican que utilizar uno de 700uV, se traduce en un error 0.07% en la
+corriente con una tensión de entrada de 1V (en nuestro caso 0.66V). Sería
+bueno el OPA2180 o semejante.
+* Es conveniente cambiar los BJT por FET para exigir menos corriente al
+operacional y garantizar una dispersión de corriente que circule, de forma de
+acotar el error de conversión.
+
+##### Punto de debate #####
+* Qué utilidad tiene el diodo  D1201 (D46 en CIAA-NXP)?
+
+#### 13- JTAG ####
+* Se eliminó el conector con los pines libres del FT2232H.
+* Se cambió la resistencia de referencia por 12K @ 1% y la de reset por 1K.
+* Se cambió el buffer por uno de dirección fija y se quito la señal de TRST,
+dejando solamente la de System RESET.
+* Se eliminó el capacitor de 3,3nF para disminuir la cantidad de componentes
+con valores diferentes. Con el capacitor de 4,7uF y el de 100nF en paralelo es suficiente.
+* Se reemplazó el CM1213A por el PRTR5V0U2X para lograr consistencia
+de componentes con el proyecto NXP. El CM1213A debe ser presentado como un
+reemplazo en la lista de materiales.
+* Se cambió el conector micro USB por uno diseñado por nosotros, con un
+símbolo más representativo.
+* Se conectó el conector USB al chasis gnd.
+
