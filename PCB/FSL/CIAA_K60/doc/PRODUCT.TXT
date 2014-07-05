@@ -1,0 +1,15 @@
+Si ud. Fabrica la CIAA-FSL o un derivado de la misma, nos gustaría
+saber sobre ello (no es obligatorio, ver licencia).
+Las direcciones de email para comunicarlo son las siguientes
+(por favor enviar un email a cada una):
+
+contacto _AT_ proyecto-ciaa.com.ar (Coordinadores de la CIAA).
+
+info _AT_ sase.com.ar  (ACSE Asociación Civil para la Investigación, Promoción
+y Desarrollo de los Sistemas Electrónicos Embebidos).
+
+brengi _AT_ inti.gob.ar  (INTI-CMNB Instituto Nacional de Tecnología Industrial,
+Centro de Micro y Nanoelectróncia del Bicentenario).
+
+iz _AT_ electrocom.com.ar (Electrocomponentes S.A.)
+

@@ -1,0 +1,55 @@
+Cambios realizados a la CIAA-FSL
+================================
+
+* Fecha: 15/04/2014
+* Autores: La CIAA-NXP se distribuye bajo las notas de copyright y autoría
+           mencionadas en NXP.txt
+           El desarrollo se realizó en forma colectiva en la siguiente lista/grupo:
+           https://groups.google.com/forum/#!forum/ciaa-hardware
+           Un listado de colaboradores:
+           https://docs.google.com/spreadsheet/ccc?key=0AhRC6m7OGuuYdGtRdEhlLUprcXZUYWQ2TDI0Slcta2c#gid=0
+           Web de la CIAA:
+           http://www.proyecto-ciaa.com.ar/devwiki/doku.php?id=versiones:v1_0:hardware:plan_desarrollo_hw#equipo_tecnico_a_cargo
+           Listado de desarrolladores obtenido del enlace anterior:
+           -Ing. Pablo Ridolfi;FIUBA, UTN-FRBA; Participación en el diseño del hardware. Vinculación de esquemáticos y selección de componentes.
+           -Ing. Juan Cecconi; UTN-FRBA, Numetron S.R.L. Participación en el diseño del hardware. Selección de componentes y simulaciones de performance.
+           -Sr. Dante Starkloff;  ASSISI S.R.L. Participación en el diseño del hardware. Asesoría para el diseño y montaje del PCB.
+           -Darío Sebastián Baliña; Vortex Technologies; Diseño de esquemáticos RS232, RS485, CAN, USB, microSD, Ethernet (K60) y CPU (K60).
+           -Ing. Jorge Osio; UNLP, UNAJ, RYOTECH;  Diseño de fuente de alimentación, salidas a relé y open drain, expansores GPIO.
+           -Mg. Ing. Guillermo Guichal; Emtech S.A.; Diseño PCB de la CIAA-NXP.
+           -Ing. Mauro Koenig; Emtech S.A.; Diseño PCB de la CIAA-NXP.
+           -Sr. Martín Ribelotta; Emtech S.A. Diseño PCB de la CIAA-NXP.
+           -Ing. Ignacio Zaradnik; Electrocomponentes S.A., ACSE. Diseño de esquemático y selección de componentes.
+           -Sr. Jorge Fiszman; Adox S.A. Diseño PCB de la CIAA-NXP: Ethernet, USB, microSD, CAN, RS232, RS485.
+           -Jose Fuentes; Max Control; Diseño de esquemáticos CIAA-ST.
+           -Entradas analógicas (en rótulo): Javier Goglino - SesentaCuarenta.
+
+* Archivos: Se toman los archivos .sch de Kicad para adaptarlos.
+* Descripción: Se toma el circuito esquemático de la CIAA-NXP como base para
+               la CIAA-FSL, aunque ambos desarrollos avanzan en simultáneo.
+               http://www.proyecto-ciaa.com.ar/. Ver NXP.txt
+
+* Fecha: 25/04/2014
+* Autor: Electrocomponentes S.A. 
+           Ignacio Zaradnik <iz EN electrocom.com.ar> y
+           Darío Sebastián Baliña, Vortex Technologies <dariosb EN gmail.com>
+           (Este último participando en el diseño del esquematico del MCU,
+           Ethernet y diagrama en bloques)
+* Archivos: Archivos .sch de Kicad.
+* Descripción: Se adapta el esquemático para el K60 de Freescale (CIAA-FSL).
+
+* Fecha: 01/05/2014
+* Autor: Electrocomponentes S.A.:
+           Eduardo Santo <ehs EN electrocomponentes.com>,
+           Ignacio Zaradnik <iz EN electrocom.com.ar>,
+          En INTI-CMNB:
+           Alamon Diego Fernando <dalamon EN inti.gob.ar>,
+           David Caruso <david EN inti.gob.ar>,
+           Diego Brengi <brengi EN inti.gob.ar>,
+           Hernan Ledesma <fledesma EN inti.gob.ar>, 
+           Matías Parra Visentin <mparra EN inti.gob.ar>,
+           Noelia Scotti <nscotti EN inti.gob.ar> 
+* Archivos: Archivos .sch de Kicad.
+* Descripción: Se hacen revisiones, cambios, adaptataciones y se completan los
+               campos de los componentes en los esquemáticos.
+

@@ -71,7 +71,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 12
 Title "USB OTG CIAA"
-Date "10 jun 2014"
+Date "18 jun 2014"
 Rev "1.0"
 Comp ""
 Comment1 ""

@@ -71,7 +71,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 12
 Title "CIAA RS485 - RS232 - CAN"
-Date "10 jun 2014"
+Date "18 jun 2014"
 Rev "1.0"
 Comp ""
 Comment1 ""
@@ -890,8 +890,6 @@ Wire Wire Line
 Wire Wire Line
 	1400 2000 2150 2000
 Wire Wire Line
-	1400 2450 2050 2450
-Wire Wire Line
 	2050 2450 2050 2300
 Wire Wire Line
 	2050 2300 2150 2300
@@ -943,9 +941,6 @@ F 3 "~" H 1500 1850 60  0000 C CNN
 	1    1500 1850
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1500 1950 1500 2450
-Connection ~ 1500 2450
 Wire Wire Line
 	1500 1700 1500 1750
 Wire Wire Line
@@ -1264,4 +1259,9 @@ F 3 "" H 1500 1700 60  0000 C CNN
 	1    1500 1700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1500 1950 1500 2000
+Connection ~ 1500 2000
+Wire Wire Line
+	1400 2450 2050 2450
 $EndSCHEMATC
