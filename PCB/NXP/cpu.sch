@@ -1153,8 +1153,6 @@ Wire Wire Line
 	950  5850 950  6550
 Wire Wire Line
 	950  6550 1000 6550
-Wire Wire Line
-	850  6200 1200 6200
 Connection ~ 950  6200
 Wire Wire Line
 	1400 5850 2100 5850
@@ -3063,4 +3061,6 @@ NoConn ~ 13550 8850
 NoConn ~ 13550 8950
 NoConn ~ 1150 1450
 NoConn ~ 1150 1550
+Wire Wire Line
+	950  6200 850  6200
 $EndSCHEMATC
