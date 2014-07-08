@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: lun 07 jul 2014 15:12:22 ART
+EESchema-LIBRARY Version 2.3  Date: lun 07 jul 2014 14:57:44 ART
 #encoding utf-8
 #
 # BAV199
@@ -16,9 +16,9 @@ P 3 0 1 0  -50 -25  -50 25  -50 25 N
 P 3 0 1 0  100 -25  100 25  100 25 N
 P 4 0 1 0  -50 0  -100 25  -100 -25  -100 -25 F
 P 4 0 1 0  100 0  50 25  50 -25  50 -25 F
-X K 1 150 0 50 L 40 40 1 1 P
+X A 1 -150 0 50 R 40 40 1 1 P
 X KA 2 0 100 50 D 39 39 1 1 I
-X A 3 -150 0 50 R 40 40 1 1 P
+X K 3 150 0 50 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #

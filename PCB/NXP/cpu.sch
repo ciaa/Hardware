@@ -71,7 +71,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 12
 Title "CIAA CPU - LPC4337"
-Date "18 jun 2014"
+Date "7 jul 2014"
 Rev "1.0"
 Comp ""
 Comment1 ""
@@ -1153,8 +1153,6 @@ Wire Wire Line
 	950  5850 950  6550
 Wire Wire Line
 	950  6550 1000 6550
-Wire Wire Line
-	850  6200 1200 6200
 Connection ~ 950  6200
 Wire Wire Line
 	1400 5850 2100 5850
@@ -2972,12 +2970,12 @@ $Comp
 L CAPAPOL C68
 U 1 1 52F053C5
 P 11700 4450
-F 0 "C68" H 11550 4550 40  0000 L CNN
-F 1 "10uF" H 11550 4350 40  0000 L CNN
+F 0 "C68" H 11700 4550 40  0000 L CNN
+F 1 "10uF" H 11700 4350 40  0000 L CNN
 F 2 "~" H 11800 4300 30  0000 C CNN
 F 3 "~" H 11700 4450 300 0000 C CNN
 	1    11700 4450
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L CAPAPOL C78
@@ -3063,4 +3061,6 @@ NoConn ~ 13550 8850
 NoConn ~ 13550 8950
 NoConn ~ 1150 1450
 NoConn ~ 1150 1550
+Wire Wire Line
+	950  6200 850  6200
 $EndSCHEMATC
