@@ -64,6 +64,7 @@ LIBS:TJA1040
 LIBS:tvs
 LIBS:PBSS5240
 LIBS:pbss5240xf
+LIBS:sw_push
 LIBS:ciaa-nxp-cache
 EELAYER 27 0
 EELAYER END
@@ -71,7 +72,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 12
 Title "CIAA NXP"
-Date "7 jul 2014"
+Date "10 jul 2014"
 Rev "1.0"
 Comp ""
 Comment1 ""

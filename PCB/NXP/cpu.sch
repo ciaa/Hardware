@@ -64,6 +64,7 @@ LIBS:TJA1040
 LIBS:tvs
 LIBS:PBSS5240
 LIBS:pbss5240xf
+LIBS:sw_push
 LIBS:ciaa-nxp-cache
 EELAYER 27 0
 EELAYER END
@@ -71,7 +72,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 12
 Title "CIAA CPU - LPC4337"
-Date "7 jul 2014"
+Date "10 jul 2014"
 Rev "1.0"
 Comp ""
 Comment1 ""
@@ -353,17 +354,6 @@ F 2 "~" V 1330 4450 30  0000 C CNN
 F 3 "~" H 1400 4450 30  0000 C CNN
 	1    1400 4450
 	-1   0    0    1   
-$EndComp
-$Comp
-L SW_PUSH SW1
-U 1 1 52C1CF65
-P 1200 5000
-F 0 "SW1" H 1350 5110 50  0000 C CNN
-F 1 "SW_PUSH" H 1200 4920 50  0000 C CNN
-F 2 "~" H 1200 5000 60  0000 C CNN
-F 3 "~" H 1200 5000 60  0000 C CNN
-	1    1200 5000
-	0    -1   -1   0   
 $EndComp
 $Comp
 L CRYSTAL X2
@@ -1109,10 +1099,10 @@ Wire Wire Line
 	1400 5150 1400 5350
 Connection ~ 1400 4200
 Wire Wire Line
-	1200 5300 1400 5300
+	1050 5300 1400 5300
 Connection ~ 1400 5300
 Wire Wire Line
-	1200 4700 1800 4700
+	1050 4700 1800 4700
 Connection ~ 1400 4700
 Wire Wire Line
 	1400 7700 2100 7700
@@ -3063,4 +3053,18 @@ NoConn ~ 1150 1450
 NoConn ~ 1150 1550
 Wire Wire Line
 	950  6200 850  6200
+$Comp
+L SW_PUSH4 SW1
+U 1 1 53BDFBE2
+P 1050 5000
+F 0 "SW1" H 1200 5110 50  0000 C CNN
+F 1 "RST_SW" H 1050 4920 50  0000 C CNN
+F 2 "~" H 1050 5000 60  0000 C CNN
+F 3 "~" H 1050 5000 60  0000 C CNN
+	1    1050 5000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1200 4700
+Connection ~ 1200 5300
+NoConn ~ 1200 6200
 $EndSCHEMATC
