@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: jue 10 jul 2014 00:27:16 ART
+EESchema-LIBRARY Version 2.3  Date: vie 11 jul 2014 10:57:19 ART
 #encoding utf-8
 #
 # +24V
@@ -481,11 +481,11 @@ X 4 4 300 0 200 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DB9
+# DB9-TH
 #
-DEF DB9 J 0 40 Y N 1 F N
+DEF DB9-TH J 0 40 Y N 1 F N
 F0 "J" 0 550 70 H V C CNN
-F1 "DB9" -200 -550 70 H V C CNN
+F1 "DB9-TH" -300 -550 70 H V C CNN
 F2 "~" 0 0 60 H V C CNN
 F3 "~" 0 0 60 H V C CNN
 $FPLIST

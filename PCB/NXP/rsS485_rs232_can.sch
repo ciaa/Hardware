@@ -72,7 +72,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 12
 Title "CIAA RS485 - RS232 - CAN"
-Date "10 jul 2014"
+Date "11 jul 2014"
 Rev "1.0"
 Comp ""
 Comment1 ""
@@ -254,17 +254,6 @@ F 1 "100nF" V 6850 4800 30  0000 C CNN
 F 2 "~" H 6800 4650 60  0000 C CNN
 F 3 "~" H 6800 4650 60  0000 C CNN
 	1    6800 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L DB9 J3
-U 1 1 52C5B35E
-P 9350 5750
-F 0 "J3" H 9350 6300 70  0000 C CNN
-F 1 "DB9" H 9100 5200 70  0000 C CNN
-F 2 "" H 9350 5750 60  0000 C CNN
-F 3 "" H 9350 5750 60  0000 C CNN
-	1    9350 5750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1281,4 +1270,15 @@ Wire Wire Line
 Wire Wire Line
 	9350 6550 9350 6650
 Connection ~ 9350 6550
+$Comp
+L DB9-TH J3
+U 1 1 53C01719
+P 9350 5750
+F 0 "J3" H 9350 6300 70  0000 C CNN
+F 1 "DB9-TH" H 9100 5200 70  0000 C CNN
+F 2 "~" H 9350 5750 60  0000 C CNN
+F 3 "~" H 9350 5750 60  0000 C CNN
+	1    9350 5750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
