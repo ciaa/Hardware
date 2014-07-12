@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 08/07/2014 04:43:34 p.m.
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 12/07/2014 09:20:07 a.m.
 
 BeginCmp
 TimeStamp = /52C1CAF4/52C1CFDF;
@@ -347,35 +347,35 @@ BeginCmp
 TimeStamp = /52C1F703/52C5B34F;
 Reference = D1;
 ValeurCmp = PSD12C;
-IdModule  = SOD323;
+IdModule  = DO-214AA(SMB);
 EndCmp
 
 BeginCmp
 TimeStamp = /52C1F703/52C5B350;
 Reference = D2;
 ValeurCmp = PSD12C;
-IdModule  = SOD323;
+IdModule  = DO-214AA(SMB);
 EndCmp
 
 BeginCmp
 TimeStamp = /52C1F703/52C5B351;
 Reference = D3;
 ValeurCmp = PSD12C;
-IdModule  = SOD323;
+IdModule  = DO-214AA(SMB);
 EndCmp
 
 BeginCmp
 TimeStamp = /52C2B8A1/52EACD2B;
 Reference = D4;
 ValeurCmp = PMEG3020EH;
-IdModule  = SOD323;
+IdModule  = DO-214AA(SMB);
 EndCmp
 
 BeginCmp
 TimeStamp = /52C2B8A1/52EACD19;
 Reference = D5;
 ValeurCmp = PMEG3020EH;
-IdModule  = SOD323;
+IdModule  = DO-214AA(SMB);
 EndCmp
 
 BeginCmp
@@ -459,21 +459,21 @@ BeginCmp
 TimeStamp = /52C66C60/52C75800;
 Reference = FB2;
 ValeurCmp = MMZ1608B601C;
-IdModule  = SM0603;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C2B8A1/52D8A97B;
 Reference = FB3;
 ValeurCmp = MMZ1608B601C;
-IdModule  = SM0603;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C2B8A1/52DEAAB0;
 Reference = FB4;
 ValeurCmp = MMZ1608B601C;
-IdModule  = SM0603;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -494,14 +494,21 @@ BeginCmp
 TimeStamp = /52C1CAF4/52C1CFC2;
 Reference = FB7;
 ValeurCmp = MMZ1608B601C;
-IdModule  = SM0603;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C1CAF4/52C1CFDC;
 Reference = FB8;
 ValeurCmp = MMZ1608B601C;
-IdModule  = SM0603;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C1CAF4/53C140A7;
+Reference = GS1;
+ValeurCmp = GS2;
+IdModule  = GS2;
 EndCmp
 
 BeginCmp
@@ -589,10 +596,17 @@ IdModule  = GS2;
 EndCmp
 
 BeginCmp
+TimeStamp = /52C1CAF4/53C13EC0;
+Reference = JP6;
+ValeurCmp = ISP;
+IdModule  = ;
+EndCmp
+
+BeginCmp
 TimeStamp = /53A4ECDD/539A7057;
 Reference = LED1;
 ValeurCmp = LED_ARBG;
-IdModule  = PLCC6_LG-3D5050RGB;
+IdModule  = PLCC-4;
 EndCmp
 
 BeginCmp
@@ -739,6 +753,13 @@ BeginCmp
 TimeStamp = /53A4ECDD/53BA721C;
 Reference = R10;
 ValeurCmp = 330k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C1CAF4/53C13AFE;
+Reference = R11;
+ValeurCmp = 0;
 IdModule  = SM0805;
 EndCmp
 
@@ -955,7 +976,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52C1CAF4/52C1CF64;
 Reference = R90;
-ValeurCmp = 10K;
+ValeurCmp = 100K;
 IdModule  = SM0805;
 EndCmp
 
@@ -983,7 +1004,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52C1CAF4/52C1CF9F;
 Reference = R94;
-ValeurCmp = 10K;
+ValeurCmp = 100K;
 IdModule  = SM0805;
 EndCmp
 

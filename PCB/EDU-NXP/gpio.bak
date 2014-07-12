@@ -72,7 +72,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
 Title "EDU CIAA GPIO"
-Date "8 jul 2014"
+Date "12 jul 2014"
 Rev "1.0"
 Comp ""
 Comment1 ""
@@ -80,25 +80,25 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 4250 4350 2    60   BiDi ~ 0
+Text HLabel 9150 3900 2    60   BiDi ~ 0
 GPIO0
-Text HLabel 4250 4750 2    60   BiDi ~ 0
+Text HLabel 9150 4000 2    60   BiDi ~ 0
 GPIO2
-Text HLabel 4250 5150 2    60   BiDi ~ 0
+Text HLabel 9150 4100 2    60   BiDi ~ 0
 GPIO4
-Text HLabel 5600 5850 2    60   BiDi ~ 0
+Text HLabel 9150 4200 2    60   BiDi ~ 0
 GPIO6
-Text HLabel 5050 5250 2    60   BiDi ~ 0
+Text HLabel 9150 4300 2    60   BiDi ~ 0
 GPIO8
-Text HLabel 4250 4550 2    60   BiDi ~ 0
+Text HLabel 7650 4000 0    60   BiDi ~ 0
 GPIO1
-Text HLabel 4250 4950 2    60   BiDi ~ 0
+Text HLabel 7650 4100 0    60   BiDi ~ 0
 GPIO3
-Text HLabel 5600 5650 2    60   BiDi ~ 0
+Text HLabel 7650 4200 0    60   BiDi ~ 0
 GPIO5
-Text HLabel 5600 6050 2    60   BiDi ~ 0
+Text HLabel 7650 4300 0    60   BiDi ~ 0
 GPIO7
-Text HLabel 5600 5450 2    60   Input ~ 0
+Text HLabel 4800 2000 2    60   Input ~ 0
 WAKEUP
 $Comp
 L THERMISTOR TH1
@@ -122,9 +122,9 @@ F 3 "" H 2450 2000 60  0000 C CNN
 	1    2450 2000
 	1    0    0    -1  
 $EndComp
-Text HLabel 1050 2700 0    60   BiDi ~ 0
+Text HLabel 4700 3400 2    60   BiDi ~ 0
 I2C_SDA
-Text HLabel 4450 2600 2    60   Input ~ 0
+Text HLabel 1050 3300 0    60   Input ~ 0
 I2C_SCL
 Text HLabel 10350 2900 2    60   Output ~ 0
 SPI_MISO
@@ -135,12 +135,12 @@ Conectores de expansión LVTTL.\nEn formato de pines, 2.54mm de pitch.
 $Comp
 L GNDA #PWR015
 U 1 1 52DEB0D0
-P 5150 2900
-F 0 "#PWR015" H 5150 2900 40  0001 C CNN
-F 1 "GNDA" H 5150 2830 40  0000 C CNN
-F 2 "" H 5150 2900 60  0000 C CNN
-F 3 "" H 5150 2900 60  0000 C CNN
-	1    5150 2900
+P 10700 6250
+F 0 "#PWR015" H 10700 6250 40  0001 C CNN
+F 1 "GNDA" H 10700 6180 40  0000 C CNN
+F 2 "" H 10700 6250 60  0000 C CNN
+F 3 "" H 10700 6250 60  0000 C CNN
+	1    10700 6250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -169,7 +169,7 @@ Text HLabel 6200 1700 0    60   Input ~ 0
 ENET_RXD1
 Text HLabel 10350 1900 2    60   Input ~ 0
 ENET_TX_EN
-Text HLabel 2100 4100 0    60   Input ~ 0
+Text HLabel 2100 4400 0    60   Input ~ 0
 TEC_COL0
 Text HLabel 6200 1900 0    60   Input ~ 0
 ENET_RXD0
@@ -183,17 +183,17 @@ Text HLabel 6200 2300 0    60   Input ~ 0
 ENET_REF_CLK
 Text HLabel 10350 2700 2    60   Output ~ 0
 ENET_TXD1
-Text HLabel 2100 3900 0    60   Output ~ 0
+Text HLabel 2100 4200 0    60   Output ~ 0
 TEC_F0
-Text HLabel 1200 2300 0    60   Input ~ 0
+Text HLabel 1150 2750 0    60   Input ~ 0
 ADC0_1
-Text HLabel 3650 4000 2    60   Output ~ 0
+Text HLabel 3650 4300 2    60   Output ~ 0
 TEC_F1
-Text HLabel 1050 2500 0    60   Output ~ 0
+Text HLabel 1000 2950 0    60   Output ~ 0
 DAC
-Text HLabel 3650 4100 2    60   Output ~ 0
+Text HLabel 3650 4400 2    60   Output ~ 0
 TEC_F2
-Text HLabel 2100 4000 0    60   Output ~ 0
+Text HLabel 2100 4300 0    60   Output ~ 0
 TEC_F3
 Text HLabel 10400 3900 2    60   Output ~ 0
 LCD1
@@ -207,19 +207,19 @@ Text HLabel 10350 3500 2    60   Output ~ 0
 LCD_EN
 Text HLabel 10350 3300 2    60   Output ~ 0
 LCD4
-Text HLabel 1050 3100 0    60   Input ~ 0
+Text HLabel 1050 3700 0    60   Input ~ 0
 CAN_RD
-Text HLabel 1050 3300 0    60   Output ~ 0
+Text HLabel 1050 3900 0    60   Output ~ 0
 CAN_TD
-Text HLabel 2100 3800 0    60   Input ~ 0
+Text HLabel 2100 4100 0    60   Input ~ 0
 TEC_COL1
-Text HLabel 3650 3900 2    60   Input ~ 0
+Text HLabel 3650 4200 2    60   Input ~ 0
 TEC_COL2
-Text HLabel 4450 3800 2    60   Input ~ 0
+Text HLabel 1150 2000 0    60   Input ~ 0
 ISP
-Text HLabel 1200 1900 0    60   Input ~ 0
+Text HLabel 1150 2350 0    60   Input ~ 0
 ADC0_3
-Text HLabel 1200 2100 0    60   Input ~ 0
+Text HLabel 1150 2550 0    60   Input ~ 0
 ADC0_2
 $Comp
 L CONN_20X2 P1
@@ -246,89 +246,56 @@ $EndComp
 $Comp
 L R R20
 U 1 1 5398AC42
-P 1750 2500
-F 0 "R20" V 1830 2500 40  0000 C CNN
-F 1 "470" V 1757 2501 40  0000 C CNN
-F 2 "~" V 1680 2500 30  0000 C CNN
-F 3 "~" H 1750 2500 30  0000 C CNN
-	1    1750 2500
+P 1700 2950
+F 0 "R20" V 1780 2950 40  0000 C CNN
+F 1 "470" V 1707 2951 40  0000 C CNN
+F 2 "~" V 1630 2950 30  0000 C CNN
+F 3 "~" H 1700 2950 30  0000 C CNN
+	1    1700 2950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L R R21
 U 1 1 5398AC4F
-P 1750 2300
-F 0 "R21" V 1830 2300 40  0000 C CNN
-F 1 "1k2" V 1757 2301 40  0000 C CNN
-F 2 "~" V 1680 2300 30  0000 C CNN
-F 3 "~" H 1750 2300 30  0000 C CNN
-	1    1750 2300
+P 1700 2750
+F 0 "R21" V 1780 2750 40  0000 C CNN
+F 1 "1k2" V 1707 2751 40  0000 C CNN
+F 2 "~" V 1630 2750 30  0000 C CNN
+F 3 "~" H 1700 2750 30  0000 C CNN
+	1    1700 2750
 	0    -1   -1   0   
 $EndComp
 $Comp
 L R R22
 U 1 1 5398AC55
-P 1750 2100
-F 0 "R22" V 1830 2100 40  0000 C CNN
-F 1 "1k2" V 1757 2101 40  0000 C CNN
-F 2 "~" V 1680 2100 30  0000 C CNN
-F 3 "~" H 1750 2100 30  0000 C CNN
-	1    1750 2100
+P 1700 2550
+F 0 "R22" V 1780 2550 40  0000 C CNN
+F 1 "1k2" V 1707 2551 40  0000 C CNN
+F 2 "~" V 1630 2550 30  0000 C CNN
+F 3 "~" H 1700 2550 30  0000 C CNN
+	1    1700 2550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L R R23
 U 1 1 5398AC5B
-P 1750 1900
-F 0 "R23" V 1830 1900 40  0000 C CNN
-F 1 "1k2" V 1757 1901 40  0000 C CNN
-F 2 "~" V 1680 1900 30  0000 C CNN
-F 3 "~" H 1750 1900 30  0000 C CNN
-	1    1750 1900
+P 1700 2350
+F 0 "R23" V 1780 2350 40  0000 C CNN
+F 1 "1k2" V 1707 2351 40  0000 C CNN
+F 2 "~" V 1630 2350 30  0000 C CNN
+F 3 "~" H 1700 2350 30  0000 C CNN
+	1    1700 2350
 	0    -1   -1   0   
 $EndComp
 Text HLabel 6200 2900 0    60   Input ~ 0
 SPI_SCK
-Text HLabel 4600 2800 2    60   Output ~ 0
+Text HLabel 1050 3500 0    60   Output ~ 0
 RS232_TXD
-Text HLabel 1050 2900 0    60   Input ~ 0
+Text HLabel 4700 3600 2    60   Input ~ 0
 RS232_RXD
-$Comp
-L GND #PWR017
-U 1 1 539CB075
-P 3650 4950
-F 0 "#PWR017" H 3650 4950 30  0001 C CNN
-F 1 "GND" H 3650 4880 30  0001 C CNN
-F 2 "" H 3650 4950 60  0000 C CNN
-F 3 "" H 3650 4950 60  0000 C CNN
-	1    3650 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR018
-U 1 1 539CB084
-P 7650 4900
-F 0 "#PWR018" H 7650 4900 30  0001 C CNN
-F 1 "GND" H 7650 4830 30  0001 C CNN
-F 2 "" H 7650 4900 60  0000 C CNN
-F 3 "" H 7650 4900 60  0000 C CNN
-	1    7650 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR019
-U 1 1 539CB093
-P 9150 4950
-F 0 "#PWR019" H 9150 4950 30  0001 C CNN
-F 1 "GND" H 9150 4880 30  0001 C CNN
-F 2 "" H 9150 4950 60  0000 C CNN
-F 3 "" H 9150 4950 60  0000 C CNN
-	1    9150 4950
-	1    0    0    -1  
-$EndComp
 Text HLabel 10350 2100 2    60   Output ~ 0
 ENET_MDC
-Text HLabel 4900 5650 2    60   Output ~ 0
+Text HLabel 1150 1850 0    60   Output ~ 0
 RESET
 $Comp
 L THERMISTOR TH3
@@ -342,10 +309,10 @@ F 3 "~" H 7800 2300 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR020
+L +3.3V #PWR017
 U 1 1 539E165A
 P 7800 2000
-F 0 "#PWR020" H 7800 1960 30  0001 C CNN
+F 0 "#PWR017" H 7800 1960 30  0001 C CNN
 F 1 "+3.3V" H 7800 2110 30  0000 C CNN
 F 2 "" H 7800 2000 60  0000 C CNN
 F 3 "" H 7800 2000 60  0000 C CNN
@@ -364,20 +331,47 @@ F 3 "~" H 8800 2300 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR021
+L +5V #PWR018
 U 1 1 539E1666
 P 8800 2000
-F 0 "#PWR021" H 8800 2090 20  0001 C CNN
+F 0 "#PWR018" H 8800 2090 20  0001 C CNN
 F 1 "+5V" H 8800 2090 30  0000 C CNN
 F 2 "" H 8800 2000 60  0000 C CNN
 F 3 "" H 8800 2000 60  0000 C CNN
 	1    8800 2000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2550 3800 2100 3800
-Wire Wire Line
-	5150 1800 5150 2900
+$Comp
+L GND #PWR019
+U 1 1 53B8B104
+P 10700 6750
+F 0 "#PWR019" H 10700 6750 30  0001 C CNN
+F 1 "GND" H 10700 6680 30  0001 C CNN
+F 2 "" H 10700 6750 60  0000 C CNN
+F 3 "" H 10700 6750 60  0000 C CNN
+	1    10700 6750
+	1    0    0    -1  
+$EndComp
+Text Label 10200 6600 0    60   ~ 0
+GPIO_GND
+Text Label 6200 2500 0    60   ~ 0
+GPIO_GND
+Text Label 6200 2700 0    60   ~ 0
+GPIO_GND
+Text Label 6200 3100 0    60   ~ 0
+GPIO_GND
+Text Label 6200 3300 0    60   ~ 0
+GPIO_GND
+Text Label 6200 3900 0    60   ~ 0
+GPIO_GND
+Text Label 4300 3800 0    60   ~ 0
+GPIO_GND
+Text Label 10150 6150 0    60   ~ 0
+ANALOG_GND
+Text Label 4550 3200 0    60   ~ 0
+ANALOG_GND
+Text Label 4550 1800 0    60   ~ 0
+GPIO_GND
 Wire Wire Line
 	8800 2700 8700 2700
 Wire Wire Line
@@ -400,71 +394,48 @@ Wire Wire Line
 	2450 2700 2550 2700
 Wire Wire Line
 	2450 2050 2450 2000
-Connection ~ 3650 4000
 Wire Wire Line
-	3350 4000 3650 4000
-Connection ~ 3650 4100
+	3350 4000 4700 4000
 Wire Wire Line
-	3650 4100 3350 4100
-Connection ~ 3650 4200
+	3350 4100 4700 4100
 Wire Wire Line
 	3650 4200 3350 4200
-Connection ~ 3650 4300
 Wire Wire Line
 	3650 4300 3350 4300
-Connection ~ 3650 4400
 Wire Wire Line
 	3650 4400 3350 4400
-Connection ~ 3650 4500
 Wire Wire Line
-	3650 4500 3350 4500
-Connection ~ 3650 4600
+	3350 4500 4700 4500
 Wire Wire Line
-	3350 3900 3650 3900
+	3350 3900 4700 3900
 Wire Wire Line
-	3350 4600 3650 4600
-Connection ~ 9150 4000
+	3350 4600 4700 4600
 Wire Wire Line
 	8700 4000 9150 4000
-Connection ~ 9150 3900
 Wire Wire Line
 	8700 3900 9150 3900
 Wire Wire Line
 	8700 3800 10050 3800
-Connection ~ 9150 4100
-Connection ~ 7650 4600
 Wire Wire Line
-	7650 4600 7900 4600
-Connection ~ 7650 4500
+	6150 4600 7900 4600
 Wire Wire Line
-	7650 4500 7900 4500
-Connection ~ 7650 4400
+	6150 4500 7900 4500
 Wire Wire Line
-	7650 4400 7900 4400
-Connection ~ 7650 4300
+	6150 4400 7900 4400
 Wire Wire Line
 	7650 4300 7900 4300
-Connection ~ 7650 4200
 Wire Wire Line
 	7650 4200 7900 4200
-Connection ~ 7650 4100
 Wire Wire Line
 	7650 4100 7900 4100
-Connection ~ 9150 4300
 Wire Wire Line
 	8700 4300 9150 4300
-Connection ~ 9150 4600
 Wire Wire Line
 	8700 4600 9150 4600
-Connection ~ 9150 4500
 Wire Wire Line
 	8700 4500 9150 4500
-Connection ~ 9150 4400
 Wire Wire Line
-	8700 4400 9150 4400
-Wire Wire Line
-	9150 4300 9150 4350
-Connection ~ 9150 4200
+	8700 4400 10050 4400
 Wire Wire Line
 	8700 4200 9150 4200
 Wire Wire Line
@@ -474,29 +445,15 @@ Wire Wire Line
 Wire Wire Line
 	8700 3500 9500 3500
 Wire Wire Line
-	2100 3900 2550 3900
-Connection ~ 2100 4300
-Connection ~ 2100 4500
+	1050 4000 2550 4000
 Wire Wire Line
-	2100 4300 2550 4300
-Wire Wire Line
-	2100 4500 2550 4500
-Wire Wire Line
-	2550 4600 2450 4600
-Wire Wire Line
-	2550 4400 2450 4400
-Wire Wire Line
-	2550 4200 2450 4200
-Wire Wire Line
-	2100 4000 2550 4000
-Wire Wire Line
-	1200 2100 1500 2100
+	1150 2550 1450 2550
 Wire Wire Line
 	8700 3400 9450 3400
 Wire Wire Line
 	8700 3300 9400 3300
 Wire Wire Line
-	1200 1900 1500 1900
+	1150 2350 1450 2350
 Wire Wire Line
 	8700 3200 9350 3200
 Wire Wire Line
@@ -526,9 +483,9 @@ Wire Wire Line
 Wire Wire Line
 	3350 3300 4050 3300
 Wire Wire Line
-	1050 2500 1500 2500
+	1000 2950 1450 2950
 Wire Wire Line
-	1200 2300 1500 2300
+	1150 2750 1450 2750
 Wire Wire Line
 	7150 3500 7900 3500
 Wire Wire Line
@@ -548,41 +505,25 @@ Wire Wire Line
 Wire Wire Line
 	2450 2550 2450 2700
 Wire Wire Line
-	1800 3500 1800 3600
+	1800 3700 1800 3800
 Wire Wire Line
-	1800 3600 2550 3600
+	1800 3800 2550 3800
 Wire Wire Line
-	1850 3300 1850 3500
+	1850 3500 1850 3700
 Wire Wire Line
-	1850 3500 2550 3500
+	1850 3700 2550 3700
 Wire Wire Line
-	1900 3100 1900 3400
+	1900 3300 1900 3600
 Wire Wire Line
-	1900 3400 2550 3400
+	1900 3600 2550 3600
 Wire Wire Line
-	2550 3300 1950 3300
+	2050 3300 2550 3300
 Wire Wire Line
-	1950 3300 1950 2900
+	2550 3200 2100 3200
 Wire Wire Line
-	2550 3200 2000 3200
+	2150 3100 2550 3100
 Wire Wire Line
-	2000 3200 2000 2700
-Wire Wire Line
-	2050 2500 2050 3100
-Wire Wire Line
-	2050 3100 2550 3100
-Wire Wire Line
-	2550 3000 2100 3000
-Wire Wire Line
-	2100 3000 2100 2300
-Wire Wire Line
-	2150 2100 2150 2900
-Wire Wire Line
-	2150 2900 2550 2900
-Wire Wire Line
-	2200 2800 2550 2800
-Wire Wire Line
-	2200 2800 2200 1900
+	2200 3000 2550 3000
 Wire Wire Line
 	4250 3700 4250 3600
 Wire Wire Line
@@ -654,37 +595,31 @@ Wire Wire Line
 Wire Wire Line
 	9150 2800 9150 1900
 Wire Wire Line
-	3350 3800 4450 3800
+	3350 3800 4700 3800
 Wire Wire Line
-	4250 3600 4450 3600
+	4250 3600 4700 3600
 Wire Wire Line
-	4200 3400 4450 3400
+	4200 3400 4700 3400
 Wire Wire Line
-	4150 3200 4700 3200
+	4150 3200 5150 3200
 Wire Wire Line
-	4100 3000 4600 3000
+	4100 3000 5150 3000
 Wire Wire Line
-	4000 2600 4450 2600
+	4000 2600 5150 2600
 Wire Wire Line
 	3950 2400 5150 2400
 Wire Wire Line
 	3900 2200 5150 2200
 Wire Wire Line
-	3850 2000 5150 2000
-Wire Wire Line
 	3800 1800 5150 1800
 Wire Wire Line
-	1050 3700 2550 3700
+	1050 3900 2550 3900
 Wire Wire Line
-	1800 3500 1050 3500
+	1800 3700 1050 3700
 Wire Wire Line
-	1850 3300 1050 3300
+	1850 3500 1050 3500
 Wire Wire Line
-	1900 3100 1050 3100
-Wire Wire Line
-	1950 2900 1050 2900
-Wire Wire Line
-	2000 2700 1050 2700
+	1900 3300 1050 3300
 Wire Wire Line
 	7900 3900 6200 3900
 Wire Wire Line
@@ -729,52 +664,107 @@ Wire Wire Line
 	9550 3500 10350 3500
 Wire Wire Line
 	10350 3700 8700 3700
-$Comp
-L GND #PWR022
-U 1 1 53B8B104
-P 5500 4900
-F 0 "#PWR022" H 5500 4900 30  0001 C CNN
-F 1 "GND" H 5500 4830 30  0001 C CNN
-F 2 "" H 5500 4900 60  0000 C CNN
-F 3 "" H 5500 4900 60  0000 C CNN
-	1    5500 4900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	5500 4900 5500 4750
+	10700 6750 10700 6600
 Wire Wire Line
-	5500 4750 4950 4750
-Text Label 5000 4750 0    60   ~ 0
-GPIO_GND
-Text Label 6200 2500 0    60   ~ 0
-GPIO_GND
-Text Label 6200 2700 0    60   ~ 0
-GPIO_GND
-Text Label 6200 3100 0    60   ~ 0
-GPIO_GND
-Text Label 6200 3300 0    60   ~ 0
-GPIO_GND
+	10700 6600 10150 6600
 Wire Wire Line
 	10050 3800 10050 3900
 Wire Wire Line
 	10050 3900 10400 3900
-Text Label 4150 3000 0    60   ~ 0
-GPIO_GND
-Text Label 4150 3200 0    60   ~ 0
-GPIO_GND
-Connection ~ 5150 2000
 Connection ~ 5150 2200
 Connection ~ 5150 2400
 Wire Wire Line
-	2000 2500 2050 2500
+	1950 2950 2000 2950
 Wire Wire Line
-	2100 2300 2000 2300
+	2050 2750 1950 2750
 Wire Wire Line
-	2150 2100 2000 2100
+	2100 2550 1950 2550
 Wire Wire Line
-	2200 1900 2000 1900
+	2150 2350 1950 2350
 Wire Wire Line
-	4050 2800 4600 2800
+	4050 2800 5150 2800
 Wire Wire Line
 	2100 4100 2550 4100
+Wire Wire Line
+	2550 4200 2100 4200
+Wire Wire Line
+	2100 4300 2550 4300
+Wire Wire Line
+	2100 4400 2550 4400
+Wire Wire Line
+	2100 4500 2550 4500
+Wire Wire Line
+	1150 1850 2300 1850
+Wire Wire Line
+	2300 1850 2300 2800
+Wire Wire Line
+	2300 2800 2550 2800
+Wire Wire Line
+	2250 2900 2550 2900
+Wire Wire Line
+	2250 2000 2250 2900
+Wire Wire Line
+	2250 2000 1150 2000
+Wire Wire Line
+	10700 6250 10700 6150
+Wire Wire Line
+	10700 6150 10150 6150
+Wire Wire Line
+	2200 3000 2200 2150
+Wire Wire Line
+	2200 2150 1150 2150
+Text Label 1350 2150 0    60   ~ 0
+ANALOG_GND
+Wire Wire Line
+	2150 2350 2150 3100
+Wire Wire Line
+	2100 3200 2100 2550
+Wire Wire Line
+	2050 2750 2050 3300
+Wire Wire Line
+	2000 2950 2000 3400
+Wire Wire Line
+	2000 3400 2550 3400
+Wire Wire Line
+	1950 3500 2550 3500
+Wire Wire Line
+	1950 3500 1950 3150
+Wire Wire Line
+	1950 3150 1100 3150
+Text Label 1300 3150 0    60   ~ 0
+ANALOG_GND
+Text Label 4550 2200 0    60   ~ 0
+ANALOG_GND
+Text Label 4550 2400 0    60   ~ 0
+ANALOG_GND
+Text Label 4550 2600 0    60   ~ 0
+ANALOG_GND
+Text Label 4550 2800 0    60   ~ 0
+ANALOG_GND
+Text Label 4550 3000 0    60   ~ 0
+ANALOG_GND
+Text Label 6200 4400 0    60   ~ 0
+GPIO_GND
+Text Label 6200 4600 0    60   ~ 0
+GPIO_GND
+Text Label 6200 4500 0    60   ~ 0
+GPIO_GND
+Wire Wire Line
+	3850 2000 4800 2000
+Text Label 4300 3900 0    60   ~ 0
+GPIO_GND
+Text Label 4300 4000 0    60   ~ 0
+GPIO_GND
+Text Label 4300 4100 0    60   ~ 0
+GPIO_GND
+NoConn ~ 1050 4000
+NoConn ~ 2100 4500
+NoConn ~ 2550 4600
+Text Label 4300 4500 0    60   ~ 0
+GPIO_GND
+Text Label 4300 4600 0    60   ~ 0
+GPIO_GND
+NoConn ~ 9150 4500
+NoConn ~ 9150 4600
 $EndSCHEMATC

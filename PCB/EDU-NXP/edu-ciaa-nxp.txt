@@ -1,11 +1,8 @@
-Pendientes ruteo:
+Pendientes:
+
  R9 :: 1/2 W
 
 Teclas: footprint correcto?
-
-Diodos 485 ---cambiar footprint
-
-Separar C18 y C19
 
 Test points?? Enganches para osciloscopio?
 
@@ -14,3 +11,9 @@ Leyendas de silkscreen
 Repasar todos los issues de la CIAA-NXP
 
 Comprobar todos los footprints según la BOM
+
+Perforaciones para gabinete de la CIAA
+
+Controlar pinout del LED RGB según el BOM
+
+Emprolijar el sch (sobre todo la GPIO)
