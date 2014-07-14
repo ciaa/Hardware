@@ -65,6 +65,7 @@ LIBS:tvs
 LIBS:PBSS5240
 LIBS:pbss5240xf
 LIBS:LED_RGB
+LIBS:Logo
 LIBS:edu-ciaa-nxp-cache
 EELAYER 27 0
 EELAYER END
@@ -72,7 +73,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 7
 Title "EDU CIAA EXPANSIÓN"
-Date "12 jul 2014"
+Date "14 jul 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1050,6 +1051,17 @@ F 1 "+5V" H 8400 4890 30  0000 C CNN
 F 2 "" H 8400 4800 60  0000 C CNN
 F 3 "" H 8400 4800 60  0000 C CNN
 	1    8400 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LOGO #G6
+U 1 1 53C3FC66
+P 10550 6550
+F 0 "#G6" H 10550 6147 60  0001 C CNN
+F 1 "LOGO" H 10550 6953 60  0001 C CNN
+F 2 "" H 10550 6550 60  0000 C CNN
+F 3 "" H 10550 6550 60  0000 C CNN
+	1    10550 6550
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

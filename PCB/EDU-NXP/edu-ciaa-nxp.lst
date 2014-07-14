@@ -1,4 +1,4 @@
-eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 08/07/2014 04:23:05 p.m.
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 14/07/2014 07:55:19 a.m.
 #Cmp ( order = Reference )
 | BT1        BK-913      
 | C1         10uF / 6V3  
@@ -72,6 +72,7 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 08/07/2014 04:23:05 p.m
 | FB6        BLM18KG221SN1
 | FB7        MMZ1608B601C
 | FB8        MMZ1608B601C
+| GS1        GS2         
 | H1         4mm         
 | H2         4mm         
 | H3         4mm         
@@ -106,6 +107,7 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 08/07/2014 04:23:05 p.m
 | R8         680         
 | R9         100 / 1/2W  
 | R10        330k        
+| R11        0           
 | R12        330k        
 | R13        330k        
 | R14        330k        
@@ -136,11 +138,11 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 08/07/2014 04:23:05 p.m
 | R83        10k         
 | R84        680         
 | R85        680         
-| R90        10K         
+| R90        100K        
 | R91        10M         
 | R92        12K 1%      
 | R93        10K         
-| R94        10K         
+| R94        100K        
 | R95        2.2k        
 | R96        15K         
 | R97        2.2k        
@@ -254,6 +256,7 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 08/07/2014 04:23:05 p.m
 | MMZ1608B601C FB4       
 | BLM18KG221SN1 FB5       
 | BLM18KG221SN1 FB6       
+| GS2          GS1       
 | 4mm          H1        
 | 4mm          H2        
 | 4mm          H3        
@@ -278,6 +281,7 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 08/07/2014 04:23:05 p.m
 | 2N7002       Q5        
 | 2N7002       Q9        
 | 2N7002       Q10       
+| 0            R11       
 | 0            R107      
 | 0            R108      
 | 0            R109      
@@ -318,9 +322,7 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 08/07/2014 04:23:05 p.m
 | 10k          R74       
 | 10k          R82       
 | 10k          R83       
-| 10K          R90       
 | 10K          R93       
-| 10K          R94       
 | 10K          R99       
 | 10K          R100      
 | 10K          R102      
@@ -331,6 +333,8 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 08/07/2014 04:23:05 p.m
 | 15K          R98       
 | 100K         R4        
 | 100K         R5        
+| 100K         R90       
+| 100K         R94       
 | 330k         R10       
 | 330k         R12       
 | 330k         R13       

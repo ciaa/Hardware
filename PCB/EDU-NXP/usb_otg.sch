@@ -65,6 +65,7 @@ LIBS:tvs
 LIBS:PBSS5240
 LIBS:pbss5240xf
 LIBS:LED_RGB
+LIBS:Logo
 LIBS:edu-ciaa-nxp-cache
 EELAYER 27 0
 EELAYER END
@@ -72,7 +73,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 7
 Title "EDU CIAA USB OTG"
-Date "12 jul 2014"
+Date "14 jul 2014"
 Rev "1.0"
 Comp ""
 Comment1 ""
@@ -299,4 +300,15 @@ Wire Wire Line
 	7950 4300 8050 4300
 NoConn ~ 10150 4000
 NoConn ~ 10150 4100
+$Comp
+L LOGO #G3
+U 1 1 53C3FC54
+P 10650 6600
+F 0 "#G3" H 10650 6197 60  0001 C CNN
+F 1 "LOGO" H 10650 7003 60  0001 C CNN
+F 2 "" H 10650 6600 60  0000 C CNN
+F 3 "" H 10650 6600 60  0000 C CNN
+	1    10650 6600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

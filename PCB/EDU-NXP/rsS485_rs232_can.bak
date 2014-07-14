@@ -65,6 +65,7 @@ LIBS:tvs
 LIBS:PBSS5240
 LIBS:pbss5240xf
 LIBS:LED_RGB
+LIBS:Logo
 LIBS:edu-ciaa-nxp-cache
 EELAYER 27 0
 EELAYER END
@@ -72,7 +73,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 7
 Title "EDU CIAA RS485"
-Date "12 jul 2014"
+Date "14 jul 2014"
 Rev "1.0"
 Comp ""
 Comment1 ""
@@ -556,4 +557,15 @@ $EndComp
 Wire Wire Line
 	4150 3600 4150 3650
 Connection ~ 4150 3650
+$Comp
+L LOGO #G2
+U 1 1 53C3FC4E
+P 10600 6600
+F 0 "#G2" H 10600 6197 60  0001 C CNN
+F 1 "LOGO" H 10600 7003 60  0001 C CNN
+F 2 "" H 10600 6600 60  0000 C CNN
+F 3 "" H 10600 6600 60  0000 C CNN
+	1    10600 6600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
