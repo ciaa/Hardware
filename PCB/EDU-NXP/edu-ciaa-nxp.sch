@@ -66,6 +66,7 @@ LIBS:PBSS5240
 LIBS:pbss5240xf
 LIBS:LED_RGB
 LIBS:Logo
+LIBS:edu-ciaa-logo
 LIBS:edu-ciaa-nxp-cache
 EELAYER 27 0
 EELAYER END
@@ -73,7 +74,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
 Title "EDU CIAA NXP"
-Date "14 jul 2014"
+Date "17 jul 2014"
 Rev "1.0"
 Comp ""
 Comment1 ""
@@ -576,7 +577,7 @@ Wire Wire Line
 	7050 2950 8300 2950
 $Comp
 L LOGO #G1
-U 1 1 53C3CEBF
+U 1 1 53C51616
 P 10700 6650
 F 0 "#G1" H 10700 6247 60  0001 C CNN
 F 1 "LOGO" H 10700 7053 60  0001 C CNN

@@ -1,12 +1,8 @@
 Pendientes:
 
 
-
-
 Test points?? Enganches para osciloscopio?
 
-Leyendas de silkscreen
-
-Repasar todos los issues de la CIAA-NXP
-
 Comprobar todos los footprints según la BOM
+
+Ordenar las librerías

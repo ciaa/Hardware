@@ -66,6 +66,7 @@ LIBS:PBSS5240
 LIBS:pbss5240xf
 LIBS:LED_RGB
 LIBS:Logo
+LIBS:edu-ciaa-logo
 LIBS:edu-ciaa-nxp-cache
 EELAYER 27 0
 EELAYER END
@@ -73,7 +74,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 7
 Title "EDU CIAA Fuente de alimentación"
-Date "14 jul 2014"
+Date "17 jul 2014"
 Rev "1.0"
 Comp ""
 Comment1 ""
@@ -81,17 +82,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L NCP1117ST33T3G U3
-U 1 1 52B779B3
-P 6050 4150
-F 0 "U3" H 6200 3954 40  0000 C CNN
-F 1 "NCP1117ST33T3G" H 6050 4350 40  0000 C CNN
-F 2 "~" H 6050 4150 60  0000 C CNN
-F 3 "~" H 6050 4150 60  0000 C CNN
-	1    6050 4150
-	1    0    0    -1  
-$EndComp
 $Comp
 L CAPAPOL C5
 U 1 1 52B78C68
@@ -448,4 +438,17 @@ F 3 "" H 10600 6600 60  0000 C CNN
 	1    10600 6600
 	1    0    0    -1  
 $EndComp
+$Comp
+L NCP1117ST15T3G U3
+U 1 1 53C7B5FC
+P 6050 4150
+F 0 "U3" H 6200 3954 40  0000 C CNN
+F 1 "NCP1117ST15T3G" H 6050 4350 40  0000 C CNN
+F 2 "~" H 6050 4150 60  0000 C CNN
+F 3 "~" H 6050 4150 60  0000 C CNN
+	1    6050 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 4200 6450 4100
 $EndSCHEMATC

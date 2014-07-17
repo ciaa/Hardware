@@ -66,6 +66,7 @@ LIBS:PBSS5240
 LIBS:pbss5240xf
 LIBS:LED_RGB
 LIBS:Logo
+LIBS:edu-ciaa-logo
 LIBS:edu-ciaa-nxp-cache
 EELAYER 27 0
 EELAYER END
@@ -73,7 +74,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 7
 Title "EDU CIAA RS485"
-Date "14 jul 2014"
+Date "17 jul 2014"
 Rev "1.0"
 Comp ""
 Comment1 ""

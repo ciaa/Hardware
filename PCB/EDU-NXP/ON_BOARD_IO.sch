@@ -66,6 +66,7 @@ LIBS:PBSS5240
 LIBS:pbss5240xf
 LIBS:LED_RGB
 LIBS:Logo
+LIBS:edu-ciaa-logo
 LIBS:edu-ciaa-nxp-cache
 EELAYER 27 0
 EELAYER END
@@ -73,7 +74,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 7
 Title "EDU CIAA EXPANSIÓN"
-Date "14 jul 2014"
+Date "17 jul 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1064,4 +1065,24 @@ F 3 "" H 10550 6550 60  0000 C CNN
 	1    10550 6550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1900 1500 1950 1500
+Wire Wire Line
+	2550 1500 2700 1500
+Connection ~ 2700 1500
+Wire Wire Line
+	1900 3100 1950 3100
+Wire Wire Line
+	2550 3100 2700 3100
+Connection ~ 2700 3100
+Wire Wire Line
+	1900 4700 1950 4700
+Wire Wire Line
+	2550 4700 2700 4700
+Connection ~ 2700 4700
+Wire Wire Line
+	1900 6300 1950 6300
+Wire Wire Line
+	2550 6300 2700 6300
+Connection ~ 2700 6300
 $EndSCHEMATC

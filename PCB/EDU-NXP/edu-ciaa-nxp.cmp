@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 12/07/2014 09:20:07 a.m.
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 16/07/2014 10:05:10 p.m.
 
 BeginCmp
 TimeStamp = /52C1CAF4/52C1CFDF;
@@ -505,13 +505,6 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /52C1CAF4/53C140A7;
-Reference = GS1;
-ValeurCmp = GS2;
-IdModule  = GS2;
-EndCmp
-
-BeginCmp
 TimeStamp = /533F364A;
 Reference = H1;
 ValeurCmp = 4mm;
@@ -550,14 +543,14 @@ BeginCmp
 TimeStamp = /52C66C60/52BC445A;
 Reference = J2;
 ValeurCmp = ZX62-AB-5PA;
-IdModule  = USB_microAB_ZX62-AB&B-5PA-11;
+IdModule  = USB_microAB_ZX62-AB-5P8;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C1CAF4/5318F620;
 Reference = J3;
 ValeurCmp = ZX62-AB-5PA;
-IdModule  = USB_microAB_ZX62-AB&B-5PA-11;
+IdModule  = USB_microAB_ZX62-AB-5P8;
 EndCmp
 
 BeginCmp
@@ -593,13 +586,6 @@ TimeStamp = /52C1CAF4/52E11992;
 Reference = JP5;
 ValeurCmp = ISP;
 IdModule  = GS2;
-EndCmp
-
-BeginCmp
-TimeStamp = /52C1CAF4/53C13EC0;
-Reference = JP6;
-ValeurCmp = ISP;
-IdModule  = ;
 EndCmp
 
 BeginCmp
@@ -757,7 +743,7 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /52C1CAF4/53C13AFE;
+TimeStamp = /52C1CAF4/53C44596;
 Reference = R11;
 ValeurCmp = 0;
 IdModule  = SM0805;
@@ -781,6 +767,13 @@ BeginCmp
 TimeStamp = /53A4ECDD/53BA720F;
 Reference = R14;
 ValeurCmp = 330k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C1CAF4/53C4459C;
+Reference = R15;
+ValeurCmp = 0;
 IdModule  = SM0805;
 EndCmp
 
@@ -1124,35 +1117,35 @@ BeginCmp
 TimeStamp = /53A4ECDD/53A50B2C;
 Reference = SW1;
 ValeurCmp = TEC_1;
-IdModule  = PUSH_SWITCH;
+IdModule  = PUSH_SWITCH_THT;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A4ECDD/539A8459;
 Reference = SW2;
 ValeurCmp = TEC_2;
-IdModule  = PUSH_SWITCH;
+IdModule  = PUSH_SWITCH_THT;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A4ECDD/539A848C;
 Reference = SW3;
 ValeurCmp = TEC_3;
-IdModule  = PUSH_SWITCH;
+IdModule  = PUSH_SWITCH_THT;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A4ECDD/539A84BF;
 Reference = SW4;
 ValeurCmp = TEC_4;
-IdModule  = PUSH_SWITCH;
+IdModule  = PUSH_SWITCH_THT;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C1CAF4/52C1CF65;
 Reference = SW5;
 ValeurCmp = RESET;
-IdModule  = PUSH_SWITCH;
+IdModule  = PUSH_SWITCH_THT;
 EndCmp
 
 BeginCmp

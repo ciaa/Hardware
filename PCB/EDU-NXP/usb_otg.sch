@@ -66,6 +66,7 @@ LIBS:PBSS5240
 LIBS:pbss5240xf
 LIBS:LED_RGB
 LIBS:Logo
+LIBS:edu-ciaa-logo
 LIBS:edu-ciaa-nxp-cache
 EELAYER 27 0
 EELAYER END
@@ -73,7 +74,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 7
 Title "EDU CIAA USB OTG"
-Date "14 jul 2014"
+Date "17 jul 2014"
 Rev "1.0"
 Comp ""
 Comment1 ""
@@ -188,23 +189,20 @@ L CONN_9 J2
 U 1 1 52BC445A
 P 10500 3700
 F 0 "J2" V 10450 3700 60  0000 C CNN
-F 1 "ZX62-AB-5PA" V 10550 3700 60  0000 C CNN
+F 1 "ZX62-AB-5P8" V 10550 3700 60  0000 C CNN
 F 2 "" H 10500 3700 60  0000 C CNN
 F 3 "" H 10500 3700 60  0000 C CNN
 	1    10500 3700
 	1    0    0    -1  
 $EndComp
-Connection ~ 8800 3300
 Wire Wire Line
 	10150 3400 9400 3400
 Wire Wire Line
 	9400 3400 9400 3450
-Connection ~ 9000 3450
 Wire Wire Line
 	10150 3500 9500 3500
 Wire Wire Line
 	9500 3500 9500 3600
-Connection ~ 8900 3600
 Wire Wire Line
 	10150 3600 9600 3600
 Wire Wire Line
@@ -311,4 +309,8 @@ F 3 "" H 10650 6600 60  0000 C CNN
 	1    10650 6600
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	10050 4000 9800 4000
+Text Label 9800 4000 0    60   ~ 0
+CHJ2
 $EndSCHEMATC

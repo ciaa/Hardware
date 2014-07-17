@@ -1,4 +1,4 @@
-eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 14/07/2014 07:55:19 a.m.
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 14/07/2014 04:24:46 p.m.
 #Cmp ( order = Reference )
 | BT1        BK-913      
 | C1         10uF / 6V3  
@@ -72,7 +72,6 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 14/07/2014 07:55:19 a.m
 | FB6        BLM18KG221SN1
 | FB7        MMZ1608B601C
 | FB8        MMZ1608B601C
-| GS1        GS2         
 | H1         4mm         
 | H2         4mm         
 | H3         4mm         
@@ -111,6 +110,7 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 14/07/2014 07:55:19 a.m
 | R12        330k        
 | R13        330k        
 | R14        330k        
+| R15        0           
 | R18        330k        
 | R19        330k        
 | R20        470         
@@ -256,7 +256,6 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 14/07/2014 07:55:19 a.m
 | MMZ1608B601C FB4       
 | BLM18KG221SN1 FB5       
 | BLM18KG221SN1 FB6       
-| GS2          GS1       
 | 4mm          H1        
 | 4mm          H2        
 | 4mm          H3        
@@ -282,6 +281,7 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 14/07/2014 07:55:19 a.m
 | 2N7002       Q9        
 | 2N7002       Q10       
 | 0            R11       
+| 0            R15       
 | 0            R107      
 | 0            R108      
 | 0            R109      

@@ -1,4 +1,4 @@
-update=14/07/2014 07:57:25 a.m.
+update=15/07/2014 06:59:39 a.m.
 version=1
 last_client=pcbnew
 [general]
@@ -84,6 +84,7 @@ LibName64=components/PBSS5240
 LibName65=components/pbss5240xf
 LibName66=kicadlibrary-master/LED_RGB
 LibName67=Logo
+LibName68=components/edu-ciaa-logo
 [pcbnew]
 version=1
 LastNetListRead=edu-ciaa-nxp.net
@@ -159,4 +160,4 @@ LibName51=footprints/MicroUSB-ZX62AB&B-5PA
 LibName52=footprints/DB)-K22X-E9P-NJ
 LibName53=inductors
 LibName54=footprints/L-SRN1060
-LibName55=Logo
+LibName55=footprints/edu-ciaa-logo
