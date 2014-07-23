@@ -1,4 +1,4 @@
-eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 14/07/2014 04:24:46 p.m.
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 23/07/2014 04:43:51 p.m.
 #Cmp ( order = Reference )
 | BT1        BK-913      
 | C1         10uF / 6V3  
@@ -64,12 +64,12 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 14/07/2014 04:24:46 p.m
 | F4         fiducial    
 | F5         fiducial    
 | F6         fiducial    
-| FB1        BLM18KG221SN1
+| FB1        MI0805M221R-10
 | FB2        MMZ1608B601C
 | FB3        MMZ1608B601C
 | FB4        MMZ1608B601C
-| FB5        BLM18KG221SN1
-| FB6        BLM18KG221SN1
+| FB5        MI0805M221R-10
+| FB6        MI0805M221R-10
 | FB7        MMZ1608B601C
 | FB8        MMZ1608B601C
 | H1         4mm         
@@ -77,8 +77,8 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 14/07/2014 04:24:46 p.m
 | H3         4mm         
 | H4         4mm         
 | J1         TB_1X3      
-| J2         ZX62-AB-5PA 
-| J3         ZX62-AB-5PA 
+| J2         ZX62-AB-5P8 
+| J3         ZX62-AB-5P8 
 | JP1        JUMPER-2    
 | JP2        JUMPER-2    
 | JP3        JUMPER-2    
@@ -172,7 +172,7 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 14/07/2014 04:24:46 p.m
 | TR2        DLW21HN900SQ2
 | U1         MAX3072     
 | U2         PRTR5V0U2X  
-| U3         NCP1117ST33T3G
+| U3         NCP1117ST15T3G
 | U4         LPC4337JBD144
 | U5         93C46       
 | U6         FT2232H     
@@ -250,19 +250,19 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 14/07/2014 04:24:46 p.m
 | fiducial     F6        
 | MMZ1608B601C FB7       
 | MMZ1608B601C FB8       
-| BLM18KG221SN1 FB1       
+| MI0805M221R-10 FB1       
 | MMZ1608B601C FB2       
 | MMZ1608B601C FB3       
 | MMZ1608B601C FB4       
-| BLM18KG221SN1 FB5       
-| BLM18KG221SN1 FB6       
+| MI0805M221R-10 FB5       
+| MI0805M221R-10 FB6       
 | 4mm          H1        
 | 4mm          H2        
 | 4mm          H3        
 | 4mm          H4        
 | TB_1X3       J1        
-| ZX62-AB-5PA  J2        
-| ZX62-AB-5PA  J3        
+| ZX62-AB-5P8  J2        
+| ZX62-AB-5P8  J3        
 | JUMPER-2     JP1       
 | JUMPER-2     JP2       
 | JUMPER-2     JP3       
@@ -359,7 +359,7 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 14/07/2014 04:24:46 p.m
 | TXB0108      U7        
 | MAX3072      U1        
 | PRTR5V0U2X   U2        
-| NCP1117ST33T3G U3        
+| NCP1117ST15T3G U3        
 | LPC4337JBD144 U4        
 | 32.768K      X1        
 | 12MHz        X2        

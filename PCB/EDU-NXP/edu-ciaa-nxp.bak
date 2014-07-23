@@ -74,7 +74,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
 Title "EDU CIAA NXP"
-Date "17 jul 2014"
+Date "23 jul 2014"
 Rev "1.0"
 Comp ""
 Comment1 ""
