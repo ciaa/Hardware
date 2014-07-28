@@ -1,0 +1,46 @@
+# Borneras de la CIAA #
+Documento para analizar las borneras actuales de la CIAA (NXP) y
+la propuesta para la versión FSL.
+
+## Compatibilidad entre CIAAs ##
+
+Para mantener un nivel de compatibilidad entre versiones de las CIAAs se propone:
+
+* Que sea obligatorio la marcación de bornes en PCB y en gabinete para cualquier versión.
+* Que se incluya la distribución de borneras en el set básico de documentación de cada CIAA.
+* Separar conceptualmente la alimentación. Se hace agregando un conector usado de chassis ground,
+aunque este no este implementado como tal.
+
+
+## Borneras CIAA-NXP ##
+
+La distribución del primer prototipo de la CIAA-NXP es la siguiente:
+
+![Alt text](borneras_CIAA_NXP_proto1.png)
+
+Puede observarse, en la distribución del prototipo 1, que las salidas no
+tienen una distribución organizada para un posible usuario. Será recomendable
+hacer cambios mínimos para conseguir una distribución más uniforme.
+Los cambios serían:
+
+* Considerar girado 180 grados el diseño cuando se lo documenta.
+* Eliminar una salida de 24V de las borneras de salida.
+* Dejar una bornera para la conexión de chassis al lado de la entrada de alimentación.
+* Renumerar (desde esquemático) el número de cada bornera para lograr numeraciones consecutivas
+y cambios menores de orden (adyacentes).
+
+![Alt text](borneras_CIAA_NXP_cambio1.png)
+
+
+## Borneras CIAA-FSL ##
+
+De acuerdo al relevamiento de PLCs realizado, y buscando compatibilidad e nivel de bloques,
+la opción que proponemos para la CIAA-FSL es la siguiente:
+
+![Alt text](borneras_CIAA_FSL_propuesta1.png)
+
+Esta distribución nos parece la más adecuada buscando un compromiso entre ruteo, usuario final y
+compatibilidad con la versión NXP.
+Esta distribución se ha trabajado de a bloques idénticos a
+la CIAA-NXP para que mediante el uso de Borneras desmontables en bloques, pueda pasarse de un equipo a
+otro sin mayores problemas.

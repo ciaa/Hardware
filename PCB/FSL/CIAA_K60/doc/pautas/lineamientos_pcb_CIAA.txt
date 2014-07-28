@@ -32,7 +32,24 @@ utilizar como referencia GNDA.
     - Bottom layer: Señal con plano de GND.
 * Importante: No realizar cambios de planos de referencia en las zonas con 
 señales USB y Ethernet.
-
+* Stackup informado por Ernesto Mayer:
+    - Top layer: 1 oz (0,035 mm)
+    - Prepreg 1: 15,75 mils (0,4 mm)
+    - Inner layer 1: 1 oz (0,035 mm)
+    - Laminate: 31,5  mils (0,8 mm)
+    - Inner layer 2: 1 oz (0,035 mm)
+    - Prepreg 2: 15,75 mils (0,4 mm)
+    - Bottom layer: 1 oz (0,035 mm)
+* El material a utilizar en la CIAA-FSL, informado por Ernesto Mayer, es del 
+fabricante Isola, con el código DURAVER-E-Cu quality 104 ML.    
+* Stackup informado por Dai-ichi:
+    - Top layer: 1 oz (0.035 mm)
+    - Prepreg 1: 10,7 mils (0,272 mm)
+    - Inner layer 1: 1 oz (0,035 mm)
+    - Laminate: 39,3 mils (1 mm)
+    - Inner layer 2: 1 oz (0,035 mm)
+    - Prepreg 2: 10,7 mils (0,272 mm)
+    - Bottom layer: 1 oz (0,035 mm)
 
 ###Definición del borde de la placa###
 * Utilizar una grilla de 50 mils (si es posible) y un track de 8 mils. 
@@ -81,11 +98,11 @@ colocar el origen en el pin 1.
 determinada por el gabinete u otro elemento. 
  
 
-###Reglas de diseño (igual a la CIAA NXP)###
-* Default Clearence = 8 mils
-* Default Track Width = 10 mils
-* Default Via Diameter = 25 mils
-* Default Via Drill = 10 mils 
+###Reglas de diseño confirmadas por Ernesto Mayer###
+* Default Clearence = 8 mils (podría reducirse a 7 mils si fuera necesario)
+* Default Track Width = 10 mils (podría reducirse a 8 mils si fuera necesario)
+* Default Via Diameter = 32 mils
+* Default Via Drill = 16 mils
 * Power Track Width = Definir en base a la corriente. En la CIAA NXP se 
 utilizaron tracks de 20 y 30 mils.
 * Definir Net Classes cuando sea necesario, por ejemplo para las líneas 
@@ -97,7 +114,10 @@ diferenciales USB.
     - Fill mode: Polygon
     - Outline style: Hatched
     - Outline slope: H, V, 45º only
-
+* Nota: En la CIAA-NXP se utilizaron vías de 25/10 mils, pero se recomienda
+utilizarlas sólo si fuera estrictamente necesario y únicamente en los sectores 
+más críticos del PCB ya que pueden encarecer y complicar la fabricación.
+ 
 
 ###Trazado de pistas###
 * Trazar las pistas justo hasta el centro del pad.

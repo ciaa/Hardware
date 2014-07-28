@@ -1,13 +1,12 @@
 EESchema Schematic File Version 2
 LIBS:CIAAK60LIB
-LIBS:CIAA_K60-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 12 13
 Title "CIAA - Salida Analógica"
-Date "23 jun 2014"
+Date "22 jul 2014"
 Rev "1.0"
 Comp "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
@@ -148,7 +147,7 @@ F 7 "../datasheets/connectors/bornera_796949_2p.pdf" H 9500 4050 60  0001 C CNN 
 F 8 "571-7969492" H 9500 4050 60  0001 C CNN "Digikey/Mouser"
 F 9 "~" H 9500 4050 60  0001 C CNN "Footprint estandar"
 	1    9500 4050
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	9000 3950 9150 3950
@@ -272,11 +271,11 @@ F 0 "R1205" V 7200 2300 40  0000 C CNN
 F 1 "24.9" V 7307 2301 40  0000 C CNN
 F 2 "r_0603" V 7230 2300 30  0001 C CNN
 F 3 "~" V 7200 2300 30  0001 C CNN
-F 4 "RES 24.9 OHM 1/10W 1% 0603" H 7300 2300 60  0001 C CNN "Descripcion"
-F 5 "Stackpole Electronics Inc" H 7300 2300 60  0001 C CNN "Fabricante"
-F 6 "RMCF0603FT24R9" H 7300 2300 60  0001 C CNN "Nro. parte"
+F 4 "RES 24.9 OHM 1/10W .1% SMD 0603" H 7300 2300 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 7300 2300 60  0001 C CNN "Fabricante"
+F 6 "RT0603BRD0724R9L" H 7300 2300 60  0001 C CNN "Nro. parte"
 F 7 "~" H 7300 2300 60  0001 C CNN "Path datasheet"
-F 8 "RMCF0603FT24R9CT-ND" H 7300 2300 60  0001 C CNN "Digikey/Mouser"
+F 8 "RT0603BRD0724R9L-ND" H 7300 2300 60  0001 C CNN "Digikey/Mouser"
 F 9 "0603" H 7300 2300 60  0001 C CNN "Footprint estandar"
 F 10 "0.1%" V 7400 2300 60  0000 C CNN "Tol"
 F 11 "25ppm/°C" V 7500 2300 60  0000 C CNN "TC"
@@ -444,35 +443,35 @@ $EndComp
 $Comp
 L LM358N U1201
 U 2 1 53345555
-P 6400 3350
-F 0 "U1201" H 6350 3550 60  0000 L CNN
-F 1 "LM358N" H 6350 3100 60  0000 L CNN
-F 2 "SOIC-8" H 6400 3350 60  0001 C CNN
-F 3 "~" H 6400 3350 60  0000 C CNN
-F 4 "IC OPAMP GP 700KHZ 8SO" H 6400 3350 60  0001 C CNN "Descripcion"
-F 5 "Texas Instruments" H 6400 3350 60  0001 C CNN "Fabricante"
-F 6 "LM358PSRE4" H 6400 3350 60  0001 C CNN "Nro. parte"
-F 7 "../datahseets/ic/lm358.pdf" H 6400 3350 60  0001 C CNN "Path datasheet"
-F 8 "LM358PSRE4-ND" H 6400 3350 60  0001 C CNN "Digikey/Mouser"
-F 9 "SOIC-8" H 6400 3350 60  0001 C CNN "Footprint estandar"
-	2    6400 3350
+P 4300 3500
+F 0 "U1201" H 4250 3700 60  0000 L CNN
+F 1 "LM358DG" H 4250 3250 60  0000 L CNN
+F 2 "SOIC-8" H 4300 3500 60  0001 C CNN
+F 3 "~" H 4300 3500 60  0000 C CNN
+F 4 "IC OPAMP GP 1MHZ 8SOIC" H 4300 3500 60  0001 C CNN "Descripcion"
+F 5 "ON Semiconductor" H 4300 3500 60  0001 C CNN "Fabricante"
+F 6 "LM358DG" H 4300 3500 60  0001 C CNN "Nro. parte"
+F 7 "../datahseets/ic/lm358.pdf" H 4300 3500 60  0001 C CNN "Path datasheet"
+F 8 "LM358DGOS-ND" H 4300 3500 60  0001 C CNN "Digikey/Mouser"
+F 9 "SOIC-8" H 4300 3500 60  0001 C CNN "Footprint estandar"
+	2    4300 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L LM358N U1201
 U 1 1 53345562
-P 4300 3500
-F 0 "U1201" H 4250 3700 60  0000 L CNN
-F 1 "LM358N" H 4250 3250 60  0000 L CNN
-F 2 "SOIC-8" H 4300 3500 60  0001 C CNN
-F 3 "~" H 4300 3500 60  0000 C CNN
-F 4 "IC OPAMP GP 700KHZ 8SO" H 4300 3500 60  0001 C CNN "Descripcion"
-F 5 "Texas Instruments" H 4300 3500 60  0001 C CNN "Fabricante"
-F 6 "LM358PSRE4" H 4300 3500 60  0001 C CNN "Nro. parte"
-F 7 "../datahseets/ic/lm358.pdf" H 4300 3500 60  0001 C CNN "Path datasheet"
-F 8 "LM358PSRE4-ND" H 4300 3500 60  0001 C CNN "Digikey/Mouser"
-F 9 "SOIC-8" H 4300 3500 60  0001 C CNN "Footprint estandar"
-	1    4300 3500
+P 6400 3350
+F 0 "U1201" H 6350 3550 60  0000 L CNN
+F 1 "LM358DG" H 6350 3100 60  0000 L CNN
+F 2 "SOIC-8" H 6400 3350 60  0001 C CNN
+F 3 "~" H 6400 3350 60  0000 C CNN
+F 4 "IC OPAMP GP 1MHZ 8SOIC" H 6400 3350 60  0001 C CNN "Descripcion"
+F 5 "ON Semiconductor" H 6400 3350 60  0001 C CNN "Fabricante"
+F 6 "LM358DG" H 6400 3350 60  0001 C CNN "Nro. parte"
+F 7 "../datahseets/ic/lm358.pdf" H 6400 3350 60  0001 C CNN "Path datasheet"
+F 8 "LM358DGOS-ND" H 6400 3350 60  0001 C CNN "Digikey/Mouser"
+F 9 "SOIC-8" H 6400 3350 60  0001 C CNN "Footprint estandar"
+	1    6400 3350
 	1    0    0    -1  
 $EndComp
 $Comp

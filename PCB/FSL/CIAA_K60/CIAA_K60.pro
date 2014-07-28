@@ -1,4 +1,4 @@
-update=lun 09 jun 2014 16:37:13 ART
+update=mar 24 jun 2014 18:08:24 ART
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -21,7 +21,7 @@ LibName1=CIAAK60LIB
 [pcbnew]
 version=1
 LastNetListRead=CIAA_K60.net
-UseCmpFile=1
+UseCmpFile=0
 PadDrill="    0,000000"
 PadDrillOvalY="    0,000000"
 PadSizeH="    2,300000"
