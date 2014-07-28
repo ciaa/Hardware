@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = 28/07/2014 15:57:00
+Cmp-Mod V01 Created by PcbNew date = 28/07/2014 18:31:57
 
 BeginCmp
 TimeStamp = /52C1CAF4/52C1CFDF;
@@ -2041,7 +2041,7 @@ BeginCmp
 TimeStamp = /52C1F703/52C5B387;
 Reference = R40;
 ValeurCmp = 100 / 1/2W;
-IdModule  = SM0603_Resistor;
+IdModule  = SMR2010;
 EndCmp
 
 BeginCmp
