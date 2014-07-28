@@ -1,13 +1,8 @@
-update=mié 09 jul 2014 21:05:05 ART
+update=28/07/2014 15:51:06
 version=1
-last_client=eeschema
+last_client=cvpcb
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=
@@ -28,7 +23,6 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=
 LibName1=footprints/MVA-KG5
 LibName2=sockets
 LibName3=connect
@@ -83,6 +77,7 @@ LibName51=footprints/MicroUSB-ZX62AB&B-5PA
 LibName52=footprints/DB)-K22X-E9P-NJ
 LibName53=inductors
 LibName54=footprints/L-SRN1060
+LibDir=
 [eeschema]
 version=1
 LibDir=
@@ -158,3 +153,8 @@ LibName63=components/tvs
 LibName64=components/PBSS5240
 LibName65=components/pbss5240xf
 LibName66=components/sw_push
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms

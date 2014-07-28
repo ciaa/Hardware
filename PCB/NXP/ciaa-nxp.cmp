@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 21/07/2014 19:32:48
+Cmp-Mod V01 Created by PcbNew date = 28/07/2014 15:57:00
 
 BeginCmp
 TimeStamp = /52C1CAF4/52C1CFDF;
@@ -662,7 +662,7 @@ BeginCmp
 TimeStamp = /52C2B8A1/52B78B27;
 Reference = D2;
 ValeurCmp = RS3J-E3/57T;
-IdModule  = DO-214AB(SMC);
+IdModule  = CASE-403-03;
 EndCmp
 
 BeginCmp
