@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = 28/07/2014 18:31:57
+Cmp-Mod V01 Created by PcbNew date = 28/07/2014 19:01:54
 
 BeginCmp
 TimeStamp = /52C1CAF4/52C1CFDF;
@@ -2811,56 +2811,56 @@ BeginCmp
 TimeStamp = /52C2B8A1/52C22463;
 Reference = TH1;
 ValeurCmp = PTS18126V300;
-IdModule  = MF-SM030;
+IdModule  = MF-MSMF;
 EndCmp
 
 BeginCmp
 TimeStamp = /52CC00C6/52CDA33F;
 Reference = TH2;
 ValeurCmp = PTS12066V100;
-IdModule  = MF-USMF;
+IdModule  = MF-MSMF;
 EndCmp
 
 BeginCmp
 TimeStamp = /52CC00C6/52CDA9E9;
 Reference = TH3;
 ValeurCmp = PTS12066V100;
-IdModule  = MF-USMF;
+IdModule  = MF-MSMF;
 EndCmp
 
 BeginCmp
 TimeStamp = /52CC00C6/52CA51B1;
 Reference = TH4;
 ValeurCmp = PTS12066V100;
-IdModule  = MF-USMF;
+IdModule  = MF-MSMF;
 EndCmp
 
 BeginCmp
 TimeStamp = /52CC00C6/52CD4696;
 Reference = TH5;
 ValeurCmp = PTS12066V100;
-IdModule  = MF-USMF;
+IdModule  = MF-MSMF;
 EndCmp
 
 BeginCmp
 TimeStamp = /52CC00C6/52CD469C;
 Reference = TH6;
 ValeurCmp = PTS12066V100;
-IdModule  = MF-USMF;
+IdModule  = MF-MSMF;
 EndCmp
 
 BeginCmp
 TimeStamp = /52CC00C6/52CD46A2;
 Reference = TH7;
 ValeurCmp = PTS12066V100;
-IdModule  = MF-USMF;
+IdModule  = MF-MSMF;
 EndCmp
 
 BeginCmp
 TimeStamp = /52CA0F12/52CA1D91;
 Reference = TH8;
 ValeurCmp = MF-MSMF030-2;
-IdModule  = MF-MSMF;
+IdModule  = SM1812;
 EndCmp
 
 BeginCmp
