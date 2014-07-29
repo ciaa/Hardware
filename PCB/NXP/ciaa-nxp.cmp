@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = 29/07/2014 17:17:11
+Cmp-Mod V01 Created by PcbNew date = 29/07/2014 19:14:58
 
 BeginCmp
 TimeStamp = /52C1CAF4/52C1CFDF;
@@ -480,7 +480,7 @@ BeginCmp
 TimeStamp = /52C1CAF4/52F053C5;
 Reference = C68;
 ValeurCmp = 10uF;
-IdModule  = c_1206_tantalio;
+IdModule  = c_1206_tantalio_1;
 EndCmp
 
 BeginCmp
