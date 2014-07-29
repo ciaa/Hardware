@@ -1,4 +1,4 @@
-update=28/07/2014 15:51:06
+update=29/07/2014 16:57:17
 version=1
 last_client=cvpcb
 [general]
@@ -77,6 +77,7 @@ LibName51=footprints/MicroUSB-ZX62AB&B-5PA
 LibName52=footprints/DB)-K22X-E9P-NJ
 LibName53=inductors
 LibName54=footprints/L-SRN1060
+LibName55=footprints/SOD-123
 LibDir=
 [eeschema]
 version=1

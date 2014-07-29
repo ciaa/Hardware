@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = 28/07/2014 19:01:54
+Cmp-Mod V01 Created by PcbNew date = 29/07/2014 17:17:11
 
 BeginCmp
 TimeStamp = /52C1CAF4/52C1CFDF;
@@ -2727,84 +2727,84 @@ BeginCmp
 TimeStamp = /52CA388F/52CA4EF2;
 Reference = T1;
 ValeurCmp = NSI50010YT1G;
-IdModule  = SOD123;
+IdModule  = SOD-123;
 EndCmp
 
 BeginCmp
 TimeStamp = /52CA388F/52E561DF;
 Reference = T2;
 ValeurCmp = NSI50010YT1G;
-IdModule  = SOD123;
+IdModule  = SOD-123;
 EndCmp
 
 BeginCmp
 TimeStamp = /52CA388F/52E561E5;
 Reference = T3;
 ValeurCmp = NSI50010YT1G;
-IdModule  = SOD123;
+IdModule  = SOD-123;
 EndCmp
 
 BeginCmp
 TimeStamp = /52CA388F/52E561EB;
 Reference = T4;
 ValeurCmp = NSI50010YT1G;
-IdModule  = SOD123;
+IdModule  = SOD-123;
 EndCmp
 
 BeginCmp
 TimeStamp = /52CA388F/52E561F1;
 Reference = T5;
 ValeurCmp = NSI50010YT1G;
-IdModule  = SOD123;
+IdModule  = SOD-123;
 EndCmp
 
 BeginCmp
 TimeStamp = /52CA388F/52E561F7;
 Reference = T6;
 ValeurCmp = NSI50010YT1G;
-IdModule  = SOD123;
+IdModule  = SOD-123;
 EndCmp
 
 BeginCmp
 TimeStamp = /52CA388F/52E561FD;
 Reference = T7;
 ValeurCmp = NSI50010YT1G;
-IdModule  = SOD123;
+IdModule  = SOD-123;
 EndCmp
 
 BeginCmp
 TimeStamp = /52CA388F/52E56203;
 Reference = T8;
 ValeurCmp = NSI50010YT1G;
-IdModule  = SOD123;
+IdModule  = SOD-123;
 EndCmp
 
 BeginCmp
 TimeStamp = /52CC00C6/52E565A4;
 Reference = T9;
 ValeurCmp = NSI50010YT1G;
-IdModule  = SOD123;
+IdModule  = SOD-123;
 EndCmp
 
 BeginCmp
 TimeStamp = /52CC00C6/52E56745;
 Reference = T10;
 ValeurCmp = NSI50010YT1G;
-IdModule  = SOD123;
+IdModule  = SOD-123;
 EndCmp
 
 BeginCmp
 TimeStamp = /52CC00C6/52E56751;
 Reference = T11;
 ValeurCmp = NSI50010YT1G;
-IdModule  = SOD123;
+IdModule  = SOD-123;
 EndCmp
 
 BeginCmp
 TimeStamp = /52CC00C6/52E5675D;
 Reference = T12;
 ValeurCmp = NSI50010YT1G;
-IdModule  = SOD123;
+IdModule  = SOD-123;
 EndCmp
 
 BeginCmp
