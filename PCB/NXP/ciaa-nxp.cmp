@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = 29/07/2014 19:14:58
+Cmp-Mod V01 Created by PcbNew date = 30/07/2014 15:23:59
 
 BeginCmp
 TimeStamp = /52C1CAF4/52C1CFDF;
@@ -116,7 +116,7 @@ BeginCmp
 TimeStamp = /52C2B8A1/52B789F8;
 Reference = C16;
 ValeurCmp = 470uF;
-IdModule  = c_elec_13.7x13x13.5;
+IdModule  = c_elec_10x10.5;
 EndCmp
 
 BeginCmp
