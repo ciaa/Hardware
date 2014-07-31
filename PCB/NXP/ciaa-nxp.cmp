@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = 30/07/2014 15:23:59
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 31/07/2014 15:27:02
 
 BeginCmp
 TimeStamp = /52C1CAF4/52C1CFDF;
@@ -690,21 +690,21 @@ BeginCmp
 TimeStamp = /52C1F703/52C5B350;
 Reference = D6;
 ValeurCmp = PSD12C;
-IdModule  = SOD323;
+IdModule  = DO214AA-1-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C1F703/52C5B351;
 Reference = D7;
 ValeurCmp = PSD12C;
-IdModule  = SOD323;
+IdModule  = DO214AA-1-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C1F703/52C5B34F;
 Reference = D8;
 ValeurCmp = PSD12C;
-IdModule  = SOD323;
+IdModule  = DO214AA-1-2;
 EndCmp
 
 BeginCmp
@@ -2811,14 +2811,14 @@ BeginCmp
 TimeStamp = /52C2B8A1/52C22463;
 Reference = TH1;
 ValeurCmp = PTS18126V300;
-IdModule  = MF-MSMF;
+IdModule  = MF-SM030;
 EndCmp
 
 BeginCmp
 TimeStamp = /52CC00C6/52CDA33F;
 Reference = TH2;
 ValeurCmp = PTS12066V100;
-IdModule  = MF-MSMF;
+IdModule  = MF-USMF;
 EndCmp
 
 BeginCmp
