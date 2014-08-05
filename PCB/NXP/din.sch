@@ -72,7 +72,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 12
 Title "CIAA Entradas Digitales"
-Date "12 jul 2014"
+Date "5 aug 2014"
 Rev "1.0"
 Comp ""
 Comment1 ""
