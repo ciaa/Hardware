@@ -72,7 +72,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 12 12
 Title "CIAA Fuente de alimentación"
-Date "12 jul 2014"
+Date "5 aug 2014"
 Rev "1.0"
 Comp ""
 Comment1 ""
@@ -162,7 +162,7 @@ L DIODE D2
 U 1 1 52B78B27
 P 3550 3550
 F 0 "D2" H 3550 3650 40  0000 C CNN
-F 1 "RS3J-E3/57T" H 3550 3450 40  0000 C CNN
+F 1 "MURS360T3G" H 3550 3450 40  0000 C CNN
 F 2 "~" H 3550 3550 60  0000 C CNN
 F 3 "~" H 3550 3550 60  0000 C CNN
 	1    3550 3550
