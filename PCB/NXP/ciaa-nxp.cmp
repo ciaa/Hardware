@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 31/07/2014 15:27:02
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 07/08/2014 16:54:18
 
 BeginCmp
 TimeStamp = /52C1CAF4/52C1CFDF;
@@ -661,7 +661,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52C2B8A1/52B78B27;
 Reference = D2;
-ValeurCmp = RS3J-E3/57T;
+ValeurCmp = MURS360T3G;
 IdModule  = CASE-403-03;
 EndCmp
 
@@ -1982,6 +1982,13 @@ IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
+TimeStamp = /52CC00C6/53E15A65;
+Reference = R31;
+ValeurCmp = 1.5k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
 TimeStamp = /52C1F703/52C5B362;
 Reference = R32;
 ValeurCmp = 390;
@@ -2325,6 +2332,13 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /52CC00C6/53E15C17;
+Reference = R81;
+ValeurCmp = 1.5k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
 TimeStamp = /532C7A7B/532D06DF;
 Reference = R82;
 ValeurCmp = 15k;
@@ -2542,6 +2556,13 @@ IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
+TimeStamp = /52CC00C6/53E15C25;
+Reference = R113;
+ValeurCmp = 1.5k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
 TimeStamp = /52CC00C6/52CF03F5;
 Reference = R114;
 ValeurCmp = 100k;
@@ -2714,6 +2735,13 @@ TimeStamp = /52CC00C6/52E088A9;
 Reference = R138;
 ValeurCmp = 330;
 IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CC00C6/53E15C33;
+Reference = R139;
+ValeurCmp = 1.5k;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
