@@ -3,7 +3,7 @@
   (general
     (links 1036)
     (no_connects 0)
-    (area 13.280999 15.522999 151.981001 101.823001)
+    (area 9.646999 6.484001 164.478567 107.800001)
     (thickness 1.6)
     (drawings 88)
     (tracks 8741)
@@ -17,13 +17,13 @@
     (15 F.Cu signal)
     (2 Inner2.Cu mixed hide)
     (1 Inner1.Cu mixed hide)
-    (0 B.Cu signal)
+    (0 B.Cu signal hide)
     (16 B.Adhes user hide)
     (17 F.Adhes user hide)
     (18 B.Paste user hide)
     (19 F.Paste user hide)
-    (20 B.SilkS user hide)
-    (21 F.SilkS user)
+    (20 B.SilkS user)
+    (21 F.SilkS user hide)
     (22 B.Mask user hide)
     (23 F.Mask user hide)
     (24 Dwgs.User user hide)
@@ -60,7 +60,7 @@
     (pad_to_mask_clearance 0.0254)
     (pad_to_paste_clearance -0.0254)
     (aux_axis_origin 13.335 101.77272)
-    (visible_elements 7FFF7D19)
+    (visible_elements 7FFF7E29)
     (pcbplotparams
       (layerselection 284983303)
       (usegerberextensions true)
@@ -960,6 +960,11 @@
       (layers B.Cu B.Paste B.Mask)
       (net 371 N-00000424)
     )
+    (model ../FSL/CIAA_K60/footprints/packages3d/ptc_1210.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MF-SM030 (layer B.Cu) (tedit 5346EB26) (tstamp 530C9D6C)
@@ -1381,7 +1386,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 110 /CPU/TCK)
     )
-    (model smd/smd_dil/tssop-20.wrl
+    (model ../FSL/CIAA_K60/footprints/packages3d/tssop-20.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1622,11 +1627,6 @@
       (layers F.Cu F.Paste F.Mask)
       (net 191 GND)
     )
-    (model oaa/TSOP54-M08-T2.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module TO263 (layer F.Cu) (tedit 5345CBD8) (tstamp 530C90DD)
@@ -1674,6 +1674,11 @@
     (pad 2 smd rect (at 0 0 180) (size 1.143 2.286)
       (layers F.Cu F.Paste F.Mask)
       (net 375 N-00000432)
+    )
+    (model ../FSL/CIAA_K60/footprints/packages3d/dpack_5.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -1723,6 +1728,11 @@
       (layers F.Cu F.Paste F.Mask)
       (net 373 N-00000430)
     )
+    (model ../FSL/CIAA_K60/footprints/packages3d/dpack_5.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module TO263 (layer F.Cu) (tedit 5345CBD4) (tstamp 530C9115)
@@ -1771,6 +1781,11 @@
       (layers F.Cu F.Paste F.Mask)
       (net 374 N-00000431)
     )
+    (model ../FSL/CIAA_K60/footprints/packages3d/dpack_5.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module TO263 (layer F.Cu) (tedit 5345CBE1) (tstamp 530C9131)
@@ -1818,6 +1833,11 @@
     (pad 2 smd rect (at 0 0 180) (size 1.143 2.286)
       (layers F.Cu F.Paste F.Mask)
       (net 378 N-00000435)
+    )
+    (model ../FSL/CIAA_K60/footprints/packages3d/dpack_5.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -2807,7 +2827,7 @@
       (layers B.Cu B.Paste B.Mask)
       (net 2 +3.3V)
     )
-    (model oaa/SO8.wrl
+    (model ../FSL/CIAA_K60/footprints/packages3d/so-8.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7535,9 +7555,9 @@
       (layers *.Cu *.Mask)
       (net 256 N-00000269)
     )
-    (model connectors/RJ45_8.wrl
+    (model ../FSL/CIAA_K60/footprints/packages3d/RJ45_8.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.4 0.4 0.4))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -7571,6 +7591,11 @@
     (pad 4 smd rect (at 0 9.1 90) (size 1.4 2.1)
       (layers F.Cu F.Paste F.Mask)
       (net 191 GND)
+    )
+    (model ../FSL/CIAA_K60/footprints/packages3d/smd_push.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -7639,7 +7664,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 170 "/Salidas Digitales/C3B")
     )
-    (model oaa/PIN_ARRAY_6X2.wrl
+    (model ../FSL/CIAA_K60/footprints/packages3d/pin_strip_6x2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7693,7 +7718,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 192 GNDA)
     )
-    (model pin_array/pins_array_4x2.wrl
+    (model ../FSL/CIAA_K60/footprints/packages3d/pin_strip_4x2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8829,7 +8854,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 143 /GPIO/AN1)
     )
-    (model oaa/LQFP144-M05.wrl
+    (model footprints/3D/tqfp-144.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9273,6 +9298,11 @@
     (pad 2 smd rect (at 0.7493 0 270) (size 0.79756 0.79756)
       (layers F.Cu F.Paste F.Mask)
       (net 191 GND)
+    )
+    (model ../FSL/CIAA_K60/footprints/packages3d/led_0603.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -10297,6 +10327,11 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 4 +5V)
     )
+    (model ../FSL/CIAA_K60/footprints/packages3d/relay.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module G5V-2 (layer F.Cu) (tedit 5346DA59) (tstamp 530CA17D)
@@ -10350,6 +10385,11 @@
     (pad 1 thru_hole circle (at -9.144 3.81 270) (size 1.79832 1.79832) (drill 0.99568)
       (layers *.Cu *.Mask F.SilkS)
       (net 4 +5V)
+    )
+    (model ../FSL/CIAA_K60/footprints/packages3d/relay.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -10405,6 +10445,11 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 4 +5V)
     )
+    (model ../FSL/CIAA_K60/footprints/packages3d/relay.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module G5V-2 (layer F.Cu) (tedit 5346DA67) (tstamp 530CA1A7)
@@ -10458,6 +10503,11 @@
     (pad 1 thru_hole circle (at -9.144 3.81 270) (size 1.79832 1.79832) (drill 0.99568)
       (layers *.Cu *.Mask F.SilkS)
       (net 4 +5V)
+    )
+    (model ../FSL/CIAA_K60/footprints/packages3d/relay.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -14247,6 +14297,11 @@
       (layers B.Cu B.Paste B.Mask)
       (net 2 +3.3V)
     )
+    (model ../FSL/CIAA_K60/footprints/packages3d/so-8.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module -SOIC8 (layer B.Cu) (tedit 5346E1CF) (tstamp 530CA8C9)
@@ -14331,6 +14386,11 @@
     (pad 8 smd rect (at -1.905 2.59842 90) (size 0.59944 2.19964)
       (layers B.Cu B.Paste B.Mask)
       (net 2 +3.3V)
+    )
+    (model ../FSL/CIAA_K60/footprints/packages3d/so-8.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -14417,6 +14477,11 @@
       (layers B.Cu B.Paste B.Mask)
       (net 2 +3.3V)
     )
+    (model ../FSL/CIAA_K60/footprints/packages3d/so-8.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module -SOIC8 (layer B.Cu) (tedit 5346E673) (tstamp 530CA92F)
@@ -14502,6 +14567,11 @@
       (layers B.Cu B.Paste B.Mask)
       (net 160 /RS485_RS232_CAN/CAN_STB)
     )
+    (model ../FSL/CIAA_K60/footprints/packages3d/so-8.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module -SOIC8 (layer F.Cu) (tedit 5346DA10) (tstamp 530CA962)
@@ -14584,6 +14654,11 @@
     (pad 8 smd rect (at -1.905 -2.59842 90) (size 0.59944 2.19964)
       (layers F.Cu F.Paste F.Mask)
       (net 126 /CPU/USB_VBUS)
+    )
+    (model ../FSL/CIAA_K60/footprints/packages3d/so-8.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -14769,6 +14844,11 @@
       (layers B.Cu B.Paste B.Mask)
       (net 12 /CPU/DIN0)
     )
+    (model ../FSL/CIAA_K60/footprints/packages3d/so-16.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module -SOP16 (layer B.Cu) (tedit 5346E399) (tstamp 530F9926)
@@ -14922,6 +15002,11 @@
       (layers B.Cu B.Paste B.Mask)
       (net 16 /CPU/DIN4)
     )
+    (model ../FSL/CIAA_K60/footprints/packages3d/so-16.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module -SOIC8 (layer F.Cu) (tedit 5346D614) (tstamp 530F9959)
@@ -15006,6 +15091,11 @@
     (pad 8 smd rect (at -1.905 -2.59842 90) (size 0.59944 2.19964)
       (layers F.Cu F.Paste F.Mask)
       (net 4 +5V)
+    )
+    (model ../FSL/CIAA_K60/footprints/packages3d/so-8.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -15553,6 +15643,11 @@
       (layers F.Cu F.Paste F.Mask)
       (net 163 "/Salida Analógica/24V_A")
     )
+    (model ../FSL/CIAA_K60/footprints/packages3d/so-8.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module -SOT89-321 (layer F.Cu) (tedit 53493950) (tstamp 533907D9)
@@ -15635,6 +15730,11 @@
     (pad 1 smd oval (at 1.4986 1.97866 90) (size 0.99822 1.4986)
       (layers F.Cu F.Paste F.Mask)
       (net 381 N-00000438)
+    )
+    (model ../FSL/CIAA_K60/footprints/packages3d/sot89.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -15882,11 +15982,6 @@
     (pad 20 thru_hole circle (at 8.89 -1.27 180) (size 1.524 1.524) (drill 1.016)
       (layers *.Cu *.Mask F.SilkS)
     )
-    (model pin_array/pins_array_12x2.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Pin_Array_5x2_1.27mm_SMD (layer F.Cu) (tedit 5346D8A6) (tstamp 530C9BCB)
@@ -16116,6 +16211,11 @@
     (pad 9 smd rect (at 1.15062 2.64922 270) (size 1.80086 1.89992)
       (layers F.Cu F.Paste F.Mask)
     )
+    (model ../FSL/CIAA_K60/footprints/packages3d/usb_B_micro_smd.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module USB_microAB_ZX62-AB&B-5PA-11 (layer F.Cu) (tedit 53492F21) (tstamp 530C9018)
@@ -16177,6 +16277,11 @@
     (pad 9 smd rect (at 1.15062 2.64922 270) (size 1.80086 1.89992)
       (layers F.Cu F.Paste F.Mask)
     )
+    (model ../FSL/CIAA_K60/footprints/packages3d/usb_B_micro_smd.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module USB_microAB_ZX62-AB&B-5PA-11 (layer F.Cu) (tedit 53493193) (tstamp 534BE70D)
@@ -16237,6 +16342,11 @@
     )
     (pad 9 smd rect (at 1.15062 2.64922 270) (size 1.80086 1.89992)
       (layers F.Cu F.Paste F.Mask)
+    )
+    (model ../FSL/CIAA_K60/footprints/packages3d/usb_B_micro_smd.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -16357,6 +16467,11 @@
     (pad 2 smd rect (at 2.79908 0 180) (size 1.99898 7.59968)
       (layers F.Cu F.Paste F.Mask)
       (net 4 +5V)
+    )
+    (model ../FSL/CIAA_K60/footprints/packages3d/inductor_smd_10x9.8.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -17029,7 +17144,7 @@
       (layers B.Cu B.Paste B.Mask)
       (net 123 /CPU/USB_JTAG_1.8V)
     )
-    (model oaa/LQFP64-M05.wrl
+    (model ../FSL/CIAA_K60/footprints/packages3d/qfp-64.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -17179,6 +17294,11 @@
       (layers B.Cu B.Paste B.Mask)
       (net 361 N-00000398)
     )
+    (model ../FSL/CIAA_K60/footprints/packages3d/ptc_1210.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MF-MSMF (layer B.Cu) (tedit 53D6C619) (tstamp 530CDEA9)
@@ -17206,6 +17326,11 @@
     (pad 1 smd rect (at -2.1 0 90) (size 1.5 3.2)
       (layers B.Cu B.Paste B.Mask)
       (net 375 N-00000432)
+    )
+    (model ../FSL/CIAA_K60/footprints/packages3d/ptc_1210.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -17235,6 +17360,11 @@
       (layers B.Cu B.Paste B.Mask)
       (net 374 N-00000431)
     )
+    (model ../FSL/CIAA_K60/footprints/packages3d/ptc_1210.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MF-MSMF (layer B.Cu) (tedit 53D6C6CE) (tstamp 530C9CFC)
@@ -17263,6 +17393,11 @@
       (layers B.Cu B.Paste B.Mask)
       (net 373 N-00000430)
     )
+    (model ../FSL/CIAA_K60/footprints/packages3d/ptc_1210.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MF-MSMF (layer B.Cu) (tedit 53D6C6D2) (tstamp 530C9D22)
@@ -17290,6 +17425,11 @@
     (pad 1 smd rect (at -2.1 0 90) (size 1.5 3.2)
       (layers B.Cu B.Paste B.Mask)
       (net 378 N-00000435)
+    )
+    (model ../FSL/CIAA_K60/footprints/packages3d/ptc_1210.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
