@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 13
 Title "USB OTG"
-Date "24 jul 2014"
+Date "1 aug 2014"
 Rev "1.0"
 Comp "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
@@ -531,9 +531,9 @@ Connection ~ 10450 2550
 Wire Wire Line
 	6500 4700 4900 4700
 Wire Wire Line
-	5000 4350 5000 3200
-Connection ~ 5000 3200
+	6100 4350 6100 3200
+Connection ~ 6100 3200
 Wire Wire Line
-	6100 4350 6100 3050
-Connection ~ 6100 3050
+	5000 4350 5000 3050
+Connection ~ 5000 3050
 $EndSCHEMATC

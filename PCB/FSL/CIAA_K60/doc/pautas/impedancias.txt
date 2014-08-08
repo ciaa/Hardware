@@ -1,0 +1,84 @@
+# Proyecto CIAA - FSL: Cálculo de impedancias #
+Autor: INTI CMNB - Laboratorio CEA (Circuitos Electrónicos Avanzados)   
+Fecha: Agosto 2014
+
+## Stack up del circuito impreso ##
+* El stack-up de la CIAA-FSL es el siguiente:
+    - Top layer: Señal con plano de GND.  
+    - Inner layer 1: Señal con plano de power con +3.3VDC. En los sectores con 
+señales analógicas utilizar como referencia la tensión +3.3VADC.   
+    - Inner layer 2: Plano de GND. En los sectores con señales analógicas 
+utilizar como referencia GNDA.  
+    - Bottom layer: Señal con plano de GND.
+* De acuerdo a lo informado por [Ernesto Mayer S.A.](http://www.mayerpcb.com/), 
+la empresa que fabricará los primeros prototipos del circuito impreso, los 
+espesores de los materiales a utilizar son:
+    - L1: 1 oz (0,035 mm)
+    - PP: 15,75 mils (0,4 mm)
+    - L2: 1 oz (0,035 mm)
+    - PP: 31,50 mils (0,8 mm)
+    - L3: 1 oz (0,035 mm)
+    - PP: 15,75 mils (0,4 mm)
+    - L4: 1 oz (0,035 mm)
+* El espesor final del impreso es de 1,6 mm. 
+* El material a utilizar es del fabricante [Isola](http://www.isola-group.com/), 
+con el código DURAVER-E-Cu 
+quality 104 ML. Con los espesores indicados, se puede determinar el material 
+exacto que se utilizará y su correspondiente contenido de resina. Con el 
+porcentaje de resina y la frecuencia de trabajo, se obtiene la permitividad
+aproximada a usar en los cálculos de impedancia. Ver la hoja de datos del 
+material en datasheets/laminates_prepregs/Isola_Duraver_E104ML_Multilayer.pdf.
+El prepreg a utilizar es el 2 x 7628AT05, con un espesor de 0,173 mm y un 
+contenido de resina del 47 %. Según el gráfico de permitividad del material,
+para una frecuencia de 200 MHz y un contenido de resina de 47 %, la permitividad
+aproximada es de 4,45.     
+  
+
+## Cálculo de las líneas diferenciales USB ##
+* Según la especificación USB, las líneas diferenciales deben tener una 
+impedancia característica diferencial de 90 ohm +/- 15 %. Para cumplir con este requerimiento, 
+debe calcularse el ancho de las pistas y la distancia entre las mismas en base
+al stackup presentado. Un software que realiza este cálculo es la herramienta 
+Transline de la calculadora del Kicad.
+* Los datos a ingresar son:
+    - Er = 4,45
+    - H = 0,346 mm (0,173 mm x 2)
+    - T = 0,035 mm
+    - S = 7 mils 
+    - L = 50 mm
+    - Z0o = 45 ohm (90 ohm / 2)
+    - Ang_l = 0
+    - Z0e = 75    
+* Presionar el botón Synthetize y luego ajustar S a 7 mils, redondear W a 18 mils e 
+ingresar L = 50 mm. Presionar Analyze. 
+* Resultados:
+    - Ancho de pistas (W) = 18 mils
+    - Distancia entre pistas (S) = 7 mils
+    - Zdiff (Z0o * 2) = 92 ohm
+* Consultar las definiciones de impedancia par, impar y de modo común en:
+[Even mode and odd mode impedance - an introduction](http://www.polarinstruments.com/support/cits/AP157.html)
+
+
+![Cálculo USB](images/calc_USB.png)    
+
+## Cálculo de las líneas diferenciales Ethernet ##
+* Para el caso de Ethernet, las líneas diferenciales deben tener una 
+impedancia característica diferencial de 100 ohm. 
+* Los datos a ingresar son:
+    - Er = 4,45
+    - H = 0,346 mm (0,173 mm x 2)
+    - T = 0,035 mm
+    - S = 8 mils 
+    - L = 50 mm
+    - Z0o = 50 ohm (100 ohm / 2)
+    - Ang_l = 0
+    - Z0e = 75    
+* Presionar el botón Synthetize y luego ajustar S a 8 mils, cambiar W a 15 mils 
+(para que no quede tan ancha) e ingresar L = 50 mm. Presionar Analyze. 
+* Resultados:
+    - Ancho de pistas (W) = 15 mils
+    - Distancia entre pistas (S) = 8 mils
+    - Zdiff (Z0o * 2) = 102 ohm
+
+
+![Cálculo ETH](images/calc_ETH.png)

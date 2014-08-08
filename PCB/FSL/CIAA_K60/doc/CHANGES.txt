@@ -2,9 +2,7 @@ Cambios realizados a la CIAA-FSL
 ================================
 
 * Fecha: 15/04/2014
-* Autores: La CIAA-NXP se distribuye bajo las notas de copyright y autoría
-           mencionadas en NXP.txt
-           El desarrollo se realizó en forma colectiva en la siguiente lista/grupo:
+* Autores: El desarrollo de la CIAA-NXP se realizó en forma colectiva en la siguiente lista/grupo:
            https://groups.google.com/forum/#!forum/ciaa-hardware
            Un listado de colaboradores:
            https://docs.google.com/spreadsheet/ccc?key=0AhRC6m7OGuuYdGtRdEhlLUprcXZUYWQ2TDI0Slcta2c#gid=0
@@ -50,6 +48,20 @@ Cambios realizados a la CIAA-FSL
            Matías Parra Visentin <mparra EN inti.gob.ar>,
            Noelia Scotti <nscotti EN inti.gob.ar> 
 * Archivos: Archivos .sch de Kicad.
-* Descripción: Se hacen revisiones, cambios, adaptataciones y se completan los
+* Descripción: Se hacen revisiones, cambios, adaptaciones y se completan los
                campos de los componentes en los esquemáticos.
 
+* Fecha: 28/07/2014
+* Autor: Electrocomponentes S.A.:
+           Eduardo Santo <ehs EN electrocomponentes.com>,
+           Ignacio Zaradnik <iz EN electrocom.com.ar>,
+          En INTI-CMNB:
+           Alamon Diego Fernando <dalamon EN inti.gob.ar>,
+           David Caruso <david EN inti.gob.ar>,
+           Diego Brengi <brengi EN inti.gob.ar>,
+           Hernan Ledesma <fledesma EN inti.gob.ar>, 
+           Matías Parra Visentin <mparra EN inti.gob.ar>,
+           Noelia Scotti <nscotti EN inti.gob.ar> 
+* Archivos: .kicad_pcb  CIAAFSL.mod *.wrl
+* Descripción: Se publica una versión del PCB con una primera ubicación de los
+               componentes, y los modelos 3D de los mismos.

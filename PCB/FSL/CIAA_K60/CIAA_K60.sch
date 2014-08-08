@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 13
 Title "CIAA Freescale - Esquemático jerárquico"
-Date "15 jul 2014"
+Date "7 aug 2014"
 Rev "1.0"
 Comp "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
@@ -483,10 +483,6 @@ F 9 "~" H 10900 5950 60  0001 C CNN "Footprint estandar"
 	1    10350 5200
 	1    0    0    -1  
 $EndComp
-Text Notes 8400 6350 0    90   Italic 0
-Bajo licencia CERN OHL v.1.2
-Text Notes 8550 6500 0    70   Italic 0
-Ver: doc/LICENCIA_CIAA_FSL.txt\n
 $Comp
 L OSHWA G101
 U 1 1 53A0DEBC
@@ -710,14 +706,6 @@ Wire Wire Line
 	2950 2800 2150 2800
 Wire Wire Line
 	2150 2900 2950 2900
-Wire Notes Line
-	8350 6050 11150 6050
-Wire Notes Line
-	11150 6050 11150 6750
-Wire Notes Line
-	11150 6750 8350 6750
-Wire Notes Line
-	8350 6750 8350 6050
 Wire Wire Line
 	9900 5300 10350 5300
 Connection ~ 10050 5300
@@ -735,4 +723,15 @@ Wire Wire Line
 	5200 1550 5800 1550
 Text Label 5750 6050 2    60   ~ 0
 USB_VBUS
+$Comp
+L LOGO-CIAA-FSL G102
+U 1 1 53E304AA
+P 10000 6400
+F 0 "G102" H 10000 5764 60  0001 C CNN
+F 1 "LOGO-CIAA-FSL" H 10000 7036 60  0001 C CNN
+F 2 "LOGO-CIAA" H 10000 6400 60  0001 C CNN
+F 3 "~" H 10000 6400 60  0000 C CNN
+	1    10000 6400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

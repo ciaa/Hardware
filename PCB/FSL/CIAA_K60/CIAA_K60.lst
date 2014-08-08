@@ -1,455 +1,463 @@
-eeschema (2013-03-19 BZR 4004)-stable  >> Creation date: 05/05/2014 12:54:18 a.m.
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 08/08/2014 10:40:54 a.m.
 
 #Componentes ( orden = Valor )
-| CR2032_HOLDER BT201     
-| 18pF         C204      
-| 18pF         C207      
-| 27pF         C201      
-| 27pF         C202      
-| 27pF         C216      
-| 27pF         C220      
-| 470pF        C905      
-| 470pF        C906      
-| 470pF        C907      
-| 470pF        C908      
-| 1nF          C901      
-| 1nF          C902      
-| 1nF          C903      
-| 1nF          C904      
-| 3,3nF        C222      
-| 10nF         C208      
-| 10nF         C212      
-| 10nF         C1202     
-| 100nF        C203      
-| 100nF        C205      
-| 100nF        C206      
-| 100nF        C209      
-| 100nF        C210      
-| 100nF        C213      
-| 100nF        C214      
-| 100nF        C215      
-| 100nF        C217      
-| 100nF        C218      
-| 100nF        C221      
-| 100nF        C223      
-| 100nF        C224      
-| 100nF        C227      
-| 100nF        C230      
-| 100nF        C232      
-| 100nF        C233      
-| 100nF        C234      
-| 100nF        C235      
-| 100nF        C236      
-| 100nF        C237      
-| 100nF        C238      
-| 100nF        C211      
-| 100nF        C225      
-| 100nF        C226      
-| 100nF        C239      
-| 100nF        C240      
-| 100nF        C301      
-| 100nF        C302      
-| 100nF        C304      
-| 100nF        C305      
-| 100nF        C306      
-| 100nF        C307      
-| 100nF        C309      
-| 100nF        C310      
-| 100nF        C312      
-| 100nF        C314      
-| 100nF        C315      
-| 100nF        C402      
-| 100nF        C403      
-| 100nF        C404      
-| 100nF        C406      
-| 100nF        C407      
-| 100nF        C408      
-| 100nF        C409      
-| 100nF        C410      
-| 100nF        C501      
-| 100nF        C503      
-| 100nF        C910      
-| 100nF        C911      
-| 100nF        C912      
-| 100nF        C913      
-| 100nF        C914      
-| 100nF        C1002     
-| 100nF        C1003     
-| 100nF        C1005     
-| 100nF        C1201     
-| 1uF          C1001     
-| 1uF          C1004     
-| 4.7uF        C219      
-| 4.7uF        C228      
-| 4.7uF        C229      
-| 4.7uF        C502      
-| 10uF         C231      
-| 10uF / 6.3V  C303      
-| 10uF / 6V3   C401      
-| 10uF / 6V3   C405      
-| 10uF         C909      
-| 10uF         C1103     
-| 22uF / 6.3V  C308      
-| 22uF / 6.3V  C311      
-| 22uF / 6.3V  C313      
-| 22uF / 6.3V  C316      
-| 330uF        C1102     
-| 330uF        C1105     
-| 470uF        C1101     
-| 470uF        C1104     
-| BAT54C       D201      
-| BAV199       D901      
-| BAV199       D902      
-| BAV199       D903      
-| BAV199       D904      
-| BAV199       D1201     
-| BAV199       D1202     
-| 1N4148       D301      
-| 1N4148       D302      
-| PSD12C       D401      
-| PSD12C       D402      
-| PSD12C       D403      
-| LL4148       D701      
-| LL4148       D702      
-| LL4148       D703      
-| LL4148       D704      
-| LL4148       D705      
-| LL4148       D706      
-| LL4148       D707      
-| LL4148       D708      
-| BZX585-B6V8  D801      
-| BZX585-B6V8  D802      
-| BZX585-B6V8  D803      
-| BZX585-B6V8  D804      
-| LED red      D805      
-| LED red      D806      
-| LED red      D807      
-| LED red      D808      
-| LL4148       D809      
-| LED red      D810      
-| LL4148       D811      
-| LED red      D812      
-| LL4148       D813      
-| LED red      D814      
-| LL4148       D815      
-| LED red      D816      
-| LED green    D1001     
-| RS3J-E3/57T  D1101     
-| B540C-13-F   D1102     
-| PMEG3020EH   D1103     
-| PMEG3020EH   D1104     
-| LED red      D1105     
-| CONN_1       F1        
-| CONN_1       F2        
-| CONN_1       F3        
-| CONN_1       F4        
-| CONN_1       F5        
-| CONN_1       F6        
-| BLM18BD470SN1 FB401     
-| BLM18BD470SN1 FB402     
-| BLM18BD470SN1 FB403     
-| BLM18BD470SN1 FB404     
-| BLM18BD470SN1 FB405     
-| BLM18KG221SN1 FB406     
-| BLM18KG221SN1D FB501     
-| MMZ1608B601C FB502     
-| MMZ1608B601C FB901     
-| MMZ1608B601C FB902     
-| MMZ1608B601C FB903     
-| MMZ1608B601C FB904     
-| MMZ1608B601C FB1101    
-| MMZ1608B601C FB1102    
-| MMZ1608B601C FB1201    
-| GS3          GS20      
-| GS3          GS801     
-| GS3          GS802     
-| GS3          GS803     
-| GS3          GS804     
-| 4mm          H1        
-| 4mm          H2        
-| 4mm          H3        
-| 4mm          H4        
-| 4mm          H5        
-| 4mm          H6        
-| 4mm          H7        
-| NB2304       IC301     
-| PS2801-4     IC701     
-| PS2801-4     IC702     
-| CONN_5X2     J201      
-| CONN_3       J202      
-| ZX62-AB-5PA  J203      
-| CONN_13X2    J204      
-| HR911105A    J301      
-| TB_1X3       J401      
-| DB9          J402      
-| TB_1X3       J403      
-| USBA         J501      
-| ZX62-AB-5PA  J502      
-| 101-00303-68 J1001     
-| TB_1X3       J701      
-| TB_1X3       J702      
-| TB_1X3       J703      
-| TB_1X3       J801      
-| TB_1X3       J802      
-| TB_1X3       J803      
-| TB_1X2       J804      
-| TB_1X3       J805      
-| TB_1X2       J806      
-| TB_1X3       J901      
-| TB_1X2       J902      
-| TB_1X2       J1101     
-| TB_1X2       J1201     
-| JUMPER-2     JP401     
-| JUMPER-2     JP402     
-| JUMPER-2     JP403     
-| JUMPER-2     JP404     
-| JUMPER-2     JP405     
-| JUMPER-2     JP406     
-| JUMPER       JP901     
-| JUMPER       JP902     
-| JUMPER       JP903     
-| JUMPER       JP904     
-| JUMPER3      JP905     
-| JUMPER3      JP906     
-| JUMPER3      JP907     
-| JUMPER3      JP908     
-| JUMPER3      JP1201    
-| G5V-2-DC5    K801      
-| G5V-2-DC5    K802      
-| G5V-2-DC5    K803      
-| G5V-2-DC5    K804      
-| 47uH         L1101     
-| 330R         L205      
-| 330R         L206      
-| 600R / 0.5A  L203      
-| 600R / 0.5A  L204      
-| ACML0603101  L201      
-| ACML0603101  L202      
-| BK1608HS220-T L301      
-| BK1608HS220-T L302      
-| BK1608HS220-T L303      
-| BK1608HS220-T L304      
-| CONN_11X2    P601      
-| I2C          P602      
-| Analog       P603      
-| SPI          P604      
-| CONN_5X2     P605      
-| CONN_6X2     P801      
-| USMF020      PS401     
-| USMF020      PS402     
-| BC817-40     Q1201     
-| PBSS5240XF   Q1202     
-| IRF820S      Q805      
-| IRF820S      Q806      
-| IRF820S      Q807      
-| IRF820S      Q808      
-| NDS7002A     Q801      
-| NDS7002A     Q802      
-| NDS7002A     Q803      
-| NDS7002A     Q804      
-| NDS7002A     Q809      
-| NDS7002A     Q810      
-| NDS7002A     Q811      
-| NDS7002A     Q812      
-| BSS209PW     Q1001     
-| 0R           R215      
-| 0R           R216      
-| 0R           R217      
-| 0R           R218      
-| 0            R1001     
-| 0            R1002     
-| 0            R1003     
-| 0            R1004     
-| 0            R1005     
-| 0            R1006     
-| 0            R1007     
-| 0            R1014     
-| 4.7          R901      
-| 4.7          R902      
-| 4.7          R903      
-| 4.7          R904      
-| 22           R205      
-| 24.9         R1205     
-| 33           R302      
-| 33           R303      
-| 33           R304      
-| 33           R305      
-| 33           R307      
-| 33           R308      
-| 50           R310      
-| 50           R311      
-| 50           R312      
-| 50           R313      
-| 60           R415      
-| 60           R416      
-| 100          R701      
-| 100          R702      
-| 100          R703      
-| 100          R704      
-| 100          R705      
-| 100          R706      
-| 100          R707      
-| 100          R708      
-| 100          R921      
-| 100          R922      
-| 100          R923      
-| 100          R924      
-| 120          R407      
-| 237          R905      
-| 237          R906      
-| 237          R907      
-| 237          R908      
-| 270          R314      
-| 270          R315      
-| 270R         R411      
-| 330R         R213      
-| 330          R805      
-| 330          R806      
-| 330          R807      
-| 330          R808      
-| 330          R809      
-| 330          R810      
-| 330          R813      
-| 330          R814      
-| 680          R406      
-| 680          R408      
-| 680          R1016     
-| 1k           R1101     
-| 1K5          R413      
-| 1K5          R414      
-| 2K           R212      
-| 2K2          R201      
-| 2K2          R202      
-| 2.2k         R1204     
-| 2.49k        R1203     
-| 4K7          R204      
-| 4K7          R306      
-| 4K7          R401      
-| 4K7          R402      
-| 4K7          R403      
-| 4K7          R409      
-| 4K7          R412      
-| 6K49         R309      
-| 10K          R206      
-| 10K          R207      
-| 10K          R208      
-| 10K          R209      
-| 10K          R211      
-| 10K          R214      
-| 10K          R301      
-| 10k          R501      
-| 10k          R502      
-| 10k          R601      
-| 10k          R602      
-| 10k          R603      
-| 10k          R604      
-| 10k          R709      
-| 10k          R710      
-| 10k          R711      
-| 10k          R712      
-| 10k          R713      
-| 10k          R714      
-| 10k          R715      
-| 10k          R716      
-| 10k          R1008     
-| 10k          R1009     
-| 10k          R1010     
-| 10k          R1011     
-| 10k          R1012     
-| 10k          R1013     
-| 10k          R1015     
-| 10k          R1017     
-| 10K          R1206     
-| 12K 1%       R210      
-| 15k          R909      
-| 15k          R910      
-| 15k          R911      
-| 15k          R912      
-| 15k          R913      
-| 15k          R914      
-| 15k          R915      
-| 15k          R916      
-| 15k          R917      
-| 15k          R918      
-| 15k          R919      
-| 15k          R920      
-| 15k          R1201     
-| 33k          R1202     
-| 100K         R404      
-| 100K         R405      
-| 100k         R801      
-| 100k         R802      
-| 100k         R803      
-| 100k         R804      
-| 100k         R811      
-| 100k         R812      
-| 100k         R815      
-| 100k         R816      
-| 10M          R203      
-| 100 / 1/2W   R410      
-| NSI45020T1G  T701      
-| NSI45020T1G  T702      
-| NSI45020T1G  T703      
-| NSI45020T1G  T704      
-| NSI45020T1G  T705      
-| NSI45020T1G  T706      
-| NSI45020T1G  T707      
-| NSI45020T1G  T708      
-| NSI45020T1G  T801      
-| NSI45020T1G  T802      
-| NSI45020T1G  T803      
-| NSI45020T1G  T804      
-| MF-MSMF030-2 TH601     
-| MF-MSMF030-2 TH602     
-| MF-MSMF110   TH603     
-| MF-MSMF030-2 TH604     
-| PTS12066V100 TH801     
-| PTS12066V100 TH802     
-| PTS12066V100 TH803     
-| PTS12066V100 TH804     
-| PTS12066V100 TH805     
-| PTS12066V100 TH806     
-| PTS18126V300 TH1101    
-| MF-USMF005-2 TH1201    
-| DLW21HN900SQ2 TR201     
-| DLW21HN900SQ2 TR501     
-| FT2232H      U203      
-| KSZ8041TL    U302      
-| ST3232E      U402      
-| TJA1040      U403      
-| PESD1CAN     U404      
-| MIC2025-2YM  U501      
-| MCP6024      U901      
-| 24AA1025     U1002     
-| 24AA025E48   U1003     
-| LM358N       U1201     
-| MAX3072      U401      
-| MK60FXXXXVLQ15 U201      
-| 93C56        U202      
-| CM1213A-02SR U204      
-| TXB0108      U205      
-| FXO-HC735-25 U301      
-| PRTR5V0U2X   U502      
-| S25FL032P0XMFI013 U1001     
-| LM2596-5.0   U1101     
-| NCP1117ST33T3G U1102     
-| 32.768KHZ    X202      
-| 12Mhz        X201      
-| 12Mhz        X203      
-| SMBJ20CA     ZA901     
-| SMBJ20CA     ZA902     
-| SMBJ20CA     ZA903     
-| SMBJ20CA     ZA904     
-| P6SMB33CA    ZA701     
-| P6SMB33CA    ZA702     
-| P6SMB33CA    ZA703     
-| P6SMB33CA    ZA704     
-| P6SMB33CA    ZA705     
-| P6SMB33CA    ZA706     
-| P6SMB33CA    ZA707     
-| P6SMB33CA    ZA708     
-| P6SMB33CA    ZA1101    
-| SMAZ5V6      ZA1102    
+| CR2032       BT1101    ; HOLDER BATTERY FOR 2032 CELL; MPD         ; BH32T-C     ; ../datasheets/connectors/BH32T-C.pdf; BH32T-C-ND  ; ~           ;             ;             
+| 18pF         C204      ; CAP CER 18PF 50V 5% NP0 0603; Kemet       ; C0603C180J5GACTU; ~           ; 399-1052-1-ND; 0603        ;             ;             
+| 18pF         C207      ; CAP CER 18PF 50V 5% NP0 0603; Kemet       ; C0603C180J5GACTU; ~           ; 399-1052-1-ND; 0603        ;             ;             
+| 27pF         C201      ; CAP CER 27PF 50V 5% NP0; Kemet       ; C0603C270J5GACTU; ~           ; 399-1054-1-ND; 0603        ;             ;             
+| 27pF         C202      ; CAP CER 27PF 50V 5% NP0; Kemet       ; C0603C270J5GACTU; ~           ; 399-1054-1-ND; 0603        ;             ;             
+| 27pF         C1301     ; CAP CER 27pF 50V 5% NP0 0603; KEMET       ; C0603C270J5GACTU; ~           ; 399-1054-1-ND; 0603        ;             ;             
+| 27pF         C1304     ; CAP CER 27pF 50V 5% NP0 0603; KEMET       ; C0603C270J5GACTU; ~           ; 399-1054-1-ND; 0603        ;             ;             
+| 100pF        C309      ; CAP CER 100PF 50V 10% X7R 0603; Kemet       ; C0603C101K5RACTU; ~           ; 399-7824-1-ND; 0603        ;             ;             
+| 470pF        C905      ; CAP CER 470PF 50V 10% X7R 0603; Kemet       ; C0603C471K5RACTU; ~           ; 399-1075-1-ND; 0603        ;             ;             
+| 470pF        C906      ; CAP CER 470PF 50V 10% X7R 0603; Kemet       ; C0603C471K5RACTU; ~           ; 399-1075-1-ND; 0603        ;             ;             
+| 470pF        C907      ; CAP CER 470PF 50V 10% X7R 0603; Kemet       ; C0603C471K5RACTU; ~           ; 399-1075-1-ND; 0603        ;             ;             
+| 470pF        C908      ; CAP CER 470PF 50V 10% X7R 0603; Kemet       ; C0603C471K5RACTU; ~           ; 399-1075-1-ND; 0603        ;             ;             
+| 1nF          C901      ; CAP CER 1000PF 50V 10% X7R 0603; Kemet       ; C0603C102K5RACTU; ~           ; 399-1082-1-ND; 0603        ;             ;             
+| 1nF          C902      ; CAP CER 1000PF 50V 10% X7R 0603; Kemet       ; C0603C102K5RACTU; ~           ; 399-1082-1-ND; 0603        ;             ;             
+| 1nF          C903      ; CAP CER 1000PF 50V 10% X7R 0603; Kemet       ; C0603C102K5RACTU; ~           ; 399-1082-1-ND; 0603        ;             ;             
+| 1nF          C904      ; CAP CER 1000PF 50V 10% X7R 0603; Kemet       ; C0603C102K5RACTU; ~           ; 399-1082-1-ND; 0603        ;             ;             
+| 1,5nF        C701      ; CAP CER 1500PF 50V 10% X7R 0603; Kemet       ; C0603C152K5RACTU; ~           ; 399-1084-1-ND; 0603        ;             ;             
+| 1,5nF        C702      ; CAP CER 1500PF 50V 10% X7R 0603; Kemet       ; C0603C152K5RACTU; ~           ; 399-1084-1-ND; 0603        ;             ;             
+| 1,5nF        C703      ; CAP CER 1500PF 50V 10% X7R 0603; Kemet       ; C0603C152K5RACTU; ~           ; 399-1084-1-ND; 0603        ;             ;             
+| 1,5nF        C704      ; CAP CER 1500PF 50V 10% X7R 0603; Kemet       ; C0603C152K5RACTU; ~           ; 399-1084-1-ND; 0603        ;             ;             
+| 1,5nF        C705      ; CAP CER 1500PF 50V 10% X7R 0603; Kemet       ; C0603C152K5RACTU; ~           ; 399-1084-1-ND; 0603        ;             ;             
+| 1,5nF        C706      ; CAP CER 1500PF 50V 10% X7R 0603; Kemet       ; C0603C152K5RACTU; ~           ; 399-1084-1-ND; 0603        ;             ;             
+| 1,5nF        C707      ; CAP CER 1500PF 50V 10% X7R 0603; Kemet       ; C0603C152K5RACTU; ~           ; 399-1084-1-ND; 0603        ;             ;             
+| 1,5nF        C708      ; CAP CER 1500PF 50V 10% X7R 0603; Kemet       ; C0603C152K5RACTU; ~           ; 399-1084-1-ND; 0603        ;             ;             
+| 10nF         C208      ; CAP CER 10000PF 50V 10% X7R; Kemet       ; C0603C103K5RACTU; ~           ; 399-1091-1-ND; 0603        ;             ;             
+| 10nF         C212      ; CAP CER 10000PF 50V 10% X7R; Kemet       ; C0603C103K5RACTU; ~           ; 399-1091-1-ND; 0603        ;             ;             
+| 10nF         C301      ; CAP CER 10000PF 50V 10% X7R 0603; Kemet       ; C0603C103K5RACTU; ~           ; 399-1091-1-ND; 0603        ;             ;             
+| 10nF         C1202     ; CAP CER 10000PF 50V 10% X7R; Kemet       ; C0603C103K5RACTU; ~           ; 399-1091-1-ND; 0603        ;             ;             
+| 100nF        C205      ; CAP CER 0.1UF 16V 10% X7R; Kemet       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C206      ; CAP CER 0.1UF 16V 10% X7R; Kemet       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C209      ; CAP CER 0.1UF 16V 10% X7R; Kemet       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C210      ; CAP CER 0.1UF 16V 10% X7R; Kemet       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C213      ; CAP CER 0.1UF 16V 10% X7R; Kemet       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C214      ; CAP CER 0.1UF 16V 10% X7R; Kemet       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C217      ; CAP CER 0.1UF 16V 10% X7R; Kemet       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C218      ; CAP CER 0.1UF 16V 10% X7R; Kemet       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C221      ; CAP CER 0.1UF 16V 10% X7R; Kemet       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C223      ; CAP CER 0.1UF 16V 10% X7R; Kemet       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C224      ; CAP CER 0.1UF 16V 10% X7R; Kemet       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C227      ; CAP CER 0.1UF 16V 10% X7R; Kemet       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C230      ; CAP CER 0.1UF 16V 10% X7R; Kemet       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C302      ; CAP CER 0,1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C304      ; CAP CER 0,1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C305      ; CAP CER 0,1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C306      ; CAP CER 0,1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C307      ; CAP CER 0,1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C310      ; CAP CER 0,1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C312      ; CAP CER 0,1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C314      ; CAP CER 0,1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C315      ; CAP CER 0,1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C317      ; CAP CER 0,1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C402      ; CAP CER 0.1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ../datasheet/passive/; 399-1096-1-ND; 0603 (1608 Metric);             ;             
+| 100nF        C403      ; CAP CER 0.1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ../datasheet/passive/; 399-1096-1-ND; 0603 (1608 Metric);             ;             
+| 100nF        C404      ; CAP CER 0.1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ../datasheet/passive/; 399-1096-1-ND; 0603 (1608 Metric);             ;             
+| 100nF        C406      ; CAP CER 0.1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ../datasheet/passive/; 399-1096-1-ND; 0603 (1608 Metric);             ;             
+| 100nF        C407      ; CAP CER 0.1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ../datasheet/passive/; 399-1096-1-ND; 0603 (1608 Metric);             ;             
+| 100nF        C408      ; CAP CER 0.1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ../datasheet/passive/; 399-1096-1-ND; 0603 (1608 Metric);             ;             
+| 100nF        C409      ; CAP CER 0.1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ../datasheet/passive/; 399-1096-1-ND; 0603 (1608 Metric);             ;             
+| 100nF        C410      ; CAP CER 0.1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ../datasheet/passive/; 399-1096-1-ND; 0603 (1608 Metric);             ;             
+| 100nF        C501      ; CAP CER 0,1UF 16V X7R 10% 0603; KEMET       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C503      ; CAP CER 0,1UF 16V X7R 10% 0603; KEMET       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C801      ; CAP CER 0,1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C802      ; CAP CER 0,1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C803      ; CAP CER 0,1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C804      ; CAP CER 0,1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C910      ; CAP CER 0,1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ../datasheets/passive/Capacitores/KEM_C1002_X7R_SMD.pdf; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C911      ; CAP CER 0,1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ../datasheets/passive/Capacitores/KEM_C1002_X7R_SMD.pdf; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C912      ; CAP CER 0,1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ../datasheets/passive/Capacitores/KEM_C1002_X7R_SMD.pdf; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C913      ; CAP CER 0,1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ../datasheets/passive/Capacitores/KEM_C1002_X7R_SMD.pdf; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C914      ; CAP CER 0,1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ../datasheets/passive/Capacitores/KEM_C1002_X7R_SMD.pdf; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C1001     ; CAP CER 0,1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ../datasheets/passive/Capacitores/KEM_C1002_X7R_SMD.pdf; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C1002     ; CAP CER 0,1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ../datasheets/passive/Capacitores/KEM_C1002_X7R_SMD.pdf; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C1003     ; CAP CER 0,1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ../datasheets/passive/Capacitores/KEM_C1002_X7R_SMD.pdf; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C1005     ; CAP CER 0,1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ../datasheets/passive/Capacitores/KEM_C1002_X7R_SMD.pdf; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C1104     ; CAP CER 0,1UF 16V 10% X7R; Kemet       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C1105     ; CAP CER 0.1UF 50V 10% X7R 0603; Samsung     ; CL10B104KB8SFNC; ~           ; 1276-1936-1-ND; 0603        ;             ;             
+| 100nF        C1106     ; CAP CER 0.1UF 16V 10% X7R; Kemet       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C1201     ; CAP CER 0.1UF 16V 10% X7R 0603; Kemet       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C1302     ; CAP CER 0,1UF 16V 10% X7R; KEMET       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C1305     ; CAP CER 0,1UF 16V 10% X7R; KEMET       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C1306     ; CAP CER 0,1UF 16V 10% X7R; KEMET       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C1307     ; CAP CER 0,1UF 16V 10% X7R; KEMET       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C1311     ; CAP CER 0,1UF 16V 10% X7R; KEMET       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C1312     ; CAP CER 0,1UF 16V 10% X7R; KEMET       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C1313     ; CAP CER 0,1UF 16V 10% X7R; KEMET       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C1314     ; CAP CER 0,1UF 16V 10% X7R; KEMET       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C1315     ; CAP CER 0,1UF 16V 10% X7R; KEMET       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C1316     ; CAP CER 0,1UF 16V 10% X7R; KEMET       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C1317     ; CAP CER 0,1UF 16V 10% X7R; KEMET       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C1318     ; CAP CER 0,1UF 16V 10% X7R; KEMET       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 100nF        C1319     ; CAP CER 0,1UF 16V X7R 10% 0603; KEMET       ; C0603C104K4RACTU; ~           ; 399-1096-1-ND; 0603        ;             ;             
+| 1uF          C805      ; CAP CER 1UF 16V 10% X7R 0603; Kemet       ; C0603C105K4RACTU; ~           ; 399-7847-1-ND; 0603        ;             ;             
+| 1uF          C806      ; CAP CER 1UF 16V 10% X7R 0603; Kemet       ; C0603C105K4RACTU; ~           ; 399-7847-1-ND; 0603        ;             ;             
+| 1uF          C807      ; CAP CER 1UF 16V 10% X7R 0603; Kemet       ; C0603C105K4RACTU; ~           ; 399-7847-1-ND; 0603        ;             ;             
+| 1uF          C808      ; CAP CER 1UF 16V 10% X7R 0603; Kemet       ; C0603C105K4RACTU; ~           ; 399-7847-1-ND; 0603        ;             ;             
+| 2.2uF        C203      ; CAP CER 2.2UF 10V 10% X7R 0603; Taiyo Yuden ; LMK107B7225KA-T; ~           ; 587-2983-1-ND; 0603        ;             ;             
+| 4,7uF        C502      ; CAP TANT 4,7uF 6,3V 10% 1206 ; KEMET       ; T491A475K006AT; ~           ; 399-9717-1-ND; 1206        ;             ;             
+| 4,7uF        C1303     ; CAP TANT 4,7UF 6,3V 10% 1206; KEMET       ; T491A475K006AT; ~           ; 399-9717-1-ND; 1206        ;             ;             
+| 4,7uF        C1308     ; CAP TANT 4,7UF 6,3V 10% 1206; KEMET       ; T491A475K006AT; ~           ; 399-9717-1-ND; 1206        ;             ;             
+| 4,7uF        C1309     ; CAP TANT 4,7UF 6,3V 10% 1206; KEMET       ; T491A475K006AT; ~           ; 399-9717-1-ND; 1206        ;             ;             
+| 4,7uF        C1310     ; CAP TANT 4,7uF 6,3V 10% 1206 ; KEMET       ; T491A475K006AT; ~           ; 399-9717-1-ND; 1206        ;             ;             
+| 10uF         C231      ; CAP TANT 10UF 6.3V 10%; Kemet       ; T491A106K006AT7280; ~           ; 399-10116-1-ND; 1206        ;             ;             
+| 10uF         C303      ; CAP TANT 10UF 6.3V 10% 1206; Kemet       ; T491A106K006AT7280; ~           ; 399-10116-1-ND; 1206        ;             ;             
+| 10uF         C401      ; CAP TANT 10UF 6.3V 10% 1206; Kemet       ; T491A106K006AT7280; ../datasheet/passive/; 399-10116-1-ND; 1206 (3216 Metric);             ;             
+| 10uF         C405      ; CAP TANT 10UF 6.3V 10% 1206; Kemet       ; T491A106K006AT7280; ../datasheet/passive/; 399-10116-1-ND; 1206 (3216 Metric);             ;             
+| 10uF         C909      ; CAP TANT 10UF 6.3V 10% 1206; Kemet       ; T491A106K006AT7280; ../datasheets/passive/Capacitores/KEM_TC111_SPACE.pdf; 399-10116-1-ND; 1206        ;             ;             
+| 10uF         C1004     ; CAP TANT 10UF 6.3V 10% 1206; Kemet       ; T491A106K006AT7280; ../datasheets/passive/Capacitores/KEM_TC111_SPACE.pdf; 399-10116-1-ND; 1206        ;             ;             
+| 10uF         C1103     ; CAP TANT 10UF 6.3V 10% 1206; Kemet       ; T491A106K006AT7280; ../datasheets/passive/Capacitores/KEM_TC111_SPACE.pdf; 399-10116-1-ND; 1206        ;             ;             
+| 22uF         C308      ; CAP TANT 22UF 6.3V 10% 1206; Kemet       ; T491A226K006AT; ~           ; 399-8279-1-ND; 1206        ;             ;             
+| 22uF         C311      ; CAP TANT 22UF 6.3V 10% 1206; Kemet       ; T491A226K006AT; ~           ; 399-8279-1-ND; 1206        ;             ;             
+| 22uF         C313      ; CAP TANT 22UF 6.3V 10% 1206; Kemet       ; T491A226K006AT; ~           ; 399-8279-1-ND; 1206        ;             ;             
+| 22uF         C316      ; CAP TANT 22UF 6.3V 10% 1206; Kemet       ; T491A226K006AT; ~           ; 399-8279-1-ND; 1206        ;             ;             
+| 330uF        C1102     ; CAP ALUM 330UF 25V 20% SMD; Nichicon    ; UCW1E331MNL1GS; ~           ; 493-9422-1-ND;             ;             ;             
+| 470uF        C1101     ; CAP ALUM 470UF 35V 20% SMD; Nichicon    ; UCL1V471MNL1GS; ~           ; 493-3961-1-ND;             ;             ;             
+| P6SMB12CAT3G D401      ; TVS DIODE 10.2VWM 16.7VC SMB; ON Semiconductor; P6SMB12CAT3G; ../datasheet/passive/diode/psd12c.pdf; P6SMB12CAT3GOSCT-ND; DO-214AA, SMB;             ;             
+| P6SMB12CAT3G D402      ; TVS DIODE 10.2VWM 16.7VC SMB; ON Semiconductor; P6SMB12CAT3G; ../datasheet/passive/diode/psd12c.pdf; P6SMB12CAT3GOSCT-ND; DO-214AA, SMB;             ;             
+| P6SMB12CAT3G D403      ; TVS DIODE 10.2VWM 16.7VC SMB; ON Semiconductor; P6SMB12CAT3G; ../datasheet/passive/diode/psd12c.pdf; P6SMB12CAT3GOSCT-ND; DO-214AA, SMB;             ;             
+| P6SMB20CAT3G D905      ; TVS DIODE 17.1VWM 27.7VC SMB; ON Semiconductor; P6SMB20CAT3G; ../ datasheets/passive/protect/P6SMB_Series.pdf; P6SMB20CAT3GOSCT-ND; DO-214AA, SMB;             ;             
+| P6SMB20CAT3G D906      ; TVS DIODE 17.1VWM 27.7VC SMB; ON Semiconductor; P6SMB20CAT3G; ../ datasheets/passive/protect/P6SMB_Series.pdf; P6SMB20CAT3GOSCT-ND; DO-214AA, SMB;             ;             
+| P6SMB20CAT3G D907      ; TVS DIODE 17.1VWM 27.7VC SMB; ON Semiconductor; P6SMB20CAT3G; ../ datasheets/passive/protect/P6SMB_Series.pdf; P6SMB20CAT3GOSCT-ND; DO-214AA, SMB;             ;             
+| P6SMB20CAT3G D908      ; TVS DIODE 17.1VWM 27.7VC SMB; ON Semiconductor; P6SMB20CAT3G; ../ datasheets/passive/protect/P6SMB_Series.pdf; P6SMB20CAT3GOSCT-ND; DO-214AA, SMB;             ;             
+| MBRS130LT3G  D1103     ; DIODE SCHOTTKY 30V 2A SMB; ON Semiconductor; MBRS130LT3G ; ../datasheets/passive/diode/MBRS130LT3-D.pdf; MBRS130LT3GOSCT-ND; DO-214AA, SMB;             ;             
+| MBRS130LT3G  D1104     ; DIODE SCHOTTKY 30V 2A SMB; ON Semiconductor; MBRS130LT3G ; ../datasheets/passive/diode/MBRS130LT3-D.pdf; MBRS130LT3GOSCT-ND; DO-214AA, SMB;             ;             
+| P6SMB33CA    D1107     ; TVS DIODE 28.2VWM 45.7VC SMB; Vishay Semiconductor Diodes Division; P6SMB33CA-E3/52; ../datasheets/passive/protect/P6SMB_Series.pdf; P6SMB33CA-E3/52GICT-ND; DO-214AA, SMB;             ;             
+| MURS360      D1101     ; DIODE ULTRAFAST 600V 3A SMC; ON Semiconductor; MURS360T3G  ; ../datasheet/passive/diode/MURS320T3-D.pdf; MURS360T3GOSCT-ND; DO-214AB, SMC;             ;             
+| MBRS540T3G   D1102     ; DIODE SCHOTTKY 40V 5A SMC; ON Semiconductor; MBRS540T3G  ; ../datasheets/passive/diode/MBRS540T3-D.pdf; MBRS540T3GOSCT-ND; DO-214AB, SMC;             ;             
+| MURS360      D1109     ; DIODE ULTRAFAST 600V 3A SMC; ON Semiconductor; MURS360T3G  ; ../datasheet/passive/diode/MURS320T3-D.pdf; MURS360T3GOSCT-ND; DO-214AB, SMC;             ;             
+| SMAJ5.0A     D501      ; TVS DIODE 5VWM SMD; Bourns Inc. ; SMAJ5.0A    ; ../datasheets/passive/protect/SMAJ.pdf; SMAJ5.0ABCT-ND; SMA         ;             ;             
+| ST1          D202      ; LED GRN WATER CLEAR 0603 SMD; Everlight Electronics Co Ltd; QTLP600C4TR ; ../datasheets/passive/diode/ds300084.pdf; 1080-1399-1-ND; 0603        ;             ;             
+| ST2          D203      ; LED ALG RED WTR CLR 0603 SMD; Everlight Electronics Co Ltd; QTLP600C7TR ; ~           ; 1080-1400-1-ND; 0603        ;             ;             
+| LED red      D701      ; LED ALG RED WTR CLR 0603 SMD; Everlight Electronics Co Ltd; QTLP600C7TR ; ~           ; 1080-1400-1-ND; 0603        ;             ;             
+| LED red      D702      ; LED ALG RED WTR CLR 0603 SMD; Everlight Electronics Co Ltd; QTLP600C7TR ; ~           ; 1080-1400-1-ND; 0603        ;             ;             
+| LED red      D703      ; LED ALG RED WTR CLR 0603 SMD; Everlight Electronics Co Ltd; QTLP600C7TR ; ~           ; 1080-1400-1-ND; 0603        ;             ;             
+| LED red      D704      ; LED ALG RED WTR CLR 0603 SMD; Everlight Electronics Co Ltd; QTLP600C7TR ; ~           ; 1080-1400-1-ND; 0603        ;             ;             
+| LED red      D705      ; LED ALG RED WTR CLR 0603 SMD; Everlight Electronics Co Ltd; QTLP600C7TR ; ~           ; 1080-1400-1-ND; 0603        ;             ;             
+| LED red      D706      ; LED ALG RED WTR CLR 0603 SMD; Everlight Electronics Co Ltd; QTLP600C7TR ; ~           ; 1080-1400-1-ND; 0603        ;             ;             
+| LED red      D707      ; LED ALG RED WTR CLR 0603 SMD; Everlight Electronics Co Ltd; QTLP600C7TR ; ~           ; 1080-1400-1-ND; 0603        ;             ;             
+| LED red      D708      ; LED ALG RED WTR CLR 0603 SMD; Everlight Electronics Co Ltd; QTLP600C7TR ; ~           ; 1080-1400-1-ND; 0603        ;             ;             
+| LED red      D802      ; LED ALG RED WTR CLR 0603 SMD; Everlight Electronics Co Ltd; QTLP600C7TR ; ~           ; 1080-1400-1-ND; 0603        ;             ;             
+| LED red      D804      ; LED ALG RED WTR CLR 0603 SMD; Everlight Electronics Co Ltd; QTLP600C7TR ; ~           ; 1080-1400-1-ND; 0603        ;             ;             
+| LED red      D806      ; LED ALG RED WTR CLR 0603 SMD; Everlight Electronics Co Ltd; QTLP600C7TR ; ~           ; 1080-1400-1-ND; 0603        ;             ;             
+| LED red      D808      ; LED ALG RED WTR CLR 0603 SMD; Everlight Electronics Co Ltd; QTLP600C7TR ; ~           ; 1080-1400-1-ND; 0603        ;             ;             
+| LED red      D809      ; LED ALG RED WTR CLR 0603 SMD; Everlight Electronics Co Ltd; QTLP600C7TR ; ~           ; 1080-1400-1-ND; 0603        ;             ;             
+| LED red      D810      ; LED ALG RED WTR CLR 0603 SMD; Everlight Electronics Co Ltd; QTLP600C7TR ; ~           ; 1080-1400-1-ND; 0603        ;             ;             
+| LED red      D811      ; LED ALG RED WTR CLR 0603 SMD; Everlight Electronics Co Ltd; QTLP600C7TR ; ~           ; 1080-1400-1-ND; 0603        ;             ;             
+| LED red      D812      ; LED ALG RED WTR CLR 0603 SMD; Everlight Electronics Co Ltd; QTLP600C7TR ; ~           ; 1080-1400-1-ND; 0603        ;             ;             
+| SD CARD      D1001     ; LED GRN WATER CLEAR 0603 SMD; Everlight Electronics Co Ltd; QTLP600C4TR ; ../datasheets/passive/diode/ds300084.pdf; 1080-1399-1-ND; 0603        ;             ;             
+| LED +5V      D1105     ; LED ALG RED WTR CLR 0603 SMD; Everlight Electronics Co Ltd; QTLP600C7TR ; ../datasheets/passive/ds300084.pdf; 1080-1400-1-ND; 0603        ;             ;             
+| LL4148       D201      ; DIODE SMALL SIG 100V 0.2A; Fairchild   ; LL4148      ; ../datasheets/passive/diode/LL4148.pdf; LL4148FSCT-ND; SOD80 - Minimelf;             ;             
+| LL4148       D301      ; DIODE SMALL SIG 100V 0.2A; Fairchild   ; LL4148      ; ../datasheets/passive/diode/LL4148.pdf; LL4148FSCT-ND; SOD80 - Minimelf;             ;             
+| LL4148       D302      ; DIODE SMALL SIG 100V 0.2A; Fairchild   ; LL4148      ; ../datasheets/passive/diode/LL4148.pdf; LL4148FSCT-ND; SOD80 - Minimelf;             ;             
+| LL4148       D801      ; DIODE SMALL SIG 100V 0.2A SOD80; Fairchild   ; LL4148      ; ../datasheets/passive/diode/LL4148.pdf; LL4148FSCT-ND; SOD80 - Minimelf;             ;             
+| LL4148       D803      ; DIODE SMALL SIG 100V 0.2A SOD80; Fairchild   ; LL4148      ; ../datasheets/passive/diode/LL4148.pdf; LL4148FSCT-ND; SOD80 - Minimelf;             ;             
+| LL4148       D805      ; DIODE SMALL SIG 100V 0.2A SOD80; Fairchild   ; LL4148      ; ../datasheets/passive/diode/LL4148.pdf; LL4148FSCT-ND; SOD80 - Minimelf;             ;             
+| LL4148       D807      ; DIODE SMALL SIG 100V 0.2A SOD80; Fairchild   ; LL4148      ; ../datasheets/passive/diode/LL4148.pdf; LL4148FSCT-ND; SOD80 - Minimelf;             ;             
+| MMSZ5V6T1G   D1106     ; DIODE ZENER 5.6V 500MW SOD123; ON Semiconductor; MMSZ5V6T1G  ; ../datasheets/passive/diode/MMSZ2V4T1-D.pdf; MMSZ5V6T1GOSCT-ND; SOD-123     ;             ;             
+| PESD1CAN     D404      ; TVS DIODE 24VWM 70VC SOT23; NXP Semiconductors; PESD1CAN,215; ../datasheet/passive/diode/PESD1CAN.pdf; 568-4032-1-ND; SOT-23 (TO-236AB);             ;             
+| BAV199       D601      ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT-23-3    ;             ;             
+| BAV199       D602      ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT-23-3    ;             ;             
+| BAV199       D603      ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT-23-3    ;             ;             
+| BAV199       D604      ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT-23-3    ;             ;             
+| BAV199       D605      ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT-23-3    ;             ;             
+| BAV199       D606      ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT-23-3    ;             ;             
+| BAV199       D607      ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT-23-3    ;             ;             
+| BAV199       D609      ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT-23-3    ;             ;             
+| BAV199       D611      ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT-23-3    ;             ;             
+| BAV199       D612      ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT-23-3    ;             ;             
+| BAV199       D614      ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT-23-3    ;             ;             
+| BAV199       D615      ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT-23-3    ;             ;             
+| BAV199       D616      ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT-23-3    ;             ;             
+| BAV199       D617      ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT-23-3    ;             ;             
+| BAV199       D618      ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT-23-3    ;             ;             
+| BAV199       D619      ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT-23-3    ;             ;             
+| BAV199       D620      ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT-23-3    ;             ;             
+| BAV199       D621      ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT-23-3    ;             ;             
+| BAV199       D622      ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT-23-3    ;             ;             
+| BAV199       D624      ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT-23-3    ;             ;             
+| BAV199       D626      ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT-23-3    ;             ;             
+| BAV199       D627      ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT-23-3    ;             ;             
+| BAV199       D629      ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT-23-3    ;             ;             
+| BAV199       D630      ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT-23-3    ;             ;             
+| BAV199       D631      ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT-23-3    ;             ;             
+| BAV199       D632      ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT-23-3    ;             ;             
+| BAV199       D901      ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT-23-3    ;             ;             
+| BAV199       D902      ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT-23-3    ;             ;             
+| BAV199       D903      ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT-23-3    ;             ;             
+| BAV199       D904      ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT-23-3    ;             ;             
+| BAT54C       D1108     ; DIODE SCHOTTKY 30V 200MA; Fairchild Semiconductor; BAT54       ; ~           ; BAT54FSCT-ND; SOT23-3     ;             ;             
+| BAV199       D1201     ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT23       ;             ;             
+| BAV199       D1202     ; DIODE ARRAY 70V 215MA SOT23; ON Semiconductor; BAV199LT1G  ; ../datasheets/passive/protect/BAV199LT1-D.PDF; BAV199LT1GOSCT-ND; SOT23       ;             ;             
+| FIDUCIAL     F1        ; FIDUCIAL    ; ~           ; ~           ; ~           ; ~           ; ~           ;             ;             
+| FIDUCIAL     F2        ; FIDUCIAL    ; ~           ; ~           ; ~           ; ~           ; ~           ;             ;             
+| FIDUCIAL     F3        ; FIDUCIAL    ; ~           ; ~           ; ~           ; ~           ; ~           ;             ;             
+| FIDUCIAL     F4        ; FIDUCIAL    ; ~           ; ~           ; ~           ; ~           ; ~           ;             ;             
+| FIDUCIAL     F5        ; FIDUCIAL    ; ~           ; ~           ; ~           ; ~           ; ~           ;             ;             
+| FIDUCIAL     F6        ; FIDUCIAL    ; ~           ; ~           ; ~           ; ~           ; ~           ;             ;             
+| ACML0603101  FB201     ; FERRITE CHIP 100 OHM 200MA 0603; Abracon Corporation; ACML-0603-101-T; ../datasheets/passive/Ferrite/ACML-0603.pdf; ACML-0603-101-TCT-ND; 0603        ;             ;             
+| ACML0603101  FB202     ; FERRITE CHIP 100 OHM 200MA 0603; Abracon Corporation; ACML-0603-101-T; ../datasheets/passive/Ferrite/ACML-0603.pdf; ACML-0603-101-TCT-ND; 0603        ;             ;             
+| BK1608HS220-T FB301     ; Ferrite Bead 22OHM 1500mA; Taiyo Yuden ; BK1608HS220-T; ../datasheets/passive/Ferrite/BK1608HS220-T.pdf; Alternativo: MH1608-221YCT-ND; 0603        ;             ;             
+| BK1608HS220-T FB302     ; Ferrite Bead 22OHM 1500mA; Taiyo Yuden ; BK1608HS220-T; ../datasheets/passive/Ferrite/BK1608HS220-T.pdf; Alternativo: MH1608-221YCT-ND; 0603        ;             ;             
+| BK1608HS220-T FB303     ; Ferrite Bead 22OHM 1500mA; Taiyo Yuden ; BK1608HS220-T; ../datasheets/passive/Ferrite/BK1608HS220-T.pdf; Alternativo: MH1608-221YCT-ND; 0603        ;             ;             
+| BK1608HS220-T FB304     ; Ferrite Bead 22OHM 1500mA; Taiyo Yuden ; BK1608HS220-T; ../datasheets/passive/Ferrite/BK1608HS220-T.pdf; Alternativo: MH1608-221YCT-ND; 0603        ;             ;             
+| BLM18BD470SN1 FB402     ; FERRITE CHIP 47 OHM 500MA 0603; Murata Electronics North America; BLM18BD470SN1D; ../datasheet/passive/Ferrite/L0110S0100BLM18B.pdf; 490-5211-1-ND; 0603 (1608 métrico);             ;             
+| BLM18BD470SN1 FB403     ; FERRITE CHIP 47 OHM 500MA 0603; Murata Electronics North America; BLM18BD470SN1D; ../datasheet/passive/Ferrite/L0110S0100BLM18B.pdf; 490-5211-1-ND; 0603 (1608 métrico);             ;             
+| BLM18BD470SN1 FB404     ; FERRITE CHIP 47 OHM 500MA 0603; Murata Electronics North America; BLM18BD470SN1D; ../datasheet/passive/Ferrite/L0110S0100BLM18B.pdf; 490-5211-1-ND; 0603 (1608 métrico);             ;             
+| BLM18BD470SN1 FB405     ; FERRITE CHIP 47 OHM 500MA 0603; Murata Electronics North America; BLM18BD470SN1D; ../datasheet/passive/Ferrite/L0110S0100BLM18B.pdf; 490-5211-1-ND; 0603 (1608 métrico);             ;             
+| BLM18KG221SN1D FB501     ; FERRITE CHIP 220 OHM 2200MA 0603; MURATA      ; BLM18KG221SN1D; ../datasheets/passive/Ferrite/L0110S0100BLM18K.pdf; 490-5255-1-ND; 0603        ;             ;             
+| MMZ1608B601C FB502     ; FERRITE CHIP 600 OHM 500MA 0603; TDK         ; MMZ1608B601C; ../datasheets/passive/Ferrite/E9412_MMZ.pdf; 445-2166-1-ND; 0603        ;             ;             
+| MMZ1608B601C FB901     ; FERRITE CHIP 600 OHM 500MA 0603; TDK Corporation; MMZ1608B601C; ~           ; 445-2166-1-ND; ~           ;             ;             
+| MMZ1608B601C FB902     ; FERRITE CHIP 600 OHM 500MA 0603; TDK Corporation; MMZ1608B601C; ~           ; 445-2166-1-ND; ~           ;             ;             
+| MMZ1608B601C FB903     ; FERRITE CHIP 600 OHM 500MA 0603; TDK Corporation; MMZ1608B601C; ~           ; 445-2166-1-ND; ~           ;             ;             
+| MMZ1608B601C FB904     ; FERRITE CHIP 600 OHM 500MA 0603; TDK Corporation; MMZ1608B601C; ~           ; 445-2166-1-ND; ~           ;             ;             
+| MMZ1608B601C FB1101    ; FERRITE CHIP 600 OHM 500MA 0603; TDK Corporation; MMZ1608B601C; ~           ; 445-2166-1-ND; 0603        ;             ;             
+| MMZ1608B601C FB1102    ; FERRITE CHIP 600 OHM 500MA 0603; TDK Corporation; MMZ1608B601C; ~           ; 445-2166-1-ND; 0603        ;             ;             
+| MMZ1608B601C FB1201    ; FERRITE CHIP 600 OHM 500MA 0603; TDK Corporation; MMZ1608B601C; ~           ; 445-2166-1-ND; 0603        ;             ;             
+| MMZ1608B601C FB1301    ; FERRITE CHIP 600 OHM 500MA 0603; TDK         ; MMZ1608B601C; ../datasheets/passive/Ferrite/E9412_MMZ.pdf; 445-2166-1-ND; 0603        ;             ;             
+| MMZ1608B601C FB1302    ; FERRITE CHIP 600 OHM 500MA 0603; TDK         ; MMZ1608B601C; ../datasheets/passive/Ferrite/E9412_MMZ.pdf; 445-2166-1-ND; 0603        ;             ;             
+| BLM18BD331SN1D FB1303    ; FERRITE CHIP 330 OHM 200mA 0603; MURATA      ; BLM18BD331SN1D; ../datasheets/passive/Ferrite/L0110S0100BLM18B.pdf; 490-5251-1-ND; 0603        ;             ;             
+| BLM18BD331SN1D FB1304    ; FERRITE CHIP 330 OHM 200mA 0603; MURATA      ; BLM18BD331SN1D; ../datasheets/passive/Ferrite/L0110S0100BLM18B.pdf; 490-5251-1-ND; 0603        ;             ;             
+| LOGO-CIAA-FSL G102      ;             ;             ;             ;             ;             ;             ;             ;             
+| OSHWA        G101      ; LOGO DE OPEN SOURCE HARDWARE;             ;             ;             ;             ;             ;             ;             
+| PCB_HOLE     H1        ; PCB HOLE    ; ~           ; ~           ; ~           ; ~           ; ~           ;             ;             
+| PCB_HOLE     H2        ; PCB HOLE    ; ~           ; ~           ; ~           ; ~           ; ~           ;             ;             
+| PCB_HOLE     H3        ; PCB HOLE    ; ~           ; ~           ; ~           ; ~           ; ~           ;             ;             
+| PCB_HOLE     H4        ; PCB HOLE    ; ~           ; ~           ; ~           ; ~           ; ~           ;             ;             
+| OPDRAIN_OUTA J801      ; BORNERA 5.08MM VERT 2 POS PCB; TE Connectivity; 796949-2    ; ../datasheets/connectors/bornera_796949_2p.pdf; 571-7969492 ;             ;             ;             
+| OPDRAIN_OUTB J802      ; BORNERA 5.08MM VERT 2 POS PCB; TE Connectivity; 796949-2    ; ../datasheets/connectors/bornera_796949_2p.pdf; 571-7969492 ;             ;             ;             
+| ANALOG INPUT 2 J902      ; TERM BLOCK 5.08MM VERT 2POS PCB; TE Connectivity; 796949-2    ; ../datasheets/connectors/bornera_796949_2p.pdf; 571-7969492 ; ~           ;             ;             
+| DC-OUT       J1102     ; BORNERA 5.08MM VERT 2 POS PCB; TE Connectivity; 796949-2    ; ../datasheets/connectors/bornera_796949_2p.pdf; 571-7969492 ;             ;             ;             
+| ANALOG OUT   J1201     ; TERM BLOCK 5.08MM VERT 2POS PCB; TE Connectivity; 796949-2    ; ../datasheets/connectors/bornera_796949_2p.pdf; 571-7969492 ; ~           ;             ;             
+| RS485        J401      ; TERM BLOCK 5.08MM VERT 3POS PCB; TE Connectivity; 796949-3    ; ../datasheet/connectors/bornera_796949.pdf; 571-7969493 ; ~           ;             ;             
+| CAN          J403      ; TERM BLOCK 5.08MM VERT 3POS PCB; TE Connectivity; 796949-3    ; ../datasheet/connectors/bornera_796949.pdf; 571-7969493 ; ~           ;             ;             
+| DIG_INA      J701      ; TERM BLOCK 5.08MM VERT 3POS PCB; TE Connectivity; 796949-3    ; ../datasheets/connectors/bornera_796949.pdf; 571-7969493 ; ~           ;             ;             
+| DIG_INB      J702      ; TERM BLOCK 5.08MM VERT 3POS PCB; TE Connectivity; 796949-3    ; ../datasheets/connectors/bornera_796949.pdf; 571-7969493 ; ~           ;             ;             
+| DIG_INC      J703      ; TERM BLOCK 5.08MM VERT 3POS PCB; TE Connectivity; 796949-3    ; ../datasheets/connectors/bornera_796949.pdf; 571-7969493 ; ~           ;             ;             
+| RELAY_OUTD   J803      ; TERM BLOCK 5.08MM VERT 3POS PCB; TE Connectivity; 796949-3    ; ../datasheets/connectors/bornera_796949.pdf; 571-7969493 ; ~           ;             ;             
+| RELAY_OUTB   J804      ; TERM BLOCK 5.08MM VERT 3POS PCB; TE Connectivity; 796949-3    ; ../datasheets/connectors/bornera_796949.pdf; 571-7969493 ; ~           ;             ;             
+| RELAY_OUTB   J805      ; TERM BLOCK 5.08MM VERT 3POS PCB; TE Connectivity; 796949-3    ; ../datasheets/connectors/bornera_796949.pdf; 571-7969493 ; ~           ;             ;             
+| ANALOG INPUT 1 J901      ; TERM BLOCK 5.08MM VERT 3POS PCB; TE Connectivity; 796949-3    ; ../datasheets/connectors/bornera_796949.pdf; 571-7969493 ; ~           ;             ;             
+| DC-INPUT     J1101     ; TERM BLOCK 5.08MM VERT 3POS PCB; TE Connectivity; 796949-3    ; ../datasheets/connectors/bornera_796949.pdf; 571-7969493 ; ~           ;             ;             
+| DB9          J402      ; CONN D-SUB RCPT 9POS RA GOLD; Sullins     ; SDS107-PRP1-F09-SN63-11; ../datasheets/connectors/SDS107-PRP1-F09-SN63-11.pdf; S9554-ND    ; DB9F 7.2mm  ;             ;             
+| SD CARD      J1001     ; CONN MEMORY CARD R/A 8POS SMD; Molex Inc.  ; 0472192001  ; ../datasheets/connectors/472192001_sd.pdf; WM6698CT-ND ; ~           ;             ;             
+| GPIO         J601      ; CONN HEADER .100" DUAL STR 80POS; Sullins Connector Solutions; S2012EC-40-ND; ~           ; S2012EC-40-ND; ~           ;             ;             
+| I2C          J602      ; CONN HEADER .100" DUAL STR 80POS; Sullins Connector Solutions; S2012EC-40-ND; ~           ; S2012EC-40-ND; ~           ;             ;             
+| SPI          J604      ; CONN HEADER .100" DUAL STR 80POS; Sullins Connector Solutions; S2012EC-40-ND; ~           ; S2012EC-40-ND; ~           ;             ;             
+| ANALOG AUX   J603      ; CONN HEADER .100" DUAL STR 80POS; Sullins Connector Solutions; S2012EC-40-ND; ~           ; S2012EC-40-ND; ~           ;             ;             
+| JTAG DIRECTO J1303     ; CONECTOR HDR 1,27MM SMD AU 10POS; HARWIN      ; M50-3600542 ; ../datasheets/connectors/M50360.pdf; 952-1389-ND ; ~           ;             ;             
+| ETHERNET     J301      ; CONN MAGJACK 1PORT 100 BASE-TX; Pulse       ; J0011D01BNL ; ../datasheets/connectors/J0011D01BNL.pdf; 553-1483-ND ; ~           ;             ;             
+| USB OTG      J502      ; CONNECTOR RECEPTACLE MICRO USB AB SMD BOTTOM MOUNT; HIROSE ELECTRIC; ZX62-AB-5PA(11); ../datasheets/connectors/MICRO_USB_AB.pdf; H11635TR-ND ; ~           ;             ;             
+| JTAG DEBUG USB J1302     ; CONNECTOR RECEPTACLE MICRO USB B SMD; HIROSE ELECTRIC; ZX62-B-5PA(11); ../datasheets/connectors/MICRO_USB_AB.pdf; H11634CT-ND ; ~           ;             ;             
+| JUMPER       JP402     ; JUMPER 2 TERM; Sullins Connector Solutions; PREC040SFAN-RC; ../datasheet/connectors/; S1212EC-40-ND; ~           ;             ;             
+| JUMPER       JP403     ; JUMPER 2 TERM; Sullins Connector Solutions; PREC040SFAN-RC; ../datasheet/connectors/; S1212EC-40-ND; ~           ;             ;             
+| JUMPER       JP404     ; JUMPER 2 TERM; Sullins Connector Solutions; PREC040SFAN-RC; ../datasheet/connectors/; S1212EC-40-ND; ~           ;             ;             
+| JUMPER       JP405     ; JUMPER 2 TERM; Sullins Connector Solutions; PREC040SFAN-RC; ../datasheet/connectors/; S1212EC-40-ND; ~           ;             ;             
+| JUMPER       JP406     ; JUMPER 2 TERM; Sullins Connector Solutions; PREC040SFAN-RC; ../datasheet/connectors/; S1212EC-40-ND; ~           ;             ;             
+| JUMPER       JP901     ; JUMPER 2 TERM; ~           ; ~           ; ~           ; ~           ; ~           ;             ;             
+| JUMPER       JP902     ; JUMPER 2 TERM; ~           ; ~           ; ~           ; ~           ; ~           ;             ;             
+| JUMPER       JP903     ; JUMPER 2 TERM; ~           ; ~           ; ~           ; ~           ; ~           ;             ;             
+| JUMPER       JP904     ; JUMPER 2 TERM; ~           ; ~           ; ~           ; ~           ; ~           ;             ;             
+| JUMPER3      JP905     ; JUMPER 3 TERM; ~           ; ~           ; ~           ; ~           ; ~           ;             ;             
+| JUMPER3      JP906     ; JUMPER 3 TERM; ~           ; ~           ; ~           ; ~           ; ~           ;             ;             
+| JUMPER3      JP907     ; JUMPER 3 TERM; ~           ; ~           ; ~           ; ~           ; ~           ;             ;             
+| JUMPER3      JP908     ; JUMPER 3 TERM; ~           ; ~           ; ~           ; ~           ; ~           ;             ;             
+| JUMPER3      JP1201    ; JUMPER 3 TERM; Sullins Connector Solutions; PREC040SFAN-RC; ~           ; S1212EC-40-ND; ~           ;             ;             
+| 1461353-2    K801      ; RELAY GENERAL PURPOSE SPST 5A 5V; TE Connectivity; 1461353-2   ; ../datasheets/passive/Rele/1461353-2.pdf; PB1652-ND   ; Compatible con relays DPDT standard;             ;             
+| 1461353-2    K802      ; RELAY GENERAL PURPOSE SPST 5A 5V; TE Connectivity; 1461353-2   ; ../datasheets/passive/Rele/1461353-2.pdf; PB1652-ND   ; Compatible con relays DPDT standard;             ;             
+| 1461353-2    K803      ; RELAY GENERAL PURPOSE SPST 5A 5V; TE Connectivity; 1461353-2   ; ../datasheets/passive/Rele/1461353-2.pdf; PB1652-ND   ; Compatible con relays DPDT standard;             ;             
+| 1461353-2    K804      ; RELAY GENERAL PURPOSE SPST 5A 5V; TE Connectivity; 1461353-2   ; ../datasheets/passive/Rele/1461353-2.pdf; PB1652-ND   ; Compatible con relays DPDT standard;             ;             
+| 47uH         L1101     ; INDUCTOR POWER SHIELD 47UH SMD; Bourns Inc. ; SRN1060-470M; ~           ; SRN1060-470MCT-ND; ~           ;             ;             
+| NDS7002A     Q801      ; MOSFET N-CH 60V 280MA SOT-23; Fairchild   ; NDS7002A    ; ../datasheets/device/NDS7002A.pdf; NDS7002ACT-ND; SOT-23      ;             ;             
+| NDS7002A     Q802      ; MOSFET N-CH 60V 280MA SOT-23; Fairchild   ; NDS7002A    ; ../datasheets/device/NDS7002A.pdf; NDS7002ACT-ND; SOT-23      ;             ;             
+| NDS7002A     Q803      ; MOSFET N-CH 60V 280MA SOT-23; Fairchild   ; NDS7002A    ; ../datasheets/device/NDS7002A.pdf; NDS7002ACT-ND; SOT-23      ;             ;             
+| NDS7002A     Q804      ; MOSFET N-CH 60V 280MA SOT-23; Fairchild   ; NDS7002A    ; ../datasheets/device/NDS7002A.pdf; NDS7002ACT-ND; SOT-23      ;             ;             
+| FDN340P      Q1001     ; MOSFET P-CH 20V 2A SSOT3; ON Semiconductor; FDN340P     ; ../datasheets/device/FDN340P.pdf; FDN340PCT-ND; SOT-23      ;             ;             
+| BC817-40     Q1201     ; TRANS NPN 45V 500MA SOT-23; ON Semiconductor; BC817-40LT3G; ../datasheets/device/BC817-16LT1-D.pdf; BC817-40LT3GOSCT-ND; SOT-23-3    ;             ;             
+| PBSS5240XF   Q1202     ; TRANS PNP 40V 2A SOT89; NXP Semiconductors; PBSS5240XF  ; ../datasheets/device/PBSS5240X.pdf; 568-10522-1-ND; SOT-89      ;             ;             
+| IRF820S      Q805      ; MOSFET N-CH 500V 2.5A D2PAK; Vishay Siliconix; IRF820SPBF  ; ../datasheets/device/IRF820SPBF.pdf; IRF820SPBF-ND; D2PAK       ;             ;             
+| IRF820S      Q806      ; MOSFET N-CH 500V 2.5A D2PAK; Vishay Siliconix; IRF820SPBF  ; ../datasheets/device/IRF820SPBF.pdf; IRF820SPBF-ND; D2PAK       ;             ;             
+| IRF820S      Q807      ; MOSFET N-CH 500V 2.5A D2PAK; Vishay Siliconix; IRF820SPBF  ; ../datasheets/device/IRF820SPBF.pdf; IRF820SPBF-ND; D2PAK       ;             ;             
+| IRF820S      Q808      ; MOSFET N-CH 500V 2.5A D2PAK; Vishay Siliconix; IRF820SPBF  ; ../datasheets/device/IRF820SPBF.pdf; IRF820SPBF-ND; D2PAK       ;             ;             
+| 0R           R1001     ; RES 0.0 OHM 1/10W JUMP 0603 SMD; Yageo       ; RC0603JR-070RL; ~           ; 311-0.0GRCT-ND; 0603        ;             ;             
+| 0R           R1002     ; RES 0.0 OHM 1/10W JUMP 0603 SMD; Yageo       ; RC0603JR-070RL; ~           ; 311-0.0GRCT-ND; 0603        ;             ;             
+| 0R           R1003     ; RES 0.0 OHM 1/10W JUMP 0603 SMD; Yageo       ; RC0603JR-070RL; ~           ; 311-0.0GRCT-ND; 0603        ;             ;             
+| 0R           R1004     ; RES 0.0 OHM 1/10W JUMP 0603 SMD; Yageo       ; RC0603JR-070RL; ~           ; 311-0.0GRCT-ND; 0603        ;             ;             
+| 0R           R1005     ; RES 0.0 OHM 1/10W JUMP 0603 SMD; Yageo       ; RC0603JR-070RL; ~           ; 311-0.0GRCT-ND; 0603        ;             ;             
+| 0R           R1006     ; RES 0.0 OHM 1/10W JUMP 0603 SMD; Yageo       ; RC0603JR-070RL; ~           ; 311-0.0GRCT-ND; 0603        ;             ;             
+| 0R           R1007     ; RES 0.0 OHM 1/10W JUMP 0603 SMD; Yageo       ; RC0603JR-070RL; ~           ; 311-0.0GRCT-ND; 0603        ;             ;             
+| 0R           R1014     ; RES 0.0 OHM 1/10W JUMP 0603 SMD; Yageo       ; RC0603JR-070RL; ~           ; 311-0.0GRCT-ND; 0603        ;             ;             
+| 4.7          R901      ; RES 4.7 OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-074R7L; ~           ; 311-4.7GRCT-ND; 0603        ;             ;             
+| 4.7          R902      ; RES 4.7 OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-074R7L; ~           ; 311-4.7GRCT-ND; 0603        ;             ;             
+| 4.7          R903      ; RES 4.7 OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-074R7L; ~           ; 311-4.7GRCT-ND; 0603        ;             ;             
+| 4.7          R904      ; RES 4.7 OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-074R7L; ~           ; 311-4.7GRCT-ND; 0603        ;             ;             
+| 22           R205      ; RES 22 OHM 1/10W 5%; Yageo       ; RC0603JR-0722RL; ~           ; 311-22GRCT-ND; 0603        ;             ;             
+| 24.9         R1205     ; RES 24.9 OHM 1/10W .1% SMD 0603; Yageo       ; RT0603BRD0724R9L; ~           ; RT0603BRD0724R9L-ND; 0603        ; 0.1%        ; 25ppm/°C    
+| 33           R302      ; RES 33 OHM 1/10W 5% 0603 SMD; Bourns Inc. ; CR0603-JW-330GLF; ~           ; CR0603-JW-330GLFCT-ND; 0603        ;             ;             
+| 33           R303      ; RES 33 OHM 1/10W 5% 0603 SMD; Bourns Inc. ; CR0603-JW-330GLF; ~           ; CR0603-JW-330GLFCT-ND; 0603        ;             ;             
+| 33           R304      ; RES 33 OHM 1/10W 5% 0603 SMD; Bourns Inc. ; CR0603-JW-330GLF; ~           ; CR0603-JW-330GLFCT-ND; 0603        ;             ;             
+| 33           R305      ; RES 33 OHM 1/10W 5% 0603 SMD; Bourns Inc. ; CR0603-JW-330GLF; ~           ; CR0603-JW-330GLFCT-ND; 0603        ;             ;             
+| 33           R307      ; RES 33 OHM 1/10W 5% 0603 SMD; Bourns Inc. ; CR0603-JW-330GLF; ~           ; CR0603-JW-330GLFCT-ND; 0603        ;             ;             
+| 33           R308      ; RES 33 OHM 1/10W 5% 0603 SMD; Bourns Inc. ; CR0603-JW-330GLF; ~           ; CR0603-JW-330GLFCT-ND; 0603        ;             ;             
+| 49,9 1%      R310      ; RES 49,9 OHM 1/10W 1% 0603 SMD; Yageo       ; RC0603FR-0749R9L; ~           ; 311-49.9HRCT-ND; 0603        ;             ;             
+| 49,9 1%      R311      ; RES 49,9 OHM 1/10W 1% 0603 SMD; Yageo       ; RC0603FR-0749R9L; ~           ; 311-49.9HRCT-ND; 0603        ;             ;             
+| 49,9 1%      R312      ; RES 49,9 OHM 1/10W 1% 0603 SMD; Yageo       ; RC0603FR-0749R9L; ~           ; 311-49.9HRCT-ND; 0603        ;             ;             
+| 49,9 1%      R313      ; RES 49,9 OHM 1/10W 1% 0603 SMD; Yageo       ; RC0603FR-0749R9L; ~           ; 311-49.9HRCT-ND; 0603        ;             ;             
+| 100          R921      ; RES 100 OHM 1/10W 5% 0603 SMD; YAGEO       ; RC0603JR-07100RL; ~           ; 311-100GRCT-ND; 0603        ;             ;             
+| 100          R922      ; RES 100 OHM 1/10W 5% 0603 SMD; YAGEO       ; RC0603JR-07100RL; ~           ; 311-100GRCT-ND; 0603        ;             ;             
+| 100          R923      ; RES 100 OHM 1/10W 5% 0603 SMD; YAGEO       ; RC0603JR-07100RL; ~           ; 311-100GRCT-ND; 0603        ;             ;             
+| 100          R924      ; RES 100 OHM 1/10W 5% 0603 SMD; YAGEO       ; RC0603JR-07100RL; ~           ; 311-100GRCT-ND; 0603        ;             ;             
+| 100          R410      ; RES 100 OHM 1/2W 5% 2010 SMD; Bourns Inc. ; CR2010-JW-101ELF; ../datasheet/passive/; CR2010-JW-101ELFCT-ND; 2010 (5025 Metric);             ;             
+| 220          R407      ; RES 220 OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-07220RL; ../datasheet/passive/; 311-220GRCT-ND; 0603 (1608 Metric);             ;             
+| 237          R905      ; RES 237 OHM 1/10W .1% 0603 SMD; Panasonic Electronic Components; ERA-3AEB2370V; ~           ; P237DBCT-ND ; 0603        ; 0.1%        ; 25 ppm/°C   
+| 237          R906      ; RES 237 OHM 1/10W .1% 0603 SMD; Panasonic Electronic Components; ERA-3AEB2370V; ~           ; P237DBCT-ND ; 0603        ; 0.1%        ; 25 ppm/°C   
+| 237          R907      ; RES 237 OHM 1/10W .1% 0603 SMD; Panasonic Electronic Components; ERA-3AEB2370V; ~           ; P237DBCT-ND ; 0603        ; 0.1%        ; 25 ppm/°C   
+| 237          R908      ; RES 237 OHM 1/10W .1% 0603 SMD; Panasonic Electronic Components; ERA-3AEB2370V; ~           ; P237DBCT-ND ; 0603        ; 0.1%        ; 25 ppm/°C   
+| 270          R314      ; RES 270 OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-07270RL; ~           ; 311-270GRCT-ND; 0603        ;             ;             
+| 270          R315      ; RES 270 OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-07270RL; ~           ; 311-270GRCT-ND; 0603        ;             ;             
+| 270R         R411      ; RES 270 OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-07270RL; ../datasheet/passive/; 311-270GRCT-ND; 0603 (1608 Metric);             ;             
+| 390          R406      ; RES 390 OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-07390RL; ../datasheet/passive/; 311-390GRCT-ND; 0603 (1608 Metric);             ;             
+| 390          R408      ; RES 390 OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-07390RL; ../datasheet/passive/; 311-390GRCT-ND; 0603 (1608 Metric);             ;             
+| 680          R204      ; RES 680 OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-07680RL; ~           ; 311-680GRCT-ND; 0603        ;             ;             
+| 680          R207      ; RES 680 OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-07680RL; ~           ; 311-680GRCT-ND; 0603        ;             ;             
+| 680          R1016     ; RES 680 OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-07680RL; ~           ; 311-680GRCT-ND; 0603        ;             ;             
+| 1K           R709      ; RES 1.0K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-071KL; ~           ; 311-1.0KGRCT-ND; 0603        ;             ;             
+| 1K           R710      ; RES 1.0K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-071KL; ~           ; 311-1.0KGRCT-ND; 0603        ;             ;             
+| 1K           R711      ; RES 1.0K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-071KL; ~           ; 311-1.0KGRCT-ND; 0603        ;             ;             
+| 1K           R712      ; RES 1.0K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-071KL; ~           ; 311-1.0KGRCT-ND; 0603        ;             ;             
+| 1K           R713      ; RES 1.0K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-071KL; ~           ; 311-1.0KGRCT-ND; 0603        ;             ;             
+| 1K           R714      ; RES 1.0K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-071KL; ~           ; 311-1.0KGRCT-ND; 0603        ;             ;             
+| 1K           R715      ; RES 1.0K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-071KL; ~           ; 311-1.0KGRCT-ND; 0603        ;             ;             
+| 1K           R716      ; RES 1.0K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-071KL; ~           ; 311-1.0KGRCT-ND; 0603        ;             ;             
+| 1k           R801      ; RES 1.0K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-071KL; ~           ; 311-1.0KGRCT-ND; 0603        ;             ;             
+| 1k           R802      ; RES 1.0K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-071KL; ~           ; 311-1.0KGRCT-ND; 0603        ;             ;             
+| 1k           R803      ; RES 1.0K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-071KL; ~           ; 311-1.0KGRCT-ND; 0603        ;             ;             
+| 1k           R807      ; RES 1.0K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-071KL; ~           ; 311-1.0KGRCT-ND; 0603        ;             ;             
+| 1k           R809      ; RES 1.0K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-071KL; ~           ; 311-1.0KGRCT-ND; 0603        ;             ;             
+| 1k           R814      ; RES 1.0K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-071KL; ~           ; 311-1.0KGRCT-ND; 0603        ;             ;             
+| 1k           R815      ; RES 1.0K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-071KL; ~           ; 311-1.0KGRCT-ND; 0603        ;             ;             
+| 1k           R816      ; RES 1.0K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-071KL; ~           ; 311-1.0KGRCT-ND; 0603        ;             ;             
+| 1k           R1101     ; RES 1.0K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-071KL; ~           ; 311-1.0KGRCT-ND; 0603        ;             ;             
+| 1K           R1304     ; RES 1.0K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-071KL; ~           ; 311-1.0KGRCT-ND; 0603        ;             ;             
+| 1K5          R413      ; RES 1.5K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-071K5L; ../datasheet/passive/; 311-1.5KGRCT-ND; 0603 (1608 Metric);             ;             
+| 1K5          R414      ; RES 1.5K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-071K5L; ../datasheet/passive/; 311-1.5KGRCT-ND; 0603 (1608 Metric);             ;             
+| 2K2          R201      ; RES 2.2K OHM 1/10W 5%; Yageo       ; RC0603JR-072K2L; ~           ; 311-2.2KGRCT-ND; 0603        ;             ;             
+| 2K2          R202      ; RES 2.2K OHM 1/10W 5%; Yageo       ; RC0603JR-072K2L; ~           ; 311-2.2KGRCT-ND; 0603        ;             ;             
+| 2.2k         R1204     ; RES 2.2K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-072K2L; ~           ; 311-2.2KGRCT-ND; 0603        ;             ;             
+| 2K2          R1312     ; RES 2.2K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-072K2L; ~           ; 311-2.2KGRCT-ND; 0603        ;             ;             
+| 2.49k        R1203     ; RES 2.49K OHM 1/10W .1% 0603 SMD; Susumu      ; RG1608P-2491-B-T5; ~           ; RG16P2.49KBCT-ND; 0603        ; 0.1%        ; 25 ppm/°C   
+| 4K7          R306      ; RES 4,7K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-074K7L; ~           ; 311-4.7KGRCT-ND; 0603        ;             ;             
+| 4K7          R316      ; RES 4,7K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-074K7L; ~           ; 311-4.7KGRCT-ND; 0603        ;             ;             
+| 4K7          R401      ; RES 4.7K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-074K7L; ../datasheet/passive; 311-4.7KGRCT-ND; 0603 (1608 Metric);             ;             
+| 4K7          R402      ; RES 4.7K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-074K7L; ../datasheet/passive/; 311-4.7KGRCT-ND; 0603 (1608 Metric);             ;             
+| 4K7          R409      ; RES 4.7K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-074K7L; ../datasheet/; 311-4.7KGRCT-ND; 0603 (1608 Metric);             ;             
+| 4K7          R412      ; RES 4.7K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-074K7L; ../datasheet/passive/; 311-4.7KGRCT-ND; 0603 (1608 Metric);             ;             
+| 4K7          R810      ; RES 4,7K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-074K7L; ~           ; 311-4.7KGRCT-ND; 0603        ;             ;             
+| 4K7          R811      ; RES 4,7K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-074K7L; ~           ; 311-4.7KGRCT-ND; 0603        ;             ;             
+| 4K7          R812      ; RES 4,7K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-074K7L; ~           ; 311-4.7KGRCT-ND; 0603        ;             ;             
+| 4K7          R813      ; RES 4,7K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-074K7L; ~           ; 311-4.7KGRCT-ND; 0603        ;             ;             
+| 4,7K 1/4W    R701      ; RES 4.7K OHM 1/4W 5% 1206 SMD; Yageo       ; RC1206JR-074K7L; ~           ; 311-4.7KERCT-ND; 1206        ;             ;             
+| 4,7K 1/4W    R702      ; RES 4.7K OHM 1/4W 5% 1206 SMD; Yageo       ; RC1206JR-074K7L; ~           ; 311-4.7KERCT-ND; 1206        ;             ;             
+| 4,7K 1/4W    R703      ; RES 4.7K OHM 1/4W 5% 1206 SMD; Yageo       ; RC1206JR-074K7L; ~           ; 311-4.7KERCT-ND; 1206        ;             ;             
+| 4,7K 1/4W    R704      ; RES 4.7K OHM 1/4W 5% 1206 SMD; Yageo       ; RC1206JR-074K7L; ~           ; 311-4.7KERCT-ND; 1206        ;             ;             
+| 4,7K 1/4W    R705      ; RES 4.7K OHM 1/4W 5% 1206 SMD; Yageo       ; RC1206JR-074K7L; ~           ; 311-4.7KERCT-ND; 1206        ;             ;             
+| 4,7K 1/4W    R706      ; RES 4.7K OHM 1/4W 5% 1206 SMD; Yageo       ; RC1206JR-074K7L; ~           ; 311-4.7KERCT-ND; 1206        ;             ;             
+| 4,7K 1/4W    R707      ; RES 4.7K OHM 1/4W 5% 1206 SMD; Yageo       ; RC1206JR-074K7L; ~           ; 311-4.7KERCT-ND; 1206        ;             ;             
+| 4,7K 1/4W    R708      ; RES 4.7K OHM 1/4W 5% 1206 SMD; Yageo       ; RC1206JR-074K7L; ~           ; 311-4.7KERCT-ND; 1206        ;             ;             
+| 6,49k 1%     R309      ; RES 6,49K OHM 1/10W 1% 0603 SMD; Yageo       ; RC0603FR-076K49L; ~           ; 311-6.49KHRCT-ND; 0603        ;             ;             
+| 10K          R206      ; RES 4.7K OHM 1/10W 5%; Yageo       ; RC0603JR-0710KL; ~           ; 311-10KGRCT-ND; 0603        ;             ;             
+| 10K          R301      ; RES 10K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-0710KL; ~           ; 311-10KGRCT-ND; 0603        ;             ;             
+| 10k          R501      ; RESISTOR 10k 1/10W 5% 0603 ; YAGEO       ; RC0603JR-0710KL; ~           ; 311-10KGRCT-ND; 0603        ;             ;             
+| 10k          R502      ; RESISTOR 10k 1/10W 5% 0603 ; YAGEO       ; RC0603JR-0710KL; ~           ; 311-10KGRCT-ND; 0603        ;             ;             
+| 10k          R601      ; RES 10K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-0710KL; ~           ; 311-10KGRCT-ND; 0603        ;             ;             
+| 10k          R602      ; RES 10K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-0710KL; ~           ; 311-10KGRCT-ND; 0603        ;             ;             
+| 10k          R603      ; RES 10K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-0710KL; ~           ; 311-10KGRCT-ND; 0603        ;             ;             
+| 10k          R604      ; RES 10K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-0710KL; ~           ; 311-10KGRCT-ND; 0603        ;             ;             
+| 10k          R1008     ; RES 10K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-0710KL; ~           ; 311-10KGRCT-ND; 0603        ;             ;             
+| 10k          R1010     ; RES 10K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-0710KL; ~           ; 311-10KGRCT-ND; 0603        ;             ;             
+| 10k          R1011     ; RES 10K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-0710KL; ~           ; 311-10KGRCT-ND; 0603        ;             ;             
+| 10k          R1012     ; RES 10K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-0710KL; ~           ; 311-10KGRCT-ND; 0603        ;             ;             
+| 10k          R1013     ; RES 10K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-0710KL; ~           ; 311-10KGRCT-ND; 0603        ;             ;             
+| 10k          R1015     ; RES 10K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-0710KL; ~           ; 311-10KGRCT-ND; 0603        ;             ;             
+| 10K          R1206     ; RES 10K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-0710KL; ~           ; 311-10KGRCT-ND; 0603        ;             ;             
+| 10K          R1301     ; RES 10K 1/10W 5% 0603 SMD; YAGEO       ; RC0603JR-0710KL; ~           ; 311-10KGRCT-ND; 0603        ;             ;             
+| 10K          R1309     ; RES 10K 1/10W 5% 0603 SMD; YAGEO       ; RC0603JR-0710KL; ~           ; 311-10KGRCT-ND; 0603        ;             ;             
+| 10K          R1310     ; RES 10K 1/10W 5% 0603 SMD; YAGEO       ; RC0603JR-0710KL; ~           ; 311-10KGRCT-ND; 0603        ;             ;             
+| 10K          R1311     ; RES 10K 1/10W 5% 0603 SMD; YAGEO       ; RC0603JR-0710KL; ~           ; 311-10KGRCT-ND; 0603        ;             ;             
+| 12K 1%       R1303     ; RES 12.0K OHM 1/10W 1% 0603 SMD; Yageo       ; RC0603FR-0712KL; ~           ; 311-12.0KHRCT-ND; 0603        ;             ;             
+| 15k          R909      ; RES 15.0K OHM 1/10W .1% 0603 SMD; Susumu      ; RG1608P-153-B-T5; ~           ; RG16P15.0KBCT-ND; 0603        ; 0.1%        ; 25 ppm/°C   
+| 15k          R910      ; RES 15.0K OHM 1/10W .1% 0603 SMD; Susumu      ; RG1608P-153-B-T5; ~           ; RG16P15.0KBCT-ND; 0603        ; 0.1%        ; 25 ppm/°C   
+| 15k          R911      ; RES 15.0K OHM 1/10W .1% 0603 SMD; Susumu      ; RG1608P-153-B-T5; ~           ; RG16P15.0KBCT-ND; 0603        ; 0.1%        ; 25 ppm/°C   
+| 15k          R912      ; RES 15.0K OHM 1/10W .1% 0603 SMD; Susumu      ; RG1608P-153-B-T5; ~           ; RG16P15.0KBCT-ND; 0603        ; 0.1%        ; 25 ppm/°C   
+| 15k          R913      ; RES 15.0K OHM 1/10W .1% 0603 SMD; Susumu      ; RG1608P-153-B-T5; ~           ; RG16P15.0KBCT-ND; 0603        ; 0.1%        ; 25 ppm/°C   
+| 15k          R914      ; RES 15.0K OHM 1/10W .1% 0603 SMD; Susumu      ; RG1608P-153-B-T5; ~           ; RG16P15.0KBCT-ND; 0603        ; 0.1%        ; 25 ppm/°C   
+| 15k          R915      ; RES 15.0K OHM 1/10W .1% 0603 SMD; Susumu      ; RG1608P-153-B-T5; ~           ; RG16P15.0KBCT-ND; 0603        ; 0.1%        ; 25 ppm/°C   
+| 15k          R916      ; RES 15.0K OHM 1/10W .1% 0603 SMD; Susumu      ; RG1608P-153-B-T5; ~           ; RG16P15.0KBCT-ND; 0603        ; 0.1%        ; 25 ppm/°C   
+| 15k          R917      ; RES 15.0K OHM 1/10W .1% 0603 SMD; Susumu      ; RG1608P-153-B-T5; ~           ; RG16P15.0KBCT-ND; 0603        ; 0.1%        ; 25 ppm/°C   
+| 15k          R918      ; RES 15.0K OHM 1/10W .1% 0603 SMD; Susumu      ; RG1608P-153-B-T5; ~           ; RG16P15.0KBCT-ND; 0603        ; 0.1%        ; 25 ppm/°C   
+| 15k          R919      ; RES 15.0K OHM 1/10W .1% 0603 SMD; Susumu      ; RG1608P-153-B-T5; ~           ; RG16P15.0KBCT-ND; 0603        ; 0.1%        ; 25 ppm/°C   
+| 15k          R920      ; RES 15.0K OHM 1/10W .1% 0603 SMD; Susumu      ; RG1608P-153-B-T5; ~           ; RG16P15.0KBCT-ND; 0603        ; 0.1%        ; 25 ppm/°C   
+| 15k          R1201     ; RES 15.0K OHM 1/10W .1% 0603 SMD; Susumu      ; RG1608P-153-B-T5; ~           ; RG16P15.0KBCT-ND; 0603        ; 0.1%        ; 25 ppm/°C   
+| 33K          R717      ; RES 33K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-0733KL; ~           ; 311-33KGRCT-ND; 0603        ;             ;             
+| 33K          R718      ; RES 33K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-0733KL; ~           ; 311-33KGRCT-ND; 0603        ;             ;             
+| 33K          R719      ; RES 33K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-0733KL; ~           ; 311-33KGRCT-ND; 0603        ;             ;             
+| 33K          R720      ; RES 33K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-0733KL; ~           ; 311-33KGRCT-ND; 0603        ;             ;             
+| 33K          R721      ; RES 33K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-0733KL; ~           ; 311-33KGRCT-ND; 0603        ;             ;             
+| 33K          R722      ; RES 33K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-0733KL; ~           ; 311-33KGRCT-ND; 0603        ;             ;             
+| 33K          R723      ; RES 33K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-0733KL; ~           ; 311-33KGRCT-ND; 0603        ;             ;             
+| 33K          R724      ; RES 33K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-0733KL; ~           ; 311-33KGRCT-ND; 0603        ;             ;             
+| 33k          R1202     ; RES 33.0K OHM 1/10W .1% 0603 SMD; Susumu      ; RG1608P-333-B-T5; ~           ; RG16P33.0KBCT-ND; 0603        ; 0.1%        ; 25 ppm/°C   
+| 100k         R804      ; RES 100K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-07100KL; ~           ; 311-100KGRCT-ND; 0603        ;             ;             
+| 100k         R805      ; RES 100K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-07100KL; ~           ; 311-100KGRCT-ND; 0603        ;             ;             
+| 100k         R806      ; RES 100K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-07100KL; ~           ; 311-100KGRCT-ND; 0603        ;             ;             
+| 100k         R808      ; RES 100K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-07100KL; ~           ; 311-100KGRCT-ND; 0603        ;             ;             
+| 750k         R1009     ; RES 750K OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-07750KL; ~           ; 311-750KGRCT-ND; 0603        ;             ;             
+| 1M           R317      ; RES 1.0M OHM 1/10W 5% 0603 SMD; Yageo       ; RC0603JR-071ML; ~           ; 311-1.0MGRCT-ND; 0603        ;             ;             
+| 10M          R203      ; RES 10M OHM 1/10W 5%; Yageo       ; RC0603JR-0710ML; ~           ; 311-10MGRCT-ND; 0603        ;             ;             
+| 60 1%        R415      ; RES 59.0 OHM 1/10W 1% 0603 SMD; Yageo       ; RC0603FR-0759RL; ../datasheet/passive/; 311-59.0HRCT-ND; 0603 (1608 Metric);             ;             
+| 60 1%        R416      ; RES 59.0 OHM 1/10W 1% 0603 SMD; Yageo       ; RC0603FR-0759RL; ../datasheet/passive/; 311-59.0HRCT-ND; 0603 (1608 Metric);             ;             
+| RESET        SW201     ; SWITCH TACTILE SPST-NO 0.05A 12V; TE Connectivity; 2-1437565-9 ; ~           ; 2-1437565-9 ; SMD 4       ;             ;             
+| MF-SM300     TH1101    ; FUSE RESETTABLE 3.0A HOLD SMD; Bourns Inc. ; MF-SM300-2  ; ../datasheet/passive/protect/mfsm.pdf; MF-SM300-2CT-ND; ~           ;             ;             
+| USMF020      TH401     ; FUSE RESETTABLE .20A 30V HLD SMD; Bourns Inc. ; MF-USMF020-2; ../datasheet/passive/protect/mfusmf.pdf; MF-USMF020-2CT-ND; 1210 (3225 métrico), cóncavo;             ;             
+| USMF020      TH402     ; FUSE RESETTABLE .20A 30V HLD SMD; Bourns Inc. ; MF-USMF020-2; ../datasheet/passive/protect/mfusmf.pdf; MF-USMF020-2CT-ND; 1210 (3225 métrico), cóncavo;             ;             
+| MF-USMF035-2 TH601     ; FUSE RESETTABLE .35A HOLD SMD; Bourns Inc. ; MF-USMF035-2; ../datasheets/passive/protect/mfusmf.pdf; MF-USMF035-2CT-ND; 1210        ;             ;             
+| MF-USMF110-2 TH603     ; FUSE RESETTABLE 1.10A 6V HLD SMD; Bourns Inc. ; MF-USMF110-2; ../datasheets/passive/protect/mfusmf.pdf; MF-USMF110-2CT-ND; 1210        ;             ;             
+| MF-USMF005-2 TH1201    ; FUSE RESETTABLE .05A 30V HLD SMD; Bourns Inc. ; MF-USMF005-2; ~           ; MF-USMF005-2CT-ND; 1210        ;             ;             
+| 1812L110/33MR TH605     ; PTC RESETTABLE 33V 1.10A 1812L; Littelfuse Inc; 1812L110/33MR; ../datasheets/passive/protect/Littelfuse_ptc_1812L.pdf; F3486CT-ND  ; 1812        ;             ;             
+| 1812L110/33MR TH1102    ; PTC RESETTABLE 33V 1.10A 1812L; Littelfuse Inc; 1812L110/33MR; ../datasheets/passive/protect/Littelfuse_ptc_1812L.pdf; F3486CT-ND  ; 1812        ;             ;             
+| SRF2012      TR501     ; INDUCTOR COMMON MODE 90 OHM SMD; BOURNS      ; SRF2012-900Y; ../datasheets/passive/inductor/SFR2012.pdf; SRF2012-900YCT-ND; ~           ;             ;             
+| SRF2012      TR1301    ; INDUCTOR COMMON MODE 90 OHM SMD; BOURNS      ; SRF2012-900Y; ../datasheets/passive/inductor/SFR2012.pdf; SRF2012-900YCT-ND; ~           ;             ;             
+| FXO-HC735-25 U301      ; HCMOS 7 x 5mm 3.3V Oscillator; Fox Electronics; FXO-HC735-25; ../datasheets/ic/FXO_HC73.pdf; 631-1055-1-ND; SMD 7x5 mm  ;             ;             
+| LM2596-5.0   U1101     ; IC REG BUCK 5V 3A TO263-5; Texas Instruments; LM2596SX-5.0/NOPB; ../datasheets/ic/lm2596.pdf; LM2596SX-5.0/NOPBCT-ND; TO-263-6, D²Pak (5 Leads + Tab), TO-263BA;             ;             
+| MK60FX512VLQ15 U201      ; MCU ARM 512KB FLASH; Freescale Semiconductor; MCIMX6D5EYM10AC; ../datasheets/K60/K60P144M150SF3RM.pdf; MK60FX512VLQ15-ND; ~           ;             ;             
+| NB2304AI2DG  U303      ; 3.3 V Zero Delay Clock Buffer; ON Semi     ; NB2304A     ; ../datasheets/ic/NB2304A-D.pdf; NB2304AI2DGOS-ND; SOIC-8      ;             ;             
+| SP1486EEN-L  U401      ; IC TXRX RS485/422 PROFIBUS 8SOIC; Exar Corporation; SP1486EEN-L ; ../datasheets/ic/SP1486EEN-L.pdf; 1016-1003-5-ND; SOIC-8      ;             ;             
+| AMIS42665TJAA1RG U403      ; TRANSCEIVER CAN HS LO PWR 8-SOIC; ON Semiconductor; AMIS42665TJAA1RG; ../datasheets/ic/AMIS-42665-D.PDF; 766-1006-1-ND; 8-SOIC (0.154", 3.90mm Width);             ;             
+| MIC2025-2YM  U501      ; IC SINGLE CHANNEL POWER DISTRIBUTION SWITCH 500mA; MICREL      ; MIC2025-2YM ; ../datasheets/ic/mic2025.pdf; 576-1058-ND ; SOIC-8      ;             ;             
+| 24AA1025     U1002     ; IC EEPROM 1MBIT 400KHZ 8SOIC; Microchip Technology; 24AA1025-I/SN; ../datasheets/ic/20001941L.pdf; 24AA1025-I/SN-ND; 8-SOIC N    ;             ;             
+| 24AA025E48   U1003     ; IC EEPROM 2KBIT 400KHZ 8SOIC; Microchip Technology; 24AA025E48-I/SN; ../datasheets/ic/20002124E.pdf; 24AA025E48-I/SN-ND; 8-SOIC N    ;             ;             
+| LM358DG      U1201     ; IC OPAMP GP 1MHZ 8SOIC; ON Semiconductor; LM358DG     ; ../datahseets/ic/lm358.pdf; LM358DGOS-ND; SOIC-8      ;             ;             
+| 93C56        U1303     ; IC EEPROM 1KBIT 2MHZ 8SOIC; ATMEL       ; AT93C46DN-SH-B; ../datasheets/ic/EEPROM_93C56.pdf; AT93C46DN-SH-B-ND; SOIC-8      ;             ;             
+| S25FL032P0XMFI013 U1001     ; IC NOR FLASH 32MBIT 104MHZ; Spansion Inc.; S25FL032P0XMFI013; ../datasheets/ic/S25FL032P.pdf; S25FL032P0XMFI013-ND; SOIC-8 WIDE ;             ;             
+| PRTR5V0U2X   U502      ; IC TVS DIODE 2 CHANNEL 10V CLAMP SOT1434; ON SEMICONDUCTOR; CM1213A-02SR; ../datasheets/passive/protect/CM1213A-D.PDF; CM1213A-02SROSCT-ND; SOT-143-4   ;             ;             
+| PRTR5V0U2X   U1304     ; IC TVS DIODE 2 CHANNEL 10V CLAMP SOT1434; NXP         ; PRTR5V0U2X,215; ../datasheets/passive/protect/PRTR5V0U2X.pdf; 568-4140-1-ND; TO-253-4    ;             ;             
+| NCP1117ST33T3G U1102     ; IC REG LDO 3.3V 1A SOT223; ON Semiconductor; NCP1117ST33T3G; ../datasheets/ic/NCP1117-D.pdf; NCP1117ST33T3GOSCT-ND; SOT-223     ;             ;             
+| MCP1416T     U801      ; IC MOSFET DVR 1.5A HS SOT23-5; Microchip   ; MCP1416T-E/OT; ../datasheets/ic/MCP1415.pdf; MCP1416T-E/OTCT-ND; SOT-23-5    ;             ;             
+| MCP1416T     U802      ; IC MOSFET DVR 1.5A HS SOT23-5; Microchip   ; MCP1416T-E/OT; ../datasheets/ic/MCP1415.pdf; MCP1416T-E/OTCT-ND; SOT-23-5    ;             ;             
+| MCP1416T     U803      ; IC MOSFET DVR 1.5A HS SOT23-5; Microchip   ; MCP1416T-E/OT; ../datasheets/ic/MCP1415.pdf; MCP1416T-E/OTCT-ND; SOT-23-5    ;             ;             
+| MCP1416T     U804      ; IC MOSFET DVR 1.5A HS SOT23-5; Microchip   ; MCP1416T-E/OT; ../datasheets/ic/MCP1415.pdf; MCP1416T-E/OTCT-ND; SOT-23-5    ;             ;             
+| TLP290-4     U701      ;             ;             ;             ;             ;             ;             ;             ;             
+| TLP290-4     U702      ;             ;             ;             ;             ;             ;             ;             ;             
+| KSZ8041TLI   U302      ; Ethernet 10/100 PHY W/AUTO MDIX; Micrel      ; KSZ8041TLI  ; ../datasheets/ic/KSZ8041TL.pdf; 576-2971-5-ND; TQFP-48     ;             ;             
+| FT2232H      U1302     ; IC FT2232H DUAL HIGH SPEED USB TO MULTIPURPOSE UART/FIFO; FTDI CHIP   ; FT2232HL    ; ../datasheet/ic/DS_FT2232H.pdf; 768-1024-1-ND; TQFP64      ;             ;             
+| MCP6024      U901      ; IC OPAMP GP 10MHZ RRO 14TSSOP; Microchip Technology; MCP6024-I/ST; ../datasheets/ic/MCP6024.pdf; MCP6024-I/ST-ND; TSSOP-14    ;             ;             
+| ST3232E      U402      ; IC DRVR/RCVR RS232 ESD 16-TSSOP; STMicroelectronics; ST3232ECTR  ; ../datasheets/ic/st3232ebec.pdf; 497-6538-1-ND; TSSOP-16    ;             ;             
+| 74HC244      U1301     ; IC BUFF/DVR TRI-ST DUAL 20TSSOP; NXP         ; 74HC244PW,112; ../datasheets/ic/74HC244.pdf; 568-8285-5-ND; TSSOP-20    ;             ;             
+| 32.768KHZ    X202      ; CRYSTAL 32.768KHZ 12.5PF; Abracon Corporation; ABS25-32.768KHZ-T; ~           ; 535-9166-1-ND; ~           ;             ;             
+| 12MHz        X201      ; CRYSTAL 12MHZ 12PF; EPSON       ; FA-238V 12.0000MB-W3; ~           ; SER3683CT-ND; ~           ;             ;             
+| 12Mhz        X1301     ; CRYSTAL 12MHZ 12PF SMD; EPSON       ; FA-238V 12.0000MB-W3; ../datasheets/passive/crystal/FA238_238V_TSX_3225.pdf; SER3683CT-ND; ~           ;             ;             
 #Fin Componentes
 
 #Fin de Lista

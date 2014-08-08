@@ -27,7 +27,7 @@ copiarlo en una nueva librería y cambiarle el nombre.
     - Top layer: Señal con plano de GND.  
     - Inner layer 1: Señal con plano de power con +3.3VDC. En los sectores con 
 señales analógicas utilizar como referencia la tensión +3.3VADC.   
-    - Inner layer 2: Señal con plano de GND. En los sectores con señales analógicas 
+    - Inner layer 2: Plano de GND. En los sectores con señales analógicas 
 utilizar como referencia GNDA.  
     - Bottom layer: Señal con plano de GND.
 * Importante: No realizar cambios de planos de referencia en las zonas con 
