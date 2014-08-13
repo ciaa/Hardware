@@ -72,7 +72,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 12
 Title "CIAA CPU - LPC4337"
-Date "5 aug 2014"
+Date "13 aug 2014"
 Rev "1.0"
 Comp ""
 Comment1 ""
@@ -1279,7 +1279,7 @@ Wire Wire Line
 Wire Wire Line
 	9150 4550 9450 4550
 Wire Wire Line
-	8000 4650 9150 4650
+	9150 4650 8000 4650
 Wire Wire Line
 	8000 4400 8000 4750
 Wire Wire Line
