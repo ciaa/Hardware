@@ -72,7 +72,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 12
 Title "CIAA GPIO/SPI/I2C/USB/ANALOG"
-Date "13 aug 2014"
+Date "15 aug 2014"
 Rev "1.0"
 Comp ""
 Comment1 ""
