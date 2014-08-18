@@ -65,6 +65,8 @@ LIBS:tvs
 LIBS:PBSS5240
 LIBS:pbss5240xf
 LIBS:sw_push
+LIBS:mcp1416
+LIBS:fqt13n06l
 LIBS:ciaa-nxp-cache
 EELAYER 27 0
 EELAYER END
@@ -72,7 +74,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 12
 Title "CIAA CPU - LPC4337"
-Date "15 aug 2014"
+Date "18 aug 2014"
 Rev "1.0"
 Comp ""
 Comment1 ""
