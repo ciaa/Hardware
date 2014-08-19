@@ -1093,25 +1093,11 @@ $EndComp
 Wire Wire Line
 	9650 4300 9600 4300
 Wire Wire Line
-	9600 4300 9600 5150
-Wire Wire Line
-	9600 5150 9650 5150
-Wire Wire Line
-	9650 5250 9550 5250
-Wire Wire Line
-	9550 5250 9550 4200
+	9600 4300 9600 5100
 Wire Wire Line
 	9550 4200 9650 4200
 Wire Wire Line
 	9650 4100 9500 4100
-Wire Wire Line
-	9500 4100 9500 5350
-Wire Wire Line
-	9500 5350 9650 5350
-Wire Wire Line
-	9650 5450 9450 5450
-Wire Wire Line
-	9450 5450 9450 4000
 Wire Wire Line
 	9450 4000 9650 4000
 Wire Wire Line
@@ -1132,59 +1118,82 @@ TD+\nCT\nTD-\nRD+\nRD-\nNC\nNC\nVC+\nVC-\nVC+\nVC-\nLED1_A\nLED1_K\nLED2_A\nLED2
 $Comp
 L +5V #PWR090
 U 1 1 53F3EF9C
-P 9350 5450
-F 0 "#PWR090" H 9350 5540 20  0001 C CNN
-F 1 "+5V" H 9350 5540 30  0000 C CNN
-F 2 "" H 9350 5450 60  0000 C CNN
-F 3 "" H 9350 5450 60  0000 C CNN
-	1    9350 5450
+P 10750 5450
+F 0 "#PWR090" H 10750 5540 20  0001 C CNN
+F 1 "+5V" H 10750 5540 30  0000 C CNN
+F 2 "" H 10750 5450 60  0000 C CNN
+F 3 "" H 10750 5450 60  0000 C CNN
+	1    10750 5450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9350 5450 9350 5550
-Wire Wire Line
-	9350 5550 9650 5550
 $Comp
 L +24V #PWR091
 U 1 1 53F3F79C
-P 9200 5450
-F 0 "#PWR091" H 9200 5400 20  0001 C CNN
-F 1 "+24V" H 9200 5550 30  0000 C CNN
-F 2 "" H 9200 5450 60  0000 C CNN
-F 3 "" H 9200 5450 60  0000 C CNN
-	1    9200 5450
+P 10600 5450
+F 0 "#PWR091" H 10600 5400 20  0001 C CNN
+F 1 "+24V" H 10600 5550 30  0000 C CNN
+F 2 "" H 10600 5450 60  0000 C CNN
+F 3 "" H 10600 5450 60  0000 C CNN
+	1    10600 5450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9200 5450 9200 5650
-Wire Wire Line
-	9200 5650 9650 5650
 Text Notes 8100 6100 0    60   ~ 0
 Se agregan entradas de +5V y +24V para alimentar la CIAA\na través de PoE. Es necesario diseñar una expansión tal que, \nademás de la fuente de tensión, disponga de diodos de \nprotección para no dañarla si se alimenta la CIAA en forma \ntradicional. Se sugiere usar diodos PMEG3020EH como en la \nfuente de alimentación. A su vez es necesario que cada entrada\nPoE tenga un puente rectificador de onda completa ya que la \nnorma no determina polaridad. Ver por ejemplo el módulo PoE\nAG9605-2BR.
 $Comp
-L CONN_7 P?
-U 1 1 53F3CD51
-P 10000 5450
-F 0 "P?" V 9970 5450 60  0000 C CNN
-F 1 "PoE" V 10070 5450 60  0000 C CNN
-F 2 "~" H 10000 5450 60  0000 C CNN
-F 3 "~" H 10000 5450 60  0000 C CNN
-	1    10000 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
+L GND #PWR092
 U 1 1 53F3CD68
-P 9450 5800
-F 0 "#PWR?" H 9450 5800 30  0001 C CNN
-F 1 "GND" H 9450 5730 30  0001 C CNN
-F 2 "" H 9450 5800 60  0000 C CNN
-F 3 "" H 9450 5800 60  0000 C CNN
-	1    9450 5800
+P 9600 5700
+F 0 "#PWR092" H 9600 5700 30  0001 C CNN
+F 1 "GND" H 9600 5630 30  0001 C CNN
+F 2 "" H 9600 5700 60  0000 C CNN
+F 3 "" H 9600 5700 60  0000 C CNN
+	1    9600 5700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9650 5750 9450 5750
+	9600 5550 9600 5700
+$Comp
+L CONN_4X2 P3
+U 1 1 53F39CAF
+P 10050 5500
+F 0 "P3" H 10050 5750 50  0000 C CNN
+F 1 "PoE" V 10050 5500 40  0000 C CNN
+F 2 "~" H 10050 5500 60  0000 C CNN
+F 3 "~" H 10050 5500 60  0000 C CNN
+	1    10050 5500
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	9450 5750 9450 5800
+	9450 4000 9450 5350
+Wire Wire Line
+	9450 5350 9650 5350
+Wire Wire Line
+	10450 5150 10450 5350
+Wire Wire Line
+	10500 5100 10500 5450
+Wire Wire Line
+	10500 5450 10450 5450
+Wire Wire Line
+	9500 4100 9500 5150
+Wire Wire Line
+	9500 5150 10450 5150
+Wire Wire Line
+	9550 5450 9650 5450
+Wire Wire Line
+	9600 5100 10500 5100
+Wire Wire Line
+	9550 4200 9550 5450
+Wire Wire Line
+	9600 5550 9650 5550
+Wire Wire Line
+	10600 5450 10600 5550
+Wire Wire Line
+	10600 5550 10450 5550
+Wire Wire Line
+	10450 5650 10750 5650
+Wire Wire Line
+	10750 5650 10750 5450
+Connection ~ 9600 5650
+Wire Wire Line
+	9600 5650 9650 5650
 $EndSCHEMATC
