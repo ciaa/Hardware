@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 13
 Title "CIAA Freescale - Esquemático jerárquico"
-Date "7 aug 2014"
+Date "8 aug 2014"
 Rev "1.0"
 Comp "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
@@ -724,11 +724,11 @@ Wire Wire Line
 Text Label 5750 6050 2    60   ~ 0
 USB_VBUS
 $Comp
-L LOGO-CIAA-FSL G102
-U 1 1 53E304AA
+L LOGO_CIAA G102
+U 1 1 53E44CA2
 P 10000 6400
-F 0 "G102" H 10000 5764 60  0001 C CNN
-F 1 "LOGO-CIAA-FSL" H 10000 7036 60  0001 C CNN
+F 0 "G102" H 10000 5827 60  0001 C CNN
+F 1 "LOGO_CIAA" H 10000 6973 60  0001 C CNN
 F 2 "LOGO-CIAA" H 10000 6400 60  0001 C CNN
 F 3 "~" H 10000 6400 60  0000 C CNN
 	1    10000 6400
