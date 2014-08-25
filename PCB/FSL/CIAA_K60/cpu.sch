@@ -6,7 +6,7 @@ $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 2 13
 Title "Microcontrolador Freescale K60"
-Date "5 aug 2014"
+Date "25 aug 2014"
 Rev "1.0"
 Comp "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
@@ -1272,12 +1272,6 @@ Wire Wire Line
 Wire Wire Line
 	6250 7650 5600 7650
 Wire Wire Line
-	5700 8950 5600 8950
-Wire Wire Line
-	5700 9050 5600 9050
-Wire Wire Line
-	5700 9150 5600 9150
-Wire Wire Line
 	5700 9450 5600 9450
 Wire Wire Line
 	2300 9250 2400 9250
@@ -1570,4 +1564,7 @@ Wire Wire Line
 	2300 2550 2400 2550
 Text Notes 850  5050 0    60   ~ 0
 UART5
+NoConn ~ 5600 9150
+NoConn ~ 5600 9050
+NoConn ~ 5600 8950
 $EndSCHEMATC

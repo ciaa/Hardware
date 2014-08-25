@@ -1,0 +1,76 @@
+Scripts utilizados como complemento para el desarrollo con Kicad.
+
+3dkicad2freecad.pl
+==================
+
+Descripción:
+------------
+Este script es utilizado para el caso que se quiera utilizar el modelo 3D de
+una placa en Freecad. Si bien Freecad soporta importar archivo wrl, Kicad
+genera los 3D en directorios separados y Freecad no tiene una función (por
+ahora) para poder ratrearlos. El script lo único que hace es poner el
+contenido de todos los body 3D de los componentes en el wrl principal donde
+se encuentra el modelo del PCB en 3D.
+
+Preparación previa:
+-------------------
+Para esto se necesita desde Kicad generar el 3D en formato VRML.
+Desde PCBNew:
+File -> Export -> VRML
+
+   - Elegir la unidad de medición (Inch, mm, meter)
+   - Elegir: "Copy 3D Shapes Files in Subdir"
+
+Cómo usarlo:
+------------
+perl 3dkicad2freecad.pl --input <3DFILE.wrl> --output <3DFILE-FREECAD.wrl>
+
+Luego se puede importar el archivo <3DFILE-FREECAD.wrl> en Freecad.
+
+bom_opt.pl
+==========
+
+Descripción:
+------------
+Sirve para reacomodar el BOM generado por Kicad, ya que este no agrupa de
+forma correcta los items si no tienen los campos bien definidos. El script es
+capaz de barrer el csv generado por Kicad y hacer la cuenta de componentes
+según el número de parte. A su vez, puede informar en un sector a parte,
+los componentes que no tienen nº de parte o que presentan conflictos.
+
+Preparación previa:
+-------------------
+Para esto se necesita desde Kicad generar el BOM desde Kicad
+Desde eeschema:
+Tools -> Generate bill of Materials
+
+   - Elegir: "List of spreadsheet import (by ref)
+   - Elegir: Separación ";"
+   - Incluir los campos que se quieran¹.
+
+¹ Nota: el script utiliza los campos tal como se especifican en
+CIAA_K60/doc/pautas/lineamientos_sch.txt
+
+Cómo usarlo:
+------------
+perl bom_opt.pl --input <BOM.csv> --output <BOM-out.csv>
+
+borra_valores_pcb.sh
+====================
+
+Descripción:
+------------
+
+Como su nombre lo indica, quita los campos de valor de un archivo pcb de
+Kicad. Puede servir para cuando se quiere hacer un render de la placa y
+quieren no mostrarse estos campos.
+
+Cómo usarlo:
+------------
+sh borra_valores_pcb.sh <PCB.kicad_pcb>
+
+Luego devuelve el archivo PCB bajo el nombre: sin_valores_<PCB.kicad_pcb>
+
+
+
+

@@ -1,13 +1,12 @@
 EESchema Schematic File Version 2
 LIBS:CIAAK60LIB
-LIBS:CIAA_K60-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 13
 Title "CIAA Entradas Digitales"
-Date "4 jul 2014"
+Date "25 aug 2014"
 Rev "1.0"
 Comp "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
@@ -196,6 +195,12 @@ F 0 "U701" H 4212 1428 40  0000 C CNN
 F 1 "TLP290-4" H 4500 1050 40  0000 C CNN
 F 2 "SSOP-16" H 4236 1076 29  0001 C CNN
 F 3 "~" H 4400 1250 60  0000 C CNN
+F 4 "OPTOISOLTR 2.5KV 4CH TRANS 16-SO" H 4400 1250 60  0001 C CNN "Descripcion"
+F 5 "Toshiba Semiconductor and Storage" H 4400 1250 60  0001 C CNN "Fabricante"
+F 6 "TLP290-4(TP,E" H 4400 1250 60  0001 C CNN "Nro. parte"
+F 7 "../datasheets/ic/TLP290-4.pdf" H 4400 1250 60  0001 C CNN "Path datasheet"
+F 8 "TLP290-4(TPETR-ND" H 4400 1250 60  0001 C CNN "Digikey/Mouser"
+F 9 "16-SOIC" H 4400 1250 60  0001 C CNN "Footprint estandar"
 	1    4400 1250
 	1    0    0    -1  
 $EndComp
@@ -207,6 +212,12 @@ F 0 "U701" H 4212 2278 40  0000 C CNN
 F 1 "TLP290-4" H 4499 1916 40  0000 C CNN
 F 2 "SSOP-16" H 4236 1926 29  0001 C CNN
 F 3 "~" H 4400 2100 60  0000 C CNN
+F 4 "OPTOISOLTR 2.5KV 4CH TRANS 16-SO" H 4400 1250 60  0001 C CNN "Descripcion"
+F 5 "Toshiba Semiconductor and Storage" H 4400 1250 60  0001 C CNN "Fabricante"
+F 6 "TLP290-4(TP,E" H 4400 1250 60  0001 C CNN "Nro. parte"
+F 7 "../datasheets/ic/TLP290-4.pdf" H 4400 1250 60  0001 C CNN "Path datasheet"
+F 8 "TLP290-4(TPETR-ND" H 4400 1250 60  0001 C CNN "Digikey/Mouser"
+F 9 "16-SOIC" H 4400 1250 60  0001 C CNN "Footprint estandar"
 	2    4400 2100
 	1    0    0    -1  
 $EndComp
@@ -218,6 +229,12 @@ F 0 "U701" H 4212 3128 40  0000 C CNN
 F 1 "TLP290-4" H 4499 2766 40  0000 C CNN
 F 2 "SSOP-16" H 4236 2776 29  0001 C CNN
 F 3 "~" H 4400 2950 60  0000 C CNN
+F 4 "OPTOISOLTR 2.5KV 4CH TRANS 16-SO" H 4400 1250 60  0001 C CNN "Descripcion"
+F 5 "Toshiba Semiconductor and Storage" H 4400 1250 60  0001 C CNN "Fabricante"
+F 6 "TLP290-4(TP,E" H 4400 1250 60  0001 C CNN "Nro. parte"
+F 7 "../datasheets/ic/TLP290-4.pdf" H 4400 1250 60  0001 C CNN "Path datasheet"
+F 8 "TLP290-4(TPETR-ND" H 4400 1250 60  0001 C CNN "Digikey/Mouser"
+F 9 "16-SOIC" H 4400 1250 60  0001 C CNN "Footprint estandar"
 	3    4400 2950
 	1    0    0    -1  
 $EndComp
@@ -229,6 +246,12 @@ F 0 "U701" H 4212 3978 40  0000 C CNN
 F 1 "TLP290-4" H 4499 3616 40  0000 C CNN
 F 2 "SSOP-16" H 4236 3626 29  0001 C CNN
 F 3 "~" H 4400 3800 60  0000 C CNN
+F 4 "OPTOISOLTR 2.5KV 4CH TRANS 16-SO" H 4400 1250 60  0001 C CNN "Descripcion"
+F 5 "Toshiba Semiconductor and Storage" H 4400 1250 60  0001 C CNN "Fabricante"
+F 6 "TLP290-4(TP,E" H 4400 1250 60  0001 C CNN "Nro. parte"
+F 7 "../datasheets/ic/TLP290-4.pdf" H 4400 1250 60  0001 C CNN "Path datasheet"
+F 8 "TLP290-4(TPETR-ND" H 4400 1250 60  0001 C CNN "Digikey/Mouser"
+F 9 "16-SOIC" H 4400 1250 60  0001 C CNN "Footprint estandar"
 	4    4400 3800
 	1    0    0    -1  
 $EndComp
@@ -240,6 +263,12 @@ F 0 "U702" H 4212 4828 40  0000 C CNN
 F 1 "TLP290-4" H 4499 4466 40  0000 C CNN
 F 2 "SSOP-16" H 4236 4476 29  0001 C CNN
 F 3 "~" H 4400 4650 60  0000 C CNN
+F 4 "OPTOISOLTR 2.5KV 4CH TRANS 16-SO" H 4400 1250 60  0001 C CNN "Descripcion"
+F 5 "Toshiba Semiconductor and Storage" H 4400 1250 60  0001 C CNN "Fabricante"
+F 6 "TLP290-4(TP,E" H 4400 1250 60  0001 C CNN "Nro. parte"
+F 7 "../datasheets/ic/TLP290-4.pdf" H 4400 1250 60  0001 C CNN "Path datasheet"
+F 8 "TLP290-4(TPETR-ND" H 4400 1250 60  0001 C CNN "Digikey/Mouser"
+F 9 "16-SOIC" H 4400 1250 60  0001 C CNN "Footprint estandar"
 	1    4400 4650
 	1    0    0    -1  
 $EndComp
@@ -251,6 +280,12 @@ F 0 "U702" H 4212 5678 40  0000 C CNN
 F 1 "TLP290-4" H 4499 5316 40  0000 C CNN
 F 2 "SSOP-16" H 4236 5326 29  0001 C CNN
 F 3 "~" H 4400 5500 60  0000 C CNN
+F 4 "OPTOISOLTR 2.5KV 4CH TRANS 16-SO" H 4400 1250 60  0001 C CNN "Descripcion"
+F 5 "Toshiba Semiconductor and Storage" H 4400 1250 60  0001 C CNN "Fabricante"
+F 6 "TLP290-4(TP,E" H 4400 1250 60  0001 C CNN "Nro. parte"
+F 7 "../datasheets/ic/TLP290-4.pdf" H 4400 1250 60  0001 C CNN "Path datasheet"
+F 8 "TLP290-4(TPETR-ND" H 4400 1250 60  0001 C CNN "Digikey/Mouser"
+F 9 "16-SOIC" H 4400 1250 60  0001 C CNN "Footprint estandar"
 	2    4400 5500
 	1    0    0    -1  
 $EndComp
@@ -262,6 +297,12 @@ F 0 "U702" H 4212 6528 40  0000 C CNN
 F 1 "TLP290-4" H 4499 6166 40  0000 C CNN
 F 2 "SSOP-16" H 4236 6176 29  0001 C CNN
 F 3 "~" H 4400 6350 60  0000 C CNN
+F 4 "OPTOISOLTR 2.5KV 4CH TRANS 16-SO" H 4400 1250 60  0001 C CNN "Descripcion"
+F 5 "Toshiba Semiconductor and Storage" H 4400 1250 60  0001 C CNN "Fabricante"
+F 6 "TLP290-4(TP,E" H 4400 1250 60  0001 C CNN "Nro. parte"
+F 7 "../datasheets/ic/TLP290-4.pdf" H 4400 1250 60  0001 C CNN "Path datasheet"
+F 8 "TLP290-4(TPETR-ND" H 4400 1250 60  0001 C CNN "Digikey/Mouser"
+F 9 "16-SOIC" H 4400 1250 60  0001 C CNN "Footprint estandar"
 	3    4400 6350
 	1    0    0    -1  
 $EndComp
@@ -273,6 +314,12 @@ F 0 "U702" H 4212 7378 40  0000 C CNN
 F 1 "TLP290-4" H 4499 7016 40  0000 C CNN
 F 2 "SSOP-16" H 4236 7026 29  0001 C CNN
 F 3 "~" H 4400 7200 60  0000 C CNN
+F 4 "OPTOISOLTR 2.5KV 4CH TRANS 16-SO" H 4400 1250 60  0001 C CNN "Descripcion"
+F 5 "Toshiba Semiconductor and Storage" H 4400 1250 60  0001 C CNN "Fabricante"
+F 6 "TLP290-4(TP,E" H 4400 1250 60  0001 C CNN "Nro. parte"
+F 7 "../datasheets/ic/TLP290-4.pdf" H 4400 1250 60  0001 C CNN "Path datasheet"
+F 8 "TLP290-4(TPETR-ND" H 4400 1250 60  0001 C CNN "Digikey/Mouser"
+F 9 "16-SOIC" H 4400 1250 60  0001 C CNN "Footprint estandar"
 	4    4400 7200
 	1    0    0    -1  
 $EndComp

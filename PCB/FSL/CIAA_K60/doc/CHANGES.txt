@@ -65,3 +65,11 @@ Cambios realizados a la CIAA-FSL
 * Archivos: .kicad_pcb  CIAAFSL.mod *.wrl
 * Descripción: Se publica una versión del PCB con una primera ubicación de los
                componentes, y los modelos 3D de los mismos.
+
+* Fecha: 21/08/2014
+* Archivos: CIAA_K60.kicad_pcb
+* Autor: Alamon Diego Fernando <dalamon EN inti.gob.ar> (Encargado del ruteo)
+* Descripción: Se publica una versión sin revisar, pero finalizada del PCB de
+               la CIAA-FSL completamente ruteada.
+
+
