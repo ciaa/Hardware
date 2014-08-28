@@ -1,4 +1,4 @@
-eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 23/07/2014 04:43:51 p.m.
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 25/08/2014 06:11:26 a.m.
 #Cmp ( order = Reference )
 | BT1        BK-913      
 | C1         10uF / 6V3  
@@ -11,12 +11,12 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 23/07/2014 04:43:51 p.m
 | C8         100nF       
 | C9         100nF       
 | C10        100nF       
-| C11        15p         
-| C12        15p         
+| C11        20p         
+| C12        20p         
 | C13        20p         
 | C14        20p         
-| C15        22p         
-| C16        22p         
+| C15        20p         
+| C16        20p         
 | C17        100nF       
 | C18        100nF       
 | C19        100nF       
@@ -49,6 +49,7 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 23/07/2014 04:43:51 p.m
 | C46        100nF       
 | C47        100nF       
 | C48        100nF       
+| C49        100nF       
 | D1         PSD12C      
 | D2         PSD12C      
 | D3         PSD12C      
@@ -72,6 +73,7 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 23/07/2014 04:43:51 p.m
 | FB6        MI0805M221R-10
 | FB7        MMZ1608B601C
 | FB8        MMZ1608B601C
+| FB9        BLM15HG601SN1D
 | H1         4mm         
 | H2         4mm         
 | H3         4mm         
@@ -101,9 +103,9 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 23/07/2014 04:43:51 p.m
 | R3         4K7         
 | R4         100K        
 | R5         100K        
-| R6         680         
-| R7         120         
-| R8         680         
+| R6         390         
+| R7         200         
+| R8         390         
 | R9         100 / 1/2W  
 | R10        330k        
 | R11        0           
@@ -170,13 +172,14 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 23/07/2014 04:43:51 p.m
 | TH4        MF-MSMF110-2
 | TR1        DLW21HN900SQ2
 | TR2        DLW21HN900SQ2
-| U1         MAX3072     
+| U1         SN65HVD1176DR
 | U2         PRTR5V0U2X  
 | U3         NCP1117ST15T3G
 | U4         LPC4337JBD144
 | U5         93C46       
 | U6         FT2232H     
 | U7         TXB0108     
+| U8         PRTR5V0U2X  
 | X1         32.768K     
 | X2         12MHz       
 | X3         12MHz       
@@ -185,12 +188,12 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 23/07/2014 04:43:51 p.m
 
 #Componentes ( orden = Valor )
 | BK-913       BT1       
-| 15p          C11       
-| 15p          C12       
+| 20p          C11       
+| 20p          C12       
 | 20p          C13       
 | 20p          C14       
-| 22p          C15       
-| 22p          C16       
+| 20p          C15       
+| 20p          C16       
 | 100nF        C2        
 | 100nF        C4        
 | 100nF        C7        
@@ -225,6 +228,7 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 23/07/2014 04:43:51 p.m
 | 100nF        C46       
 | 100nF        C47       
 | 100nF        C48       
+| 100nF        C49       
 | 3.3uF        C35       
 | 10uF / 6V3   C1        
 | 10uF         C3        
@@ -256,6 +260,7 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 23/07/2014 04:43:51 p.m
 | MMZ1608B601C FB4       
 | MI0805M221R-10 FB5       
 | MI0805M221R-10 FB6       
+| BLM15HG601SN1D FB9       
 | 4mm          H1        
 | 4mm          H2        
 | 4mm          H3        
@@ -286,11 +291,11 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 23/07/2014 04:43:51 p.m
 | 0            R108      
 | 0            R109      
 | 0            R110      
-| 120          R7        
+| 200          R7        
 | 270          R105      
+| 390          R6        
+| 390          R8        
 | 470          R20       
-| 680          R6        
-| 680          R8        
 | 680          R68       
 | 680          R72       
 | 680          R73       
@@ -357,10 +362,11 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 23/07/2014 04:43:51 p.m
 | 93C46        U5        
 | FT2232H      U6        
 | TXB0108      U7        
-| MAX3072      U1        
+| SN65HVD1176DR U1        
 | PRTR5V0U2X   U2        
 | NCP1117ST15T3G U3        
 | LPC4337JBD144 U4        
+| PRTR5V0U2X   U8        
 | 32.768K      X1        
 | 12MHz        X2        
 | 12MHz        X3        

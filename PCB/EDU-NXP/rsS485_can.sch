@@ -74,7 +74,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 7
 Title "EDU CIAA RS485"
-Date "25 aug 2014"
+Date "28 aug 2014"
 Rev "1.0"
 Comp ""
 Comment1 ""

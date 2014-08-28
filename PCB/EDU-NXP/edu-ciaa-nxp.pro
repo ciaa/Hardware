@@ -1,4 +1,4 @@
-update=17/07/2014 08:29:39 a.m.
+update=24/08/2014 09:52:28 a.m.
 version=1
 last_client=eeschema
 [general]
@@ -86,7 +86,7 @@ LibName54=footprints/L-SRN1060
 LibName55=footprints/edu-ciaa-logo
 [eeschema]
 version=1
-LibDir=
+LibDir=kicadlibrary-master
 NetFmtName=
 RptD_X=0
 RptD_Y=100
@@ -159,5 +159,5 @@ LibName63=components/tvs
 LibName64=components/PBSS5240
 LibName65=components/pbss5240xf
 LibName66=kicadlibrary-master/LED_RGB
-LibName67=Logo
-LibName68=components/edu-ciaa-logo
+LibName67=components/edu-ciaa-logo
+LibName68=kicadlibrary-master/EDUCIAANXP

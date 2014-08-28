@@ -1,8 +1,0 @@
-Pendientes:
-
-
-Test points?? Enganches para osciloscopio?
-
-Comprobar todos los footprints según la BOM
-
-Ordenar las librerías

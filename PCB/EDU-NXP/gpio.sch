@@ -65,8 +65,8 @@ LIBS:tvs
 LIBS:PBSS5240
 LIBS:pbss5240xf
 LIBS:LED_RGB
-LIBS:Logo
 LIBS:edu-ciaa-logo
+LIBS:EDUCIAANXP
 LIBS:edu-ciaa-nxp-cache
 EELAYER 27 0
 EELAYER END
@@ -74,7 +74,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
 Title "EDU CIAA GPIO"
-Date "23 jul 2014"
+Date "28 aug 2014"
 Rev "1.0"
 Comp ""
 Comment1 ""
@@ -100,7 +100,7 @@ Text HLabel 10450 4800 2    60   BiDi ~ 0
 GPIO5
 Text HLabel 10450 4950 2    60   BiDi ~ 0
 GPIO7
-Text HLabel 4750 2000 2    60   Input ~ 0
+Text HLabel 4750 2000 2    60   Output ~ 0
 WAKEUP
 $Comp
 L THERMISTOR TH1
@@ -167,61 +167,61 @@ F 3 "" H 3450 2000 60  0000 C CNN
 	1    3450 2000
 	1    0    0    -1  
 $EndComp
-Text HLabel 10300 1900 2    60   Input ~ 0
+Text HLabel 10300 1900 2    60   Output ~ 0
 ENET_RXD1
 Text HLabel 10250 2100 2    60   Input ~ 0
 ENET_TX_EN
 Text HLabel 1300 5300 0    60   Input ~ 0
 TEC_COL0
-Text HLabel 6200 2300 0    60   Input ~ 0
+Text HLabel 6200 2300 0    60   Output ~ 0
 ENET_RXD0
-Text HLabel 10200 2500 2    60   Input ~ 0
+Text HLabel 10200 2500 2    60   Output ~ 0
 ENET_CRS_DV
 Text HLabel 10300 2700 2    60   BiDi ~ 0
 ENET_MDIO
-Text HLabel 10300 2900 2    60   Output ~ 0
+Text HLabel 10300 2900 2    60   Input ~ 0
 ENET_TXD0
 Text HLabel 6350 2900 0    60   Input ~ 0
 ENET_REF_CLK
-Text HLabel 10300 3100 2    60   Output ~ 0
+Text HLabel 10300 3100 2    60   Input ~ 0
 ENET_TXD1
 Text HLabel 1200 4700 0    60   Output ~ 0
 TEC_F0
-Text HLabel 1150 2750 0    60   Input ~ 0
+Text HLabel 1150 2750 0    60   Output ~ 0
 ADC0_1
 Text HLabel 4800 4650 2    60   Output ~ 0
 TEC_F1
-Text HLabel 1000 2950 0    60   Output ~ 0
+Text HLabel 1000 2950 0    60   Input ~ 0
 DAC
 Text HLabel 1200 5100 0    60   Output ~ 0
 TEC_F2
 Text HLabel 1200 4900 0    60   Output ~ 0
 TEC_F3
-Text HLabel 10500 4350 2    60   Output ~ 0
+Text HLabel 10500 4350 2    60   Input ~ 0
 LCD1
-Text HLabel 10500 4200 2    60   Output ~ 0
+Text HLabel 10500 4200 2    60   Input ~ 0
 LCD2
-Text HLabel 10500 4050 2    60   Output ~ 0
+Text HLabel 10500 4050 2    60   Input ~ 0
 LCD3
-Text HLabel 10400 3900 2    60   Output ~ 0
+Text HLabel 10400 3900 2    60   Input ~ 0
 LCD_RS
-Text HLabel 6050 3700 0    60   Output ~ 0
+Text HLabel 6050 3700 0    60   Input ~ 0
 LCD_EN
-Text HLabel 10550 3700 2    60   Output ~ 0
+Text HLabel 10550 3700 2    60   Input ~ 0
 LCD4
-Text HLabel 1200 4100 0    60   Input ~ 0
+Text HLabel 1200 4100 0    60   Output ~ 0
 CAN_RD
-Text HLabel 1200 4300 0    60   Output ~ 0
+Text HLabel 1200 4300 0    60   Input ~ 0
 CAN_TD
 Text HLabel 1300 4500 0    60   Input ~ 0
 TEC_COL1
 Text HLabel 4650 4500 2    60   Input ~ 0
 TEC_COL2
-Text HLabel 950  2000 0    60   Input ~ 0
+Text HLabel 950  2000 0    60   Output ~ 0
 ISP
-Text HLabel 1150 2350 0    60   Input ~ 0
+Text HLabel 1150 2350 0    60   Output ~ 0
 ADC0_3
-Text HLabel 1150 2550 0    60   Input ~ 0
+Text HLabel 1150 2550 0    60   Output ~ 0
 ADC0_2
 $Comp
 L CONN_20X2 P1
@@ -291,13 +291,13 @@ F 3 "~" H 1700 2350 30  0000 C CNN
 $EndComp
 Text HLabel 10400 3500 2    60   Input ~ 0
 SPI_SCK
-Text HLabel 1350 3900 0    60   Output ~ 0
+Text HLabel 1350 3900 0    60   Input ~ 0
 RS232_TXD
-Text HLabel 1350 3700 0    60   Input ~ 0
+Text HLabel 1350 3700 0    60   Output ~ 0
 RS232_RXD
-Text HLabel 10350 2300 2    60   Output ~ 0
+Text HLabel 10350 2300 2    60   Input ~ 0
 ENET_MDC
-Text HLabel 1100 1850 0    60   Output ~ 0
+Text HLabel 1100 1850 0    60   Input ~ 0
 RESET
 $Comp
 L THERMISTOR TH3
