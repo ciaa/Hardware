@@ -19,4 +19,6 @@ PCB: KiCad PCB project files.
 
 --ST: CIAA-ST (STM32F4) files.
 
+--EDU-NXP: EDU-CIAA-NXP (LPC4337 MCU) files.
+
 Readme: Common readme files.
