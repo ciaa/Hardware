@@ -1,13 +1,8 @@
-update=31/08/2014 09:54:22 a.m.
+update=06/09/2014 10:43:31 a.m.
 version=1
-last_client=pcbnew
+last_client=cvpcb
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [eeschema]
 version=1
 LibDir=kicadlibrary
@@ -38,5 +33,8 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=footprints
 LibName1=footprints/edu-ciaa
+LibDir=footprints
+[cvpcb]
+version=1
+NetIExt=net
