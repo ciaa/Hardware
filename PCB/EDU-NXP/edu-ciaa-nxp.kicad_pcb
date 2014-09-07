@@ -3,7 +3,7 @@
   (general
     (links 490)
     (no_connects 375)
-    (area 164.332144 66.450001 315.729 224.633174)
+    (area 164.332144 66.450001 295.417857 224.633174)
     (thickness 1.6)
     (drawings 41)
     (tracks 410)
@@ -533,11 +533,6 @@
       (layers F.Cu F.Paste F.Mask)
       (net 3 +5V)
     )
-    (model oaa/SOD123F.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module tssop-20 (layer F.Cu) (tedit 53C47CE3) (tstamp 53A8AFCF)
@@ -637,7 +632,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 71 /CPU/TCK)
     )
-    (model smd/smd_dil/tssop-20.wrl
+    (model packages3d/tssop-20.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -736,7 +731,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 158 N-00000241)
     )
-    (model smd/cms_sot23.wrl
+    (model packages3d/cms_sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.13 0.15 0.15))
       (rotate (xyz 0 0 0))
@@ -806,7 +801,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 142 N-00000225)
     )
-    (model smd/cms_sot23.wrl
+    (model packages3d/cms_sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.13 0.15 0.15))
       (rotate (xyz 0 0 0))
@@ -876,7 +871,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 140 N-00000223)
     )
-    (model smd/cms_sot23.wrl
+    (model packages3d/cms_sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.13 0.15 0.15))
       (rotate (xyz 0 0 0))
@@ -911,7 +906,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 152 N-00000235)
     )
-    (model smd/cms_sot23.wrl
+    (model packages3d/cms_sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.13 0.15 0.15))
       (rotate (xyz 0 0 0))
@@ -954,7 +949,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 99 GND)
     )
-    (model smd/SOT223.wrl
+    (model packages3d/SOT223.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -998,7 +993,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 92 /CPU/USB_VBUS)
     )
-    (model smd/smd_transistors/sot143b.wrl
+    (model packages3d/sot143b.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1480,9 +1475,9 @@
       (layers F.Cu F.Paste F.Mask)
       (net 94 /CPU/XTAL2)
     )
-    (model smd/chip_cms.wrl
+    (model packages3d/c_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2735,7 +2730,7 @@
     )
   )
 
-  (module SM0805 (layer F.Cu) (tedit 53C47863) (tstamp 53AF3F04)
+  (module SM0805 (layer F.Cu) (tedit 53C47863) (tstamp 5404C94B)
     (at 264 90.5)
     (path /52C1F703/52C5B362)
     (attr smd)
@@ -2913,9 +2908,9 @@
       (layers F.Cu F.Paste F.Mask)
       (net 59 /CPU/RESET)
     )
-    (model kicadlibrary-master/pin_strip_5x2.wrl
+    (model packages3d/pin_strip_5x2.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 0.5 0.5 0.5))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3095,7 +3090,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 99 GND)
     )
-    (model kicadlibrary-master/pin_socket_20x2.wrl
+    (model packages3d/pin_socket_20x2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3277,7 +3272,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 44 /CPU/LCD1)
     )
-    (model kicadlibrary-master/pin_socket_20x2.wrl
+    (model packages3d/pin_socket_20x2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3310,7 +3305,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 136 N-00000219)
     )
-    (model kicadlibrary-master/r_2010.wrl
+    (model packages3d/r_2010.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3343,7 +3338,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 138 N-00000221)
     )
-    (model kicadlibrary-master/r_2010.wrl
+    (model packages3d/r_2010.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3376,7 +3371,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 132 N-00000214)
     )
-    (model kicadlibrary-master/r_2010.wrl
+    (model packages3d/r_2010.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3409,7 +3404,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 131 N-00000212)
     )
-    (model kicadlibrary-master/r_2010.wrl
+    (model packages3d/r_2010.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3671,12 +3666,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 89 /CPU/USB_JTAG_1.8V)
     )
-    (model oaa/LQFP64-M05.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model kicadlibrary-master/lqfp-64.wrl
+    (model packages3d/lqfp-64.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4240,12 +4230,7 @@
     (pad 144 smd rect (at -10.74674 8.7503 315) (size 0.254 1.50114)
       (layers F.Cu F.Paste F.Mask)
     )
-    (model oaa/LQFP144-M05.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model kicadlibrary-master/tqfp-144.wrl
+    (model packages3d/tqfp-144.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4324,6 +4309,11 @@
     (pad 2 smd rect (at 1.04902 0) (size 1.19888 1.19888)
       (layers F.Cu F.Paste F.Mask)
       (net 99 GND)
+    )
+    (model packages3d/led_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -4638,7 +4628,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 99 GND)
     )
-    (model smd/capacitors/c_elec_6_3x7_7.wrl
+    (model packages3d/c_elec_6_3x7_7.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4786,7 +4776,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 92 /CPU/USB_VBUS)
     )
-    (model smd/capacitors/c_1206.wrl
+    (model packages3d/c_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4953,7 +4943,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 1 +3.3V)
     )
-    (model smd/capacitors/c_0805.wrl
+    (model packages3d/c_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4984,7 +4974,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 1 +3.3V)
     )
-    (model smd/capacitors/c_0805.wrl
+    (model packages3d/c_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5170,7 +5160,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 99 GND)
     )
-    (model smd/capacitors/c_0805.wrl
+    (model packages3d/c_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5294,7 +5284,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 99 GND)
     )
-    (model smd/capacitors/c_0805.wrl
+    (model packages3d/c_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5387,7 +5377,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 99 GND)
     )
-    (model smd/capacitors/c_0805.wrl
+    (model packages3d/c_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5418,7 +5408,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 99 GND)
     )
-    (model smd/capacitors/c_0805.wrl
+    (model packages3d/c_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5449,7 +5439,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 99 GND)
     )
-    (model smd/capacitors/c_0805.wrl
+    (model packages3d/c_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5480,7 +5470,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 99 GND)
     )
-    (model smd/capacitors/c_0805.wrl
+    (model packages3d/c_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5511,7 +5501,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 99 GND)
     )
-    (model smd/capacitors/c_0805.wrl
+    (model packages3d/c_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5542,7 +5532,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 1 +3.3V)
     )
-    (model smd/capacitors/c_0805.wrl
+    (model packages3d/c_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5573,7 +5563,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 93 /CPU/XTAL1)
     )
-    (model smd/capacitors/c_0805.wrl
+    (model packages3d/c_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5635,7 +5625,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 67 /CPU/RTCX2)
     )
-    (model smd/capacitors/c_0805.wrl
+    (model packages3d/c_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5666,7 +5656,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 66 /CPU/RTCX1)
     )
-    (model smd/capacitors/c_0805.wrl
+    (model packages3d/c_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5697,7 +5687,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 100 GNDA)
     )
-    (model smd/capacitors/c_0805.wrl
+    (model packages3d/c_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5790,7 +5780,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 1 +3.3V)
     )
-    (model smd/capacitors/c_0805.wrl
+    (model packages3d/c_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5945,7 +5935,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 1 +3.3V)
     )
-    (model smd/capacitors/c_0805.wrl
+    (model packages3d/c_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5976,7 +5966,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 1 +3.3V)
     )
-    (model smd/capacitors/c_0805.wrl
+    (model packages3d/c_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6007,7 +5997,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 1 +3.3V)
     )
-    (model smd/capacitors/c_0805.wrl
+    (model packages3d/c_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6166,12 +6156,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 118 N-00000197)
     )
-    (model device/bornier_3.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model kicadlibrary-master/mkds_1,5-3.wrl
+    (model packages3d/mkds_1,5-3.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6219,7 +6204,7 @@
     (pad 4 smd rect (at 0 -3.175 45) (size 1.27 1.905)
       (layers F.Cu F.Paste F.Mask)
     )
-    (model kicadlibrary-master/crystal_smd_5x3.2mm.wrl
+    (model packages3d/crystal_smd_5x3.2mm.wrl
       (at (xyz 0.1 0.06 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6377,6 +6362,11 @@
       (layers F.Cu F.Paste F.Mask)
       (net 1 +3.3V)
     )
+    (model packages3d/so-8.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module -SOIC8 (layer F.Cu) (tedit 53C4775C) (tstamp 53A8BE9F)
@@ -6462,7 +6452,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 3 +5V)
     )
-    (model kicadlibrary-master/so-8.wrl
+    (model packages3d/so-8.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6734,7 +6724,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 147 N-00000230)
     )
-    (model kicadlibrary-master/led_0805.wrl
+    (model packages3d/led_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6814,7 +6804,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 145 N-00000228)
     )
-    (model kicadlibrary-master/led_0805.wrl
+    (model packages3d/led_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6894,7 +6884,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 153 N-00000236)
     )
-    (model kicadlibrary-master/led_0805.wrl
+    (model packages3d/led_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7074,7 +7064,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 3 +5V)
     )
-    (model smd/do214.wrl
+    (model packages3d/do214.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7119,7 +7109,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 3 +5V)
     )
-    (model smd/do214.wrl
+    (model packages3d/do214.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7377,7 +7367,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 3 +5V)
     )
-    (model kicadlibrary-master/led_plcc2_3528.wrl
+    (model packages3d/led_plcc2_3528.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7441,9 +7431,9 @@
       (layers F.Cu F.Paste F.Mask)
       (net 65 /CPU/RST)
     )
-    (model smd/chip_cms.wrl
+    (model packages3d/c_0805.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.1 0.1 0.1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -7542,196 +7532,6 @@
       (xy -3.33756 -3.59918) (xy -3.33756 -3.59918)) (layer F.SilkS) (width 0.00254))
   )
 
-  (module PUSH_SWITCH_THT (layer F.Cu) (tedit 53C6560C) (tstamp 53A8B723)
-    (at 216 199.1)
-    (path /53A4ECDD/539A8459)
-    (fp_text reference SW2 (at 2.2 -2.2) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value TEC_2 (at 2 -3.6) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_line (start 5.3 5.9) (end 5.3 6.2) (layer F.SilkS) (width 0.15))
-    (fp_line (start 5.3 5.9) (end 5.3 0.2) (layer F.SilkS) (width 0.15))
-    (fp_line (start 5.3 0.2) (end -0.7 0.2) (layer F.SilkS) (width 0.15))
-    (fp_line (start -0.7 0.2) (end -0.7 6.2) (layer F.SilkS) (width 0.15))
-    (fp_line (start -0.7 6.2) (end 5.3 6.2) (layer F.SilkS) (width 0.15))
-    (fp_circle (center 2.3 3.2) (end 2.3 5.4) (layer F.SilkS) (width 0.15))
-    (pad 3 thru_hole oval (at 0 0) (size 2 3) (drill 1.016)
-      (layers *.Cu *.Mask F.SilkS)
-      (net 99 GND)
-    )
-    (pad 1 thru_hole oval (at 4.5 0) (size 2 3) (drill 1.016)
-      (layers *.Cu *.Mask F.SilkS)
-      (net 159 N-00000242)
-    )
-    (pad 2 thru_hole oval (at 4.5 6.5) (size 2 3) (drill 1.016)
-      (layers *.Cu *.Mask F.SilkS)
-      (net 159 N-00000242)
-    )
-    (pad 4 thru_hole oval (at 0 6.5) (size 2 3) (drill 1.016)
-      (layers *.Cu *.Mask F.SilkS)
-      (net 99 GND)
-    )
-    (model kicadlibrary-master/pcb_push.wrl
-      (at (xyz 0.09 -0.12 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-  )
-
-  (module PUSH_SWITCH_THT (layer F.Cu) (tedit 53C65610) (tstamp 53A8B716)
-    (at 227.5 199.1)
-    (path /53A4ECDD/539A848C)
-    (fp_text reference SW3 (at 2.2 -2.2) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value TEC_3 (at 2 -3.6) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_line (start 5.3 5.9) (end 5.3 6.2) (layer F.SilkS) (width 0.15))
-    (fp_line (start 5.3 5.9) (end 5.3 0.2) (layer F.SilkS) (width 0.15))
-    (fp_line (start 5.3 0.2) (end -0.7 0.2) (layer F.SilkS) (width 0.15))
-    (fp_line (start -0.7 0.2) (end -0.7 6.2) (layer F.SilkS) (width 0.15))
-    (fp_line (start -0.7 6.2) (end 5.3 6.2) (layer F.SilkS) (width 0.15))
-    (fp_circle (center 2.3 3.2) (end 2.3 5.4) (layer F.SilkS) (width 0.15))
-    (pad 3 thru_hole oval (at 0 0) (size 2 3) (drill 1.016)
-      (layers *.Cu *.Mask F.SilkS)
-      (net 99 GND)
-    )
-    (pad 1 thru_hole oval (at 4.5 0) (size 2 3) (drill 1.016)
-      (layers *.Cu *.Mask F.SilkS)
-      (net 151 N-00000234)
-    )
-    (pad 2 thru_hole oval (at 4.5 6.5) (size 2 3) (drill 1.016)
-      (layers *.Cu *.Mask F.SilkS)
-      (net 151 N-00000234)
-    )
-    (pad 4 thru_hole oval (at 0 6.5) (size 2 3) (drill 1.016)
-      (layers *.Cu *.Mask F.SilkS)
-      (net 99 GND)
-    )
-    (model kicadlibrary-master/pcb_push.wrl
-      (at (xyz 0.09 -0.12 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-  )
-
-  (module PUSH_SWITCH_THT (layer F.Cu) (tedit 53C653BF) (tstamp 53A8B709)
-    (at 262.9 124.1 180)
-    (path /52C1CAF4/52C1CF65)
-    (fp_text reference SW5 (at 2.2 -2.2 180) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value RESET (at 2 -3.6 180) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_line (start 5.3 5.9) (end 5.3 6.2) (layer F.SilkS) (width 0.15))
-    (fp_line (start 5.3 5.9) (end 5.3 0.2) (layer F.SilkS) (width 0.15))
-    (fp_line (start 5.3 0.2) (end -0.7 0.2) (layer F.SilkS) (width 0.15))
-    (fp_line (start -0.7 0.2) (end -0.7 6.2) (layer F.SilkS) (width 0.15))
-    (fp_line (start -0.7 6.2) (end 5.3 6.2) (layer F.SilkS) (width 0.15))
-    (fp_circle (center 2.3 3.2) (end 2.3 5.4) (layer F.SilkS) (width 0.15))
-    (pad 3 thru_hole oval (at 0 0 180) (size 2 3) (drill 1.016)
-      (layers *.Cu *.Mask F.SilkS)
-      (net 99 GND)
-    )
-    (pad 1 thru_hole oval (at 4.5 0 180) (size 2 3) (drill 1.016)
-      (layers *.Cu *.Mask F.SilkS)
-      (net 59 /CPU/RESET)
-    )
-    (pad 2 thru_hole oval (at 4.5 6.5 180) (size 2 3) (drill 1.016)
-      (layers *.Cu *.Mask F.SilkS)
-      (net 59 /CPU/RESET)
-    )
-    (pad 4 thru_hole oval (at 0 6.5 180) (size 2 3) (drill 1.016)
-      (layers *.Cu *.Mask F.SilkS)
-      (net 99 GND)
-    )
-    (model kicadlibrary-master/pcb_push.wrl
-      (at (xyz 0.09 -0.12 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-  )
-
-  (module PUSH_SWITCH_THT (layer F.Cu) (tedit 53C65607) (tstamp 53A8B6FC)
-    (at 204.5 199.1)
-    (path /53A4ECDD/53A50B2C)
-    (fp_text reference SW1 (at 2.2 -2.2) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value TEC_1 (at 2 -3.6) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_line (start 5.3 5.9) (end 5.3 6.2) (layer F.SilkS) (width 0.15))
-    (fp_line (start 5.3 5.9) (end 5.3 0.2) (layer F.SilkS) (width 0.15))
-    (fp_line (start 5.3 0.2) (end -0.7 0.2) (layer F.SilkS) (width 0.15))
-    (fp_line (start -0.7 0.2) (end -0.7 6.2) (layer F.SilkS) (width 0.15))
-    (fp_line (start -0.7 6.2) (end 5.3 6.2) (layer F.SilkS) (width 0.15))
-    (fp_circle (center 2.3 3.2) (end 2.3 5.4) (layer F.SilkS) (width 0.15))
-    (pad 3 thru_hole oval (at 0 0) (size 2 3) (drill 1.016)
-      (layers *.Cu *.Mask F.SilkS)
-      (net 99 GND)
-    )
-    (pad 1 thru_hole oval (at 4.5 0) (size 2 3) (drill 1.016)
-      (layers *.Cu *.Mask F.SilkS)
-      (net 160 N-00000243)
-    )
-    (pad 2 thru_hole oval (at 4.5 6.5) (size 2 3) (drill 1.016)
-      (layers *.Cu *.Mask F.SilkS)
-      (net 160 N-00000243)
-    )
-    (pad 4 thru_hole oval (at 0 6.5) (size 2 3) (drill 1.016)
-      (layers *.Cu *.Mask F.SilkS)
-      (net 99 GND)
-    )
-    (model kicadlibrary-master/pcb_push.wrl
-      (at (xyz 0.09 -0.12 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-  )
-
-  (module PUSH_SWITCH_THT (layer F.Cu) (tedit 53C65614) (tstamp 53A8B6EF)
-    (at 239 199.1)
-    (path /53A4ECDD/539A84BF)
-    (fp_text reference SW4 (at 2.2 -2.2) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value TEC_4 (at 2 -3.6) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_line (start 5.3 5.9) (end 5.3 6.2) (layer F.SilkS) (width 0.15))
-    (fp_line (start 5.3 5.9) (end 5.3 0.2) (layer F.SilkS) (width 0.15))
-    (fp_line (start 5.3 0.2) (end -0.7 0.2) (layer F.SilkS) (width 0.15))
-    (fp_line (start -0.7 0.2) (end -0.7 6.2) (layer F.SilkS) (width 0.15))
-    (fp_line (start -0.7 6.2) (end 5.3 6.2) (layer F.SilkS) (width 0.15))
-    (fp_circle (center 2.3 3.2) (end 2.3 5.4) (layer F.SilkS) (width 0.15))
-    (pad 3 thru_hole oval (at 0 0) (size 2 3) (drill 1.016)
-      (layers *.Cu *.Mask F.SilkS)
-      (net 99 GND)
-    )
-    (pad 1 thru_hole oval (at 4.5 0) (size 2 3) (drill 1.016)
-      (layers *.Cu *.Mask F.SilkS)
-      (net 156 N-00000239)
-    )
-    (pad 2 thru_hole oval (at 4.5 6.5) (size 2 3) (drill 1.016)
-      (layers *.Cu *.Mask F.SilkS)
-      (net 156 N-00000239)
-    )
-    (pad 4 thru_hole oval (at 0 6.5) (size 2 3) (drill 1.016)
-      (layers *.Cu *.Mask F.SilkS)
-      (net 99 GND)
-    )
-    (model kicadlibrary-master/pcb_push.wrl
-      (at (xyz 0.09 -0.12 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-  )
-
   (module USB_microAB_ZX62-AB-5P8 (layer F.Cu) (tedit 53C79F31) (tstamp 53C79FF2)
     (at 210.01 80.01 180)
     (path /52C1CAF4/5318F620)
@@ -7817,7 +7617,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 9 /CPU/CHJ3)
     )
-    (model kicadlibrary-master/usb_B_micro_smd-2.wrl
+    (model packages3d/usb_B_micro_smd-2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7909,7 +7709,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 96 "/EDU CIAA USB/CHJ2")
     )
-    (model kicadlibrary-master/usb_B_micro_smd-2.wrl
+    (model packages3d/usb_B_micro_smd-2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8049,7 +7849,7 @@
       (layers F.Cu F.Paste F.Mask)
       (net 117 N-00000182)
     )
-    (model smd/smd_transistors/sot143b.wrl
+    (model packages3d/sot143b.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8114,6 +7914,196 @@
     )
     (model smd/capacitors/c_0805.wrl
       (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module PUSH_SWITCH_THT (layer F.Cu) (tedit 53C653BF) (tstamp 53A8B723)
+    (at 216 199.1)
+    (path /53A4ECDD/539A8459)
+    (fp_text reference SW2 (at 2.2 -2.2) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value TEC_2 (at 2 -3.6) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start 5.3 5.9) (end 5.3 6.2) (layer F.SilkS) (width 0.15))
+    (fp_line (start 5.3 5.9) (end 5.3 0.2) (layer F.SilkS) (width 0.15))
+    (fp_line (start 5.3 0.2) (end -0.7 0.2) (layer F.SilkS) (width 0.15))
+    (fp_line (start -0.7 0.2) (end -0.7 6.2) (layer F.SilkS) (width 0.15))
+    (fp_line (start -0.7 6.2) (end 5.3 6.2) (layer F.SilkS) (width 0.15))
+    (fp_circle (center 2.3 3.2) (end 2.3 5.4) (layer F.SilkS) (width 0.15))
+    (pad 3 thru_hole oval (at 0 0) (size 2 3) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 99 GND)
+    )
+    (pad 1 thru_hole oval (at 4.5 0) (size 2 3) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 159 N-00000242)
+    )
+    (pad 2 thru_hole oval (at 4.5 6.5) (size 2 3) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 159 N-00000242)
+    )
+    (pad 4 thru_hole oval (at 0 6.5) (size 2 3) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 99 GND)
+    )
+    (model packages3d/pcb_push.wrl
+      (at (xyz 0.09 -0.12 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module PUSH_SWITCH_THT (layer F.Cu) (tedit 53C653BF) (tstamp 53A8B709)
+    (at 262.9 124.1 180)
+    (path /52C1CAF4/52C1CF65)
+    (fp_text reference SW5 (at 2.2 -2.2 180) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value RESET (at 2 -3.6 180) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start 5.3 5.9) (end 5.3 6.2) (layer F.SilkS) (width 0.15))
+    (fp_line (start 5.3 5.9) (end 5.3 0.2) (layer F.SilkS) (width 0.15))
+    (fp_line (start 5.3 0.2) (end -0.7 0.2) (layer F.SilkS) (width 0.15))
+    (fp_line (start -0.7 0.2) (end -0.7 6.2) (layer F.SilkS) (width 0.15))
+    (fp_line (start -0.7 6.2) (end 5.3 6.2) (layer F.SilkS) (width 0.15))
+    (fp_circle (center 2.3 3.2) (end 2.3 5.4) (layer F.SilkS) (width 0.15))
+    (pad 3 thru_hole oval (at 0 0 180) (size 2 3) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 99 GND)
+    )
+    (pad 1 thru_hole oval (at 4.5 0 180) (size 2 3) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 59 /CPU/RESET)
+    )
+    (pad 2 thru_hole oval (at 4.5 6.5 180) (size 2 3) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 59 /CPU/RESET)
+    )
+    (pad 4 thru_hole oval (at 0 6.5 180) (size 2 3) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 99 GND)
+    )
+    (model packages3d/pcb_push.wrl
+      (at (xyz 0.09 -0.12 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module PUSH_SWITCH_THT (layer F.Cu) (tedit 53C653BF) (tstamp 53A8B6FC)
+    (at 204.5 199.1)
+    (path /53A4ECDD/53A50B2C)
+    (fp_text reference SW1 (at 2.2 -2.2) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value TEC_1 (at 2 -3.6) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start 5.3 5.9) (end 5.3 6.2) (layer F.SilkS) (width 0.15))
+    (fp_line (start 5.3 5.9) (end 5.3 0.2) (layer F.SilkS) (width 0.15))
+    (fp_line (start 5.3 0.2) (end -0.7 0.2) (layer F.SilkS) (width 0.15))
+    (fp_line (start -0.7 0.2) (end -0.7 6.2) (layer F.SilkS) (width 0.15))
+    (fp_line (start -0.7 6.2) (end 5.3 6.2) (layer F.SilkS) (width 0.15))
+    (fp_circle (center 2.3 3.2) (end 2.3 5.4) (layer F.SilkS) (width 0.15))
+    (pad 3 thru_hole oval (at 0 0) (size 2 3) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 99 GND)
+    )
+    (pad 1 thru_hole oval (at 4.5 0) (size 2 3) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 160 N-00000243)
+    )
+    (pad 2 thru_hole oval (at 4.5 6.5) (size 2 3) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 160 N-00000243)
+    )
+    (pad 4 thru_hole oval (at 0 6.5) (size 2 3) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 99 GND)
+    )
+    (model packages3d/pcb_push.wrl
+      (at (xyz 0.09 -0.12 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module PUSH_SWITCH_THT (layer F.Cu) (tedit 53C653BF) (tstamp 53A8B6EF)
+    (at 239 199.1)
+    (path /53A4ECDD/539A84BF)
+    (fp_text reference SW4 (at 2.2 -2.2) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value TEC_4 (at 2 -3.6) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start 5.3 5.9) (end 5.3 6.2) (layer F.SilkS) (width 0.15))
+    (fp_line (start 5.3 5.9) (end 5.3 0.2) (layer F.SilkS) (width 0.15))
+    (fp_line (start 5.3 0.2) (end -0.7 0.2) (layer F.SilkS) (width 0.15))
+    (fp_line (start -0.7 0.2) (end -0.7 6.2) (layer F.SilkS) (width 0.15))
+    (fp_line (start -0.7 6.2) (end 5.3 6.2) (layer F.SilkS) (width 0.15))
+    (fp_circle (center 2.3 3.2) (end 2.3 5.4) (layer F.SilkS) (width 0.15))
+    (pad 3 thru_hole oval (at 0 0) (size 2 3) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 99 GND)
+    )
+    (pad 1 thru_hole oval (at 4.5 0) (size 2 3) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 156 N-00000239)
+    )
+    (pad 2 thru_hole oval (at 4.5 6.5) (size 2 3) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 156 N-00000239)
+    )
+    (pad 4 thru_hole oval (at 0 6.5) (size 2 3) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 99 GND)
+    )
+    (model packages3d/pcb_push.wrl
+      (at (xyz 0.09 -0.12 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module PUSH_SWITCH_THT (layer F.Cu) (tedit 53C653BF) (tstamp 53A8B716)
+    (at 227.5 199.1)
+    (path /53A4ECDD/539A848C)
+    (fp_text reference SW3 (at 2.2 -2.2) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value TEC_3 (at 2 -3.6) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start 5.3 5.9) (end 5.3 6.2) (layer F.SilkS) (width 0.15))
+    (fp_line (start 5.3 5.9) (end 5.3 0.2) (layer F.SilkS) (width 0.15))
+    (fp_line (start 5.3 0.2) (end -0.7 0.2) (layer F.SilkS) (width 0.15))
+    (fp_line (start -0.7 0.2) (end -0.7 6.2) (layer F.SilkS) (width 0.15))
+    (fp_line (start -0.7 6.2) (end 5.3 6.2) (layer F.SilkS) (width 0.15))
+    (fp_circle (center 2.3 3.2) (end 2.3 5.4) (layer F.SilkS) (width 0.15))
+    (pad 3 thru_hole oval (at 0 0) (size 2 3) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 99 GND)
+    )
+    (pad 1 thru_hole oval (at 4.5 0) (size 2 3) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 151 N-00000234)
+    )
+    (pad 2 thru_hole oval (at 4.5 6.5) (size 2 3) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 151 N-00000234)
+    )
+    (pad 4 thru_hole oval (at 0 6.5) (size 2 3) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 99 GND)
+    )
+    (model packages3d/pcb_push.wrl
+      (at (xyz 0.09 -0.12 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
