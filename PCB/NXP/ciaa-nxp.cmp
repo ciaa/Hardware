@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 22/08/2014 19:13:20
+Cmp-Mod V01 Created by PcbNew date = 03/09/2014 18:05:35
 
 BeginCmp
 TimeStamp = /52C1CAF4/52C1CFDF;
@@ -802,14 +802,14 @@ BeginCmp
 TimeStamp = /52CA388F/53F13E0B;
 Reference = D14;
 ValeurCmp = LED red;
-IdModule  = MiniMelf;
+IdModule  = LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /52CA388F/53F13E87;
 Reference = D15;
 ValeurCmp = LED red;
-IdModule  = MiniMelf;
+IdModule  = LED-0603;
 EndCmp
 
 BeginCmp
@@ -823,7 +823,7 @@ BeginCmp
 TimeStamp = /52CA388F/53F13F72;
 Reference = D17;
 ValeurCmp = LED red;
-IdModule  = MiniMelf;
+IdModule  = LED-0603;
 EndCmp
 
 BeginCmp
@@ -837,7 +837,7 @@ BeginCmp
 TimeStamp = /52CA388F/53F13FF0;
 Reference = D19;
 ValeurCmp = LED red;
-IdModule  = MiniMelf;
+IdModule  = LED-0603;
 EndCmp
 
 BeginCmp
@@ -2286,7 +2286,7 @@ BeginCmp
 TimeStamp = /52CC00C6/53F15C4F;
 Reference = R81;
 ValeurCmp = 100k;
-IdModule  = SM1206;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
