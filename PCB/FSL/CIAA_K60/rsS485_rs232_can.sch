@@ -1,14 +1,13 @@
 EESchema Schematic File Version 2
 LIBS:CIAAK60LIB
-LIBS:CIAA_K60-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 13
 Title "CIAA RS485 - RS232 - CAN"
-Date "20 aug 2014"
-Rev "1.0"
+Date "15 sep 2014"
+Rev "CEIBO 1.0"
 Comp "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
 Comment2 ""

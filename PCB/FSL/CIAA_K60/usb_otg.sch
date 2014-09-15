@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 13
 Title "USB OTG"
-Date "1 aug 2014"
-Rev "1.0"
+Date "15 sep 2014"
+Rev "CEIBO 1.0"
 Comp "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
 Comment2 ""

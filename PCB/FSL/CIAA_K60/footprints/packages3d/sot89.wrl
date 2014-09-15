@@ -188,7 +188,7 @@ DEF cube1 Transform {
       appearance Appearance {
         material DEF body Material {
           diffuseColor 0.00000e+0 0.00000e+0 0.00000e+0
-          emissiveColor 1.00000 1.00000 1.00000
+          emissiveColor 0.20000 0.20000 0.20000
           specularColor 0.00000e+0 0.00000e+0 0.00000e+0
           ambientIntensity 0.00000e+0
           transparency 0.00000e+0

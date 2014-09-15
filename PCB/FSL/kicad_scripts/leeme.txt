@@ -19,7 +19,7 @@ Desde PCBNew:
 File -> Export -> VRML
 
    - Elegir la unidad de medición (Inch, mm, meter)
-   - Elegir: "Copy 3D Shapes Files in Subdir"
+   - Elegir: "Use Absolute Path in Vrml file"
 
 Cómo usarlo:
 ------------
