@@ -72,4 +72,14 @@ Cambios realizados a la CIAA-FSL
 * Descripción: Se publica una versión sin revisar, pero finalizada del PCB de
                la CIAA-FSL completamente ruteada.
 
+* Fecha: 2/09/2014
+* Archivos: CIAA_K60.kicad_pcb
+* Autor: David Caruso, Noelia Scotti y Diego Brengi
+* Descripción: Revisiones (Pre CEIBO 1.0).
+
+* Fecha: 12/09/2014
+* Archivos: CIAA_K60.kicad_pcb
+* Autor: Diego Alamon
+* Descripción: Correcciones y sugerencia aplicadas ( Versión CEIBO 1.0).
+
 

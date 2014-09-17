@@ -453,7 +453,7 @@ El diseño fue revisado por Bruno Castelucci de Freescale. Realizó los siguientes
 
 - Para el VREF nuestra recomendacion es el uso de un diodo zener o un regulador lineal con compensacion por temperatura para un mejor performance. 
 
-Nuestra observación: El zener en VREF estimamos que puede llegar a ser una mejora, pero implicaba un cambio en la circuitería analógica, dado que la tensión máxima a convertir serían los 3V. Existía otra posibilidad de poner un regulador a parte para la tensión analógica, tomando desde los 5V. Pero lo dejaremos para una segunda versión. 
+Nuestra observación: El zener en VREF estimamos que puede llegar a ser una mejora, pero implicaba un cambio en la circuitería analógica, dado que la tensión máxima a convertir serían los 3V. Existía otra posibilidad de poner un regulador aparte para la tensión analógica, tomando desde los 5V. Pero lo dejaremos para una segunda versión. 
 
 - Que senales analogicas tienen como entradas? Nuestra recomendacion es no separar las tierra. Mantener una sola referencia. Anexo las recomendaciones que se tienen que implementar en PCB si es muy necesario tener la separacion de tierras.
 

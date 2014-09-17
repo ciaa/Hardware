@@ -1,0 +1,157 @@
+# Proyecto CIAA - FSL: Contacto con Fabricantes #
+Autor: INTI CMNB - Laboratorio CEA (Circuitos Electrónicos Avanzados)   
+Fecha: Agosto 2014
+
+En este documento se resume la información brindada por los fabricantes 
+consultados durante el diseño del PCB de la CIAA-FSL.
+
+## Contacto con Ernesto Mayer S.A. ##
+
+* Contacto: Diego Pereyra (Dto. de Ingeniería).
+* Mail: mayer@pcb.com.ar 
+* Ernesto Mayer S.A., que es la empresa que fabricará los primeros prototipos 
+del circuito impreso, nos informó telefónicamente los siguientes materiales 
+para un PCB de 4 capas:
+    - L1: 1 oz (0,035 mm)
+    - PP: 15,75 mils (0,4 mm)
+    - L2: 1 oz (0,035 mm)
+    - PP: 31,50 mils (0,8 mm)
+    - L3: 1 oz (0,035 mm)
+    - PP: 15,75 mils (0,4 mm)
+    - L4: 1 oz (0,035 mm)
+* También indicaron el material a utilizar, del fabricante Isola 
+(http://www.isola-group.com), con el código DURAVER-E-Cu quality 104 ML.
+* En la charla teléfonica del 29/08/14 se hablaron los siguientes temas:
+    - Distancia de cobre a borde: Nos pidieron 20 mils tanto en las capas 
+    top y bottom como en las inner. La máquina Vcut que usan tiene un disco de
+    corte de 1 mm. Lo grave es que haya pistas a una distancia menor a 20 mils
+    del borde, pero no planos porque ellos los pueden "recortar". Nos recomendó
+    poner el track del layer Edge Cuts en 20 mils de ancho.
+    - Panelizado: Nos dijeron que ellos conocen los requerimientos de Asembli
+    para diseñar el panelizado y que en el 70 % de los diseños son ellos los
+    que lo hacen. Sólo hay que avisarles en el mail que les mandemos para la 
+    fabricación. También me dijo que les pidamos el pdf con el detalle del 
+    panelizado, así se lo podemos mandar a Asembli para que lo verifiquen.
+    - Apertura de máscara antisoldante: Nos pidieron 4 mils igual que Asembli
+    pero le dije que en el caso del QFP 144 necesitábamos menos, les mandé
+    los gerbers con 2 mils en toda la placa. Ellos deberían revisarlo y decirnos
+    si lo pueden fabricar sin problemas. La idea es que quede máscara entre los
+    pads del QFP para facilitar la soldadura a mano. 
+* En la charla teléfonica del 03/09/14 se hablaron los siguientes temas:
+    - Gerbers versión PRE-CEIBO 1.0: Los estuvieron viendo y dicen que son 
+    "perfectamente fabricables". No encontraron problemas ni dificultades.
+    - Distancia de cobre a borde: Volvieron a remarcar que hay que dejar 20 mils 
+    para el v-scoring.
+    - Máscara en el QFP: No saben si pueden lograr que quede la máscara entre 
+    los pads, lo están viendo.
+    - Cupón de test: Nos dijo que les podemos pasar un diseño en un archivo 
+    aparte y ellos lo ubican en el panelizado.
+
+ 
+## Contacto con DAI-ICHI ##
+
+* Enrique Shoji de DAI-ICHI fue consultado debido a que fabricó 6 unidades de la
+CIAA-NXP. Se consultó por los datos del stack-up y lo informado fue lo siguiente:   
+    - Top layer: 1 oz (0.035 mm)
+    - Prepreg 1: 10,7 mils (0,272 mm)
+    - Inner layer 1: 1 oz (0,035 mm)
+    - Laminate: 39,3 mils (1 mm)
+    - Inner layer 2: 1 oz (0,035 mm)
+    - Prepreg 2: 10,7 mils (0,272 mm)
+    - Bottom layer: 1 oz (0,035 mm)
+* Mail del 07 de Julio de 2014  
+Mail textual referido al pedido del detalle del stack-up de la CIAA-NXP:
+[...] con referencia a la información solicitada los datos son  
+Top  
+                           10,70 mils  
+Layer 1  
+                           39,30 mils  
+Layer 2  
+                           10,70 mils  
+Bot
+* Contacto: ventas@dai-ichi.com.ar     
+
+## Contacto con Assisi S.R.L. ##
+
+* Debido a que Dante Starkloff de la empresa Assisi S.R.L.,
+forma parte del equipo de desarrollo de hardware del proyecto CIAA (Asesoría 
+para el diseño y montaje del PCB), fue consultado al momento de definir la 
+ubicación de los componentes.
+A continuación se copian los mails de dante_s@assisi.com.ar. 
+
+* Mail del 25 de Junio de 2014 
+Referido a la decisión de ubicar los componentes en la cara inferior de manera
+que sea apta para soldadura por ola:
+[...] efectivamente lo ideal sería poner los QFP en la cara top para 
+soldarlos por refusión y dejar para la cara bottom todo lo soldable por ola.
+El caso es que cuando las dimensiones de la placa exigen colocar esos 
+componentes (u otros soldables por refusión), en ambas caras, se hace necesario 
+un proceso doble de refusión.
+Posteriormente (y según la cantidad de componentes pasantes), se los suelda por 
+ola selectiva, a mano, o se fabrican unas máscaras que posibilitan pasarlas por 
+la ola sin que la misma toque a los componentes SMT.
+
+* Mail del 03 de Julio de 2014
+Referido al tamaño de los pads de componentes SMD como los SOT-23:
+[...] en principio te comento que el sentido de soldado por ola de las placa 
+deberá ser en el sentido longitudinal al dibujo que me envias.
+El tema de hacer pads para soldar por refusión y después pretender soldarlos por 
+ola simplemente hace que muchas pads queden sin soldar y hay que retocarlos 
+manualmente.
+Acordate que lo ideal es alargarlos en el sentido opuesto al cuerpo del SOT-23, 
+en ese caso se complica en el lado que se acerca a los conectores, pero no así 
+en el otro lado [...].
+
+* Mail del 17 de Julio de 2014
+Referido a los componentes que no pueden soldarse por ola:
+[...] para empezar no se pueden soldar por ola componentes que sean metálicos, 
+ej: electrolíticos, conectores, tact switches, 
+Componentes que tengan plásticos sensibles, ej: diodos LED de potencia para iluminación.
+Componentes con formas que permitan "entrar" al estaño, ej: trimers, presets, 
+borneras, conectores.
+Componentes que tengan las conexiones por debajo del cuerpo, ej: BGA
+Componentes discretos con tamaños menores a 0603
+Y además casos especiales que por lo general se alertan vehementemente en la hoja de datos.
+
+* Mail del 07 de Agosto de 2014
+Referido a la revisión del PCB 1.0 de la CIAA-FSL:
+Estimados, después de analizar la placa creo que está todo bien.
+De todas maneras les adelanto que uno no puede predecir al 100% la existencia o 
+no de detalles que generen algún tipo de inconvenientes al momento de soldar los 
+componentes con ola.
+No obstante lo anterior, pueden estar seguros que errores groseros no encontré.
+
+
+## Contacto con Asembli ##
+
+* Se contactó a Gastón Lagoa de Asembli debido a que fue confirmado que Asembli
+armará las primeras unidades de la CIAA-FSL. Se envió el PCB para su revisión y 
+detección de inconvenientes en el armado.
+El informe con la devolución de Asembli está en 
+doc/fabricacion/Informe_PCB_CIAA-FSL_Asembli.fodt
+
+A continuación se copian los mails de glagoa@asembli.com.
+
+* Mail del 20 de Agosto de 2014
+[...] te comento que no hay problema en soldar los componentes del lado inferior 
+por ola, solamente hay que tener en cuenta la complejidad de los mismos.
+Si se complica mucho, no hay ningún problema en hacer doble refusión, es un 
+proceso que tiene muchos años funcionando.
+Por otro lado, no es necesario hacer 2 stencils, se pueden compaginar las dos 
+imágenes en uno solo.
+Además, para colocar adhesivo en el lado inferior, también se requiere un stencil.
+
+* Mail del 25 de Agosto de 2014 
+Te paso lo que pudimos ver del impreso
+Se trata más que nada de recomendaciones para que fabricarlo sea más fácil
+Si te interesa y querés profundizar, te puedo enviar algunas normas que hablan 
+de este tema
+
+* Mail del 29 de Agosto de 2014
+Respondo las consultas:
+[Con respecto al punto 6 del informe: Orientación componentes bottom:]
+6- Sería conveniente girarlos, pero se pueden dejar asi. No es tan crítico.
+[Con respecto al punto 7 del informe: CNC Route]
+7- Se puede usar una combinación de V-Cut y CNC Route. Solo lo informe ya que 
+se encarece el producto, pero no hay problemas.
+

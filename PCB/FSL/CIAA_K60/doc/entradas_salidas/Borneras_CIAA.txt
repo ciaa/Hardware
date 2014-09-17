@@ -1,5 +1,5 @@
 # Borneras de la CIAA #
-$Date: 2014/08/21 14:30:26 $
+$Date: 2014/09/17 15:03:29 $
 
 Documento para analizar las borneras actuales de la CIAA (NXP) y
 la propuesta para la versión FSL.
@@ -81,4 +81,71 @@ se utiliza la segunda figura (CIAA-NXP) para la CIAA-FSL.
         otra alternativa, la cual no sera implementada.
         Saludos
         Ignacio
+
+## Nomenclatura elegida para la identificación de las borneras ##
+
+A continuación se resume la nomenclatura utilizada para identificar a cada
+señal que se encuentre en las borneras. Debe existir en la serigrafía un
+separador que indique a que grupo pertenece cada señal.
+
+----------------------------------------
+**CAN**
+
+* CAN L:                         **L**
+* CAN H:                         **H**
+* CAN GND:                       **GND**
+
+----------------------------------------
+
+**Entradas Analógicas**
+
+* Entradas analógicas:           **IA0** ... **IA3**
+* Común entradas analógicas:     **ACOM** (pequeño)
+
+----------------------------------------
+
+**Entradas Digitales**
+
+* Entradas digitales:            **I0** ... **I7**
+* Común entradas digitales:      **DCOM** (pequeño)
+
+----------------------------------------
+
+**RS485**
+
+* RS485 A:                       **A**
+* RS485 B:                       **B**
+* RS485 GND                      **GND**
+
+----------------------------------------
+
+**Alimentación**
+
+* 24V Alimentación:              **+24**
+* GND Alimentación:              **GND**
+* Chassis Alimentacion:          Logo de Tierra
+
+----------------------------------------
+
+**Salidas Digitales Open Drain**
+
+* Salida 24V:                    **Vout**
+* Salidas Open Drain:            **O0** ... **O3**
+* Común salidas Open Drain:      **COM**
+
+----------------------------------------
+
+**Sección Salidas a Relé**
+
+* Salidas a Relé:                **Q0** ... **Q3** (con logo de llave _/ _)
+
+----------------------------------------
+
+**Sección Salida Analógica**
+
+* Salida Analógica:              **OA0**
+* Común Salida Analógica:        **ACOM** (pequeño)
+
+----------------------------------------
+
 
