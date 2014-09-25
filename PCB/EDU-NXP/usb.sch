@@ -1,72 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:74LVC1G04GW
-LIBS:amesser-ad
-LIBS:amesser-cmos4000
-LIBS:amesser-conn
-LIBS:amesser-discrete
-LIBS:amesser-linear
-LIBS:amesser-power
-LIBS:amesser-usb
-LIBS:audio-vlsi
-LIBS:bat54_c
-LIBS:BLM15HG6015N1D
-LIBS:g5v2
-LIBS:lm2596
-LIBS:mcu-nxp
-LIBS:mcu-st
-LIBS:MIC2025
-LIBS:net-phy
-LIBS:nsi50010yt1g
-LIBS:PRTR5V0U2X
-LIBS:regulators
-LIBS:rs485_rs232_can
-LIBS:s25fl032p0xmfi013
-LIBS:SCHA5B0200
-LIBS:Si50x
-LIBS:Transil_diode
-LIBS:w_device
-LIBS:LPC4337JBD144
-LIBS:IS42S16400F
-LIBS:TXB0108
-LIBS:FT2232H
-LIBS:93CXX
-LIBS:TJA1040
-LIBS:tvs
-LIBS:PBSS5240
-LIBS:pbss5240xf
-LIBS:LED_RGB
-LIBS:edu-ciaa-logo
-LIBS:EDUCIAANXP
+LIBS:edu-ciaa-nxp
 LIBS:edu-ciaa-nxp-cache
 EELAYER 27 0
 EELAYER END
@@ -74,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 7
 Title "EDU CIAA USB"
-Date "28 aug 2014"
+Date "25 sep 2014"
 Rev "1.0"
 Comp ""
 Comment1 ""
@@ -315,4 +248,150 @@ Wire Wire Line
 	8450 4300 8350 4300
 Wire Wire Line
 	8450 3600 8450 4300
+Text HLabel 1600 4200 0    60   Input ~ 0
+USB_PPWR
+Text HLabel 1600 4350 0    60   Input ~ 0
+USB_PWR_FAULT
+$Comp
+L MIC2025 U9
+U 1 1 542313E7
+P 3150 5300
+F 0 "U9" H 3100 5900 60  0000 L CNN
+F 1 "MIC2025" H 2950 4650 60  0000 L CNN
+F 2 "~" H 3150 5300 60  0000 C CNN
+F 3 "~" H 3150 5300 60  0000 C CNN
+	1    3150 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 5400 4400 5400
+Wire Wire Line
+	4400 5400 4400 3300
+Connection ~ 4400 3300
+Wire Wire Line
+	3900 5000 4400 5000
+Connection ~ 4400 5000
+NoConn ~ 3900 5600
+NoConn ~ 2400 5600
+$Comp
+L GND #PWR014
+U 1 1 5423145B
+P 4600 6050
+F 0 "#PWR014" H 4600 6050 30  0001 C CNN
+F 1 "GND" H 4600 5980 30  0001 C CNN
+F 2 "" H 4600 6050 60  0000 C CNN
+F 3 "" H 4600 6050 60  0000 C CNN
+	1    4600 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 5700 4600 6050
+$Comp
+L GND #PWR015
+U 1 1 54231462
+P 1950 6050
+F 0 "#PWR015" H 1950 6050 30  0001 C CNN
+F 1 "GND" H 1950 5980 30  0001 C CNN
+F 2 "" H 1950 6050 60  0000 C CNN
+F 3 "" H 1950 6050 60  0000 C CNN
+	1    1950 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 5400 1950 6050
+Wire Wire Line
+	2400 5400 1950 5400
+$Comp
+L C C50
+U 1 1 542314A2
+P 4600 5500
+F 0 "C50" H 4600 5600 40  0000 L CNN
+F 1 "100nF" H 4606 5415 40  0000 L CNN
+F 2 "~" H 4638 5350 30  0000 C CNN
+F 3 "~" H 4600 5500 60  0000 C CNN
+	1    4600 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 5200 4600 5200
+Wire Wire Line
+	4600 5100 4600 5300
+Connection ~ 4600 5200
+$Comp
+L +5V #PWR016
+U 1 1 542315D6
+P 4600 5100
+F 0 "#PWR016" H 4600 5190 20  0001 C CNN
+F 1 "+5V" H 4600 5190 30  0000 C CNN
+F 2 "" H 4600 5100 60  0000 C CNN
+F 3 "" H 4600 5100 60  0000 C CNN
+	1    4600 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR017
+U 1 1 542315E1
+P 1300 4600
+F 0 "#PWR017" H 1300 4560 30  0001 C CNN
+F 1 "+3.3V" H 1300 4710 30  0000 C CNN
+F 2 "" H 1300 4600 60  0000 C CNN
+F 3 "" H 1300 4600 60  0000 C CNN
+	1    1300 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R16
+U 1 1 542315EC
+P 1300 4900
+F 0 "R16" V 1380 4900 40  0000 C CNN
+F 1 "10k" V 1307 4901 40  0000 C CNN
+F 2 "~" V 1230 4900 30  0000 C CNN
+F 3 "~" H 1300 4900 30  0000 C CNN
+	1    1300 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R17
+U 1 1 542315F2
+P 2000 4500
+F 0 "R17" V 2080 4500 40  0000 C CNN
+F 1 "10k" V 2007 4501 40  0000 C CNN
+F 2 "~" V 1930 4500 30  0000 C CNN
+F 3 "~" H 2000 4500 30  0000 C CNN
+	1    2000 4500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2400 5000 2300 5000
+Wire Wire Line
+	2300 5000 2300 4200
+Wire Wire Line
+	2300 4200 1600 4200
+Wire Wire Line
+	1600 4350 1700 4350
+Wire Wire Line
+	1700 4350 1700 5200
+Wire Wire Line
+	1300 5200 2400 5200
+Wire Wire Line
+	1300 4600 1300 4650
+Wire Wire Line
+	1300 5150 1300 5200
+Connection ~ 1700 5200
+Wire Wire Line
+	2000 4250 2000 4200
+Connection ~ 2000 4200
+$Comp
+L GND #PWR018
+U 1 1 542317A0
+P 2000 4800
+F 0 "#PWR018" H 2000 4800 30  0001 C CNN
+F 1 "GND" H 2000 4730 30  0001 C CNN
+F 2 "" H 2000 4800 60  0000 C CNN
+F 3 "" H 2000 4800 60  0000 C CNN
+	1    2000 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 4750 2000 4800
 $EndSCHEMATC

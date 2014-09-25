@@ -1,4 +1,4 @@
-eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 25/08/2014 06:11:26 a.m.
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 24/09/2014 10:44:28 p.m.
 #Cmp ( order = Reference )
 | BT1        BK-913      
 | C1         10uF / 6V3  
@@ -50,6 +50,7 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 25/08/2014 06:11:26 a.m
 | C47        100nF       
 | C48        100nF       
 | C49        100nF       
+| C50        100nF       
 | D1         PSD12C      
 | D2         PSD12C      
 | D3         PSD12C      
@@ -59,6 +60,7 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 25/08/2014 06:11:26 a.m
 | D7         LED         
 | D8         LED         
 | D9         LED         
+| D10        PMEG3020EH  
 | F1         fiducial    
 | F2         fiducial    
 | F3         fiducial    
@@ -90,6 +92,7 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 25/08/2014 06:11:26 a.m
 | P1         CONN_20X2   
 | P2         CONN_20X2   
 | P3         Cortex-Debug
+| P4         5Vcc Input  
 | PS1        USMF020     
 | PS2        USMF020     
 | Q1         2N7002      
@@ -113,6 +116,8 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 25/08/2014 06:11:26 a.m
 | R13        330k        
 | R14        330k        
 | R15        0           
+| R16        10k         
+| R17        10k         
 | R18        330k        
 | R19        330k        
 | R20        470         
@@ -180,6 +185,7 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 25/08/2014 06:11:26 a.m
 | U6         FT2232H     
 | U7         TXB0108     
 | U8         PRTR5V0U2X  
+| U9         MIC2025     
 | X1         32.768K     
 | X2         12MHz       
 | X3         12MHz       
@@ -229,6 +235,7 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 25/08/2014 06:11:26 a.m
 | 100nF        C47       
 | 100nF        C48       
 | 100nF        C49       
+| 100nF        C50       
 | 3.3uF        C35       
 | 10uF / 6V3   C1        
 | 10uF         C3        
@@ -246,6 +253,7 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 25/08/2014 06:11:26 a.m
 | LED          D7        
 | LED          D8        
 | LED          D9        
+| PMEG3020EH   D10       
 | fiducial     F1        
 | fiducial     F2        
 | fiducial     F3        
@@ -277,6 +285,7 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 25/08/2014 06:11:26 a.m
 | CONN_20X2    P1        
 | CONN_20X2    P2        
 | Cortex-Debug P3        
+| 5Vcc Input   P4        
 | USMF020      PS1       
 | USMF020      PS2       
 | 2N7002       Q1        
@@ -317,6 +326,8 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 25/08/2014 06:11:26 a.m
 | 4K7          R1        
 | 4K7          R2        
 | 4K7          R3        
+| 10k          R16       
+| 10k          R17       
 | 10k          R62       
 | 10k          R63       
 | 10k          R64       
@@ -367,6 +378,7 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 25/08/2014 06:11:26 a.m
 | NCP1117ST15T3G U3        
 | LPC4337JBD144 U4        
 | PRTR5V0U2X   U8        
+| MIC2025      U9        
 | 32.768K      X1        
 | 12MHz        X2        
 | 12MHz        X3        

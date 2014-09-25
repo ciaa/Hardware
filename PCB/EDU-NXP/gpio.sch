@@ -1,72 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:74LVC1G04GW
-LIBS:amesser-ad
-LIBS:amesser-cmos4000
-LIBS:amesser-conn
-LIBS:amesser-discrete
-LIBS:amesser-linear
-LIBS:amesser-power
-LIBS:amesser-usb
-LIBS:audio-vlsi
-LIBS:bat54_c
-LIBS:BLM15HG6015N1D
-LIBS:g5v2
-LIBS:lm2596
-LIBS:mcu-nxp
-LIBS:mcu-st
-LIBS:MIC2025
-LIBS:net-phy
-LIBS:nsi50010yt1g
-LIBS:PRTR5V0U2X
-LIBS:regulators
-LIBS:rs485_rs232_can
-LIBS:s25fl032p0xmfi013
-LIBS:SCHA5B0200
-LIBS:Si50x
-LIBS:Transil_diode
-LIBS:w_device
-LIBS:LPC4337JBD144
-LIBS:IS42S16400F
-LIBS:TXB0108
-LIBS:FT2232H
-LIBS:93CXX
-LIBS:TJA1040
-LIBS:tvs
-LIBS:PBSS5240
-LIBS:pbss5240xf
-LIBS:LED_RGB
-LIBS:edu-ciaa-logo
-LIBS:EDUCIAANXP
+LIBS:edu-ciaa-nxp
 LIBS:edu-ciaa-nxp-cache
 EELAYER 27 0
 EELAYER END
@@ -74,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
 Title "EDU CIAA GPIO"
-Date "28 aug 2014"
+Date "25 sep 2014"
 Rev "1.0"
 Comp ""
 Comment1 ""
@@ -114,10 +47,10 @@ F 3 "~" H 2450 2300 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR014
+L +3.3V #PWR019
 U 1 1 52CA1E6C
 P 2450 2000
-F 0 "#PWR014" H 2450 1960 30  0001 C CNN
+F 0 "#PWR019" H 2450 1960 30  0001 C CNN
 F 1 "+3.3V" H 2450 2110 30  0000 C CNN
 F 2 "" H 2450 2000 60  0000 C CNN
 F 3 "" H 2450 2000 60  0000 C CNN
@@ -135,10 +68,10 @@ SPI_MOSI
 Text Notes 5150 900  0    60   ~ 0
 Conectores de expansión LVTTL.\nEn formato de pines, 2.54mm de pitch.
 $Comp
-L GNDA #PWR015
+L GNDA #PWR020
 U 1 1 52DEB0D0
 P 1400 6800
-F 0 "#PWR015" H 1400 6800 40  0001 C CNN
+F 0 "#PWR020" H 1400 6800 40  0001 C CNN
 F 1 "GNDA" H 1400 6730 40  0000 C CNN
 F 2 "" H 1400 6800 60  0000 C CNN
 F 3 "" H 1400 6800 60  0000 C CNN
@@ -157,10 +90,10 @@ F 3 "~" H 3450 2300 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR016
+L +5V #PWR021
 U 1 1 539535EE
 P 3450 2000
-F 0 "#PWR016" H 3450 2090 20  0001 C CNN
+F 0 "#PWR021" H 3450 2090 20  0001 C CNN
 F 1 "+5V" H 3450 2090 30  0000 C CNN
 F 2 "" H 3450 2000 60  0000 C CNN
 F 3 "" H 3450 2000 60  0000 C CNN
@@ -311,10 +244,10 @@ F 3 "~" H 7800 2300 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR017
+L +3.3V #PWR022
 U 1 1 539E165A
 P 7800 2000
-F 0 "#PWR017" H 7800 1960 30  0001 C CNN
+F 0 "#PWR022" H 7800 1960 30  0001 C CNN
 F 1 "+3.3V" H 7800 2110 30  0000 C CNN
 F 2 "" H 7800 2000 60  0000 C CNN
 F 3 "" H 7800 2000 60  0000 C CNN
@@ -333,10 +266,10 @@ F 3 "~" H 8800 2300 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR018
+L +5V #PWR023
 U 1 1 539E1666
 P 8800 2000
-F 0 "#PWR018" H 8800 2090 20  0001 C CNN
+F 0 "#PWR023" H 8800 2090 20  0001 C CNN
 F 1 "+5V" H 8800 2090 30  0000 C CNN
 F 2 "" H 8800 2000 60  0000 C CNN
 F 3 "" H 8800 2000 60  0000 C CNN
@@ -344,10 +277,10 @@ F 3 "" H 8800 2000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR019
+L GND #PWR024
 U 1 1 53B8B104
 P 1400 7300
-F 0 "#PWR019" H 1400 7300 30  0001 C CNN
+F 0 "#PWR024" H 1400 7300 30  0001 C CNN
 F 1 "GND" H 1400 7230 30  0001 C CNN
 F 2 "" H 1400 7300 60  0000 C CNN
 F 3 "" H 1400 7300 60  0000 C CNN
@@ -375,8 +308,6 @@ ANALOG_GND
 Text Label 4550 1800 0    60   ~ 0
 GPIO_GND
 Text Label 750  2150 0    60   ~ 0
-ANALOG_GND
-Text Label 800  3150 0    60   ~ 0
 ANALOG_GND
 Text Label 4550 2200 0    60   ~ 0
 ANALOG_GND
@@ -594,8 +525,6 @@ Wire Wire Line
 	1900 3300 1200 3300
 Wire Wire Line
 	1200 3500 1850 3500
-Wire Wire Line
-	800  3150 1950 3150
 Wire Wire Line
 	1950 3150 1950 3500
 Wire Wire Line
@@ -907,4 +836,8 @@ F 3 "" H 10550 6550 60  0000 C CNN
 	1    10550 6550
 	1    0    0    -1  
 $EndComp
+Text HLabel 1100 3150 0    60   Input ~ 0
+VDD_A
+Wire Wire Line
+	1100 3150 1950 3150
 $EndSCHEMATC
