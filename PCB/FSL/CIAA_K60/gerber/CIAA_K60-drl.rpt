@@ -1,0 +1,41 @@
+Drill report for /home/david/cvs/CIAA/ciaa-hardware-freescale/CIAA_K60/CIAA_K60.kicad_pcb
+Created on miÃ© 17 sep 2014 11:04:56 ART
+Drill report for plated through holes :
+T1  0,41mm  0,016"  (456 holes)
+T2  0,75mm  0,030"  (4 holes)
+T3  0,90mm  0,035"  (8 holes)
+T4  1,00mm  0,039"  (20 holes)
+T5  1,02mm  0,040"  (88 holes)
+T6  1,20mm  0,047"  (8 holes)
+T7  1,40mm  0,055"  (40 holes)
+T8  1,50mm  0,059"  (10 holes)
+T9  1,60mm  0,063"  (2 holes)
+T10  3,40mm  0,134"  (2 holes)
+T11  4,00mm  0,157"  (4 holes)
+
+Total plated holes count 642
+
+
+Drill report for buried and blind vias :
+
+Drill report for holes from layer BOT to layer PWR :
+
+Total plated holes count 0
+
+
+Drill report for holes from layer PWR to layer GND :
+
+Total plated holes count 0
+
+
+Drill report for holes from layer GND to layer TOP :
+
+Total plated holes count 0
+
+
+Drill report for unplated through holes :
+T1  3,25mm  0,128"  (2 holes)
+
+Total unplated holes count 2
+
+

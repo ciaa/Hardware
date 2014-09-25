@@ -130,8 +130,8 @@ DEF cube16_sep29 Transform {
       appearance Appearance {
         material DEF Substrate Material {
           diffuseColor 0.6 0.6 0.6
-          emissiveColor 0.6 0.6 0.6
-          specularColor 0.6 0.6 0.6
+          emissiveColor 0.3 0.3 0.3
+          specularColor 0.0 0.0 0.0
           ambientIntensity 0.6
           transparency 0.0
           shininess 1.0
@@ -183,7 +183,7 @@ DEF cube16 Transform {
         material DEF Ceramic Material {
           diffuseColor 0.8 0.8 0.8
           emissiveColor 0.8 0.8 0.8
-          specularColor 0.8 0.8 0.8
+          specularColor 0.0 0.0 0.0
           ambientIntensity 0.8000000000000002
           transparency 0.0
           shininess 1.0
@@ -577,8 +577,8 @@ DEF cube16 Transform {
         material DEF Resin2 Material {
           diffuseColor 0.9 1.0 0.9
           emissiveColor 0.9 1.0 0.9
-          specularColor 0.9 1.0 0.9
-          ambientIntensity 0.9333333333333332
+          specularColor 0.0 0.0 0.0
+          ambientIntensity 0.7333333333333332
           transparency 0.7
           shininess 1.0
         }

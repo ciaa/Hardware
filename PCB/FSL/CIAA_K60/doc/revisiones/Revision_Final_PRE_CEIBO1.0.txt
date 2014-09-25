@@ -1,0 +1,466 @@
+# Revisión Final Conjunta de la versión PRE-CEIBO 1.0 #
+Versión del PCB: PRE-CEIBO-1_0: 1.27 (25 de Agosto de 2014)
+
+INTI - Instituto Nacional de Tecnología Industrial
+
+CMNB - Centro de Micro y NanoElectrónica
+
+Revisores:
+
+* David M. Caruso (INTI-CMNB)
+* Diego J. Brengi (INTI-CMNB)
+* Noelia S. Scotti (INTI-CMNB)
+
+Ruteo original y aplicación de cambios:
+
+* Diego Alamon (INTI-CMNB)
+
+-------------------------------------------------------------------------------
+ Distribución de alimentaciones
+-------------------------------------------------------------------------------
+
+* Pista de 24V, posible crosstalk
+    * Lugar: zona Salidas Digitales
+    * Descripción: La pista de 24V pasa justo por debajo de todas las salidas a relé, puede que se contamine por la conmutación de ese sector.
+    * Modificación: Poner la conexión de los Relé en la capa TOP
+    * Justificación: Estaría a una distancia mayor y la contaminación por crosstalk se vería reducida.
+    * Importancia: media, a discutir
+
+**** Se cambiaron las salidas de los relays al lado TOP y se pasaron al Bottom los +24V y el ferrite bead que va a +24V
+
+
+* Vía para TH1102, limitación de corriente
+    * Lugar: salida de 24V
+    * Descripción: la conexión posee una sola vía hasta su camino de salida, por allí circulará 1A.
+    * Modificación: Agregar una vía extra en paralelo.
+    * Justificación: para garantizar la circualción de corriente.
+    * Importancia: baja, puede que con una vía alcance ya que son grandes. Esto es para asegurarse.
+
+**** Se conectó TH1102 y TH605 mediante 2 vías.
+
+
+* Plano +24V_A y GNDA, no cubre la zona
+    * Lugar: Salida Analógica
+    * Descripción: los planos no cubren totalmente el circuito.
+    * Modificación: cubrir todas las partes del circuito, incluyendo a: FB1201 (sólo el pad que va a +24V_A), D1201, U1201
+    * Justificación: para garantizar el apantallamiento de todas las partes de ese bloque.
+    * Importancia: media
+
+**** Se agrandaron los planos.
+
+
+* Pin 2 U1101, ancho de pista
+    * Lugar: Regulador, Fuente de alimentación
+    * Descripción: del pin 2 del U1101 salen los 3A máximos. Según la calculadora de Kicad, dice que necesitas 53mils mínimo, está a 40 mils
+    * Modificación: Aumentar el ancho a 60 mils.
+    * Justificación: reduce la posibilidad de calentamiento.
+    * Importancia: media.
+
+**** Se redibujaron las conexiones utilizando zonas en vez de tracks.
+
+
+* Vías utilizadas para conexión de planos en serie
+    * Lugar: todas las vías utilizadas para conexión de planos
+    * Descripción: se están usando vías en serie para conectar los planos, esto aumenta la impedancia de la conexión y el hecho de
+      agregar vías no mejora sustancialmente la conexión.
+    * Modificación: no conectar las vías sobre el track, sino hacer una conexión paralela.
+    * Justificación: aprovecha la ventaja de agregar vías.
+    * Importancia: media.
+
+**** Se trató de evitar este efecto mediante la utilización de zonas en vez de tracks.
+
+    
+* Planos en TOP y BOTOM, capacidad entre planos
+    * Lugar: TOP y BOTOM
+    * Descripción: hay área libre en TOP y BOTOM que podría rellenarse con planos.
+    * Modificación: Planos de 3.3V debajo de la pila en TOP y Planos de GND debajo de las salidas Open Drain en BOTOM.
+    * Justificación: L1 respecto de L2 está a la mitad de distancia que L2 de L3, con lo que la capacidad sería del doble para
+      la misma área de enfrentamiento
+    * Importancia: alta, a discutir.
+
+**** Se conectaron los fet driver mediante planos en vez de tracks.
+
+
+* Plano de tierra mas alejado de los pads
+    * Lugar: plano de GND de la capa TOP debajo del K60.
+    * Descripción: El plano de tierra está a 8 mils de los pads.
+    * Modificación: Dejar por lo menos 10 mils
+    * Justificación: Si se suelda a mano es mejor bajar la chance de  posibles cortos ahí. Es un área ciega.
+
+**** Se alejo el plano, igualmente no debería ser un problema.
+
+
+* Plano GNDA y GND muy pegados.
+    * Lugar: Límte de planos GNDA y GND (el que cruza por el K60)
+    * Descripción: Separación de 20 mils y en diagonal de 15 mils.
+    * Modificación: Separar a 20 mils en las partes que más se acercan.
+    * Justificación: Mejorar ese clearance.
+
+**** Se separaron a 20 mils.
+
+
+-------------------------------------------------------------------------------
+ Ethernet
+-------------------------------------------------------------------------------
+
+* Chassis Ground, extrapolar a todos los planos
+    * Lugar: zona chassis ground
+    * Descripción: La nota de aplicación de Micrel AN-111, dice: "Place the chassis ground on ALL PCB layers and use connection mounting holes to
+      join the chassis ground on different PCB layers". El lugar esta disponible.
+    * Modificación: poner chassis ground en todos los layers con la misma forma y con vías intermedias para reducir el "loop ground".
+    * Justificación: es una recomendación de fabricante
+    * Importancia: media, a discutir
+
+**** Se puso un track en el layer PWR para que rellene el plano faltante y se agregaron vias.
+
+
+* Componentes 1206 para chassis ground
+    * Lugar: desacople GND contra Chassis ground 
+    * Descripción: La nota de Texas (AN-1469 PHYTER Design & Layout Guide) recomienda poner componentes 1206 para el desacople de chassis ground.
+    * Modificación: cambiar el tamaño de los footprint. Modificar el espacio entre los planos a fin de separarlos más.
+    * Justificación: aumenta la aislación entre los planos
+    * Importancia: baja. Con los componentes puestos, la aislación da unos 15KV. La prueba de ESD llega hasta 8KV, puede que no sea necesario.
+
+**** En la placa del PHY marca ASIX parecieran ser 0603. Creo que como uno de los dos componentes es una resistencia este cambio
+no sería necesario. Si el motivo de cambio es la aislación, hay que poner componentes aptos para 2KV que ocupan mucho espacio y no son SMD.
+
+
+* Salida del Oscilador U301
+    * Lugar: Oscilador U301
+    * Descripción: las señales de clock pasan por muchas vías.
+    * Modificación: Se podría poner el oscilador en la misma capa que el PLL, debajo de la pila
+    * Justificación: se elimina una de las vías al menos.
+    * Importancia: media.
+
+**** Es lo que se intentó hacer en un principio pero terminó siendo inevitable debido a que el oscilador no es apto para soldadura por ola y el
+PLL no entra debajo del portapilas.
+
+
+* Plano de GND, pines de Ethernet
+    * Lugar: Plano de GND, pines de Ethernet lado MCU
+    * Descripción: Sería bueno que el plano de GND llegue a cubrir la zona de los pines de ETHERNET del micro.
+    * Modificación: sobre el plano GND para que abarque toda el área de los pines
+    * Justificación: mejora el apantallamiento
+    * Importancia: media
+
+**** OK
+
+* Según Digi, conviene agregar un plano de masa entre los pares diferenciales.
+  No hay mucho lugar pero se puede agregar un pedacito de plano, justo hay una vía
+  ahí que sirve para la conexión
+  http://ftp1.digi.com/support/documentation/022-0137_F.pdf
+
+**** Hacer eso generaría un cambio de impedancia en uno solo de los lados del par diferencial.
+
+-------------------------------------------------------------------------------
+ USB-OTG
+-------------------------------------------------------------------------------
+
+* Plano GND, señal USB-DM OTG
+    * Lugar: Plano GND, señal USB-DM OTG zona cercada al MCU
+    * Descripción: Sería bueno que el plano de GND que está debajo de la línea USB-DM OTG no cortara tan al raz de la pista. Si bien en alta    
+    frecuencia la corriente de retorno circula por debajo de la pista, no respeta totalmente la silueta de la misma y puede existir una pequeña 
+    desadaptación. 
+    * Modificación: dejar una guarda de 10 mils (20 creo que sería ideal). 
+    * Justificación: garantizar el camino de retorno.
+    * Importancia: media
+
+**** Se corrió el capacitor C218 y los tracks de la uart de debug para acomodar mejor los tracks de USB sobre el plano de GND.
+
+
+* Plano GND, señales USB-OTG
+    * Lugar: Plano GND, señal USB-DM OTG zona cercada al MCU
+    * Descripción: Las vías de otras señales que pasan cerca de las de USB cortan el plano y reducen el camino de retorno
+    * Modificación: alejar las vías (por ejemplo el track USB_JTAG_UART_RXD) y garantizar una separación de 10 mils al menos.
+    * Justificación: garantizar el camino de retorno
+    * Importancia: media
+
+**** Se acomodaron mejor las vias para agrandar la superficie del plano. Es dificil correrlas más todavía debido a que
+tiene tracks cerca en TOP, PWR y Bottom.
+
+
+* Choque de modo común
+    * Lugar: choque de modo común, USB-OTG y USB JTAG
+    * Descripción: El choque de modo común como puede anularse en caso que no se requiera, por cumplir con EMI.
+    * Modificación: modificar el footprint del choque para que pueda puentearse con 2 resistencias de 0 ohm 0603.
+    * Justificación: facilidad para el reemplazo
+    * Importancia: alta
+
+**** OK - Ahora el ancho del pad representa exactamente el ancho de una resistencia 0603.
+
+
+-------------------------------------------------------------------------------
+ Entradas Analógicas
+-------------------------------------------------------------------------------
+
+* Plano GNDA
+    * Lugar: entradas analógicas
+    * Descripción: hay componentes del bloque que quedan fuera del plano.
+    * Modificación: Contener con el plano de GNDA todos los componentes del bloque de la capa TOP.
+      (R904, C905)
+    * Justificación: mejora el apantallamiento.
+    * Importancia: media
+
+**** OK
+
+
+* Plano GNDA, Señales de entrada al MCU
+    * Lugar: plano GNDA, señales de entrada al MCU (AIN0-AIN3 y AN0-AN3)
+    * Descripción: las vías están muy cerca y cortan demasiado al plano
+    * Modificación: redistribuir las vías formando un semicirculo y garantizando que pasen conexiones de GND entre medio
+    * Justificación: mejora del camino de retorno, más separación entre señales.
+    * Importancia: baja
+
+**** Solo fue posible mover la via de AN1 para que se genere un camino más debido a la densidad de vias en esa zona.
+
+-------------------------------------------------------------------------------
+ Salidas Digitales
+-------------------------------------------------------------------------------
+
+* Plano 5V
+    * Lugar: Plano de 5V debajo de los FET driver
+    * Descripción: el plano no cubre todo el bloque.
+    * Modificación: Completar el plano de 5V para que involucre todas las líneas de entrada de los FET Driver
+    * Justificación: mejora el apantallamiento
+    * Importancia: media
+
+**** El plano abarca todo el circuito menos el PTC.
+
+
+* Espacio MOSFET
+    * Lugar: MOSFET de salidas digitales
+    * Descripción: existe bastante espacio ahora que se redujeron los footprint.
+    * Modificación: Juntar más los MOSFET de salida para ganar espacio, ya que no van a operar con grandes tensiones y de paso 
+    se pueden distribuir mejor los Relé. Ver si realmente es posible ya que hay muchas pistas 
+    que van al micro que lo podrían impedir.
+    * Justificación: aprovechamiento de los espacios.
+    * Importancia: media
+
+**** No pude cambiar los relay de posición porque no me alcanzó el espacio para pasar los tracks.
+
+
+* Distribución alimentación bobina de Relé
+    * Lugar: zona de relés
+    * Descripción: los 5V se conectan en serie a cada bobinado de los relé.
+    * Modificación: lograr que la conexión sea una distribución en árbol (desde un punto común, sale con un mismo largo hacia todos los relé)
+    * Justificación: todos las bobinas tendrán el mismo ruido y no como antes que unas están más contaminadas que otras.
+
+**** Se conectó el GND de los relays por el bottom hacia el pin general de alimentación. Creo que de esta forma el funcionamiento de las
+bobinas va a afectar en la menor medida posible al resto de la plaqueta.
+
+
+* Componentes cerca de borneras
+    * Descripción: Los componentes FBxxx están muy justo en el límite de las borneras.
+    * Recomendación: Para evitar problemas (tolerancias borneras diferentes) conviene moverlos un poco?
+
+**** Se movieron más hacia el centro de la placa. Se va a rediseñar el gabinete para que esas paredes
+no lleguen al PCB, y que solo lo hagan mediante 3 pilares.
+
+
+-------------------------------------------------------------------------------
+ Osciladores
+-------------------------------------------------------------------------------
+* Cambio Cristales de 12MHz por osciladores
+  * Descripción: cambiar los cristales por osciladores. El footprint será el mismo
+  (4-SMD, No Lead (DFN, LCC), según Digi-key: 2.5 x 3.2 mm).
+  * Modificación: en el esquemático poner todo el conexionado para los Si501 (501AAA-ACAF-ND)
+  La entrada OE del oscilador, puede ir a 3.3V directamente.
+  El nº de componente exacto será: 501AAA12M0000CAF. Esto se entiende como (en orden las letras):
+     - 501: Single frequency
+     - A: Vdd (1.7-3.6V), low power, 0.7ns (Tr/Tf)
+     - A: ±50ppm
+     - A: OE High -> enable, Internal Resistor: pull-up
+     - 12M0000: 12MHz frecuencia de salida
+     - C: Package 2.5 x 3.2mm
+     - F: -20º to 70ºC
+  Otros osciladores de footprint compatible son:
+     - Abracon: 535-11724-2-ND
+     - SiTIME: 1473-1051-2-ND
+
+**** Cambio en el PCB y esquemático:
+Se cambiaron por la versión 501HCA12M0000CAG que hay stock en digikey: 336-2889-ND
+Se agregó una resistencia en serie a la salida según recomendación del datasheet.
+
+
+-------------------------------------------------------------------------------
+ Correcciones Assembli
+-------------------------------------------------------------------------------
+
+* "Hay trazas con su ancho igual a ancho de pad (Q806). Esto puede provocar 
+problemas termicos en el proceso de refusión. Como regla se recomienda que el 
+ancho de la traza sea como maximo 70% del ancho del pad en el punto de conexión". 
+Hay que cambiarlo haciendo más finas las pistas al llegar al pad.
+
+**** Se redujeron los tamaños de salida de los tracks, y donde se requería un
+ancho mayor se salio con un plano en vez de track.
+
+
+* "Hay pads desde los que salen o llegan varias pistas a diferentes angulos. Se 
+recomienda entrar con las pistas a 90° y paralelo a la orientación del componente".
+Esto debe ser para que no quede el ácido "atrapado", las que se pueda hay que
+cambiarlas.
+
+**** Se cambió donde había espacio. Algunos quedan en diagonal.
+
+
+* "Hay trazas, planos y pads a 0,010" del borde de la plaqueta. Lo mínimo 
+recomendado es 0,025". Esto puede provocar que al routear el impreso quede cobre 
+expuesto". Usar 20 mils que es lo que hablamos con Mayer.
+
+**** Se separó del cobre al borde del pcb 20 mils.
+
+-------------------------------------------------------------------------------
+ Reducción variedad de agujeros
+-------------------------------------------------------------------------------
+
+* Cantidad de agujeros diferentes: Podríamos reducir la cantidad de agujeros. No cambiar las librerías de los componentes, sólo el PCB.
+
+    * T3  1,00mm  0,039"  (29 holes) --> DB9 y Relays, cambiar a 40 mils
+    * T7  1,50mm  0,059"  (10 holes) --> Pila y Relays, cambiar a 63 mils
+
+**** OK
+
+-------------------------------------------------------------------------------
+ Puntos de pruebas y mecanismos para la verificación
+-------------------------------------------------------------------------------
+
+* Agregar Testpoints
+    * Lugar: Alimentacion principal del chip. Líneas de comunicación principales (internas).
+    * Descripción: No hay testpoints, salvo el jtag.
+    * Modificación: Agregarlos en 5 V, 3.3 V y USB. Enmascarar un pad para que quede el contacto para el tester, y la serigrafía.
+    * Justificación: Detección de problemas.
+
+**** Se agregaron en los siguientes lugares:
+USB: Cercano al micro ya que en el otro extremo tiene componentes SMD que pueden servir como testpoints.
+VBAT: Cercano a la batería
+3.3V: Abajo del oscilador de ethernet y cerca de las entradas analógicas.
+3.3VADC: Arriba del pulsador de reset
+5V: Cerca del CAN bus
+24V: A la derecha del ultimo relay
+24VA: A la izquierda del primer relay
+GND: Cerca del CAN bus y abajo del oscilador de ethernet.
+GNDA: A la derecha del logo CIAA y debajo del RJ45
+
+
+* Testpoints de PDN
+    * Agregar en 3.3 V.
+    * Ver lo que recomienda Rolf Ostergaard.
+          * 2 sets por voltage.
+          * Hole 0.75mm.
+          * No thermal relief.
+          * Pad Width 1.05mm.
+          * Hole center distance 1.2mm.
+          * Para usar puntas baratas de PDN.
+
+**** Se agregaron a la salida del regulador de 3.3V (oculto bajo el capacitor C1102)
+y debajo del portapilas.
+
+
+* Verificación de orden de los layers
+    * Lugar: En algún borde.
+    * Descripción: Para ver como se armaron los layer, especialmente los internos,
+    * Modificación: Colocar en un borde el nro de layer. Ver recomendaciones de Rolf Ostergaard. Ver S3proto.
+    * Justificación: El fabricante podría cambiar sin querer los layers internos de lugar.
+
+**** Se agregó esta verificación entre las dos primeras salidas open drain.
+El corte en el plano de GND es más grande de lo que debería porque el kicad le da demasiado
+clearance entre el texto y el plano. Este setting no se puede configurar ni tampoco se le
+puede asignar la net GND al texto.
+
+
+* Verificación de espesores
+    * Lugar: En algún borde.
+    * Descripción: Poder ver y medir espesores de cobre.
+    * Modificación: Colocar en un borde una capa de cobre. Ver recomendaciones de Rolf Ostergaard.
+    * Justificación: El fabricante podría no respetar espesores. Ver MODULO 9 apunte Rolf Ostergaard.
+
+**** Se agregó un recuadro debajo del regulador switching U1101.
+
+
+* Cupón de Test
+   Hacer cupón por separado en otro archivo y hablar con Ernesto Mayer para ver si lo pueden agregar al panel.
+   Algunas justificaciones:
+    * Caracterizar al fabricante en el primer prototipo.
+    * Caracterización del circuito.
+    * Aprendizaje de la técnica.
+
+**** Se realizó un cupon de test.
+
+-------------------------------------------------------------------------------
+ Información adicional sobre el PCB
+-------------------------------------------------------------------------------
+
+* Proceso de acabado superficial.
+    * Lugar: Cerca del cuadro de stack-up
+    * Descripción: La placa se puede hacer por HASL o ENIG.
+    * Modificación: Colocar el dato de la terminación HASL (Estaño/Plomo), no es 
+    necesaria una terminación en Níquel/Oro.
+    * Justificación: Prolijidad de diseño. Agrupación de datos de fabricación.
+
+**** OK
+
+* Stack-UP.
+    * Aclarar cuál es prepreg y cual laminate.
+    * Aclarar materiales: Prepreg Isola 2 x 7628AT05, Laminate Isola 4 x 7628M 
+    * Aclarar espesor total final esperado: 1.6 mm
+    * El dibujito se podría ver de hacerlo mas a escala (Espesores).
+    * Especificar tolerancias. De qué? Las que dice Isola?
+
+-------------------------------------------------------------------------------
+ Serigrafía
+-------------------------------------------------------------------------------
+
+* Serigrafía Borneras
+    * Lugar: Borneras
+    * Descripción: La serigrafía de las borneras (referencia) queda tapada.
+    * Modificación: Que se vea que bornera es.
+    * Justificación: Se debe poder saber qué bornera es en el esquemático.
+    
+**** OK
+
+
+* Serigrafías BOTTOM
+    * Computadora Industrial Abierta Argentina
+    * CIAA-FSL CEIBO 1.0
+    * Industria Argentina
+    * www.proyecto-ciaa.com.ar
+    * XX/09/2014  (fecha en que se termine el PCB)
+
+**** OK
+
+
+* Revisar serigrafías TOP
+    * Borneras: Poner las señales en capas top y bottom si entran. Ver el archivo
+    ../entradas_salidas/Borneras_CIAA.txt para el texto exacto de cada una.
+    * Borneras: Hacer una rayita que exceda la borneras hacia adentro de la placa para
+      que se pueda ver hasta donde llega cada una.
+    * U1101: Dibujar las patas para vincular mejor cuerpo y terminales?.
+    * J601 : Separar nombre señales. Hay lugar.
+    * Q0, Q1, Q2 y Q3 parecen indicaciones de transistores. Poner LED Q0, LED Q1, etc.
+    * Referencia de R912 cae arriba de vías. Puede que no se lea bien.
+    * Ref FB901 a 904 quedarían tapadas.
+
+**** Se agregó la descripción de las borneras solo en lado Bottom porque no entraban
+todas en el Top.
+Se cambio Q* por LED Q*, pero hay que ver si queda bien debido a que los otros indicadores
+no dicen "LED I2", etc. Además se intercambiaron por los de los relays. (Antes Q eran las open drain).
+Las serigrafías se acomodaron todas nuevamente, de manera que hay que volver a revisarlas.
+
+-------------------------------------------------------------------------------
+ Revisión Freescale
+-------------------------------------------------------------------------------
+El diseño fue revisado por Bruno Castelucci de Freescale. Realizó los siguientes comentarios:
+
+- Para el VREF nuestra recomendacion es el uso de un diodo zener o un regulador lineal con compensacion por temperatura para un mejor performance. 
+
+Nuestra observación: El zener en VREF estimamos que puede llegar a ser una mejora, pero implicaba un cambio en la circuitería analógica, dado que la tensión máxima a convertir serían los 3V. Existía otra posibilidad de poner un regulador aparte para la tensión analógica, tomando desde los 5V. Pero lo dejaremos para una segunda versión. 
+
+- Que senales analogicas tienen como entradas? Nuestra recomendacion es no separar las tierra. Mantener una sola referencia. Anexo las recomendaciones que se tienen que implementar en PCB si es muy necesario tener la separacion de tierras.
+
+Nuestra observación:  En cuanto a la separación de masas, decidimos dejarlo así. Creemos que es bueno para separar los ruidos digitales de la señal analógica. En muchos diseños lo vi así y estimamos que es la forma de hacerlo. No hay ruteos que crucen planos cortados y todos operan dentro de zonas de acción: analógicos por un lado y digitales por otro. 
+
+- En el conector de USB recomendamos tambien el uso de un TVS en USB_Vbus.
+
+Nuestra observación: Respecto al TVS para USB, no lo pusimos, ya que disponemos de un zener en la línea de 5V. Es cierto que puede encontrarse muy lejos de la entrada y no ser tan efectivo. Pero se nos complicaba el lugar, ya que había que poner uno por cada USB.
+
+

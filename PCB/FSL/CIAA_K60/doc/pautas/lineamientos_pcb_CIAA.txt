@@ -52,11 +52,11 @@ fabricante Isola, con el código DURAVER-E-Cu quality 104 ML.
     - Bottom layer: 1 oz (0,035 mm)
 
 ###Definición del borde de la placa###
-* Utilizar una grilla de 50 mils (si es posible) y un track de 8 mils. 
+* Utilizar una grilla de 50 mils (si es posible) y un track de 20 mils. 
 * Ubicar el borde inferior izquierdo de la placa en el origen.
-* Dejar al menos 120 mils de distancia entre el borde de la placa y los 
-componentes. 
-* Dejar al menos 25 mils de distancia entre el cobre y el borde. 
+* Si es posible dejar al menos 120 mils de distancia entre el borde de la placa 
+y los componentes. 
+* Dejar al menos 20 mils de distancia entre el cobre y el borde. 
 * Agregar las dimensiones del pcb en el layer Drawings User.
 
 
@@ -96,6 +96,10 @@ colocar el origen en el pin 1.
 * Ubicar los componentes en una grilla no menor a 50 mils dentro de lo posible.
 * Bloquear los componentes que no deben moverse debido a que su ubicación está
 determinada por el gabinete u otro elemento. 
+* Si la placa tiene componentes en el bottom layer y se desea compatibilidad
+con soldadura por ola, se deben orientar los componentes de manera de que
+ningún componente le haga "sombra" a otro. Considerar que algunos componentes
+pueden dañarse al ser soldados por ola, consultar las hojas de datos.
  
 
 ###Reglas de diseño confirmadas por Ernesto Mayer###
@@ -103,12 +107,10 @@ determinada por el gabinete u otro elemento.
 * Default Track Width = 10 mils (podría reducirse a 8 mils si fuera necesario)
 * Default Via Diameter = 32 mils
 * Default Via Drill = 16 mils
-* Power Track Width = Definir en base a la corriente. En la CIAA NXP se 
-utilizaron tracks de 20 y 30 mils.
 * Definir Net Classes cuando sea necesario, por ejemplo para las líneas 
-diferenciales USB.
+diferenciales USB o Ethernet.
 * Planos de GND/VCC:
-    - Clearence: 14 mils 
+    - Clearence: 10 mils
     - Minimum width: 10 mils
     - Pad connection: Thermal relief
     - Fill mode: Polygon
@@ -117,6 +119,11 @@ diferenciales USB.
 * Nota: En la CIAA-NXP se utilizaron vías de 25/10 mils, pero se recomienda
 utilizarlas sólo si fuera estrictamente necesario y únicamente en los sectores 
 más críticos del PCB ya que pueden encarecer y complicar la fabricación.
+* Solder Mask Clearence: Los fabricantes piden 4 mils pero en el caso de QFP
+fine pitch es deseable tener 2 mils.
+* Solder Paste Clearence: Utilizar -1 mils para evitar exceso de pasta en los 
+pads. 
+
  
 
 ###Trazado de pistas###
@@ -139,4 +146,6 @@ dip switchs.
 * Tenting vías: Generar los gerbers con las vías cubiertas con máscara 
 antisoldante. En la pantalla File -> Plot dejar destildada la opción "Do not tent 
 vias".  
+* Agregar la información del stack up con los espesores de los materiales.
+* Agregar dimensiones de la placa.
  

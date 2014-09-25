@@ -48,6 +48,9 @@ while ($line=<F>)
 	   $line=~s/url//g; # saca la palabra url
 	   $line=~s/\"//g; # saca las "
 	   $comp_wrl=$line; #ruta del archivo
+	   @name_split=split('/',$comp_wrl);
+	   $comp_wrl=$name_split[$#name_split];
+	   $comp_wrl="footprints/packages3d/"."$comp_wrl";
 	   $text_wrl=`cat $comp_wrl`;
 	   print S $text_wrl;
 	   $line=<F>; # lee la siguiente linea

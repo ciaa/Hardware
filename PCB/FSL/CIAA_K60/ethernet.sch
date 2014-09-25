@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 13
 Title "Ethernet"
-Date "18 jul 2014"
-Rev "1.0"
+Date "15 sep 2014"
+Rev "CEIBO 1.0"
 Comp "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
 Comment2 ""
@@ -216,10 +216,10 @@ F 3 "" H 8300 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CSX750FBC25.000MT U301
+L OSCILADOR U301
 U 1 1 52C1B4DF
 P 2000 6850
-F 0 "U301" H 1900 7150 60  0000 C CNN
+F 0 "U301" H 1800 7150 60  0000 C CNN
 F 1 "FXO-HC735-25" H 2050 7050 60  0000 C CNN
 F 2 "FXODFN4" H 2000 6850 60  0001 C CNN
 F 3 "~" H 2000 6850 60  0000 C CNN

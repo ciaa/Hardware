@@ -64,59 +64,59 @@ $c_cant=9;
 $count_wopndigi=0; # Contador de componentes sin part number
 print "** Process File: $filein\n";
 while ($line=<F>)
-  {
-   @col= split (";",$line);
-   @col=EmptyCells(\@col); # Completa con " " los campos vacios
-   if ($col[$c_ref] ne "ref") #Descarta la línea de títulos
-     {
-      $pn_digi=$col[$c_pndigi];;
-	  $col[$c_cant]=1;
-      if ($pn_digi eq " ") 
-         {# No tiene cargado el PN de Digi-Key, lo agrega a la bolsa de elementos sin PN
-		 for ($i=0;$i<=$c_cant;$i++)
-			{					 
-	         $bom_inc[$count_wopndigi][$i]=$col[$i];
-			}
-          $count_wopndigi++;
-         }
-      else
-        {
-         unless($bom_new{$pn_digi})  # Si no esta cargado en la lista, lo agrega
-            {
+	{
+	 @col= split (";",$line);
+	 @col=EmptyCells(\@col); # Completa con " " los campos vacios
+	 if ($col[$c_ref] ne "ref") #Descarta la línea de títulos
+		{
+		 $pn_digi=$col[$c_pndigi];;
+		 $col[$c_cant]=1;
+		 if ($pn_digi eq " ") 
+			{# No tiene cargado el PN de Digi-Key, lo agrega a la bolsa de elementos sin PN
 			 for ($i=0;$i<=$c_cant;$i++)
 				{
-				 $bom_new{$pn_digi}[$i]=$col[$i];
+				 $bom_inc[$count_wopndigi][$i]=$col[$i];
 				}
-            }
-         else
-            {
-			 if ((($bom_new{$pn_digi}[$c_foot]) eq ($col[$c_foot])))
-				{# Coincide el footprint, entonces lo carga
-		         $bom_new{$pn_digi}[$c_ref]="$bom_new{$pn_digi}[$c_ref], $col[$c_ref]"; # Agrega un nuevo componente
-   	             $bom_new{$pn_digi}[$c_desc]=lTxt($bom_new{$pn_digi}[$c_desc], $col[$c_desc]); # Deja el texto más largo.
-   	             $bom_new{$pn_digi}[$c_fab]=lTxt($bom_new{$pn_digi}[$c_fab], $col[$c_fab]); # Deja el texto más largo.
-   	             $bom_new{$pn_digi}[$c_pnfab]=lTxt($bom_new{$pn_digi}[$c_pnfab], $col[$c_pnfab]); # Deja el texto más largo.
-   	             $bom_new{$pn_digi}[$c_data]=lTxt($bom_new{$pn_digi}[$c_data], $col[$c_data]); # Deja el texto más largo.
-   	             $bom_new{$pn_digi}[$c_pndigi]=lTxt($bom_new{$pn_digi}[$c_pndigi], $col[$c_pndigi]); # Deja el texto más largo.
-   	             $bom_new{$pn_digi}[$c_foots]=lTxt($bom_new{$pn_digi}[$c_foots], $col[$c_foots]); # Deja el texto más largo.
-   	             $bom_new{$pn_digi}[$c_cant]++; # Incrementa en uno la cantidad
-             	 if ($bom_new{$pn_digi}[$c_value]!~/$col[$c_value]/i) 
-	                {    	     
-   	             	 $bom_new{$pn_digi}[$c_value]="$bom_new{$pn_digi}[$c_value], $col[$c_value]";
-              		}
-				}
- 	         else
-               {# El numero de parte es igual, pero el FOOT es distinto, es un posible error
+			 $count_wopndigi++;
+			}
+		 else
+			{
+			 unless($bom_new{$pn_digi})  # Si no esta cargado en la lista, lo agrega
+				{
 				 for ($i=0;$i<=$c_cant;$i++)
-					{					 
-    	              $bom_inc[$count_wopndigi][$i]=$col[$i];
+					{
+					 $bom_new{$pn_digi}[$i]=$col[$i];
 					}
-                 $count_wopndigi++;
-               }
-            }
-        }
-     }
-  }
+				}
+			 else
+				{
+				 if ((($bom_new{$pn_digi}[$c_foot]) eq ($col[$c_foot])))
+					{# Coincide el footprint, entonces lo carga
+					 $bom_new{$pn_digi}[$c_ref]="$bom_new{$pn_digi}[$c_ref], $col[$c_ref]"; # Agrega un nuevo componente
+					 $bom_new{$pn_digi}[$c_desc]=lTxt($bom_new{$pn_digi}[$c_desc], $col[$c_desc]); # Deja el texto más largo.
+					 $bom_new{$pn_digi}[$c_fab]=lTxt($bom_new{$pn_digi}[$c_fab], $col[$c_fab]); # Deja el texto más largo.
+					 $bom_new{$pn_digi}[$c_pnfab]=lTxt($bom_new{$pn_digi}[$c_pnfab], $col[$c_pnfab]); # Deja el texto más largo.
+					 $bom_new{$pn_digi}[$c_data]=lTxt($bom_new{$pn_digi}[$c_data], $col[$c_data]); # Deja el texto más largo.
+					 $bom_new{$pn_digi}[$c_pndigi]=lTxt($bom_new{$pn_digi}[$c_pndigi], $col[$c_pndigi]); # Deja el texto más largo.
+					 $bom_new{$pn_digi}[$c_foots]=lTxt($bom_new{$pn_digi}[$c_foots], $col[$c_foots]); # Deja el texto más largo.
+					 $bom_new{$pn_digi}[$c_cant]++; # Incrementa en uno la cantidad
+					 if ($bom_new{$pn_digi}[$c_value]!~/$col[$c_value]/i) 
+						{
+						 $bom_new{$pn_digi}[$c_value]="$bom_new{$pn_digi}[$c_value], $col[$c_value]";
+						}
+					}
+				 else
+					{# El numero de parte es igual, pero el FOOT es distinto, es un posible error
+					 for ($i=0;$i<=$c_cant;$i++)
+						{
+						 $bom_inc[$count_wopndigi][$i]=$col[$i];
+						}
+					 $count_wopndigi++;
+					}
+				}
+			}
+		}
+	}
 
 close $F;
 print "** Found $#bom_inc items to correct\n";
@@ -134,7 +134,7 @@ if ($#bom_inc>0)
 			 	 $bom_inc[$count_wopndigi][$j]=$bom_new{$bom_inc[$i][$c_pndigi]}[$j];
 				}
 			 delete $bom_new{$bom_inc[$i][$c_pndigi]};
-             $count_wopndigi++;
+			 $count_wopndigi++;
 			}
 		}
 	 print "*** Grouping error elements\n";	
@@ -149,30 +149,31 @@ if ($#bom_inc>0)
 			}
 		 else
 			{
-	         $bom_err{$bom_inc[$i][$c_foot]}[$c_ref]="$bom_err{$bom_inc[$i][$c_foot]}[$c_ref], $bom_inc[$i][$c_ref]"; # Agrega un nuevo componente
-   	         $bom_err{$bom_inc[$i][$c_foot]}[$c_desc]=lTxt($bom_err{$bom_inc[$i][$c_foot]}[$c_desc], $bom_inc[$i][$c_desc]); 
-   	         $bom_err{$bom_inc[$i][$c_foot]}[$c_fab]=lTxt($bom_err{$bom_inc[$i][$c_foot]}[$c_fab], $bom_inc[$i][$c_fab]); 
-   	         $bom_err{$bom_inc[$i][$c_foot]}[$c_pnfab]=lTxt($bom_err{$bom_inc[$i][$c_foot]}[$c_pnfab], $bom_inc[$i][$c_pnfab]); 
-   	         $bom_err{$bom_inc[$i][$c_foot]}[$c_data]=lTxt($bom_err{$bom_inc[$i][$c_foot]}[$c_data], $bom_inc[$i][$c_data]); 
-   	         $bom_err{$bom_inc[$i][$c_foot]}[$c_pndigi]=lTxt($bom_err{$bom_inc[$i][$c_foot]}[$c_pndigi], $bom_inc[$i][$c_pndigi]);
-   	         $bom_err{$bom_inc[$i][$c_foot]}[$c_foots]=lTxt($bom_err{$bom_inc[$i][$c_foot]}[$c_foots], $bom_inc[$i][$c_foots]); 
-	         $bom_err{$bom_inc[$i][$c_foot]}[$c_cant]+=$bom_inc[$i][$c_cant]; # Suma las cantidades
-           	 if ($bom_err{$bom_inc[$i][$c_foot]}[$c_value]!~/$bom_inc[$i][$c_value]/i) 
-	                {    	     
-   	             	 $bom_err{$bom_inc[$i][$c_foot]}[$c_value]="$bom_err{$bom_inc[$i][$c_foot]}[$c_value], $bom_inc[$i][$c_value]";
-              		}
+			 $bom_err{$bom_inc[$i][$c_foot]}[$c_ref]="$bom_err{$bom_inc[$i][$c_foot]}[$c_ref], $bom_inc[$i][$c_ref]"; # Agrega un nuevo componente
+			 $bom_err{$bom_inc[$i][$c_foot]}[$c_desc]=lTxt($bom_err{$bom_inc[$i][$c_foot]}[$c_desc], $bom_inc[$i][$c_desc]); 
+			 $bom_err{$bom_inc[$i][$c_foot]}[$c_fab]=lTxt($bom_err{$bom_inc[$i][$c_foot]}[$c_fab], $bom_inc[$i][$c_fab]); 
+			 $bom_err{$bom_inc[$i][$c_foot]}[$c_pnfab]=lTxt($bom_err{$bom_inc[$i][$c_foot]}[$c_pnfab], $bom_inc[$i][$c_pnfab]); 
+			 $bom_err{$bom_inc[$i][$c_foot]}[$c_data]=lTxt($bom_err{$bom_inc[$i][$c_foot]}[$c_data], $bom_inc[$i][$c_data]); 
+			 $bom_err{$bom_inc[$i][$c_foot]}[$c_pndigi]=lTxt($bom_err{$bom_inc[$i][$c_foot]}[$c_pndigi], $bom_inc[$i][$c_pndigi]);
+			 $bom_err{$bom_inc[$i][$c_foot]}[$c_foots]=lTxt($bom_err{$bom_inc[$i][$c_foot]}[$c_foots], $bom_inc[$i][$c_foots]); 
+			 $bom_err{$bom_inc[$i][$c_foot]}[$c_cant]+=$bom_inc[$i][$c_cant]; # Suma las cantidades
+			 if ($bom_err{$bom_inc[$i][$c_foot]}[$c_value]!~/$bom_inc[$i][$c_value]/i) 
+				{
+				 $bom_err{$bom_inc[$i][$c_foot]}[$c_value]="$bom_err{$bom_inc[$i][$c_foot]}[$c_value], $bom_inc[$i][$c_value]";
+				}
 			}
 		}
 	}
+
 print "*** Extracting Jumpers and Connectors\n";
 foreach $p (sort keys %bom_err)
 	{
-   	 if ($bom_err{$p}[$c_ref]=~/^J|^K/i)
+	 if ($bom_err{$p}[$c_ref]=~/^J|^K/i)
 		{
 		 for ($j=0;$j<=$c_cant;$j++)
 			{
-		 	 $bom_jk{$bom_err{$p}[$c_ref]}[$j]=$bom_err{$p}[$j];
-			}		 
+			 $bom_jk{$bom_err{$p}[$c_ref]}[$j]=$bom_err{$p}[$j];
+			}
 		 delete $bom_err{$p};
 		}
 	}
@@ -182,27 +183,59 @@ print "** Result: ".keys( %bom_err )." items to correct\n";
 print "** Writing File out: $outdir\/$fileout\n";
 
 open(S,">$outdir\/$fileout") || die "Can't create $outdir\/$fileout";
+
+# Extract info from pcb file
+$fecha = strftime "%e/%m/%Y-%H:%M:%S", localtime;
+
+open(F, "<:encoding(UTF-8)","$pcb_file") || die "Can't open $pcb_file";
+while ($line=<F>)
+	{
+	 $line =~s/\(//g;
+	 $line =~s/\)//g;
+	 if ($line=~/title \"([^\"]*)\"/)
+		{
+		 print S "$1\n";
+		}
+	 if ($line=~/date \"([^\"]*)\"/)
+		{
+		 print S "$1\n";
+		}
+	 if ($line=~/rev \"([^\"]*)\"/)
+		{
+		 print S "$1\n";
+		}
+	 if ($line=~/company \"([^\"]*)\"/)
+		{
+		 print S "$1\n";
+		}
+	 if ($line=~/comment 1 \"([^\"]*)\"/)
+		{
+		 print S "$1\n";
+		}
+	 if ($line=~/comment 2 \"([^\"]*)\"/)
+		{
+		 print S "$1\n";
+		 break;
+		}
+	}
+print S "Fecha de Generación: $fecha\n\n";
+close $F;
+
 print S "REF;VALUE;CANT;DESC;PN-DIGI-KEY;FAB;FOOT;DATA;URL\n";
 
 $i=0;
 foreach $pn (sort keys %bom_new)
-  {
-   $url = "http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=$pn";
-   $bom_end[$i]= "$bom_new{$pn}[$c_ref];$bom_new{$pn}[$c_value];$bom_new{$pn}[$c_cant];$bom_new{$pn}[$c_desc];$pn;$bom_new{$pn}[$c_fab];$bom_new{$pn}[$c_foot];$bom_new{$pn}[$c_data];$url\n";
-   $i++;
-  }
-#@bom_end = sort {versioncmp($a,$b)} @bom_end;
-#for ($i=0;$i<=$#bom_end;$i++)
-#	{
-#	 print S "$bom_end[$i]";
-#	}
-
+	{
+	 $url = "http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=$pn";
+	 $bom_end[$i]= "$bom_new{$pn}[$c_ref];$bom_new{$pn}[$c_value];$bom_new{$pn}[$c_cant];$bom_new{$pn}[$c_desc];$pn;$bom_new{$pn}[$c_fab];$bom_new{$pn}[$c_foot];$bom_new{$pn}[$c_data];$url\n";
+	 $i++;
+	}
 
 foreach $pn (sort keys %bom_jk)
-  {
-   $bom_end[$i]= "$bom_jk{$pn}[$c_ref];$bom_jk{$pn}[$c_value];$bom_jk{$pn}[$c_cant];$bom_jk{$pn}[$c_desc];$pn;$bom_jk{$pn}[$c_fab];$bom_jk{$pn}[$c_foot];$bom_jk{$pn}[$c_data]\n";
-   $i++;
-  }
+	{
+	 $bom_end[$i]= "$bom_jk{$pn}[$c_ref];$bom_jk{$pn}[$c_value];$bom_jk{$pn}[$c_cant];$bom_jk{$pn}[$c_desc];$pn;$bom_jk{$pn}[$c_fab];$bom_jk{$pn}[$c_foot];$bom_jk{$pn}[$c_data]\n";
+	 $i++;
+	}
 @bom_end = sort {versioncmp($a,$b)} @bom_end;
 for ($i=0;$i<=$#bom_end;$i++)
 	{
@@ -213,17 +246,19 @@ for ($i=0;$i<=$#bom_end;$i++)
 $i=0;
 print S "\nElementos sin Part Number\n";
 foreach $pn (sort keys %bom_err)
-  {
-   $bom_inend[$i]="$bom_err{$pn}[$c_ref];$bom_err{$pn}[$c_value];$bom_err{$pn}[$c_cant];$bom_err{$pn}[$c_desc];$bom_err{$pn}[$c_pndigi];$bom_err{$pn}[$c_fab];$bom_err{$pn}[$c_foot];$bom_err{$pn}[$c_data];\n";
-   $i++;
-  }
+	{
+	 $bom_inend[$i]="$bom_err{$pn}[$c_ref];$bom_err{$pn}[$c_value];$bom_err{$pn}[$c_cant];$bom_err{$pn}[$c_desc];$bom_err{$pn}[$c_pndigi];$bom_err{$pn}[$c_fab];$bom_err{$pn}[$c_foot];$bom_err{$pn}[$c_data];\n";
+	 $i++;
+	}
 
 @bom_inend = sort {versioncmp($a,$b)} @bom_inend;
 for ($i=0;$i<=$#bom_inend;$i++)
 	{
 	 print S "$bom_inend[$i]";
 	}
+print S "\n";
 
+close $S;
 #-----------------------------------------------------------------------------
 # Find empty cell
 #  Se fija si posee campos vacios y los completa con " "
@@ -232,16 +267,16 @@ sub EmptyCells
 {
  my @cell_ck = @{$_[0]};
  for ($i=0;$i<=$c_cant;$i++)
-     {
-      unless ($cell_ck[$i])
-             {
-              $cell_ck[$i]=" ";
-             }
-	  if ($cell_ck[$i] eq "~")
-             {
-              $cell_ck[$i]=" ";
-             }
-     }
+	{
+	 unless ($cell_ck[$i])
+		{
+		 $cell_ck[$i]=" ";
+		}
+	 if ($cell_ck[$i] eq "~")
+		{
+		 $cell_ck[$i]=" ";
+		}
+	}
  return @cell_ck;
 }
 
@@ -252,13 +287,13 @@ sub EmptyCells
 sub lTxt
 {
  if ($_[0] gt $_[1])
-    {
-     return $_[0];
-    }
+	{
+	 return $_[0];
+	}
  else
-    {
-     return $_[1];
-    }
+	{
+	 return $_[1];
+	}
 }
 
 #-----------------------------------------------------------------------------
@@ -272,6 +307,7 @@ sub ParseCommandLine
             "version"       => \$showVersion,
             "input=s"       => \$filein,
             "dir=s"         => \$outdir,
+            "pcb=s"         => \$pcb_file,
             "output=s"      => \$fileout,
             "help|?"        => \$help) or ShowHelp();
  if ($showVersion)
@@ -294,8 +330,8 @@ sub ParseCommandLine
  unless($fileout)
    {
     $fileout="$filein";
-	$fileout=~s/.csv//g;
-	$fileout="$fileout-out.csv";
+    $fileout=~s/.csv//g;
+    $fileout="$fileout-BoM.csv";
    }
  if ($outdir && !(-e "$outdir"))
    {
@@ -305,6 +341,11 @@ sub ParseCommandLine
    {
     $outdir='.'; # Si no se especifica el directorio, asigna el actual
    }
+ unless ($pcb_file)
+   {
+    print "You must specify an pcb file name.\n";
+    ShowHelp();
+   }
 }
 
 sub ShowHelp
@@ -313,6 +354,7 @@ sub ShowHelp
  print __"\nAvailable options:\n";
  print __"--version            Outputs version information and exit.\n";
  print __"--input=name         Input BoM File Generated by Kicad (separated by \";\")\n";
+ print __"--pcb=file           PCB File (format .kicad_pcb)\n";
  print __"--dir=name           Output Directory, Default=Current\n";
  print __"--output=name        Output BoM File, Default=<IN FILE>-out\n";
  print __"--help               Prints this text.\n\n";

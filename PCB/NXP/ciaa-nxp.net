@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:/Proyectos/Hardware-CIAA-GitHub/PCB/NXP/ciaa-nxp.sch)
-    (date "22/08/2014 17:04:56")
+    (date "02/09/2014 19:18:23")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
     (comp (ref GS1)

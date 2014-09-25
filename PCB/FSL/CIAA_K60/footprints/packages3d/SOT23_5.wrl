@@ -7,8 +7,8 @@ DEF cube1_sep11 Transform {
         material DEF color_035_032_032 Material {
           diffuseColor 0.140000 0.128736 0.128736
           emissiveColor 0.00000e+0 0.00000e+0 0.00000e+0
-          specularColor 1.00000 1.00000 1.00000
-          ambientIntensity 1.00000
+          specularColor 0.20000 0.20000 0.20000
+          ambientIntensity 0.10000
           transparency 0.00000e+0
           shininess 1.00000
         }

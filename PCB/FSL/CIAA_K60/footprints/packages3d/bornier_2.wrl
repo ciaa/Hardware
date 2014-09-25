@@ -592,12 +592,12 @@ DEF cube6_copy21 Transform {
     Shape {
       appearance Appearance {
         material DEF body Material {
-          diffuseColor 0.13333333333333337 0.16666666666666669 0.7733333333333334
+                    diffuseColor 0.13333333333333337 0.16666666666666669 0.7733333333333334
           emissiveColor 0.0 0.0 0.0
-          specularColor 1.0 1.0 1.0
+          specularColor 0.0 0.0 0.0
           ambientIntensity 1.0
           transparency 0.0
-          shininess 1.0
+          shininess 0.0
         }
       }
       geometry IndexedFaceSet {
