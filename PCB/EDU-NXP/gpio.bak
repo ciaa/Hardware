@@ -230,7 +230,7 @@ Text HLabel 1350 3700 0    60   Output ~ 0
 RS232_RXD
 Text HLabel 10350 2300 2    60   Input ~ 0
 ENET_MDC
-Text HLabel 1100 1850 0    60   Input ~ 0
+Text HLabel 1100 1850 0    60   Output ~ 0
 RESET
 $Comp
 L THERMISTOR TH3
