@@ -15,7 +15,7 @@
   (page A3)
   (layers
     (15 F.Cu signal)
-    (0 B.Cu signal hide)
+    (0 B.Cu signal)
     (16 B.Adhes user)
     (17 F.Adhes user)
     (18 B.Paste user)
