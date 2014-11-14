@@ -1,18 +1,8 @@
-update=06/09/2014 10:43:31 a.m.
+update=14/11/2014 07:55:23 p.m.
 version=1
-last_client=cvpcb
+last_client=eeschema
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=kicadlibrary
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
-[eeschema/libraries]
-LibName1=kicadlibrary/edu-ciaa-nxp
 [pcbnew]
 version=1
 LastNetListRead=edu-ciaa-nxp.net
@@ -38,3 +28,13 @@ LibDir=footprints
 [cvpcb]
 version=1
 NetIExt=net
+[eeschema]
+version=1
+LibDir=kicadlibrary
+NetFmtName=
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
+[eeschema/libraries]
+LibName1=kicadlibrary/edu-ciaa-nxp
