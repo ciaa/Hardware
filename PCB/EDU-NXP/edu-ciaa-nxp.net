@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/ciaa/PCB/EDU-NXP/edu-ciaa-nxp.sch)
-    (date "26/10/2014 07:36:13 a.m.")
+    (date "27/11/2014 04:14:33 p.m.")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
     (comp (ref H1)
@@ -271,7 +271,7 @@
       (sheetpath (names /GPIO/) (tstamps /52CA0F12/))
       (tstamp 539E1660))
     (comp (ref C5)
-      (value 330uF)
+      (value 10uF)
       (libsource (lib edu-ciaa-nxp) (part CAPAPOL))
       (sheetpath (names /Fuente/) (tstamps /52C2B8A1/))
       (tstamp 52B78C68))

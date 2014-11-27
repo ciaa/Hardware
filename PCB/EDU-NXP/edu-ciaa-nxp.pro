@@ -1,4 +1,4 @@
-update=14/11/2014 07:55:23 p.m.
+update=27/11/2014 04:27:22 p.m.
 version=1
 last_client=eeschema
 [general]
@@ -31,7 +31,7 @@ NetIExt=net
 [eeschema]
 version=1
 LibDir=kicadlibrary
-NetFmtName=
+NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100
 RptLab=1

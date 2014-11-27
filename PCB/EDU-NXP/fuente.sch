@@ -7,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 7
 Title "EDU CIAA Fuente de alimentación"
-Date "26 oct 2014"
+Date "27 nov 2014"
 Rev "1.0"
 Comp ""
 Comment1 ""
@@ -20,7 +20,7 @@ L CAPAPOL C5
 U 1 1 52B78C68
 P 5200 4300
 F 0 "C5" H 5250 4400 40  0000 L CNN
-F 1 "330uF" H 5250 4200 40  0000 L CNN
+F 1 "10uF" H 5250 4200 40  0000 L CNN
 F 2 "~" H 5300 4150 30  0000 C CNN
 F 3 "~" H 5200 4300 300 0000 C CNN
 	1    5200 4300

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 22/10/2014 05:35:38 p.m.
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 27/11/2014 04:14:45 p.m.
 
 BeginCmp
 TimeStamp = /52C1CAF4/52C1CFDF;
@@ -38,8 +38,8 @@ EndCmp
 BeginCmp
 TimeStamp = /52C2B8A1/52B78C68;
 Reference = C5;
-ValeurCmp = 330uF;
-IdModule  = c_elec_6.3x7.7;
+ValeurCmp = 10uF;
+IdModule  = c_1206_tantalio_1;
 EndCmp
 
 BeginCmp
@@ -428,6 +428,13 @@ IdModule  = DO-214AA(SMB);
 EndCmp
 
 BeginCmp
+TimeStamp = /52C1CAF4/544A3F80;
+Reference = D11;
+ValeurCmp = LL4148;
+IdModule  = SOD-123;
+EndCmp
+
+BeginCmp
 TimeStamp = /5345C5B3;
 Reference = F1;
 ValeurCmp = fiducial;
@@ -528,14 +535,14 @@ EndCmp
 BeginCmp
 TimeStamp = /52C1CAF4/540206D5;
 Reference = FB9;
-ValeurCmp = BLM15HG601SN1D;
+ValeurCmp = HZ0805E601R-10;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C1CAF4/5447BAE3;
 Reference = FB10;
-ValeurCmp = BLM15HG601SN1D;
+ValeurCmp = HZ0805E601R-10;
 IdModule  = SM0805;
 EndCmp
 
@@ -1053,7 +1060,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52C1CAF4/52C1CF9F;
 Reference = R94;
-ValeurCmp = 100K;
+ValeurCmp = 10K;
 IdModule  = SM0805;
 EndCmp
 
@@ -1317,14 +1324,14 @@ IdModule  = 4SOJ;
 EndCmp
 
 BeginCmp
-TimeStamp = /52C1CAF4/5401E6FD;
+TimeStamp = /52C1CAF4/5449BCE1;
 Reference = X2;
 ValeurCmp = 12MHz;
 IdModule  = FA238V-XTAL;
 EndCmp
 
 BeginCmp
-TimeStamp = /52C1CAF4/5401F27F;
+TimeStamp = /52C1CAF4/5449BD02;
 Reference = X3;
 ValeurCmp = 12MHz;
 IdModule  = FA238V-XTAL;

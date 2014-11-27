@@ -7,7 +7,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 7 7
 Title "EDU CIAA CPU - LPC4337"
-Date "26 oct 2014"
+Date "27 nov 2014"
 Rev "1.0"
 Comp ""
 Comment1 ""
