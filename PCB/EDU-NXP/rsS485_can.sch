@@ -7,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 7
 Title "EDU CIAA RS485"
-Date "27 nov 2014"
+Date "28 nov 2014"
 Rev "1.0"
 Comp ""
 Comment1 ""
@@ -403,8 +403,14 @@ U 1 1 52C5B38C
 P 4150 3500
 F 0 "R1" V 4150 3400 30  0000 C CNN
 F 1 "4K7" V 4100 3400 30  0000 C CNN
-F 2 "~" H 4150 3500 60  0000 C CNN
+F 2 "SM0805" H 4150 3500 60  0001 C CNN
 F 3 "~" H 4150 3500 60  0000 C CNN
+F 4 "~" H 4150 3500 60  0001 C CNN "Descripción"
+F 5 "~" H 4150 3500 60  0001 C CNN "Fabricante"
+F 6 "~" H 4150 3500 60  0001 C CNN "Nro de parte"
+F 7 "...PCB\\EDU-NXP\\Datasheets" H 4150 3500 60  0001 C CNN "Path datasheet"
+F 8 "~" H 4150 3500 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 4150 3500 60  0001 C CNN "Footprint estándar"
 	1    4150 3500
 	0    -1   -1   0   
 $EndComp
