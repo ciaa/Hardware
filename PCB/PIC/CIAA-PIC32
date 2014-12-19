@@ -1,0 +1,23 @@
+
+##################################################
+	     CIAA - MICROCHIP      v1.0
+##################################################
+
+
+Se mantienen circuito de CIAA-NXP:
+ 
+_Entradas digitales
+_Entradas analogicas
+_Salidas a Rele / OPen Drain
+_Memorioas
+_CAN / RS-485 / RS232
+_Fuente Alimentacion
+_JTAG
+
+Se ralizan cambios
+
+_Ethernet
+_USB Host
+_Salida simil DAC
+_Salida USb via FTDI
+
