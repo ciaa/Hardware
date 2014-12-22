@@ -1,0 +1,50 @@
+#Proyecto CIAA - FSL#
+Autor: INTI CMNB - Unidad técnica de integración de sistemas  
+Fecha: $Date: 2014/12/09 20:12:16 $
+
+## Cambios a realizar en la versión CEIBO 1.0 ##
+
+### Modificaciones en el esquemático  ###
+ 
+* Cambiar de lugar la señal CAN_STB que está en el pin 54 del micro ya que
+trae problemas con el reset. 
+[Diego A.] V1.1: Se eliminó el pull-down de CAN_STB ya que el pin 54 del micro
+cuenta con un pull-up, el cual va a dejar el IC de CAN en "standby" cuando el
+CPU esté reseteado.
+
+* Cambiar el puerto de las entradas digitales ya que son analógicas.
+[Diego A.] V1.1: Se conectaron a pines GPIO.
+
+* Aclarar que los los resistores R817, R818, R819, R820 no se deben soldar si 
+se sueldan los mosfet. Debe quedar claro con un DNP (do not populate) o con un 
+campo extra que lo aclare, así el armador de la placa tiene la información y no 
+suelda ambas cosas.
+[Diego A.] V1.1: Se cambió el "value" a 0R-DNP
+
+* Cambiar el capacitor C1201 por el CL10B104KB8SFNC (1276-1936-1-ND) de 50 V, 
+ya que la tensión en ese punto es de 24 V.
+[Diego A.] V1.1: Se puso el mismo que en C1105.
+
+* Cambiar el part number del FB1303 por el MMZ1608B601C que es de 500 mA, 200 mA
+es poco.
+[Diego A.] V1.1: Se puso el mismo que en FB502.
+
+* Cambiar el part number del FB1304 por el BLM18KG221SN1D (2200 mA) ya que si 
+se alimenta la placa por USB Debug toda la corriente pasará por este ferrite.
+[Diego A.] V1.1: Se puso el mismo que en FB501.
+
+* Cambiar FB301, FB302, FB303 y FB304 por el BLM18KG221SN1D que se usa en USB 
+OTG VBUS para disminuir la cantidad de ferrites diferentes. 
+[Diego A.] V1.1: Ok.
+
+* Cambiar los valores de R203 y R1302 por un resistor de 100 ohm 5%.
+[Diego A.] V1.1: Ok.
+
+### Modificaciones en el PCB  ###
+
+* Reubicar los conectores laterales (RJ45, DB9 y micro USB) para que coincidan
+con las posiciones de los componentes de la CIAA-NXP. Si no se realiza esta 
+modificación, no es posible utilizar el mismo diseño de gabinete en ambas 
+versiones.
+[Noelia] Queda pendiente para la próxima versión?
+

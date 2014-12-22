@@ -29,7 +29,11 @@ porcentaje de resina y la frecuencia de trabajo, se obtiene la permitividad
 aproximada a usar en los cálculos de impedancia. Ver la hoja de datos del 
 material en datasheets/laminates_prepregs/Isola_Duraver_E104ML_Multilayer.pdf.
 El prepreg a utilizar es el 2 x 7628AT05, con un espesor de 0,173 mm y un 
-contenido de resina del 47 %.        
+contenido de resina del 47 %.   
+* La máscara antisoldante utilizada es la Lackwerke Peters SD 2467 SM-YG. Pero
+debido a las limitaciones de la calculadora de Kicad no pudo incorporarse 
+la información de la máscara antisoldante (permitividad y espesor) en los 
+cálculos de impedancia característica.      
   
 
 ## Cálculo de las líneas diferenciales USB ##

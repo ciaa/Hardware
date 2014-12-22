@@ -1,0 +1,44 @@
+### Module positions - created on mar 28 oct 2014 14:19:14 ART ###
+### Printed by Pcbnew version pcbnew (2013-dec-23)-stable
+## Unit = inches, Angle = deg.
+## Side : TOP
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+C231     10uF             c_1206POL           3.0850    -2.2500     270.0    BOT
+C303     10uF             c_1206POL           2.4300    -2.4900     270.0    BOT
+C308     22uF             c_1206POL           1.5200    -2.4500     270.0    BOT
+C311     22uF             c_1206POL           1.3450    -2.4650     270.0    BOT
+C313     22uF             c_1206POL           1.6300    -2.4500     270.0    BOT
+C401     10uF             c_1206POL           5.7100    -1.1050      90.0    BOT
+C405     10uF             c_1206POL           1.5300    -1.1400     270.0    BOT
+C502     4,7uF            c_1206POL           5.4500    -2.1900      90.0    BOT
+C1004    10uF             c_1206POL           4.2300    -2.1200      90.0    BOT
+C1103    10uF             c_1206POL           5.5850    -2.6000     270.0    BOT
+C1308    4,7uF            c_1206POL           5.2500    -1.5300     180.0    BOT
+C1309    4,7uF            c_1206POL           5.4500    -1.7900     270.0    BOT
+C1310    4,7uF            c_1206POL           5.7650    -1.5600      90.0    BOT
+D401     P6SMB12CAT3G     DO-214AA_SMB        5.1300    -1.0400     270.0    BOT
+D402     P6SMB12CAT3G     DO-214AA_SMB        5.2900    -1.0400     270.0    BOT
+D403     P6SMB12CAT3G     DO-214AA_SMB        4.9700    -1.0400     270.0    BOT
+D905     P6SMB20CAT3G     DO-214AA_SMB        2.8300    -1.0100      90.0    BOT
+D906     P6SMB20CAT3G     DO-214AA_SMB        2.6300    -1.0050      90.0    BOT
+D907     P6SMB20CAT3G     DO-214AA_SMB        2.4300    -1.0050      90.0    BOT
+D908     P6SMB20CAT3G     DO-214AA_SMB        2.2300    -1.0050      90.0    BOT
+D1101    MURS360          DO-214AB_SMC        5.5300    -3.3000      90.0    BOT
+D1103    MBRS130LT3G      DO-214AA_SMB        5.8550    -2.1900     270.0    BOT
+D1104    MBRS130LT3G      DO-214AA_SMB        5.8550    -1.8050     270.0    BOT
+D1107    P6SMB33CA        DO-214AA_SMB        5.2000    -3.5400     270.0    BOT
+D1109    MURS360          DO-214AB_SMC        5.5300    -3.7400      90.0    BOT
+R410     100              r_2010              4.8200    -1.0400     270.0    BOT
+R701     4,7K 1/4W        r_1206              3.2300    -0.9600     270.0    BOT
+R702     4,7K 1/4W        r_1206              3.4300    -0.9600     270.0    BOT
+R703     4,7K 1/4W        r_1206              3.6300    -0.9600     270.0    BOT
+R704     4,7K 1/4W        r_1206              3.8300    -0.9600     270.0    BOT
+R705     4,7K 1/4W        r_1206              4.0300    -0.9600     270.0    BOT
+R706     4,7K 1/4W        r_1206              4.2300    -0.9600     270.0    BOT
+R707     4,7K 1/4W        r_1206              4.4300    -0.9600     270.0    BOT
+R708     4,7K 1/4W        r_1206              4.6300    -0.9600     270.0    BOT
+U402     ST3232E          TSSOP-16            1.2950    -1.8050     270.0    BOT
+U901     MCP6024          TSSOP-14            2.1900    -1.7400     270.0    BOT
+U1102    NCP1117ST33T3G   SOT-223             5.3400    -2.6100     180.0    BOT
+U1301    74HC244          TSSOP-20            4.7950    -1.4350      90.0    BOT
+## End
