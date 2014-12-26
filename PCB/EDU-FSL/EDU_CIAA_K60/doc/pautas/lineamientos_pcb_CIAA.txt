@@ -1,0 +1,151 @@
+#Proyecto CIAA - FSL#
+Autor: INTI CMNB - Laboratorio CEA (Circuitos Electrónicos Avanzados)   
+Fecha: Mayo 2014
+
+##Lineamientos para el diseño del circuito impreso##
+Este documento resume una cantidad mínima de pautas para llevar a cabo 
+conjuntamente el diseño del circuito impreso de la CIAA - FSL. 
+
+
+###Software###
+Si se trabaja con Linux utilizar el KiCAD version 23 de Diciembre de 2013.
+Si se trabaja con Windows utilizar el Kicad version 07 de Julio de 2013. 
+
+
+###Librerías###
+* Ubicar todas las librerías de componentes dentro del mismo directorio del 
+proyecto de Kicad, por ejemplo CIAA_K60/kicadlibs. 
+* Ubicar los módulos de los componentes (footprints) en CIAA_K60/footprints.
+* Agregar los paths de las librerías de manera que sean paths relativos.
+* No utilizar librerías de tipo cache.
+* Si fuera necesario editar un componente de las librerías estándar de Kicad,
+copiarlo en una nueva librería y cambiarle el nombre.
+
+
+###Stackup###
+* Realizar el diseño en 4 capas.
+    - Top layer: Señal con plano de GND.  
+    - Inner layer 1: Señal con plano de power con +3.3VDC. En los sectores con 
+señales analógicas utilizar como referencia la tensión +3.3VADC.   
+    - Inner layer 2: Plano de GND. En los sectores con señales analógicas 
+utilizar como referencia GNDA.  
+    - Bottom layer: Señal con plano de GND.
+* Importante: No realizar cambios de planos de referencia en las zonas con 
+señales USB y Ethernet.
+* Stackup informado por Ernesto Mayer:
+    - Top layer: 1 oz (0,035 mm)
+    - Prepreg 1: 15,75 mils (0,4 mm)
+    - Inner layer 1: 1 oz (0,035 mm)
+    - Laminate: 31,5  mils (0,8 mm)
+    - Inner layer 2: 1 oz (0,035 mm)
+    - Prepreg 2: 15,75 mils (0,4 mm)
+    - Bottom layer: 1 oz (0,035 mm)
+* El material a utilizar en la CIAA-FSL, informado por Ernesto Mayer, es del 
+fabricante Isola, con el código DURAVER-E-Cu quality 104 ML.    
+* Stackup informado por Dai-ichi:
+    - Top layer: 1 oz (0.035 mm)
+    - Prepreg 1: 10,7 mils (0,272 mm)
+    - Inner layer 1: 1 oz (0,035 mm)
+    - Laminate: 39,3 mils (1 mm)
+    - Inner layer 2: 1 oz (0,035 mm)
+    - Prepreg 2: 10,7 mils (0,272 mm)
+    - Bottom layer: 1 oz (0,035 mm)
+
+###Definición del borde de la placa###
+* Utilizar una grilla de 50 mils (si es posible) y un track de 20 mils. 
+* Ubicar el borde inferior izquierdo de la placa en el origen.
+* Si es posible dejar al menos 120 mils de distancia entre el borde de la placa 
+y los componentes. 
+* Dejar al menos 20 mils de distancia entre el cobre y el borde. 
+* Agregar las dimensiones del pcb en el layer Drawings User.
+
+
+###Creación de footprints###
+* La norma IPC-7351 (Pag. 12) define tres niveles de densidad en base a la 
+cantidad de componentes del circuito impreso y el espacio disponible entre 
+componentes. Estos niveles son most (low density), nominal (medium density) y 
+least (high density).
+Si la CIAA correspondiera al nivel de densidad nominal (confirmar), utilizar
+como referencia los footprints IPC identificados con la letra N. Esta pauta es
+útil solamente si el creador de los footprints utiliza la herramienta IPC LP 
+Wizard para generar o verificar las librerías de módulos.         
+* Máscara de componentes/Serigrafía: Ubicar las marcas de polaridad y el 
+contorno del componente de modo que queden visibles aún luego de soldar el 
+componente. 
+No superponer las líneas de la máscara sobre los pads para evitar posteriores 
+problemas de soldadura. Si bien algunos fabricantes pueden recortar estas líneas,
+no es buena práctica invadir los pads. El contorno del componente puede hacerse
+más pequeño al real, más grande o con líneas interrumpidas.
+La norma IPC-7351C define tres anchos de línea para la máscara de componentes, 
+4 mils, 5 mils y 6 mils.  En los tres casos, las distancias máscara - pad son 
+iguales al ancho de la línea. Se sugiere utilizar 5 mils. 
+* Para los textos value y reference utilizar los siguientes parámetros:  
+    - Ancho  (Size X) = 30 mils  
+    - Altura (Size Y) = 30 mils  
+    - Grosor de la serigrafía (Thickness) = 5 mils  
+* En zonas con una densidad muy alta de componentes o vías, utilizar:  
+    - Ancho  (Size X) = 18 mils  
+    - Altura (Size Y) = 28 mils  
+    - Grosor de la serigrafía (Thickness) = 5 mils  
+* Origen del componente: Colocar el origen del componente en el centro del 
+mismo, para facilitar el armado con pick and place. En los conectores THT 
+colocar el origen en el pin 1.
+
+
+###Ubicación de componentes###
+* Ubicar los componentes en una grilla no menor a 50 mils dentro de lo posible.
+* Bloquear los componentes que no deben moverse debido a que su ubicación está
+determinada por el gabinete u otro elemento. 
+* Si la placa tiene componentes en el bottom layer y se desea compatibilidad
+con soldadura por ola, se deben orientar los componentes de manera de que
+ningún componente le haga "sombra" a otro. Considerar que algunos componentes
+pueden dañarse al ser soldados por ola, consultar las hojas de datos.
+ 
+
+###Reglas de diseño confirmadas por Ernesto Mayer###
+* Default Clearence = 8 mils (podría reducirse a 7 mils si fuera necesario)
+* Default Track Width = 10 mils (podría reducirse a 8 mils si fuera necesario)
+* Default Via Diameter = 32 mils
+* Default Via Drill = 16 mils
+* Definir Net Classes cuando sea necesario, por ejemplo para las líneas 
+diferenciales USB o Ethernet.
+* Planos de GND/VCC:
+    - Clearence: 10 mils
+    - Minimum width: 10 mils
+    - Pad connection: Thermal relief
+    - Fill mode: Polygon
+    - Outline style: Hatched
+    - Outline slope: H, V, 45º only
+* Nota: En la CIAA-NXP se utilizaron vías de 25/10 mils, pero se recomienda
+utilizarlas sólo si fuera estrictamente necesario y únicamente en los sectores 
+más críticos del PCB ya que pueden encarecer y complicar la fabricación.
+* Solder Mask Clearence: Los fabricantes piden 4 mils pero en el caso de QFP
+fine pitch es deseable tener 2 mils.
+* Solder Paste Clearence: Utilizar -1 mils para evitar exceso de pasta en los 
+pads. 
+
+ 
+
+###Trazado de pistas###
+* Trazar las pistas justo hasta el centro del pad.
+* El ingreso de las pistas a los pads cuadrados o rectangulares debe ser a 90º
+para evitar que se acumule ácido durante el proceso de etching.
+
+
+###Terminación###
+* Agregar en el top layer al menos dos puntos fiduciales de 1 mm de diámetro y 
+3 mm de clearence con el plano de GND. Colocarlos también el bottom layer en el 
+caso de tener componentes en ambas caras del impreso. 
+* Agregar test points en las señales que sea necesario.
+* Agrandar los textos de los conectores y componentes importantes:  
+    - Ancho  (Size X) = 60 mils  
+    - Altura (Size Y) = 60 mils  
+    - Grosor de la serigrafía (Thickness) = 12 mils  
+* Agregar si hay espacio: tablas de booteo, tablas de jumpers o información de 
+dip switchs. 
+* Tenting vías: Generar los gerbers con las vías cubiertas con máscara 
+antisoldante. En la pantalla File -> Plot dejar destildada la opción "Do not tent 
+vias".  
+* Agregar la información del stack up con los espesores de los materiales.
+* Agregar dimensiones de la placa.
+ 

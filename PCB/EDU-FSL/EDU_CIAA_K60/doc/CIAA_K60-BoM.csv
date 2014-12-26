@@ -1,0 +1,131 @@
+CIAA - PCB
+CEIBO 1.1
+CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión FSL Freescale K60
+Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'
+Fecha de Generación: 22/12/2014-11:59:09
+
+REF;VALUE;CANT;DESC;PN-DIGI-KEY;FAB;FOOT;DATA;URL
+BT1101;CR2032;1;HOLDER BATTERY FOR 2032 CELL;BH32T-C-ND;MPD;2032batPTH;../datasheets/connectors/BH32T-C.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=BH32T-C-ND
+C201, C205, C206, C209, C210, C213, C214, C217, C218, C221, C223, C224, C227, C230, C302, C304, C305, C306, C307, C310, C312, C314, C315, C317, C402, C403, C404, C406, C407, C408, C409, C410, C501, C503, C801, C802, C803, C804, C910, C911, C912, C913, C914, C1001, C1002, C1003, C1005, C1104, C1106, C1301, C1302, C1305, C1306, C1307, C1311, C1312, C1313, C1314, C1315, C1316, C1317, C1318, C1319;100nF;63;CAP CER 0.1UF 16V 10% X7R 0603;399-1096-1-ND;Kemet;c_0603;../datasheets/passive/Capacitores/KEM_C1002_X7R_SMD.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=399-1096-1-ND
+C203;2.2uF;1;CAP CER 2.2UF 10V 10% X7R 0603;587-2983-1-ND;Taiyo Yuden;c_0603; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=587-2983-1-ND
+C204, C207;18pF;2;CAP CER 18PF 50V 5% NP0 0603;399-1052-1-ND;Kemet;c_0603; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=399-1052-1-ND
+C208, C212, C301, C1202;10nF;4;CAP CER 10000PF 50V 10% X7R 0603;399-1091-1-ND;Kemet;c_0603; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=399-1091-1-ND
+C231, C303, C401, C405, C909, C1004, C1103;10uF;7;CAP TANT 10UF 6.3V 10% 1206;399-10116-1-ND;Kemet;c_1206POL;../datasheets/passive/Capacitores/KEM_TC111_SPACE.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=399-10116-1-ND
+C308, C311, C313, C316;22uF;4;CAP TANT 22UF 6.3V 10% 1206;399-8279-1-ND;Kemet;c_1206POL; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=399-8279-1-ND
+C309;100pF;1;CAP CER 100PF 50V 10% X7R 0603;399-7824-1-ND;Kemet;c_0603; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=399-7824-1-ND
+C502, C1303, C1308, C1309, C1310;4,7uF;5;CAP TANT 4,7uF 6,3V 10% 1206 ;399-9717-1-ND;KEMET;c_1206POL; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=399-9717-1-ND
+C701, C702, C703, C704, C705, C706, C707, C708;1,5nF;8;CAP CER 1500PF 50V 10% X7R 0603;399-1084-1-ND;Kemet;c_0603; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=399-1084-1-ND
+C805, C806, C807, C808;1uF;4;CAP CER 1UF 16V 10% X7R 0603;399-7847-1-ND;Kemet;c_0603; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=399-7847-1-ND
+C901, C902, C903, C904;1nF;4;CAP CER 1000PF 50V 10% X7R 0603;399-1082-1-ND;Kemet;c_0603; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=399-1082-1-ND
+C905, C906, C907, C908;470pF;4;CAP CER 470PF 50V 10% X7R 0603;399-1075-1-ND;Kemet;c_0603; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=399-1075-1-ND
+C1101;470uF;1;CAP ALUM 470UF 35V 20% SMD;493-3961-1-ND;Nichicon;c_elec_10x13_5; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=493-3961-1-ND
+C1102;330uF;1;CAP ALUM 330UF 25V 20% SMD;493-9422-1-ND;Nichicon;c_elec_8x10; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=493-9422-1-ND
+C1105, C1201;100nF;2;CAP CER 0.1UF 50V 10% X7R 0603;1276-1936-1-ND;Samsung;c_0603; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=1276-1936-1-ND
+D201, D301, D302, D801, D803, D805, D807;LL4148;7;DIODE SMALL SIG 100V 0.2A SOD80;LL4148FSCT-ND;Fairchild;SOD-123;../datasheets/passive/diode/LL4148.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=LL4148FSCT-ND
+D202, D1001;ST1, SD CARD;2;LED GRN WATER CLEAR 0603 SMD;1080-1399-1-ND;Everlight Electronics Co Ltd;LED-0603;../datasheets/passive/diode/ds300084.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=1080-1399-1-ND
+D203, D701, D702, D703, D704, D705, D706, D707, D708, D802, D804, D806, D808, D809, D810, D811, D812, D1105;ST2, LED red, LED +5V;18;LED ALG RED WTR CLR 0603 SMD;1080-1400-1-ND;Everlight Electronics Co Ltd;LED-0603;../datasheets/passive/ds300084.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=1080-1400-1-ND
+D401, D402, D403;P6SMB12CAT3G;3;TVS DIODE 10.2VWM 16.7VC SMB;P6SMB12CAT3GOSCT-ND;ON Semiconductor;DO-214AA_SMB;../datasheet/passive/diode/psd12c.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=P6SMB12CAT3GOSCT-ND
+D404;PESD1CAN;1;TVS DIODE 24VWM 70VC SOT23;568-4032-1-ND;NXP Semiconductors;SOT-23;../datasheet/passive/diode/PESD1CAN.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=568-4032-1-ND
+D501;SMAJ5.0A;1;TVS DIODE 5VWM SMD;SMAJ5.0ABCT-ND;Bourns Inc.;DO-214AC_SMA;../datasheets/passive/protect/SMAJ.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=SMAJ5.0ABCT-ND
+D601, D602, D603, D604, D605, D606, D607, D609, D611, D612, D614, D615, D616, D617, D618, D619, D620, D621, D622, D624, D626, D627, D629, D630, D631, D632, D901, D902, D903, D904, D1201, D1202;BAV199;32;DIODE ARRAY 70V 215MA SOT23;BAV199LT1GOSCT-ND;ON Semiconductor;SOT-23;../datasheets/passive/protect/BAV199LT1-D.PDF;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=BAV199LT1GOSCT-ND
+D905, D906, D907, D908;P6SMB20CAT3G;4;TVS DIODE 17.1VWM 27.7VC SMB;P6SMB20CAT3GOSCT-ND;ON Semiconductor;DO-214AA_SMB;../ datasheets/passive/protect/P6SMB_Series.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=P6SMB20CAT3GOSCT-ND
+D1101, D1109;MURS360;2;DIODE ULTRAFAST 600V 3A SMC;MURS360T3GOSCT-ND;ON Semiconductor;DO-214AB_SMC;../datasheet/passive/diode/MURS320T3-D.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=MURS360T3GOSCT-ND
+D1102;MBRS540T3G;1;DIODE SCHOTTKY 40V 5A SMC;MBRS540T3GOSCT-ND;ON Semiconductor;DO-214AB_SMC;../datasheets/passive/diode/MBRS540T3-D.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=MBRS540T3GOSCT-ND
+D1103, D1104;MBRS130LT3G;2;DIODE SCHOTTKY 30V 2A SMB;MBRS130LT3GOSCT-ND;ON Semiconductor;DO-214AA_SMB;../datasheets/passive/diode/MBRS130LT3-D.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=MBRS130LT3GOSCT-ND
+D1106;MMSZ5V6T1G;1;DIODE ZENER 5.6V 500MW SOD123;MMSZ5V6T1GOSCT-ND;ON Semiconductor;SOD-123;../datasheets/passive/diode/MMSZ2V4T1-D.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=MMSZ5V6T1GOSCT-ND
+D1107;P6SMB33CA;1;TVS DIODE 28.2VWM 45.7VC SMB;P6SMB33CA-E3/52GICT-ND;Vishay Semiconductor Diodes Division;DO-214AA_SMB;../datasheets/passive/protect/P6SMB_Series.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=P6SMB33CA-E3/52GICT-ND
+D1108;BAT54C;1;DIODE SCHOTTKY 30V 200MA;BAT54FSCT-ND;Fairchild Semiconductor;SOT-23; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=BAT54FSCT-ND
+FB201, FB202;ACML0603101;2;FERRITE CHIP 100 OHM 200MA 0603;ACML-0603-101-TCT-ND;Abracon Corporation;fb_0603;../datasheets/passive/Ferrite/ACML-0603.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=ACML-0603-101-TCT-ND
+FB301, FB302, FB303, FB304, FB501, FB1304;BLM18KG221SN1D;6;FERRITE CHIP 220 OHM 2200MA 0603;490-5255-1-ND;MURATA;fb_0603;../datasheets/passive/Ferrite/L0110S0100BLM18K.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=490-5255-1-ND
+FB402, FB403, FB404, FB405;BLM18BD470SN1;4;FERRITE CHIP 47 OHM 500MA 0603;490-5211-1-ND;Murata Electronics North America;fb_0603;../datasheet/passive/Ferrite/L0110S0100BLM18B.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=490-5211-1-ND
+FB502, FB901, FB902, FB903, FB904, FB1101, FB1102, FB1201, FB1301, FB1302, FB1303;MMZ1608B601C;11;FERRITE CHIP 600 OHM 500MA 0603;445-2166-1-ND;TDK Corporation;fb_0603;../datasheets/passive/Ferrite/E9412_MMZ.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=445-2166-1-ND
+J301;ETHERNET;1;CONN MAGJACK 1PORT 100 BASE-TX;553-1483-ND;Pulse;RJ45_Pulse_J403-A;../datasheets/connectors/J0011D01BNL.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=553-1483-ND
+J401, J403, J701, J702, J703, J803, J804, J805, J901, J1101;RS485, CAN, DIG_INA, DIG_INB, DIG_INC, RELAY_OUTD, RELAY_OUTB, ANALOG INPUT 1, DC-INPUT;10;TERM BLOCK 5.08MM VERT 3POS PCB;571-7969493;TE Connectivity;bornier3;../datasheets/connectors/bornera_796949.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=571-7969493
+J402;DB9;1;CONN D-SUB RCPT 9POS RA GOLD;S9554-ND;Sullins;DB9_F_TH;../datasheets/connectors/SDS107-PRP1-F09-SN63-11.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=S9554-ND
+J502;USB OTG;1;CONNECTOR RECEPTACLE MICRO USB AB SMD BOTTOM MOUNT;H11635TR-ND;HIROSE ELECTRIC;USB_MicroAB;../datasheets/connectors/MICRO_USB_AB.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=H11635TR-ND
+J601;GPIO;1;CONN HEADER .100" DUAL STR 80POS;J601;Sullins Connector Solutions;PIN_ARRAY_11x2; 
+J602;I2C;1;CONN HEADER .100" DUAL STR 80POS;J602;Sullins Connector Solutions;PIN_ARRAY_2x2; 
+J603;ANALOG AUX;1;CONN HEADER .100" DUAL STR 80POS;J603;Sullins Connector Solutions;PIN_ARRAY_4x2; 
+J604;SPI;1;CONN HEADER .100" DUAL STR 80POS;J604;Sullins Connector Solutions;PIN_ARRAY_3x2; 
+J801, J802, J902, J1102, J1201;OPDRAIN_OUTA, OPDRAIN_OUTB, ANALOG INPUT 2, DC-OUT, ANALOG OUT;5;TERM BLOCK 5.08MM VERT 2POS PCB;571-7969492;TE Connectivity;bornier2;../datasheets/connectors/bornera_796949_2p.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=571-7969492
+J1001;SD CARD;1;CONN MEMORY CARD R/A 8POS SMD;WM6698CT-ND;Molex Inc.;MicroSD_Hinged;../datasheets/connectors/472192001_sd.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=WM6698CT-ND
+J1302;JTAG DEBUG USB;1;CONNECTOR RECEPTACLE MICRO USB B SMD;H11634CT-ND;HIROSE ELECTRIC;USB_MicroAB;../datasheets/connectors/MICRO_USB_AB.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=H11634CT-ND
+J1303;JTAG DIRECTO;1;CONECTOR HDR 1,27MM SMD AU 10POS;952-1389-ND;HARWIN;PIN_ARRAY_5x2_1.27_SMD;../datasheets/connectors/M50360.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=952-1389-ND
+JP901, JP902, JP903, JP904, JP401, JP402, JP403, JP404, JP405, JP406;JUMPER;10;JUMPER 2 TERM;JP901, JP902, JP903, JP904, JP401, JP402, JP403, JP404, JP405, JP406;Sullins Connector Solutions;PIN_ARRAY_2x1;../datasheet/connectors/
+JP905, JP906, JP907, JP908, JP1201;JUMPER3;5;JUMPER 3 TERM;JP905, JP906, JP907, JP908, JP1201;Sullins Connector Solutions;PIN_ARRAY_3x1; 
+K801, K802, K803, K804;1461353-2;4;RELAY GENERAL PURPOSE SPST 5A 5V;PB1652-ND;TE Connectivity;1461353-2;../datasheets/passive/Rele/1461353-2.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=PB1652-ND
+L1101;47uH;1;INDUCTOR POWER SHIELD 47UH SMD;SRN1060-470MCT-ND;Bourns Inc.;L_10x9.8_SMD; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=SRN1060-470MCT-ND
+Q801, Q802, Q803, Q804;NDS7002A;4;MOSFET N-CH 60V 280MA SOT-23;NDS7002ACT-ND;Fairchild;SOT-23;../datasheets/device/NDS7002A.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=NDS7002ACT-ND
+Q805, Q806, Q807, Q808;FQT13N06L;4;MOSFET N-CH 60V 2.8A SOT-223;FQT13N06LTFCT-ND;Fairchild;SOT-223;../datasheets/device/FQT13N06L.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=FQT13N06LTFCT-ND
+Q1001;FDN340P;1;MOSFET P-CH 20V 2A SSOT3;FDN340PCT-ND;ON Semiconductor;SOT-23;../datasheets/device/FDN340P.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=FDN340PCT-ND
+Q1201;BC817-40;1;TRANS NPN 45V 500MA SOT-23;BC817-40LT3GOSCT-ND;ON Semiconductor;SOT-23;../datasheets/device/BC817-16LT1-D.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=BC817-40LT3GOSCT-ND
+Q1202;PBSS5240XF;1;TRANS PNP 40V 2A SOT89;568-10522-1-ND;NXP Semiconductors;SOT-89;../datasheets/device/PBSS5240X.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=568-10522-1-ND
+R201, R202, R1204, R1312;2K2, 2.2k;4;RES 2.2K OHM 1/10W 5% 0603 SMD;311-2.2KGRCT-ND;Yageo;r_0603; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=311-2.2KGRCT-ND
+R203, R921, R922, R923, R924, R1302;100;6;RES 100 OHM 1/10W 5% 0603 SMD;311-100GRCT-ND;YAGEO;r_0603; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=311-100GRCT-ND
+R204, R207, R1016;680;3;RES 680 OHM 1/10W 5% 0603 SMD;311-680GRCT-ND;Yageo;r_0603; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=311-680GRCT-ND
+R205;22;1;RES 22 OHM 1/10W 5%;311-22GRCT-ND;Yageo;r_0603; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=311-22GRCT-ND
+R206, R301, R501, R502, R601, R602, R603, R604, R1008, R1010, R1011, R1012, R1013, R1015, R1206, R1301, R1309, R1310, R1311;10K;19;RESISTOR 10k 1/10W 5% 0603 ;311-10KGRCT-ND;Yageo;r_0603; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=311-10KGRCT-ND
+R302, R303, R304, R305, R307, R308;33;6;RES 33 OHM 1/10W 5% 0603 SMD;CR0603-JW-330GLFCT-ND;Bourns Inc.;r_0603; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=CR0603-JW-330GLFCT-ND
+R306, R316, R401, R402, R403, R409, R810, R811, R812, R813;4K7;10;RES 4.7K OHM 1/10W 5% 0603 SMD;311-4.7KGRCT-ND;Yageo;r_0603;../datasheet/passive/;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=311-4.7KGRCT-ND
+R309;6,49k 1%;1;RES 6,49K OHM 1/10W 1% 0603 SMD;311-6.49KHRCT-ND;Yageo;r_0603; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=311-6.49KHRCT-ND
+R310, R311, R312, R313;49,9 1%;4;RES 49,9 OHM 1/10W 1% 0603 SMD;311-49.9HRCT-ND;Yageo;r_0603; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=311-49.9HRCT-ND
+R314, R315, R411;270, 270R;3;RES 270 OHM 1/10W 5% 0603 SMD;311-270GRCT-ND;Yageo;r_0603;../datasheet/passive/;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=311-270GRCT-ND
+R317;1M;1;RES 1.0M OHM 1/10W 5% 0603 SMD;311-1.0MGRCT-ND;Yageo;r_0603; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=311-1.0MGRCT-ND
+R406, R408;390;2;RES 390 OHM 1/10W 5% 0603 SMD;311-390GRCT-ND;Yageo;r_0603;../datasheet/passive/;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=311-390GRCT-ND
+R407;220;1;RES 220 OHM 1/10W 5% 0603 SMD;311-220GRCT-ND;Yageo;r_0603;../datasheet/passive/;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=311-220GRCT-ND
+R410;100;1;RES 100 OHM 1/2W 5% 2010 SMD;CR2010-JW-101ELFCT-ND;Bourns Inc.;r_2010;../datasheet/passive/;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=CR2010-JW-101ELFCT-ND
+R413, R414;1K5;2;RES 1.5K OHM 1/10W 5% 0603 SMD;311-1.5KGRCT-ND;Yageo;r_0603;../datasheet/passive/;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=311-1.5KGRCT-ND
+R415, R416;60 1%;2;RES 59.0 OHM 1/10W 1% 0603 SMD;311-59.0HRCT-ND;Yageo;r_0603;../datasheet/passive/;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=311-59.0HRCT-ND
+R701, R702, R703, R704, R705, R706, R707, R708;4,7K 1/4W;8;RES 4.7K OHM 1/4W 5% 1206 SMD;311-4.7KERCT-ND;Yageo;r_1206; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=311-4.7KERCT-ND
+R709, R710, R711, R712, R713, R714, R715, R716, R801, R802, R803, R807, R809, R814, R815, R816, R1101, R1304;1K;18;RES 1.0K OHM 1/10W 5% 0603 SMD;311-1.0KGRCT-ND;Yageo;r_0603; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=311-1.0KGRCT-ND
+R717, R718, R719, R720, R721, R722, R723, R724;33K;8;RES 33K OHM 1/10W 5% 0603 SMD;311-33KGRCT-ND;Yageo;r_0603; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=311-33KGRCT-ND
+R804, R805, R806, R808;100k;4;RES 100K OHM 1/10W 5% 0603 SMD;311-100KGRCT-ND;Yageo;r_0603; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=311-100KGRCT-ND
+R817, R818, R819, R820, R1001, R1002, R1003, R1004, R1005, R1006, R1007, R1014;0R-DNP;12;RES 0.0 OHM 1/10W JUMP 0603 SMD;311-0.0GRCT-ND;Yageo;r_0603; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=311-0.0GRCT-ND
+R901, R902, R903, R904;4.7;4;RES 4.7 OHM 1/10W 5% 0603 SMD;311-4.7GRCT-ND;Yageo;r_0603; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=311-4.7GRCT-ND
+R905, R906, R907, R908;237;4;RES 237 OHM 1/10W .1% 0603 SMD;P237DBCT-ND;Panasonic Electronic Components;r_0603; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=P237DBCT-ND
+R909, R910, R911, R912, R913, R914, R915, R916, R917, R918, R919, R920, R1201;15k;13;RES 15.0K OHM 1/10W .1% 0603 SMD;RG16P15.0KBCT-ND;Susumu;r_0603; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RG16P15.0KBCT-ND
+R1009;750k;1;RES 750K OHM 1/10W 5% 0603 SMD;311-750KGRCT-ND;Yageo;r_0603; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=311-750KGRCT-ND
+R1202;33k;1;RES 33.0K OHM 1/10W .1% 0603 SMD;RG16P33.0KBCT-ND;Susumu;r_0603; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RG16P33.0KBCT-ND
+R1203;2.49k;1;RES 2.49K OHM 1/10W .1% 0603 SMD;RG16P2.49KBCT-ND;Susumu;r_0603; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RG16P2.49KBCT-ND
+R1205;24.9;1;RES 24.9 OHM 1/10W .1% SMD 0603;RT0603BRD0724R9L-ND;Yageo;r_0603; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RT0603BRD0724R9L-ND
+R1303;12K 1%;1;RES 12.0K OHM 1/10W 1% 0603 SMD;311-12.0KHRCT-ND;Yageo;r_0603; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=311-12.0KHRCT-ND
+SW201;RESET;1;SWITCH TACTILE SPST-NO 0.05A 12V;2-1437565-9;TE Connectivity;TACT_SMD_4; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=2-1437565-9
+TH401, TH402;USMF020;2;FUSE RESETTABLE .20A 30V HLD SMD;MF-USMF020-2CT-ND;Bourns Inc.;ptc_1210;../datasheet/passive/protect/mfusmf.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=MF-USMF020-2CT-ND
+TH601;MF-USMF035-2;1;FUSE RESETTABLE .35A HOLD SMD;MF-USMF035-2CT-ND;Bourns Inc.;ptc_1210;../datasheets/passive/protect/mfusmf.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=MF-USMF035-2CT-ND
+TH603;MF-USMF110-2;1;FUSE RESETTABLE 1.10A 6V HLD SMD;MF-USMF110-2CT-ND;Bourns Inc.;ptc_1210;../datasheets/passive/protect/mfusmf.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=MF-USMF110-2CT-ND
+TH605, TH801, TH802, TH803, TH804, TH1102;1812L110/33MR;6;PTC RESETTABLE 33V 1.10A 1812L;F3486CT-ND;Littelfuse Inc;ptc_1812;../datasheets/passive/protect/Littelfuse_ptc_1812L.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=F3486CT-ND
+TH1101;MF-SM300;1;FUSE RESETTABLE 3.0A HOLD SMD;MF-SM300-2CT-ND;Bourns Inc.;MF-SM300;../datasheet/passive/protect/mfsm.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=MF-SM300-2CT-ND
+TH1201;MF-USMF005-2;1;FUSE RESETTABLE .05A 30V HLD SMD;MF-USMF005-2CT-ND;Bourns Inc.;ptc_1210; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=MF-USMF005-2CT-ND
+TR501, TR1301;SRF2012;2;INDUCTOR COMMON MODE 90 OHM SMD;SRF2012-900YCT-ND;BOURNS;SRF2012;../datasheets/passive/inductor/SFR2012.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=SRF2012-900YCT-ND
+U201;MK60FX512VLQ15;1;MCU ARM 512KB FLASH;MK60FX512VLQ15-ND;Freescale Semiconductor;LQFP144;../datasheets/K60/K60P144M150SF3RM.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=MK60FX512VLQ15-ND
+U202, U1305;SI501;2;OSC MEMS 12.000MHZ CMOS SMD;336-2889-ND;Silicon Laboratories;SI501_C;../datasheets/ic/Si501.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=336-2889-ND
+U301;FXO-HC735-25;1;HCMOS 7 x 5mm 3.3V Oscillator;631-1055-1-ND;Fox Electronics;FXODFN4;../datasheets/ic/FXO_HC73.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=631-1055-1-ND
+U302;KSZ8041TLI;1;Ethernet 10/100 PHY W/AUTO MDIX;576-2971-5-ND;Micrel;TQFP48;../datasheets/ic/KSZ8041TL.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=576-2971-5-ND
+U303;NB2304AI2DG;1;3.3 V Zero Delay Clock Buffer;NB2304AI2DGOS-ND;ON Semi;SOIC-8;../datasheets/ic/NB2304A-D.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=NB2304AI2DGOS-ND
+U401;SP1486EEN-L;1;IC TXRX RS485/422 PROFIBUS 8SOIC;1016-1003-5-ND;Exar Corporation;SOIC-8;../datasheets/ic/SP1486EEN-L.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=1016-1003-5-ND
+U402;ST3232E;1;IC DRVR/RCVR RS232 ESD 16-TSSOP;497-6538-1-ND;STMicroelectronics;TSSOP-16;../datasheets/ic/st3232ebec.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=497-6538-1-ND
+U403;AMIS42665TJAA1RG;1;TRANSCEIVER CAN HS LO PWR 8-SOIC;766-1006-1-ND;ON Semiconductor;SOIC-8;../datasheets/ic/AMIS-42665-D.PDF;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=766-1006-1-ND
+U501;MIC2025-2YM;1;IC SINGLE CHANNEL POWER DISTRIBUTION SWITCH 500mA;576-1058-ND;MICREL;SOIC-8;../datasheets/ic/mic2025.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=576-1058-ND
+U502;PRTR5V0U2X;1;IC TVS DIODE 2 CHANNEL 10V CLAMP SOT1434;CM1213A-02SROSCT-ND;ON SEMICONDUCTOR;SOT-143-4;../datasheets/passive/protect/CM1213A-D.PDF;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=CM1213A-02SROSCT-ND
+U701, U702;TLP290-4;2;OPTOISOLTR 2.5KV 4CH TRANS 16-SO;TLP290-4(TPETR-ND;Toshiba Semiconductor and Storage;SSOP-16;../datasheets/ic/TLP290-4.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=TLP290-4(TPETR-ND
+U801, U802, U803, U804;MCP1416T;4;IC MOSFET DVR 1.5A HS SOT23-5;MCP1416T-E/OTCT-ND;Microchip;SOT-23-5;../datasheets/ic/MCP1415.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=MCP1416T-E/OTCT-ND
+U901;MCP6024;1;IC OPAMP GP 10MHZ RRO 14TSSOP;MCP6024-I/ST-ND;Microchip Technology;TSSOP-14;../datasheets/ic/MCP6024.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=MCP6024-I/ST-ND
+U1001;S25FL032P0XMFI013;1;IC NOR FLASH 32MBIT 104MHZ;S25FL032P0XMFI013-ND;Spansion Inc.;SOIC-8_WIDE;../datasheets/ic/S25FL032P.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=S25FL032P0XMFI013-ND
+U1002;24AA1025;1;IC EEPROM 1MBIT 400KHZ 8SOIC;24AA1025-I/SN-ND;Microchip Technology;SOIC-8;../datasheets/ic/20001941L.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=24AA1025-I/SN-ND
+U1003;24AA025E48;1;IC EEPROM 2KBIT 400KHZ 8SOIC;24AA025E48-I/SN-ND;Microchip Technology;SOIC-8;../datasheets/ic/20002124E.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=24AA025E48-I/SN-ND
+U1101;LM2596-5.0;1;IC REG BUCK 5V 3A TO263-5;LM2596SX-5.0/NOPBCT-ND;Texas Instruments;LM2596;../datasheets/ic/lm2596.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=LM2596SX-5.0/NOPBCT-ND
+U1102;NCP1117ST33T3G;1;IC REG LDO 3.3V 1A SOT223;NCP1117ST33T3GOSCT-ND;ON Semiconductor;SOT-223;../datasheets/ic/NCP1117-D.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=NCP1117ST33T3GOSCT-ND
+U1201;LM358DG;1;IC OPAMP GP 1MHZ 8SOIC;LM358DGOS-ND;ON Semiconductor;SOIC-8;../datahseets/ic/lm358.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=LM358DGOS-ND
+U1301;74HC244;1;IC BUFF/DVR TRI-ST DUAL 20TSSOP;568-8285-5-ND;NXP;TSSOP-20;../datasheets/ic/74HC244.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=568-8285-5-ND
+U1302;FT2232H;1;IC FT2232H DUAL HIGH SPEED USB TO MULTIPURPOSE UART/FIFO;768-1024-1-ND;FTDI CHIP;TQFP64;../datasheet/ic/DS_FT2232H.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=768-1024-1-ND
+U1303;93C56;1;IC EEPROM 1KBIT 2MHZ 8SOIC;AT93C46DN-SH-B-ND;ATMEL;SOIC-8;../datasheets/ic/EEPROM_93C56.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=AT93C46DN-SH-B-ND
+U1304;PRTR5V0U2X;1;IC TVS DIODE 2 CHANNEL 10V CLAMP SOT1434;568-4140-1-ND;NXP;SOT-143-4;../datasheets/passive/protect/PRTR5V0U2X.pdf;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=568-4140-1-ND
+X202;32.768KHZ;1;CRYSTAL 32.768KHZ 12.5PF;535-9166-1-ND;Abracon Corporation;4SOJ; ;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=535-9166-1-ND
+
+Elementos sin Part Number
+F1, F2, F3, F4, F5, F6;FIDUCIAL;6;FIDUCIAL; ; ;Fiducial_1mm; ;
+G101;OSHWA;1;LOGO DE OPEN SOURCE HARDWARE; ; ;OSHWA; ;
+G102;LOGO_CIAA;1;LOGO CIAA; ; ;LOGO-CIAA; ;
+H1, H2, H3, H4;PCB_HOLE;4;PCB HOLE; ; ;PCB_HOLE; ;
+TP1101, TP1102;TESTPOINT_PDN;2; ; ; ;TESTPOINT_PDN; ;
+

@@ -1,0 +1,137 @@
+# Proyecto CIAA - FSL: Cálculo de impedancias #
+Autor: INTI CMNB - Laboratorio CEA (Circuitos Electrónicos Avanzados)   
+Fecha: Agosto 2014
+
+## Stack up del circuito impreso ##
+* El stack-up de la CIAA-FSL es el siguiente:
+    - Top layer: Señal con plano de GND.  
+    - Inner layer 1: Señal con plano de power con +3.3VDC. En los sectores con 
+señales analógicas utilizar como referencia la tensión +3.3VADC.   
+    - Inner layer 2: Plano de GND. En los sectores con señales analógicas 
+utilizar como referencia GNDA.  
+    - Bottom layer: Señal con plano de GND.
+* De acuerdo a lo informado por Ernesto Mayer S.A. http://www.mayerpcb.com, 
+la empresa que fabricará los primeros prototipos del circuito impreso, los 
+espesores de los materiales a utilizar son:
+    - L1: 1 oz (0,035 mm)
+    - PREPREG Isola 2 x 7628AT05: 0,346 mm
+    - L2: 1 oz (0,035 mm)
+    - LAMINATE Isola 4 x 7628M: 0,76 mm
+    - L3: 1 oz (0,035 mm)
+    - PREPREG Isola 2 x 7628AT05: 0,346 mm
+    - L4: 1 oz (0,035 mm)
+* El espesor final del impreso es de 1,6 mm. 
+* El material a utilizar es del fabricante Isola http://www.isola-group.com, 
+con el código DURAVER-E-Cu 
+quality 104 ML. Con los espesores indicados, se puede determinar el material 
+exacto que se utilizará y su correspondiente contenido de resina. Con el 
+porcentaje de resina y la frecuencia de trabajo, se obtiene la permitividad
+aproximada a usar en los cálculos de impedancia. Ver la hoja de datos del 
+material en datasheets/laminates_prepregs/Isola_Duraver_E104ML_Multilayer.pdf.
+El prepreg a utilizar es el 2 x 7628AT05, con un espesor de 0,173 mm y un 
+contenido de resina del 47 %.   
+* La máscara antisoldante utilizada es la Lackwerke Peters SD 2467 SM-YG. Pero
+debido a las limitaciones de la calculadora de Kicad no pudo incorporarse 
+la información de la máscara antisoldante (permitividad y espesor) en los 
+cálculos de impedancia característica.      
+  
+
+## Cálculo de las líneas diferenciales USB ##
+* Según la especificación USB, las líneas diferenciales deben tener una 
+impedancia característica diferencial de 90 ohm +/- 15 %. Para cumplir con este requerimiento, 
+debe calcularse el ancho de las pistas y la distancia entre las mismas en base
+al stackup presentado. Un software que realiza este cálculo es la herramienta 
+Transline de la calculadora del Kicad.
+* En cuanto a la frecuencia de trabajo, es necesario calcularla para buscar
+la permitividad del material en el gráfico provisto por el fabricante.
+El dato necesario es el rise time de las señales USB del MCU K60. En la página 
+130 de la especificación USB 2.0 (http://www.usb.org/developers/docs/usb20_docs/#usb20spec),
+se indica que el rise time debe estar entre 4 ns y 20 ns.  
+Considerando el mínimo posible, se calcula la frecuencia máxima que delimita el ancho de 
+banda de la señal.
+   - f (-3dB) = 0.35 / tr = 87,50 MHz
+   - Para una frecuencia de 88 MHz y un contenido de resina de 47 %, la permitividad
+aproximada es de 4,5.
+* Debido a que el par diferencial se ruteará en la capa top, se debe seleccionar 
+la línea de transmisión de tipo Coupled Microstrip Line. Los datos a ingresar son:
+    - Er = 4,5
+    - H = 0,346 mm (0,173 mm x 2)
+    - T = 0,035 mm
+    - W = Cualquier valor
+    - S = 7 mils
+    - L = 0 mm (no afecta a la Z0 de la línea)
+    - Z0e = 75 ohm
+    - Z0o = 45 ohm (90 ohm / 2)
+    - Ang_l = 0 rad
+* Presionar el botón Synthetize y luego ajustar S a 7 mils, redondear W a 18 mils. 
+Presionar Analyze. 
+* Resultados:
+    - Ancho de pistas (W) = 18 mils
+    - Distancia entre pistas (S) = 7 mils
+    - Zdiff (Z0o * 2) = 91,75 ohm
+* El resultado de 91,75 ohm está dentro del 15 % de tolerancia de la especificación
+USB.        
+* Consultar las definiciones de impedancia par, impar y de modo común en:
+http://www.polarinstruments.com/support/cits/AP157.html
+
+
+![Cálculo USB](images/calc_USB.png)    
+
+## Cálculo de las líneas diferenciales Ethernet ##
+* Para el caso de Ethernet, las líneas diferenciales deben tener una 
+impedancia característica diferencial de 100 ohm. 
+* En cuanto a la frecuencia de trabajo, es necesario calcularla para buscar
+la permitividad del material en el gráfico provisto por el fabricante.
+El dato necesario es el rise time de las señales RMII, para el PHY KSZ8041TL
+es de 3 ns. Con este rise time se calcula la frecuencia máxima que delimita el ancho de 
+banda de la señal.
+   - f (-3dB) = 0.35 / tr = 116 MHz
+   - Para una frecuencia de 116 MHz y un contenido de resina de 47 %, la permitividad
+aproximada es de 4,48. 
+* Debido a que los pares diferenciales se rutearán en la capa top, se debe seleccionar 
+la línea de transmisión de tipo Coupled Microstrip Line. Los datos a ingresar son:
+    - Er = 4,48
+    - H = 0,346 mm (0,173 mm x 2)
+    - T = 0,035 mm
+    - W = Cualquier valor
+    - S = 8 mils 
+    - L = 0 mm (no afecta a la Z0 de la línea)
+    - Z0e = 75 ohm  
+    - Z0o = 50 ohm (100 ohm / 2)
+    - Ang_l = 0     
+* Presionar el botón Synthetize y luego ajustar S a 8 mils, cambiar W a 15 mils 
+(para que no quede tan ancha). Presionar Analyze. 
+* Resultados:
+    - Ancho de pistas (W) = 15 mils
+    - Distancia entre pistas (S) = 8 mils
+    - Zdiff (Z0o * 2) = 102,11 ohm
+
+
+![Cálculo ETH](images/calc_ETH.png)
+
+## Calculadora de Kicad ##
+* Para obtener información sobre la calculadora de Kicad Pcb Calculator y la 
+herramienta Transline para cálculos sobre líneas de transmisión, consultar
+el código fuente de la misma en el siguiente link: 
+https://github.com/KiCad/kicad-source-mirror/tree/master/pcb_calculator/transline
+
+* A modo de referencia, se listan a continuación algunas descripciones de los
+parámetros de entrada y salida:
+
+    - Er: dielectric constant
+    - TanD: dielectric Loss Tangent
+    - H: height of substrate
+    - H_t: height to the top of box
+    - T: thickness of top metal
+    - Rough: roughness of top metal
+    - MurC: magnetic permeability of conductor
+    - Mur: magnetic permeability of substrate
+    - f: frequency of operation
+    - W: width of line
+    - L: length of line
+    - S: spacing of lines 
+    - Z0: characteristic impedance
+    - Z0e: even mode impedance
+    - Z0o: odd mode impedance
+    - Ang_l: electrical length in angle
+    - Ereff: effective dielectric constant
