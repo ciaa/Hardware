@@ -7,7 +7,7 @@ $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 2 8
 Title "Microcontrolador Freescale K60"
-Date "26 dec 2014"
+Date "27 dec 2014"
 Rev "CEIBO 1.1"
 Comp "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
