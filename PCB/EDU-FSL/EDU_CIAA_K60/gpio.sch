@@ -5,41 +5,35 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
-Title "EDU CIAA GPIO"
-Date "27 dec 2014"
-Rev "1.0"
-Comp ""
-Comment1 ""
+Sheet 7 8
+Title "EDU CIAA EXPANSIÓN"
+Date "1 jan 2015"
+Rev "0.0"
+Comp "EDU-CIAA - FSL . Versión FSL (Freescale K60)"
+Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 6000 4200 0    60   BiDi ~ 0
-GPIO0
+Text HLabel 6000 4200 0    60   Input ~ 0
+SD_POW
 Text HLabel 6000 4350 0    60   BiDi ~ 0
-GPIO2
+SD_DAT0
 Text HLabel 6000 4500 0    60   BiDi ~ 0
-GPIO4
-Text HLabel 6000 4650 0    60   BiDi ~ 0
-GPIO6
-Text HLabel 10450 5100 2    60   BiDi ~ 0
-GPIO8
-Text HLabel 10450 4500 2    60   BiDi ~ 0
-GPIO1
-Text HLabel 10450 4650 2    60   BiDi ~ 0
-GPIO3
-Text HLabel 10450 4800 2    60   BiDi ~ 0
-GPIO5
-Text HLabel 10450 4950 2    60   BiDi ~ 0
-GPIO7
-Text HLabel 4750 2000 2    60   Output ~ 0
-WAKEUP
+SD_DAT2
+Text HLabel 6000 4650 0    60   Input ~ 0
+SD_CLK
+Text HLabel 10500 4800 2    60   BiDi ~ 0
+SD_CMD
+Text HLabel 10500 4950 2    60   BiDi ~ 0
+SD_DAT1
+Text HLabel 10500 5100 2    60   BiDi ~ 0
+SD_DAT3
 $Comp
-L THERMISTOR TH1
+L THERMISTOR TH3
 U 1 1 52CA1D91
 P 2450 2300
-F 0 "TH1" V 2550 2350 50  0000 C CNN
+F 0 "TH3" V 2550 2350 50  0000 C CNN
 F 1 "MF-MSMF030-2" V 2350 2300 50  0000 C CNN
 F 2 "MF-MSMF" H 2450 2300 60  0001 C CNN
 F 3 "mfmsmf.pdf" H 2450 2300 60  0001 C CNN
@@ -53,19 +47,19 @@ F 9 "1812" V 2450 2300 60  0001 C CNN "Footprint"
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR019
+L +3.3V #PWR0122
 U 1 1 52CA1E6C
 P 2450 2000
-F 0 "#PWR019" H 2450 1960 30  0001 C CNN
+F 0 "#PWR0122" H 2450 1960 30  0001 C CNN
 F 1 "+3.3V" H 2450 2110 30  0000 C CNN
 F 2 "" H 2450 2000 60  0000 C CNN
 F 3 "" H 2450 2000 60  0000 C CNN
 	1    2450 2000
 	1    0    0    -1  
 $EndComp
-Text HLabel 1200 3300 0    60   BiDi ~ 0
+Text HLabel 1200 3150 0    60   BiDi ~ 0
 I2C_SDA
-Text HLabel 1200 3500 0    60   Input ~ 0
+Text HLabel 1200 3300 0    60   Input ~ 0
 I2C_SCL
 Text HLabel 10350 3300 2    60   Output ~ 0
 SPI_MISO
@@ -74,10 +68,10 @@ SPI_MOSI
 Text Notes 5150 900  0    60   ~ 0
 Conectores de expansión LVTTL.\nEn formato de pines, 2.54mm de pitch.
 $Comp
-L GNDA #PWR020
+L GNDA #PWR0123
 U 1 1 52DEB0D0
 P 1400 6800
-F 0 "#PWR020" H 1400 6800 40  0001 C CNN
+F 0 "#PWR0123" H 1400 6800 40  0001 C CNN
 F 1 "GNDA" H 1400 6730 40  0000 C CNN
 F 2 "" H 1400 6800 60  0000 C CNN
 F 3 "" H 1400 6800 60  0000 C CNN
@@ -85,10 +79,10 @@ F 3 "" H 1400 6800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L THERMISTOR TH2
+L THERMISTOR TH4
 U 1 1 539535E7
 P 3450 2300
-F 0 "TH2" V 3550 2350 50  0000 C CNN
+F 0 "TH4" V 3550 2350 50  0000 C CNN
 F 1 "MF-MSMF110-2" V 3350 2300 50  0000 C CNN
 F 2 "MF-MSMF" H 2450 2300 60  0001 C CNN
 F 3 "mfmsmf.pdf" H 2450 2300 60  0001 C CNN
@@ -102,10 +96,10 @@ F 9 "1812" V 2450 2300 60  0001 C CNN "Footprint"
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR021
+L +5V #PWR0124
 U 1 1 539535EE
 P 3450 2000
-F 0 "#PWR021" H 3450 2090 20  0001 C CNN
+F 0 "#PWR0124" H 3450 2090 20  0001 C CNN
 F 1 "+5V" H 3450 2090 30  0000 C CNN
 F 2 "" H 3450 2000 60  0000 C CNN
 F 3 "" H 3450 2000 60  0000 C CNN
@@ -132,27 +126,27 @@ Text HLabel 10300 3100 2    60   Input ~ 0
 ENET_TXD1
 Text HLabel 1200 4700 0    60   Output ~ 0
 TEC_F0
-Text HLabel 1150 2750 0    60   Output ~ 0
+Text HLabel 1150 2550 0    60   Output ~ 0
 ADC0_1
 Text HLabel 4800 4650 2    60   Output ~ 0
 TEC_F1
-Text HLabel 1000 2950 0    60   Input ~ 0
+Text HLabel 1000 2750 0    60   Input ~ 0
 DAC
 Text HLabel 1200 5100 0    60   Output ~ 0
 TEC_F2
 Text HLabel 1200 4900 0    60   Output ~ 0
 TEC_F3
-Text HLabel 10500 4350 2    60   Input ~ 0
+Text HLabel 10650 4650 2    60   Input ~ 0
 LCD1
-Text HLabel 10500 4200 2    60   Input ~ 0
+Text HLabel 10650 4500 2    60   Input ~ 0
 LCD2
-Text HLabel 10500 4050 2    60   Input ~ 0
+Text HLabel 10650 4350 2    60   Input ~ 0
 LCD3
-Text HLabel 10400 3900 2    60   Input ~ 0
+Text HLabel 10550 4200 2    60   Input ~ 0
 LCD_RS
-Text HLabel 6050 3700 0    60   Input ~ 0
+Text HLabel 10550 3900 2    60   Input ~ 0
 LCD_EN
-Text HLabel 10550 3700 2    60   Input ~ 0
+Text HLabel 10650 4050 2    60   Input ~ 0
 LCD4
 Text HLabel 1200 4100 0    60   Output ~ 0
 CAN_RD
@@ -162,9 +156,9 @@ Text HLabel 1300 4500 0    60   Input ~ 0
 TEC_COL1
 Text HLabel 4650 4500 2    60   Input ~ 0
 TEC_COL2
-Text HLabel 1150 2350 0    60   Output ~ 0
+Text HLabel 1150 2150 0    60   Output ~ 0
 ADC0_3
-Text HLabel 1150 2550 0    60   Output ~ 0
+Text HLabel 1150 2350 0    60   Output ~ 0
 ADC0_2
 $Comp
 L CONN_20X2 P1
@@ -189,88 +183,88 @@ F 3 "" H 8300 3650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R20
+L R R48
 U 1 1 5398AC42
-P 1700 2950
-F 0 "R20" V 1780 2950 40  0000 C CNN
-F 1 "470" V 1707 2951 40  0000 C CNN
-F 2 "SM0805" V 1630 2950 30  0001 C CNN
-F 3 "AOA0000CE1.pdf" H 1700 2950 30  0001 C CNN
-F 4 "RES 470 OHM 1/8W 5% 0805 SMD" V 1700 2950 60  0001 C CNN "Descripción"
-F 5 "Panasonic Electronic Components" V 1700 2950 60  0001 C CNN "Fabricante"
-F 6 "ERJ-6GEYJ471V" V 1700 2950 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 1700 2950 60  0001 C CNN "Path datasheet"
-F 8 "P470ACT-ND" V 1700 2950 60  0001 C CNN "Digikey"
-F 9 "0805" V 1700 2950 60  0001 C CNN "Footprint"
-	1    1700 2950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R21
-U 1 1 5398AC4F
 P 1700 2750
-F 0 "R21" V 1780 2750 40  0000 C CNN
-F 1 "1k2" V 1707 2751 40  0000 C CNN
+F 0 "R48" V 1780 2750 40  0000 C CNN
+F 1 "470" V 1707 2751 40  0000 C CNN
 F 2 "SM0805" V 1630 2750 30  0001 C CNN
-F 3 "SEI-RMCF_RMCP.pdf" H 1700 2750 30  0001 C CNN
-F 4 "RES 1.2K OHM 1/8W 5% 0805" V 1700 2750 60  0001 C CNN "Descripción"
-F 5 "Stackpole Electronics Inc" V 1700 2750 60  0001 C CNN "Fabricante"
-F 6 "RMCF0805JT1K20" V 1700 2750 60  0001 C CNN "Nro de parte"
+F 3 "AOA0000CE1.pdf" H 1700 2750 30  0001 C CNN
+F 4 "RES 470 OHM 1/8W 5% 0805 SMD" V 1700 2750 60  0001 C CNN "Descripción"
+F 5 "Panasonic Electronic Components" V 1700 2750 60  0001 C CNN "Fabricante"
+F 6 "ERJ-6GEYJ471V" V 1700 2750 60  0001 C CNN "Nro de parte"
 F 7 "..PCB/EDU-NXP/Datasheets" V 1700 2750 60  0001 C CNN "Path datasheet"
-F 8 "RMCF0805JT1K20CT-ND" V 1700 2750 60  0001 C CNN "Digikey"
+F 8 "P470ACT-ND" V 1700 2750 60  0001 C CNN "Digikey"
 F 9 "0805" V 1700 2750 60  0001 C CNN "Footprint"
 	1    1700 2750
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R22
-U 1 1 5398AC55
+L R R47
+U 1 1 5398AC4F
 P 1700 2550
-F 0 "R22" V 1780 2550 40  0000 C CNN
+F 0 "R47" V 1780 2550 40  0000 C CNN
 F 1 "1k2" V 1707 2551 40  0000 C CNN
-F 2 "SM0805" V 1630 2750 30  0001 C CNN
-F 3 "SEI-RMCF_RMCP.pdf" H 1700 2750 30  0001 C CNN
-F 4 "RES 1.2K OHM 1/8W 5% 0805" V 1700 2750 60  0001 C CNN "Descripción"
-F 5 "Stackpole Electronics Inc" V 1700 2750 60  0001 C CNN "Fabricante"
-F 6 "RMCF0805JT1K20" V 1700 2750 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 1700 2750 60  0001 C CNN "Path datasheet"
-F 8 "RMCF0805JT1K20CT-ND" V 1700 2750 60  0001 C CNN "Digikey"
-F 9 "0805" V 1700 2750 60  0001 C CNN "Footprint"
+F 2 "SM0805" V 1630 2550 30  0001 C CNN
+F 3 "SEI-RMCF_RMCP.pdf" H 1700 2550 30  0001 C CNN
+F 4 "RES 1.2K OHM 1/8W 5% 0805" V 1700 2550 60  0001 C CNN "Descripción"
+F 5 "Stackpole Electronics Inc" V 1700 2550 60  0001 C CNN "Fabricante"
+F 6 "RMCF0805JT1K20" V 1700 2550 60  0001 C CNN "Nro de parte"
+F 7 "..PCB/EDU-NXP/Datasheets" V 1700 2550 60  0001 C CNN "Path datasheet"
+F 8 "RMCF0805JT1K20CT-ND" V 1700 2550 60  0001 C CNN "Digikey"
+F 9 "0805" V 1700 2550 60  0001 C CNN "Footprint"
 	1    1700 2550
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R23
-U 1 1 5398AC5B
+L R R46
+U 1 1 5398AC55
 P 1700 2350
-F 0 "R23" V 1780 2350 40  0000 C CNN
+F 0 "R46" V 1780 2350 40  0000 C CNN
 F 1 "1k2" V 1707 2351 40  0000 C CNN
-F 2 "SM0805" V 1630 2750 30  0001 C CNN
-F 3 "SEI-RMCF_RMCP.pdf" H 1700 2750 30  0001 C CNN
-F 4 "RES 1.2K OHM 1/8W 5% 0805" V 1700 2750 60  0001 C CNN "Descripción"
-F 5 "Stackpole Electronics Inc" V 1700 2750 60  0001 C CNN "Fabricante"
-F 6 "RMCF0805JT1K20" V 1700 2750 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 1700 2750 60  0001 C CNN "Path datasheet"
-F 8 "RMCF0805JT1K20CT-ND" V 1700 2750 60  0001 C CNN "Digikey"
-F 9 "0805" V 1700 2750 60  0001 C CNN "Footprint"
+F 2 "SM0805" V 1630 2550 30  0001 C CNN
+F 3 "SEI-RMCF_RMCP.pdf" H 1700 2550 30  0001 C CNN
+F 4 "RES 1.2K OHM 1/8W 5% 0805" V 1700 2550 60  0001 C CNN "Descripción"
+F 5 "Stackpole Electronics Inc" V 1700 2550 60  0001 C CNN "Fabricante"
+F 6 "RMCF0805JT1K20" V 1700 2550 60  0001 C CNN "Nro de parte"
+F 7 "..PCB/EDU-NXP/Datasheets" V 1700 2550 60  0001 C CNN "Path datasheet"
+F 8 "RMCF0805JT1K20CT-ND" V 1700 2550 60  0001 C CNN "Digikey"
+F 9 "0805" V 1700 2550 60  0001 C CNN "Footprint"
 	1    1700 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R45
+U 1 1 5398AC5B
+P 1700 2150
+F 0 "R45" V 1780 2150 40  0000 C CNN
+F 1 "1k2" V 1707 2151 40  0000 C CNN
+F 2 "SM0805" V 1630 2550 30  0001 C CNN
+F 3 "SEI-RMCF_RMCP.pdf" H 1700 2550 30  0001 C CNN
+F 4 "RES 1.2K OHM 1/8W 5% 0805" V 1700 2550 60  0001 C CNN "Descripción"
+F 5 "Stackpole Electronics Inc" V 1700 2550 60  0001 C CNN "Fabricante"
+F 6 "RMCF0805JT1K20" V 1700 2550 60  0001 C CNN "Nro de parte"
+F 7 "..PCB/EDU-NXP/Datasheets" V 1700 2550 60  0001 C CNN "Path datasheet"
+F 8 "RMCF0805JT1K20CT-ND" V 1700 2550 60  0001 C CNN "Digikey"
+F 9 "0805" V 1700 2550 60  0001 C CNN "Footprint"
+	1    1700 2150
 	0    -1   -1   0   
 $EndComp
 Text HLabel 10400 3500 2    60   Input ~ 0
 SPI_SCK
 Text HLabel 1350 3900 0    60   Input ~ 0
 RS232_TXD
-Text HLabel 1350 3700 0    60   Output ~ 0
+Text HLabel 1350 3500 0    60   Output ~ 0
 RS232_RXD
 Text HLabel 10350 2300 2    60   Input ~ 0
 ENET_MDC
 Text HLabel 1100 1850 0    60   Output ~ 0
 RESET
 $Comp
-L THERMISTOR TH3
+L THERMISTOR TH5
 U 1 1 539E1654
 P 7800 2300
-F 0 "TH3" V 7900 2350 50  0000 C CNN
+F 0 "TH5" V 7900 2350 50  0000 C CNN
 F 1 "MF-MSMF030-2" V 7700 2300 50  0000 C CNN
 F 2 "MF-MSMF" H 2450 2300 60  0001 C CNN
 F 3 "mfmsmf.pdf" H 2450 2300 60  0001 C CNN
@@ -284,10 +278,10 @@ F 9 "1812" V 2450 2300 60  0001 C CNN "Footprint"
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR022
+L +3.3V #PWR0125
 U 1 1 539E165A
 P 7800 2000
-F 0 "#PWR022" H 7800 1960 30  0001 C CNN
+F 0 "#PWR0125" H 7800 1960 30  0001 C CNN
 F 1 "+3.3V" H 7800 2110 30  0000 C CNN
 F 2 "" H 7800 2000 60  0000 C CNN
 F 3 "" H 7800 2000 60  0000 C CNN
@@ -295,10 +289,10 @@ F 3 "" H 7800 2000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L THERMISTOR TH4
+L THERMISTOR TH6
 U 1 1 539E1660
 P 8800 2300
-F 0 "TH4" V 8900 2350 50  0000 C CNN
+F 0 "TH6" V 8900 2350 50  0000 C CNN
 F 1 "MF-MSMF110-2" V 8700 2300 50  0000 C CNN
 F 2 "MF-MSMF" H 2450 2300 60  0001 C CNN
 F 3 "mfmsmf.pdf" H 2450 2300 60  0001 C CNN
@@ -312,10 +306,10 @@ F 9 "1812" V 2450 2300 60  0001 C CNN "Footprint"
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR023
+L +5V #PWR0126
 U 1 1 539E1666
 P 8800 2000
-F 0 "#PWR023" H 8800 2090 20  0001 C CNN
+F 0 "#PWR0126" H 8800 2090 20  0001 C CNN
 F 1 "+5V" H 8800 2090 30  0000 C CNN
 F 2 "" H 8800 2000 60  0000 C CNN
 F 3 "" H 8800 2000 60  0000 C CNN
@@ -323,21 +317,17 @@ F 3 "" H 8800 2000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR024
+L GND #PWR0127
 U 1 1 53B8B104
 P 1400 7300
-F 0 "#PWR024" H 1400 7300 30  0001 C CNN
+F 0 "#PWR0127" H 1400 7300 30  0001 C CNN
 F 1 "GND" H 1400 7230 30  0001 C CNN
 F 2 "" H 1400 7300 60  0000 C CNN
 F 3 "" H 1400 7300 60  0000 C CNN
 	1    1400 7300
 	1    0    0    -1  
 $EndComp
-Text Label 900  7150 0    60   ~ 0
-GPIO_GND
-Text Label 5650 2500 0    60   ~ 0
-GPIO_GND
-Text Label 5650 2700 0    60   ~ 0
+Text Label 850  7150 0    60   ~ 0
 GPIO_GND
 Text Label 5650 3100 0    60   ~ 0
 GPIO_GND
@@ -349,11 +339,11 @@ Text Label 4700 3800 0    60   ~ 0
 GPIO_GND
 Text Label 850  6700 0    60   ~ 0
 ANALOG_GND
-Text Label 4550 3200 0    60   ~ 0
+Text Label 4550 2000 0    60   ~ 0
 ANALOG_GND
 Text Label 4550 1800 0    60   ~ 0
 GPIO_GND
-Text Label 750  2150 0    60   ~ 0
+Text Label 750  2000 0    60   ~ 0
 ANALOG_GND
 Text Label 4550 2200 0    60   ~ 0
 ANALOG_GND
@@ -372,8 +362,6 @@ GPIO_GND
 Text Label 5650 4850 0    60   ~ 0
 GPIO_GND
 Text Label 4700 3950 0    60   ~ 0
-GPIO_GND
-Text Label 4700 4100 0    60   ~ 0
 GPIO_GND
 Text Label 4700 4250 0    60   ~ 0
 GPIO_GND
@@ -426,9 +414,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 3500 6100 3500
 Wire Wire Line
-	6050 3700 7000 3700
-Wire Wire Line
-	10050 3900 10400 3900
+	5650 3700 7000 3700
 Wire Wire Line
 	9350 2700 10300 2700
 Wire Wire Line
@@ -444,8 +430,6 @@ Wire Wire Line
 Wire Wire Line
 	8700 3700 10550 3700
 Wire Wire Line
-	10000 4050 10500 4050
-Wire Wire Line
 	6800 4650 6800 4400
 Wire Wire Line
 	6000 4650 6800 4650
@@ -456,37 +440,19 @@ Wire Wire Line
 Wire Wire Line
 	6000 4200 6650 4200
 Wire Wire Line
-	9650 5100 10450 5100
-Wire Wire Line
 	9650 4600 9650 5100
 Wire Wire Line
-	8700 4600 9650 4600
-Wire Wire Line
-	9700 4500 8700 4500
-Wire Wire Line
 	9700 4950 9700 4500
-Wire Wire Line
-	10450 4950 9700 4950
-Wire Wire Line
-	9750 4800 10450 4800
 Wire Wire Line
 	9750 4400 9750 4800
 Wire Wire Line
 	8700 4400 9750 4400
 Wire Wire Line
-	9800 4650 10450 4650
-Wire Wire Line
 	9800 4300 9800 4650
-Wire Wire Line
-	9850 4500 10450 4500
 Wire Wire Line
 	9850 4200 9850 4500
 Wire Wire Line
 	9900 4100 9900 4350
-Wire Wire Line
-	9900 4350 10500 4350
-Wire Wire Line
-	9950 4200 10500 4200
 Wire Wire Line
 	9950 4000 9950 4200
 Wire Wire Line
@@ -562,15 +528,9 @@ Wire Wire Line
 Wire Wire Line
 	3350 3800 5150 3800
 Wire Wire Line
-	4500 4100 5150 4100
-Wire Wire Line
-	4250 3600 5150 3600
-Wire Wire Line
-	3850 2000 4750 2000
+	3850 2000 5150 2000
 Wire Wire Line
 	1900 3300 1200 3300
-Wire Wire Line
-	1200 3500 1850 3500
 Wire Wire Line
 	1950 3150 1950 3500
 Wire Wire Line
@@ -586,15 +546,13 @@ Wire Wire Line
 Wire Wire Line
 	2150 2350 2150 3100
 Wire Wire Line
-	750  2150 2200 2150
-Wire Wire Line
 	2200 2150 2200 3000
 Wire Wire Line
 	1400 6700 850  6700
 Wire Wire Line
 	1400 6800 1400 6700
 Wire Wire Line
-	350  2000 2250 2000
+	750  2000 2250 2000
 Wire Wire Line
 	2250 2000 2250 2900
 Wire Wire Line
@@ -614,7 +572,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 2750 1950 2750
 Wire Wire Line
-	1950 2950 2000 2950
+	750  2950 2000 2950
 Wire Wire Line
 	10050 3800 10050 3900
 Wire Wire Line
@@ -627,10 +585,6 @@ Wire Wire Line
 	5650 1900 7450 1900
 Wire Wire Line
 	5650 2100 7400 2100
-Wire Wire Line
-	5650 2500 7300 2500
-Wire Wire Line
-	5650 2700 7250 2700
 Wire Wire Line
 	5650 3100 7150 3100
 Wire Wire Line
@@ -760,9 +714,7 @@ Wire Wire Line
 Wire Wire Line
 	7150 3500 7900 3500
 Wire Wire Line
-	1150 2750 1450 2750
-Wire Wire Line
-	1000 2950 1450 2950
+	1000 2750 1450 2750
 Wire Wire Line
 	3350 3300 4050 3300
 Wire Wire Line
@@ -867,12 +819,79 @@ Wire Wire Line
 	1350 3900 2550 3900
 Wire Wire Line
 	1800 3700 1350 3700
-Text Label 4700 3600 0    60   ~ 0
-GPIO_GND
 Text Label 4700 3400 0    60   ~ 0
 GPIO_GND
-Text HLabel 1100 3150 0    60   Input ~ 0
-VDD_A
 Wire Wire Line
-	1100 3150 1950 3150
+	1200 3150 1950 3150
+$Comp
+L +3.3VADC #PWR0128
+U 1 1 54A177FF
+P 1450 6100
+F 0 "#PWR0128" H 1450 6220 20  0001 C CNN
+F 1 "+3.3VADC" H 1450 6190 30  0000 C CNN
+F 2 "~" H 1450 6100 60  0000 C CNN
+F 3 "~" H 1450 6100 60  0000 C CNN
+	1    1450 6100
+	1    0    0    -1  
+$EndComp
+Text HLabel 4700 4100 2    60   Input ~ 0
+CAN_STB
+Text HLabel 10550 3700 2    60   Input ~ 0
+SPI_CS
+Text HLabel 1350 3700 0    60   Input ~ 0
+RS232_RTS
+Text HLabel 4600 3600 2    60   Output ~ 0
+RS232_CTS
+Text HLabel 6150 2500 0    60   Output ~ 0
+ETH_RXER
+Text HLabel 6100 2700 0    60   Input ~ 0
+ETH_RST
+Wire Wire Line
+	1150 2150 1450 2150
+Wire Wire Line
+	1950 2150 2200 2150
+Text Label 850  6250 0    60   ~ 0
+ANALOG_VDC
+Wire Wire Line
+	850  6250 1450 6250
+Wire Wire Line
+	1450 6250 1450 6100
+Text Label 750  2950 0    60   ~ 0
+ANALOG_VDC
+Text Label 4700 3200 0    60   ~ 0
+GPIO_GND
+Wire Wire Line
+	1350 3500 1850 3500
+Wire Wire Line
+	4250 3600 4600 3600
+Wire Wire Line
+	4500 4100 4700 4100
+Wire Wire Line
+	9650 5100 10500 5100
+Wire Wire Line
+	9700 4950 10500 4950
+Wire Wire Line
+	9750 4800 10500 4800
+Wire Wire Line
+	9800 4650 10650 4650
+Wire Wire Line
+	9850 4500 10650 4500
+Wire Wire Line
+	9900 4350 10650 4350
+Wire Wire Line
+	9950 4200 10550 4200
+Wire Wire Line
+	10000 4050 10650 4050
+Wire Wire Line
+	10050 3900 10550 3900
+Wire Wire Line
+	6150 2500 7300 2500
+Wire Wire Line
+	7250 2700 6100 2700
+Text Label 5650 3700 0    60   ~ 0
+GPIO_GND
+Wire Wire Line
+	8700 4600 9650 4600
+Wire Wire Line
+	9700 4500 8700 4500
 $EndSCHEMATC
