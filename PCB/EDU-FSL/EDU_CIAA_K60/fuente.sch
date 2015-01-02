@@ -7,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 8
 Title "Fuente de Alimentación"
-Date "1 jan 2015"
+Date "2 jan 2015"
 Rev "0.0"
 Comp "EDU-CIAA - FSL . Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
@@ -416,8 +416,8 @@ F 9 "~" H 8100 5750 60  0001 C CNN "Footprint estandar"
 	1    8100 5750
 	1    0    0    -1  
 $EndComp
-Text Notes 7650 6600 0    120  ~ 24
-TESTPOINTS PARA PDN
+Text Notes 8100 6600 0    120  ~ 24
+TESTPOINTS
 $Comp
 L TESTPOINT_PDN TP2
 U 1 1 54123FA4
@@ -444,17 +444,6 @@ F 1 "+3.3V" H 8000 5960 30  0000 C CNN
 F 2 "" H 8000 5850 60  0000 C CNN
 F 3 "" H 8000 5850 60  0000 C CNN
 	1    8000 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR032
-U 1 1 54123FC8
-P 8850 5850
-F 0 "#PWR032" H 8850 5810 30  0001 C CNN
-F 1 "+3.3V" H 8850 5960 30  0000 C CNN
-F 2 "" H 8850 5850 60  0000 C CNN
-F 3 "" H 8850 5850 60  0000 C CNN
-	1    8850 5850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -776,6 +765,17 @@ F 1 "TB_1X2" H 2000 1900 60  0000 C CNN
 F 2 "~" H 1900 2250 60  0000 C CNN
 F 3 "~" H 1900 2250 60  0000 C CNN
 	1    1950 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 54A6B5A9
+P 8850 5850
+F 0 "#PWR?" H 8850 5940 20  0001 C CNN
+F 1 "+5V" H 8850 5940 30  0000 C CNN
+F 2 "" H 8850 5850 60  0000 C CNN
+F 3 "" H 8850 5850 60  0000 C CNN
+	1    8850 5850
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

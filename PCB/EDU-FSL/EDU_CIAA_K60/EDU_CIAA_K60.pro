@@ -1,6 +1,6 @@
-update=mar 24 jun 2014 18:08:24 ART
+update=02/01/2015 09:01:27 a.m.
 version=1
-last_client=pcbnew
+last_client=eeschema
 [cvpcb]
 version=1
 NetIExt=net
@@ -8,6 +8,28 @@ NetIExt=net
 EquName1=devcms
 [general]
 version=1
+[pcbnew]
+version=1
+LastNetListRead=EDU_CIAA_K60.net
+UseCmpFile=0
+PadDrill=1.600200000000
+PadDrillOvalY=1.600200000000
+PadSizeH=2.200000000000
+PadSizeV=2.200000000000
+PcbTextSizeV=1.500000000000
+PcbTextSizeH=1.500000000000
+PcbTextThickness=0.300000000000
+ModuleTextSizeV=0.711200000000
+ModuleTextSizeH=0.457200000000
+ModuleTextSizeThickness=0.114300000000
+SolderMaskClearance=0.050800000000
+SolderMaskMinWidth=0.000000000000
+DrawSegmentWidth=0.127000000000
+BoardOutlineThickness=0.508000000000
+ModuleOutlineThickness=0.127000000000
+[pcbnew/libraries]
+LibDir=footprints
+LibName1=CIAAFSL
 [eeschema]
 version=1
 LibDir=kicadlibs
@@ -18,25 +40,3 @@ RptLab=1
 LabSize=60
 [eeschema/libraries]
 LibName1=CIAAK60LIB
-[pcbnew]
-version=1
-LastNetListRead=CIAA_K60.net
-UseCmpFile=0
-PadDrill="    0,000000"
-PadDrillOvalY="    0,000000"
-PadSizeH="    2,300000"
-PadSizeV="    3,100000"
-PcbTextSizeV="    1,500000"
-PcbTextSizeH="    1,500000"
-PcbTextThickness="    0,300000"
-ModuleTextSizeV="    1,000000"
-ModuleTextSizeH="    1,000000"
-ModuleTextSizeThickness="    0,150000"
-SolderMaskClearance="    0,000000"
-SolderMaskMinWidth="    0,000000"
-DrawSegmentWidth="    0,200000"
-BoardOutlineThickness="    0,100000"
-ModuleOutlineThickness="    0,203200"
-[pcbnew/libraries]
-LibDir=footprints
-LibName1=CIAAFSL

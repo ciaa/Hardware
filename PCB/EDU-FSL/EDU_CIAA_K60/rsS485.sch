@@ -7,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 8
 Title "CIAA RS485 "
-Date "1 jan 2015"
+Date "2 jan 2015"
 Rev "0.0"
 Comp "EDU-CIAA - FSL . Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
@@ -165,7 +165,7 @@ F 9 "~" H 8700 3300 60  0001 C CNN "Footprint estandar"
 	-1   0    0    -1  
 $EndComp
 Text Notes 7000 2250 0    60   ~ 0
-JP402, JP403, JP404: cortocircuitar en\ncaso que sea el último nodo de la red.
+JP2, JP3, JP4: cortocircuitar en\ncaso que sea el último nodo de la red.
 $Comp
 L R R14
 U 1 1 52C5B380
@@ -201,10 +201,10 @@ F 9 "1206 (3216 Metric)" H 5150 2650 60  0001 C CNN "Footprint estandar"
 	1    0    0    -1  
 $EndComp
 $Comp
-L THERMISTOR TH2
+L THERMISTOR F2
 U 1 1 52C5B384
 P 7900 4250
-F 0 "TH2" V 8100 4300 40  0000 C CNN
+F 0 "F2" V 8100 4300 40  0000 C CNN
 F 1 "USMF020" V 8000 4250 40  0000 C CNN
 F 2 "ptc_1210" V 7830 4250 30  0001 C CNN
 F 3 "~" H 7900 4250 30  0000 C CNN
@@ -218,10 +218,10 @@ F 9 "1210 (3225 métrico), cóncavo" H 7900 3700 60  0001 C CNN "Footprint estan
 	0    -1   -1   0   
 $EndComp
 $Comp
-L THERMISTOR TH1
+L THERMISTOR F1
 U 1 1 52C5B385
 P 7900 3000
-F 0 "TH1" V 8100 3050 40  0000 C CNN
+F 0 "F1" V 8100 3050 40  0000 C CNN
 F 1 "USMF020" V 8000 3000 40  0000 C CNN
 F 2 "ptc_1210" V 7830 3000 30  0001 C CNN
 F 3 "~" H 7900 3000 30  0000 C CNN
@@ -529,7 +529,7 @@ F 9 "0603 (1608 Metric)" H 6900 5200 60  0001 C CNN "Footprint estandar"
 	1    0    0    -1  
 $EndComp
 Text Notes 3900 5400 0    60   ~ 0
-Los resistores de 390 y 220 se denominan bias resistors\ny son los recomendados en la especificación de Profibus.\nR410: De acuerdo a Fig 27 de la AN slla070d de TI.
+Los resistores de 390 y 220 se denominan bias resistors\ny son los recomendados en la especificación de Profibus.\nR18: De acuerdo a Fig 27 de la AN slla070d de TI.
 $Comp
 L +5V #PWR090
 U 1 1 53C5D00C
