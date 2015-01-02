@@ -21,6 +21,7 @@ para un PCB de 4 capas:
     - L4: 1 oz (0,035 mm)
 * También indicaron el material a utilizar, del fabricante Isola 
 (http://www.isola-group.com), con el código DURAVER-E-Cu quality 104 ML.
+* La máscara antisoldante utilizada es la Lackwerke Peters SD 2467 SM-YG.
 * En la charla teléfonica del 29/08/14 se hablaron los siguientes temas:
     - Distancia de cobre a borde: Nos pidieron 20 mils tanto en las capas 
     top y bottom como en las inner. La máquina Vcut que usan tiene un disco de
@@ -46,7 +47,33 @@ para un PCB de 4 capas:
     los pads, lo están viendo.
     - Cupón de test: Nos dijo que les podemos pasar un diseño en un archivo 
     aparte y ellos lo ubican en el panelizado.
-
+* Mail del 23 de Septiembre de 2014 con copia a Gaston Lagoa <glagoa@asembli.com>  
+    - En respuesta a la entrega de los gerbers de la CIAA-FSL, enviaron un pdf
+    con la información del panelizado. Ver en el directorio panelizado. 
+    - En respuesta a este mail, Gastón Lagoa de Asembli respondió, ver abajo.
+* Mail de Gaston Lagoa <glagoa@asembli.com> del 24 de Septiembre de 2014.      
+    - "En cualquiera de las opciones no tendríamos inconvenientes
+    Supongo que la Opcion 2  es la mas conveniente ya que la opción 1 queda un panel 
+    de casi 400mm y, si bien en Asembli lo podemos hacer, quizás no todos los 
+    armadores tengan capacidad de manejar paneles tan grandes".
+    - El que se va a fabricar es CUPONES_OPC2_opcion_elegida.pdf.
+* Conversación telefónica del 25/09/14 entre David y Diego Pereyra.
+    - Nos informaron que los cupones de test se entregarán por separado de la 
+    CIAA por cuestiones de su proceso de fabricación. De todos modos, los 
+    cupones no deben ir a Asembli, ya que se van a caracterizar en el INTI.
+    El panel diseñado, si todo sale bien, Mayer lo usará para futuras 
+    fabricaciones de la CIAA. Es decir, que siempre saldrá con los cupones para 
+    verificar la fabricación. Esto es algo bueno, porque se podrán verificar los 
+    procesos de fabricación de cualquier CIAA en el futuro.
+    - El cupón y la CIAA-FSL vendrán identificados con un número de referencia 
+    de Mayer, para poder identificar el lote de la CIAA con su cupón unívocamente.
+* Conversación telefónica del 25/09/14 entre Noelia y Diego Pereyra.
+    - Diego P. nos pidió los gerbers de la máscara antisoldante con una apertura
+    de 4 mils en toda la placa y 2 mils únicamente en los integrados (los 
+    originales tenían 2 mils en toda la placa). Se los enviamos en el momento, 
+    aunque habría que analizar qué dificultades tienen en los procesos que les 
+    impiden imprimir una máscara de 2 mils.           
+   
  
 ## Contacto con DAI-ICHI ##
 
@@ -154,4 +181,9 @@ Respondo las consultas:
 [Con respecto al punto 7 del informe: CNC Route]
 7- Se puede usar una combinación de V-Cut y CNC Route. Solo lo informe ya que 
 se encarece el producto, pero no hay problemas.
+
+* Mail del 25 de Septiembre de 2014
+En este mail gastón Lagoa aclara que van a dejar una sin armar para que
+podamos hacer mediciones de impedancia o de capacidad entre planos.
+[...]Si claro, fabricamos 7 y la otra te la enviamos para hacer mediciones.
 

@@ -1,0 +1,295 @@
+#Proyecto CIAA - FSL#
+Autor: INTI CMNB - Laboratorio CEA (Circuitos Electrónicos Avanzados)   
+Fecha: Mayo 2014
+
+##Lineamientos para circuitos esquemáticos##
+Este documento resume una cantidad mínima de pautas para llevar a cabo 
+conjuntamente la revisión del circuito esquemático de la CIAA - FSL. 
+
+
+###Software###
+Bajo entorno Linux utilizar el KiCAD version 23 de Diciembre de 2013.  
+Bajo entorno Windows utilizar el Kicad version 07 de Julio de 2013. 
+
+
+###Configuración de página###
+* Tamaño y orientación de la página  
+    - Utilizar páginas tamaño A4 para facilitar una posterior impresión del diseño.  
+    - Siempre que sea posible configurar la orientación de las páginas en horizontal. 
+    Si algún componente no lo permite por sus dimensiones, cambiarla a vertical.
+* Rótulo  
+Completar los siguientes campos respetando el orden:
+    - Revision: Número de la versión del esquemático
+    - Title: Texto que identifique el contenido de la hoja
+    - Company: CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA
+    - Comment 1: Revisiones, modificaciones y adaptaciones: INTI-CMNB / Electrocomponentes S.A.
+    - Comment 2: CIAA Freescale K60 
+Nota: No incluir la abreviatura del título (Ing., Téc.) en los nombres de los 
+autores o revisores.  
+La fecha es agregada por el Kicad cada vez que se edita el archivo. 
+
+###Diseño###
+* Diseño jerárquico   
+Para esquemáticos con varias páginas hacer un diseño jerárquico con las 
+herramientas que provea el software:
+    - Hojas jerárquicas (hierarchical sheets)
+    - Etiquetas jerárquicas (hierarchical labels)
+    - Pines jerárquicos (hierarchical pins) 
+    - Ubicar las etiquetas jerárquicas en los bordes de las páginas para 
+    encontrarlas rápidamente.
+    - Evitar el uso de etiquetas globales. 
+* Bloques de componentes  
+Utilizar líneas y cuadros para delinear bloques de componentes. Si los bloques 
+son pequeños, usar cuadros que encierren todos los componentes. Si ocupan gran 
+parte de la hoja, dividirlos con líneas.
+ 
+ 
+###Componentes###
+
+####Creación de componentes####
+* Al crear un componente a partir de uno de la librería estándar, cambiarle el nombre para
+poder diferenciarlo.
+* Agregarle todos los campos descriptos en Propiedades de los componentes
+* Dividir en partes los dispositivos que poseen una gran cantidad de terminales.
+* Ubicar la numeración de los pines por fuera del símbolo gráfico del componente.
+* Ubicar el componente con el origen en el centro.
+* Mantener la grilla de 50 mils para evitar inconvenientes al ubicar el componente en el
+esquemático.
+
+####Ubicación de componentes####
+* Los esquemáticos se leen de izquierda a derecha y de arriba hacia abajo. Tratar de mantener
+las entradas a la izquierda y las salidas a la derecha.
+* Colocar las alimentaciones arriba y las masas apuntando siempre hacia abajo.
+* Alinear componentes similares vertical u horizontalmente.
+* Colocar los capacitores de desacople críticos cerca de los integrados que los necesitan. No
+amontonarlos todos juntos en un sector del esquemático.
+* Separar las líneas paralelas al doble de la altura de los textos que pueda haber entre ellas.
+Separar grupos de líneas paralelas al doble de la distancia anterior.
+* No es necesario llenar toda la hoja, los espacios vacíos aportan claridad.
+
+####Propiedades de los componentes####
+* Agregar a todos los componentes del esquemático la información mínima necesaria:
+    - Designator  
+    Identifica el tipo de componente y va acompañado del número de componente. Por ej. U1.
+    - Valor  
+    Si es un componente pasivo, es el valor de la resistencia, la capacidad o la inductancia, como 10k o
+10uF. Si es un integrado, será el número de parte o código que quedará visible en el circuito, por ej.
+MAX232.
+    - Footprint  
+    Es el nombre del footprint tal como figura en la librería que se va a utilizar o crear para el
+componente. Por ej. SMT0603.
+    - Descripción completa del componente
+    - Fabricante  
+    Indicar el fabricante sin abreviar el nombre.
+    - Número de parte completo del fabricante  
+    Es el número de parte completo tal como se debe indicar para realizar la compra, incluye
+información sobre el encapsulado, el rango de temperatura, el packaging, etc. Por ej.
+MAX232CWE.
+    - Path en cvs de la hoja de datos (opcional)  
+    Si la hoja de datos ya está en cvs, ingresar el path. Si todavía no fue subida, subirla para que esté
+disponible para todos los integrantes del equipo.
+    - Código Digikey/Mouser (opcional)  
+    Es útil al momento de realizar la compra para identificar el producto y evitar confusiones. En el
+caso de resistores y capacitores puede no ser necesario, por eso se lo considera opcional.
+    - Nomenclatura estándar del footprint  
+    Es el nombre del footprint tal como se conoce habitualmente o como es referido en la hoja de datos
+del componente. Por ej.: 0805.
+
+* Algunos campos pueden ser completados desde el momento de la creación del componente y otros
+se pueden agregar en el esquemático. Los campos que sean independientes del diseño, como
+número de parte, descripción y fabricante, deben incluirse en las librerías. Los parámetros que
+varíen según el proyecto, como footprint, número de parte completo, path de la hoja de datos o
+código de Digikey, pueden agregarse en el mismo archivo esquemático que está en desarrollo.
+* Si se utilizan componentes existentes que no tienen los campos cargados, generar un componente
+nuevo agregando la información mínima. Esto facilita la reutilización de un mismo componente por
+varios diseñadores y, además, es garantía de que al menos la descripción, el número de parte y el
+fabricante, serán consistentes en todo el esquemático.
+* Para el caso particular de los componentes pasivos como resistores o capacitores, puede
+prescindirse de los campos Fabricante y Número de parte. Pero no debe dejar de incluirse la
+descripción con la tolerancia, la tensión, la potencia y aquello necesario para evitar errores en la
+compra y el armado.
+* Toda esta información contenida en los componentes, permitirá generar fácilmente desde el
+esquemático una lista completa de materiales con todos los datos para revisar footprints, revisar
+valores y tolerancias, y realizar la compra.
+* Ver la sección Lineamientos específicos para Kicad.
+
+####Designators####
+* Usar las siguientes letras para identificar a los componentes:
+
+    - FB Ferrite
+    - C Capacitor
+    - D Diodo o LED
+    - F Fusible
+    - H Agujero de sujeción
+    - J Conector, Jack, Plug, Bornera
+    - JP Jumper
+    - K Relay
+    - L Inductor
+    - Q Transistor de cualquier tipo BJT, JFET, MOSFET
+    - R Resistor
+    - S Switch, Dip Switch
+    - T Transformador
+    - TP Testpoint
+    - U Integrado
+    - X Cristal
+
+
+####Valores de resistencia, capacidad e inductancia####
+* En el caso de componentes críticos es posible incorporar en este campo datos como
+tolerancia, tensión o potencia a fines de que queden visibles en el esquemático. Por ejemplo,
+para un resistor de 100 ohm al 1 % usar "100 1%".
+* Usar los símbolos del Sistema Internacional de unidades, respetando las mayúsculas y
+minúsculas.
+
+    - mega  M
+    - kilo  k
+    - milli m
+    - micro u
+    - nano  n 
+    - pico  p
+
+* Expresar, siempre que sea posible, las resistencias en ohms, las capacidades en uF y las
+inductancias en mH.
+* Separar los decimales con coma, no con punto. No usar 4k7. Usar 4,7k.
+* Indicar los resistores de 0 ohm con "0R".
+* Ser consistente con los valores de los componentes, no utilizar en el mismo esquemático
+0,1uF y 100nF, o uno o el otro.
+
+
+####Descripción de componentes####
+* Completar la descripción de cada componente, ya que de ella se extraen datos como: corriente,
+potencia, tensión máxima, frecuencia o tolerancia. Utilizar mayúsculas.
+* Incluir en las descripciones todos los parámetros indicados a continuación:
+    - Capacitores: Tipo (cerámico, aluminio, tantalio), capacidad, tensión, coeficiente de
+temperatura y tolerancia.
+    - Resistores: Resistencia, potencia y tolerancia.
+    - Inductores: Inductancia y corriente.
+    - Transistores: Tensión y corriente.
+    - Integrados: Descripción breve.
+    - Conectores: Descripción breve y pitch. Indicar si son SMD o THT.
+* Utilizar descripciones similares a las siguientes:
+
+    - CAP CER 0,1uF 50V X5R 10%
+    - CAP CER 22uF 4V X5R 20%
+    - CAP CER 10uF 35V X5R
+    - RES 1,6K 1/10W 1%
+    - RES 0R 1/16W
+    - INDUCTOR POWER 10uH 0,85A SMD
+    - CRYSTAL 24,0000MHZ 18pF SMD
+    - DIODO SCHOTTKY 20V 1A
+    - IC MCU 32BIT ARM QUAD
+    - IC TXRX 10/100/1000 SGL
+    - IC FLASH 16MBIT 75MHZ
+    - IC DDR3 SDRAM 2GBIT 667MHZ
+    - IC REG BUCK SYNC ADJ 0,5A
+    - IC GATE AND SGL 2INP
+    - CONECTOR RCPT HI-SPD 0,5mm 60POS DL
+    - MOSFET N-CH 20V 915mA SOT-416
+    - TRAN NPN 200mA 40V SOT-23
+    - FERRITE CHIP 220 OHM 2500mA 0603
+    - LED VERDE 570nM 0603
+
+
+####Lineamientos específicos para Kicad####
+* Para facilitar el agregado de campos en Kicad, configurar el nombre de los 
+mismos desde EEschema->Preferences->Options->Template Field Names. Respetar las
+mayúsculas y minúsculas y no ingresar tildes.  
+![Configuración de los nombres de los campos](config_field_names.png)
+
+* Utilizar los siguientes campos respetando el orden:
+    - Reference: Colocar la letra indentificatoria del tipo de componente (C, R, U). Ver la sección
+Designators para seleccionar la letra más apropiada para cada componente.
+    - Value: Colocar el valor/número de parte
+    - Footprint: Nombre exacto del módulo que debe buscar Kicad en las librerías (respetar mayúsculas y minúsculas)
+    - Field1 (F4): Descripción completa del componente
+    - Field2 (F5): Fabricante
+    - Field3 (F6): Número de parte del fabricante
+    - Field4 (F7): Path en cvs de la hoja de datos
+    - Field5 (F8): Código Digikey/Mouser
+    - Field6 (F9): Nomenclatura estándar del footprint a utilizar
+
+
+* Ejemplo de los campos cargados para un regulador:  
+    ![Imagen de las propiedades de un Regulador](imagen_componente.png)
+    
+    
+###Cableado###
+* Orientación de líneas
+Utilizar solamente líneas horizontales y verticales. Líneas oblicuas sólo deben 
+ser usadas si aportan claridad por algún motivo.
+* Buses de datos
+Agrupar señales en buses siempre que sea posible.
+* Cruce de líneas
+    - Utilizar uniones (juctions) sólo en los casos que sea necesario.
+    - Evitar las conexiones en forma de cruz, ya que al imprimir pueden 
+    confundirse con dos líneas que se cruzan sin estar conectadas.
+    - Utilizar las conexiones de tipo T. Ver la imagen 3a de la figura 
+    http://en.wikipedia.org/wiki/File:Schematic_junctions.svg. No utilizar el 
+    arco de la figura 1b ya que se considera "arcaico". 
+* Integridad de señal
+    - Identificar los pares diferenciales con la herramienta específica que 
+    provea el software. Si el software no cuenta con esta funcionalidad, 
+    señalizar con una elipse o un rectángulo que envuelva ambas líneas y 
+    agregar el texto Par diferencial de 90 ohms.
+    - Agregar notas referidas a las limitaciones en el ruteo, ya sea en el largo 
+    de las pistas o en el ancho. 
+* Pines no utilizados
+    - Colocar el símbolo No Connection para los pines no utilizados en los 
+    integrados o conectores.
+    - Agregar una nota si los pines están reservados para un uso futuro. 
+* Test Points
+Considerar la necesidad de incluir test points para medir señales o jumpers para 
+aislar circuitos en caso de que sea necesario.     
+
+###Textos en general###
+* Agregar notas siempre que resulte necesario. Todo lo que aporte claridad es 
+útil.
+* Respetar un mismo idioma en todo el esquemático, si la mayoría de las notas 
+están en español, no agregar notas en inglés.
+* Orientar todos los textos (números de pines, nombres de nets, valores) 
+horizontalmente.
+* No superponer textos ni cruzar líneas sobre los mismos.
+* No colocar textos sobre los componentes.
+####Etiquetas####
+* Nombrar las nets en los conectores y en las señales que se considere 
+necesario. Esto facilita la identificación de las pistas en el PCB, 
+especialmente si requieren un ruteo especial.
+* Agregar en los nombres de las alimentaciones los valores de las tensiones. 
+Por ej. GEN_3V3.
+* Si se utiliza VCC en el esquemático, especificar la tensión de alimentación 
+en una nota dentro del esquemático.
+* Para nombrar las señales pueden utilizarse las abreviaturas estandarizadas. 
+Ver el Anexo A de la norma IEEE 991-1986.
+* Utilizar 24 caracteres como máximo en los nombres de las señales. 
+####Formato####
+    * Notas
+        - Las notas pueden ubicarse cerca de los componentes involucrados o al pie del esquemático, según el espacio que se disponga en la hoja y la longitud de la nota. Si la nota está al pie del esquemático, puede utilizarse una referencia numérica para correlacionar la misma con el componente.
+        - Utilizar minúsculas, de altura 60 mils, con estilo "normal" y mantener el color por defecto en el software (normalmente azul o negro).
+        - Para destacar alguna nota en particular, agregarle un título de altura 60 mils, con estilo "negrita" y en mayúsculas. Otra opción, si el software lo permite, es cambiarle el color a rojo.
+        - Todas las notas deben llevar un recuadro. 
+    * Nombres de los bloques de componentes
+        - Se utilizan para identificar a simple vista el contenido de una hoja o los diferentes bloques de la misma.
+        - Usar texto de altura 120 mils, con estilo "negrita" y mantener el color por defecto en el software.
+        - Agregarles un recuadro. 
+    * Etiquetas, designators y valores
+        - Todos los demás textos como las etiquetas (locales, globales o jerárquicas), los designators y los valores de los componentes deben tener el tamaño, el estilo y el color que poseen por defecto en el software.
+        - En el caso del Kicad todos estos textos son de 60 mils de altura y estilo "normal". 
+
+###Diagramas, tablas y notas a incluir###
+* Si el esquemático es complejo y tiene una gran cantidad de hojas, agregar un diagrama en bloques y una tabla de contenidos en la primera hoja.
+* Si alguna parte del esquemático necesita un diagrama en bloques adicional, como por ejemplo la conexión de las memorias DDR3, puede agregarse en la misma hoja. Ponerle un recuadro, un título y las notas que sean necesarias. Respetar los formatos indicados en Textos en general.
+* Agregar una tabla con las diferentes tensiones del circuito, qué periféricos alimentan y cuál es su capacidad de corriente.
+* Agregar una nota con las características de la alimentación de entrada. Por ej:
+<pre>Adaptador AC
+Tensión: 5VDC
+Corriente: 5A
+Polaridad: Positivo en el contacto interior
+Diámetro interno: 2.1 mm
+Diámetro externo: 5.5 mm
+<pre>
+* Agregar una nota con las convenciones generales para el documento. Ver el siguiente ejemplo:
+<pre>A menos que se indique lo contrario:
+Las resistencias están indicadas en ohms, 5%, y 1/16 Watt.
+Las capacidades están indicadas en uF, 10% y 50V.
+Los capacitores polarizados son de Tantalio.
+<pre>  

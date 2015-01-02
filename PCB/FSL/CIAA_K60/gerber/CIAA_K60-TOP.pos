@@ -1,0 +1,40 @@
+### Module positions - created on mar 28 oct 2014 14:19:14 ART ###
+### Printed by Pcbnew version pcbnew (2013-dec-23)-stable
+## Unit = inches, Angle = deg.
+## Side : TOP
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+C316     22uF             c_1206POL           1.4250    -2.9850      90.0    TOP
+C909     10uF             c_1206POL           2.1300    -1.5900     270.0    TOP
+C1303    4,7uF            c_1206POL           4.9000    -1.7000      90.0    TOP
+D202     ST1              LED-0603            4.9900    -2.1850      90.0    TOP
+D203     ST2              LED-0603            5.0700    -2.1850      90.0    TOP
+D701     LED red          LED-0603            3.3650    -1.4200      90.0    TOP
+D702     LED red          LED-0603            3.5150    -1.4200      90.0    TOP
+D703     LED red          LED-0603            3.6650    -1.4200      90.0    TOP
+D704     LED red          LED-0603            3.8150    -1.4200      90.0    TOP
+D705     LED red          LED-0603            3.9650    -1.4200      90.0    TOP
+D706     LED red          LED-0603            4.1150    -1.4200      90.0    TOP
+D707     LED red          LED-0603            4.2650    -1.4200      90.0    TOP
+D708     LED red          LED-0603            4.4150    -1.4200      90.0    TOP
+D802     LED red          LED-0603            1.7100    -2.6700       0.0    TOP
+D804     LED red          LED-0603            2.1300    -2.6700       0.0    TOP
+D806     LED red          LED-0603            2.5500    -2.6700       0.0    TOP
+D808     LED red          LED-0603            2.9700    -2.6700       0.0    TOP
+D809     LED red          LED-0603            3.4700    -2.9350     180.0    TOP
+D810     LED red          LED-0603            3.9200    -2.9350     180.0    TOP
+D811     LED red          LED-0603            4.3700    -2.9350     180.0    TOP
+D812     LED red          LED-0603            4.8200    -2.9350     180.0    TOP
+D1001    SD CARD          LED-0603            4.4000    -2.1000     270.0    TOP
+D1102    MBRS540T3G       DO-214AB_SMC        5.8100    -3.1700     180.0    TOP
+D1105    LED +5V          LED-0603            5.1500    -2.1850      90.0    TOP
+J502     USB OTG          USB_MicroAB         5.9677    -2.0287      90.0    TOP
+J1302    JTAG DEBUG USB   USB_MicroAB         5.9677    -1.4677      90.0    TOP
+L1101    47uH             L_10x9.8_SMD        5.3250    -2.8900      90.0    TOP
+Q805     FQT13N06L        SOT-223             3.5400    -3.1700     180.0    TOP
+Q806     FQT13N06L        SOT-223             3.9900    -3.1700     180.0    TOP
+Q807     FQT13N06L        SOT-223             4.4400    -3.1700     180.0    TOP
+Q808     FQT13N06L        SOT-223             4.8900    -3.1700     180.0    TOP
+U302     KSZ8041TLI       TQFP48              1.5900    -2.3400       0.0    TOP
+U502     PRTR5V0U2X       SOT-143-4           5.5850    -2.0400     180.0    TOP
+U1304    PRTR5V0U2X       SOT-143-4           5.6100    -1.4800     180.0    TOP
+## End

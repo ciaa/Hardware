@@ -1,0 +1,21 @@
+#Proyecto CIAA - FSL#
+Autor: INTI CMNB - Unidad técnica de integración de sistemas  
+Fecha: $Date: 2014/12/10 20:04:44 $
+
+## Procedimiento y consideraciones para el armado ##
+
+Para el correcto armado de la versión CEIBO 1.0 considerar las siguientes 
+indicaciones:
+- R412: No soldar debido a que trae problemas con el reset del micro.
+- R817, R818, R819, R820 (resistores de 0 ohm): No soldar si están soldados los 
+MOSFET de las salidas digitales.
+- C1201: Soldar un capacitor de 0.1 uF 50 V.
+- R203 y R1302: Soldar resistores de 100 ohms al 5%.
+
+## Procedimiento para la Puesta en Marcha ##
+
+Para la puesta en marcha de la versión CEIBO 1.0:
+- Respetar las indicaciones de armado del punto anterior.
+- Considerar que las entradas digitales fueron cableadas por error a entradas 
+analógicas y que, para utilizarlas, se deben cablear con wire wrap a los pines de 
+GPIO en el conector de expansión.

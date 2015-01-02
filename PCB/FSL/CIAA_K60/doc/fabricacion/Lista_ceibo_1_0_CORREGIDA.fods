@@ -1,0 +1,3408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
+ <office:meta><dc:creator>Noelia Solange</dc:creator><dc:date>2014-11-18T15:08:43</dc:date><meta:editing-cycles>8</meta:editing-cycles><meta:editing-duration>PT2H26M29S</meta:editing-duration><meta:generator>LibreOffice/3.5$Linux_x86 LibreOffice_project/350m1$Build-2</meta:generator><meta:document-statistic meta:table-count="1" meta:cell-count="844" meta:object-count="0"/></office:meta>
+ <office:settings>
+  <config:config-item-set config:name="ooo:view-settings">
+   <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
+   <config:config-item config:name="VisibleAreaLeft" config:type="int">0</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">49865</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">70691</config:config-item>
+   <config:config-item-map-indexed config:name="Views">
+    <config:config-item-map-entry>
+     <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
+     <config:config-item-map-named config:name="Tables">
+      <config:config-item-map-entry config:name="Sheet1">
+       <config:config-item config:name="CursorPositionX" config:type="int">7</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">92</config:config-item>
+       <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="VerticalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">75</config:config-item>
+       <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">70</config:config-item>
+       <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+       <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+      </config:config-item-map-entry>
+     </config:config-item-map-named>
+     <config:config-item config:name="ActiveTable" config:type="string">Sheet1</config:config-item>
+     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">270</config:config-item>
+     <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+     <config:config-item config:name="ZoomValue" config:type="int">70</config:config-item>
+     <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+     <config:config-item config:name="ShowPageBreakPreview" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="ShowZeroValues" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="ShowNotes" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="GridColor" config:type="long">12632256</config:config-item>
+     <config:config-item config:name="ShowPageBreaks" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="HasSheetTabs" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsOutlineSymbolsSet" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsSnapToRaster" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="RasterResolutionX" config:type="int">1270</config:config-item>
+     <config:config-item config:name="RasterResolutionY" config:type="int">1270</config:config-item>
+     <config:config-item config:name="RasterSubdivisionX" config:type="int">1</config:config-item>
+     <config:config-item config:name="RasterSubdivisionY" config:type="int">1</config:config-item>
+     <config:config-item config:name="IsRasterAxisSynchronized" config:type="boolean">true</config:config-item>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
+  </config:config-item-set>
+  <config:config-item-set config:name="ooo:configuration-settings">
+   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsDocumentShared" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AutoCalculate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
+   <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrinterName" config:type="string"/>
+   <config:config-item config:name="RasterResolutionY" config:type="int">1270</config:config-item>
+   <config:config-item config:name="IsRasterAxisSynchronized" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
+   <config:config-item config:name="RasterResolutionX" config:type="int">1270</config:config-item>
+   <config:config-item config:name="IsSnapToRaster" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="RasterSubdivisionX" config:type="int">1</config:config-item>
+   <config:config-item config:name="GridColor" config:type="long">12632256</config:config-item>
+   <config:config-item config:name="ShowZeroValues" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="RasterSubdivisionY" config:type="int">1</config:config-item>
+   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ShowPageBreaks" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsOutlineSymbolsSet" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="LinkUpdateMode" config:type="short">3</config:config-item>
+   <config:config-item config:name="ShowNotes" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="HasSheetTabs" config:type="boolean">true</config:config-item>
+  </config:config-item-set>
+ </office:settings>
+ <office:scripts>
+  <office:script script:language="ooo:Basic">
+   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </office:script>
+ </office:scripts>
+ <office:font-face-decls>
+  <style:font-face style:name="Arial" svg:font-family="Arial" style:font-family-generic="swiss"/>
+  <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="DejaVu Sans" svg:font-family="&apos;DejaVu Sans&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Droid Sans Fallback" svg:font-family="&apos;Droid Sans Fallback&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="FreeSans" svg:font-family="FreeSans" style:font-family-generic="system" style:font-pitch="variable"/>
+ </office:font-face-decls>
+ <office:styles>
+  <style:default-style style:family="table-cell">
+   <style:paragraph-properties style:tab-stop-distance="0.5in"/>
+   <style:text-properties style:font-name="Liberation Sans" fo:language="en" fo:country="US" style:font-name-asian="DejaVu Sans" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="DejaVu Sans" style:language-complex="hi" style:country-complex="IN"/>
+  </style:default-style>
+  <number:number-style style:name="N0">
+   <number:number number:min-integer-digits="1"/>
+  </number:number-style>
+  <number:currency-style style:name="N104P0" style:volatile="true">
+   <number:currency-symbol number:language="en" number:country="US">$</number:currency-symbol>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+  </number:currency-style>
+  <number:currency-style style:name="N104">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>-</number:text>
+   <number:currency-symbol number:language="en" number:country="US">$</number:currency-symbol>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N104P0"/>
+  </number:currency-style>
+  <number:time-style style:name="N121">
+   <number:minutes number:style="long"/>
+   <number:text>:</number:text>
+   <number:seconds number:style="long"/>
+  </number:time-style>
+  <number:time-style style:name="N122" number:truncate-on-overflow="false">
+   <number:hours/>
+   <number:text>:</number:text>
+   <number:minutes number:style="long"/>
+   <number:text>:</number:text>
+   <number:seconds number:style="long"/>
+  </number:time-style>
+  <number:time-style style:name="N123">
+   <number:minutes number:style="long"/>
+   <number:text>:</number:text>
+   <number:seconds number:style="long" number:decimal-places="1"/>
+  </number:time-style>
+  <number:number-style style:name="N124">
+   <number:scientific-number number:decimal-places="1" number:min-integer-digits="3" number:min-exponent-digits="1"/>
+  </number:number-style>
+  <number:date-style style:name="N5120" number:language="en" number:country="US">
+   <number:month/>
+   <number:text>/</number:text>
+   <number:day/>
+   <number:text>/</number:text>
+   <number:year number:style="long"/>
+  </number:date-style>
+  <number:date-style style:name="N5121" number:language="en" number:country="US">
+   <number:day/>
+   <number:text>-</number:text>
+   <number:month number:textual="true"/>
+   <number:text>-</number:text>
+   <number:year/>
+  </number:date-style>
+  <number:date-style style:name="N5122" number:language="en" number:country="US">
+   <number:day/>
+   <number:text>-</number:text>
+   <number:month number:textual="true"/>
+  </number:date-style>
+  <number:date-style style:name="N5123" number:language="en" number:country="US">
+   <number:month number:textual="true"/>
+   <number:text>-</number:text>
+   <number:year/>
+  </number:date-style>
+  <number:time-style style:name="N5124" number:language="en" number:country="US">
+   <number:hours/>
+   <number:text>:</number:text>
+   <number:minutes number:style="long"/>
+   <number:text> </number:text>
+   <number:am-pm/>
+  </number:time-style>
+  <number:time-style style:name="N5125" number:language="en" number:country="US">
+   <number:hours/>
+   <number:text>:</number:text>
+   <number:minutes number:style="long"/>
+   <number:text>:</number:text>
+   <number:seconds number:style="long"/>
+   <number:text> </number:text>
+   <number:am-pm/>
+  </number:time-style>
+  <number:time-style style:name="N5126" number:language="en" number:country="US">
+   <number:hours/>
+   <number:text>:</number:text>
+   <number:minutes number:style="long"/>
+  </number:time-style>
+  <number:time-style style:name="N5127" number:language="en" number:country="US">
+   <number:hours/>
+   <number:text>:</number:text>
+   <number:minutes number:style="long"/>
+   <number:text>:</number:text>
+   <number:seconds number:style="long"/>
+  </number:time-style>
+  <number:date-style style:name="N5128" number:language="en" number:country="US">
+   <number:month/>
+   <number:text>/</number:text>
+   <number:day/>
+   <number:text>/</number:text>
+   <number:year number:style="long"/>
+   <number:text> </number:text>
+   <number:hours/>
+   <number:text>:</number:text>
+   <number:minutes number:style="long"/>
+  </number:date-style>
+  <number:number-style style:name="N5130P0" style:volatile="true" number:language="en" number:country="US">
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N5130" number:language="en" number:country="US">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>(</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N5130P0"/>
+  </number:number-style>
+  <number:number-style style:name="N5132P0" style:volatile="true" number:language="en" number:country="US">
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:number-style>
+  <number:number-style style:name="N5132" number:language="en" number:country="US">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>(</number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N5132P0"/>
+  </number:number-style>
+  <number:currency-style style:name="N5134P0" style:volatile="true" number:language="en" number:country="US">
+   <number:currency-symbol/>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:currency-style>
+  <number:currency-style style:name="N5134" number:language="en" number:country="US">
+   <number:text>(</number:text>
+   <number:currency-symbol/>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N5134P0"/>
+  </number:currency-style>
+  <number:currency-style style:name="N5135P0" style:volatile="true" number:language="en" number:country="US">
+   <number:currency-symbol/>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:currency-style>
+  <number:currency-style style:name="N5135" number:language="en" number:country="US">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>(</number:text>
+   <number:currency-symbol/>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N5135P0"/>
+  </number:currency-style>
+  <number:currency-style style:name="N5137P0" style:volatile="true" number:language="en" number:country="US">
+   <number:currency-symbol/>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:currency-style>
+  <number:currency-style style:name="N5137" number:language="en" number:country="US">
+   <number:text>(</number:text>
+   <number:currency-symbol/>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N5137P0"/>
+  </number:currency-style>
+  <number:currency-style style:name="N5138P0" style:volatile="true" number:language="en" number:country="US">
+   <number:currency-symbol/>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+  </number:currency-style>
+  <number:currency-style style:name="N5138" number:language="en" number:country="US">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>(</number:text>
+   <number:currency-symbol/>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text>)</number:text>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N5138P0"/>
+  </number:currency-style>
+  <style:style style:name="Default" style:family="table-cell">
+   <style:table-cell-properties fo:padding="0.028in" style:rotation-align="none"/>
+   <style:text-properties style:font-name="Arial" style:font-name-asian="Droid Sans Fallback" style:font-name-complex="FreeSans"/>
+  </style:style>
+  <style:style style:name="Result" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:font-style="italic" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="Result2" style:family="table-cell" style:parent-style-name="Result" style:data-style-name="N104"/>
+  <style:style style:name="Heading" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
+   <style:paragraph-properties fo:text-align="center"/>
+   <style:text-properties fo:font-size="16pt" fo:font-style="italic" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="Heading1" style:family="table-cell" style:parent-style-name="Heading">
+   <style:table-cell-properties style:rotation-angle="90"/>
+  </style:style>
+ </office:styles>
+ <office:automatic-styles>
+  <style:style style:name="co1" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="4.2602in"/>
+  </style:style>
+  <style:style style:name="co2" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="1.461in"/>
+  </style:style>
+  <style:style style:name="co3" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.4917in"/>
+  </style:style>
+  <style:style style:name="co4" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="2.8453in"/>
+  </style:style>
+  <style:style style:name="co5" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="1.8346in"/>
+  </style:style>
+  <style:style style:name="co6" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="2.5484in"/>
+  </style:style>
+  <style:style style:name="co7" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="1.961in"/>
+  </style:style>
+  <style:style style:name="co8" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="4.2291in"/>
+  </style:style>
+  <style:style style:name="co9" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.889in"/>
+  </style:style>
+  <style:style style:name="ro1" style:family="table-row">
+   <style:table-row-properties style:row-height="0.1965in" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro2" style:family="table-row">
+   <style:table-row-properties style:row-height="0.352in" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro3" style:family="table-row">
+   <style:table-row-properties style:row-height="1.1291in" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro4" style:family="table-row">
+   <style:table-row-properties style:row-height="0.6634in" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro5" style:family="table-row">
+   <style:table-row-properties style:row-height="0.5075in" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro6" style:family="table-row">
+   <style:table-row-properties style:row-height="0.1957in" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ta1" style:family="table" style:master-page-name="PageStyle_5f_Sheet1">
+   <style:table-properties table:display="true" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="ce1" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" style:text-align-source="value-type" style:repeat-content="false" fo:wrap-option="wrap" style:direction="ltr" fo:padding="0.028in" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" style:vertical-align="automatic" style:vertical-justify="auto"/>
+   <style:paragraph-properties css3t:text-justify="auto" fo:margin-left="0in" style:writing-mode="page"/>
+   <style:text-properties style:text-position=""/>
+  </style:style>
+  <style:style style:name="ce2" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:background-color="#ffff00" style:text-align-source="value-type" style:repeat-content="false" fo:wrap-option="wrap" style:direction="ltr" fo:padding="0.028in" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" style:vertical-align="automatic" style:vertical-justify="auto"/>
+   <style:paragraph-properties css3t:text-justify="auto" fo:margin-left="0in" style:writing-mode="page"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-position="" style:font-name="Arial" fo:font-size="10pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce3" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" style:text-align-source="value-type" style:repeat-content="false" fo:background-color="transparent" fo:wrap-option="wrap" style:direction="ltr" fo:padding="0.028in" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" style:vertical-align="automatic" style:vertical-justify="auto"/>
+   <style:paragraph-properties css3t:text-justify="auto" fo:margin-left="0in" style:writing-mode="page"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-position="" style:font-name="Arial" fo:font-size="10pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce4" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="no-wrap" style:direction="ltr" fo:padding="0.028in" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" style:vertical-align="automatic" style:vertical-justify="auto"/>
+   <style:paragraph-properties fo:text-align="start" css3t:text-justify="auto" fo:margin-left="0in" style:writing-mode="page"/>
+   <style:text-properties style:text-position=""/>
+  </style:style>
+  <style:style style:name="ce5" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="no-wrap" style:direction="ltr" fo:padding="0.028in" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" style:vertical-align="automatic" style:vertical-justify="auto"/>
+   <style:paragraph-properties fo:text-align="center" css3t:text-justify="auto" fo:margin-left="0in" style:writing-mode="page"/>
+   <style:text-properties style:text-position=""/>
+  </style:style>
+  <style:style style:name="ce6" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties fo:padding="0.028in"/>
+   <style:text-properties style:text-position=""/>
+  </style:style>
+  <style:style style:name="ce7" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties fo:background-color="#ffff00" fo:padding="0.028in"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-position="" style:font-name="Arial" fo:font-size="10pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce8" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" style:text-align-source="value-type" style:repeat-content="false" fo:wrap-option="wrap" style:direction="ltr" fo:padding="0.028in" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" style:vertical-align="automatic" style:vertical-justify="auto"/>
+   <style:paragraph-properties css3t:text-justify="auto" fo:margin-left="0in" style:writing-mode="page"/>
+  </style:style>
+  <style:style style:name="ce9" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:background-color="#ffff00" style:text-align-source="value-type" style:repeat-content="false" fo:wrap-option="wrap" style:direction="ltr" fo:padding="0.028in" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" style:vertical-align="automatic" style:vertical-justify="auto"/>
+   <style:paragraph-properties css3t:text-justify="auto" fo:margin-left="0in" style:writing-mode="page"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:font-name="Arial" fo:font-size="10pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce10" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" style:text-align-source="value-type" style:repeat-content="false" fo:background-color="transparent" fo:wrap-option="wrap" style:direction="ltr" fo:padding="0.028in" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" style:vertical-align="automatic" style:vertical-justify="auto"/>
+   <style:paragraph-properties css3t:text-justify="auto" fo:margin-left="0in" style:writing-mode="page"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:font-name="Arial" fo:font-size="10pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce11" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="no-wrap" style:direction="ltr" fo:padding="0.028in" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" style:vertical-align="automatic" style:vertical-justify="auto"/>
+   <style:paragraph-properties fo:text-align="start" css3t:text-justify="auto" fo:margin-left="0in" style:writing-mode="page"/>
+  </style:style>
+  <style:style style:name="ce12" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="no-wrap" style:direction="ltr" fo:padding="0.028in" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" style:vertical-align="automatic" style:vertical-justify="auto"/>
+   <style:paragraph-properties fo:text-align="center" css3t:text-justify="auto" fo:margin-left="0in" style:writing-mode="page"/>
+  </style:style>
+  <style:style style:name="ce13" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties fo:padding="0.028in"/>
+  </style:style>
+  <style:style style:name="ce14" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties fo:background-color="#ffff00" fo:padding="0.028in"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:font-name="Arial" fo:font-size="10pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:page-layout style:name="pm1">
+   <style:page-layout-properties style:first-page-number="continue" style:writing-mode="lr-tb"/>
+   <style:header-style>
+    <style:header-footer-properties fo:min-height="0.2953in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-bottom="0.0984in"/>
+   </style:header-style>
+   <style:footer-style>
+    <style:header-footer-properties fo:min-height="0.2953in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-top="0.0984in"/>
+   </style:footer-style>
+  </style:page-layout>
+  <style:page-layout style:name="pm2">
+   <style:page-layout-properties style:writing-mode="lr-tb"/>
+   <style:header-style>
+    <style:header-footer-properties fo:min-height="0.2953in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-bottom="0.0984in" fo:border="2.49pt solid #000000" fo:padding="0.0071in" fo:background-color="#c0c0c0">
+     <style:background-image/>
+    </style:header-footer-properties>
+   </style:header-style>
+   <style:footer-style>
+    <style:header-footer-properties fo:min-height="0.2953in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-top="0.0984in" fo:border="2.49pt solid #000000" fo:padding="0.0071in" fo:background-color="#c0c0c0">
+     <style:background-image/>
+    </style:header-footer-properties>
+   </style:footer-style>
+  </style:page-layout>
+  <style:page-layout style:name="pm3">
+   <style:page-layout-properties style:num-format="1" style:print-orientation="portrait" fo:margin="0.7874in" fo:margin-top="0.7874in" fo:margin-bottom="0.7874in" fo:margin-left="0.7874in" fo:margin-right="0.7874in" style:scale-to="100%" style:writing-mode="lr-tb"/>
+   <style:header-style>
+    <style:header-footer-properties fo:min-height="0.2953in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-bottom="0.0984in"/>
+   </style:header-style>
+   <style:footer-style>
+    <style:header-footer-properties fo:min-height="0.2953in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-top="0.0984in"/>
+   </style:footer-style>
+  </style:page-layout>
+  <style:style style:name="T1" style:family="text">
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-position="0% 100%" style:font-name="Arial" fo:font-size="10pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+ </office:automatic-styles>
+ <office:master-styles>
+  <style:master-page style:name="Default" style:page-layout-name="pm1">
+   <style:header>
+    <text:p><text:sheet-name>???</text:sheet-name></text:p>
+   </style:header>
+   <style:header-left style:display="false"/>
+   <style:footer>
+    <text:p>Page <text:page-number>1</text:page-number></text:p>
+   </style:footer>
+   <style:footer-left style:display="false"/>
+  </style:master-page>
+  <style:master-page style:name="Report" style:page-layout-name="pm2">
+   <style:header>
+    <style:region-left>
+     <text:p><text:sheet-name>???</text:sheet-name> (<text:title>???</text:title>)</text:p>
+    </style:region-left>
+    <style:region-right>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2014-11-18">00/00/0000</text:date>, <text:time>00:00:00</text:time></text:p>
+    </style:region-right>
+   </style:header>
+   <style:header-left style:display="false"/>
+   <style:footer>
+    <text:p>Page <text:page-number>1</text:page-number> / <text:page-count>99</text:page-count></text:p>
+   </style:footer>
+   <style:footer-left style:display="false"/>
+  </style:master-page>
+  <style:master-page style:name="PageStyle_5f_Sheet1" style:display-name="PageStyle_Sheet1" style:page-layout-name="pm3">
+   <style:header>
+    <text:p><text:span text:style-name="T1"><text:sheet-name>???</text:sheet-name></text:span></text:p>
+   </style:header>
+   <style:header-left style:display="false">
+    <text:p><text:span text:style-name="T1"><text:sheet-name>???</text:sheet-name></text:span></text:p>
+   </style:header-left>
+   <style:footer>
+    <text:p><text:span text:style-name="T1">Page </text:span><text:span text:style-name="T1"><text:page-number>1</text:page-number></text:span></text:p>
+   </style:footer>
+   <style:footer-left style:display="false">
+    <text:p><text:span text:style-name="T1">Page </text:span><text:span text:style-name="T1"><text:page-number>1</text:page-number></text:span></text:p>
+   </style:footer-left>
+  </style:master-page>
+ </office:master-styles>
+ <office:body>
+  <office:spreadsheet>
+   <table:calculation-settings table:case-sensitive="false" table:use-regular-expressions="false"/>
+   <table:table table:name="Sheet1" table:style-name="ta1">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+    <table:table-column table:style-name="co1" table:default-cell-style-name="ce8"/>
+    <table:table-column table:style-name="co2" table:default-cell-style-name="ce11"/>
+    <table:table-column table:style-name="co3" table:default-cell-style-name="ce12"/>
+    <table:table-column table:style-name="co4" table:default-cell-style-name="ce13"/>
+    <table:table-column table:style-name="co5" table:default-cell-style-name="ce13"/>
+    <table:table-column table:style-name="co6" table:default-cell-style-name="ce13"/>
+    <table:table-column table:style-name="co7" table:default-cell-style-name="ce13"/>
+    <table:table-column table:style-name="co8" table:default-cell-style-name="ce13"/>
+    <table:table-column table:style-name="co9" table:number-columns-repeated="249" table:default-cell-style-name="ce13"/>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>CIAA - PCB</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="256"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>CEIBO 1.0</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="256"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión FSL Freescale K60</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="256"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>Autores: Ver &apos;doc/CHANGES.txt&apos; <text:s text:c="5"/>Licencia: Ver <text:s/>&apos;doc/LICENCIA_CIAA_FSL.txt&apos;</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="256"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>Fecha de Generación: 28/10/2014-16:59:22 CON CORRECCIONES MANUALES</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="256"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro6">
+     <table:table-cell table:number-columns-repeated="257"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>REF</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>VALUE</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>CANT</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>DESC</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>PN-DIGI-KEY</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>FAB</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>FOOT</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>NOTAS</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="249"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>BT1101</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>CR2032</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>HOLDER BATTERY FOR 2032 CELL</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>BH32T-C-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MPD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>2032batPTH</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell office:value-type="string">
+      <text:p>C201, C205, C206, C209, C210, C213, C214, C217, C218, C221, C223, C224, C227, C230, C302, C304, C305, C306, C307, C310, C312, C314, C315, C317, C402, C403, C404, C406, C407, C408, C409, C410, C501, C503, C801, C802, C803, C804, C910, C911, C912, C913, C914, C1001, C1002, C1003, C1005, C1104, C1106, C1301, C1302, C1305, C1306, C1307, C1311, C1312, C1313, C1314, C1315, C1316, C1317, C1318, C1319</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>100nF</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="63">
+      <text:p>63</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>CAP CER 0.1UF 16V 10% X7R 0603</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>399-1096-1-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Kemet</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>c_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>C203</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>2.2uF</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>CAP CER 2.2UF 10V 10% X7R 0603</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>587-2983-1-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Taiyo Yuden</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>c_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>C204, C207</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>18pF</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2">
+      <text:p>2</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>CAP CER 18PF 50V 5% NP0 0603</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>399-1052-1-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Kemet</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>c_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>C208, C212, C301, C1202</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>10nF</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4">
+      <text:p>4</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>CAP CER 10000PF 50V 10% X7R 0603</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>399-1091-1-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Kemet</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>c_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>C231, C303, C401, C405, C909, C1004, C1103</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>10uF</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="7">
+      <text:p>7</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>CAP TANT 10UF 6.3V 10% 1206</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>399-10116-1-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Kemet</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>c_1206POL</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>C308, C311, C313, C316</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>22uF</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4">
+      <text:p>4</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>CAP TANT 22UF 6.3V 10% 1206</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>399-8279-1-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Kemet</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>c_1206POL</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>C309</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>100pF</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>CAP CER 100PF 50V 10% X7R 0603</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>399-7824-1-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Kemet</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>c_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>C502, C1303, C1308, C1309, C1310</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>4,7uF</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5">
+      <text:p>5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>CAP TANT 4,7uF 6,3V 10% 1206 </text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>399-9717-1-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>KEMET</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>c_1206POL</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>C701, C702, C703, C704, C705, C706, C707, C708</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>1,5nF</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="8">
+      <text:p>8</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>CAP CER 1500PF 50V 10% X7R 0603</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>399-1084-1-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Kemet</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>c_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>C805, C806, C807, C808</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>1uF</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4">
+      <text:p>4</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>CAP CER 1UF 16V 10% X7R 0603</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>399-7847-1-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Kemet</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>c_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>C901, C902, C903, C904</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>1nF</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4">
+      <text:p>4</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>CAP CER 1000PF 50V 10% X7R 0603</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>399-1082-1-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Kemet</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>c_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>C905, C906, C907, C908</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>470pF</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4">
+      <text:p>4</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>CAP CER 470PF 50V 10% X7R 0603</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>399-1075-1-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Kemet</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>c_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>C1101</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>470uF</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>CAP ALUM 470UF 35V 20% SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>493-3961-1-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Nichicon</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>c_elec_10x13_5</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>C1102</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>330uF</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>CAP ALUM 330UF 25V 20% SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>493-9422-1-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Nichicon</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>c_elec_8x10</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>C1105, C1201</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>100nF</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2">
+      <text:p>2</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>CAP CER 0.1UF 50V 10% X7R 0603</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>1276-1936-1-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Samsung</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>c_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>D201, D301, D302, D801, D803, D805, D807</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>LL4148</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="7">
+      <text:p>7</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>DIODE SMALL SIG 100V 0.2A SOD80</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>LL4148FSCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Fairchild</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SOD-123</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>D202, D1001</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>ST1, SD CARD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2">
+      <text:p>2</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>LED GRN WATER CLEAR 0603 SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>1080-1399-1-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Everlight Electronics Co Ltd</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>LED-0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>D203, D701, D702, D703, D704, D705, D706, D707, D708, D802, D804, D806, D808, D809, D810, D811, D812, D1105</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>ST2, LED red, LED +5V</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="18">
+      <text:p>18</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>LED ALG RED WTR CLR 0603 SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>1080-1400-1-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Everlight Electronics Co Ltd</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>LED-0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce10" office:value-type="string">
+      <text:p>D401, D402, D403</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>P6SMB12CAT3G</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="3">
+      <text:p>3</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TVS DIODE 10.2VWM 16.7VC SMB</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>P6SMB12CAT3GOSCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>ON Semiconductor</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>DO-214AA_SMB</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>D404</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>PESD1CAN</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TVS DIODE 24VWM 70VC SOT23</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>568-4032-1-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>NXP Semiconductors</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SOT-23</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>D501</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SMAJ5.0A</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TVS DIODE 5VWM SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SMAJ5.0ABCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Bourns Inc.</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>DO-214AC_SMA</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell office:value-type="string">
+      <text:p>D601, D602, D603, D604, D605, D606, D607, D609, D611, D612, D614, D615, D616, D617, D618, D619, D620, D621, D622, D624, D626, D627, D629, D630, D631, D632, D901, D902, D903, D904, D1201, D1202</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>BAV199</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="32">
+      <text:p>32</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>DIODE ARRAY 70V 215MA SOT23</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>BAV199LT1GOSCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>ON Semiconductor</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SOT-23</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>D905, D906, D907, D908</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>P6SMB20CAT3G</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4">
+      <text:p>4</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TVS DIODE 17.1VWM 27.7VC SMB</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>P6SMB20CAT3GOSCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>ON Semiconductor</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>DO-214AA_SMB</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce14" office:value-type="string">
+      <text:p>Componente no disponible, pedir a Ignacio Zaradnik</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="249"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>D1101, D1109</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MURS360</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2">
+      <text:p>2</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>DIODE ULTRAFAST 600V 3A SMC</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MURS360T3GOSCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>ON Semiconductor</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>DO-214AB_SMC</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>D1102</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MBRS540T3G</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>DIODE SCHOTTKY 40V 5A SMC</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MBRS540T3GOSCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>ON Semiconductor</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>DO-214AB_SMC</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>D1103, D1104</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MBRS130LT3G</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2">
+      <text:p>2</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>DIODE SCHOTTKY 30V 2A SMB</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MBRS130LT3GOSCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>ON Semiconductor</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>DO-214AA_SMB</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>D1106</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MMSZ5V6T1G</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>DIODE ZENER 5.6V 500MW SOD123</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MMSZ5V6T1GOSCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>ON Semiconductor</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SOD-123</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>D1107</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>P6SMB33CA</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TVS DIODE 28.2VWM 45.7VC SMB</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>P6SMB33CA-E3/52GICT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Vishay Semiconductor Diodes Division</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>DO-214AA_SMB</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>D1108</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>BAT54C</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>DIODE SCHOTTKY 30V 200MA</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>BAT54FSCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Fairchild Semiconductor</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SOT-23</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce14" office:value-type="string">
+      <text:p>Componente no disponible, pedir a Ignacio Zaradnik</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="249"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>FB201, FB202</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>ACML0603101</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2">
+      <text:p>2</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>FERRITE CHIP 100 OHM 200MA 0603</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>ACML-0603-101-TCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Abracon Corporation</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>fb_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>FB301, FB302, FB303, FB304</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>BK1608HS220-T</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4">
+      <text:p>4</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Ferrite Bead 22OHM 1500mA</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Alternativo: MH1608-221YCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Taiyo Yuden</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>fb_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>FB402, FB403, FB404, FB405</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>BLM18BD470SN1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4">
+      <text:p>4</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>FERRITE CHIP 47 OHM 500MA 0603</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>490-5211-1-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Murata Electronics North America</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>fb_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>FB501, FB1304</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>BLM18KG221SN1D</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2">
+      <text:p>2</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>FERRITE CHIP 220 OHM 2200MA 0603</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>490-5255-1-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MURATA</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>fb_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>FB502, FB901, FB902, FB903, FB904, FB1101, FB1102, FB1201, FB1301, FB1302, FB1303</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MMZ1608B601C</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="11">
+      <text:p>11</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>FERRITE CHIP 600 OHM 500MA 0603</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>445-2166-1-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TDK Corporation</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>fb_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>J301</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>ETHERNET</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>CONN MAGJACK 1PORT 100 BASE-TX</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>553-1483-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Pulse</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RJ45_Pulse_J403-A</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>J401, J403, J701, J702, J703, J803, J804, J805, J901, J1101</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RS485, CAN, DIG_INA, DIG_INB, DIG_INC, RELAY_OUTD, RELAY_OUTB, ANALOG INPUT 1, DC-INPUT</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="10">
+      <text:p>10</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TERM BLOCK 5.08MM VERT 3POS PCB</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>571-7969493</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TE Connectivity</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>bornier3</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>J402</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>DB9</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>CONN D-SUB RCPT 9POS RA GOLD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>S9554-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Sullins</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>DB9_F_TH</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>J502</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>USB OTG</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>CONNECTOR RECEPTACLE MICRO USB AB SMD BOTTOM MOUNT</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>H11635TR-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>HIROSE ELECTRIC</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>USB_MicroAB</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>J601</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>GPIO</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>&quot;CONN HEADER .100&quot;&quot; DUAL STR 80POS&quot;</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>J601</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Sullins Connector Solutions</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>PIN_ARRAY_11x2</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>J602</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>I2C</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>&quot;CONN HEADER .100&quot;&quot; DUAL STR 80POS&quot;</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>J602</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Sullins Connector Solutions</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>PIN_ARRAY_2x2</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>J603</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>ANALOG AUX</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>&quot;CONN HEADER .100&quot;&quot; DUAL STR 80POS&quot;</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>J603</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Sullins Connector Solutions</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>PIN_ARRAY_4x2</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>J604</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SPI</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>&quot;CONN HEADER .100&quot;&quot; DUAL STR 80POS&quot;</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>J604</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Sullins Connector Solutions</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>PIN_ARRAY_3x2</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>J801, J802, J902, J1102, J1201</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>OPDRAIN_OUTA, OPDRAIN_OUTB, ANALOG INPUT 2, DC-OUT, ANALOG OUT</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5">
+      <text:p>5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TERM BLOCK 5.08MM VERT 2POS PCB</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>571-7969492</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TE Connectivity</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>bornier2</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>J1001</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SD CARD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>CONN MEMORY CARD R/A 8POS SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>WM6698CT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Molex Inc.</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MicroSD_Hinged</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>J1302</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>JTAG DEBUG USB</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>CONNECTOR RECEPTACLE MICRO USB B SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>H11634CT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>HIROSE ELECTRIC</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>USB_MicroAB</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>J1303</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>JTAG DIRECTO</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>CONECTOR HDR 1,27MM SMD AU 10POS</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>952-1389-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>HARWIN</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>PIN_ARRAY_5x2_1.27_SMD</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>JP901, JP902, JP903, JP904, JP401, JP402, JP403, JP404, JP405, JP406</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>JUMPER</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="10">
+      <text:p>10</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>JUMPER 2 TERM</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>JP901, JP902, JP903, JP904, JP401, JP402, JP403, JP404, JP405, JP406</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Sullins Connector Solutions</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>PIN_ARRAY_2x1</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>JP905, JP906, JP907, JP908, JP1201</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>JUMPER3</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="5">
+      <text:p>5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>JUMPER 3 TERM</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>JP905, JP906, JP907, JP908, JP1201</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Sullins Connector Solutions</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>PIN_ARRAY_3x1</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>K801, K802, K803, K804</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>1461353-2</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4">
+      <text:p>4</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RELAY GENERAL PURPOSE SPST 5A 5V</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>PB1652-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TE Connectivity</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>1461353-2</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>L1101</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>47uH</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>INDUCTOR POWER SHIELD 47UH SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SRN1060-470MCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Bourns Inc.</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>L_10x9.8_SMD</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Q801, Q802, Q803, Q804</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>NDS7002A</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4">
+      <text:p>4</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MOSFET N-CH 60V 280MA SOT-23</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>NDS7002ACT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Fairchild</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SOT-23</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Q805, Q806, Q807, Q808</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>FQT13N06L</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4">
+      <text:p>4</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MOSFET N-CH 60V 2.8A SOT-223</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>FQT13N06LTFCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Fairchild</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SOT-223</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Q1001</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>FDN340P</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MOSFET P-CH 20V 2A SSOT3</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>FDN340PCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>ON Semiconductor</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SOT-23</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Q1201</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>BC817-40</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TRANS NPN 45V 500MA SOT-23</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>BC817-40LT3GOSCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>ON Semiconductor</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SOT-23</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>Q1202</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>PBSS5240XF</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TRANS PNP 40V 2A SOT89</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>568-10522-1-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>NXP Semiconductors</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SOT-89</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>R201, R202, R1204, R1312</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>2K2, 2.2k</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4">
+      <text:p>4</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RES 2.2K OHM 1/10W 5% 0603 SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>311-2.2KGRCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Yageo</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>r_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>R203, R1302</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>24,9 1%</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2">
+      <text:p>2</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RES 24.9 OHM 1/10W 1% 0603 SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>311-24.9HRCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Yageo</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>r_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>R204, R207, R1016</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="680">
+      <text:p>680</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="3">
+      <text:p>3</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RES 680 OHM 1/10W 5% 0603 SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>311-680GRCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Yageo</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>r_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>R205</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="22">
+      <text:p>22</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RES 22 OHM 1/10W 5%</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>311-22GRCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Yageo</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>r_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro5">
+     <table:table-cell office:value-type="string">
+      <text:p>R206, R301, R501, R502, R601, R602, R603, R604, R1008, R1010, R1011, R1012, R1013, R1015, R1206, R1301, R1309, R1310, R1311</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>10K</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="19">
+      <text:p>19</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RESISTOR 10k 1/10W 5% 0603 </text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>311-10KGRCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Yageo</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>r_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>R302, R303, R304, R305, R307, R308</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="33">
+      <text:p>33</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="6">
+      <text:p>6</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RES 33 OHM 1/10W 5% 0603 SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>CR0603-JW-330GLFCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Bourns Inc.</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>r_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>R306, R316, R401, R402, R403, R409, R412, R810, R811, R812, R813</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>4K7</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="11">
+      <text:p>11</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RES 4.7K OHM 1/10W 5% 0603 SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>311-4.7KGRCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Yageo</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>r_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce14" office:value-type="string">
+      <text:p>No soldar R412.</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="249"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>R309</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>6,49k 1%</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RES 6,49K OHM 1/10W 1% 0603 SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>311-6.49KHRCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Yageo</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>r_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>R310, R311, R312, R313</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>49,9 1%</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4">
+      <text:p>4</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RES 49,9 OHM 1/10W 1% 0603 SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>311-49.9HRCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Yageo</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>r_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>R314, R315, R411</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>270, 270R</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="3">
+      <text:p>3</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RES 270 OHM 1/10W 5% 0603 SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>311-270GRCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Yageo</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>r_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>R317</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>1M</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RES 1.0M OHM 1/10W 5% 0603 SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>311-1.0MGRCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Yageo</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>r_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>R406, R408</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="390">
+      <text:p>390</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2">
+      <text:p>2</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RES 390 OHM 1/10W 5% 0603 SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>311-390GRCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Yageo</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>r_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>R407</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="220">
+      <text:p>220</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RES 220 OHM 1/10W 5% 0603 SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>311-220GRCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Yageo</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>r_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>R410</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="100">
+      <text:p>100</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RES 100 OHM 1/2W 5% 2010 SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>CR2010-JW-101ELFCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Bourns Inc.</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>r_2010</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>R413, R414</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>1K5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2">
+      <text:p>2</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RES 1.5K OHM 1/10W 5% 0603 SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>311-1.5KGRCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Yageo</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>r_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>R415, R416</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>60 1%</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2">
+      <text:p>2</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RES 59.0 OHM 1/10W 1% 0603 SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>311-59.0HRCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Yageo</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>r_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>R701, R702, R703, R704, R705, R706, R707, R708</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>4,7K 1/4W</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="8">
+      <text:p>8</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RES 4.7K OHM 1/4W 5% 1206 SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>311-4.7KERCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Yageo</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>r_1206</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>R709, R710, R711, R712, R713, R714, R715, R716, R801, R802, R803, R807, R809, R814, R815, R816, R1101, R1304</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>1K</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="18">
+      <text:p>18</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RES 1.0K OHM 1/10W 5% 0603 SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>311-1.0KGRCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Yageo</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>r_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>R717, R718, R719, R720, R721, R722, R723, R724</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>33K</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="8">
+      <text:p>8</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RES 33K OHM 1/10W 5% 0603 SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>311-33KGRCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Yageo</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>r_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>R804, R805, R806, R808</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>100k</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4">
+      <text:p>4</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RES 100K OHM 1/10W 5% 0603 SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>311-100KGRCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Yageo</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>r_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>R817, R818, R819, R820, R1001, R1002, R1003, R1004, R1005, R1006, R1007, R1014</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>0R</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="12">
+      <text:p>12</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RES 0.0 OHM 1/10W JUMP 0603 SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>311-0.0GRCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Yageo</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>r_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce14" office:value-type="string">
+      <text:p>No soldar los resistores R817, R818, R819, R820.</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="249"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>R901, R902, R903, R904</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4.7">
+      <text:p>4.7</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4">
+      <text:p>4</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RES 4.7 OHM 1/10W 5% 0603 SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>311-4.7GRCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Yageo</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>r_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>R905, R906, R907, R908</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="237">
+      <text:p>237</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4">
+      <text:p>4</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RES 237 OHM 1/10W .1% 0603 SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>P237DBCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Panasonic Electronic Components</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>r_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string">
+      <text:p>R909, R910, R911, R912, R913, R914, R915, R916, R917, R918, R919, R920, R1201</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>15k</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="13">
+      <text:p>13</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RES 15.0K OHM 1/10W .1% 0603 SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RG16P15.0KBCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Susumu</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>r_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>R203, R921, R922, R923, R924, R1302</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="100">
+      <text:p>100</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="6">
+      <text:p>6</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RES 100 OHM 1/10W 5% 0603 SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>311-100GRCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>YAGEO</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>r_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>R1009</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>750k</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RES 750K OHM 1/10W 5% 0603 SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>311-750KGRCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Yageo</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>r_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>R1202</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>33k</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RES 33.0K OHM 1/10W .1% 0603 SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RG16P33.0KBCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Susumu</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>r_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>R1203</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>2.49k</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RES 2.49K OHM 1/10W .1% 0603 SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RG16P2.49KBCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Susumu</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>r_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>R1205</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="24.9">
+      <text:p>24.9</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RES 24.9 OHM 1/10W .1% SMD 0603</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RT0603BRD0724R9L-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Yageo</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>r_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>R1303</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>12K 1%</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RES 12.0K OHM 1/10W 1% 0603 SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>311-12.0KHRCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Yageo</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>r_0603</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>SW201</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>RESET</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SWITCH TACTILE SPST-NO 0.05A 12V</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>2-1437565-9</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TE Connectivity</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TACT_SMD_4</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>TH401, TH402</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>USMF020</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2">
+      <text:p>2</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>FUSE RESETTABLE .20A 30V HLD SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MF-USMF020-2CT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Bourns Inc.</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>ptc_1210</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce9" office:value-type="string">
+      <text:p>TH601</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MF-USMF035-2</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>FUSE RESETTABLE .35A HOLD SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MF-USMF035-2CT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Bourns Inc.</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>ptc_1210</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce14" office:value-type="string">
+      <text:p>Componente no disponible, pedir a Ignacio Zaradnik</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="249"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>TH603</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MF-USMF110-2</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>FUSE RESETTABLE 1.10A 6V HLD SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MF-USMF110-2CT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Bourns Inc.</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>ptc_1210</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>TH605, TH801, TH802, TH803, TH804, TH1102</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>1812L110/33MR</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="6">
+      <text:p>6</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>PTC RESETTABLE 33V 1.10A 1812L</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>F3486CT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Littelfuse Inc</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>ptc_1812</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>TH1101</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MF-SM300</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>FUSE RESETTABLE 3.0A HOLD SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MF-SM300-2CT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Bourns Inc.</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MF-SM300</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>TH1201</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MF-USMF005-2</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>FUSE RESETTABLE .05A 30V HLD SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MF-USMF005-2CT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Bourns Inc.</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>ptc_1210</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>TR501, TR1301</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SRF2012</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2">
+      <text:p>2</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>INDUCTOR COMMON MODE 90 OHM SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SRF2012-900YCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>BOURNS</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SRF2012</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>U201</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MK60FX512VLQ15</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MCU ARM 512KB FLASH</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MK60FX512VLQ15-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Freescale Semiconductor</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>LQFP144</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>U202, U1305</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SI501</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2">
+      <text:p>2</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>OSC MEMS 12.000MHZ CMOS SMD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>336-2889-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Silicon Laboratories</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SI501_C</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>U301</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>FXO-HC735-25</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>HCMOS 7 x 5mm 3.3V Oscillator</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>631-1055-1-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Fox Electronics</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>FXODFN4</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>U302</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>KSZ8041TLI</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Ethernet 10/100 PHY W/AUTO MDIX</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>576-2971-5-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Micrel</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TQFP48</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>U303</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>NB2304AI2DG</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>3.3 V Zero Delay Clock Buffer</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>NB2304AI2DGOS-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>ON Semi</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SOIC-8</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>U401</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SP1486EEN-L</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>IC TXRX RS485/422 PROFIBUS 8SOIC</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>1016-1003-5-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Exar Corporation</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SOIC-8</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>U402</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>ST3232E</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>IC DRVR/RCVR RS232 ESD 16-TSSOP</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>497-6538-1-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>STMicroelectronics</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TSSOP-16</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>U403</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>AMIS42665TJAA1RG</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TRANSCEIVER CAN HS LO PWR 8-SOIC</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>766-1006-1-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>ON Semiconductor</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SOIC-8</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>U501</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MIC2025-2YM</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>IC SINGLE CHANNEL POWER DISTRIBUTION SWITCH 500mA</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>576-1058-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MICREL</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SOIC-8</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>U502</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>PRTR5V0U2X</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>IC TVS DIODE 2 CHANNEL 10V CLAMP SOT1434</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>CM1213A-02SROSCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>ON SEMICONDUCTOR</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SOT-143-4</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>U701, U702</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TLP290-4</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="2">
+      <text:p>2</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>OPTOISOLTR 2.5KV 4CH TRANS 16-SO</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TLP290-4(TPETR-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Toshiba Semiconductor and Storage</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SSOP-16</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>U801, U802, U803, U804</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MCP1416T</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="4">
+      <text:p>4</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>IC MOSFET DVR 1.5A HS SOT23-5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MCP1416T-E/OTCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Microchip</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SOT-23-5</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>U901</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MCP6024</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>IC OPAMP GP 10MHZ RRO 14TSSOP</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>MCP6024-I/ST-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Microchip Technology</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TSSOP-14</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>U1001</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>S25FL032P0XMFI013</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>IC NOR FLASH 32MBIT 104MHZ</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>S25FL032P0XMFI013-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Spansion Inc.</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SOIC-8_WIDE</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>U1002</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>24AA1025</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>IC EEPROM 1MBIT 400KHZ 8SOIC</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>24AA1025-I/SN-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Microchip Technology</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SOIC-8</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>U1003</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>24AA025E48</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>IC EEPROM 2KBIT 400KHZ 8SOIC</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>24AA025E48-I/SN-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Microchip Technology</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SOIC-8</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>U1101</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>LM2596-5.0</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>IC REG BUCK 5V 3A TO263-5</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>LM2596SX-5.0/NOPBCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Texas Instruments</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>LM2596</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>U1102</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>NCP1117ST33T3G</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>IC REG LDO 3.3V 1A SOT223</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>NCP1117ST33T3GOSCT-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>ON Semiconductor</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SOT-223</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>U1201</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>LM358DG</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>IC OPAMP GP 1MHZ 8SOIC</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>LM358DGOS-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>ON Semiconductor</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SOIC-8</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>U1301</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>74HC244</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>IC BUFF/DVR TRI-ST DUAL 20TSSOP</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>568-8285-5-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>NXP</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TSSOP-20</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>U1302</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>FT2232H</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>IC FT2232H DUAL HIGH SPEED USB TO MULTIPURPOSE UART/FIFO</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>768-1024-1-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>FTDI CHIP</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>TQFP64</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>U1303</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>93C56</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>IC EEPROM 1KBIT 2MHZ 8SOIC</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>AT93C46DN-SH-B-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>ATMEL</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SOIC-8</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>U1304</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>PRTR5V0U2X</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>IC TVS DIODE 2 CHANNEL 10V CLAMP SOT1434</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>568-4140-1-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>NXP</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>SOT-143-4</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string">
+      <text:p>X202</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>32.768KHZ</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>CRYSTAL 32.768KHZ 12.5PF</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>535-9166-1-ND</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>Abracon Corporation</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string">
+      <text:p>4SOJ</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="250"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro6" table:number-rows-repeated="1048450">
+     <table:table-cell table:number-columns-repeated="257"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro6">
+     <table:table-cell table:number-columns-repeated="257"/>
+    </table:table-row>
+   </table:table>
+   <table:named-expressions/>
+  </office:spreadsheet>
+ </office:body>
+</office:document>
