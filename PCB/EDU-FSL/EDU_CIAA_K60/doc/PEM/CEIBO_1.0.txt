@@ -1,8 +1,0 @@
-#Proyecto EDU-CIAA - FSL#
-Fecha: $Date: 2015 $
-
-## Procedimiento y consideraciones para el armado ##
-
-
-## Procedimiento para la Puesta en Marcha ##
-
