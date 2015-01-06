@@ -1,4 +1,4 @@
-update=02/01/2015 09:01:27 a.m.
+update=06/01/2015 07:09:00 a.m.
 version=1
 last_client=eeschema
 [cvpcb]
@@ -39,4 +39,4 @@ RptD_Y=100
 RptLab=1
 LabSize=60
 [eeschema/libraries]
-LibName1=CIAAK60LIB
+LibName1=edu-ciaa-fsl

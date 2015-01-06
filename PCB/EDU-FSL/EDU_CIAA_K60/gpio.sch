@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:CIAAK60LIB
+LIBS:edu-ciaa-fsl
 LIBS:EDU_CIAA_K60-cache
 EELAYER 27 0
 EELAYER END
