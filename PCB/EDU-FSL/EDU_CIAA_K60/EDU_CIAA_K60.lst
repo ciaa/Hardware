@@ -1,4 +1,4 @@
-eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 02/01/2015 08:55:41 a.m.
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 09/01/2015 07:18:55 p.m.
 #Cmp ( order = Reference )
 | BT1        CR2032      
 | C1         100nF       
@@ -91,10 +91,10 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 02/01/2015 08:55:41 a.m
 | JP2        JUMPER      
 | JP3        JUMPER      
 | JP4        JUMPER      
-| L1         BLM18KG221SN1D
-| L2         MMZ1608B601C
-| L5         MMZ1608B601C
-| L6         MMZ1608B601C
+| L1         ~           
+| L2         ~           
+| L5         ~           
+| L6         ~           
 | L7         MMZ1608B601C
 | L8         BLM18KG221SN1D
 | L9         ACML0603101 
@@ -196,6 +196,7 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 02/01/2015 08:55:41 a.m
 | 18pF         C36       
 | 10nF         C47       
 | 10nF         C51       
+| 100nF        C22       
 | 100nF        C1        
 | 100nF        C3        
 | 100nF        C5        
@@ -211,10 +212,13 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 02/01/2015 08:55:41 a.m
 | 100nF        C19       
 | 100nF        C20       
 | 100nF        C21       
-| 100nF        C22       
 | 100nF        C23       
 | 100nF        C25       
 | 100nF        C27       
+| 100nF        C28       
+| 100nF        C29       
+| 100nF        C30       
+| 100nF        C31       
 | 100nF        C33       
 | 100nF        C34       
 | 100nF        C35       
@@ -229,10 +233,6 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 02/01/2015 08:55:41 a.m
 | 100nF        C48       
 | 100nF        C49       
 | 100nF        C50       
-| 100nF        C28       
-| 100nF        C29       
-| 100nF        C30       
-| 100nF        C31       
 | 2.2uF        C46       
 | 4,7uF        C2        
 | 4,7uF        C9        
@@ -251,11 +251,11 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 02/01/2015 08:55:41 a.m
 | P6SMB12CAT3G D9        
 | SMAJ5.0A     D1        
 | LED +5V      D5        
-| ST1          D13       
-| ST2          D14       
 | LED          D10       
 | LED          D11       
 | LED          D12       
+| ST1          D13       
+| ST2          D14       
 | LL4148       D15       
 | BAT54C       D6        
 | MF-MSMF030-2 F3        
@@ -274,18 +274,18 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 02/01/2015 08:55:41 a.m
 | FIDUCIAL     FD6       
 | OSHWA        G2        
 | RS485        J5        
+| TB_1X2       J2        
 | JTAG DIRECTO J4        
 | USB OTG      J1        
 | JTAG DEBUG USB J3        
-| TB_1X2       J2        
 | JUMPER       JP1       
 | JUMPER       JP2       
 | JUMPER       JP3       
 | JUMPER       JP4       
-| BLM18KG221SN1D L1        
-| MMZ1608B601C L2        
-| MMZ1608B601C L5        
-| MMZ1608B601C L6        
+| ~            L1        
+| ~            L2        
+| ~            L5        
+| ~            L6        
 | MMZ1608B601C L7        
 | BLM18KG221SN1D L8        
 | ACML0603101  L9        

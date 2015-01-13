@@ -7,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 8
 Title "CIAA RS485 "
-Date "2 jan 2015"
+Date "13 jan 2015"
 Rev "0.0"
 Comp "EDU-CIAA - FSL . Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
@@ -38,14 +38,14 @@ U 1 1 52C5B34A
 P 5500 2650
 F 0 "C27" V 5550 2800 40  0000 C CNN
 F 1 "100nF" V 5350 2650 40  0000 C CNN
-F 2 "c_0603" H 5500 2650 60  0001 C CNN
+F 2 "c_0805" H 5500 2650 60  0001 C CNN
 F 3 "~" H 5500 2650 60  0000 C CNN
-F 4 "CAP CER 0.1UF 16V 10% X7R 0603" H 6800 -600 60  0001 C CNN "Descripcion"
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
 F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
-F 6 "C0603C104K4RACTU" H 6800 -600 60  0001 C CNN "Nro. parte"
+F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
 F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
-F 8 "399-1096-1-ND" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603 (1608 Metric)" H 6800 -600 60  0001 C CNN "Footprint estandar"
+F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    5500 2650
 	-1   0    0    1   
 $EndComp
@@ -66,14 +66,14 @@ U 1 1 52C5B34D
 P 6900 3950
 F 0 "R16" V 7000 3950 40  0000 C CNN
 F 1 "220" V 6900 3950 40  0000 C CNN
-F 2 "r_0603" H 6900 3950 60  0001 C CNN
-F 3 "~" H 6900 3950 60  0000 C CNN
-F 4 "RES 220 OHM 1/10W 5% 0603 SMD" H 6900 3950 60  0001 C CNN "Descripcion"
-F 5 "Yageo" H 6900 3950 60  0001 C CNN "Fabricante"
-F 6 "RC0603JR-07220RL" H 6900 3950 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/" H 6900 3950 60  0001 C CNN "Path datasheet"
-F 8 "311-220GRCT-ND" H 6900 3950 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603 (1608 Metric)" H 6900 3950 60  0001 C CNN "Footprint estandar"
+F 2 "r_0805" H 4750 2650 60  0001 C CNN
+F 3 "~" H 4750 2650 60  0000 C CNN
+F 4 "RES 4.7K OHM 1/10W 5% 0805 SMD" H 6500 650 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 6500 650 60  0001 C CNN "Fabricante"
+F 6 "~" H 6500 650 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive" H 4750 2650 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6500 650 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6500 650 60  0001 C CNN "Footprint estandar"
 	1    6900 3950
 	1    0    0    -1  
 $EndComp
@@ -134,14 +134,14 @@ U 1 1 52C5B362
 P 6200 2500
 F 0 "R15" V 6300 2500 40  0000 C CNN
 F 1 "390" V 6200 2500 40  0000 C CNN
-F 2 "r_0603" H 6200 2500 60  0001 C CNN
-F 3 "~" H 6200 2500 60  0000 C CNN
-F 4 "RES 390 OHM 1/10W 5% 0603 SMD" H 6200 2500 60  0001 C CNN "Descripcion"
-F 5 "Yageo" H 6200 2500 60  0001 C CNN "Fabricante"
-F 6 "RC0603JR-07390RL" H 6200 2500 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/" H 6200 2500 60  0001 C CNN "Path datasheet"
-F 8 "311-390GRCT-ND" H 6200 2500 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603 (1608 Metric)" H 6200 2500 60  0001 C CNN "Footprint estandar"
+F 2 "r_0805" H 4750 2650 60  0001 C CNN
+F 3 "~" H 4750 2650 60  0000 C CNN
+F 4 "RES 4.7K OHM 1/10W 5% 0805 SMD" H 6500 650 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 6500 650 60  0001 C CNN "Fabricante"
+F 6 "~" H 6500 650 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive" H 4750 2650 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6500 650 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6500 650 60  0001 C CNN "Footprint estandar"
 	1    6200 2500
 	1    0    0    -1  
 $EndComp
@@ -172,14 +172,14 @@ U 1 1 52C5B380
 P 5350 4050
 F 0 "R14" V 5250 4050 40  0000 C CNN
 F 1 "4K7" V 5350 4050 40  0000 C CNN
-F 2 "r_0603" H 5350 4050 60  0001 C CNN
-F 3 "~" H 5350 4050 60  0000 C CNN
-F 4 "RES 4.7K OHM 1/10W 5% 0603 SMD" H 6950 1250 60  0001 C CNN "Descripcion"
-F 5 "Yageo" H 6950 1250 60  0001 C CNN "Fabricante"
-F 6 "RC0603JR-074K7L" H 6950 1250 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/" H 5350 4050 60  0001 C CNN "Path datasheet"
-F 8 "311-4.7KGRCT-ND" H 6950 1250 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603 (1608 Metric)" H 6950 1250 60  0001 C CNN "Footprint estandar"
+F 2 "r_0805" H 4750 2650 60  0001 C CNN
+F 3 "~" H 4750 2650 60  0000 C CNN
+F 4 "RES 4.7K OHM 1/10W 5% 0805 SMD" H 6500 650 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 6500 650 60  0001 C CNN "Fabricante"
+F 6 "~" H 6500 650 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive" H 4750 2650 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6500 650 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6500 650 60  0001 C CNN "Footprint estandar"
 	1    5350 4050
 	-1   0    0    1   
 $EndComp
@@ -268,14 +268,14 @@ U 1 1 52C5B38C
 P 4750 2650
 F 0 "R13" V 4850 2600 40  0000 L CNN
 F 1 "4K7" V 4750 2650 40  0000 C CNN
-F 2 "r_0603" H 4750 2650 60  0001 C CNN
+F 2 "r_0805" H 4750 2650 60  0001 C CNN
 F 3 "~" H 4750 2650 60  0000 C CNN
-F 4 "RES 4.7K OHM 1/10W 5% 0603 SMD" H 6500 650 60  0001 C CNN "Descripcion"
+F 4 "RES 4.7K OHM 1/10W 5% 0805 SMD" H 6500 650 60  0001 C CNN "Descripcion"
 F 5 "Yageo" H 6500 650 60  0001 C CNN "Fabricante"
-F 6 "RC0603JR-074K7L" H 6500 650 60  0001 C CNN "Nro. parte"
+F 6 "~" H 6500 650 60  0001 C CNN "Nro. parte"
 F 7 "../datasheet/passive" H 4750 2650 60  0001 C CNN "Path datasheet"
-F 8 "311-4.7KGRCT-ND" H 6500 650 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603 (1608 Metric)" H 6500 650 60  0001 C CNN "Footprint estandar"
+F 8 "~" H 6500 650 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6500 650 60  0001 C CNN "Footprint estandar"
 	1    4750 2650
 	1    0    0    -1  
 $EndComp
@@ -517,14 +517,14 @@ U 1 1 53C5C67B
 P 6900 5200
 F 0 "R17" V 7000 5200 40  0000 C CNN
 F 1 "390" V 6900 5200 40  0000 C CNN
-F 2 "r_0603" H 6900 5200 60  0001 C CNN
-F 3 "~" H 6900 5200 60  0000 C CNN
-F 4 "RES 390 OHM 1/10W 5% 0603 SMD" H 6900 5200 60  0001 C CNN "Descripcion"
-F 5 "Yageo" H 6900 5200 60  0001 C CNN "Fabricante"
-F 6 "RC0603JR-07390RL" H 6900 5200 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/" H 6900 5200 60  0001 C CNN "Path datasheet"
-F 8 "311-390GRCT-ND" H 6900 5200 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603 (1608 Metric)" H 6900 5200 60  0001 C CNN "Footprint estandar"
+F 2 "r_0805" H 4750 2650 60  0001 C CNN
+F 3 "~" H 4750 2650 60  0000 C CNN
+F 4 "RES 4.7K OHM 1/10W 5% 0805 SMD" H 6500 650 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 6500 650 60  0001 C CNN "Fabricante"
+F 6 "~" H 6500 650 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive" H 4750 2650 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6500 650 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6500 650 60  0001 C CNN "Footprint estandar"
 	1    6900 5200
 	1    0    0    -1  
 $EndComp
@@ -580,14 +580,14 @@ U 1 1 53F54746
 P 4650 4050
 F 0 "R12" V 4550 4050 40  0000 C CNN
 F 1 "4K7" V 4650 4050 40  0000 C CNN
-F 2 "r_0603" H 4650 4050 60  0001 C CNN
-F 3 "~" H 4650 4050 60  0000 C CNN
-F 4 "RES 4.7K OHM 1/10W 5% 0603 SMD" H 6250 1250 60  0001 C CNN "Descripcion"
-F 5 "Yageo" H 6250 1250 60  0001 C CNN "Fabricante"
-F 6 "RC0603JR-074K7L" H 6250 1250 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/" H 4650 4050 60  0001 C CNN "Path datasheet"
-F 8 "311-4.7KGRCT-ND" H 6250 1250 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603 (1608 Metric)" H 6250 1250 60  0001 C CNN "Footprint estandar"
+F 2 "r_0805" H 4750 2650 60  0001 C CNN
+F 3 "~" H 4750 2650 60  0000 C CNN
+F 4 "RES 4.7K OHM 1/10W 5% 0805 SMD" H 6500 650 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 6500 650 60  0001 C CNN "Fabricante"
+F 6 "~" H 6500 650 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive" H 4750 2650 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6500 650 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6500 650 60  0001 C CNN "Footprint estandar"
 	1    4650 4050
 	-1   0    0    1   
 $EndComp

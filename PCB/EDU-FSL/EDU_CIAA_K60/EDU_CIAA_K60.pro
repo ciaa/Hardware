@@ -1,11 +1,6 @@
-update=06/01/2015 07:09:00 a.m.
+update=06/01/2015 06:06:49 p.m.
 version=1
-last_client=eeschema
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+last_client=cvpcb
 [general]
 version=1
 [pcbnew]
@@ -28,8 +23,8 @@ DrawSegmentWidth=0.127000000000
 BoardOutlineThickness=0.508000000000
 ModuleOutlineThickness=0.127000000000
 [pcbnew/libraries]
+LibName1=edu-ciaa-fsl
 LibDir=footprints
-LibName1=CIAAFSL
 [eeschema]
 version=1
 LibDir=kicadlibs
@@ -40,3 +35,6 @@ RptLab=1
 LabSize=60
 [eeschema/libraries]
 LibName1=edu-ciaa-fsl
+[cvpcb]
+version=1
+NetIExt=net

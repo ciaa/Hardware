@@ -7,7 +7,7 @@ $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 8 8
 Title "Microcontrolador Freescale K60"
-Date "2 jan 2015"
+Date "13 jan 2015"
 Rev "0.0"
 Comp "EDU-CIAA - FSL . Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
@@ -32,14 +32,14 @@ U 1 1 52C1C275
 P 6900 1450
 F 0 "L9" H 6900 1700 60  0000 C CNN
 F 1 "ACML0603101" H 6950 1600 60  0000 C CNN
-F 2 "fb_0603" H 6900 1450 60  0001 C CNN
+F 2 "SM0805" H 6900 1450 60  0001 C CNN
 F 3 "~" H 6900 1450 60  0000 C CNN
-F 4 "FERRITE CHIP 100 OHM 200MA 0603" H 6900 1450 60  0001 C CNN "Descripcion"
+F 4 "FERRITE CHIP 100 OHM 200MA 0805" H 6900 1450 60  0001 C CNN "Descripcion"
 F 5 "Abracon Corporation" H 6900 1450 60  0001 C CNN "Fabricante"
-F 6 "ACML-0603-101-T" H 6900 1450 60  0001 C CNN "Nro. parte"
+F 6 "~" H 6900 1450 60  0001 C CNN "Nro. parte"
 F 7 "../datasheets/passive/Ferrite/ACML-0603.pdf" H 6900 1450 60  0001 C CNN "Path datasheet"
-F 8 "ACML-0603-101-TCT-ND" H 6900 1450 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603" H 6900 1450 60  0001 C CNN "Footprint estandar"
+F 8 "~" H 6900 1450 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6900 1450 60  0001 C CNN "Footprint estandar"
 	1    6900 1450
 	1    0    0    -1  
 $EndComp
@@ -49,14 +49,14 @@ U 1 1 52C1C2AB
 P 5850 1950
 F 0 "C44" V 5800 1800 40  0000 C CNN
 F 1 "100nF" V 5750 1800 40  0000 C CNN
-F 2 "c_0603" H 5850 1950 60  0001 C CNN
-F 3 "~" H 5850 1950 60  0000 C CNN
-F 4 "CAP CER 0.1UF 16V 10% X7R" H 5850 1950 60  0001 C CNN "Descripcion"
-F 5 "Kemet" H 5850 1950 60  0001 C CNN "Fabricante"
-F 6 "C0603C104K4RACTU" H 5850 1950 60  0001 C CNN "Nro. parte"
-F 7 "~" H 5850 1950 60  0001 C CNN "Path datasheet"
-F 8 "399-1096-1-ND" H 5850 1950 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603" H 5850 1950 60  0001 C CNN "Footprint estandar"
+F 2 "c_0805" H 5500 2650 60  0001 C CNN
+F 3 "~" H 5500 2650 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
+F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
+F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    5850 1950
 	0    -1   -1   0   
 $EndComp
@@ -272,14 +272,14 @@ U 1 1 538A2ECE
 P 6350 9550
 F 0 "C46" H 6550 9700 40  0000 C CNN
 F 1 "2.2uF" H 6550 9650 40  0000 C CNN
-F 2 "c_0603" H 6350 9550 60  0001 C CNN
-F 3 "~" H 6350 9550 60  0000 C CNN
-F 4 "CAP CER 2.2UF 10V 10% X7R 0603" H 6350 9550 60  0001 C CNN "Descripcion"
-F 5 "Taiyo Yuden" H 6350 9550 60  0001 C CNN "Fabricante"
-F 6 "LMK107B7225KA-T" H 6350 9550 60  0001 C CNN "Nro. parte"
-F 7 "~" H 6350 9550 60  0001 C CNN "Path datasheet"
-F 8 "587-2983-1-ND" H 6350 9550 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603" H 6350 9550 60  0001 C CNN "Footprint estandar"
+F 2 "c_0805" H 5500 2650 60  0001 C CNN
+F 3 "~" H 5500 2650 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
+F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
+F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    6350 9550
 	1    0    0    -1  
 $EndComp
@@ -289,14 +289,14 @@ U 1 1 538A2F0F
 P 7300 1700
 F 0 "C50" H 7400 1850 40  0000 C CNN
 F 1 "100nF" H 7400 1800 40  0000 C CNN
-F 2 "c_0603" H 7300 1700 60  0001 C CNN
-F 3 "~" H 7300 1700 60  0000 C CNN
-F 4 "CAP CER 0.1UF 16V 10% X7R" H 7300 1700 60  0001 C CNN "Descripcion"
-F 5 "Kemet" H 7300 1700 60  0001 C CNN "Fabricante"
-F 6 "C0603C104K4RACTU" H 7300 1700 60  0001 C CNN "Nro. parte"
-F 7 "~" H 7300 1700 60  0001 C CNN "Path datasheet"
-F 8 "399-1096-1-ND" H 7300 1700 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603" H 7300 1700 60  0001 C CNN "Footprint estandar"
+F 2 "c_0805" H 5500 2650 60  0001 C CNN
+F 3 "~" H 5500 2650 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
+F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
+F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    7300 1700
 	1    0    0    -1  
 $EndComp
@@ -306,14 +306,14 @@ U 1 1 538A2F22
 P 6200 1700
 F 0 "C45" H 6300 1850 40  0000 C CNN
 F 1 "100nF" H 6300 1800 40  0000 C CNN
-F 2 "c_0603" H 6200 1700 60  0001 C CNN
-F 3 "~" H 6200 1700 60  0000 C CNN
-F 4 "CAP CER 0.1UF 16V 10% X7R" H 6200 1700 60  0001 C CNN "Descripcion"
-F 5 "Kemet" H 6200 1700 60  0001 C CNN "Fabricante"
-F 6 "C0603C104K4RACTU" H 6200 1700 60  0001 C CNN "Nro. parte"
-F 7 "~" H 6200 1700 60  0001 C CNN "Path datasheet"
-F 8 "399-1096-1-ND" H 6200 1700 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603" H 6200 1700 60  0001 C CNN "Footprint estandar"
+F 2 "c_0805" H 5500 2650 60  0001 C CNN
+F 3 "~" H 5500 2650 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
+F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
+F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    6200 1700
 	1    0    0    -1  
 $EndComp
@@ -323,14 +323,14 @@ U 1 1 538A2F7D
 P 1000 10450
 F 0 "C33" H 900 10600 40  0000 C CNN
 F 1 "100nF" H 900 10550 40  0000 C CNN
-F 2 "c_0603" H 1000 10450 60  0001 C CNN
-F 3 "~" H 1000 10450 60  0000 C CNN
-F 4 "CAP CER 0.1UF 16V 10% X7R" H 1000 10450 60  0001 C CNN "Descripcion"
-F 5 "Kemet" H 1000 10450 60  0001 C CNN "Fabricante"
-F 6 "C0603C104K4RACTU" H 1000 10450 60  0001 C CNN "Nro. parte"
-F 7 "~" H 1000 10450 60  0001 C CNN "Path datasheet"
-F 8 "399-1096-1-ND" H 1000 10450 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603" H 1000 10450 60  0001 C CNN "Footprint estandar"
+F 2 "c_0805" H 5500 2650 60  0001 C CNN
+F 3 "~" H 5500 2650 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
+F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
+F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    1000 10450
 	1    0    0    -1  
 $EndComp
@@ -340,14 +340,14 @@ U 1 1 538A2F87
 P 1200 10450
 F 0 "C34" H 1100 10600 40  0000 C CNN
 F 1 "100nF" H 1100 10550 40  0000 C CNN
-F 2 "c_0603" H 1200 10450 60  0001 C CNN
-F 3 "~" H 1200 10450 60  0000 C CNN
-F 4 "CAP CER 0.1UF 16V 10% X7R" H 1200 10450 60  0001 C CNN "Descripcion"
-F 5 "Kemet" H 1200 10450 60  0001 C CNN "Fabricante"
-F 6 "C0603C104K4RACTU" H 1200 10450 60  0001 C CNN "Nro. parte"
-F 7 "~" H 1200 10450 60  0001 C CNN "Path datasheet"
-F 8 "399-1096-1-ND" H 1200 10450 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603" H 1200 10450 60  0001 C CNN "Footprint estandar"
+F 2 "c_0805" H 5500 2650 60  0001 C CNN
+F 3 "~" H 5500 2650 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
+F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
+F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    1200 10450
 	1    0    0    -1  
 $EndComp
@@ -357,14 +357,14 @@ U 1 1 538A2F91
 P 1400 10450
 F 0 "C35" H 1300 10600 40  0000 C CNN
 F 1 "100nF" H 1300 10550 40  0000 C CNN
-F 2 "c_0603" H 1400 10450 60  0001 C CNN
-F 3 "~" H 1400 10450 60  0000 C CNN
-F 4 "CAP CER 0.1UF 16V 10% X7R" H 1400 10450 60  0001 C CNN "Descripcion"
-F 5 "Kemet" H 1400 10450 60  0001 C CNN "Fabricante"
-F 6 "C0603C104K4RACTU" H 1400 10450 60  0001 C CNN "Nro. parte"
-F 7 "~" H 1400 10450 60  0001 C CNN "Path datasheet"
-F 8 "399-1096-1-ND" H 1400 10450 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603" H 1400 10450 60  0001 C CNN "Footprint estandar"
+F 2 "c_0805" H 5500 2650 60  0001 C CNN
+F 3 "~" H 5500 2650 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
+F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
+F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    1400 10450
 	1    0    0    -1  
 $EndComp
@@ -374,14 +374,14 @@ U 1 1 538A2F9B
 P 1600 10450
 F 0 "C37" H 1500 10600 40  0000 C CNN
 F 1 "100nF" H 1500 10550 40  0000 C CNN
-F 2 "c_0603" H 1600 10450 60  0001 C CNN
-F 3 "~" H 1600 10450 60  0000 C CNN
-F 4 "CAP CER 0.1UF 16V 10% X7R" H 1600 10450 60  0001 C CNN "Descripcion"
-F 5 "Kemet" H 1600 10450 60  0001 C CNN "Fabricante"
-F 6 "C0603C104K4RACTU" H 1600 10450 60  0001 C CNN "Nro. parte"
-F 7 "~" H 1600 10450 60  0001 C CNN "Path datasheet"
-F 8 "399-1096-1-ND" H 1600 10450 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603" H 1600 10450 60  0001 C CNN "Footprint estandar"
+F 2 "c_0805" H 5500 2650 60  0001 C CNN
+F 3 "~" H 5500 2650 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
+F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
+F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    1600 10450
 	1    0    0    -1  
 $EndComp
@@ -391,14 +391,14 @@ U 1 1 538A2FA5
 P 1800 10450
 F 0 "C38" H 1700 10600 40  0000 C CNN
 F 1 "100nF" H 1700 10550 40  0000 C CNN
-F 2 "c_0603" H 1800 10450 60  0001 C CNN
-F 3 "~" H 1800 10450 60  0000 C CNN
-F 4 "CAP CER 0.1UF 16V 10% X7R" H 1800 10450 60  0001 C CNN "Descripcion"
-F 5 "Kemet" H 1800 10450 60  0001 C CNN "Fabricante"
-F 6 "C0603C104K4RACTU" H 1800 10450 60  0001 C CNN "Nro. parte"
-F 7 "~" H 1800 10450 60  0001 C CNN "Path datasheet"
-F 8 "399-1096-1-ND" H 1800 10450 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603" H 1800 10450 60  0001 C CNN "Footprint estandar"
+F 2 "c_0805" H 5500 2650 60  0001 C CNN
+F 3 "~" H 5500 2650 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
+F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
+F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    1800 10450
 	1    0    0    -1  
 $EndComp
@@ -408,14 +408,14 @@ U 1 1 538A2FAF
 P 2000 10450
 F 0 "C39" H 1900 10600 40  0000 C CNN
 F 1 "100nF" H 1900 10550 40  0000 C CNN
-F 2 "c_0603" H 2000 10450 60  0001 C CNN
-F 3 "~" H 2000 10450 60  0000 C CNN
-F 4 "CAP CER 0.1UF 16V 10% X7R" H 2000 10450 60  0001 C CNN "Descripcion"
-F 5 "Kemet" H 2000 10450 60  0001 C CNN "Fabricante"
-F 6 "C0603C104K4RACTU" H 2000 10450 60  0001 C CNN "Nro. parte"
-F 7 "~" H 2000 10450 60  0001 C CNN "Path datasheet"
-F 8 "399-1096-1-ND" H 2000 10450 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603" H 2000 10450 60  0001 C CNN "Footprint estandar"
+F 2 "c_0805" H 5500 2650 60  0001 C CNN
+F 3 "~" H 5500 2650 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
+F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
+F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    2000 10450
 	1    0    0    -1  
 $EndComp
@@ -425,14 +425,14 @@ U 1 1 538A2FB9
 P 2200 10450
 F 0 "C40" H 2100 10600 40  0000 C CNN
 F 1 "100nF" H 2100 10550 40  0000 C CNN
-F 2 "c_0603" H 2200 10450 60  0001 C CNN
-F 3 "~" H 2200 10450 60  0000 C CNN
-F 4 "CAP CER 0.1UF 16V 10% X7R" H 2200 10450 60  0001 C CNN "Descripcion"
-F 5 "Kemet" H 2200 10450 60  0001 C CNN "Fabricante"
-F 6 "C0603C104K4RACTU" H 2200 10450 60  0001 C CNN "Nro. parte"
-F 7 "~" H 2200 10450 60  0001 C CNN "Path datasheet"
-F 8 "399-1096-1-ND" H 2200 10450 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603" H 2200 10450 60  0001 C CNN "Footprint estandar"
+F 2 "c_0805" H 5500 2650 60  0001 C CNN
+F 3 "~" H 5500 2650 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
+F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
+F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    2200 10450
 	1    0    0    -1  
 $EndComp
@@ -442,14 +442,14 @@ U 1 1 538A2FC3
 P 2400 10450
 F 0 "C41" H 2300 10600 40  0000 C CNN
 F 1 "100nF" H 2300 10550 40  0000 C CNN
-F 2 "c_0603" H 2400 10450 60  0001 C CNN
-F 3 "~" H 2400 10450 60  0000 C CNN
-F 4 "CAP CER 0.1UF 16V 10% X7R" H 2400 10450 60  0001 C CNN "Descripcion"
-F 5 "Kemet" H 2400 10450 60  0001 C CNN "Fabricante"
-F 6 "C0603C104K4RACTU" H 2400 10450 60  0001 C CNN "Nro. parte"
-F 7 "~" H 2400 10450 60  0001 C CNN "Path datasheet"
-F 8 "399-1096-1-ND" H 2400 10450 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603" H 2400 10450 60  0001 C CNN "Footprint estandar"
+F 2 "c_0805" H 5500 2650 60  0001 C CNN
+F 3 "~" H 5500 2650 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
+F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
+F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    2400 10450
 	1    0    0    -1  
 $EndComp
@@ -459,14 +459,14 @@ U 1 1 538A3898
 P 6650 7600
 F 0 "C48" H 6525 7675 40  0000 C CNN
 F 1 "100nF" H 6500 7750 40  0000 C CNN
-F 2 "c_0603" H 6650 7600 60  0001 C CNN
-F 3 "~" H 6650 7600 60  0000 C CNN
-F 4 "CAP CER 0.1UF 16V 10% X7R" H 6650 7600 60  0001 C CNN "Descripcion"
-F 5 "Kemet" H 6650 7600 60  0001 C CNN "Fabricante"
-F 6 "C0603C104K4RACTU" H 6650 7600 60  0001 C CNN "Nro. parte"
-F 7 "~" H 6650 7600 60  0001 C CNN "Path datasheet"
-F 8 "399-1096-1-ND" H 6650 7600 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603" H 6650 7600 60  0001 C CNN "Footprint estandar"
+F 2 "c_0805" H 5500 2650 60  0001 C CNN
+F 3 "~" H 5500 2650 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
+F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
+F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    6650 7600
 	-1   0    0    1   
 $EndComp
@@ -476,14 +476,14 @@ U 1 1 538A4051
 P 7550 1700
 F 0 "C51" H 7450 1550 40  0000 C CNN
 F 1 "10nF" H 7450 1600 40  0000 C CNN
-F 2 "c_0603" H 7900 1850 60  0001 C CNN
-F 3 "~" H 7550 1700 60  0000 C CNN
-F 4 "CAP CER 10000PF 50V 10% X7R" H 7550 1700 60  0001 C CNN "Descripcion"
-F 5 "Kemet" H 7550 1700 60  0001 C CNN "Fabricante"
-F 6 "C0603C103K5RACTU" H 7550 1700 60  0001 C CNN "Nro. parte"
-F 7 "~" H 7550 1700 60  0001 C CNN "Path datasheet"
-F 8 "399-1091-1-ND" H 7550 1700 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603" H 7550 1700 60  0001 C CNN "Footprint estandar"
+F 2 "c_0805" H 5500 2650 60  0001 C CNN
+F 3 "~" H 5500 2650 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
+F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
+F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    7550 1700
 	-1   0    0    1   
 $EndComp
@@ -493,14 +493,14 @@ U 1 1 538A4EA5
 P 6650 7050
 F 0 "R55" V 6550 7050 40  0000 C CNN
 F 1 "10K" V 6650 7050 40  0000 C CNN
-F 2 "r_0603" H 6600 6800 60  0001 C CNN
-F 3 "~" H 6650 7050 60  0000 C CNN
-F 4 "RES 4.7K OHM 1/10W 5%" H 6650 7050 60  0001 C CNN "Descripcion"
-F 5 "Yageo" H 6650 7050 60  0001 C CNN "Fabricante"
-F 6 "RC0603JR-0710KL" H 6650 7050 60  0001 C CNN "Nro. parte"
-F 7 "~" H 6650 7050 60  0001 C CNN "Path datasheet"
-F 8 "311-10KGRCT-ND" H 6650 7050 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603" H 6650 7050 60  0001 C CNN "Footprint estandar"
+F 2 "r_0805" H 4750 2650 60  0001 C CNN
+F 3 "~" H 4750 2650 60  0000 C CNN
+F 4 "RES 4.7K OHM 1/10W 5% 0805 SMD" H 6500 650 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 6500 650 60  0001 C CNN "Fabricante"
+F 6 "~" H 6500 650 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive" H 4750 2650 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6500 650 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6500 650 60  0001 C CNN "Footprint estandar"
 	1    6650 7050
 	1    0    0    -1  
 $EndComp
@@ -527,14 +527,14 @@ U 1 1 538A5E6A
 P 950 3250
 F 0 "C32" H 800 3400 40  0000 C CNN
 F 1 "18pF" H 800 3350 40  0000 C CNN
-F 2 "c_0603" H 950 3250 60  0001 C CNN
-F 3 "~" H 950 3250 60  0000 C CNN
-F 4 "CAP CER 18PF 50V 5% NP0 0603" H 950 3250 60  0001 C CNN "Descripcion"
-F 5 "Kemet" H 950 3250 60  0001 C CNN "Fabricante"
-F 6 "C0603C180J5GACTU" H 950 3250 60  0001 C CNN "Nro. parte"
-F 7 "~" H 950 3250 60  0001 C CNN "Path datasheet"
-F 8 "399-1052-1-ND" H 950 3250 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603" H 950 3250 60  0001 C CNN "Footprint estandar"
+F 2 "c_0805" H 5500 2650 60  0001 C CNN
+F 3 "~" H 5500 2650 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
+F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
+F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    950  3250
 	1    0    0    -1  
 $EndComp
@@ -544,14 +544,14 @@ U 1 1 538A6DD0
 P 1100 4200
 F 0 "R50" V 1000 4200 40  0000 C CNN
 F 1 "2K2" V 1100 4200 40  0000 C CNN
-F 2 "r_0603" H 1050 3950 60  0001 C CNN
-F 3 "~" H 1100 4200 60  0000 C CNN
-F 4 "RES 2.2K OHM 1/10W 5%" H 1100 4200 60  0001 C CNN "Descripcion"
-F 5 "Yageo" H 1100 4200 60  0001 C CNN "Fabricante"
-F 6 "RC0603JR-072K2L" H 1100 4200 60  0001 C CNN "Nro. parte"
-F 7 "~" H 1100 4200 60  0001 C CNN "Path datasheet"
-F 8 "311-2.2KGRCT-ND" H 1100 4200 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603" H 1100 4200 60  0001 C CNN "Footprint estandar"
+F 2 "r_0805" H 4750 2650 60  0001 C CNN
+F 3 "~" H 4750 2650 60  0000 C CNN
+F 4 "RES 4.7K OHM 1/10W 5% 0805 SMD" H 6500 650 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 6500 650 60  0001 C CNN "Fabricante"
+F 6 "~" H 6500 650 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive" H 4750 2650 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6500 650 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6500 650 60  0001 C CNN "Footprint estandar"
 	1    1100 4200
 	1    0    0    -1  
 $EndComp
@@ -561,14 +561,14 @@ U 1 1 538A6E49
 P 1250 4200
 F 0 "R52" V 1350 4200 40  0000 C CNN
 F 1 "2K2" V 1250 4200 40  0000 C CNN
-F 2 "r_0603" H 1200 3950 60  0001 C CNN
-F 3 "~" H 1250 4200 60  0000 C CNN
-F 4 "RES 2.2K OHM 1/10W 5%" H 1250 4200 60  0001 C CNN "Descripcion"
-F 5 "Yageo" H 1250 4200 60  0001 C CNN "Fabricante"
-F 6 "RC0603JR-072K2L" H 1250 4200 60  0001 C CNN "Nro. parte"
-F 7 "~" H 1250 4200 60  0001 C CNN "Path datasheet"
-F 8 "311-2.2KGRCT-ND" H 1250 4200 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603" H 1250 4200 60  0001 C CNN "Footprint estandar"
+F 2 "r_0805" H 4750 2650 60  0001 C CNN
+F 3 "~" H 4750 2650 60  0000 C CNN
+F 4 "RES 4.7K OHM 1/10W 5% 0805 SMD" H 6500 650 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 6500 650 60  0001 C CNN "Fabricante"
+F 6 "~" H 6500 650 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive" H 4750 2650 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6500 650 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6500 650 60  0001 C CNN "Footprint estandar"
 	1    1250 4200
 	1    0    0    -1  
 $EndComp
@@ -578,14 +578,14 @@ U 1 1 538A7FE9
 P 5950 8250
 F 0 "R53" V 6000 8550 40  0000 C CNN
 F 1 "22" V 5950 8250 40  0000 C CNN
-F 2 "r_0603" H 5900 8000 60  0001 C CNN
-F 3 "~" H 5950 8250 60  0000 C CNN
-F 4 "RES 22 OHM 1/10W 5%" H 5950 8250 60  0001 C CNN "Descripcion"
-F 5 "Yageo" H 5950 8250 60  0001 C CNN "Fabricante"
-F 6 "RC0603JR-0722RL" H 5950 8250 60  0001 C CNN "Nro. parte"
-F 7 "~" H 5950 8250 60  0001 C CNN "Path datasheet"
-F 8 "311-22GRCT-ND" H 5950 8250 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603" H 5950 8250 60  0001 C CNN "Footprint estandar"
+F 2 "r_0805" H 4750 2650 60  0001 C CNN
+F 3 "~" H 4750 2650 60  0000 C CNN
+F 4 "RES 4.7K OHM 1/10W 5% 0805 SMD" H 6500 650 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 6500 650 60  0001 C CNN "Fabricante"
+F 6 "~" H 6500 650 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive" H 4750 2650 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6500 650 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6500 650 60  0001 C CNN "Footprint estandar"
 	1    5950 8250
 	0    -1   -1   0   
 $EndComp
@@ -595,14 +595,14 @@ U 1 1 53A07F52
 P 6900 1950
 F 0 "L10" H 6900 2050 60  0000 C CNN
 F 1 "ACML0603101" H 6900 1850 60  0000 C CNN
-F 2 "fb_0603" H 6900 1950 60  0001 C CNN
+F 2 "SM0805" H 6900 1950 60  0001 C CNN
 F 3 "~" H 6900 1950 60  0000 C CNN
-F 4 "FERRITE CHIP 100 OHM 200MA 0603" H 6900 1950 60  0001 C CNN "Descripcion"
+F 4 "FERRITE CHIP 100 OHM 200MA 0805" H 6900 1950 60  0001 C CNN "Descripcion"
 F 5 "Abracon Corporation" H 6900 1950 60  0001 C CNN "Fabricante"
-F 6 "ACML-0603-101-T" H 6900 1950 60  0001 C CNN "Nro. parte"
-F 7 "../datasheets/passive/Ferrite/ACML-0603.pdf" H 6900 1950 60  0001 C CNN "Path datasheet"
-F 8 "ACML-0603-101-TCT-ND" H 6900 1950 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603" H 6900 1950 60  0001 C CNN "Footprint estandar"
+F 6 "~" H 6900 1950 60  0001 C CNN "Nro. parte"
+F 7 "../datasheets/pas" H 6900 1950 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6900 1950 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6900 1950 60  0001 C CNN "Footprint estandar"
 	1    6900 1950
 	1    0    0    -1  
 $EndComp
@@ -612,14 +612,14 @@ U 1 1 538A2FCD
 P 2600 10450
 F 0 "C42" H 2500 10600 40  0000 C CNN
 F 1 "100nF" H 2500 10550 40  0000 C CNN
-F 2 "c_0603" H 2600 10450 60  0001 C CNN
-F 3 "~" H 2600 10450 60  0000 C CNN
-F 4 "CAP CER 0.1UF 16V 10% X7R" H 2600 10450 60  0001 C CNN "Descripcion"
-F 5 "Kemet" H 2600 10450 60  0001 C CNN "Fabricante"
-F 6 "C0603C104K4RACTU" H 2600 10450 60  0001 C CNN "Nro. parte"
-F 7 "~" H 2600 10450 60  0001 C CNN "Path datasheet"
-F 8 "399-1096-1-ND" H 2600 10450 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603" H 2600 10450 60  0001 C CNN "Footprint estandar"
+F 2 "c_0805" H 5500 2650 60  0001 C CNN
+F 3 "~" H 5500 2650 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
+F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
+F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    2600 10450
 	1    0    0    -1  
 $EndComp
@@ -703,14 +703,14 @@ U 1 1 52C1C2B1
 P 6500 1700
 F 0 "C47" H 6400 1550 40  0000 C CNN
 F 1 "10nF" H 6400 1600 40  0000 C CNN
-F 2 "c_0603" H 6850 1850 60  0001 C CNN
-F 3 "~" H 6500 1700 60  0000 C CNN
-F 4 "CAP CER 10000PF 50V 10% X7R" H 6500 1700 60  0001 C CNN "Descripcion"
-F 5 "Kemet" H 6500 1700 60  0001 C CNN "Fabricante"
-F 6 "C0603C103K5RACTU" H 6500 1700 60  0001 C CNN "Nro. parte"
-F 7 "~" H 6500 1700 60  0001 C CNN "Path datasheet"
-F 8 "399-1091-1-ND" H 6500 1700 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603" H 6500 1700 60  0001 C CNN "Footprint estandar"
+F 2 "c_0805" H 5500 2650 60  0001 C CNN
+F 3 "~" H 5500 2650 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
+F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
+F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    6500 1700
 	-1   0    0    1   
 $EndComp
@@ -720,14 +720,14 @@ U 1 1 5397929E
 P 7000 7700
 F 0 "S5" H 7000 7650 50  0000 C CNN
 F 1 "RESET" H 7000 7850 50  0000 C CNN
-F 2 "TACT_SMD_4" H 7000 7700 60  0001 C CNN
+F 2 "PUSH_SWITCH_THT" H 7000 7700 60  0001 C CNN
 F 3 "~" H 7000 7700 60  0000 C CNN
-F 4 "SWITCH TACTILE SPST-NO 0.05A 12V" H 7000 7700 60  0001 C CNN "Descripcion"
-F 5 "TE Connectivity" H 7000 7700 60  0001 C CNN "Fabricante"
-F 6 "2-1437565-9" H 7000 7700 60  0001 C CNN "Nro. parte"
+F 4 "~" H 7000 7700 60  0001 C CNN "Descripcion"
+F 5 "~" H 7000 7700 60  0001 C CNN "Fabricante"
+F 6 "~" H 7000 7700 60  0001 C CNN "Nro. parte"
 F 7 "~" H 7000 7700 60  0001 C CNN "Path datasheet"
-F 8 "2-1437565-9" H 7000 7700 60  0001 C CNN "Digikey/Mouser"
-F 9 "SMD 4" H 7000 7700 60  0001 C CNN "Footprint estandar"
+F 8 "~" H 7000 7700 60  0001 C CNN "Digikey/Mouser"
+F 9 "~" H 7000 7700 60  0001 C CNN "Footprint estandar"
 	1    7000 7700
 	0    1    1    0   
 $EndComp
@@ -754,14 +754,14 @@ U 1 1 53993378
 P 1450 3250
 F 0 "C36" H 1550 3400 40  0000 C CNN
 F 1 "18pF" H 1550 3350 40  0000 C CNN
-F 2 "c_0603" H 1450 3250 60  0001 C CNN
-F 3 "~" H 1450 3250 60  0000 C CNN
-F 4 "CAP CER 18PF 50V 5% NP0 0603" H 1450 3250 60  0001 C CNN "Descripcion"
-F 5 "Kemet" H 1450 3250 60  0001 C CNN "Fabricante"
-F 6 "C0603C180J5GACTU" H 1450 3250 60  0001 C CNN "Nro. parte"
-F 7 "~" H 1450 3250 60  0001 C CNN "Path datasheet"
-F 8 "399-1052-1-ND" H 1450 3250 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603" H 1450 3250 60  0001 C CNN "Footprint estandar"
+F 2 "c_0805" H 5500 2650 60  0001 C CNN
+F 3 "~" H 5500 2650 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
+F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
+F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    1450 3250
 	1    0    0    -1  
 $EndComp
@@ -1183,14 +1183,14 @@ U 1 1 53B6BB2B
 P 850 2000
 F 0 "D13" H 850 1900 50  0000 C CNN
 F 1 "ST1" H 850 2100 50  0000 C CNN
-F 2 "LED-0603" H 850 2000 60  0001 C CNN
+F 2 "LED-0805" H 850 2000 60  0001 C CNN
 F 3 "~" H 850 2000 60  0000 C CNN
 F 4 "LED GRN WATER CLEAR 0603 SMD" H 850 2000 60  0001 C CNN "Descripcion"
 F 5 "Everlight Electronics Co Ltd" H 850 2000 60  0001 C CNN "Fabricante"
 F 6 "QTLP600C4TR" H 850 2000 60  0001 C CNN "Nro. parte"
 F 7 "../datasheets/passive/diode/ds300084.pdf" H 850 2000 60  0001 C CNN "Path datasheet"
 F 8 "1080-1399-1-ND" H 850 2000 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603" H 850 2000 60  0001 C CNN "Footprint estandar"
+F 9 "0805" H 850 2000 60  0001 C CNN "Footprint estandar"
 	1    850  2000
 	0    1    1    0   
 $EndComp
@@ -1200,14 +1200,14 @@ U 1 1 53B6C92E
 P 1200 2000
 F 0 "D14" H 1200 1900 50  0000 C CNN
 F 1 "ST2" H 1200 2100 50  0000 C CNN
-F 2 "LED-0603" H 1200 2000 60  0001 C CNN
+F 2 "LED-0805" H 1200 2000 60  0001 C CNN
 F 3 "~" H 1200 2000 60  0000 C CNN
 F 4 "LED ALG RED WTR CLR 0603 SMD" H 1200 2000 60  0001 C CNN "Descripcion"
 F 5 "Everlight Electronics Co Ltd" H 1200 2000 60  0001 C CNN "Fabricante"
 F 6 "QTLP600C7TR" H 1200 2000 60  0001 C CNN "Nro. parte"
 F 7 "~" H 1200 2000 60  0001 C CNN "Path datasheet"
 F 8 "1080-1400-1-ND" H 1200 2000 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603" H 1200 2000 60  0001 C CNN "Footprint estandar"
+F 9 "0805" H 1200 2000 60  0001 C CNN "Footprint estandar"
 	1    1200 2000
 	0    1    1    0   
 $EndComp
@@ -1217,14 +1217,14 @@ U 1 1 53B6E51D
 P 1200 1500
 F 0 "R51" V 1280 1500 40  0000 C CNN
 F 1 "680" V 1207 1501 40  0000 C CNN
-F 2 "r_0603" V 1130 1500 30  0001 C CNN
-F 3 "~" H 1200 1500 30  0000 C CNN
-F 4 "RES 680 OHM 1/10W 5% 0603 SMD" H 1200 1500 60  0001 C CNN "Descripcion"
-F 5 "Yageo" H 1200 1500 60  0001 C CNN "Fabricante"
-F 6 "RC0603JR-07680RL" H 1200 1500 60  0001 C CNN "Nro. parte"
-F 7 "~" H 1200 1500 60  0001 C CNN "Path datasheet"
-F 8 "311-680GRCT-ND" H 1200 1500 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603" H 1200 1500 60  0001 C CNN "Footprint estandar"
+F 2 "r_0805" H 4750 2650 60  0001 C CNN
+F 3 "~" H 4750 2650 60  0000 C CNN
+F 4 "RES 4.7K OHM 1/10W 5% 0805 SMD" H 6500 650 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 6500 650 60  0001 C CNN "Fabricante"
+F 6 "~" H 6500 650 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive" H 4750 2650 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6500 650 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6500 650 60  0001 C CNN "Footprint estandar"
 	1    1200 1500
 	-1   0    0    1   
 $EndComp
@@ -1234,14 +1234,14 @@ U 1 1 53B6E529
 P 850 1500
 F 0 "R49" V 930 1500 40  0000 C CNN
 F 1 "680" V 857 1501 40  0000 C CNN
-F 2 "r_0603" V 780 1500 30  0001 C CNN
-F 3 "~" H 850 1500 30  0000 C CNN
-F 4 "RES 680 OHM 1/10W 5% 0603 SMD" H 850 1500 60  0001 C CNN "Descripcion"
-F 5 "Yageo" H 850 1500 60  0001 C CNN "Fabricante"
-F 6 "RC0603JR-07680RL" H 850 1500 60  0001 C CNN "Nro. parte"
-F 7 "~" H 850 1500 60  0001 C CNN "Path datasheet"
-F 8 "311-680GRCT-ND" H 850 1500 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603" H 850 1500 60  0001 C CNN "Footprint estandar"
+F 2 "r_0805" H 4750 2650 60  0001 C CNN
+F 3 "~" H 4750 2650 60  0000 C CNN
+F 4 "RES 4.7K OHM 1/10W 5% 0805 SMD" H 6500 650 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 6500 650 60  0001 C CNN "Fabricante"
+F 6 "~" H 6500 650 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive" H 4750 2650 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6500 650 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6500 650 60  0001 C CNN "Footprint estandar"
 	1    850  1500
 	-1   0    0    1   
 $EndComp
@@ -1391,14 +1391,14 @@ U 1 1 540E3C8C
 P 7250 3400
 F 0 "C49" H 7150 3550 40  0000 C CNN
 F 1 "100nF" H 7150 3500 40  0000 C CNN
-F 2 "c_0603" H 7250 3400 60  0001 C CNN
-F 3 "~" H 7250 3400 60  0000 C CNN
-F 4 "CAP CER 0.1UF 16V 10% X7R" H 7250 3400 60  0001 C CNN "Descripcion"
-F 5 "Kemet" H 7250 3400 60  0001 C CNN "Fabricante"
-F 6 "C0603C104K4RACTU" H 7250 3400 60  0001 C CNN "Nro. parte"
-F 7 "~" H 7250 3400 60  0001 C CNN "Path datasheet"
-F 8 "399-1096-1-ND" H 7250 3400 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603" H 7250 3400 60  0001 C CNN "Footprint estandar"
+F 2 "c_0805" H 5500 2650 60  0001 C CNN
+F 3 "~" H 5500 2650 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
+F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
+F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    7250 3400
 	1    0    0    -1  
 $EndComp
@@ -1431,14 +1431,14 @@ U 1 1 547F999C
 P 6000 2750
 F 0 "R54" V 6080 2750 40  0000 C CNN
 F 1 "100" V 6007 2751 40  0000 C CNN
-F 2 "r_0603" V 5930 2750 30  0001 C CNN
-F 3 "~" H 6000 2750 30  0000 C CNN
-F 4 "RES 100 OHM 1/10W 5% 0603 SMD" H 6000 2750 60  0001 C CNN "Descripcion"
-F 5 "YAGEO" H 6000 2750 60  0001 C CNN "Fabricante"
-F 6 "RC0603JR-07100RL" H 6000 2750 60  0001 C CNN "Nro. parte"
-F 7 "~" H 6000 2750 60  0001 C CNN "Path datasheet"
-F 8 "311-100GRCT-ND" H 6000 2750 60  0001 C CNN "Digikey/Mouser"
-F 9 "0603" H 6000 2750 60  0001 C CNN "Footprint estandar"
+F 2 "r_0805" H 4750 2650 60  0001 C CNN
+F 3 "~" H 4750 2650 60  0000 C CNN
+F 4 "RES 4.7K OHM 1/10W 5% 0805 SMD" H 6500 650 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 6500 650 60  0001 C CNN "Fabricante"
+F 6 "~" H 6500 650 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive" H 4750 2650 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6500 650 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6500 650 60  0001 C CNN "Footprint estandar"
 	1    6000 2750
 	0    -1   -1   0   
 $EndComp

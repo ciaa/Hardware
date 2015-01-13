@@ -7,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 8
 Title "EDU CIAA Freescale - Esquemático jerárquico"
-Date "2 jan 2015"
+Date "13 jan 2015"
 Rev "0.0"
 Comp "EDU-CIAA - FSL . Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
@@ -655,4 +655,5 @@ F 3 "~" H 9800 6350 60  0000 C CNN
 	1    9800 6350
 	1    0    0    -1  
 $EndComp
+NoConn ~ 6650 3100
 $EndSCHEMATC
