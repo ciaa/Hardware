@@ -1,6 +1,6 @@
-update=06/01/2015 06:06:49 p.m.
+update=15/01/2015 07:18:15 a.m.
 version=1
-last_client=cvpcb
+last_client=eeschema
 [general]
 version=1
 [pcbnew]
@@ -25,16 +25,16 @@ ModuleOutlineThickness=0.127000000000
 [pcbnew/libraries]
 LibName1=edu-ciaa-fsl
 LibDir=footprints
+[cvpcb]
+version=1
+NetIExt=net
 [eeschema]
 version=1
 LibDir=kicadlibs
-NetFmtName=
+NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100
 RptLab=1
 LabSize=60
 [eeschema/libraries]
 LibName1=edu-ciaa-fsl
-[cvpcb]
-version=1
-NetIExt=net

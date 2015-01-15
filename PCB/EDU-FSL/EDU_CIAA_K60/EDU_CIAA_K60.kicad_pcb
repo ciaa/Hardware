@@ -2,8 +2,8 @@
 
   (general
     (links 470)
-    (no_connects 469)
-    (area 29.745999 29.745999 167.254001 116.254001)
+    (no_connects 470)
+    (area 10.059402 15.34164 277.755601 166.37414)
     (thickness 1.6)
     (drawings 52)
     (tracks 0)
@@ -7345,7 +7345,7 @@
   )
 
   (module MF-MSMF (layer TOP) (tedit 54AC5884) (tstamp 54B507EF)
-    (at 167.254001 116.259001)
+    (at 168 124)
     (path /549F860E/539535E7)
     (fp_text reference F4 (at 0 -2.6416) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7373,7 +7373,7 @@
   )
 
   (module MF-MSMF (layer TOP) (tedit 54AC5884) (tstamp 54B507FE)
-    (at 167.254001 116.259001)
+    (at 176 118)
     (path /549F860E/539E1660)
     (fp_text reference F6 (at 0 -2.6416) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7401,7 +7401,7 @@
   )
 
   (module MF-MSMF (layer TOP) (tedit 54AC5884) (tstamp 54B508A4)
-    (at 167.254001 116.259001)
+    (at 176 112)
     (path /549F860E/539E1654)
     (fp_text reference F5 (at 0 -2.6416) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))

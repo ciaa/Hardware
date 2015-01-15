@@ -7,7 +7,7 @@ $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 8 8
 Title "Microcontrolador Freescale K60"
-Date "13 jan 2015"
+Date "15 jan 2015"
 Rev "0.0"
 Comp "EDU-CIAA - FSL . Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
@@ -18,12 +18,12 @@ $EndDescr
 $Comp
 L GNDA #PWR0129
 U 1 1 52C1C257
-P 5600 2100
-F 0 "#PWR0129" H 5600 2100 40  0001 C CNN
-F 1 "GNDA" H 5600 2030 40  0000 C CNN
-F 2 "" H 5600 2100 60  0000 C CNN
-F 3 "" H 5600 2100 60  0000 C CNN
-	1    5600 2100
+P 5750 2150
+F 0 "#PWR0129" H 5750 2150 40  0001 C CNN
+F 1 "GNDA" H 5750 2080 40  0000 C CNN
+F 2 "" H 5750 2150 60  0000 C CNN
+F 3 "" H 5750 2150 60  0000 C CNN
+	1    5750 2150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -157,14 +157,10 @@ Text HLabel 2300 3250 0    60   Input ~ 0
 ETH_RXD0
 Text HLabel 2300 3150 0    60   Input ~ 0
 ETH_RXD1
-Text HLabel 2300 3050 0    60   Input ~ 0
-ETH_RXER
 Text HLabel 2300 3350 0    60   Input ~ 0
 ETH_CRS_DV
 Text HLabel 2300 4050 0    60   Output ~ 0
 ETH_MDC
-Text HLabel 2300 3850 0    60   Output ~ 0
-ETH_RST
 Text HLabel 2300 3450 0    60   Output ~ 0
 ETH_TXEN
 Text HLabel 2300 3950 0    60   BiDi ~ 0
@@ -178,9 +174,9 @@ AIN_2
 Text HLabel 5700 1350 2    60   Input ~ 0
 AIN_3
 Text HLabel 6200 4750 2    60   Input ~ 0
-RS232_CTS
+GPIO8/RS232_CTS
 Text HLabel 6200 4650 2    60   Output ~ 0
-RS232_RTS
+GPIO7/RS232_RTS
 Text HLabel 6200 4950 2    60   Output ~ 0
 RS232_TXD
 Text HLabel 6200 4850 2    60   Input ~ 0
@@ -189,8 +185,6 @@ Text HLabel 6200 5350 2    60   Input ~ 0
 CAN_RD
 Text HLabel 6200 5250 2    60   Output ~ 0
 CAN_TD
-Text HLabel 5700 4150 2    60   Output ~ 0
-CAN_STB
 Text HLabel 1000 4500 0    60   Output ~ 0
 I2C_SCL
 Text HLabel 1000 4600 0    60   BiDi ~ 0
@@ -208,17 +202,17 @@ LCD_D2/SPIFI_MOSI
 Text HLabel 2300 8450 0    60   Input ~ 0
 LCD_D3/SPIFI_MISO
 Text HLabel 5700 8050 2    60   BiDi ~ 0
-SD_DAT1
+GPIO3/SD_DAT1
 Text HLabel 5700 8150 2    60   BiDi ~ 0
-SD_DAT0
-Text HLabel 6300 8250 2    60   Output ~ 0
-SD_CLK
+GPIO2/SD_DAT0
+Text HLabel 5700 8250 2    60   Output ~ 0
+GPIO6/SD_CLK
 Text HLabel 5700 8350 2    60   BiDi ~ 0
-SD_CMD
+GPIO1/SD_CMD
 Text HLabel 5700 8450 2    60   BiDi ~ 0
-SD_DAT3
+GPIO5/SD_DAT3
 Text HLabel 5700 8550 2    60   BiDi ~ 0
-SD_DAT2
+GPIO4/SD_DAT2
 Text HLabel 2300 2350 0    60   Input ~ 0
 USB_ID
 Text HLabel 2300 8150 0    60   Output ~ 0
@@ -229,8 +223,6 @@ Text HLabel 2300 2450 0    60   Input ~ 0
 USB_PWR_FAULT
 Text HLabel 2300 2550 0    60   Output ~ 0
 USB_PPWR
-Text HLabel 5700 2250 2    60   Output ~ 0
-AUX_UART_RTS/SPI_CS
 Text HLabel 5700 2350 2    60   Output ~ 0
 AUX_UART_CTS/SPI_CLK
 Text HLabel 5700 2550 2    60   Input ~ 0
@@ -573,23 +565,6 @@ F 9 "0805" H 6500 650 60  0001 C CNN "Footprint estandar"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R53
-U 1 1 538A7FE9
-P 5950 8250
-F 0 "R53" V 6000 8550 40  0000 C CNN
-F 1 "22" V 5950 8250 40  0000 C CNN
-F 2 "r_0805" H 4750 2650 60  0001 C CNN
-F 3 "~" H 4750 2650 60  0000 C CNN
-F 4 "RES 4.7K OHM 1/10W 5% 0805 SMD" H 6500 650 60  0001 C CNN "Descripcion"
-F 5 "Yageo" H 6500 650 60  0001 C CNN "Fabricante"
-F 6 "~" H 6500 650 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive" H 4750 2650 60  0001 C CNN "Path datasheet"
-F 8 "~" H 6500 650 60  0001 C CNN "Digikey/Mouser"
-F 9 "0805" H 6500 650 60  0001 C CNN "Footprint estandar"
-	1    5950 8250
-	0    -1   -1   0   
-$EndComp
-$Comp
 L FILTER L10
 U 1 1 53A07F52
 P 6900 1950
@@ -903,8 +878,6 @@ Wire Wire Line
 Wire Wire Line
 	2400 3950 2300 3950
 Wire Wire Line
-	2300 3850 2400 3850
-Wire Wire Line
 	2400 3750 2300 3750
 Wire Wire Line
 	2300 3650 2400 3650
@@ -918,8 +891,6 @@ Wire Wire Line
 	2300 3250 2400 3250
 Wire Wire Line
 	2400 3150 2300 3150
-Wire Wire Line
-	2300 3050 2400 3050
 Wire Wire Line
 	2400 4950 2300 4950
 Wire Wire Line
@@ -1070,8 +1041,6 @@ Wire Wire Line
 Wire Wire Line
 	5700 8550 5600 8550
 Wire Wire Line
-	6300 8250 6200 8250
-Wire Wire Line
 	5700 7850 5600 7850
 Wire Wire Line
 	6250 7350 7000 7350
@@ -1103,10 +1072,6 @@ Wire Wire Line
 	5700 2450 5600 2450
 Wire Wire Line
 	5700 2350 5600 2350
-Wire Wire Line
-	5700 2250 5600 2250
-Wire Wire Line
-	5600 2100 5600 2050
 Wire Wire Line
 	5600 1650 5600 1600
 Wire Wire Line
@@ -1298,8 +1263,6 @@ Wire Wire Line
 Wire Wire Line
 	5700 7050 5600 7050
 Wire Wire Line
-	5600 4150 5700 4150
-Wire Wire Line
 	5600 5350 6200 5350
 Wire Wire Line
 	6200 5250 5600 5250
@@ -1313,7 +1276,7 @@ Wire Wire Line
 	6200 4850 5600 4850
 Wire Wire Line
 	6200 4950 5600 4950
-Text Notes 6900 4850 0    60   ~ 0
+Text Notes 6950 4900 0    60   ~ 0
 UART3
 Wire Wire Line
 	2300 8750 2400 8750
@@ -1443,7 +1406,7 @@ F 9 "0805" H 6500 650 60  0001 C CNN "Footprint estandar"
 	0    -1   -1   0   
 $EndComp
 Text HLabel 5700 7050 2    60   Output ~ 0
-SD_POW
+GPIO0/SD_POW
 Text HLabel 5700 5850 2    60   Input ~ 0
 PULS_0
 Text HLabel 5700 5950 2    60   Input ~ 0
@@ -1502,12 +1465,26 @@ NoConn ~ 2400 1450
 NoConn ~ 2400 1350
 NoConn ~ 2400 1250
 NoConn ~ 2400 1150
-NoConn ~ 2400 8850
 NoConn ~ 2400 8950
-NoConn ~ 2400 9050
 NoConn ~ 5600 8650
 NoConn ~ 5600 8750
 NoConn ~ 5600 8950
 NoConn ~ 5600 9050
 NoConn ~ 5600 9150
+NoConn ~ 5600 4150
+NoConn ~ 5600 2250
+Wire Wire Line
+	5750 2150 5750 2050
+Wire Wire Line
+	5750 2050 5600 2050
+NoConn ~ 2400 3050
+NoConn ~ 2400 3850
+Text HLabel 2300 9050 0    60   Input ~ 0
+WAKEUP
+Wire Wire Line
+	2300 9050 2400 9050
+Text HLabel 2300 8850 0    60   Input ~ 0
+ISP
+Wire Wire Line
+	2400 8850 2300 8850
 $EndSCHEMATC
