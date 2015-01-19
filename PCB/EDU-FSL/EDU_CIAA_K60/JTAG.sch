@@ -7,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 8
 Title "Conectores JTAG y DEBUG USB"
-Date "15 jan 2015"
+Date "19 jan 2015"
 Rev "0.0"
 Comp "EDU-CIAA - FSL . Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
@@ -1028,11 +1028,11 @@ U 1 1 5398D6A2
 P 6450 1750
 F 0 "J3" H 6750 1700 60  0000 C CNN
 F 1 "JTAG DEBUG USB" V 6400 2100 60  0000 C CNN
-F 2 "USB_MicroAB" H 6650 1600 60  0001 C CNN
+F 2 "USB_microAB_ZX62-AB-5P8" H 6650 1600 60  0001 C CNN
 F 3 "~" H 6750 1700 60  0000 C CNN
 F 4 "CONNECTOR RECEPTACLE MICRO USB B SMD" H 6900 1400 60  0001 C CNN "Descripcion"
 F 5 "HIROSE ELECTRIC" H 6950 1900 60  0001 C CNN "Fabricante"
-F 6 "ZX62-B-5PA(11)" H 7050 2000 60  0001 C CNN "Nro. parte"
+F 6 "~" H 7050 2000 60  0001 C CNN "Nro. parte"
 F 7 "../datasheets/connectors/MICRO_USB_AB.pdf" H 7150 2100 60  0001 C CNN "Path datasheet"
 F 8 "H11634CT-ND" H 7250 2200 60  0001 C CNN "Digikey/Mouser"
 F 9 "~" H 7350 2300 60  0001 C CNN "Footprint estandar"

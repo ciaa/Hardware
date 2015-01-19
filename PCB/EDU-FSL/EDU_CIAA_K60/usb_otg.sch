@@ -7,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 8
 Title "USB OTG"
-Date "15 jan 2015"
+Date "19 jan 2015"
 Rev "0.0"
 Comp "EDU-CIAA - FSL . Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
@@ -346,13 +346,13 @@ U 1 1 539AA84B
 P 10350 3450
 F 0 "J1" H 10100 3900 60  0000 C CNN
 F 1 "USB OTG" H 10000 3750 60  0000 C CNN
-F 2 "USB_MicroAB" H 10550 3300 60  0001 C CNN
+F 2 "USB_microAB_ZX62-AB-5P8" H 10550 3300 60  0001 C CNN
 F 3 "~" H 10650 3400 60  0000 C CNN
 F 4 "CONNECTOR RECEPTACLE MICRO USB AB SMD BOTTOM MOUNT" H 10800 3100 60  0001 C CNN "Descripcion"
 F 5 "HIROSE ELECTRIC" H 10850 3600 60  0001 C CNN "Fabricante"
-F 6 "ZX62-AB-5PA(11)" H 10950 3700 60  0001 C CNN "Nro. parte"
-F 7 "../datasheets/connectors/MICRO_USB_AB.pdf" H 11050 3800 60  0001 C CNN "Path datasheet"
-F 8 "H11635TR-ND" H 11150 3900 60  0001 C CNN "Digikey/Mouser"
+F 6 "~" H 10950 3700 60  0001 C CNN "Nro. parte"
+F 7 "../datasheets/" H 11050 3800 60  0001 C CNN "Path datasheet"
+F 8 "~" H 11150 3900 60  0001 C CNN "Digikey/Mouser"
 F 9 "~" H 11250 4000 60  0001 C CNN "Footprint estandar"
 	1    10350 3450
 	-1   0    0    -1  

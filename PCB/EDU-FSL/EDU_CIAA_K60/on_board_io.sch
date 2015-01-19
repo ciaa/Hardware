@@ -7,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 8
 Title "EDU CIAA LEDS y PULSADORES"
-Date "15 jan 2015"
+Date "19 jan 2015"
 Rev "0.0"
 Comp "EDU-CIAA - FSL . Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
@@ -544,23 +544,6 @@ Wire Wire Line
 	8100 3900 8100 3650
 Wire Wire Line
 	8100 3050 8100 3150
-$Comp
-L MOSFET_N Q1
-U 1 1 539A88E6
-P 3950 3900
-F 0 "Q1" H 3960 4070 60  0000 R CNN
-F 1 "2N7002" H 3960 3750 60  0000 R CNN
-F 2 "SOT23GDS" H 3950 3900 60  0001 C CNN
-F 3 "2N7000.pdf" H 3950 3900 60  0001 C CNN
-F 4 "MOSFET N-CH 60V 115MA SOT-23" H 3950 3900 60  0001 C CNN "Descripción"
-F 5 "Fairchild Semiconductor" H 3950 3900 60  0001 C CNN "Fabricante"
-F 6 "2N7002" H 3950 3900 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" H 3950 3900 60  0001 C CNN "Path datasheet"
-F 8 "2N7002NCT-ND" H 3950 3900 60  0001 C CNN "Digikey"
-F 9 "SOT-23" H 3950 3900 60  0001 C CNN "Footprint"
-	1    3950 3900
-	1    0    0    -1  
-$EndComp
 $Comp
 L R R28
 U 1 1 539A88EC
@@ -1269,6 +1252,23 @@ F 7 "..PCB/EDU-NXP/Datasheets" H 3950 1450 60  0001 C CNN "Path datasheet"
 F 8 "2N7002NCT-ND" H 3950 1450 60  0001 C CNN "Digikey"
 F 9 "SOT-23" H 3950 1450 60  0001 C CNN "Footprint"
 	1    8300 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOSFET_N Q1
+U 1 1 539A88E6
+P 3950 3900
+F 0 "Q1" H 3960 4070 60  0000 R CNN
+F 1 "2N7002" H 3960 3750 60  0000 R CNN
+F 2 "SOT23GDS" H 3950 3900 60  0001 C CNN
+F 3 "2N7000.pdf" H 3950 3900 60  0001 C CNN
+F 4 "MOSFET N-CH 60V 115MA SOT-23" H 3950 3900 60  0001 C CNN "Descripción"
+F 5 "Fairchild Semiconductor" H 3950 3900 60  0001 C CNN "Fabricante"
+F 6 "2N7002" H 3950 3900 60  0001 C CNN "Nro de parte"
+F 7 "..PCB/EDU-NXP/Datasheets" H 3950 3900 60  0001 C CNN "Path datasheet"
+F 8 "2N7002NCT-ND" H 3950 3900 60  0001 C CNN "Digikey"
+F 9 "SOT-23" H 3950 3900 60  0001 C CNN "Footprint"
+	1    3950 3900
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

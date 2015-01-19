@@ -7,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 8
 Title "EDU CIAA Freescale - Esquemático jerárquico"
-Date "15 jan 2015"
+Date "19 jan 2015"
 Rev "0.0"
 Comp "EDU-CIAA - FSL . Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
@@ -633,12 +633,12 @@ Wire Wire Line
 	9800 5200 9800 5300
 Connection ~ 9800 5300
 $Comp
-L LOGO #G1
+L LOGO G1
 U 1 1 54A70CCE
 P 9800 6350
-F 0 "#G1" H 9800 5947 60  0001 C CNN
+F 0 "G1" H 9800 5947 60  0001 C CNN
 F 1 "LOGO" H 9800 6753 60  0001 C CNN
-F 2 "~" H 9800 6350 60  0000 C CNN
+F 2 "LOGO" H 9800 6350 60  0001 C CNN
 F 3 "~" H 9800 6350 60  0000 C CNN
 	1    9800 6350
 	1    0    0    -1  

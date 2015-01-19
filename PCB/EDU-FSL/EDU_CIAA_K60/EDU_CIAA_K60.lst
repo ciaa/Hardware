@@ -1,4 +1,4 @@
-eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 09/01/2015 07:18:55 p.m.
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 15/01/2015 08:00:44 a.m.
 #Cmp ( order = Reference )
 | BT1        CR2032      
 | C1         100nF       
@@ -164,7 +164,6 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 09/01/2015 07:18:55 p.m
 | R50        2K2         
 | R51        680         
 | R52        2K2         
-| R53        22          
 | R54        100         
 | R55        10K         
 | S1         TEC_1       
@@ -196,7 +195,6 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 09/01/2015 07:18:55 p.m
 | 18pF         C36       
 | 10nF         C47       
 | 10nF         C51       
-| 100nF        C22       
 | 100nF        C1        
 | 100nF        C3        
 | 100nF        C5        
@@ -212,6 +210,7 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 09/01/2015 07:18:55 p.m
 | 100nF        C19       
 | 100nF        C20       
 | 100nF        C21       
+| 100nF        C22       
 | 100nF        C23       
 | 100nF        C25       
 | 100nF        C27       
@@ -297,13 +296,12 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 09/01/2015 07:18:55 p.m
 | PCB_HOLE     MH4       
 | CONN_20X2    P1        
 | CONN_20X2    P2        
+| 2N7002       Q1        
 | 2N7002       Q2        
 | 2N7002       Q3        
 | 2N7002       Q4        
 | 2N7002       Q5        
 | 2N7002       Q6        
-| 2N7002       Q1        
-| 22           R53       
 | 100          R6        
 | 100          R54       
 | 100          R18       
