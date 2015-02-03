@@ -8114,7 +8114,7 @@
   (gr_text DEBUG (at 210.225 88.475) (layer F.SilkS)
     (effects (font (size 1.2 1.2) (thickness 0.2)))
   )
-  (gr_text V0.2 (at 256.8 206.6) (layer F.SilkS)
+  (gr_text V1.0 (at 256.8 206.6) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.2)))
   )
   (gr_text EDU-CIAA-NXP (at 251.6632 210.0834) (layer F.SilkS)
