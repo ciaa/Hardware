@@ -1,6 +1,6 @@
-update=03/09/2014 17:23:56
+update=Fri 13 Feb 2015 07:10:11 PM ART
 version=1
-last_client=eeschema
+last_client=cvpcb
 [general]
 version=1
 [pcbnew]
@@ -80,12 +80,8 @@ LibName54=inductors
 LibName55=footprints/L-SRN1060
 LibName56=footprints/SOD-123
 LibName57=footprints/SOT-223
+LibName58=footprints/SRN1060
 LibDir=
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [eeschema]
 version=1
 LibDir=components
@@ -163,3 +159,8 @@ LibName65=components/pbss5240xf
 LibName66=components/sw_push
 LibName67=mcp1416
 LibName68=fqt13n06l
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
