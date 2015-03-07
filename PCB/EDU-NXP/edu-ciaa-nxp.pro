@@ -1,8 +1,6 @@
-update=27/11/2014 04:27:22 p.m.
+update=06/03/2015 03:33:14 p.m.
 version=1
-last_client=eeschema
-[general]
-version=1
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=edu-ciaa-nxp.net
@@ -38,3 +36,5 @@ RptLab=1
 LabSize=60
 [eeschema/libraries]
 LibName1=kicadlibrary/edu-ciaa-nxp
+[general]
+version=1
