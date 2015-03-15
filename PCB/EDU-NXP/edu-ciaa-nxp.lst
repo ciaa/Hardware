@@ -1,11 +1,11 @@
-eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 24/09/2014 10:44:28 p.m.
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 13/03/2015 06:26:20 a.m.
 #Cmp ( order = Reference )
 | BT1        BK-913      
-| C1         10uF / 6V3  
+| C1         10uF        
 | C2         100nF       
 | C3         10uF        
 | C4         100nF       
-| C5         330uF       
+| C5         10uF        
 | C6         10uF        
 | C7         100nF       
 | C8         100nF       
@@ -61,6 +61,7 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 24/09/2014 10:44:28 p.m
 | D8         LED         
 | D9         LED         
 | D10        PMEG3020EH  
+| D11        LL4148      
 | F1         fiducial    
 | F2         fiducial    
 | F3         fiducial    
@@ -75,14 +76,15 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 24/09/2014 10:44:28 p.m
 | FB6        MI0805M221R-10
 | FB7        MMZ1608B601C
 | FB8        MMZ1608B601C
-| FB9        BLM15HG601SN1D
+| FB9        HZ0805E601R-10
+| FB10       HZ0805E601R-10
 | H1         4mm         
 | H2         4mm         
 | H3         4mm         
 | H4         4mm         
 | J1         TB_1X3      
-| J2         ZX62-AB-5P8 
-| J3         ZX62-AB-5P8 
+| J2         ZX62D-AB-5P8
+| J3         ZX62D-AB-5P8
 | JP1        JUMPER-2    
 | JP2        JUMPER-2    
 | JP3        JUMPER-2    
@@ -109,7 +111,7 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 24/09/2014 10:44:28 p.m
 | R6         390         
 | R7         200         
 | R8         390         
-| R9         100 / 1/2W  
+| R9         100         
 | R10        330k        
 | R11        0           
 | R12        330k        
@@ -147,9 +149,9 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 24/09/2014 10:44:28 p.m
 | R85        680         
 | R90        100K        
 | R91        10M         
-| R92        12K 1%      
+| R92        12K         
 | R93        10K         
-| R94        100K        
+| R94        10K         
 | R95        2.2k        
 | R96        15K         
 | R97        2.2k        
@@ -179,7 +181,7 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 24/09/2014 10:44:28 p.m
 | TR2        DLW21HN900SQ2
 | U1         SN65HVD1176DR
 | U2         PRTR5V0U2X  
-| U3         NCP1117ST15T3G
+| U3         NCP1117ST33T3G
 | U4         LPC4337JBD144
 | U5         93C46       
 | U6         FT2232H     
@@ -237,45 +239,47 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 24/09/2014 10:44:28 p.m
 | 100nF        C49       
 | 100nF        C50       
 | 3.3uF        C35       
-| 10uF / 6V3   C1        
+| 10uF         C1        
 | 10uF         C3        
-| 10uF         C6        
+| 10uF         C5        
 | 10uF         C33       
 | 10uF         C37       
 | 10uF         C39       
-| 330uF        C5        
+| 10uF         C6        
 | PSD12C       D1        
 | PSD12C       D2        
 | PSD12C       D3        
 | PMEG3020EH   D4        
 | PMEG3020EH   D5        
+| PMEG3020EH   D10       
 | LED red      D6        
 | LED          D7        
 | LED          D8        
 | LED          D9        
-| PMEG3020EH   D10       
+| LL4148       D11       
 | fiducial     F1        
 | fiducial     F2        
 | fiducial     F3        
 | fiducial     F4        
 | fiducial     F5        
 | fiducial     F6        
-| MMZ1608B601C FB7       
-| MMZ1608B601C FB8       
 | MI0805M221R-10 FB1       
 | MMZ1608B601C FB2       
 | MMZ1608B601C FB3       
 | MMZ1608B601C FB4       
 | MI0805M221R-10 FB5       
 | MI0805M221R-10 FB6       
-| BLM15HG601SN1D FB9       
+| MMZ1608B601C FB7       
+| MMZ1608B601C FB8       
+| HZ0805E601R-10 FB9       
+| HZ0805E601R-10 FB10      
 | 4mm          H1        
 | 4mm          H2        
 | 4mm          H3        
 | 4mm          H4        
 | TB_1X3       J1        
-| ZX62-AB-5P8  J2        
-| ZX62-AB-5P8  J3        
+| ZX62D-AB-5P8 J2        
+| ZX62D-AB-5P8 J3        
 | JUMPER-2     JP1       
 | JUMPER-2     JP2       
 | JUMPER-2     JP3       
@@ -284,22 +288,23 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 24/09/2014 10:44:28 p.m
 | LED_ARBG     LED1      
 | CONN_20X2    P1        
 | CONN_20X2    P2        
-| Cortex-Debug P3        
 | 5Vcc Input   P4        
+| Cortex-Debug P3        
 | USMF020      PS1       
 | USMF020      PS2       
-| 2N7002       Q1        
 | 2N7002       Q3        
 | 2N7002       Q4        
 | 2N7002       Q5        
 | 2N7002       Q9        
 | 2N7002       Q10       
+| 2N7002       Q1        
 | 0            R11       
 | 0            R15       
 | 0            R107      
 | 0            R108      
 | 0            R109      
 | 0            R110      
+| 100          R9        
 | 200          R7        
 | 270          R105      
 | 390          R6        
@@ -339,18 +344,18 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 24/09/2014 10:44:28 p.m
 | 10k          R82       
 | 10k          R83       
 | 10K          R93       
+| 10K          R94       
 | 10K          R99       
 | 10K          R100      
 | 10K          R102      
 | 10k          R106      
-| 12K 1%       R92       
+| 12K          R92       
 | 12K 1%       R103      
 | 15K          R96       
 | 15K          R98       
 | 100K         R4        
 | 100K         R5        
 | 100K         R90       
-| 100K         R94       
 | 330k         R10       
 | 330k         R12       
 | 330k         R13       
@@ -358,7 +363,6 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 24/09/2014 10:44:28 p.m
 | 330k         R18       
 | 330k         R19       
 | 10M          R91       
-| 100 / 1/2W   R9        
 | TEC_1        SW1       
 | TEC_2        SW2       
 | TEC_3        SW3       
@@ -370,15 +374,15 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 24/09/2014 10:44:28 p.m
 | MF-MSMF110-2 TH4       
 | DLW21HN900SQ2 TR1       
 | DLW21HN900SQ2 TR2       
-| 93C46        U5        
-| FT2232H      U6        
-| TXB0108      U7        
 | SN65HVD1176DR U1        
-| PRTR5V0U2X   U2        
-| NCP1117ST15T3G U3        
-| LPC4337JBD144 U4        
-| PRTR5V0U2X   U8        
+| 93C46        U5        
 | MIC2025      U9        
+| LPC4337JBD144 U4        
+| FT2232H      U6        
+| PRTR5V0U2X   U2        
+| PRTR5V0U2X   U8        
+| NCP1117ST33T3G U3        
+| TXB0108      U7        
 | 32.768K      X1        
 | 12MHz        X2        
 | 12MHz        X3        
