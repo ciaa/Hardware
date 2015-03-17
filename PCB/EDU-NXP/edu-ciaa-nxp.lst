@@ -1,392 +1,392 @@
-eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 13/03/2015 06:26:20 a.m.
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 17/03/2015 06:19:35 p.m.
 #Cmp ( order = Reference )
-| BT1        BK-913      
-| C1         10uF        
-| C2         100nF       
-| C3         10uF        
-| C4         100nF       
-| C5         10uF        
-| C6         10uF        
-| C7         100nF       
-| C8         100nF       
-| C9         100nF       
-| C10        100nF       
-| C11        20p         
-| C12        20p         
-| C13        20p         
-| C14        20p         
-| C15        20p         
-| C16        20p         
-| C17        100nF       
-| C18        100nF       
-| C19        100nF       
-| C20        100nF       
-| C21        100nF       
-| C22        100nF       
-| C23        100nF       
-| C24        100nF       
-| C25        100nF       
-| C26        100nF       
-| C27        100nF       
-| C28        100nF       
-| C29        100nF       
-| C30        100nF       
-| C31        100nF       
-| C32        100nF       
-| C33        10uF        
-| C34        100nF       
-| C35        3.3uF       
-| C36        100nF       
-| C37        10uF        
-| C38        100nF       
-| C39        10uF        
-| C40        100nF       
-| C41        100nF       
-| C42        100nF       
-| C43        100nF       
-| C44        100nF       
-| C45        100nF       
-| C46        100nF       
-| C47        100nF       
-| C48        100nF       
-| C49        100nF       
-| C50        100nF       
-| D1         PSD12C      
-| D2         PSD12C      
-| D3         PSD12C      
-| D4         PMEG3020EH  
-| D5         PMEG3020EH  
-| D6         LED red     
-| D7         LED         
-| D8         LED         
-| D9         LED         
-| D10        PMEG3020EH  
-| D11        LL4148      
-| F1         fiducial    
-| F2         fiducial    
-| F3         fiducial    
-| F4         fiducial    
-| F5         fiducial    
-| F6         fiducial    
-| FB1        MI0805M221R-10
-| FB2        MMZ1608B601C
-| FB3        MMZ1608B601C
-| FB4        MMZ1608B601C
-| FB5        MI0805M221R-10
-| FB6        MI0805M221R-10
-| FB7        MMZ1608B601C
-| FB8        MMZ1608B601C
-| FB9        HZ0805E601R-10
-| FB10       HZ0805E601R-10
-| H1         4mm         
-| H2         4mm         
-| H3         4mm         
-| H4         4mm         
-| J1         TB_1X3      
-| J2         ZX62D-AB-5P8
-| J3         ZX62D-AB-5P8
-| JP1        JUMPER-2    
-| JP2        JUMPER-2    
-| JP3        JUMPER-2    
-| JP4        JUMPER-2    
-| JP5        ISP         
-| LED1       LED_ARBG    
-| P1         CONN_20X2   
-| P2         CONN_20X2   
-| P3         Cortex-Debug
-| P4         5Vcc Input  
-| PS1        USMF020     
-| PS2        USMF020     
-| Q1         2N7002      
-| Q3         2N7002      
-| Q4         2N7002      
-| Q5         2N7002      
-| Q9         2N7002      
-| Q10        2N7002      
-| R1         4K7         
-| R2         4K7         
-| R3         4K7         
-| R4         100K        
-| R5         100K        
-| R6         390         
-| R7         200         
-| R8         390         
-| R9         100         
-| R10        330k        
-| R11        0           
-| R12        330k        
-| R13        330k        
-| R14        330k        
-| R15        0           
-| R16        10k         
-| R17        10k         
-| R18        330k        
-| R19        330k        
-| R20        470         
-| R21        1k2         
-| R22        1k2         
-| R23        1k2         
-| R57        1k          
-| R58        1k          
-| R59        1k          
-| R60        1k          
-| R61        1k          
-| R62        10k         
-| R63        10k         
-| R64        10k         
-| R65        10k         
-| R66        10k         
-| R68        680         
-| R70        10k         
-| R71        10k         
-| R72        680         
-| R73        680         
-| R74        10k         
-| R76        680         
-| R82        10k         
-| R83        10k         
-| R84        680         
-| R85        680         
-| R90        100K        
-| R91        10M         
-| R92        12K         
-| R93        10K         
-| R94        10K         
-| R95        2.2k        
-| R96        15K         
-| R97        2.2k        
-| R98        15K         
-| R99        10K         
-| R100       10K         
-| R101       2.2K        
-| R102       10K         
-| R103       12K 1%      
-| R104       1k          
-| R105       270         
-| R106       10k         
-| R107       0           
-| R108       0           
-| R109       0           
-| R110       0           
-| SW1        TEC_1       
-| SW2        TEC_2       
-| SW3        TEC_3       
-| SW4        TEC_4       
-| SW5        RESET       
-| TH1        MF-MSMF030-2
-| TH2        MF-MSMF110-2
-| TH3        MF-MSMF030-2
-| TH4        MF-MSMF110-2
-| TR1        DLW21HN900SQ2
-| TR2        DLW21HN900SQ2
-| U1         SN65HVD1176DR
-| U2         PRTR5V0U2X  
-| U3         NCP1117ST33T3G
-| U4         LPC4337JBD144
-| U5         93C46       
-| U6         FT2232H     
-| U7         TXB0108     
-| U8         PRTR5V0U2X  
-| U9         MIC2025     
-| X1         32.768K     
-| X2         12MHz       
-| X3         12MHz       
-| ZA1        SMAZ5V6     
+| BT1        BK-913      BK-913-datasheet.pdf; BK-913-ND   ; BK-913-datasheet.pdf; Soporte batería CR2032; MPD (Memory Protection Devices); ../PCB/EDU-NXP/Datasheets; BK-913-ND   ; ~           ;             ;             ;             
+| C1         10uF        KEM_C1002_X7R_SMD.pdf; c_1206_tantalio; KEM_C1002_X7R_SMD.pdf; CAP CER 10UF 16V 10% X7R 1206; Kemet       ; C1206C106K4RACTU; ..PCB/EDU-CIAA/Datasheets; 399-3525-1-ND; 1206        ;             ;             
+| C2         100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C3         10uF        KEM_C1002_X7R_SMD.pdf; c_1206_tantalio; KEM_C1002_X7R_SMD.pdf; CAP CER 10UF 16V 10% X7R 1206; Kemet       ; C1206C106K4RACTU; ..PCB/EDU-CIAA/Datasheets; 399-3525-1-ND; 1206        ;             ;             
+| C4         100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C5         10uF        KEM_T2005_T491.pdf  ; c_1206_tantalio; KEM_T2005_T491.pdf; CAP TANT 10UF 10V 10% 1206; Kemet       ; T491A106K010AT; ..PCB/EDU-CIAA/Datasheets; 399-3684-2-ND; 1206        ;             ;             
+| C6         10uF        KEM_T2005_T491.pdf  ; c_1206_tantalio; KEM_T2005_T491.pdf; CAP TANT 10UF 10V 10% 1206; Kemet       ; T491A106K010AT; ..PCB/EDU-CIAA/Datasheets; 399-3684-2-ND; 1206        ;             ;             
+| C7         100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C8         100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C9         100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C10        100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C11        20p         KEM_C1003_C0G_SMD.pdf; c_0805      ; KEM_C1003_C0G_SMD.pdf; CAP CER 20PF 50V 5% NP0 0805; Kemet       ; C0805C200J5GACTU; ..PCB/EDU-NXP/Datasheets; 399-8033-1-ND; 0805        ;             ;             
+| C12        20p         KEM_C1003_C0G_SMD.pdf; c_0805      ; KEM_C1003_C0G_SMD.pdf; CAP CER 20PF 50V 5% NP0 0805; Kemet       ; C0805C200J5GACTU; ..PCB/EDU-NXP/Datasheets; 399-8033-1-ND; 0805        ;             ;             
+| C13        20p         KEM_C1003_C0G_SMD.pdf; c_0805      ; KEM_C1003_C0G_SMD.pdf; CAP CER 20PF 50V 5% NP0 0805; Kemet       ; C0805C200J5GACTU; ..PCB/EDU-NXP/Datasheets; 399-8033-1-ND; 0805        ;             ;             
+| C14        20p         KEM_C1003_C0G_SMD.pdf; c_0805      ; KEM_C1003_C0G_SMD.pdf; CAP CER 20PF 50V 5% NP0 0805; Kemet       ; C0805C200J5GACTU; ..PCB/EDU-NXP/Datasheets; 399-8033-1-ND; 0805        ;             ;             
+| C15        20p         KEM_C1003_C0G_SMD.pdf; c_0805      ; KEM_C1003_C0G_SMD.pdf; CAP CER 20PF 50V 5% NP0 0805; Kemet       ; C0805C200J5GACTU; ..PCB/EDU-NXP/Datasheets; 399-8033-1-ND; 0805        ;             ;             
+| C16        20p         KEM_C1003_C0G_SMD.pdf; c_0805      ; KEM_C1003_C0G_SMD.pdf; CAP CER 20PF 50V 5% NP0 0805; Kemet       ; C0805C200J5GACTU; ..PCB/EDU-NXP/Datasheets; 399-8033-1-ND; 0805        ;             ;             
+| C17        100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C18        100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C19        100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C20        100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C21        100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C22        100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C23        100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C24        100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C25        100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C26        100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C27        100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C28        100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C29        100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C30        100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C31        100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C32        100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C33        10uF        KEM_C1002_X7R_SMD.pdf; c_1206_tantalio; KEM_C1002_X7R_SMD.pdf; CAP CER 10UF 16V 10% X7R 1206; Kemet       ; C1206C106K4RACTU; ..PCB/EDU-CIAA/Datasheets; 399-3525-1-ND; 1206        ;             ;             
+| C34        100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C35        3.3uF       TDKMLCCCapRange.pdf ; c_0805      ; TDKMLCCCapRange.pdf; CAP CER 3.3UF 16V 10% X7R 0805; TDK Corporation; C2012X7R1C335K125AB; ..PCB/EDU-NXP/Datasheets; 445-7582-1-ND; 0805        ;             ;             
+| C36        100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C37        10uF        KEM_C1002_X7R_SMD.pdf; c_1206_tantalio; KEM_C1002_X7R_SMD.pdf; CAP CER 10UF 16V 10% X7R 1206; Kemet       ; C1206C106K4RACTU; ..PCB/EDU-CIAA/Datasheets; 399-3525-1-ND; 1206        ;             ;             
+| C38        100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C39        10uF        KEM_C1002_X7R_SMD.pdf; c_1206_tantalio; KEM_C1002_X7R_SMD.pdf; CAP CER 10UF 16V 10% X7R 1206; Kemet       ; C1206C106K4RACTU; ..PCB/EDU-CIAA/Datasheets; 399-3525-1-ND; 1206        ;             ;             
+| C40        100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C41        100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C42        100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C43        100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C44        100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C45        100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C46        100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C47        100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C48        100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C49        100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| C50        100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| D1         PSD12C      P6SMB11CAT3-D.PDF   ; DO-214AA(SMB); P6SMB11CAT3-D.PDF; TVS DIODE 10.2VWM 16.7VC SMB; ON Semiconductor; P6SMB12CAT3G; PCB/EDU-NXP/Datasheets; P6SMB12CAT3GOSCT-ND; DO-214AA, SMB;             ;             
+| D2         PSD12C      P6SMB11CAT3-D.PDF   ; DO-214AA(SMB); P6SMB11CAT3-D.PDF; TVS DIODE 10.2VWM 16.7VC SMB; ON Semiconductor; P6SMB12CAT3G; PCB/EDU-NXP/Datasheets; P6SMB12CAT3GOSCT-ND; DO-214AA, SMB;             ;             
+| D3         PSD12C      P6SMB11CAT3-D.PDF   ; DO-214AA(SMB); P6SMB11CAT3-D.PDF; TVS DIODE 10.2VWM 16.7VC SMB; ON Semiconductor; P6SMB12CAT3G; PCB/EDU-NXP/Datasheets; P6SMB12CAT3GOSCT-ND; DO-214AA, SMB;             ;             
+| D4         PMEG3020EH  PMEG3020EH_EJ.pdf   ; DO-214AA(SMB); PMEG3020EH_EJ.pdf; DIODE SCHOTTKY 30V 2A SOD123F; NXP Semiconductors; PMEG3020EH,115; ...PCB/EDU-NXP/Datasheets; 568-4129-1-ND; SOD-123F    ;             ;             
+| D5         PMEG3020EH  PMEG3020EH_EJ.pdf   ; DO-214AA(SMB); PMEG3020EH_EJ.pdf; DIODE SCHOTTKY 30V 2A SOD123F; NXP Semiconductors; PMEG3020EH,115; ...PCB/EDU-NXP/Datasheets; 568-4129-1-ND; SOD-123F    ;             ;             
+| D6         LED red     qtlp630c-2.pdf      ; LED-0805    ; qtlp630c-2.pdf; LED ALG RED WTR CLR 0805 SMD T/R; Everlight Electronics Co Ltd; QTLP630C7TR ; ..PCB/EDU-NXP/Datasheets; 1080-1412-1-ND; 0805        ;             ;             
+| D7         LED         qtlp630c-2.pdf      ; LED-0805    ; qtlp630c-2.pdf; LED ALG RED WTR CLR 0805 SMD T/R; Everlight Electronics Co Ltd; QTLP630C7TR ; ..PCB/EDU-NXP/Datasheets; 1080-1412-1-ND; 0805        ;             ;             
+| D8         LED         qtlp630c-2.pdf      ; LED-0805    ; qtlp630c-2.pdf; LED YELLOW WTR CLR 0805 SMD T/R; Everlight Electronics Co Ltd; QTLP630C7TR ; ..PCB/EDU-NXP/Datasheets; 1080-1410-1-ND; 0805        ;             ;             
+| D9         LED         qtlp630c-2.pdf      ; LED-0805    ; qtlp630c-2.pdf; LED GREEN WATER CLR 0805 SMD T/R; Everlight Electronics Co Ltd; QTLP630C7TR ; ..PCB/EDU-NXP/Datasheets; 1080-1411-1-ND; 0805        ;             ;             
+| D10        PMEG3020EH  PMEG3020EH_EJ.pdf   ; DO-214AA(SMB); PMEG3020EH_EJ.pdf; DIODE SCHOTTKY 30V 2A SOD123F; NXP Semiconductors; PMEG3020EH,115; ...PCB/EDU-NXP/Datasheets; 568-4129-1-ND; SOD-123F    ;             ;             
+| D11        LL4148      LL4148.pdf          ; SOD-123     ; LL4148.pdf  ; DIODE SMALL SIG 100V 0.2A SOD80; Fairchild Semiconductor; LL4148      ; ..NXP/EDU-NXP/Datasheets; LL4148FSTR-ND; SOD-80      ;             ;             
+| F1         fiducial                        ;             ;             ;             ;             ;             ;             ;             ;             ;             ;             
+| F2         fiducial                        ;             ;             ;             ;             ;             ;             ;             ;             ;             ;             
+| F3         fiducial                        ;             ;             ;             ;             ;             ;             ;             ;             ;             ;             
+| F4         fiducial                        ;             ;             ;             ;             ;             ;             ;             ;             ;             ;             
+| F5         fiducial                        ;             ;             ;             ;             ;             ;             ;             ;             ;             ;             
+| F6         fiducial                        ;             ;             ;             ;             ;             ;             ;             ;             ;             ;             
+| FB1        MI0805M221R-10MI0805M221R-10-B.pdf; SM0805      ; MI0805M221R-10-B.pdf; FERRITE CHIP POWER 220 OHM SMD; Laird-Signal Integrity Products; MI0805M221R-10; ..PCB/EDU-NXP/Datasheets; 240-2392-1-ND; 0805        ;             ;             
+| FB2        HZ0805E601R-10HZ0805E601R-10.pdf  ; SM0805      ; HZ0805E601R-10.pdf; FERRITE 500MA 600 OHM 0805 SMD; Laird-Signal Integrity Products; HZ0805E601R-10; ..PCB/EDU-NXP/Datasheets; 240-2399-1-ND; 0805        ;             ;             
+| FB3        HZ0805E601R-10HZ0805E601R-10.pdf  ; SM0805      ; HZ0805E601R-10.pdf; FERRITE 500MA 600 OHM 0805 SMD; Laird-Signal Integrity Products; HZ0805E601R-10; ..PCB/EDU-NXP/Datasheets; 240-2399-1-ND; 0805        ;             ;             
+| FB4        HZ0805E601R-10HZ0805E601R-10.pdf  ; SM0805      ; HZ0805E601R-10.pdf; FERRITE 500MA 600 OHM 0805 SMD; Laird-Signal Integrity Products; HZ0805E601R-10; ..PCB/EDU-NXP/Datasheets; 240-2399-1-ND; 0805        ;             ;             
+| FB5        MI0805M221R-10MI0805M221R-10-B.pdf; SM0805      ; MI0805M221R-10-B.pdf; FERRITE CHIP POWER 220 OHM SMD; Laird-Signal Integrity Products; MI0805M221R-10; ..PCB/EDU-NXP/Datasheets; 240-2392-1-ND; 0805        ;             ;             
+| FB6        MI0805M221R-10MI0805M221R-10-B.pdf; SM0805      ; MI0805M221R-10-B.pdf; FERRITE CHIP POWER 220 OHM SMD; Laird-Signal Integrity Products; MI0805M221R-10; ..PCB/EDU-NXP/Datasheets; 240-2392-1-ND; 0805        ;             ;             
+| FB7        HZ0805E601R-10HZ0805E601R-10.pdf  ; SM0805      ; HZ0805E601R-10.pdf; FERRITE 500MA 600 OHM 0805 SMD; Laird-Signal Integrity Products; HZ0805E601R-10; ..PCB/EDU-NXP/Datasheets; 240-2399-1-ND; 0805        ;             ;             
+| FB8        HZ0805E601R-10HZ0805E601R-10.pdf  ; SM0805      ; HZ0805E601R-10.pdf; FERRITE 500MA 600 OHM 0805 SMD; Laird-Signal Integrity Products; HZ0805E601R-10; ..PCB/EDU-NXP/Datasheets; 240-2399-1-ND; 0805        ;             ;             
+| FB9        HZ0805E601R-10MI0805M221R-10-B.pdf; SM0805      ; MI0805M221R-10-B.pdf; FERRITE CHIP POWER 220 OHM SMD; Laird-Signal Integrity Products; MI0805M221R-10; ..PCB/EDU-NXP/Datasheets; 240-2392-1-ND; 0805        ;             ;             
+| FB10       HZ0805E601R-10MI0805M221R-10-B.pdf; SM0805      ; MI0805M221R-10-B.pdf; FERRITE CHIP POWER 220 OHM SMD; Laird-Signal Integrity Products; MI0805M221R-10; ..PCB/EDU-NXP/Datasheets; 240-2392-1-ND; 0805        ;             ;             
+| H1         4mm                             ;             ;             ;             ;             ;             ;             ;             ;             ;             ;             
+| H2         4mm                             ;             ;             ;             ;             ;             ;             ;             ;             ;             ;             
+| H3         4mm                             ;             ;             ;             ;             ;             ;             ;             ;             ;             ;             
+| H4         4mm                             ;             ;             ;             ;             ;             ;             ;             ;             ;             ;             
+| J1         TB_1X3      osttcxx2162.pdf     ; bornier3    ; osttcxx2162.pdf; TERM BLOCK 5.08MM VERT 3POS PCB; On Shore Technology Inc; OSTTC032162 ; ..PCB/EDU-NXP/Datasheets; ED2610-ND   ; ~           ;             ;             
+| J2         ZX62D-AB-5P8ZX62D-AB-5P8 RoHS.pdf; USB_microAB_ZX62-AB-5P8; ZX62D-AB-5P8 RoHS.pdf; CONN RCPT MCR USB AB SMD TH SHLL; Hirose Electric Co Ltd; ZX62D-AB-5P8; ..PCB/EDU-NXP/Datasheets; H11494CT-ND ; ~           ;             ;             
+| J3         ZX62D-AB-5P8ZX62D-AB-5P8 RoHS.pdf; USB_microAB_ZX62-AB-5P8; ZX62D-AB-5P8 RoHS.pdf; CONN RCPT MCR USB AB SMD TH SHLL; Hirose Electric Co Ltd; ZX62D-AB-5P8; ..PCB/EDU-NXP/Datasheets; H11494CT-ND ; ~           ;             ;             
+| JP1        JUMPER-2    ~                   ; ~           ; ~           ;             ;             ;             ;             ;             ;             ;             ;             
+| JP2        JUMPER-2    ~                   ; ~           ; ~           ;             ;             ;             ;             ;             ;             ;             ;             
+| JP3        JUMPER-2    ~                   ; ~           ; ~           ;             ;             ;             ;             ;             ;             ;             ;             
+| JP4        JUMPER-2    ~                   ; ~           ; ~           ;             ;             ;             ;             ;             ;             ;             ;             
+| JP5        ISP         ~                   ; ~           ; ~           ;             ;             ;             ;             ;             ;             ;             ;             
+| LED1       LED_ARBG    S_110_LTST-C19FD1WT.pdf; PLCC-4      ; S_110_LTST-C19FD1WT.pdf; LED RGB 605/525/470NM DIFF SMD; Lite-On Inc ; LTST-C19FD1WT; ..PCB/EDU-NXP/Datasheets; 160-2022-1-ND; PLCC-4      ;             ;             
+| P1         CONN_20X2                       ;             ;             ;             ;             ;             ;             ;             ;             ;             ;             
+| P2         CONN_20X2                       ;             ;             ;             ;             ;             ;             ;             ;             ;             ;             
+| P3         Cortex-DebugM50-360.pdf         ; Pin_Array_5x2_1.27mm_SMD; M50-360.pdf ; CONN HDR 1.27MM SMD AU 10POS; Harwin Inc  ; M50-3600542 ; ..PCB/EDU-NXP/Datasheets; 952-1389-ND ; ~           ;             ;             
+| P4         5Vcc Input  022232021_sd.pdf    ; Con_2P      ; 022232021_sd.pdf; CONN HEADER 2POS .100 VERT TIN; Molex Inc   ; 0022232021  ; ..PCB/EDU-NXP/Datasheet; WM4200-ND   ; ~           ;             ;             
+| PS1        USMF020     mfusmf.pdf          ; SM1210      ; mfusmf.pdf  ; FUSE RESETTABLE .20A 30V HLD SMD; Bourns Inc. ; MF-USMF020-2; ..PCB/EDU-NXP/Datasheets; MF-USMF020-2CT-ND; 1210        ;             ;             
+| PS2        USMF020     mfusmf.pdf          ; SM1210      ; mfusmf.pdf  ; FUSE RESETTABLE .20A 30V HLD SMD; Bourns Inc. ; MF-USMF020-2; ..PCB/EDU-NXP/Datasheets; MF-USMF020-2CT-ND; 1210        ;             ;             
+| Q1         2N7002      2N7000.pdf          ; SOT23GDS    ; 2N7000.pdf  ; MOSFET N-CH 60V 115MA SOT-23; Fairchild Semiconductor; 2N7002      ; ..PCB/EDU-NXP/Datasheets; 2N7002NCT-ND; SOT-23      ;             ;             
+| Q3         2N7002      2N7000.pdf          ; SOT23GDS    ; 2N7000.pdf  ; MOSFET N-CH 60V 115MA SOT-23; Fairchild Semiconductor; 2N7002      ; ..PCB/EDU-NXP/Datasheets; 2N7002NCT-ND; SOT-23      ;             ;             
+| Q4         2N7002      2N7000.pdf          ; SOT23GDS    ; 2N7000.pdf  ; MOSFET N-CH 60V 115MA SOT-23; Fairchild Semiconductor; 2N7002      ; ..PCB/EDU-NXP/Datasheets; 2N7002NCT-ND; SOT-23      ;             ;             
+| Q5         2N7002      2N7000.pdf          ; SOT23GDS    ; 2N7000.pdf  ; MOSFET N-CH 60V 115MA SOT-23; Fairchild Semiconductor; 2N7002      ; ..PCB/EDU-NXP/Datasheets; 2N7002NCT-ND; SOT-23      ;             ;             
+| Q9         2N7002      2N7000.pdf          ; SOT23GDS    ; 2N7000.pdf  ; MOSFET N-CH 60V 115MA SOT-23; Fairchild Semiconductor; 2N7002      ; ..PCB/EDU-NXP/Datasheets; 2N7002NCT-ND; SOT-23      ;             ;             
+| Q10        2N7002      2N7000.pdf          ; SOT23GDS    ; 2N7000.pdf  ; MOSFET N-CH 60V 115MA SOT-23; Fairchild Semiconductor; 2N7002      ; ..PCB/EDU-NXP/Datasheets; 2N7002NCT-ND; SOT-23      ;             ;             
+| R1         4K7         Chip_Resistor.pdf   ; SM0805      ; Chip_Resistor.pdf; RES 4.7K OHM 1/8W 5% 0805 SMD; Samsung     ; RC2012J472CS; ..PCB/EDU-NXP/Datasheets; 1276-5544-1-ND; 0805        ;             ;             
+| R2         4K7         Chip_resistor.pdf   ; SM0805      ; Chip_resistor.pdf; RES 4.7K ohm 1/8W 5% 0805 SMD; Samsung     ; RC2012J472CS; ..PCB/EDU-NXP/Datasheets; 1276-5544-1-ND; 0805        ;             ;             
+| R3         4K7         Chip_Resistor.pdf   ; SM0805      ; Chip_Resistor.pdf; RES 4.7K ohm 1/8 W 5% 0805 SMD; Samsung     ; RC2012J472CS; ..PCB/EDU-NXP/Datasheets; 1276-5544-1-ND; 0805        ;             ;             
+| R4         100K        AOA0000CE1.pdf      ; SM0805      ; AOA0000CE1.pdf; RES 100K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ104V; ..PCB/EDU-NXP/Datasheets; P100KACT-ND ; 0805        ;             ;             
+| R5         100K        AOA0000CE1.pdf      ; SM0805      ; AOA0000CE1.pdf; RES 100K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ104V; ..PCB/EDU-NXP/Datasheets; P100KACT-ND ; 0805        ;             ;             
+| R6         390         RR Series Resistor Specifications.pdf; SM0805      ; RR Series Resistor Specifications.pdf; RES 390 OHM 1/10W .5% 0805 SMD; Susumu      ; RR1220P-391-D; ..PCB/EDU-NXP/Datasheets; RR12P390DCT-ND; 0805        ;             ;             
+| R7         200         RR Series Resistor Specifications.pdf; SM0805      ; RR Series Resistor Specifications.pdf; RES 200 OHM 1/10W .5% 0805 SMD; Susumu      ; RR1220P-201-D; ..PCB/EDU-NXP/Datasheets; RR12P200DCT-ND; 0805        ;             ;             
+| R8         390         RR Series Resistor Specifications.pdf; SM0805      ; RR Series Resistor Specifications.pdf; RES 390 OHM 1/10W .5% 0805 SMD; Susumu      ; RR1220P-391-D; ..PCB/EDU-NXP/Datasheets; RR12P390DCT-ND; 0805        ;             ;             
+| R9         100         AOA0000CE4.pdf      ; SM0805      ; AOA0000CE4.pdf; RES 100 OHM 1/2W 1% 0805 SMD; Panasonic Electronic Components; ERJ-P06F1000V; ..PCB/EDU-NXP/Datasheets; P16057CT-ND ; 0805        ;             ;             
+| R10        330k        SEI-RMCF_RMCP.pdf   ; SM0805      ; SEI-RMCF_RMCP.pdf; RES 330K OHM 1/8W 5% 0805; Stackpole Electronics Inc; RMCF0805JT330K; ..PCB/EDU-NXP/Datasheets; RMCF0805JT330KCT-ND; 0805        ;             ;             
+| R11        0           RC0805 Pb Free.pdf  ; SM0805      ; RC0805 Pb Free.pdf; RES 0.0 OHM 1/8W JUMP 0805 SMD; Yageo       ; RC0805JR-070RL; ..PCB/EDU-NXP/Datasheets; 311-0.0ARCT-ND; 0805        ;             ;             
+| R12        330k        SEI-RMCF_RMCP.pdf   ; SM0805      ; SEI-RMCF_RMCP.pdf; RES 330K OHM 1/8W 5% 0805; Stackpole Electronics Inc; RMCF0805JT330K; ..PCB/EDU-NXP/Datasheets; RMCF0805JT330KCT-ND; 0805        ;             ;             
+| R13        330k        SEI-RMCF_RMCP.pdf   ; SM0805      ; SEI-RMCF_RMCP.pdf; RES 330K OHM 1/8W 5% 0805; Stackpole Electronics Inc; RMCF0805JT330K; ..PCB/EDU-NXP/Datasheets; RMCF0805JT330KCT-ND; 0805        ;             ;             
+| R14        330k        SEI-RMCF_RMCP.pdf   ; SM0805      ; SEI-RMCF_RMCP.pdf; RES 330K OHM 1/8W 5% 0805; Stackpole Electronics Inc; RMCF0805JT330K; ..PCB/EDU-NXP/Datasheets; RMCF0805JT330KCT-ND; 0805        ;             ;             
+| R15        0           RC0805 Pb Free.pdf  ; SM0805      ; RC0805 Pb Free.pdf; RES 0.0 OHM 1/8W JUMP 0805 SMD; Yageo       ; RC0805JR-070RL; ..PCB/EDU-NXP/Datasheets; 311-0.0ARCT-ND; 0805        ;             ;             
+| R16        10k         AOA0000CE1.pdf      ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| R17        10k         AOA0000CE1.pdf      ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| R18        330k        SEI-RMCF_RMCP.pdf   ; SM0805      ; SEI-RMCF_RMCP.pdf; RES 330K OHM 1/8W 5% 0805; Stackpole Electronics Inc; RMCF0805JT330K; ..PCB/EDU-NXP/Datasheets; RMCF0805JT330KCT-ND; 0805        ;             ;             
+| R19        330k        SEI-RMCF_RMCP.pdf   ; SM0805      ; SEI-RMCF_RMCP.pdf; RES 330K OHM 1/8W 5% 0805; Stackpole Electronics Inc; RMCF0805JT330K; ..PCB/EDU-NXP/Datasheets; RMCF0805JT330KCT-ND; 0805        ;             ;             
+| R20        470         AOA0000CE1.pdf      ; SM0805      ; AOA0000CE1.pdf; RES 470 OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ471V; ..PCB/EDU-NXP/Datasheets; P470ACT-ND  ; 0805        ;             ;             
+| R21        1k2         SEI-RMCF_RMCP.pdf   ; SM0805      ; SEI-RMCF_RMCP.pdf; RES 1.2K OHM 1/8W 5% 0805; Stackpole Electronics Inc; RMCF0805JT1K20; ..PCB/EDU-NXP/Datasheets; RMCF0805JT1K20CT-ND; 0805        ;             ;             
+| R22        1k2         SEI-RMCF_RMCP.pdf   ; SM0805      ; SEI-RMCF_RMCP.pdf; RES 1.2K OHM 1/8W 5% 0805; Stackpole Electronics Inc; RMCF0805JT1K20; ..PCB/EDU-NXP/Datasheets; RMCF0805JT1K20CT-ND; 0805        ;             ;             
+| R23        1k2         SEI-RMCF_RMCP.pdf   ; SM0805      ; SEI-RMCF_RMCP.pdf; RES 1.2K OHM 1/8W 5% 0805; Stackpole Electronics Inc; RMCF0805JT1K20; ..PCB/EDU-NXP/Datasheets; RMCF0805JT1K20CT-ND; 0805        ;             ;             
+| R57        1k          RC0805 Pb Free.pdf  ; SM0805      ; RC0805 Pb Free.pdf; RES 1K OHM 1/8W 5% 0805 SMD; Yageo       ; RC0805JR-071KL; ..PCB/EDU-NXP/Datasheets; 311-1.0KARCT-ND; 0805        ;             ;             
+| R58        1k          RC0805 Pb Free.pdf  ; SM0805      ; RC0805 Pb Free.pdf; RES 1K OHM 1/8W 5% 0805 SMD; Yageo       ; RC0805JR-071KL; ..PCB/EDU-NXP/Datasheets; 311-1.0KARCT-ND; 0805        ;             ;             
+| R59        1k          RC0805 Pb Free.pdf  ; SM0805      ; RC0805 Pb Free.pdf; RES 1K OHM 1/8W 5% 0805 SMD; Yageo       ; RC0805JR-071KL; ..PCB/EDU-NXP/Datasheets; 311-1.0KARCT-ND; 0805        ;             ;             
+| R60        1k          RC0805 Pb Free.pdf  ; SM0805      ; RC0805 Pb Free.pdf; RES 1K OHM 1/8W 5% 0805 SMD; Yageo       ; RC0805JR-071KL; ..PCB/EDU-NXP/Datasheets; 311-1.0KARCT-ND; 0805        ;             ;             
+| R61        1k          RC0805 Pb Free.pdf  ; SM0805      ; RC0805 Pb Free.pdf; RES 1K OHM 1/8W 5% 0805 SMD; Yageo       ; RC0805JR-071KL; ..PCB/EDU-NXP/Datasheets; 311-1.0KARCT-ND; 0805        ;             ;             
+| R62        10k         AOA0000CE1.pdf      ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| R63        10k         AOA0000CE1.pdf      ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| R64        10k         AOA0000CE1.pdf      ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| R65        10k         AOA0000CE1.pdf      ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| R66        10k         AOA0000CE1.pdf      ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| R68        680         RR Series Resistor Specifications.pdf; SM0805      ; RR Series Resistor Specifications.pdf; RES 680 OHM 1/10W .5% 0805 SMD; Susumu      ; RR1220P-681-D; ..PCB/EDU-NXP/Datasheets; RR12P680DCT-ND; 0805        ;             ;             
+| R70        10k         AOA0000CE1.pdf      ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| R71        10k         AOA0000CE1.pdf      ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| R72        680         RR Series Resistor Specifications.pdf; SM0805      ; RR Series Resistor Specifications.pdf; RES 680 OHM 1/10W .5% 0805 SMD; Susumu      ; RR1220P-681-D; ..PCB/EDU-NXP/Datasheets; RR12P680DCT-ND; 0805        ;             ;             
+| R73        680         RR Series Resistor Specifications.pdf; SM0805      ; RR Series Resistor Specifications.pdf; RES 680 OHM 1/10W .5% 0805 SMD; Susumu      ; RR1220P-681-D; ..PCB/EDU-NXP/Datasheets; RR12P680DCT-ND; 0805        ;             ;             
+| R74        10k         AOA0000CE1.pdf      ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| R76        680         RR Series Resistor Specifications.pdf; SM0805      ; RR Series Resistor Specifications.pdf; RES 680 OHM 1/10W .5% 0805 SMD; Susumu      ; RR1220P-681-D; ..PCB/EDU-NXP/Datasheets; RR12P680DCT-ND; 0805        ;             ;             
+| R82        10k         AOA0000CE1.pdf      ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| R83        10k         AOA0000CE1.pdf      ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| R84        680         RR Series Resistor Specifications.pdf; SM0805      ; RR Series Resistor Specifications.pdf; RES 680 OHM 1/10W .5% 0805 SMD; Susumu      ; RR1220P-681-D; ..PCB/EDU-NXP/Datasheets; RR12P680DCT-ND; 0805        ;             ;             
+| R85        680         RR Series Resistor Specifications.pdf; SM0805      ; RR Series Resistor Specifications.pdf; RES 680 OHM 1/10W .5% 0805 SMD; Susumu      ; RR1220P-681-D; ..PCB/EDU-NXP/Datasheets; RR12P680DCT-ND; 0805        ;             ;             
+| R90        100K        AOA0000CE1.pdf      ; SM0805      ; AOA0000CE1.pdf; RES 100K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ104V; ..PCB/EDU-NXP/Datasheets; P100KACT-ND ; 0805        ;             ;             
+| R91        10M         SEI-RMCF_RMCP.pdf   ; SM0805      ; SEI-RMCF_RMCP.pdf; RES 10M OHM 1/8W 5% 0805; Stackpole Electronics Inc; RMCF0805JT10M0; ..PCB/EDU-NXP/Datasheets; RMCF0805JT10M0CT-ND; 0805        ;             ;             
+| R92        12K         RC0805 Pb Free.pdf  ; SM0805      ; RC0805 Pb Free.pdf; RES 12K OHM 1/8W 1% 0805 SMD; Yageo       ; RC0805FR-0712KL; ..PCB/EDU-NXP/Datasheets; 311-12.0KCRCT-ND; 0805        ;             ;             
+| R93        10K         AOA0000CE1.pdf      ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| R94        10K         AOA0000CE1.pdf      ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| R95        2.2k        SEI-RMCF_RMCP.pdf   ; SM0805      ; SEI-RMCF_RMCP.pdf; RES 2.2K OHM 1/8W 5% 0805; Stackpole Electronics Inc; RMCF0805JT2K20; ..PCB/EDU-NXP/Datasheets; RMCF0805JT2K20CT-ND; 0805        ;             ;             
+| R96        15K         RR Series Resistor Specifications.pdf; SM0805      ; RR Series Resistor Specifications.pdf; RES 15.0K OHM 1/10W .5% 0805 SMD; Susumu      ; RR1220P-153-D; ..PCB/EDU-NXP/Datasheets; RR12P15.0KDCT-ND; 0805        ;             ;             
+| R97        2.2k        SEI-RMCF_RMCP.pdf   ; SM0805      ; SEI-RMCF_RMCP.pdf; RES 2.2K OHM 1/8W 5% 0805; Stackpole Electronics Inc; RMCF0805JT2K20; ..PCB/EDU-NXP/Datasheets; RMCF0805JT2K20CT-ND; 0805        ;             ;             
+| R98        15K         RR Series Resistor Specifications.pdf; SM0805      ; RR Series Resistor Specifications.pdf; RES 15.0K OHM 1/10W .5% 0805 SMD; Susumu      ; RR1220P-153-D; ..PCB/EDU-NXP/Datasheets; RR12P15.0KDCT-ND; 0805        ;             ;             
+| R99        10K         AOA0000CE1.pdf      ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| R100       10K         AOA0000CE1.pdf      ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| R101       2.2K        SEI-RMCF_RMCP.pdf   ; SM0805      ; SEI-RMCF_RMCP.pdf; RES 2.2K OHM 1/8W 5% 0805; Stackpole Electronics Inc; RMCF0805JT2K20; ..PCB/EDU-NXP/Datasheets; RMCF0805JT2K20CT-ND; 0805        ;             ;             
+| R102       10K         AOA0000CE1.pdf      ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| R103       12K 1%      RC0805 Pb Free.pdf  ; SM0805      ; RC0805 Pb Free.pdf; RES 12K OHM 1/8W 1% 0805 SMD; Yageo       ; RC0805FR-0712KL; ..PCB/EDU-NXP/Datasheets; 311-12.0KCRCT-ND; 0805        ;             ;             
+| R104       1k          RR Series Resistor Specifications.pdf; SM0805      ; RR Series Resistor Specifications.pdf; RES 15.0K OHM 1/10W .5% 0805 SMD; Susumu      ; RR1220P-153-D; ..PCB/EDU-NXP/Datasheets; RR12P15.0KDCT-ND; 0805        ;             ;             
+| R105       270         mcr_g.pdf           ; SM0805      ; mcr_g.pdf   ; RES 270 OHM 1/8W 5% 0805 SMD; Rohm Semiconductor; MCR10ERTJ271; ../PCB/EDU-NXP/Datasheets; RHM270CPCT-ND; 0805        ;             ;             
+| R106       10k         AOA0000CE1.pdf      ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| R107       0           RC0805 Pb Free.pdf  ; SM0805      ; RC0805 Pb Free.pdf; RES 0.0 OHM 1/8W JUMP 0805 SMD; Yageo       ; RC0805JR-070RL; ..PCB/EDU-NXP/Datasheets; 311-0.0ARCT-ND; 0805        ;             ;             
+| R108       0           RC0805 Pb Free.pdf  ; SM0805      ; RC0805 Pb Free.pdf; RES 0.0 OHM 1/8W JUMP 0805 SMD; Yageo       ; RC0805JR-070RL; ..PCB/EDU-NXP/Datasheets; 311-0.0ARCT-ND; 0805        ;             ;             
+| R109       0           RC0805 Pb Free.pdf  ; SM0805      ; RC0805 Pb Free.pdf; RES 0.0 OHM 1/8W JUMP 0805 SMD; Yageo       ; RC0805JR-070RL; ..PCB/EDU-NXP/Datasheets; 311-0.0ARCT-ND; 0805        ;             ;             
+| R110       0           RC0805 Pb Free.pdf  ; SM0805      ; RC0805 Pb Free.pdf; RES 0.0 OHM 1/8W JUMP 0805 SMD; Yageo       ; RC0805JR-070RL; ..PCB/EDU-NXP/Datasheets; 311-0.0ARCT-ND; 0805        ;             ;             
+| SW1        TEC_1       ENG_CD_1825910_C7_baseFilename.pdf; PUSH_SWITCH_THT; ENG_CD_1825910_C7_baseFilename.pdf; SWITCH TACTILE SPST-NO 0.05A 24V; TE Connectivity; 1825910-7   ; ../PCN/EDU-NXP/Datasheets; 450-1804-ND ; ~           ;             ;             
+| SW2        TEC_2       ENG_CD_1825910_C7_baseFilename.pdf; PUSH_SWITCH_THT; ENG_CD_1825910_C7_baseFilename.pdf; SWITCH TACTILE SPST-NO 0.05A 24V; TE Connectivity; 1825910-7   ; ../PCN/EDU-NXP/Datasheets; 450-1804-ND ; ~           ;             ;             
+| SW3        TEC_3       ENG_CD_1825910_C7_baseFilename.pdf; PUSH_SWITCH_THT; ENG_CD_1825910_C7_baseFilename.pdf; SWITCH TACTILE SPST-NO 0.05A 24V; TE Connectivity; 1825910-7   ; ../PCN/EDU-NXP/Datasheets; 450-1804-ND ; ~           ;             ;             
+| SW4        TEC_4       ENG_CD_1825910_C7_baseFilename.pdf; PUSH_SWITCH_THT; ENG_CD_1825910_C7_baseFilename.pdf; SWITCH TACTILE SPST-NO 0.05A 24V; TE Connectivity; 1825910-7   ; ../PCN/EDU-NXP/Datasheets; 450-1804-ND ; ~           ;             ;             
+| SW5        RESET       ENG_CD_1825910_C7_baseFilename.pdf; PUSH_SWITCH_THT; ENG_CD_1825910_C7_baseFilename.pdf; SWITCH TACTILE SPST-NO 0.05A 24V; TE Connectivity; 1825910-7   ; ../PCN/EDU-NXP/Datasheets; 450-1804-ND ; ~           ;             ;             
+| TH1        MF-MSMF030-2mfmsmf.pdf          ; MF-MSMF     ; mfmsmf.pdf  ; PTC RESETTABLE .30A 30V 1812; Bourns Inc. ; MF-MSMF030-2; ../PCB/EDU-NXP/Datasheets; MF-MSMF030-2CT-ND; 1812        ;             ;             
+| TH2        MF-MSMF110-2mfmsmf.pdf          ; MF-MSMF     ; mfmsmf.pdf  ; PTC RESETTABLE .30A 30V 1812; Bourns Inc. ; MF-MSMF030-2; ../PCB/EDU-NXP/Datasheets; MF-MSMF030-2CT-ND; 1812        ;             ;             
+| TH3        MF-MSMF030-2mfmsmf.pdf          ; MF-MSMF     ; mfmsmf.pdf  ; PTC RESETTABLE .30A 30V 1812; Bourns Inc. ; MF-MSMF030-2; ../PCB/EDU-NXP/Datasheets; MF-MSMF030-2CT-ND; 1812        ;             ;             
+| TH4        MF-MSMF110-2mfmsmf.pdf          ; MF-MSMF     ; mfmsmf.pdf  ; PTC RESETTABLE .30A 30V 1812; Bourns Inc. ; MF-MSMF030-2; ../PCB/EDU-NXP/Datasheets; MF-MSMF030-2CT-ND; 1812        ;             ;             
+| TR1        DLW21HN900SQ2L0114S0133DLW21H.pdf; SRF2012     ; L0114S0133DLW21H.pdf; CHOKE COMMON MODE 90 OHM 0805; Murata Electronics North America; DLW21HN900SQ2L; ../PCB/EDU-NXP/Datasheets; 490-1064-2-ND; 0805        ;             ;             
+| TR2        DLW21HN900SQ2L0114S0133DLW21H.pdf; SRF2012     ; L0114S0133DLW21H.pdf; CHOKE COMMON MODE 90 OHM 0805; Murata Electronics North America; DLW21HN900SQ2L; ../PCB/EDU-NXP/Datasheets; 490-1064-2-ND; 0805        ;             ;             
+| U1         SN65HVD1176DRsn65hvd1176.pdf     ; -SOIC8      ; sn65hvd1176.pdf; IC RS485 PROFIBUS TXRX 8-SOIC; Texas Instruments; SN65HVD1176DR; ../PCB/EDU-NXP/Datasheets; 296-26337-1-ND; 8-SOIC (0.154", 3.90mm Width);             ;             
+| U2         PRTR5V0U2X  PRTR5V0U2X.pdf      ; sot143B     ; PRTR5V0U2X.pdf; TVS DIODE 5.5VWM SOT143B; NXP Semiconductors; PRTR5V0U2X,215; ../PCB/EDU-NXP/Datasheets; 568-4140-1-ND; SOT-143B    ;             ;             
+| U3         NCP1117ST33T3GNCP1117-D.PDF       ; SOT223      ; NCP1117-D.PDF; IC REG LDO 3.3V 1A SOT223; ON Semicinductor; NCP1117ST33T3G; ../PCB/EDU-NXP/Datasheets; NCP1117ST33T3GOSCT-ND; SOT-223     ;             ;             
+| U4         LPC4337JBD144LPC435X_3X_2X_1X.pdf; LQFP144-M05 ; LPC435X_3X_2X_1X.pdf; IC MCU ARM 1MB FLASH 144LQFP; NXP Semiconductors; LPC4337JBD144E; ../PCB/EDU-NXP/Datasheets; 568-10159-ND; 144-LQFP    ;             ;             
+| U5         93C46       AT93C46D.pdf        ; -SOIC8      ; AT93C46D.pdf; IC EEPROM 1KBIT 2MHZ 8SOIC; Atmel       ; AT93C46DN-SH-T; ../PCB/EDU-NXP/Datasheets; AT93C46DN-SH-TCT-ND; 8-SOIC      ;             ;             
+| U6         FT2232H     DS_FT2232H.pdf      ; LQFP64-M05  ; DS_FT2232H.pdf; IC USB HS DUAL UART/FIFO 64-LQFP; FTDI, Future Technology Devices International Ltd; FT2232HL-REEL; ../PCB/EDU-NXP/Datasheets; 768-1024-1-ND; 64-LQFP     ;             ;             
+| U7         TXB0108     txb0108.pdf         ; tssop-20    ; txb0108.pdf ; IC 8-BIT TRNSTR 15KV ESD 20TSSOP; Texas Instruments; TXB0108PWR  ; ../PCB/EDU-NXP/Datasheets; 296-21527-1-ND; 20-TSSOP    ;             ;             
+| U8         PRTR5V0U2X  PRTR5V0U2X.pdf      ; sot143B     ; PRTR5V0U2X.pdf; TVS DIODE 5.5VWM SOT143B; NXP Semiconductors; PRTR5V0U2X,215; ../PCB/EDU-NXP/Datasheets; 568-4140-1-ND; SOT-143B    ;             ;             
+| U9         MIC2025     mic2025.pdf         ; -SOIC8      ; mic2025.pdf ; IC SW DISTRIBUTION 1CHAN 8SOIC; Micrel Inc  ; MIC2025-2YM ; ../PCB/EDU-NXP/Datasheets; 576-1058-ND ; 8-SOIC      ;             ;             
+| X1         32.768K     abs25.pdf           ; 4SOJ        ; abs25.pdf   ; CRYSTAL 32.768KHZ 12.5PF SMD; Abracon Corporation; ABS25-32.768KHZ-T; ../PCB/EDU-NXP/Datasheets; 535-9166-1-ND; 4-SOJ, 5.50mm pitch;             ;             
+| X2         12MHz       7s.pdf              ; FA238V-XTAL ; 7s.pdf      ; CRYSTAL 12MHZ 12PF SMD; TXC CORPORATION; 7S-12.000MAHE-T; ../PCB/EDU-NXP/Datasheets; 887-1831-1-ND; ~           ;             ;             
+| X3         12MHz       7s.pdf              ; FA238V-XTAL ; 7s.pdf      ; CRYSTAL 12MHZ 12PF SMD; TXC CORPORATION; 7S-12.000MAHE-T; ../PCB/EDU-NXP/Datasheets; 887-1831-1-ND; ~           ;             ;             
+| ZA1        SMAZ5V6     MMSZ2V4T1-D.PDF     ; SOD123F     ; MMSZ2V4T1-D.PDF; DIODE ZENER 5.6V 500MW SOD123; ON Semiconductor; MMSZ5V6T1G  ; ../PCB/EDU-NXP/Datasheets; MMSZ5V6T1GOSCT-ND; SOD-123     ;             ;             
 #End Cmp
 
 #Componentes ( orden = Valor )
-| BK-913       BT1       
-| 20p          C11       
-| 20p          C12       
-| 20p          C13       
-| 20p          C14       
-| 20p          C15       
-| 20p          C16       
-| 100nF        C2        
-| 100nF        C4        
-| 100nF        C7        
-| 100nF        C8        
-| 100nF        C9        
-| 100nF        C10       
-| 100nF        C17       
-| 100nF        C18       
-| 100nF        C19       
-| 100nF        C20       
-| 100nF        C21       
-| 100nF        C22       
-| 100nF        C23       
-| 100nF        C24       
-| 100nF        C25       
-| 100nF        C26       
-| 100nF        C27       
-| 100nF        C28       
-| 100nF        C29       
-| 100nF        C30       
-| 100nF        C31       
-| 100nF        C32       
-| 100nF        C34       
-| 100nF        C36       
-| 100nF        C38       
-| 100nF        C40       
-| 100nF        C41       
-| 100nF        C42       
-| 100nF        C43       
-| 100nF        C44       
-| 100nF        C45       
-| 100nF        C46       
-| 100nF        C47       
-| 100nF        C48       
-| 100nF        C49       
-| 100nF        C50       
-| 3.3uF        C35       
-| 10uF         C1        
-| 10uF         C3        
-| 10uF         C5        
-| 10uF         C33       
-| 10uF         C37       
-| 10uF         C39       
-| 10uF         C6        
-| PSD12C       D1        
-| PSD12C       D2        
-| PSD12C       D3        
-| PMEG3020EH   D4        
-| PMEG3020EH   D5        
-| PMEG3020EH   D10       
-| LED red      D6        
-| LED          D7        
-| LED          D8        
-| LED          D9        
-| LL4148       D11       
-| fiducial     F1        
-| fiducial     F2        
-| fiducial     F3        
-| fiducial     F4        
-| fiducial     F5        
-| fiducial     F6        
-| MI0805M221R-10 FB1       
-| MMZ1608B601C FB2       
-| MMZ1608B601C FB3       
-| MMZ1608B601C FB4       
-| MI0805M221R-10 FB5       
-| MI0805M221R-10 FB6       
-| MMZ1608B601C FB7       
-| MMZ1608B601C FB8       
-| HZ0805E601R-10 FB9       
-| HZ0805E601R-10 FB10      
-| 4mm          H1        
-| 4mm          H2        
-| 4mm          H3        
-| 4mm          H4        
-| TB_1X3       J1        
-| ZX62D-AB-5P8 J2        
-| ZX62D-AB-5P8 J3        
-| JUMPER-2     JP1       
-| JUMPER-2     JP2       
-| JUMPER-2     JP3       
-| JUMPER-2     JP4       
-| ISP          JP5       
-| LED_ARBG     LED1      
-| CONN_20X2    P1        
-| CONN_20X2    P2        
-| 5Vcc Input   P4        
-| Cortex-Debug P3        
-| USMF020      PS1       
-| USMF020      PS2       
-| 2N7002       Q3        
-| 2N7002       Q4        
-| 2N7002       Q5        
-| 2N7002       Q9        
-| 2N7002       Q10       
-| 2N7002       Q1        
-| 0            R11       
-| 0            R15       
-| 0            R107      
-| 0            R108      
-| 0            R109      
-| 0            R110      
-| 100          R9        
-| 200          R7        
-| 270          R105      
-| 390          R6        
-| 390          R8        
-| 470          R20       
-| 680          R68       
-| 680          R72       
-| 680          R73       
-| 680          R76       
-| 680          R84       
-| 680          R85       
-| 1k           R57       
-| 1k           R58       
-| 1k           R59       
-| 1k           R60       
-| 1k           R61       
-| 1k           R104      
-| 1k2          R21       
-| 1k2          R22       
-| 1k2          R23       
-| 2.2k         R95       
-| 2.2k         R97       
-| 2.2K         R101      
-| 4K7          R1        
-| 4K7          R2        
-| 4K7          R3        
-| 10k          R16       
-| 10k          R17       
-| 10k          R62       
-| 10k          R63       
-| 10k          R64       
-| 10k          R65       
-| 10k          R66       
-| 10k          R70       
-| 10k          R71       
-| 10k          R74       
-| 10k          R82       
-| 10k          R83       
-| 10K          R93       
-| 10K          R94       
-| 10K          R99       
-| 10K          R100      
-| 10K          R102      
-| 10k          R106      
-| 12K          R92       
-| 12K 1%       R103      
-| 15K          R96       
-| 15K          R98       
-| 100K         R4        
-| 100K         R5        
-| 100K         R90       
-| 330k         R10       
-| 330k         R12       
-| 330k         R13       
-| 330k         R14       
-| 330k         R18       
-| 330k         R19       
-| 10M          R91       
-| TEC_1        SW1       
-| TEC_2        SW2       
-| TEC_3        SW3       
-| TEC_4        SW4       
-| RESET        SW5       
-| MF-MSMF030-2 TH1       
-| MF-MSMF110-2 TH2       
-| MF-MSMF030-2 TH3       
-| MF-MSMF110-2 TH4       
-| DLW21HN900SQ2 TR1       
-| DLW21HN900SQ2 TR2       
-| SN65HVD1176DR U1        
-| 93C46        U5        
-| MIC2025      U9        
-| LPC4337JBD144 U4        
-| FT2232H      U6        
-| PRTR5V0U2X   U2        
-| PRTR5V0U2X   U8        
-| NCP1117ST33T3G U3        
-| TXB0108      U7        
-| 32.768K      X1        
-| 12MHz        X2        
-| 12MHz        X3        
-| SMAZ5V6      ZA1       
+| BK-913       BT1       ; BK-913-ND   ; BK-913-datasheet.pdf; Soporte batería CR2032; MPD (Memory Protection Devices); ../PCB/EDU-NXP/Datasheets; BK-913-ND   ; ~           ;             ;             ;             
+| 20p          C11       ; c_0805      ; KEM_C1003_C0G_SMD.pdf; CAP CER 20PF 50V 5% NP0 0805; Kemet       ; C0805C200J5GACTU; ..PCB/EDU-NXP/Datasheets; 399-8033-1-ND; 0805        ;             ;             
+| 20p          C12       ; c_0805      ; KEM_C1003_C0G_SMD.pdf; CAP CER 20PF 50V 5% NP0 0805; Kemet       ; C0805C200J5GACTU; ..PCB/EDU-NXP/Datasheets; 399-8033-1-ND; 0805        ;             ;             
+| 20p          C13       ; c_0805      ; KEM_C1003_C0G_SMD.pdf; CAP CER 20PF 50V 5% NP0 0805; Kemet       ; C0805C200J5GACTU; ..PCB/EDU-NXP/Datasheets; 399-8033-1-ND; 0805        ;             ;             
+| 20p          C14       ; c_0805      ; KEM_C1003_C0G_SMD.pdf; CAP CER 20PF 50V 5% NP0 0805; Kemet       ; C0805C200J5GACTU; ..PCB/EDU-NXP/Datasheets; 399-8033-1-ND; 0805        ;             ;             
+| 20p          C15       ; c_0805      ; KEM_C1003_C0G_SMD.pdf; CAP CER 20PF 50V 5% NP0 0805; Kemet       ; C0805C200J5GACTU; ..PCB/EDU-NXP/Datasheets; 399-8033-1-ND; 0805        ;             ;             
+| 20p          C16       ; c_0805      ; KEM_C1003_C0G_SMD.pdf; CAP CER 20PF 50V 5% NP0 0805; Kemet       ; C0805C200J5GACTU; ..PCB/EDU-NXP/Datasheets; 399-8033-1-ND; 0805        ;             ;             
+| 100nF        C2        ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C4        ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C7        ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C8        ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C9        ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C10       ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C17       ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C18       ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C19       ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C20       ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C21       ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C22       ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C23       ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C24       ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C25       ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C26       ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C27       ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C28       ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C29       ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C30       ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C31       ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C32       ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C34       ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C36       ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C38       ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C40       ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C41       ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C42       ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C43       ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C44       ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C45       ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C46       ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C47       ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C48       ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C49       ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 100nF        C50       ; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
+| 3.3uF        C35       ; c_0805      ; TDKMLCCCapRange.pdf; CAP CER 3.3UF 16V 10% X7R 0805; TDK Corporation; C2012X7R1C335K125AB; ..PCB/EDU-NXP/Datasheets; 445-7582-1-ND; 0805        ;             ;             
+| 10uF         C1        ; c_1206_tantalio; KEM_C1002_X7R_SMD.pdf; CAP CER 10UF 16V 10% X7R 1206; Kemet       ; C1206C106K4RACTU; ..PCB/EDU-CIAA/Datasheets; 399-3525-1-ND; 1206        ;             ;             
+| 10uF         C3        ; c_1206_tantalio; KEM_C1002_X7R_SMD.pdf; CAP CER 10UF 16V 10% X7R 1206; Kemet       ; C1206C106K4RACTU; ..PCB/EDU-CIAA/Datasheets; 399-3525-1-ND; 1206        ;             ;             
+| 10uF         C5        ; c_1206_tantalio; KEM_T2005_T491.pdf; CAP TANT 10UF 10V 10% 1206; Kemet       ; T491A106K010AT; ..PCB/EDU-CIAA/Datasheets; 399-3684-2-ND; 1206        ;             ;             
+| 10uF         C6        ; c_1206_tantalio; KEM_T2005_T491.pdf; CAP TANT 10UF 10V 10% 1206; Kemet       ; T491A106K010AT; ..PCB/EDU-CIAA/Datasheets; 399-3684-2-ND; 1206        ;             ;             
+| 10uF         C33       ; c_1206_tantalio; KEM_C1002_X7R_SMD.pdf; CAP CER 10UF 16V 10% X7R 1206; Kemet       ; C1206C106K4RACTU; ..PCB/EDU-CIAA/Datasheets; 399-3525-1-ND; 1206        ;             ;             
+| 10uF         C37       ; c_1206_tantalio; KEM_C1002_X7R_SMD.pdf; CAP CER 10UF 16V 10% X7R 1206; Kemet       ; C1206C106K4RACTU; ..PCB/EDU-CIAA/Datasheets; 399-3525-1-ND; 1206        ;             ;             
+| 10uF         C39       ; c_1206_tantalio; KEM_C1002_X7R_SMD.pdf; CAP CER 10UF 16V 10% X7R 1206; Kemet       ; C1206C106K4RACTU; ..PCB/EDU-CIAA/Datasheets; 399-3525-1-ND; 1206        ;             ;             
+| PSD12C       D1        ; DO-214AA(SMB); P6SMB11CAT3-D.PDF; TVS DIODE 10.2VWM 16.7VC SMB; ON Semiconductor; P6SMB12CAT3G; PCB/EDU-NXP/Datasheets; P6SMB12CAT3GOSCT-ND; DO-214AA, SMB;             ;             
+| PSD12C       D2        ; DO-214AA(SMB); P6SMB11CAT3-D.PDF; TVS DIODE 10.2VWM 16.7VC SMB; ON Semiconductor; P6SMB12CAT3G; PCB/EDU-NXP/Datasheets; P6SMB12CAT3GOSCT-ND; DO-214AA, SMB;             ;             
+| PSD12C       D3        ; DO-214AA(SMB); P6SMB11CAT3-D.PDF; TVS DIODE 10.2VWM 16.7VC SMB; ON Semiconductor; P6SMB12CAT3G; PCB/EDU-NXP/Datasheets; P6SMB12CAT3GOSCT-ND; DO-214AA, SMB;             ;             
+| PMEG3020EH   D4        ; DO-214AA(SMB); PMEG3020EH_EJ.pdf; DIODE SCHOTTKY 30V 2A SOD123F; NXP Semiconductors; PMEG3020EH,115; ...PCB/EDU-NXP/Datasheets; 568-4129-1-ND; SOD-123F    ;             ;             
+| PMEG3020EH   D5        ; DO-214AA(SMB); PMEG3020EH_EJ.pdf; DIODE SCHOTTKY 30V 2A SOD123F; NXP Semiconductors; PMEG3020EH,115; ...PCB/EDU-NXP/Datasheets; 568-4129-1-ND; SOD-123F    ;             ;             
+| PMEG3020EH   D10       ; DO-214AA(SMB); PMEG3020EH_EJ.pdf; DIODE SCHOTTKY 30V 2A SOD123F; NXP Semiconductors; PMEG3020EH,115; ...PCB/EDU-NXP/Datasheets; 568-4129-1-ND; SOD-123F    ;             ;             
+| LED red      D6        ; LED-0805    ; qtlp630c-2.pdf; LED ALG RED WTR CLR 0805 SMD T/R; Everlight Electronics Co Ltd; QTLP630C7TR ; ..PCB/EDU-NXP/Datasheets; 1080-1412-1-ND; 0805        ;             ;             
+| LED          D7        ; LED-0805    ; qtlp630c-2.pdf; LED ALG RED WTR CLR 0805 SMD T/R; Everlight Electronics Co Ltd; QTLP630C7TR ; ..PCB/EDU-NXP/Datasheets; 1080-1412-1-ND; 0805        ;             ;             
+| LED          D8        ; LED-0805    ; qtlp630c-2.pdf; LED YELLOW WTR CLR 0805 SMD T/R; Everlight Electronics Co Ltd; QTLP630C7TR ; ..PCB/EDU-NXP/Datasheets; 1080-1410-1-ND; 0805        ;             ;             
+| LED          D9        ; LED-0805    ; qtlp630c-2.pdf; LED GREEN WATER CLR 0805 SMD T/R; Everlight Electronics Co Ltd; QTLP630C7TR ; ..PCB/EDU-NXP/Datasheets; 1080-1411-1-ND; 0805        ;             ;             
+| LL4148       D11       ; SOD-123     ; LL4148.pdf  ; DIODE SMALL SIG 100V 0.2A SOD80; Fairchild Semiconductor; LL4148      ; ..NXP/EDU-NXP/Datasheets; LL4148FSTR-ND; SOD-80      ;             ;             
+| fiducial     F1        ;             ;             ;             ;             ;             ;             ;             ;             ;             ;             
+| fiducial     F2        ;             ;             ;             ;             ;             ;             ;             ;             ;             ;             
+| fiducial     F3        ;             ;             ;             ;             ;             ;             ;             ;             ;             ;             
+| fiducial     F4        ;             ;             ;             ;             ;             ;             ;             ;             ;             ;             
+| fiducial     F5        ;             ;             ;             ;             ;             ;             ;             ;             ;             ;             
+| fiducial     F6        ;             ;             ;             ;             ;             ;             ;             ;             ;             ;             
+| MI0805M221R-10 FB1       ; SM0805      ; MI0805M221R-10-B.pdf; FERRITE CHIP POWER 220 OHM SMD; Laird-Signal Integrity Products; MI0805M221R-10; ..PCB/EDU-NXP/Datasheets; 240-2392-1-ND; 0805        ;             ;             
+| HZ0805E601R-10 FB2       ; SM0805      ; HZ0805E601R-10.pdf; FERRITE 500MA 600 OHM 0805 SMD; Laird-Signal Integrity Products; HZ0805E601R-10; ..PCB/EDU-NXP/Datasheets; 240-2399-1-ND; 0805        ;             ;             
+| HZ0805E601R-10 FB3       ; SM0805      ; HZ0805E601R-10.pdf; FERRITE 500MA 600 OHM 0805 SMD; Laird-Signal Integrity Products; HZ0805E601R-10; ..PCB/EDU-NXP/Datasheets; 240-2399-1-ND; 0805        ;             ;             
+| HZ0805E601R-10 FB4       ; SM0805      ; HZ0805E601R-10.pdf; FERRITE 500MA 600 OHM 0805 SMD; Laird-Signal Integrity Products; HZ0805E601R-10; ..PCB/EDU-NXP/Datasheets; 240-2399-1-ND; 0805        ;             ;             
+| MI0805M221R-10 FB5       ; SM0805      ; MI0805M221R-10-B.pdf; FERRITE CHIP POWER 220 OHM SMD; Laird-Signal Integrity Products; MI0805M221R-10; ..PCB/EDU-NXP/Datasheets; 240-2392-1-ND; 0805        ;             ;             
+| MI0805M221R-10 FB6       ; SM0805      ; MI0805M221R-10-B.pdf; FERRITE CHIP POWER 220 OHM SMD; Laird-Signal Integrity Products; MI0805M221R-10; ..PCB/EDU-NXP/Datasheets; 240-2392-1-ND; 0805        ;             ;             
+| HZ0805E601R-10 FB7       ; SM0805      ; HZ0805E601R-10.pdf; FERRITE 500MA 600 OHM 0805 SMD; Laird-Signal Integrity Products; HZ0805E601R-10; ..PCB/EDU-NXP/Datasheets; 240-2399-1-ND; 0805        ;             ;             
+| HZ0805E601R-10 FB8       ; SM0805      ; HZ0805E601R-10.pdf; FERRITE 500MA 600 OHM 0805 SMD; Laird-Signal Integrity Products; HZ0805E601R-10; ..PCB/EDU-NXP/Datasheets; 240-2399-1-ND; 0805        ;             ;             
+| HZ0805E601R-10 FB9       ; SM0805      ; MI0805M221R-10-B.pdf; FERRITE CHIP POWER 220 OHM SMD; Laird-Signal Integrity Products; MI0805M221R-10; ..PCB/EDU-NXP/Datasheets; 240-2392-1-ND; 0805        ;             ;             
+| HZ0805E601R-10 FB10      ; SM0805      ; MI0805M221R-10-B.pdf; FERRITE CHIP POWER 220 OHM SMD; Laird-Signal Integrity Products; MI0805M221R-10; ..PCB/EDU-NXP/Datasheets; 240-2392-1-ND; 0805        ;             ;             
+| 4mm          H1        ;             ;             ;             ;             ;             ;             ;             ;             ;             ;             
+| 4mm          H2        ;             ;             ;             ;             ;             ;             ;             ;             ;             ;             
+| 4mm          H3        ;             ;             ;             ;             ;             ;             ;             ;             ;             ;             
+| 4mm          H4        ;             ;             ;             ;             ;             ;             ;             ;             ;             ;             
+| TB_1X3       J1        ; bornier3    ; osttcxx2162.pdf; TERM BLOCK 5.08MM VERT 3POS PCB; On Shore Technology Inc; OSTTC032162 ; ..PCB/EDU-NXP/Datasheets; ED2610-ND   ; ~           ;             ;             
+| ZX62D-AB-5P8 J2        ; USB_microAB_ZX62-AB-5P8; ZX62D-AB-5P8 RoHS.pdf; CONN RCPT MCR USB AB SMD TH SHLL; Hirose Electric Co Ltd; ZX62D-AB-5P8; ..PCB/EDU-NXP/Datasheets; H11494CT-ND ; ~           ;             ;             
+| ZX62D-AB-5P8 J3        ; USB_microAB_ZX62-AB-5P8; ZX62D-AB-5P8 RoHS.pdf; CONN RCPT MCR USB AB SMD TH SHLL; Hirose Electric Co Ltd; ZX62D-AB-5P8; ..PCB/EDU-NXP/Datasheets; H11494CT-ND ; ~           ;             ;             
+| JUMPER-2     JP1       ; ~           ; ~           ;             ;             ;             ;             ;             ;             ;             ;             
+| JUMPER-2     JP2       ; ~           ; ~           ;             ;             ;             ;             ;             ;             ;             ;             
+| JUMPER-2     JP3       ; ~           ; ~           ;             ;             ;             ;             ;             ;             ;             ;             
+| JUMPER-2     JP4       ; ~           ; ~           ;             ;             ;             ;             ;             ;             ;             ;             
+| ISP          JP5       ; ~           ; ~           ;             ;             ;             ;             ;             ;             ;             ;             
+| LED_ARBG     LED1      ; PLCC-4      ; S_110_LTST-C19FD1WT.pdf; LED RGB 605/525/470NM DIFF SMD; Lite-On Inc ; LTST-C19FD1WT; ..PCB/EDU-NXP/Datasheets; 160-2022-1-ND; PLCC-4      ;             ;             
+| CONN_20X2    P1        ;             ;             ;             ;             ;             ;             ;             ;             ;             ;             
+| CONN_20X2    P2        ;             ;             ;             ;             ;             ;             ;             ;             ;             ;             
+| 5Vcc Input   P4        ; Con_2P      ; 022232021_sd.pdf; CONN HEADER 2POS .100 VERT TIN; Molex Inc   ; 0022232021  ; ..PCB/EDU-NXP/Datasheet; WM4200-ND   ; ~           ;             ;             
+| Cortex-Debug P3        ; Pin_Array_5x2_1.27mm_SMD; M50-360.pdf ; CONN HDR 1.27MM SMD AU 10POS; Harwin Inc  ; M50-3600542 ; ..PCB/EDU-NXP/Datasheets; 952-1389-ND ; ~           ;             ;             
+| USMF020      PS1       ; SM1210      ; mfusmf.pdf  ; FUSE RESETTABLE .20A 30V HLD SMD; Bourns Inc. ; MF-USMF020-2; ..PCB/EDU-NXP/Datasheets; MF-USMF020-2CT-ND; 1210        ;             ;             
+| USMF020      PS2       ; SM1210      ; mfusmf.pdf  ; FUSE RESETTABLE .20A 30V HLD SMD; Bourns Inc. ; MF-USMF020-2; ..PCB/EDU-NXP/Datasheets; MF-USMF020-2CT-ND; 1210        ;             ;             
+| 2N7002       Q1        ; SOT23GDS    ; 2N7000.pdf  ; MOSFET N-CH 60V 115MA SOT-23; Fairchild Semiconductor; 2N7002      ; ..PCB/EDU-NXP/Datasheets; 2N7002NCT-ND; SOT-23      ;             ;             
+| 2N7002       Q3        ; SOT23GDS    ; 2N7000.pdf  ; MOSFET N-CH 60V 115MA SOT-23; Fairchild Semiconductor; 2N7002      ; ..PCB/EDU-NXP/Datasheets; 2N7002NCT-ND; SOT-23      ;             ;             
+| 2N7002       Q4        ; SOT23GDS    ; 2N7000.pdf  ; MOSFET N-CH 60V 115MA SOT-23; Fairchild Semiconductor; 2N7002      ; ..PCB/EDU-NXP/Datasheets; 2N7002NCT-ND; SOT-23      ;             ;             
+| 2N7002       Q5        ; SOT23GDS    ; 2N7000.pdf  ; MOSFET N-CH 60V 115MA SOT-23; Fairchild Semiconductor; 2N7002      ; ..PCB/EDU-NXP/Datasheets; 2N7002NCT-ND; SOT-23      ;             ;             
+| 2N7002       Q9        ; SOT23GDS    ; 2N7000.pdf  ; MOSFET N-CH 60V 115MA SOT-23; Fairchild Semiconductor; 2N7002      ; ..PCB/EDU-NXP/Datasheets; 2N7002NCT-ND; SOT-23      ;             ;             
+| 2N7002       Q10       ; SOT23GDS    ; 2N7000.pdf  ; MOSFET N-CH 60V 115MA SOT-23; Fairchild Semiconductor; 2N7002      ; ..PCB/EDU-NXP/Datasheets; 2N7002NCT-ND; SOT-23      ;             ;             
+| 0            R11       ; SM0805      ; RC0805 Pb Free.pdf; RES 0.0 OHM 1/8W JUMP 0805 SMD; Yageo       ; RC0805JR-070RL; ..PCB/EDU-NXP/Datasheets; 311-0.0ARCT-ND; 0805        ;             ;             
+| 0            R15       ; SM0805      ; RC0805 Pb Free.pdf; RES 0.0 OHM 1/8W JUMP 0805 SMD; Yageo       ; RC0805JR-070RL; ..PCB/EDU-NXP/Datasheets; 311-0.0ARCT-ND; 0805        ;             ;             
+| 0            R107      ; SM0805      ; RC0805 Pb Free.pdf; RES 0.0 OHM 1/8W JUMP 0805 SMD; Yageo       ; RC0805JR-070RL; ..PCB/EDU-NXP/Datasheets; 311-0.0ARCT-ND; 0805        ;             ;             
+| 0            R108      ; SM0805      ; RC0805 Pb Free.pdf; RES 0.0 OHM 1/8W JUMP 0805 SMD; Yageo       ; RC0805JR-070RL; ..PCB/EDU-NXP/Datasheets; 311-0.0ARCT-ND; 0805        ;             ;             
+| 0            R109      ; SM0805      ; RC0805 Pb Free.pdf; RES 0.0 OHM 1/8W JUMP 0805 SMD; Yageo       ; RC0805JR-070RL; ..PCB/EDU-NXP/Datasheets; 311-0.0ARCT-ND; 0805        ;             ;             
+| 0            R110      ; SM0805      ; RC0805 Pb Free.pdf; RES 0.0 OHM 1/8W JUMP 0805 SMD; Yageo       ; RC0805JR-070RL; ..PCB/EDU-NXP/Datasheets; 311-0.0ARCT-ND; 0805        ;             ;             
+| 100          R9        ; SM0805      ; AOA0000CE4.pdf; RES 100 OHM 1/2W 1% 0805 SMD; Panasonic Electronic Components; ERJ-P06F1000V; ..PCB/EDU-NXP/Datasheets; P16057CT-ND ; 0805        ;             ;             
+| 200          R7        ; SM0805      ; RR Series Resistor Specifications.pdf; RES 200 OHM 1/10W .5% 0805 SMD; Susumu      ; RR1220P-201-D; ..PCB/EDU-NXP/Datasheets; RR12P200DCT-ND; 0805        ;             ;             
+| 270          R105      ; SM0805      ; mcr_g.pdf   ; RES 270 OHM 1/8W 5% 0805 SMD; Rohm Semiconductor; MCR10ERTJ271; ../PCB/EDU-NXP/Datasheets; RHM270CPCT-ND; 0805        ;             ;             
+| 390          R6        ; SM0805      ; RR Series Resistor Specifications.pdf; RES 390 OHM 1/10W .5% 0805 SMD; Susumu      ; RR1220P-391-D; ..PCB/EDU-NXP/Datasheets; RR12P390DCT-ND; 0805        ;             ;             
+| 390          R8        ; SM0805      ; RR Series Resistor Specifications.pdf; RES 390 OHM 1/10W .5% 0805 SMD; Susumu      ; RR1220P-391-D; ..PCB/EDU-NXP/Datasheets; RR12P390DCT-ND; 0805        ;             ;             
+| 470          R20       ; SM0805      ; AOA0000CE1.pdf; RES 470 OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ471V; ..PCB/EDU-NXP/Datasheets; P470ACT-ND  ; 0805        ;             ;             
+| 680          R68       ; SM0805      ; RR Series Resistor Specifications.pdf; RES 680 OHM 1/10W .5% 0805 SMD; Susumu      ; RR1220P-681-D; ..PCB/EDU-NXP/Datasheets; RR12P680DCT-ND; 0805        ;             ;             
+| 680          R72       ; SM0805      ; RR Series Resistor Specifications.pdf; RES 680 OHM 1/10W .5% 0805 SMD; Susumu      ; RR1220P-681-D; ..PCB/EDU-NXP/Datasheets; RR12P680DCT-ND; 0805        ;             ;             
+| 680          R73       ; SM0805      ; RR Series Resistor Specifications.pdf; RES 680 OHM 1/10W .5% 0805 SMD; Susumu      ; RR1220P-681-D; ..PCB/EDU-NXP/Datasheets; RR12P680DCT-ND; 0805        ;             ;             
+| 680          R76       ; SM0805      ; RR Series Resistor Specifications.pdf; RES 680 OHM 1/10W .5% 0805 SMD; Susumu      ; RR1220P-681-D; ..PCB/EDU-NXP/Datasheets; RR12P680DCT-ND; 0805        ;             ;             
+| 680          R84       ; SM0805      ; RR Series Resistor Specifications.pdf; RES 680 OHM 1/10W .5% 0805 SMD; Susumu      ; RR1220P-681-D; ..PCB/EDU-NXP/Datasheets; RR12P680DCT-ND; 0805        ;             ;             
+| 680          R85       ; SM0805      ; RR Series Resistor Specifications.pdf; RES 680 OHM 1/10W .5% 0805 SMD; Susumu      ; RR1220P-681-D; ..PCB/EDU-NXP/Datasheets; RR12P680DCT-ND; 0805        ;             ;             
+| 1k           R57       ; SM0805      ; RC0805 Pb Free.pdf; RES 1K OHM 1/8W 5% 0805 SMD; Yageo       ; RC0805JR-071KL; ..PCB/EDU-NXP/Datasheets; 311-1.0KARCT-ND; 0805        ;             ;             
+| 1k           R58       ; SM0805      ; RC0805 Pb Free.pdf; RES 1K OHM 1/8W 5% 0805 SMD; Yageo       ; RC0805JR-071KL; ..PCB/EDU-NXP/Datasheets; 311-1.0KARCT-ND; 0805        ;             ;             
+| 1k           R59       ; SM0805      ; RC0805 Pb Free.pdf; RES 1K OHM 1/8W 5% 0805 SMD; Yageo       ; RC0805JR-071KL; ..PCB/EDU-NXP/Datasheets; 311-1.0KARCT-ND; 0805        ;             ;             
+| 1k           R60       ; SM0805      ; RC0805 Pb Free.pdf; RES 1K OHM 1/8W 5% 0805 SMD; Yageo       ; RC0805JR-071KL; ..PCB/EDU-NXP/Datasheets; 311-1.0KARCT-ND; 0805        ;             ;             
+| 1k           R61       ; SM0805      ; RC0805 Pb Free.pdf; RES 1K OHM 1/8W 5% 0805 SMD; Yageo       ; RC0805JR-071KL; ..PCB/EDU-NXP/Datasheets; 311-1.0KARCT-ND; 0805        ;             ;             
+| 1k           R104      ; SM0805      ; RR Series Resistor Specifications.pdf; RES 15.0K OHM 1/10W .5% 0805 SMD; Susumu      ; RR1220P-153-D; ..PCB/EDU-NXP/Datasheets; RR12P15.0KDCT-ND; 0805        ;             ;             
+| 1k2          R21       ; SM0805      ; SEI-RMCF_RMCP.pdf; RES 1.2K OHM 1/8W 5% 0805; Stackpole Electronics Inc; RMCF0805JT1K20; ..PCB/EDU-NXP/Datasheets; RMCF0805JT1K20CT-ND; 0805        ;             ;             
+| 1k2          R22       ; SM0805      ; SEI-RMCF_RMCP.pdf; RES 1.2K OHM 1/8W 5% 0805; Stackpole Electronics Inc; RMCF0805JT1K20; ..PCB/EDU-NXP/Datasheets; RMCF0805JT1K20CT-ND; 0805        ;             ;             
+| 1k2          R23       ; SM0805      ; SEI-RMCF_RMCP.pdf; RES 1.2K OHM 1/8W 5% 0805; Stackpole Electronics Inc; RMCF0805JT1K20; ..PCB/EDU-NXP/Datasheets; RMCF0805JT1K20CT-ND; 0805        ;             ;             
+| 2.2k         R95       ; SM0805      ; SEI-RMCF_RMCP.pdf; RES 2.2K OHM 1/8W 5% 0805; Stackpole Electronics Inc; RMCF0805JT2K20; ..PCB/EDU-NXP/Datasheets; RMCF0805JT2K20CT-ND; 0805        ;             ;             
+| 2.2k         R97       ; SM0805      ; SEI-RMCF_RMCP.pdf; RES 2.2K OHM 1/8W 5% 0805; Stackpole Electronics Inc; RMCF0805JT2K20; ..PCB/EDU-NXP/Datasheets; RMCF0805JT2K20CT-ND; 0805        ;             ;             
+| 2.2K         R101      ; SM0805      ; SEI-RMCF_RMCP.pdf; RES 2.2K OHM 1/8W 5% 0805; Stackpole Electronics Inc; RMCF0805JT2K20; ..PCB/EDU-NXP/Datasheets; RMCF0805JT2K20CT-ND; 0805        ;             ;             
+| 4K7          R1        ; SM0805      ; Chip_Resistor.pdf; RES 4.7K OHM 1/8W 5% 0805 SMD; Samsung     ; RC2012J472CS; ..PCB/EDU-NXP/Datasheets; 1276-5544-1-ND; 0805        ;             ;             
+| 4K7          R2        ; SM0805      ; Chip_resistor.pdf; RES 4.7K ohm 1/8W 5% 0805 SMD; Samsung     ; RC2012J472CS; ..PCB/EDU-NXP/Datasheets; 1276-5544-1-ND; 0805        ;             ;             
+| 4K7          R3        ; SM0805      ; Chip_Resistor.pdf; RES 4.7K ohm 1/8 W 5% 0805 SMD; Samsung     ; RC2012J472CS; ..PCB/EDU-NXP/Datasheets; 1276-5544-1-ND; 0805        ;             ;             
+| 10k          R16       ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| 10k          R17       ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| 10k          R62       ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| 10k          R63       ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| 10k          R64       ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| 10k          R65       ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| 10k          R66       ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| 10k          R70       ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| 10k          R71       ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| 10k          R74       ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| 10k          R82       ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| 10k          R83       ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| 10K          R93       ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| 10K          R94       ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| 10K          R99       ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| 10K          R100      ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| 10K          R102      ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| 10k          R106      ; SM0805      ; AOA0000CE1.pdf; RES 10K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ103V; ..PCB/EDU-NXP/Datasheets; P10KACT-ND  ; 0805        ;             ;             
+| 12K          R92       ; SM0805      ; RC0805 Pb Free.pdf; RES 12K OHM 1/8W 1% 0805 SMD; Yageo       ; RC0805FR-0712KL; ..PCB/EDU-NXP/Datasheets; 311-12.0KCRCT-ND; 0805        ;             ;             
+| 12K 1%       R103      ; SM0805      ; RC0805 Pb Free.pdf; RES 12K OHM 1/8W 1% 0805 SMD; Yageo       ; RC0805FR-0712KL; ..PCB/EDU-NXP/Datasheets; 311-12.0KCRCT-ND; 0805        ;             ;             
+| 15K          R96       ; SM0805      ; RR Series Resistor Specifications.pdf; RES 15.0K OHM 1/10W .5% 0805 SMD; Susumu      ; RR1220P-153-D; ..PCB/EDU-NXP/Datasheets; RR12P15.0KDCT-ND; 0805        ;             ;             
+| 15K          R98       ; SM0805      ; RR Series Resistor Specifications.pdf; RES 15.0K OHM 1/10W .5% 0805 SMD; Susumu      ; RR1220P-153-D; ..PCB/EDU-NXP/Datasheets; RR12P15.0KDCT-ND; 0805        ;             ;             
+| 100K         R4        ; SM0805      ; AOA0000CE1.pdf; RES 100K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ104V; ..PCB/EDU-NXP/Datasheets; P100KACT-ND ; 0805        ;             ;             
+| 100K         R5        ; SM0805      ; AOA0000CE1.pdf; RES 100K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ104V; ..PCB/EDU-NXP/Datasheets; P100KACT-ND ; 0805        ;             ;             
+| 100K         R90       ; SM0805      ; AOA0000CE1.pdf; RES 100K OHM 1/8W 5% 0805 SMD; Panasonic Electronic Components; ERJ-6GEYJ104V; ..PCB/EDU-NXP/Datasheets; P100KACT-ND ; 0805        ;             ;             
+| 330k         R10       ; SM0805      ; SEI-RMCF_RMCP.pdf; RES 330K OHM 1/8W 5% 0805; Stackpole Electronics Inc; RMCF0805JT330K; ..PCB/EDU-NXP/Datasheets; RMCF0805JT330KCT-ND; 0805        ;             ;             
+| 330k         R12       ; SM0805      ; SEI-RMCF_RMCP.pdf; RES 330K OHM 1/8W 5% 0805; Stackpole Electronics Inc; RMCF0805JT330K; ..PCB/EDU-NXP/Datasheets; RMCF0805JT330KCT-ND; 0805        ;             ;             
+| 330k         R13       ; SM0805      ; SEI-RMCF_RMCP.pdf; RES 330K OHM 1/8W 5% 0805; Stackpole Electronics Inc; RMCF0805JT330K; ..PCB/EDU-NXP/Datasheets; RMCF0805JT330KCT-ND; 0805        ;             ;             
+| 330k         R14       ; SM0805      ; SEI-RMCF_RMCP.pdf; RES 330K OHM 1/8W 5% 0805; Stackpole Electronics Inc; RMCF0805JT330K; ..PCB/EDU-NXP/Datasheets; RMCF0805JT330KCT-ND; 0805        ;             ;             
+| 330k         R18       ; SM0805      ; SEI-RMCF_RMCP.pdf; RES 330K OHM 1/8W 5% 0805; Stackpole Electronics Inc; RMCF0805JT330K; ..PCB/EDU-NXP/Datasheets; RMCF0805JT330KCT-ND; 0805        ;             ;             
+| 330k         R19       ; SM0805      ; SEI-RMCF_RMCP.pdf; RES 330K OHM 1/8W 5% 0805; Stackpole Electronics Inc; RMCF0805JT330K; ..PCB/EDU-NXP/Datasheets; RMCF0805JT330KCT-ND; 0805        ;             ;             
+| 10M          R91       ; SM0805      ; SEI-RMCF_RMCP.pdf; RES 10M OHM 1/8W 5% 0805; Stackpole Electronics Inc; RMCF0805JT10M0; ..PCB/EDU-NXP/Datasheets; RMCF0805JT10M0CT-ND; 0805        ;             ;             
+| TEC_1        SW1       ; PUSH_SWITCH_THT; ENG_CD_1825910_C7_baseFilename.pdf; SWITCH TACTILE SPST-NO 0.05A 24V; TE Connectivity; 1825910-7   ; ../PCN/EDU-NXP/Datasheets; 450-1804-ND ; ~           ;             ;             
+| TEC_2        SW2       ; PUSH_SWITCH_THT; ENG_CD_1825910_C7_baseFilename.pdf; SWITCH TACTILE SPST-NO 0.05A 24V; TE Connectivity; 1825910-7   ; ../PCN/EDU-NXP/Datasheets; 450-1804-ND ; ~           ;             ;             
+| TEC_3        SW3       ; PUSH_SWITCH_THT; ENG_CD_1825910_C7_baseFilename.pdf; SWITCH TACTILE SPST-NO 0.05A 24V; TE Connectivity; 1825910-7   ; ../PCN/EDU-NXP/Datasheets; 450-1804-ND ; ~           ;             ;             
+| TEC_4        SW4       ; PUSH_SWITCH_THT; ENG_CD_1825910_C7_baseFilename.pdf; SWITCH TACTILE SPST-NO 0.05A 24V; TE Connectivity; 1825910-7   ; ../PCN/EDU-NXP/Datasheets; 450-1804-ND ; ~           ;             ;             
+| RESET        SW5       ; PUSH_SWITCH_THT; ENG_CD_1825910_C7_baseFilename.pdf; SWITCH TACTILE SPST-NO 0.05A 24V; TE Connectivity; 1825910-7   ; ../PCN/EDU-NXP/Datasheets; 450-1804-ND ; ~           ;             ;             
+| MF-MSMF030-2 TH1       ; MF-MSMF     ; mfmsmf.pdf  ; PTC RESETTABLE .30A 30V 1812; Bourns Inc. ; MF-MSMF030-2; ../PCB/EDU-NXP/Datasheets; MF-MSMF030-2CT-ND; 1812        ;             ;             
+| MF-MSMF110-2 TH2       ; MF-MSMF     ; mfmsmf.pdf  ; PTC RESETTABLE .30A 30V 1812; Bourns Inc. ; MF-MSMF030-2; ../PCB/EDU-NXP/Datasheets; MF-MSMF030-2CT-ND; 1812        ;             ;             
+| MF-MSMF030-2 TH3       ; MF-MSMF     ; mfmsmf.pdf  ; PTC RESETTABLE .30A 30V 1812; Bourns Inc. ; MF-MSMF030-2; ../PCB/EDU-NXP/Datasheets; MF-MSMF030-2CT-ND; 1812        ;             ;             
+| MF-MSMF110-2 TH4       ; MF-MSMF     ; mfmsmf.pdf  ; PTC RESETTABLE .30A 30V 1812; Bourns Inc. ; MF-MSMF030-2; ../PCB/EDU-NXP/Datasheets; MF-MSMF030-2CT-ND; 1812        ;             ;             
+| DLW21HN900SQ2 TR1       ; SRF2012     ; L0114S0133DLW21H.pdf; CHOKE COMMON MODE 90 OHM 0805; Murata Electronics North America; DLW21HN900SQ2L; ../PCB/EDU-NXP/Datasheets; 490-1064-2-ND; 0805        ;             ;             
+| DLW21HN900SQ2 TR2       ; SRF2012     ; L0114S0133DLW21H.pdf; CHOKE COMMON MODE 90 OHM 0805; Murata Electronics North America; DLW21HN900SQ2L; ../PCB/EDU-NXP/Datasheets; 490-1064-2-ND; 0805        ;             ;             
+| SN65HVD1176DR U1        ; -SOIC8      ; sn65hvd1176.pdf; IC RS485 PROFIBUS TXRX 8-SOIC; Texas Instruments; SN65HVD1176DR; ../PCB/EDU-NXP/Datasheets; 296-26337-1-ND; 8-SOIC (0.154", 3.90mm Width);             ;             
+| 93C46        U5        ; -SOIC8      ; AT93C46D.pdf; IC EEPROM 1KBIT 2MHZ 8SOIC; Atmel       ; AT93C46DN-SH-T; ../PCB/EDU-NXP/Datasheets; AT93C46DN-SH-TCT-ND; 8-SOIC      ;             ;             
+| MIC2025      U9        ; -SOIC8      ; mic2025.pdf ; IC SW DISTRIBUTION 1CHAN 8SOIC; Micrel Inc  ; MIC2025-2YM ; ../PCB/EDU-NXP/Datasheets; 576-1058-ND ; 8-SOIC      ;             ;             
+| LPC4337JBD144 U4        ; LQFP144-M05 ; LPC435X_3X_2X_1X.pdf; IC MCU ARM 1MB FLASH 144LQFP; NXP Semiconductors; LPC4337JBD144E; ../PCB/EDU-NXP/Datasheets; 568-10159-ND; 144-LQFP    ;             ;             
+| FT2232H      U6        ; LQFP64-M05  ; DS_FT2232H.pdf; IC USB HS DUAL UART/FIFO 64-LQFP; FTDI, Future Technology Devices International Ltd; FT2232HL-REEL; ../PCB/EDU-NXP/Datasheets; 768-1024-1-ND; 64-LQFP     ;             ;             
+| PRTR5V0U2X   U2        ; sot143B     ; PRTR5V0U2X.pdf; TVS DIODE 5.5VWM SOT143B; NXP Semiconductors; PRTR5V0U2X,215; ../PCB/EDU-NXP/Datasheets; 568-4140-1-ND; SOT-143B    ;             ;             
+| PRTR5V0U2X   U8        ; sot143B     ; PRTR5V0U2X.pdf; TVS DIODE 5.5VWM SOT143B; NXP Semiconductors; PRTR5V0U2X,215; ../PCB/EDU-NXP/Datasheets; 568-4140-1-ND; SOT-143B    ;             ;             
+| NCP1117ST33T3G U3        ; SOT223      ; NCP1117-D.PDF; IC REG LDO 3.3V 1A SOT223; ON Semicinductor; NCP1117ST33T3G; ../PCB/EDU-NXP/Datasheets; NCP1117ST33T3GOSCT-ND; SOT-223     ;             ;             
+| TXB0108      U7        ; tssop-20    ; txb0108.pdf ; IC 8-BIT TRNSTR 15KV ESD 20TSSOP; Texas Instruments; TXB0108PWR  ; ../PCB/EDU-NXP/Datasheets; 296-21527-1-ND; 20-TSSOP    ;             ;             
+| 32.768K      X1        ; 4SOJ        ; abs25.pdf   ; CRYSTAL 32.768KHZ 12.5PF SMD; Abracon Corporation; ABS25-32.768KHZ-T; ../PCB/EDU-NXP/Datasheets; 535-9166-1-ND; 4-SOJ, 5.50mm pitch;             ;             
+| 12MHz        X2        ; FA238V-XTAL ; 7s.pdf      ; CRYSTAL 12MHZ 12PF SMD; TXC CORPORATION; 7S-12.000MAHE-T; ../PCB/EDU-NXP/Datasheets; 887-1831-1-ND; ~           ;             ;             
+| 12MHz        X3        ; FA238V-XTAL ; 7s.pdf      ; CRYSTAL 12MHZ 12PF SMD; TXC CORPORATION; 7S-12.000MAHE-T; ../PCB/EDU-NXP/Datasheets; 887-1831-1-ND; ~           ;             ;             
+| SMAZ5V6      ZA1       ; SOD123F     ; MMSZ2V4T1-D.PDF; DIODE ZENER 5.6V 500MW SOD123; ON Semiconductor; MMSZ5V6T1G  ; ../PCB/EDU-NXP/Datasheets; MMSZ5V6T1GOSCT-ND; SOD-123     ;             ;             
 #Fin Componentes
 
 #Fin de Lista
