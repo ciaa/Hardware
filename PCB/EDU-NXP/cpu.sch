@@ -7,7 +7,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 7 7
 Title "EDU CIAA CPU - LPC4337"
-Date "16 mar 2015"
+Date "19 mar 2015"
 Rev "1.0"
 Comp ""
 Comment1 ""
@@ -1792,14 +1792,15 @@ P 4450 2500
 AR Path="/52C1CAF4/52C1CFDF" Ref="BT1"  Part="1" 
 AR Path="/52C1F703/52C1CFDF" Ref="BT1"  Part="1" 
 F 0 "BT1" H 4450 2700 50  0000 C CNN
-F 1 "BK-913" H 4450 2310 50  0000 C CNN
+F 1 "BK-913" H 4450 2310 50  0001 C CNN
 F 2 "BK-913-ND" H 4450 2500 60  0001 C CNN
 F 3 "BK-913-datasheet.pdf" H 4450 2500 60  0001 C CNN
 F 4 "Soporte batería CR2032" H 4450 2500 60  0001 C CNN "Descripción"
 F 5 "MPD (Memory Protection Devices)" H 4450 2500 60  0001 C CNN "Fabricante"
-F 6 "../PCB/EDU-NXP/Datasheets" H 4450 2500 60  0001 C CNN "Path datasheet"
-F 7 "BK-913-ND" H 4450 2500 60  0001 C CNN "Digikey"
-F 8 "~" H 4450 2500 60  0001 C CNN "Footprint"
+F 6 "BK-913" H 4450 2500 60  0001 C CNN "Nro de parte"
+F 7 "../PCB/EDU-NXP/Datasheets" H 4450 2500 60  0001 C CNN "Path datasheet"
+F 8 "BK-913-ND" H 4450 2500 60  0001 C CNN "Digikey"
+F 9 "~" H 4450 2500 60  0001 C CNN "Footprint"
 	1    4450 2500
 	-1   0    0    1   
 $EndComp
