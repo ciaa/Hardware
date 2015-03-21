@@ -1,0 +1,59 @@
+Fecha de Generación: 18/03/2015-13:57:20
+
+REF;VALUE;CANT;DESC;PN-DIGI-KEY;FAB;FOOT;DATA;URL
+C1, C3, C33, C37, C39;10uF;5;CAP CER 10UF 16V 10% X7R 1206;399-3525-1-ND;Kemet;c_1206_tantalio;..PCB/EDU-CIAA/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=399-3525-1-ND
+C2, C4, C7, C8, C9, C10, C17, C18, C19, C20, C21, C22, C23, C24, C25, C26, C27, C28, C29, C30, C31, C32, C34, C36, C38, C40, C41, C42, C43, C44, C45, C46, C47, C48, C49, C50;100nF;36;CAP CER 0.1UF 16V 10% X7R 0805;399-1167-1-ND;Kemet;c_0805;..PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=399-1167-1-ND
+C5, C6;10uF;2;CAP TANT 10UF 10V 10% 1206;399-3684-2-ND;Kemet;c_1206_tantalio;..PCB/EDU-CIAA/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=399-3684-2-ND
+C11, C12, C13, C14, C15, C16;20p;6;CAP CER 20PF 50V 5% NP0 0805;399-8033-1-ND;Kemet;c_0805;..PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=399-8033-1-ND
+C35;3.3uF;1;CAP CER 3.3UF 16V 10% X7R 0805;445-7582-1-ND;TDK Corporation;c_0805;..PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=445-7582-1-ND
+D1, D2, D3;PSD12C;3;TVS DIODE 10.2VWM 16.7VC SMB;P6SMB12CAT3GOSCT-ND;ON Semiconductor;DO-214AA(SMB);PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=P6SMB12CAT3GOSCT-ND
+D4, D5, D10;PMEG3020EH;3;DIODE SCHOTTKY 30V 2A SOD123F;568-4129-1-ND;NXP Semiconductors;DO-214AA(SMB);...PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=568-4129-1-ND
+D6, D7;LED red;2;LED ALG RED WTR CLR 0805 SMD T/R;1080-1412-1-ND;Everlight Electronics Co Ltd;LED-0805;..PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=1080-1412-1-ND
+D8;LED;1;LED YELLOW WTR CLR 0805 SMD T/R;1080-1410-1-ND;Everlight Electronics Co Ltd;LED-0805;..PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=1080-1410-1-ND
+D9;LED;1;LED GREEN WATER CLR 0805 SMD T/R;1080-1411-1-ND;Everlight Electronics Co Ltd;LED-0805;..PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=1080-1411-1-ND
+D11;LL4148;1;DIODE SMALL SIG 100V 0.2A SOD80;LL4148FSTR-ND;Fairchild Semiconductor;SOD-123;..NXP/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=LL4148FSTR-ND
+FB1, FB5, FB6, FB9, FB10;MI0805M221R-10, HZ0805E601R-10;5;FERRITE CHIP POWER 220 OHM SMD;240-2392-1-ND;Laird-Signal Integrity Products;SM0805;..PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=240-2392-1-ND
+FB2, FB3, FB4, FB7, FB8;HZ0805E601R-10;5;FERRITE 500MA 600 OHM 0805 SMD;240-2399-1-ND;Laird-Signal Integrity Products;SM0805;..PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=240-2399-1-ND
+J1;TB_1X3;1;TERM BLOCK 5.08MM VERT 3POS PCB;ED2610-ND;On Shore Technology Inc;bornier3;..PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=ED2610-ND
+J2, J3;ZX62D-AB-5P8;2;CONN RCPT MCR USB AB SMD TH SHLL;H11494CT-ND;Hirose Electric Co Ltd;USB_microAB_ZX62-AB-5P8;..PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=H11494CT-ND
+LED1;LED_ARBG;1;LED RGB 605/525/470NM DIFF SMD;160-2022-1-ND;Lite-On Inc;PLCC-4;..PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=160-2022-1-ND
+P3;Cortex-Debug;1;CONN HDR 1.27MM SMD AU 10POS;952-1389-ND;Harwin Inc;Pin_Array_5x2_1.27mm_SMD;..PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=952-1389-ND
+P4;5Vcc Input;1;CONN HEADER 2POS .100 VERT TIN;WM4200-ND;Molex Inc;Con_2P;..PCB/EDU-NXP/Datasheet;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=WM4200-ND
+PS1, PS2;USMF020;2;FUSE RESETTABLE .20A 30V HLD SMD;MF-USMF020-2CT-ND;Bourns Inc.;SM1210;..PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=MF-USMF020-2CT-ND
+Q1, Q3, Q4, Q5, Q9, Q10;2N7002;6;MOSFET N-CH 60V 115MA SOT-23;2N7002NCT-ND;Fairchild Semiconductor;SOT23GDS;..PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=2N7002NCT-ND
+R1, R2, R3;4K7;3;RES 4.7K ohm 1/8W 5% 0805 SMD;1276-5544-1-ND;Samsung;SM0805;..PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=1276-5544-1-ND
+R4, R5, R90;100K;3;RES 100K OHM 1/8W 5% 0805 SMD;P100KACT-ND;Panasonic Electronic Components;SM0805;..PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=P100KACT-ND
+R6, R8;390;2;RES 390 OHM 1/10W .5% 0805 SMD;RR12P390DCT-ND;Susumu;SM0805;..PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RR12P390DCT-ND
+R7;200;1;RES 200 OHM 1/10W .5% 0805 SMD;RR12P200DCT-ND;Susumu;SM0805;..PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RR12P200DCT-ND
+R9;100;1;RES 100 OHM 1/2W 1% 0805 SMD;P16057CT-ND;Panasonic Electronic Components;SM0805;..PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=P16057CT-ND
+R10, R12, R13, R14, R18, R19;330k;6;RES 330K OHM 1/8W 5% 0805;RMCF0805JT330KCT-ND;Stackpole Electronics Inc;SM0805;..PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RMCF0805JT330KCT-ND
+R11, R15, R107, R108, R109, R110; ;6;RES 0.0 OHM 1/8W JUMP 0805 SMD;311-0.0ARCT-ND;Yageo;SM0805;..PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=311-0.0ARCT-ND
+R16, R17, R62, R63, R64, R65, R66, R70, R71, R74, R82, R83, R93, R94, R99, R100, R102, R106;10k;18;RES 10K OHM 1/8W 5% 0805 SMD;P10KACT-ND;Panasonic Electronic Components;SM0805;..PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=P10KACT-ND
+R20;470;1;RES 470 OHM 1/8W 5% 0805 SMD;P470ACT-ND;Panasonic Electronic Components;SM0805;..PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=P470ACT-ND
+R21, R22, R23;1k2;3;RES 1.2K OHM 1/8W 5% 0805;RMCF0805JT1K20CT-ND;Stackpole Electronics Inc;SM0805;..PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RMCF0805JT1K20CT-ND
+R57, R58, R59, R60, R61;1k;5;RES 1K OHM 1/8W 5% 0805 SMD;311-1.0KARCT-ND;Yageo;SM0805;..PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=311-1.0KARCT-ND
+R68, R72, R73, R76, R84, R85;680;6;RES 680 OHM 1/10W .5% 0805 SMD;RR12P680DCT-ND;Susumu;SM0805;..PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RR12P680DCT-ND
+R91;10M;1;RES 10M OHM 1/8W 5% 0805;RMCF0805JT10M0CT-ND;Stackpole Electronics Inc;SM0805;..PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RMCF0805JT10M0CT-ND
+R92, R103;12K, 12K 1%;2;RES 12K OHM 1/8W 1% 0805 SMD;311-12.0KCRCT-ND;Yageo;SM0805;..PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=311-12.0KCRCT-ND
+R95, R97, R101;2.2k;3;RES 2.2K OHM 1/8W 5% 0805;RMCF0805JT2K20CT-ND;Stackpole Electronics Inc;SM0805;..PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RMCF0805JT2K20CT-ND
+R96, R98, R104;15K, 1k;3;RES 15.0K OHM 1/10W .5% 0805 SMD;RR12P15.0KDCT-ND;Susumu;SM0805;..PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RR12P15.0KDCT-ND
+R105;270;1;RES 270 OHM 1/8W 5% 0805 SMD;RHM270CPCT-ND;Rohm Semiconductor;SM0805;../PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RHM270CPCT-ND
+SW1, SW2, SW3, SW4, SW5;TEC_1, TEC_2, TEC_3, TEC_4, RESET;5;SWITCH TACTILE SPST-NO 0.05A 24V;450-1804-ND;TE Connectivity;PUSH_SWITCH_THT;../PCN/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=450-1804-ND
+TH1, TH2, TH3, TH4;MF-MSMF030-2, MF-MSMF110-2;4;PTC RESETTABLE .30A 30V 1812;MF-MSMF030-2CT-ND;Bourns Inc.;MF-MSMF;../PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=MF-MSMF030-2CT-ND
+TR1, TR2;DLW21HN900SQ2;2;CHOKE COMMON MODE 90 OHM 0805;490-1064-2-ND;Murata Electronics North America;SRF2012;../PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=490-1064-2-ND
+U1;SN65HVD1176DR;1;IC RS485 PROFIBUS TXRX 8-SOIC;296-26337-1-ND;Texas Instruments;-SOIC8;../PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=296-26337-1-ND
+U2, U8;PRTR5V0U2X;2;TVS DIODE 5.5VWM SOT143B;568-4140-1-ND;NXP Semiconductors;sot143B;../PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=568-4140-1-ND
+U3;NCP1117ST33T3G;1;IC REG LDO 3.3V 1A SOT223;NCP1117ST33T3GOSCT-ND;ON Semicinductor;SOT223;../PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=NCP1117ST33T3GOSCT-ND
+U4;LPC4337JBD144;1;IC MCU ARM 1MB FLASH 144LQFP;568-10159-ND;NXP Semiconductors;LQFP144-M05;../PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=568-10159-ND
+U5;93C46;1;IC EEPROM 1KBIT 2MHZ 8SOIC;AT93C46DN-SH-TCT-ND;Atmel;-SOIC8;../PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=AT93C46DN-SH-TCT-ND
+U6;FT2232H;1;IC USB HS DUAL UART/FIFO 64-LQFP;768-1024-1-ND;FTDI, Future Technology Devices International Ltd;LQFP64-M05;../PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=768-1024-1-ND
+U7;TXB0108;1;IC 8-BIT TRNSTR 15KV ESD 20TSSOP;296-21527-1-ND;Texas Instruments;tssop-20;../PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=296-21527-1-ND
+U9;MIC2025;1;IC SW DISTRIBUTION 1CHAN 8SOIC;576-1058-ND;Micrel Inc;-SOIC8;../PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=576-1058-ND
+X1;32.768K;1;CRYSTAL 32.768KHZ 12.5PF SMD;535-9166-1-ND;Abracon Corporation;4SOJ;../PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=535-9166-1-ND
+X2, X3;12MHz;2;CRYSTAL 12MHZ 12PF SMD;887-1831-1-ND;TXC CORPORATION;FA238V-XTAL;../PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=887-1831-1-ND
+ZA1;SMAZ5V6;1;DIODE ZENER 5.6V 500MW SOD123;MMSZ5V6T1GOSCT-ND;ON Semiconductor;SOD123F;../PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=MMSZ5V6T1GOSCT-ND
+
+Elementos sin Part Number
+BT1;BK-913;1;Soporte baterÃ­a CR2032; ;MPD (Memory Protection Devices);BK-913-ND;BK-913-ND;
+F1, F2, F3, F4, F5, F6, H1, H2, H3, H4, JP1, JP2, JP3, JP4, JP5, P1, P2;fiducial, 4mm, JUMPER-2, ISP, CONN_20X2;17; ; ; ; ; ;
+
