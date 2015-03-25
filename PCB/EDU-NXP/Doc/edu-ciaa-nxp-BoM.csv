@@ -1,6 +1,7 @@
-Fecha de Generación: 18/03/2015-13:57:20
+Fecha de Generación: 25/03/2015-16:11:09
 
 REF;VALUE;CANT;DESC;PN-DIGI-KEY;FAB;FOOT;DATA;URL
+BT1;BK-913;1;Soporte baterÃ­a CR2032;BK-913-ND;MPD (Memory Protection Devices);BK-913-ND;../PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=BK-913-ND
 C1, C3, C33, C37, C39;10uF;5;CAP CER 10UF 16V 10% X7R 1206;399-3525-1-ND;Kemet;c_1206_tantalio;..PCB/EDU-CIAA/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=399-3525-1-ND
 C2, C4, C7, C8, C9, C10, C17, C18, C19, C20, C21, C22, C23, C24, C25, C26, C27, C28, C29, C30, C31, C32, C34, C36, C38, C40, C41, C42, C43, C44, C45, C46, C47, C48, C49, C50;100nF;36;CAP CER 0.1UF 16V 10% X7R 0805;399-1167-1-ND;Kemet;c_0805;..PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=399-1167-1-ND
 C5, C6;10uF;2;CAP TANT 10UF 10V 10% 1206;399-3684-2-ND;Kemet;c_1206_tantalio;..PCB/EDU-CIAA/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=399-3684-2-ND
@@ -54,6 +55,5 @@ X2, X3;12MHz;2;CRYSTAL 12MHZ 12PF SMD;887-1831-1-ND;TXC CORPORATION;FA238V-XTAL;
 ZA1;SMAZ5V6;1;DIODE ZENER 5.6V 500MW SOD123;MMSZ5V6T1GOSCT-ND;ON Semiconductor;SOD123F;../PCB/EDU-NXP/Datasheets;http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=MMSZ5V6T1GOSCT-ND
 
 Elementos sin Part Number
-BT1;BK-913;1;Soporte baterÃ­a CR2032; ;MPD (Memory Protection Devices);BK-913-ND;BK-913-ND;
 F1, F2, F3, F4, F5, F6, H1, H2, H3, H4, JP1, JP2, JP3, JP4, JP5, P1, P2;fiducial, 4mm, JUMPER-2, ISP, CONN_20X2;17; ; ; ; ; ;
 

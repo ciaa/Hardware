@@ -1,6 +1,6 @@
-eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 17/03/2015 06:19:35 p.m.
+eeschema (2013-dec-23)-stable  >> Creation date: mié 25 mar 2015 16:03:58 ART
 #Cmp ( order = Reference )
-| BT1        BK-913      BK-913-datasheet.pdf; BK-913-ND   ; BK-913-datasheet.pdf; Soporte batería CR2032; MPD (Memory Protection Devices); ../PCB/EDU-NXP/Datasheets; BK-913-ND   ; ~           ;             ;             ;             
+| BT1        BK-913      BK-913-datasheet.pdf; BK-913-ND   ; BK-913-datasheet.pdf; Soporte batería CR2032; MPD (Memory Protection Devices); BK-913      ; ../PCB/EDU-NXP/Datasheets; BK-913-ND   ; ~           ;             ;             
 | C1         10uF        KEM_C1002_X7R_SMD.pdf; c_1206_tantalio; KEM_C1002_X7R_SMD.pdf; CAP CER 10UF 16V 10% X7R 1206; Kemet       ; C1206C106K4RACTU; ..PCB/EDU-CIAA/Datasheets; 399-3525-1-ND; 1206        ;             ;             
 | C2         100nF       KEM_C1002_X7R_SMD.pdf; c_0805      ; KEM_C1002_X7R_SMD.pdf; CAP CER 0.1UF 16V 10% X7R 0805; Kemet       ; C0805C104K4RACTU; ..PCB/EDU-NXP/Datasheets; 399-1167-1-ND; 0805        ;             ;             
 | C3         10uF        KEM_C1002_X7R_SMD.pdf; c_1206_tantalio; KEM_C1002_X7R_SMD.pdf; CAP CER 10UF 16V 10% X7R 1206; Kemet       ; C1206C106K4RACTU; ..PCB/EDU-CIAA/Datasheets; 399-3525-1-ND; 1206        ;             ;             
@@ -195,7 +195,7 @@ eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 17/03/2015 06:19:35 p.m
 #End Cmp
 
 #Componentes ( orden = Valor )
-| BK-913       BT1       ; BK-913-ND   ; BK-913-datasheet.pdf; Soporte batería CR2032; MPD (Memory Protection Devices); ../PCB/EDU-NXP/Datasheets; BK-913-ND   ; ~           ;             ;             ;             
+| BK-913       BT1       ; BK-913-ND   ; BK-913-datasheet.pdf; Soporte batería CR2032; MPD (Memory Protection Devices); BK-913      ; ../PCB/EDU-NXP/Datasheets; BK-913-ND   ; ~           ;             ;             
 | 20p          C11       ; c_0805      ; KEM_C1003_C0G_SMD.pdf; CAP CER 20PF 50V 5% NP0 0805; Kemet       ; C0805C200J5GACTU; ..PCB/EDU-NXP/Datasheets; 399-8033-1-ND; 0805        ;             ;             
 | 20p          C12       ; c_0805      ; KEM_C1003_C0G_SMD.pdf; CAP CER 20PF 50V 5% NP0 0805; Kemet       ; C0805C200J5GACTU; ..PCB/EDU-NXP/Datasheets; 399-8033-1-ND; 0805        ;             ;             
 | 20p          C13       ; c_0805      ; KEM_C1003_C0G_SMD.pdf; CAP CER 20PF 50V 5% NP0 0805; Kemet       ; C0805C200J5GACTU; ..PCB/EDU-NXP/Datasheets; 399-8033-1-ND; 0805        ;             ;             
