@@ -3,7 +3,7 @@
   (general
     (links 1035)
     (no_connects 0)
-    (area -2.094569 5.786001 157.548501 101.2449)
+    (area -2.094569 5.786001 157.548501 101.295666)
     (thickness 1.6)
     (drawings 95)
     (tracks 8704)
@@ -14,7 +14,7 @@
 
   (page A3)
   (layers
-    (15 F.Cu signal hide)
+    (15 F.Cu signal)
     (2 Inner2.Cu mixed hide)
     (1 Inner1.Cu mixed hide)
     (0 B.Cu signal)
@@ -60,7 +60,7 @@
     (pad_to_mask_clearance 0.0254)
     (pad_to_paste_clearance -0.0254)
     (aux_axis_origin 13.335 101.77272)
-    (visible_elements 7FFF7EEF)
+    (visible_elements 7FFF7FEF)
     (pcbplotparams
       (layerselection 284983303)
       (usegerberextensions true)
