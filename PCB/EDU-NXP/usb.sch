@@ -7,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 7
 Title "EDU CIAA USB"
-Date "19 mar 2015"
+Date "23 mar 2015"
 Rev "1.0"
 Comp ""
 Comment1 ""
