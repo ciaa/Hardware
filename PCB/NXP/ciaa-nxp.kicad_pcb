@@ -1322,7 +1322,7 @@
     )
   )
 
-  (module TSOP54-M08-T2 (layer F.Cu) (tedit 53DAAF03) (tstamp 530C90C1)
+  (module TSOP54-M08-T2 (layer F.Cu) (tedit 5512EDC7) (tstamp 530C90C1)
     (at 58.8965 36.4495 270)
     (descr "TSOP, 54 pins, 0.8mm pitch, 22.2x10.16mm body")
     (tags "SMD TSOP IC")
@@ -1333,7 +1333,7 @@
     (fp_text reference U15 (at 10.858 8.414 360) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.1524)))
     )
-    (fp_text value IS42S16400F (at 0 3.00228 270) (layer F.SilkS)
+    (fp_text value IS42S16800F-7TL (at 0 3.00228 270) (layer F.SilkS)
       (effects (font (size 1.524 1.143) (thickness 0.2032)))
     )
     (fp_arc (start -11.09726 0) (end -11.09726 -0.7747) (angle 180) (layer F.SilkS) (width 0.1524))

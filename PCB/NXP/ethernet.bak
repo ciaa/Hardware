@@ -74,7 +74,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 12
 Title "CIAA Ethernet"
-Date "19 aug 2014"
+Date "29 sep 2014"
 Rev "1.0"
 Comp ""
 Comment1 ""
@@ -590,7 +590,6 @@ Connection ~ 7400 3900
 Wire Wire Line
 	7900 4300 7900 3700
 Connection ~ 7900 3700
-NoConn ~ 9650 3800
 $Comp
 L GND #PWR078
 U 1 1 529F7D8C
@@ -1078,7 +1077,6 @@ Wire Wire Line
 	8700 3150 8700 3600
 Connection ~ 8700 3600
 Connection ~ 7650 4000
-NoConn ~ 9650 3900
 $Comp
 L CONN_17 P1
 U 1 1 53F384B4
@@ -1196,4 +1194,22 @@ Wire Wire Line
 Connection ~ 9600 5650
 Wire Wire Line
 	9600 5650 9650 5650
+$Comp
+L GND #PWR?
+U 1 1 5429B31A
+P 8850 4050
+F 0 "#PWR?" H 8850 4050 30  0001 C CNN
+F 1 "GND" H 8850 3980 30  0001 C CNN
+F 2 "" H 8850 4050 60  0000 C CNN
+F 3 "" H 8850 4050 60  0000 C CNN
+	1    8850 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 3800 8850 4050
+Wire Wire Line
+	9650 3800 8850 3800
+Wire Wire Line
+	9650 3900 8850 3900
+Connection ~ 8850 3900
 $EndSCHEMATC

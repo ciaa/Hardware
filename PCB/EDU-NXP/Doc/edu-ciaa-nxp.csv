@@ -1,5 +1,5 @@
 ref;value;footprint;Campo1;Campo2;Campo3;Campo4;Campo5;Campo6;Campo7;Campo8
-BT1;BK-913;BK-913-ND;Soporte batería CR2032;MPD (Memory Protection Devices);../PCB/EDU-NXP/Datasheets;BK-913-ND;~;;;
+BT1;BK-913;BK-913-ND;Soporte batería CR2032;MPD (Memory Protection Devices);BK-913;../PCB/EDU-NXP/Datasheets;BK-913-ND;~;;
 C1;10uF;c_1206_tantalio;CAP CER 10UF 16V 10% X7R 1206;Kemet;C1206C106K4RACTU;..PCB/EDU-CIAA/Datasheets;399-3525-1-ND;1206;;
 C2;100nF;c_0805;CAP CER 0.1UF 16V 10% X7R 0805;Kemet;C0805C104K4RACTU;..PCB/EDU-NXP/Datasheets;399-1167-1-ND;0805;;
 C3;10uF;c_1206_tantalio;CAP CER 10UF 16V 10% X7R 1206;Kemet;C1206C106K4RACTU;..PCB/EDU-CIAA/Datasheets;399-3525-1-ND;1206;;
