@@ -1,0 +1,31 @@
+# Actualización manual de archivos #
+
+Listado de los archivos de documentación que se deberían regenerar manualmente
+y actualizar  en el git si se modifica el circuito esquemático o el PCB.
+
+Estos archivos de documentación se llevan en git para tener un set de documentación,
+consistente con los archivos de diseño, en formato fácil de consultar para el público 
+en general y para referenciarlos desde la wiki de la CIAA.
+
+
+Hardware/PCB/EDU-NXP/edu-ciaa-nxp.lst
+ BOM Formato "lista" generado en kicad con las opciones de componentes por referencia y 
+ por valor activadas. Además las opciones de Datasheet y Módulo para campos del sistema y
+ todos los campos de usuario.
+
+Hardware/PCB/EDU-NXP/Doc/edu-ciaa-bom_x100_v2.2.ods
+ Listado BOM relevado manualmente en formato de planilla de cálculo de LibreOffice.
+
+Hardware/PCB/EDU-NXP/Doc/edu-ciaa-nxp.csv
+ Listado BOM generado con Kicad, con la opción de "Spreadsheet import (by reference)".
+ Se utiliza para generar luego edu-ciaa-nxp-BoM.csv.
+
+Hardware/PCB/EDU-NXP/Doc/edu-ciaa-nxp-BoM.csv
+ Listado BOM en formato csv, procesado con el script perl /PCB/FSL/kicad_scripts/bom_opt.pl
+ para agrupar correctamente todos los componentes iguales.
+
+Hardware/PCB/EDU-NXP/Doc/PCB.pdf
+ Dimensiones del PCB. Se debe actualizar solo si cambia el tamaño del PCB.
+
+Hardware/PCB/EDU-NXP/Doc/Schematic.pdf
+ Diagrama esquemático completo en formato PDF. Generado desde el Kicad.
