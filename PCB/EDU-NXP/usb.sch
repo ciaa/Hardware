@@ -1,17 +1,16 @@
 EESchema Schematic File Version 2
 LIBS:edu-ciaa-nxp
-LIBS:edu-ciaa-nxp-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 7
-Title "EDU CIAA USB"
-Date "26 mar 2015"
-Rev "1.0"
+Title "USB OTG"
+Date "31 mar 2015"
+Rev "1.1"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "Computadora Industrial Abierta Argentina Versión Educativa EDU-CIAA-NXP"
+Comment2 "Licencia: https://github.com/ciaa/Hardware/tree/master/Readme (LICENSE)"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -178,12 +177,12 @@ $EndComp
 $Comp
 L LOGO #G6
 U 1 1 53C3FC54
-P 10650 6600
-F 0 "#G6" H 10650 6197 60  0001 C CNN
-F 1 "LOGO" H 10650 7003 60  0001 C CNN
-F 2 "" H 10650 6600 60  0000 C CNN
-F 3 "" H 10650 6600 60  0000 C CNN
-	1    10650 6600
+P 10650 6200
+F 0 "#G6" H 10650 5797 60  0001 C CNN
+F 1 "LOGO" H 10650 6603 60  0001 C CNN
+F 2 "" H 10650 6200 60  0000 C CNN
+F 3 "" H 10650 6200 60  0000 C CNN
+	1    10650 6200
 	1    0    0    -1  
 $EndComp
 Text Label 4850 4550 0    60   ~ 0
@@ -312,9 +311,9 @@ F 9 "8-SOIC" H 3150 5300 60  0001 C CNN "Footprint"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3900 5400 4400 5400
+	4400 5400 3900 5400
 Wire Wire Line
-	4400 5400 4400 3300
+	4400 3300 4400 5400
 Connection ~ 4400 3300
 Wire Wire Line
 	3900 5000 4400 5000
@@ -463,12 +462,36 @@ Wire Wire Line
 $Comp
 L OSHWA #G5
 U 1 1 544CF18B
-P 9700 6700
-F 0 "#G5" H 9670 7100 60  0001 C CNN
-F 1 "OSHWA" H 9700 7003 60  0001 C CNN
-F 2 "~" H 9700 6700 60  0000 C CNN
-F 3 "~" H 9700 6700 60  0000 C CNN
-	1    9700 6700
+P 9700 6300
+F 0 "#G5" H 9670 6700 60  0001 C CNN
+F 1 "OSHWA" H 9700 6603 60  0001 C CNN
+F 2 "~" H 9700 6300 60  0000 C CNN
+F 3 "~" H 9700 6300 60  0000 C CNN
+	1    9700 6300
 	1    0    0    -1  
 $EndComp
+Text Notes 650  800  0    100  ~ 20
+USB OTG
+Wire Notes Line
+	600  600  1350 600 
+Wire Notes Line
+	1350 850  600  850 
+Wire Notes Line
+	1350 600  1350 850 
+Wire Notes Line
+	600  850  600  600 
+Text Notes 2800 6450 0    70   ~ 0
+POWER SWITCH
+Text Notes 5350 6450 0    70   ~ 0
+ESD PROTECTION
+Wire Notes Line
+	8850 3400 9200 3400
+Wire Notes Line
+	9200 3400 9200 3700
+Wire Notes Line
+	9200 3700 8850 3700
+Wire Notes Line
+	8850 3700 8850 3400
+Text Notes 8900 3100 0    70   ~ 0
+Par diferencial\n90 Ohm
 $EndSCHEMATC
