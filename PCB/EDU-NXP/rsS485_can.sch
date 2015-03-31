@@ -1,17 +1,16 @@
 EESchema Schematic File Version 2
 LIBS:edu-ciaa-nxp
-LIBS:edu-ciaa-nxp-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 7
-Title "EDU CIAA RS485"
-Date "26 mar 2015"
-Rev "1.0"
+Title "RS485"
+Date "31 mar 2015"
+Rev "1.1"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "Computadora Industrial Abierta Argentina Versión Educativa EDU-CIAA-NXP"
+Comment2 "Licencia: https://github.com/ciaa/Hardware/tree/master/Readme (LICENSE)"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -229,7 +228,7 @@ F 3 "~" H 6100 3350 60  0000 C CNN
 	1    6100 3350
 	0    -1   -1   0   
 $EndComp
-Text Notes 7600 5350 0    60   ~ 0
+Text Notes 650  800  0    100  ~ 20
 RS485
 $Comp
 L TB_1X3 J1
@@ -249,7 +248,7 @@ F 9 "~" H 7850 3750 60  0001 C CNN "Footprint"
 	-1   0    0    -1  
 $EndComp
 Text Notes 3800 5050 0    60   ~ 0
-JP1, JP2, JP4: cortocircuitar en\ncaso que sea el último nodo de la red.
+JP2, JP3, JP4: cortocircuitar en\ncaso que sea el último nodo de la red.
 $Comp
 L R_MINI R3
 U 1 1 52C5B37E
@@ -396,8 +395,8 @@ F 9 "0805" H 7450 4350 60  0001 C CNN "Footprint"
 	1    7450 4350
 	0    1    1    0   
 $EndComp
-Text Notes 5150 4800 0    60   ~ 0
-De acuerdo a Fig 27 de la AN: slla070d de TI.\n
+Text Notes 3800 5450 0    60   ~ 0
+Los resistores de 290 y 200 (220 valor E12/E24)\nse denominas bias resistors y son los recomendados \nla especificación de Profibus.
 Wire Wire Line
 	5200 3150 5200 3450
 Wire Wire Line
@@ -591,12 +590,12 @@ Connection ~ 4150 3650
 $Comp
 L LOGO #G4
 U 1 1 53C3FC4E
-P 10600 6600
-F 0 "#G4" H 10600 6197 60  0001 C CNN
-F 1 "LOGO" H 10600 7003 60  0001 C CNN
-F 2 "" H 10600 6600 60  0000 C CNN
-F 3 "" H 10600 6600 60  0000 C CNN
-	1    10600 6600
+P 10700 6200
+F 0 "#G4" H 10700 5797 60  0001 C CNN
+F 1 "LOGO" H 10700 6603 60  0001 C CNN
+F 2 "" H 10700 6200 60  0000 C CNN
+F 3 "" H 10700 6200 60  0000 C CNN
+	1    10700 6200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -617,12 +616,46 @@ Wire Wire Line
 $Comp
 L OSHWA #G3
 U 1 1 544CF17C
-P 9700 6700
-F 0 "#G3" H 9670 7100 60  0001 C CNN
-F 1 "OSHWA" H 9700 7003 60  0001 C CNN
-F 2 "~" H 9700 6700 60  0000 C CNN
-F 3 "~" H 9700 6700 60  0000 C CNN
-	1    9700 6700
+P 9800 6300
+F 0 "#G3" H 9770 6700 60  0001 C CNN
+F 1 "OSHWA" H 9800 6603 60  0001 C CNN
+F 2 "~" H 9800 6300 60  0000 C CNN
+F 3 "~" H 9800 6300 60  0000 C CNN
+	1    9800 6300
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	600  600  1200 600 
+Wire Notes Line
+	1200 600  1200 850 
+Wire Notes Line
+	1200 850  600  850 
+Wire Notes Line
+	600  850  600  600 
+Text Notes 3800 5850 0    60   ~ 0
+R9  de acuerdo a Fig 27 de la AN: slla070d de TI.\n
+Wire Notes Line
+	3750 4900 6350 4900
+Wire Notes Line
+	6350 4900 6350 5200
+Wire Notes Line
+	6350 5200 3750 5200
+Wire Notes Line
+	3750 5200 3750 4900
+Wire Notes Line
+	3750 5300 6350 5300
+Wire Notes Line
+	6350 5300 6350 5650
+Wire Notes Line
+	6350 5650 3750 5650
+Wire Notes Line
+	3750 5650 3750 5300
+Wire Notes Line
+	3750 5700 6350 5700
+Wire Notes Line
+	6350 5700 6350 5900
+Wire Notes Line
+	6350 5900 3750 5900
+Wire Notes Line
+	3750 5900 3750 5700
 $EndSCHEMATC
