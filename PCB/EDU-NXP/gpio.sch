@@ -1,17 +1,16 @@
 EESchema Schematic File Version 2
 LIBS:edu-ciaa-nxp
-LIBS:edu-ciaa-nxp-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
-Title "EDU CIAA GPIO"
-Date "26 mar 2015"
-Rev "1.0"
+Title "GPIO"
+Date "31 mar 2015"
+Rev "1.1"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "Computadora Industrial Abierta Argentina Versión Educativa EDU-CIAA-NXP"
+Comment2 "Licencia: https://github.com/ciaa/Hardware/tree/master/Readme (LICENSE)"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -876,12 +875,12 @@ GPIO_GND
 $Comp
 L LOGO #G8
 U 1 1 53C3FC5A
-P 10550 6550
-F 0 "#G8" H 10550 6147 60  0001 C CNN
-F 1 "LOGO" H 10550 6953 60  0001 C CNN
-F 2 "" H 10550 6550 60  0000 C CNN
-F 3 "" H 10550 6550 60  0000 C CNN
-	1    10550 6550
+P 10650 6200
+F 0 "#G8" H 10650 5797 60  0001 C CNN
+F 1 "LOGO" H 10650 6603 60  0001 C CNN
+F 2 "" H 10650 6200 60  0000 C CNN
+F 3 "" H 10650 6200 60  0000 C CNN
+	1    10650 6200
 	1    0    0    -1  
 $EndComp
 Text HLabel 1100 3150 0    60   Input ~ 0
@@ -891,12 +890,22 @@ Wire Wire Line
 $Comp
 L OSHWA #G7
 U 1 1 544CF19A
-P 9600 6650
-F 0 "#G7" H 9570 7050 60  0001 C CNN
-F 1 "OSHWA" H 9600 6953 60  0001 C CNN
-F 2 "~" H 9600 6650 60  0000 C CNN
-F 3 "~" H 9600 6650 60  0000 C CNN
-	1    9600 6650
+P 9700 6300
+F 0 "#G7" H 9670 6700 60  0001 C CNN
+F 1 "OSHWA" H 9700 6603 60  0001 C CNN
+F 2 "~" H 9700 6300 60  0000 C CNN
+F 3 "~" H 9700 6300 60  0000 C CNN
+	1    9700 6300
 	1    0    0    -1  
 $EndComp
+Text Notes 650  800  0    100  ~ 20
+GPIO
+Wire Notes Line
+	600  600  1050 600 
+Wire Notes Line
+	1050 600  1050 850 
+Wire Notes Line
+	600  600  600  850 
+Wire Notes Line
+	600  850  1050 850 
 $EndSCHEMATC
