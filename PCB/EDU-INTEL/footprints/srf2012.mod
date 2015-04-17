@@ -1,0 +1,49 @@
+PCBNEW-LibModule-V1  Tue 10 Feb 2015 05:35:35 PM ART
+# encoding utf-8
+Units mm
+$INDEX
+SRF2012
+$EndINDEX
+$MODULE SRF2012
+Po 0 0 0 15 530B942D 00000000 ~~
+Li SRF2012
+Sc 0
+AR 
+Op 0 0 0
+T0 1 -2 1 1 0 0.15 N V 21 N "SRF2012"
+T1 1.5 -3.5 1 1 0 0.15 N V 21 N "VAL**"
+DS -0.6 -1.4 -0.6 0.6 0.15 21
+DS -0.6 0.6 2.2 0.6 0.15 21
+DS 2.2 0.6 2.2 -1.4 0.15 21
+DS 2.2 -1.4 -0.6 -1.4 0.15 21
+DC -0.8 0.8 -0.6 0.8 0.15 21
+$PAD
+Sh "1" R 0.45 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" R 0.45 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.6 0
+$EndPAD
+$PAD
+Sh "3" R 0.45 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.6 -0.85
+$EndPAD
+$PAD
+Sh "4" R 0.45 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -0.85
+$EndPAD
+$EndMODULE SRF2012
+$EndLIBRARY

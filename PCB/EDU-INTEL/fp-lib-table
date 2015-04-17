@@ -1,0 +1,12 @@
+(fp_lib_table
+  (lib (name intel_edison)(type Legacy)(uri ${KIPRJMOD}/footprints/intel_edison.mod)(options "")(descr ""))
+  (lib (name microsd)(type Legacy)(uri ${KIPRJMOD}/footprints/microsd.mod)(options "")(descr ""))
+  (lib (name MicroUSB-ZX62AB&B-5PA)(type Legacy)(uri ${KIPRJMOD}/footprints/MicroUSB-ZX62AB.mod)(options "")(descr ""))
+  (lib (name sod323)(type Legacy)(uri ${KIPRJMOD}/footprints/sod323.mod)(options "")(descr ""))
+  (lib (name srf2012)(type Legacy)(uri ${KIPRJMOD}/footprints/srf2012.mod)(options "")(descr ""))
+  (lib (name "bga20 0.4mm")(type Legacy)(uri ${KIPRJMOD}/footprints/bga_20_0_4mm.mod)(options "")(descr ""))
+  (lib (name dfn6)(type Legacy)(uri ${KIPRJMOD}/footprints/DFN6_2x2mm_0d65Pitch.mod)(options "")(descr ""))
+  (lib (name ref_packages)(type Legacy)(uri ${KIPRJMOD}/footprints/ref-packages.mod)(options "")(descr ""))
+  (lib (name opendous)(type Legacy)(uri ${KIPRJMOD}/footprints/opendous.mod)(options "")(descr ""))
+  (lib (name sod123_inv)(type Legacy)(uri ${KIPRJMOD}/footprints/sod123_inv.mod)(options "")(descr ""))
+)
