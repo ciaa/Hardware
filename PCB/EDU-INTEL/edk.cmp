@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-01-17 BZR 5377)-product   date = Tue 24 Feb 2015 05:16:46 PM ART
+Cmp-Mod V01 Created by Cvpcb (2015-01-17 BZR 5377)-product   date = lun 20 abr 2015 12:32:39 ART
 
 BeginCmp
 TimeStamp = /54DA1A9C/54500044;
@@ -319,14 +319,14 @@ BeginCmp
 TimeStamp = /54DB722F/54DE7866;
 Reference = P4;
 ValeurCmp = 5V_IN;
-IdModule  = Connect:bornier2;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
-TimeStamp = /54DB722F/54DE8D79;
+TimeStamp = /54DB722F/553529D0;
 Reference = P5;
 ValeurCmp = 5V_IN;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+IdModule  = Connect:BARREL_JACK;
 EndCmp
 
 BeginCmp

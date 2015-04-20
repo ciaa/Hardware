@@ -46,11 +46,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 5
-Title "CIAA-INTEL"
-Date "4 feb 2015"
-Rev "1.0"
+Title "EDU-CIAA-INTEL"
+Date "vie 17 abr 2015"
+Rev "1.1"
 Comp "DPLab@UTN.BA"
-Comment1 ""
+Comment1 "Author: Pablo Ridolfi"
 Comment2 ""
 Comment3 ""
 Comment4 ""
