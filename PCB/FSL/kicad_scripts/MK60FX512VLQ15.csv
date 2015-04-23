@@ -1,0 +1,151 @@
+"Footprint","TQFP144",,,,,,
+"Descripcion","MCU ARM 512KB FLASH",,,,,,
+"Fabricante","Freescale Semiconductor",,,,,,
+"Nro. parte","MCIMX6D5EYM10AC",,,,,,
+"Path datasheet","../datasheets/K60/K60P144M150SF3RM.pdf",,,,,,
+"Digikey/Mouser","MK60FX512VLQ15-ND",,,,,,
+"Pin","Pin Name","Input/Output","Sub-Grupo","Grupo","L die","Description","Dominio de Alimentación"
+1,"PTE0/SDHC0_D1","Input/Output","SD","SD",0,"SD CH 0 data 1",0
+2,"PTE1/LLWU_P0/SDHC0_D0  ","Input/Output","SD","SD",0,"SD CH 0 data 0",0
+3,"PTE2/LLWU_P1/SDHC0_DCLK","Output Clock","SD","SD",0,"SD CH 0 Clock",0
+4,"PTE3/SDHC0_CMD","Output","SD","SD",0,"SD CH 0 Command",0
+5,"VDD","Power Input","VDD","POWER",0,"MCU Power",0
+6,"VSS","Power Input","VSS","POWER",0,"MCU Ground",0
+7,"PTE4/LLWU_P2/SDHC0_D3","Input/Output","SD","SD",0,"SD CH 0 data 3",0
+8,"PTE5/SDHC0_D2","Input/Output","SD","SD",0,"SD CH 0 data 2",0
+9,"PTE6","Input","SD","SD",0,"SD CH 0 Card Detection (GPIO Por Firmware)",0
+10,"PTE7","Output","SD","SD",0,"SD CH 0 Pull Up enable (GPIO Por Firmware)",0
+11,"PTE8/UART5_TX","Output","JTAG","JTAG",0,"UART 5 TX (USB_JTAG)",0
+12,"PTE9/UART5_RX","Input","JTAG","JTAG",0,"UART 5 RX (USB_JTAG)",0
+13,"PTE10","Output","USB_OTG_CTRL","USB_OTG",0,"USB OTG Enable Power (GPIO Por Firmware)",0
+14,"PTE11","Input","USB_OTG_CTRL","USB_OTG",0,"USB OTG Power Fault (GPIO Por Firmware)",0
+15,"PTE12","Input","USB_OTG_CTRL","USB_OTG",0,"USB OTG ID (GPIO Por Firmware)",0
+16,"VDD","Power Input","VDD","POWER",0,"MCU Power",0
+17,"VSS","Power Input","VSS","POWER",0,"MCU Ground",0
+18,"VSS","Power Input","VSS","POWER",0,"MCU Ground",0
+19,"USB0_DP","Input/Output","USB_OTG_DATA","USB_OTG",0,"USB OTG DATA +",0
+20,"USB0_DM","Input/Output","USB_OTG_DATA","USB_OTG",0,"USB OTG DATA -",0
+21,"VOUT33","Power Output","USB_VREG","USB_OTG",0,"Regulator output voltage",0
+22,"VREGIN","Power Input","USB_VREG","USB_OTG",0,"Unregulated power supply",0
+23,"PGA2_DP","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+24,"PGA2_DM","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+25,"PGA3_DP","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+26,"PGA3_DM","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+27,"PGA0_DP","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+28,"PGA0_DM","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+29,"PGA1_DP","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+30,"PGA1_DM","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+31,"VDDA","Power Input","ADC_POWER","ADC",0,"Analog power supply",0
+32,"VREFH","Power Input","ADC_POWER","ADC",0,"Voltage reference select high",0
+33,"VREFL","Power Input","ADC_POWER","ADC",0,"Voltage reference select low",0
+34,"VSSA","Power Input","ADC_POWER","ADC",0,"Analog ground",0
+35,"ADC1_SE16","Input","NC","NC",0,"Not Used",0
+36,"ADC0_SE16","Input","NC","NC",0,"Not Used",0
+37,"VREF_OUT","Power Output","ADC_POWER","ADC",0,"Internally-generated Voltage Reference output",0
+38,"DAC0_OUT","Input/Output","DAC","DAC",0,"DAC0 output/ADC Ch 0 Single Ended",0
+39,"DAC1_OUT","Input/Output","DAC","DAC",0,"DAC1 output/ADC Ch 1 Single Ended",0
+40,"XTAL32","Output Clock","RTC CLOCK","CLOCK",0,"32.768 kHz oscillator output",0
+41,"EXTAL32","Input Clock","RTC CLOCK","CLOCK",0,"32.768 kHz oscillator input",0
+42,"VBAT","Power Input","RTC-BATERY","RTC-BATERY",0,"Battery Supply Input",0
+43,"VDD","Power Input","VDD","POWER",0,"MCU Power",0
+44,"VSS","Power Input","VSS","POWER",0,"MCU Ground",0
+45,"PTE24/EXTAL1","Input Clock","PRINC CLOCK","CLOCK",0,"External clock/Oscillator input",0
+46,"PTE25/XTAL1","Output Clock","PRINC CLOCK","CLOCK",0,"Oscillator output",0
+47,"PTE26","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+48,"PTE27","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+49,"PTE28","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+50,"PTA0/JTAG_TCLK","Input Clock","JTAG","JTAG",0,"JTAG Test Clock",0
+51,"PTA1/JTAG_TDI","Input","JTAG","JTAG",0,"JTAG Test Data Input",0
+52,"PTA2/JTAG_TDO","Output","JTAG","JTAG",0,"JTAG Test Data Output",0
+53,"PTA3/JTAG_TMS","Input/Output","JTAG","JTAG",0,"JTAG Test Mode Selection",0
+54,"PTA4/LLWU_P3","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+55,"PTA5/RMII0_RXER","Input","ETHERNET","ETHERNET",0,"RMII/MII Error Frame",0
+56,"VDD","Power Input","VDD","POWER",0,"MCU Power",0
+57,"VSS","Power Input","VSS","POWER",0,"MCU Ground",0
+58,"PTA6","Input/Output","AUX GPIO/ADC","ADC",0,"Auxiliar GPIO",0
+59,"PTA7","Input/Output","AUX GPIO/ADC","ADC",0,"Auxiliar GPIO",0
+60,"PTA8","Input/Output","AUX GPIO/ADC","ADC",0,"Auxiliar GPIO",0
+61,"PTA9","Input/Output","AUX GPIO/ADC","ADC",0,"Auxiliar GPIO",0
+62,"PTA10","Input/Output","AUX GPIO/ADC","ADC",0,"Auxiliar GPIO",0
+63,"PTA11","Input/Output","AUX GPIO/ADC","ADC",0,"Auxiliar GPIO",0
+64,"PTA12/RMII0_RXD1","Input","ETHERNET","ETHERNET",0,"RMII/MII Receive Data 1",0
+65,"PTA13/RMII0_RXD0","Input","ETHERNET","ETHERNET",0,"RMII/MII Receive Data  0",0
+66,"PTA14/RMII0_CRS_DV","Input","ETHERNET","ETHERNET",0,"RMII/MII Carrier Sense",0
+67,"PTA15/RMII0_TXEN","Output","ETHERNET","ETHERNET",0,"RMII/MII Transmit Enable",0
+68,"PTA16/RMII0_TXD0","Output","ETHERNET","ETHERNET",0,"RMII/MII Data Transmit 1",0
+69,"PTA17/RMII0_TXD1","Output","ETHERNET","ETHERNET",0,"RMII/MII Data Transmit 0",0
+70,"VDD","Power Input","VDD","POWER",0,"MCU Power",0
+71,"VSS","Power Input","VSS","POWER",0,"MCU Ground",0
+72,"PTA18/EXTAL0","Input","ETHERNET","ETHERNET",0,"RMII/MII Reference Clock (por Firmware)",0
+73,"PTA19","Input/Output","ETHERNET","ETHERNET",0,"RMII/MII Reset (por Firmware)",0
+74,"~RESET","Input","RESET","RESET",0,"Reset Input Signal",0
+75,"PTA24","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+76,"PTA25","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+77,"PTA26/ADC2_SE15","Input","ADC_INPUT","ADC",0,"ADC Ch 0 Single ended",0
+78,"PTA27/ADC2_SE14","Input","ADC_INPUT","ADC",0,"ADC Ch 0 Single ended",0
+79,"PTA28/ADC2_SE13","Input","ADC_INPUT","ADC",0,"ADC Ch 0 Single ended",0
+80,"PTA29/ADC2_SE12","Input","ADC_INPUT","ADC",0,"ADC Ch 0 Single ended",0
+81,"PTB0/LLWU_P5/RMII0_MDIO","Input/Output","ETHERNET","ETHERNET",0,"RMII/MII Transfer Control Information",0
+82,"PTB1/RMII0_MDC","Output","ETHERNET","ETHERNET",0,"RMII/MII Output Clock Reference",0
+83,"PTB2/ADC0_SE12","Input","ADC_INPUT_GPIO","ADC",0,"ADC Ch 0 Single ended",0
+84,"PTB3/ADC0_SE13","Input","ADC_INPUT_GPIO","ADC",0,"ADC Ch 0 Single ended",0
+85,"PTB4/ADC1_SE10","Input","ADC_INPUT_GPIO","ADC",0,"ADC Ch 1 Single ended",0
+86,"PTB5/ADC1_SE11","Input","ADC_INPUT_GPIO","ADC",0,"ADC Ch 1 Single ended",0
+87,"PTB6","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+88,"PTB7","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+89,"PTB8/~UART3_RTS","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+90,"PTB9/~UART3_CTS","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+91,"PTB10/UART3_RX","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+92,"PTB11/UART3_TX","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+93,"VSS","Power Input","VSS","POWER",0,"MCU Ground",0
+94,"VDD","Power Input","VDD","POWER",0,"MCU Power",0
+95,"PTB16","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+96,"PTB17","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+97,"PTB18/CAN0_TX","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+98,"PTB19/CAN0_RX","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+99,"PTB20","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+100,"PTB21","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+101,"PTB22","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+102,"PTB23","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+103,"PTC0","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+104,"PTC1/LLWU_P6","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+105,"PTC2","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+106,"PTC3/LLWU_P7","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+107,"VSS","Power Input","VSS","POWER",0,"MCU Ground",0
+108,"VDD","Power Input","VDD","POWER",0,"MCU Power",0
+109,"PTC4/LLWU_P8","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+110,"PTC5/LLWU_P9","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+111,"PTC6/LLWU_P10","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+112,"PTC7","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+113,"PTC8","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+114,"PTC9","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+115,"PTC10","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+116,"PTC11/LLWU_P11","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+117,"PTC12","Output","UART_DATA","UART",0,"UART 4 Request to Send",0
+118,"PTC13","Input","UART_DATA","UART",0,"UART 4 Clear to Send",0
+119,"PTC14","Input","UART_DATA","UART",0,"UART 4 RX",0
+120,"PTC15","Output","UART_DATA","UART",0,"UART 4 TX",0
+121,"VSS","Power Input","VSS","POWER",0,"MCU Ground",0
+122,"VDD","Power Input","VDD","POWER",0,"MCU Power",0
+123,"PTC16","Input","CAN","CAN",0,"CAN CH 1 RX",0
+124,"PTC17","Input/Output","CAN","CAN",0,"CAN CH 1 TX",0
+125,"PTC18","Output","CAN","CAN",0,"CAN CH 1 STB (Por Firmware)",0
+126,"PTC19","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+127,"PTD0/LLWU_P12/SPI0_PCS0/~UART2_RTS","Output","AUX_UART_SPI","AUX",0,"UART 2 Request to Send/SPI 0 Chip Select",0
+128,"PTD1/SPI0_SCK/~UART2_CTS","Output","AUX_UART_SPI","AUX",0,"UART 2 Clear to Send/SPI 0 Clock",0
+129,"PTD2/LLWU_P13/SPI0_SOUT/UART2_RX","Output","AUX_UART_SPI","AUX",0,"UART 2 RX/SPI 0 MOSI",0
+130,"PTD3/SPI0_SIN/UART2_TX","Output","AUX_UART_SPI","AUX",0,"UART 2 TX/SPI 0 MISO",0
+131,"PTD4/LLWU_P14","Input/Output","RS485","RS485",0,"RS485 DIR (Por Firmware)",0
+132,"PTD5","Input/Output","GPIO","GPIO",0,"General purpose input/output",0
+133,"PTD6/LLWU_P15/UART0_RX","Input","RS485","RS485",0,"UART 0 - RS485 RX",0
+134,"VSS","Power Input","VSS","POWER",0,"MCU Ground",0
+135,"VDD","Power Input","VDD","POWER",0,"MCU Power",0
+136,"PTD7/UART0_TX","Output","RS485","RS485",0,"UART 0 - RS485 TX",0
+137,"PTD8/I2C0_SCL","Output","I2C","I2C",0,"I2C 0 - Clock",0
+138,"PTD9/I2C0_SDA","Input/Output","I2C","I2C",0,"I2C 0 - Data",0
+139,"PTD10","Output","SPI_FLASH","SPI_FLASH",0,"SPI Write Protect (Por Firmware)",0
+140,"PTD11/SPI2_PCS0","Output","SPI_FLASH","SPI_FLASH",0,"SPI 2 Chip Select 0",0
+141,"PTD12/SPI2_SCK","Output","SPI_FLASH","SPI_FLASH",0,"SPI 2 Clock",0
+142,"PTD13/SPI2_SOUT","Output","SPI_FLASH","SPI_FLASH",0,"SPI 2 MOSI",0
+143,"PTD14/SPI2_SIN","Input","SPI_FLASH","SPI_FLASH",0,"SPI 2 MISO",0
+144,"PTD15/SPI2_PCS1","Output","SPI_FLASH","SPI_FLASH",0,"SPI 2 Chip Select 1",0
