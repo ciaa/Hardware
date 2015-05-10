@@ -1,0 +1,162 @@
+PCBNEW-LibModule-V1  vie 14 nov 2014 15:38:24 ART
+# encoding utf-8
+Units mm
+$INDEX
+BGA_20_0.4mm
+$EndINDEX
+$MODULE BGA_20_0.4mm
+Po 0 0 0 15 54664BFC 00000000 ~~
+Li BGA_20_0.4mm
+Sc 0
+AR 
+Op 0 0 0
+T0 0.4 7.6 1 1 0 0.15 N V 21 N "BGA_20_0.4mm"
+T1 0.8 -8.2 1 1 0 0.15 N V 21 N "VAL**"
+DS -0.4 0.2 -0.4 -0.4 0.1 21
+DS -0.4 -0.4 0.2 -0.4 0.1 21
+DS -0.2 -0.2 -0.2 1.8 0.1 21
+DS -0.2 1.8 1.4 1.8 0.1 21
+DS 1.4 1.8 1.4 -0.2 0.1 21
+DS 1.4 -0.2 -0.2 -0.2 0.1 21
+$PAD
+Sh "E1" C 0.25 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 1.6
+$EndPAD
+$PAD
+Sh "E2" C 0.25 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.4 1.6
+$EndPAD
+$PAD
+Sh "E4" C 0.25 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.2 1.6
+$EndPAD
+$PAD
+Sh "E3" C 0.25 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.8 1.6
+$EndPAD
+$PAD
+Sh "C1" C 0.25 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0.8
+$EndPAD
+$PAD
+Sh "C2" C 0.25 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.4 0.8
+$EndPAD
+$PAD
+Sh "C4" C 0.25 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.2 0.8
+$EndPAD
+$PAD
+Sh "C3" C 0.25 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.8 0.8
+$EndPAD
+$PAD
+Sh "D3" C 0.25 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.8 1.2
+$EndPAD
+$PAD
+Sh "D4" C 0.25 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.2 1.2
+$EndPAD
+$PAD
+Sh "D2" C 0.25 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.4 1.2
+$EndPAD
+$PAD
+Sh "D1" C 0.25 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 1.2
+$EndPAD
+$PAD
+Sh "B1" C 0.25 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0.4
+$EndPAD
+$PAD
+Sh "B2" C 0.25 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.4 0.4
+$EndPAD
+$PAD
+Sh "B4" C 0.25 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.2 0.4
+$EndPAD
+$PAD
+Sh "B3" C 0.25 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.8 0.4
+$EndPAD
+$PAD
+Sh "A3" C 0.25 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.8 0
+$EndPAD
+$PAD
+Sh "A4" C 0.25 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.2 0
+$EndPAD
+$PAD
+Sh "A2" C 0.25 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.4 0
+$EndPAD
+$PAD
+Sh "A1" C 0.25 0.25 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE BGA_20_0.4mm
+$EndLIBRARY

@@ -1,0 +1,377 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:bav199
+LIBS:bss138dp
+LIBS:ft232rq
+LIBS:intel_edison
+LIBS:mic2039eymt
+LIBS:sd-con
+LIBS:tblocks
+LIBS:TXB0108
+LIBS:txs0206-29
+LIBS:prtr5v0u2x
+LIBS:transf_unip
+LIBS:edk-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 5
+Title "EDU-CIAA-INTEL"
+Date "vie 17 abr 2015"
+Rev "1.1"
+Comp "DPLab@UTN.BA"
+Comment1 "Author: Pablo Ridolfi"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SD-CON J3
+U 1 1 5454857F
+P 7000 3100
+F 0 "J3" H 7350 3750 60  0000 C CNN
+F 1 "SD-CON" H 7000 3750 60  0000 C CNN
+F 2 "microsd:MicroSD_Hinged" H 7400 2500 60  0000 C CNN
+F 3 "~" H 7000 3100 60  0000 C CNN
+	1    7000 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C16
+U 1 1 5454023C
+P 4700 2200
+F 0 "C16" H 4700 2300 40  0000 L CNN
+F 1 "100nF" H 4706 2115 40  0000 L CNN
+F 2 "SMD_Packages:SMD-0603_c" H 4738 2050 30  0000 C CNN
+F 3 "~" H 4700 2200 60  0000 C CNN
+	1    4700 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 2000 4450 2500
+Wire Wire Line
+	4450 2000 5550 2000
+Wire Wire Line
+	4550 2000 4550 1950
+Connection ~ 4550 2000
+$Comp
+L GND #PWR074
+U 1 1 54540253
+P 4700 2400
+F 0 "#PWR074" H 4700 2400 30  0001 C CNN
+F 1 "GND" H 4700 2330 30  0001 C CNN
+F 2 "" H 4700 2400 60  0000 C CNN
+F 3 "" H 4700 2400 60  0000 C CNN
+	1    4700 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2600 6300 2600
+Wire Wire Line
+	4400 2700 6300 2700
+Wire Wire Line
+	4400 2800 6300 2800
+$Comp
+L C C18
+U 1 1 54540289
+P 5550 3500
+F 0 "C18" H 5550 3600 40  0000 L CNN
+F 1 "100nF" H 5556 3415 40  0000 L CNN
+F 2 "SMD_Packages:SMD-0603_c" H 5588 3350 30  0000 C CNN
+F 3 "~" H 5550 3500 60  0000 C CNN
+	1    5550 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR075
+U 1 1 5454028F
+P 5550 3700
+F 0 "#PWR075" H 5550 3700 30  0001 C CNN
+F 1 "GND" H 5550 3630 30  0001 C CNN
+F 2 "" H 5550 3700 60  0000 C CNN
+F 3 "" H 5550 3700 60  0000 C CNN
+	1    5550 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2000 5550 3300
+Connection ~ 5550 2900
+Wire Wire Line
+	5150 3000 6300 3000
+$Comp
+L GND #PWR076
+U 1 1 545402B6
+P 6200 4000
+F 0 "#PWR076" H 6200 4000 30  0001 C CNN
+F 1 "GND" H 6200 3930 30  0001 C CNN
+F 2 "" H 6200 4000 60  0000 C CNN
+F 3 "" H 6200 4000 60  0000 C CNN
+	1    6200 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 3100 6200 4000
+Wire Wire Line
+	6200 3100 6300 3100
+Wire Wire Line
+	6200 3950 7100 3950
+Wire Wire Line
+	7100 3950 7100 3900
+Connection ~ 6200 3950
+Wire Wire Line
+	7000 3900 7000 3950
+Connection ~ 7000 3950
+Wire Wire Line
+	6900 3900 6900 3950
+Connection ~ 6900 3950
+Wire Wire Line
+	6800 3900 6800 3950
+Connection ~ 6800 3950
+Wire Wire Line
+	5050 3100 6100 3100
+Wire Wire Line
+	6100 3100 6100 3200
+Wire Wire Line
+	6100 3200 6300 3200
+Wire Wire Line
+	6300 3300 6000 3300
+Wire Wire Line
+	6000 3300 6000 3200
+Wire Wire Line
+	6000 3200 4950 3200
+$Comp
+L C C17
+U 1 1 5454036F
+P 2600 2200
+F 0 "C17" H 2600 2300 40  0000 L CNN
+F 1 "100nF" H 2606 2115 40  0000 L CNN
+F 2 "SMD_Packages:SMD-0603_c" H 2638 2050 30  0000 C CNN
+F 3 "~" H 2600 2200 60  0000 C CNN
+	1    2600 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR077
+U 1 1 54540375
+P 2600 2400
+F 0 "#PWR077" H 2600 2400 30  0001 C CNN
+F 1 "GND" H 2600 2330 30  0001 C CNN
+F 2 "" H 2600 2400 60  0000 C CNN
+F 3 "" H 2600 2400 60  0000 C CNN
+	1    2600 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 2000 2700 1950
+Connection ~ 2700 2000
+Wire Wire Line
+	3000 2600 2300 2600
+Wire Wire Line
+	3000 2700 2300 2700
+Wire Wire Line
+	3000 2900 2300 2900
+Wire Wire Line
+	3000 3000 2300 3000
+Wire Wire Line
+	3000 3200 2300 3200
+Wire Wire Line
+	3000 3100 2300 3100
+Text HLabel 2300 2600 0    60   BiDi ~ 0
+SD_DAT2
+Text HLabel 2300 2700 0    60   BiDi ~ 0
+SD_DAT3
+Text HLabel 2300 2900 0    60   Input ~ 0
+SD_CLK
+Text HLabel 2300 3000 0    60   BiDi ~ 0
+SD_DAT0
+Text HLabel 2300 3100 0    60   BiDi ~ 0
+SD_DAT1
+Text HLabel 2300 3200 0    60   Output ~ 0
+SD_CLKf
+Text HLabel 2300 2800 0    60   BiDi ~ 0
+SD_CMD
+Wire Wire Line
+	2300 2800 3000 2800
+$Comp
+L GND #PWR078
+U 1 1 54540481
+P 4450 3450
+F 0 "#PWR078" H 4450 3450 30  0001 C CNN
+F 1 "GND" H 4450 3380 30  0001 C CNN
+F 2 "" H 4450 3450 60  0000 C CNN
+F 3 "" H 4450 3450 60  0000 C CNN
+	1    4450 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R18
+U 1 1 545404DF
+P 4850 3900
+F 0 "R18" V 4930 3900 40  0000 C CNN
+F 1 "10k" V 4857 3901 40  0000 C CNN
+F 2 "SMD_Packages:SMD-0603_r" V 4780 3900 30  0001 C CNN
+F 3 "~" H 4850 3900 30  0000 C CNN
+	1    4850 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5100 3900 5100 3900
+Text HLabel 2300 3300 0    60   Output ~ 0
+SD_CD
+Wire Wire Line
+	4600 3300 4600 4350
+Connection ~ 4600 3900
+$Comp
+L JUMPER JP1
+U 1 1 5457829E
+P 4900 4350
+F 0 "JP1" H 4900 4500 60  0000 C CNN
+F 1 "CARD_DET" H 4900 4270 40  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 4900 4350 60  0001 C CNN
+F 3 "~" H 4900 4350 60  0000 C CNN
+	1    4900 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR079
+U 1 1 545782C4
+P 5250 4400
+F 0 "#PWR079" H 5250 4400 30  0001 C CNN
+F 1 "GND" H 5250 4330 30  0001 C CNN
+F 2 "" H 5250 4400 60  0000 C CNN
+F 3 "" H 5250 4400 60  0000 C CNN
+	1    5250 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 4400 5250 4350
+Wire Wire Line
+	5250 4350 5200 4350
+Text Label 5300 2600 0    60   ~ 0
+DAT2
+Text Label 5300 2700 0    60   ~ 0
+DAT3
+Text Label 5300 2800 0    60   ~ 0
+CMD
+Text Label 5600 2900 0    60   ~ 0
+VCCB
+Text Label 5300 3000 0    60   ~ 0
+CLK
+Text Label 5300 3100 0    60   ~ 0
+DAT0
+Text Label 5300 3200 0    60   ~ 0
+DAT1
+$Comp
+L +1V8 #PWR080
+U 1 1 54DE0BB3
+P 2700 1950
+F 0 "#PWR080" H 2700 1800 60  0001 C CNN
+F 1 "+1V8" H 2700 2090 60  0000 C CNN
+F 2 "" H 2700 1950 60  0000 C CNN
+F 3 "" H 2700 1950 60  0000 C CNN
+	1    2700 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR081
+U 1 1 54DE0C73
+P 4550 1950
+F 0 "#PWR081" H 4550 1800 60  0001 C CNN
+F 1 "+3V3" H 4550 2090 60  0000 C CNN
+F 2 "" H 4550 1950 60  0000 C CNN
+F 3 "" H 4550 1950 60  0000 C CNN
+	1    4550 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L TXB0108 U10
+U 1 1 54EB8FDA
+P 3700 2850
+F 0 "U10" H 3350 3350 60  0000 C CNN
+F 1 "TXB0108" H 3500 2150 60  0000 C CNN
+F 2 "Housings_SSOP:SSOP-20_4.4x6.5mm_Pitch0.65mm" H 3700 2850 60  0001 C CNN
+F 3 "~" H 3700 2850 60  0000 C CNN
+	1    3700 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 2500 4400 2500
+Connection ~ 4700 2000
+Wire Wire Line
+	5550 2900 6300 2900
+Wire Wire Line
+	2900 3400 3000 3400
+Wire Wire Line
+	2900 2000 2900 3400
+Wire Wire Line
+	3000 2500 2900 2500
+Connection ~ 2900 2500
+Wire Wire Line
+	2600 2000 2900 2000
+Wire Wire Line
+	5150 2900 5150 3000
+Wire Wire Line
+	4400 2900 5150 2900
+Wire Wire Line
+	5050 3000 4400 3000
+Wire Wire Line
+	5050 3000 5050 3100
+Wire Wire Line
+	4400 3100 4950 3100
+Wire Wire Line
+	4950 3100 4950 3200
+Wire Wire Line
+	4400 3200 4600 3200
+Wire Wire Line
+	4600 3200 4600 2900
+Connection ~ 4600 2900
+Wire Wire Line
+	4400 3400 4450 3400
+Wire Wire Line
+	4450 3400 4450 3450
+Wire Wire Line
+	2300 3300 3000 3300
+Wire Wire Line
+	4400 3300 4600 3300
+$Comp
+L +3V3 #PWR082
+U 1 1 54EBABFC
+P 5100 3900
+F 0 "#PWR082" H 5100 3750 60  0001 C CNN
+F 1 "+3V3" H 5100 4040 60  0000 C CNN
+F 2 "" H 5100 3900 60  0000 C CNN
+F 3 "" H 5100 3900 60  0000 C CNN
+	1    5100 3900
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

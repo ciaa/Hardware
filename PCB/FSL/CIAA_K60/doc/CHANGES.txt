@@ -82,4 +82,10 @@ Cambios realizados a la CIAA-FSL
 * Autor: Diego Alamon
 * Descripción: Correcciones y sugerencia aplicadas ( Versión CEIBO 1.0).
 
+* Fecha: 22/12/2014
+* Archivos: CIAA_K60.kicad_pcb
+* Autor: Diego Alamon, David Caruso, Noelia Scotti y Diego Brengi
+* Descripción: (Versión CEIBO 1.1) Correcciones detectadas luego de armar las 
+* placas CEIBO 1.0.
+* Ver: ./modificaciones/cambios_CEIBO_1_0.txt
 

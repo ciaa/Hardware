@@ -71,6 +71,21 @@ sh borra_valores_pcb.sh <PCB.kicad_pcb>
 
 Luego devuelve el archivo PCB bajo el nombre: sin_valores_<PCB.kicad_pcb>
 
+genlib.sh
+=========
+
+Descripción:
+------------
+
+Script BASH utilizado para generar la simbología en el esquemático del K60, 
+tomando un .csv donde se describen los pines, nombre y función, como se 
+dividen en sub-partes y en grupos de señales dentro de cada sub-parte. 
+El script es simplemente un wrapper que llama a script perl del proyecto 
+FPGALIBRE con los parámetros adecuados:
+Ver http://fpgalibre.sourceforge.net/eda.html
 
 
+Cómo usarlo:
+------------
+Correr el script.
 
