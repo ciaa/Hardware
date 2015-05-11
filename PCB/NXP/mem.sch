@@ -74,7 +74,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 11 12
 Title "CIAA micro SD card"
-Date "25 mar 2015"
+Date "11 may 2015"
 Rev "1.0"
 Comp ""
 Comment1 ""
@@ -443,7 +443,7 @@ L S25FL032P0XMFI013 U20
 U 1 1 52E54021
 P 5450 4250
 F 0 "U20" H 5050 4650 60  0000 C CNN
-F 1 "S25FL032P0XMFI013" H 5450 3850 60  0000 C CNN
+F 1 "S25FL127SABMFI101" H 5450 3850 60  0000 C CNN
 F 2 "~" H 5450 4050 60  0000 C CNN
 F 3 "~" H 5450 4050 60  0000 C CNN
 	1    5450 4250
@@ -521,5 +521,5 @@ EEPROM, 1Mbit
 Text Notes 6300 2900 0    60   ~ 0
 EEPROM, 2kbit, EUI-48 Node Identity
 Text Notes 5000 4850 0    60   ~ 0
-Flash QSPI, 32Mbit
+Flash QSPI, 128Mbit
 $EndSCHEMATC
