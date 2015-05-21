@@ -91,12 +91,12 @@ $EndComp
 $Comp
 L GND #PWR0124
 U 1 1 52C1C30C
-P 1250 3500
-F 0 "#PWR0124" H 1250 3500 40  0001 C CNN
-F 1 "GND" H 1250 3430 40  0001 C CNN
-F 2 "" H 1250 3500 60  0000 C CNN
-F 3 "" H 1250 3500 60  0000 C CNN
-	1    1250 3500
+P 1150 3500
+F 0 "#PWR0124" H 1150 3500 40  0001 C CNN
+F 1 "GND" H 1150 3430 40  0001 C CNN
+F 2 "" H 1150 3500 60  0000 C CNN
+F 3 "" H 1150 3500 60  0000 C CNN
+	1    1150 3500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -495,35 +495,35 @@ $EndComp
 $Comp
 L CRYSTAL_4PIN_MINI_GND Y1
 U 1 1 538A5594
-P 1200 2950
-F 0 "Y1" H 1200 2800 40  0000 C CNN
-F 1 "32.768KHZ" H 1200 2850 40  0000 C CNN
-F 2 "4SOJ" H 1200 2950 60  0001 C CNN
-F 3 "~" H 1200 2950 60  0000 C CNN
-F 4 "CRYSTAL 32.768KHZ 12.5PF" H 1300 2950 60  0001 C CNN "Descripcion"
-F 5 "Abracon Corporation" H 1400 3050 60  0001 C CNN "Fabricante"
-F 6 "ABS25-32.768KHZ-T" H 1200 2950 60  0001 C CNN "Nro. parte"
-F 7 "~" H 1200 2950 60  0001 C CNN "Path datasheet"
-F 8 "535-9166-1-ND" H 1700 3350 60  0001 C CNN "Digikey/Mouser"
-F 9 "~" H 1200 2950 60  0001 C CNN "Footprint estandar"
-	1    1200 2950
+P 1100 2950
+F 0 "Y1" H 1100 2800 40  0000 C CNN
+F 1 "32.768KHZ" H 1100 2850 40  0000 C CNN
+F 2 "4SOJ" H 1100 2950 60  0001 C CNN
+F 3 "~" H 1100 2950 60  0000 C CNN
+F 4 "CRYSTAL 32.768KHZ 12.5PF" H 1200 2950 60  0001 C CNN "Descripcion"
+F 5 "Abracon Corporation" H 1300 3050 60  0001 C CNN "Fabricante"
+F 6 "ABS25-32.768KHZ-T" H 1100 2950 60  0001 C CNN "Nro. parte"
+F 7 "~" H 1100 2950 60  0001 C CNN "Path datasheet"
+F 8 "535-9166-1-ND" H 1600 3350 60  0001 C CNN "Digikey/Mouser"
+F 9 "~" H 1100 2950 60  0001 C CNN "Footprint estandar"
+	1    1100 2950
 	-1   0    0    1   
 $EndComp
 $Comp
 L C C32
 U 1 1 538A5E6A
-P 950 3250
-F 0 "C32" H 800 3400 40  0000 C CNN
-F 1 "18pF" H 800 3350 40  0000 C CNN
-F 2 "c_0805" H 5500 2650 60  0001 C CNN
-F 3 "~" H 5500 2650 60  0000 C CNN
-F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
-F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
-F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
-F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
-F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
-	1    950  3250
+P 850 3250
+F 0 "C32" H 700 3400 40  0000 C CNN
+F 1 "18pF" H 700 3350 40  0000 C CNN
+F 2 "c_0805" H 5400 2650 60  0001 C CNN
+F 3 "~" H 5400 2650 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6700 -600 60  0001 C CNN "Descripcion"
+F 5 "Kemet" H 6700 -600 60  0001 C CNN "Fabricante"
+F 6 "~" H 6700 -600 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive/" H 6700 -600 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6700 -600 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6700 -600 60  0001 C CNN "Footprint estandar"
+	1    850  3250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -722,18 +722,18 @@ $EndComp
 $Comp
 L C C36
 U 1 1 53993378
-P 1450 3250
-F 0 "C36" H 1550 3150 40  0000 C CNN
-F 1 "18pF" H 1550 3050 40  0000 C CNN
-F 2 "c_0805" H 5500 2650 60  0001 C CNN
-F 3 "~" H 5500 2650 60  0000 C CNN
-F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
-F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
-F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
-F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
-F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
-	1    1450 3250
+P 1350 3250
+F 0 "C36" H 1450 3150 40  0000 C CNN
+F 1 "18pF" H 1450 3050 40  0000 C CNN
+F 2 "c_0805" H 5400 2650 60  0001 C CNN
+F 3 "~" H 5400 2650 60  0000 C CNN
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6700 -600 60  0001 C CNN "Descripcion"
+F 5 "Kemet" H 6700 -600 60  0001 C CNN "Fabricante"
+F 6 "~" H 6700 -600 60  0001 C CNN "Nro. parte"
+F 7 "../datasheet/passive/" H 6700 -600 60  0001 C CNN "Path datasheet"
+F 8 "~" H 6700 -600 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6700 -600 60  0001 C CNN "Footprint estandar"
+	1    1350 3250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -759,7 +759,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 10150 2600 10250
 Wire Wire Line
-	1250 3500 1250 3100
+	1150 3500 1150 3100
 Wire Wire Line
 	1200 10150 1200 10250
 Wire Wire Line
@@ -900,27 +900,27 @@ Wire Wire Line
 Wire Wire Line
 	2400 4550 2300 4550
 Wire Wire Line
-	950  3450 1450 3450
-Connection ~ 1250 3450
+	850  3450 1350 3450
+Connection ~ 1150 3450
 Wire Wire Line
-	2400 2750 950  2750
+	850  2750 2400 2750
 Wire Wire Line
-	950  2750 950  3050
+	850  2750 850  3050
 Wire Wire Line
-	1050 2950 950  2950
-Connection ~ 950  2950
+	950  2950 850  2950
+Connection ~ 850  2950
 Wire Wire Line
-	1450 3050 1450 2850
+	1350 3050 1350 2850
 Wire Wire Line
-	1450 2850 2400 2850
+	1350 2850 2400 2850
 Wire Wire Line
-	1350 2950 1450 2950
-Connection ~ 1450 2950
+	1250 2950 1350 2950
+Connection ~ 1350 2950
 Wire Wire Line
-	1150 3100 1150 3150
+	1050 3100 1050 3150
 Wire Wire Line
-	1150 3150 1250 3150
-Connection ~ 1250 3150
+	1050 3150 1150 3150
+Connection ~ 1150 3150
 Wire Wire Line
 	1100 3850 1100 3950
 Wire Wire Line
