@@ -7,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 8
 Title "EDU CIAA GPIO"
-Date "10 may 2015"
+Date "21 may 2015"
 Rev "1.0"
 Comp ""
 Comment1 ""
@@ -886,12 +886,12 @@ Wire Wire Line
 	1400 6050 1400 6300
 Wire Wire Line
 	1400 6300 850  6300
-Text HLabel 6150 2500 0    60   Output ~ 0
-ETH_RXER
-Text HLabel 6100 2700 0    60   Input ~ 0
-ETH_RST
 Wire Wire Line
-	7300 2500 6150 2500
+	5650 2500 7300 2500
 Wire Wire Line
-	7250 2700 6100 2700
+	5650 2700 7250 2700
+Text Label 5650 2500 0    60   ~ 0
+GPIO_GND
+Text Label 5650 2700 0    60   ~ 0
+GPIO_GND
 $EndSCHEMATC

@@ -7,7 +7,7 @@ $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 7 8
 Title "Microcontrolador Freescale K60"
-Date "10 may 2015"
+Date "21 may 2015"
 Rev "0.0"
 Comp "EDU-CIAA - FSL . Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
@@ -173,10 +173,6 @@ Text HLabel 5700 1350 2    60   Input ~ 0
 AIN_2
 Text HLabel 5700 1450 2    60   Input ~ 0
 AIN_3
-Text HLabel 6200 4750 2    60   Input ~ 0
-GPIO8/RS232_CTS
-Text HLabel 6200 4650 2    60   Output ~ 0
-GPIO7/RS232_RTS
 Text HLabel 6200 4950 2    60   Output ~ 0
 RS232_TXD
 Text HLabel 6200 4850 2    60   Input ~ 0
@@ -727,8 +723,8 @@ $Comp
 L C C36
 U 1 1 53993378
 P 1450 3250
-F 0 "C36" H 1550 3400 40  0000 C CNN
-F 1 "18pF" H 1550 3350 40  0000 C CNN
+F 0 "C36" H 1550 3150 40  0000 C CNN
+F 1 "18pF" H 1550 3050 40  0000 C CNN
 F 2 "c_0805" H 5500 2650 60  0001 C CNN
 F 3 "~" H 5500 2650 60  0000 C CNN
 F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
@@ -1269,10 +1265,6 @@ Wire Wire Line
 Text Notes 6750 5350 0    60   ~ 0
 CAN0
 Wire Wire Line
-	6200 4650 5600 4650
-Wire Wire Line
-	6200 4750 5600 4750
-Wire Wire Line
 	6200 4850 5600 4850
 Wire Wire Line
 	6200 4950 5600 4950
@@ -1482,11 +1474,11 @@ ISP
 Wire Wire Line
 	2400 8850 2300 8850
 Text HLabel 2300 3050 0    60   Input ~ 0
-ETH_RXER
+GPIO8/ETH_RXER
 Wire Wire Line
 	2400 3050 2300 3050
 Text HLabel 2300 3850 0    60   Output ~ 0
-ETH_RST
+GPIO7/ETH_RST
 Wire Wire Line
 	2400 3850 2300 3850
 NoConn ~ 2400 1850
@@ -1512,4 +1504,6 @@ F 9 "0805" H 6050 1850 60  0001 C CNN "Footprint estandar"
 $EndComp
 Wire Wire Line
 	6450 8250 6530 8250
+NoConn ~ 5600 4650
+NoConn ~ 5600 4750
 $EndSCHEMATC
