@@ -26,7 +26,7 @@ F 3 "mic2025.pdf" H 3050 4300 60  0001 C CNN
 F 4 "IC SINGLE CHANNEL POWER DISTRIBUTION SWITCH 500mA" H 3050 4300 60  0001 C CNN "Descripcion"
 F 5 "MICREL" H 3050 4300 60  0001 C CNN "Fabricante"
 F 6 "MIC2025-2YM" H 3050 4300 60  0001 C CNN "Nro. parte"
-F 7 "../datasheets/ic/mic2025.pdf" H 3050 4300 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 3050 4300 60  0001 C CNN "Path datasheet"
 F 8 "576-1058-ND" H 3050 4300 60  0001 C CNN "Digikey/Mouser"
 F 9 "SOIC-8" H 3050 4300 60  0001 C CNN "Footprint estandar"
 	1    3050 4300
@@ -89,7 +89,7 @@ F 3 "~" H 7100 3600 60  0000 C CNN
 F 4 "IC TVS DIODE 2 CHANNEL 10V CLAMP SOT1434" H 5550 4250 60  0001 C CNN "Descripcion"
 F 5 "ON SEMICONDUCTOR" H 5550 4250 60  0001 C CNN "Fabricante"
 F 6 "CM1213A-02SR" H 5550 4250 60  0001 C CNN "Nro. parte"
-F 7 "../datasheets/passive/protect/CM1213A-D.PDF" H 5550 4250 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 5550 4250 60  0001 C CNN "Path datasheet"
 F 8 "CM1213A-02SROSCT-ND" H 5550 4250 60  0001 C CNN "Digikey/Mouser"
 F 9 "SOT-143-4" H 5550 4250 60  0001 C CNN "Footprint estandar"
 	1    5550 4250
@@ -106,7 +106,7 @@ F 3 "~" H 6950 4250 300 0000 C CNN
 F 4 "CAP TANT 4,7uF 6,3V 10% 1206 " H 6950 4250 60  0001 C CNN "Descripcion"
 F 5 "KEMET" H 6950 4250 60  0001 C CNN "Fabricante"
 F 6 "T491A475K006AT" H 6950 4250 60  0001 C CNN "Nro. parte"
-F 7 "~" H 6950 4250 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 6950 4250 60  0001 C CNN "Path datasheet"
 F 8 "399-9717-1-ND" H 6950 4250 60  0001 C CNN "Digikey/Mouser"
 F 9 "1206" H 6950 4250 60  0001 C CNN "Footprint estandar"
 	1    6950 4250
@@ -145,7 +145,7 @@ F 3 "~" H 4100 4500 60  0000 C CNN
 F 4 "CAP CER 0,1UF 16V X7R 10% 0805" H 4100 4500 60  0001 C CNN "Descripcion"
 F 5 "KEMET" H 4100 4500 60  0001 C CNN "Fabricante"
 F 6 "~" H 4100 4500 60  0001 C CNN "Nro. parte"
-F 7 "~" H 4100 4500 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 4100 4500 60  0001 C CNN "Path datasheet"
 F 8 "~" H 4100 4500 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 4100 4500 60  0001 C CNN "Footprint estandar"
 	1    4100 4500
@@ -162,7 +162,7 @@ F 3 "HZ0805E601R-10.pdf" H 10300 4350 60  0001 C CNN
 F 4 "FERRITE 500MA 600 OHM 0805 SMD" H 10300 4350 60  0001 C CNN "Descripcion"
 F 5 "Laird-Signal Integrity Products" H 10300 4350 60  0001 C CNN "Fabricante"
 F 6 "HZ0805E601R-10" H 10300 4350 60  0001 C CNN "Nro. parte"
-F 7 "../datasheets/" H 10300 4350 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 10300 4350 60  0001 C CNN "Path datasheet"
 F 8 "240-2399-1-ND" H 10300 4350 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 10300 4350 60  0001 C CNN "Footprint estandar"
 	1    10300 4350
@@ -190,7 +190,7 @@ F 3 "AOA0000CE1.pdf" H 1600 4000 30  0001 C CNN
 F 4 "RES 10K OHM 1/8W 5% 0805 SMD" H 1600 4000 60  0001 C CNN "Descripcion"
 F 5 "Panasonic Electronic Components" H 1600 4000 60  0001 C CNN "Fabricante"
 F 6 "ERJ-6GEYJ103V" H 1600 4000 60  0001 C CNN "Nro. parte"
-F 7 "~" H 1600 4000 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 1600 4000 60  0001 C CNN "Path datasheet"
 F 8 "P10KACT-ND" H 1600 4000 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 1600 4000 60  0001 C CNN "Footprint estandar"
 	1    1600 4000
@@ -218,7 +218,7 @@ F 3 "MI0805M221R-10-B.pdf" H 7950 2900 60  0001 C CNN
 F 4 "FERRITE CHIP POWER 220 OHM SMD" H 7950 2900 60  0001 C CNN "Descripcion"
 F 5 "Laird-Signal Integrity Products" H 7950 2900 60  0001 C CNN "Fabricante"
 F 6 "MI0805M221R-10" H 7950 2900 60  0001 C CNN "Nro. parte"
-F 7 "../datasheets" H 7950 2900 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 7950 2900 60  0001 C CNN "Path datasheet"
 F 8 "240-2392-1-ND" H 7950 2900 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 7950 2900 60  0001 C CNN "Footprint estandar"
 	1    7950 2900
@@ -235,7 +235,7 @@ F 3 "~" H 7950 3700 60  0000 C CNN
 F 4 "INDUCTOR COMMON MODE 90 OHM SMD" H 7950 3700 60  0001 C CNN "Descripcion"
 F 5 "BOURNS" H 7950 3700 60  0001 C CNN "Fabricante"
 F 6 "SRF2012-900Y" H 7950 3700 60  0001 C CNN "Nro. parte"
-F 7 "../datasheets/passive/inductor/SFR2012.pdf" H 7950 3700 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 7950 3700 60  0001 C CNN "Path datasheet"
 F 8 "SRF2012-900YCT-ND" H 7950 3700 60  0001 C CNN "Digikey/Mouser"
 F 9 "~" H 7950 3700 60  0001 C CNN "Footprint estandar"
 	1    7950 3700
@@ -289,7 +289,7 @@ F 3 "~" H 7300 4250 60  0000 C CNN
 F 4 "CAP CER 0,1UF 16V X7R 10% 0805" H 7300 4250 60  0001 C CNN "Descripcion"
 F 5 "KEMET" H 7300 4250 60  0001 C CNN "Fabricante"
 F 6 "~" H 7300 4250 60  0001 C CNN "Nro. parte"
-F 7 "~" H 7300 4250 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 7300 4250 60  0001 C CNN "Path datasheet"
 F 8 "~" H 7300 4250 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 7300 4250 60  0001 C CNN "Footprint estandar"
 	1    7300 4250
@@ -317,7 +317,7 @@ F 3 "~" H 6500 3850 60  0000 C CNN
 F 4 "TVS DIODE 5VWM SMD" H 6500 3850 60  0001 C CNN "Descripcion"
 F 5 "Bourns Inc." H 6500 3850 60  0001 C CNN "Fabricante"
 F 6 "SMAJ5.0A" H 6500 3850 60  0001 C CNN "Nro. parte"
-F 7 "../datasheets/passive/protect/SMAJ.pdf" H 6500 3850 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 6500 3850 60  0001 C CNN "Path datasheet"
 F 8 "SMAJ5.0ABCT-ND" H 6500 3850 60  0001 C CNN "Digikey/Mouser"
 F 9 "SMA" H 6500 3850 60  0001 C CNN "Footprint estandar"
 	1    6500 3850
@@ -334,7 +334,7 @@ F 3 "ZX62D-AB-5P8 RoHS.pdf" H 10650 3400 60  0001 C CNN
 F 4 "CONN RCPT MCR USB AB SMD TH SHLL" H 10800 3100 60  0001 C CNN "Descripcion"
 F 5 "Hirose Electric Co Ltd" H 10850 3600 60  0001 C CNN "Fabricante"
 F 6 "ZX62D-AB-5P8" H 10950 3700 60  0001 C CNN "Nro. parte"
-F 7 "../datasheets/" H 11050 3800 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 11050 3800 60  0001 C CNN "Path datasheet"
 F 8 "H11494CT-ND" H 11150 3900 60  0001 C CNN "Digikey/Mouser"
 F 9 "~" H 11250 4000 60  0001 C CNN "Footprint estandar"
 	1    10350 3450
@@ -531,7 +531,7 @@ F 3 "AOA0000CE1.pdf" H 1600 4200 30  0001 C CNN
 F 4 "RES 10K OHM 1/8W 5% 0805 SMD" H 1600 4200 60  0001 C CNN "Descripcion"
 F 5 "Panasonic Electronic Components" H 1600 4200 60  0001 C CNN "Fabricante"
 F 6 "ERJ-6GEYJ103V" H 1600 4200 60  0001 C CNN "Nro. parte"
-F 7 "~" H 1600 4200 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 1600 4200 60  0001 C CNN "Path datasheet"
 F 8 "P10KACT-ND" H 1600 4200 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 1600 4200 60  0001 C CNN "Footprint estandar"
 	1    1600 4200

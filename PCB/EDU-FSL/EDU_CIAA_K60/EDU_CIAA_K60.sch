@@ -85,7 +85,7 @@ F 3 "~" H 10550 5250 60  0001 C CNN
 F 4 "FIDUCIAL" H 10600 5000 60  0001 C CNN "Descripcion"
 F 5 "~" H 10830 5400 60  0001 C CNN "Fabricante"
 F 6 "~" H 10930 5500 60  0001 C CNN "Nro. parte"
-F 7 "~" H 11030 5600 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 11030 5600 60  0001 C CNN "Path datasheet"
 F 8 "~" H 11130 5700 60  0001 C CNN "Digikey/Mouser"
 F 9 "~" H 11230 5800 60  0001 C CNN "Footprint estandar"
 	1    10550 5200
@@ -102,7 +102,7 @@ F 3 "~" H 9500 5350 60  0001 C CNN
 F 4 "PCB HOLE" H 9600 5450 60  0001 C CNN "Descripcion"
 F 5 "~" H 9700 5550 60  0001 C CNN "Fabricante"
 F 6 "~" H 9800 5650 60  0001 C CNN "Nro. parte"
-F 7 "~" H 9900 5750 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 9900 5750 60  0001 C CNN "Path datasheet"
 F 8 "~" H 10000 5850 60  0001 C CNN "Digikey/Mouser"
 F 9 "~" H 10100 5950 60  0001 C CNN "Footprint estandar"
 	1    9550 5200
@@ -119,7 +119,7 @@ F 3 "~" H 10550 5400 60  0001 C CNN
 F 4 "FIDUCIAL" H 10600 5150 60  0001 C CNN "Descripcion"
 F 5 "~" H 10830 5550 60  0001 C CNN "Fabricante"
 F 6 "~" H 10930 5650 60  0001 C CNN "Nro. parte"
-F 7 "~" H 11030 5750 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 11030 5750 60  0001 C CNN "Path datasheet"
 F 8 "~" H 11130 5850 60  0001 C CNN "Digikey/Mouser"
 F 9 "~" H 11230 5950 60  0001 C CNN "Footprint estandar"
 	1    10550 5350
@@ -136,7 +136,7 @@ F 3 "~" H 10550 5550 60  0001 C CNN
 F 4 "FIDUCIAL" H 10600 5300 60  0001 C CNN "Descripcion"
 F 5 "~" H 10830 5700 60  0001 C CNN "Fabricante"
 F 6 "~" H 10930 5800 60  0001 C CNN "Nro. parte"
-F 7 "~" H 11030 5900 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 11030 5900 60  0001 C CNN "Path datasheet"
 F 8 "~" H 11130 6000 60  0001 C CNN "Digikey/Mouser"
 F 9 "~" H 11230 6100 60  0001 C CNN "Footprint estandar"
 	1    10550 5500
@@ -153,7 +153,7 @@ F 3 "~" H 10900 5250 60  0001 C CNN
 F 4 "FIDUCIAL" H 10950 5000 60  0001 C CNN "Descripcion"
 F 5 "~" H 11180 5400 60  0001 C CNN "Fabricante"
 F 6 "~" H 11280 5500 60  0001 C CNN "Nro. parte"
-F 7 "~" H 11380 5600 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 11380 5600 60  0001 C CNN "Path datasheet"
 F 8 "~" H 11480 5700 60  0001 C CNN "Digikey/Mouser"
 F 9 "~" H 11580 5800 60  0001 C CNN "Footprint estandar"
 	1    10900 5200
@@ -170,7 +170,7 @@ F 3 "~" H 10900 5400 60  0001 C CNN
 F 4 "FIDUCIAL" H 10950 5150 60  0001 C CNN "Descripcion"
 F 5 "~" H 11180 5550 60  0001 C CNN "Fabricante"
 F 6 "~" H 11280 5650 60  0001 C CNN "Nro. parte"
-F 7 "~" H 11380 5750 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 11380 5750 60  0001 C CNN "Path datasheet"
 F 8 "~" H 11480 5850 60  0001 C CNN "Digikey/Mouser"
 F 9 "~" H 11580 5950 60  0001 C CNN "Footprint estandar"
 	1    10900 5350
@@ -187,7 +187,7 @@ F 3 "~" H 10900 5550 60  0001 C CNN
 F 4 "FIDUCIAL" H 10950 5300 60  0001 C CNN "Descripcion"
 F 5 "~" H 11180 5700 60  0001 C CNN "Fabricante"
 F 6 "~" H 11280 5800 60  0001 C CNN "Nro. parte"
-F 7 "~" H 11380 5900 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 11380 5900 60  0001 C CNN "Path datasheet"
 F 8 "~" H 11480 6000 60  0001 C CNN "Digikey/Mouser"
 F 9 "~" H 11580 6100 60  0001 C CNN "Footprint estandar"
 	1    10900 5500
@@ -204,7 +204,7 @@ F 3 "~" H 9750 5350 60  0001 C CNN
 F 4 "PCB HOLE" H 9850 5450 60  0001 C CNN "Descripcion"
 F 5 "~" H 9950 5550 60  0001 C CNN "Fabricante"
 F 6 "~" H 10050 5650 60  0001 C CNN "Nro. parte"
-F 7 "~" H 10150 5750 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 10150 5750 60  0001 C CNN "Path datasheet"
 F 8 "~" H 10250 5850 60  0001 C CNN "Digikey/Mouser"
 F 9 "~" H 10350 5950 60  0001 C CNN "Footprint estandar"
 	1    9800 5200
@@ -221,7 +221,7 @@ F 3 "~" H 10050 5350 60  0001 C CNN
 F 4 "PCB HOLE" H 10150 5450 60  0001 C CNN "Descripcion"
 F 5 "~" H 10250 5550 60  0001 C CNN "Fabricante"
 F 6 "~" H 10350 5650 60  0001 C CNN "Nro. parte"
-F 7 "~" H 10450 5750 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 10450 5750 60  0001 C CNN "Path datasheet"
 F 8 "~" H 10550 5850 60  0001 C CNN "Digikey/Mouser"
 F 9 "~" H 10650 5950 60  0001 C CNN "Footprint estandar"
 	1    10100 5200
@@ -238,7 +238,7 @@ F 3 "~" H 10300 5350 60  0001 C CNN
 F 4 "PCB HOLE" H 10400 5450 60  0001 C CNN "Descripcion"
 F 5 "~" H 10500 5550 60  0001 C CNN "Fabricante"
 F 6 "~" H 10600 5650 60  0001 C CNN "Nro. parte"
-F 7 "~" H 10700 5750 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 10700 5750 60  0001 C CNN "Path datasheet"
 F 8 "~" H 10800 5850 60  0001 C CNN "Digikey/Mouser"
 F 9 "~" H 10900 5950 60  0001 C CNN "Footprint estandar"
 	1    10350 5200

@@ -46,7 +46,7 @@ F 3 "mfmsmf.pdf" H 2450 2300 60  0001 C CNN
 F 4 "PTC RESETTABLE .30A 30V 1812" V 2450 2300 60  0001 C CNN "Descripción"
 F 5 "Bourns Inc." V 2450 2300 60  0001 C CNN "Fabricante"
 F 6 "MF-MSMF030-2" V 2450 2300 60  0001 C CNN "Nro de parte"
-F 7 "../PCB/EDU-NXP/Datasheets" V 2450 2300 60  0001 C CNN "Path datasheet"
+F 7 "../PCB/EDU-FSL/Datasheets" V 2450 2300 60  0001 C CNN "Path datasheet"
 F 8 "MF-MSMF030-2CT-ND" V 2450 2300 60  0001 C CNN "Digikey"
 F 9 "1812" V 2450 2300 60  0001 C CNN "Footprint"
 	1    2450 2300
@@ -95,7 +95,7 @@ F 3 "mfmsmf.pdf" H 2450 2300 60  0001 C CNN
 F 4 "PTC RESETTABLE .30A 30V 1812" V 2450 2300 60  0001 C CNN "Descripción"
 F 5 "Bourns Inc." V 2450 2300 60  0001 C CNN "Fabricante"
 F 6 "MF-MSMF030-2" V 2450 2300 60  0001 C CNN "Nro de parte"
-F 7 "../PCB/EDU-NXP/Datasheets" V 2450 2300 60  0001 C CNN "Path datasheet"
+F 7 "../PCB/EDU-FSL/Datasheets" V 2450 2300 60  0001 C CNN "Path datasheet"
 F 8 "MF-MSMF030-2CT-ND" V 2450 2300 60  0001 C CNN "Digikey"
 F 9 "1812" V 2450 2300 60  0001 C CNN "Footprint"
 	1    3450 2300
@@ -201,7 +201,7 @@ F 3 "AOA0000CE1.pdf" H 1700 2950 30  0001 C CNN
 F 4 "RES 470 OHM 1/8W 5% 0805 SMD" V 1700 2950 60  0001 C CNN "Descripción"
 F 5 "Panasonic Electronic Components" V 1700 2950 60  0001 C CNN "Fabricante"
 F 6 "ERJ-6GEYJ471V" V 1700 2950 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 1700 2950 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" V 1700 2950 60  0001 C CNN "Path datasheet"
 F 8 "P470ACT-ND" V 1700 2950 60  0001 C CNN "Digikey"
 F 9 "0805" V 1700 2950 60  0001 C CNN "Footprint"
 	1    1700 2950
@@ -218,7 +218,7 @@ F 3 "SEI-RMCF_RMCP.pdf" H 1700 2750 30  0001 C CNN
 F 4 "RES 1.2K OHM 1/8W 5% 0805" V 1700 2750 60  0001 C CNN "Descripción"
 F 5 "Stackpole Electronics Inc" V 1700 2750 60  0001 C CNN "Fabricante"
 F 6 "RMCF0805JT1K20" V 1700 2750 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 1700 2750 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" V 1700 2750 60  0001 C CNN "Path datasheet"
 F 8 "RMCF0805JT1K20CT-ND" V 1700 2750 60  0001 C CNN "Digikey"
 F 9 "0805" V 1700 2750 60  0001 C CNN "Footprint"
 	1    1700 2750
@@ -235,7 +235,7 @@ F 3 "SEI-RMCF_RMCP.pdf" H 1700 2750 30  0001 C CNN
 F 4 "RES 1.2K OHM 1/8W 5% 0805" V 1700 2750 60  0001 C CNN "Descripción"
 F 5 "Stackpole Electronics Inc" V 1700 2750 60  0001 C CNN "Fabricante"
 F 6 "RMCF0805JT1K20" V 1700 2750 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 1700 2750 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" V 1700 2750 60  0001 C CNN "Path datasheet"
 F 8 "RMCF0805JT1K20CT-ND" V 1700 2750 60  0001 C CNN "Digikey"
 F 9 "0805" V 1700 2750 60  0001 C CNN "Footprint"
 	1    1700 2550
@@ -252,7 +252,7 @@ F 3 "SEI-RMCF_RMCP.pdf" H 1700 2750 30  0001 C CNN
 F 4 "RES 1.2K OHM 1/8W 5% 0805" V 1700 2750 60  0001 C CNN "Descripción"
 F 5 "Stackpole Electronics Inc" V 1700 2750 60  0001 C CNN "Fabricante"
 F 6 "RMCF0805JT1K20" V 1700 2750 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 1700 2750 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" V 1700 2750 60  0001 C CNN "Path datasheet"
 F 8 "RMCF0805JT1K20CT-ND" V 1700 2750 60  0001 C CNN "Digikey"
 F 9 "0805" V 1700 2750 60  0001 C CNN "Footprint"
 	1    1700 2350
@@ -279,7 +279,7 @@ F 3 "mfmsmf.pdf" H 2450 2300 60  0001 C CNN
 F 4 "PTC RESETTABLE .30A 30V 1812" V 2450 2300 60  0001 C CNN "Descripción"
 F 5 "Bourns Inc." V 2450 2300 60  0001 C CNN "Fabricante"
 F 6 "MF-MSMF030-2" V 2450 2300 60  0001 C CNN "Nro de parte"
-F 7 "../PCB/EDU-NXP/Datasheets" V 2450 2300 60  0001 C CNN "Path datasheet"
+F 7 "../PCB/EDU-FSL/Datasheets" V 2450 2300 60  0001 C CNN "Path datasheet"
 F 8 "MF-MSMF030-2CT-ND" V 2450 2300 60  0001 C CNN "Digikey"
 F 9 "1812" V 2450 2300 60  0001 C CNN "Footprint"
 	1    7800 2300
@@ -307,7 +307,7 @@ F 3 "mfmsmf.pdf" H 2450 2300 60  0001 C CNN
 F 4 "PTC RESETTABLE .30A 30V 1812" V 2450 2300 60  0001 C CNN "Descripción"
 F 5 "Bourns Inc." V 2450 2300 60  0001 C CNN "Fabricante"
 F 6 "MF-MSMF030-2" V 2450 2300 60  0001 C CNN "Nro de parte"
-F 7 "../PCB/EDU-NXP/Datasheets" V 2450 2300 60  0001 C CNN "Path datasheet"
+F 7 "../PCB/EDU-FSL/Datasheets" V 2450 2300 60  0001 C CNN "Path datasheet"
 F 8 "MF-MSMF030-2CT-ND" V 2450 2300 60  0001 C CNN "Digikey"
 F 9 "1812" V 2450 2300 60  0001 C CNN "Footprint"
 	1    8800 2300

@@ -26,7 +26,7 @@ F 3 "~" H 5850 3350 60  0000 C CNN
 F 4 "IC TXRX RS485/422 PROFIBUS 8SOIC" H 5850 3350 60  0001 C CNN "Descripcion"
 F 5 "Exar Corporation" H 5850 3350 60  0001 C CNN "Fabricante"
 F 6 "SP1486EEN-L" H 5850 3350 60  0001 C CNN "Nro. parte"
-F 7 "../datasheets/ic/SP1486EEN-L.pdf" H 5850 3350 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 5850 3350 60  0001 C CNN "Path datasheet"
 F 8 "1016-1003-5-ND" H 5850 3350 60  0001 C CNN "Digikey/Mouser"
 F 9 "SOIC-8" H 5850 3350 60  0001 C CNN "Footprint estandar"
 	1    5850 3350
@@ -43,7 +43,7 @@ F 3 "~" H 5500 2650 60  0000 C CNN
 F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
 F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
 F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 6800 -600 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    5500 2650
@@ -71,7 +71,7 @@ F 3 "~" H 4750 2650 60  0000 C CNN
 F 4 "RES 4.7K OHM 1/10W 5% 0805 SMD" H 6500 650 60  0001 C CNN "Descripcion"
 F 5 "Yageo" H 6500 650 60  0001 C CNN "Fabricante"
 F 6 "~" H 6500 650 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive" H 4750 2650 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 4750 2650 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6500 650 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6500 650 60  0001 C CNN "Footprint estandar"
 	1    6900 3950
@@ -88,7 +88,7 @@ F 3 "~" H 7600 3550 60  0000 C CNN
 F 4 "TVS DIODE 10.2VWM 16.7VC SMB" H 7600 4150 60  0001 C CNN "Descripcion"
 F 5 "ON Semiconductor" H 7600 4150 60  0001 C CNN "Fabricante"
 F 6 "P6SMB12CAT3G" H 7600 4150 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/diode/psd12c.pdf" H 7600 4150 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 7600 4150 60  0001 C CNN "Path datasheet"
 F 8 "P6SMB12CAT3GOSCT-ND" H 7600 4150 60  0001 C CNN "Digikey/Mouser"
 F 9 "DO-214AA, SMB" H 7600 4150 60  0001 C CNN "Footprint estandar"
 	1    7600 3550
@@ -105,7 +105,7 @@ F 3 "~" H 7400 4950 60  0000 C CNN
 F 4 "TVS DIODE 10.2VWM 16.7VC SMB" H 7400 4950 60  0001 C CNN "Descripcion"
 F 5 "ON Semiconductor" H 7400 4950 60  0001 C CNN "Fabricante"
 F 6 "P6SMB12CAT3G" H 7400 4950 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/diode/psd12c.pdf" H 7400 4950 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 7400 4950 60  0001 C CNN "Path datasheet"
 F 8 "P6SMB12CAT3GOSCT-ND" H 7400 4950 60  0001 C CNN "Digikey/Mouser"
 F 9 "DO-214AA, SMB" H 7400 4950 60  0001 C CNN "Footprint estandar"
 	1    7400 4950
@@ -122,7 +122,7 @@ F 3 "~" H 7600 4950 60  0000 C CNN
 F 4 "TVS DIODE 10.2VWM 16.7VC SMB" H 7600 4350 60  0001 C CNN "Descripcion"
 F 5 "ON Semiconductor" H 7600 4350 60  0001 C CNN "Fabricante"
 F 6 "P6SMB12CAT3G" H 7600 4350 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/diode/psd12c.pdf" H 7600 4350 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 7600 4350 60  0001 C CNN "Path datasheet"
 F 8 "P6SMB12CAT3GOSCT-ND" H 7600 4350 60  0001 C CNN "Digikey/Mouser"
 F 9 "DO-214AA, SMB" H 7600 4350 60  0001 C CNN "Footprint estandar"
 	1    7600 4950
@@ -139,7 +139,7 @@ F 3 "~" H 4750 2650 60  0000 C CNN
 F 4 "RES 4.7K OHM 1/10W 5% 0805 SMD" H 6500 650 60  0001 C CNN "Descripcion"
 F 5 "Yageo" H 6500 650 60  0001 C CNN "Fabricante"
 F 6 "~" H 6500 650 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive" H 4750 2650 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 4750 2650 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6500 650 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6500 650 60  0001 C CNN "Footprint estandar"
 	1    6200 2500
@@ -158,7 +158,7 @@ F 3 "~" H 8700 3300 60  0001 C CNN
 F 4 "TERM BLOCK 5.08MM VERT 3POS PCB" H 8700 3300 60  0001 C CNN "Descripcion"
 F 5 "TE Connectivity" H 8700 3300 60  0001 C CNN "Fabricante"
 F 6 "796949-3" H 8700 3300 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/connectors/bornera_796949.pdf" H 8700 3300 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 8700 3300 60  0001 C CNN "Path datasheet"
 F 8 "571-7969493" H 8700 3300 60  0001 C CNN "Digikey/Mouser"
 F 9 "~" H 8700 3300 60  0001 C CNN "Footprint estandar"
 	1    8700 3300
@@ -177,7 +177,7 @@ F 3 "~" H 4750 2650 60  0000 C CNN
 F 4 "RES 4.7K OHM 1/10W 5% 0805 SMD" H 6500 650 60  0001 C CNN "Descripcion"
 F 5 "Yageo" H 6500 650 60  0001 C CNN "Fabricante"
 F 6 "~" H 6500 650 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive" H 4750 2650 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 4750 2650 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6500 650 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6500 650 60  0001 C CNN "Footprint estandar"
 	1    5350 4050
@@ -194,7 +194,7 @@ F 3 "~" H 5150 2650 60  0000 C CNN
 F 4 "CAP TANT 10UF 6.3V 10% 1206" H 5150 2650 60  0001 C CNN "Descripcion"
 F 5 "Kemet" H 5150 2650 60  0001 C CNN "Fabricante"
 F 6 "T491A106K006AT7280" H 5150 2650 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/" H 5150 2650 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 5150 2650 60  0001 C CNN "Path datasheet"
 F 8 "399-10116-1-ND" H 5150 2650 60  0001 C CNN "Digikey/Mouser"
 F 9 "1206 (3216 Metric)" H 5150 2650 60  0001 C CNN "Footprint estandar"
 	1    5150 2650
@@ -211,7 +211,7 @@ F 3 "~" H 7900 4250 30  0000 C CNN
 F 4 "FUSE RESETTABLE .20A 30V HLD SMD" H 7900 3700 60  0001 C CNN "Descripcion"
 F 5 "Bourns Inc." H 7900 3700 60  0001 C CNN "Fabricante"
 F 6 "MF-USMF020-2" H 7900 3700 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/protect/mfusmf.pdf" H 7900 3700 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 7900 3700 60  0001 C CNN "Path datasheet"
 F 8 "MF-USMF020-2CT-ND" H 7900 3700 60  0001 C CNN "Digikey/Mouser"
 F 9 "1210 (3225 métrico), cóncavo" H 7900 3700 60  0001 C CNN "Footprint estandar"
 	1    7900 4250
@@ -228,7 +228,7 @@ F 3 "~" H 7900 3000 30  0000 C CNN
 F 4 "FUSE RESETTABLE .20A 30V HLD SMD" H 7900 3000 60  0001 C CNN "Descripcion"
 F 5 "Bourns Inc." H 7900 3000 60  0001 C CNN "Fabricante"
 F 6 "MF-USMF020-2" H 7900 3000 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/protect/mfusmf.pdf" H 7900 3000 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 7900 3000 60  0001 C CNN "Path datasheet"
 F 8 "MF-USMF020-2CT-ND" H 7900 3000 60  0001 C CNN "Digikey/Mouser"
 F 9 "1210 (3225 métrico), cóncavo" H 7900 3000 60  0001 C CNN "Footprint estandar"
 	1    7900 3000
@@ -256,7 +256,7 @@ F 3 "~" H 8300 4950 60  0000 C CNN
 F 4 "RES 100 OHM 1/2W 5% 2010 SMD" H 8300 4950 60  0001 C CNN "Descripcion"
 F 5 "Bourns Inc." H 8300 4950 60  0001 C CNN "Fabricante"
 F 6 "CR2010-JW-101ELF" H 8300 4950 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/" H 8300 4950 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 8300 4950 60  0001 C CNN "Path datasheet"
 F 8 "CR2010-JW-101ELFCT-ND" H 8300 4950 60  0001 C CNN "Digikey/Mouser"
 F 9 "2010 (5025 Metric)" H 8300 4950 60  0001 C CNN "Footprint estandar"
 	1    8300 4950
@@ -273,7 +273,7 @@ F 3 "~" H 4750 2650 60  0000 C CNN
 F 4 "RES 4.7K OHM 1/10W 5% 0805 SMD" H 6500 650 60  0001 C CNN "Descripcion"
 F 5 "Yageo" H 6500 650 60  0001 C CNN "Fabricante"
 F 6 "~" H 6500 650 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive" H 4750 2650 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 4750 2650 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6500 650 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6500 650 60  0001 C CNN "Footprint estandar"
 	1    4750 2650
@@ -307,7 +307,7 @@ F 3 "~" H 7150 2750 60  0000 C CNN
 F 4 "JUMPER 2 TERM" H 8800 2950 60  0001 C CNN "Descripcion"
 F 5 "Sullins Connector Solutions" H 8800 2950 60  0001 C CNN "Fabricante"
 F 6 "PREC040SFAN-RC" H 8800 2950 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/connectors/" H 8800 2950 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 8800 2950 60  0001 C CNN "Path datasheet"
 F 8 "S1212EC-40-ND" H 8800 2950 60  0001 C CNN "Digikey/Mouser"
 F 9 "~" H 8800 2950 60  0001 C CNN "Footprint estandar"
 	1    6550 2800
@@ -324,7 +324,7 @@ F 3 "~" H 7500 2900 60  0000 C CNN
 F 4 "JUMPER 2 TERM" H 9150 3100 60  0001 C CNN "Descripcion"
 F 5 "Sullins Connector Solutions" H 9150 3100 60  0001 C CNN "Fabricante"
 F 6 "PREC040SFAN-RC" H 9150 3100 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/connectors/" H 9150 3100 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 9150 3100 60  0001 C CNN "Path datasheet"
 F 8 "S1212EC-40-ND" H 9150 3100 60  0001 C CNN "Digikey/Mouser"
 F 9 "~" H 9150 3100 60  0001 C CNN "Footprint estandar"
 	1    6900 3350
@@ -341,7 +341,7 @@ F 3 "~" H 7500 3200 60  0000 C CNN
 F 4 "JUMPER 2 TERM" H 9150 3400 60  0001 C CNN "Descripcion"
 F 5 "Sullins Connector Solutions" H 9150 3400 60  0001 C CNN "Fabricante"
 F 6 "PREC040SFAN-RC" H 9150 3400 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/connectors/" H 9150 3400 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 9150 3400 60  0001 C CNN "Path datasheet"
 F 8 "S1212EC-40-ND" H 9150 3400 60  0001 C CNN "Digikey/Mouser"
 F 9 "~" H 9150 3400 60  0001 C CNN "Footprint estandar"
 	1    6900 4600
@@ -522,7 +522,7 @@ F 3 "~" H 4750 2650 60  0000 C CNN
 F 4 "RES 4.7K OHM 1/10W 5% 0805 SMD" H 6500 650 60  0001 C CNN "Descripcion"
 F 5 "Yageo" H 6500 650 60  0001 C CNN "Fabricante"
 F 6 "~" H 6500 650 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive" H 4750 2650 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 4750 2650 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6500 650 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6500 650 60  0001 C CNN "Footprint estandar"
 	1    6900 5200
@@ -585,7 +585,7 @@ F 3 "~" H 4750 2650 60  0000 C CNN
 F 4 "RES 4.7K OHM 1/10W 5% 0805 SMD" H 6500 650 60  0001 C CNN "Descripcion"
 F 5 "Yageo" H 6500 650 60  0001 C CNN "Fabricante"
 F 6 "~" H 6500 650 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive" H 4750 2650 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 4750 2650 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6500 650 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6500 650 60  0001 C CNN "Footprint estandar"
 	1    4650 4050
@@ -615,7 +615,7 @@ F 3 "~" H 5600 3300 60  0000 C CNN
 F 4 "JUMPER 2 TERM" H 7250 3500 60  0001 C CNN "Descripcion"
 F 5 "Sullins Connector Solutions" H 7250 3500 60  0001 C CNN "Fabricante"
 F 6 "PREC040SFAN-RC" H 7250 3500 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/connectors/" H 7250 3500 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 7250 3500 60  0001 C CNN "Path datasheet"
 F 8 "S1212EC-40-ND" H 7250 3500 60  0001 C CNN "Digikey/Mouser"
 F 9 "~" H 7250 3500 60  0001 C CNN "Footprint estandar"
 	1    5000 3750

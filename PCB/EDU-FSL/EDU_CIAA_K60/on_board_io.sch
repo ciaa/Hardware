@@ -28,7 +28,7 @@ F 3 "RC0805 Pb Free.pdf" H 5500 4400 30  0001 C CNN
 F 4 "RES 1K OHM 1/8W 5% 0805 SMD" V 5500 4400 60  0001 C CNN "Descripción"
 F 5 "Yageo" V 5500 4400 60  0001 C CNN "Fabricante"
 F 6 "RC0805JR-071KL" V 5500 4400 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 5500 4400 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" V 5500 4400 60  0001 C CNN "Path datasheet"
 F 8 "311-1.0KARCT-ND" V 5500 4400 60  0001 C CNN "Digikey"
 F 9 "0805" V 5500 4400 60  0001 C CNN "Footprint"
 	1    1600 1400
@@ -62,7 +62,7 @@ F 3 "AOA0000CE1.pdf" H 1300 4900 30  0001 C CNN
 F 4 "RES 10K OHM 1/8W 5% 0805 SMD" V 1300 4900 60  0001 C CNN "Descripción"
 F 5 "Panasonic Electronic Components" V 1300 4900 60  0001 C CNN "Fabricante"
 F 6 "ERJ-6GEYJ103V" V 1300 4900 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 1300 4900 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" V 1300 4900 60  0001 C CNN "Path datasheet"
 F 8 "P10KACT-ND" V 1300 4900 60  0001 C CNN "Digikey"
 F 9 "0805" V 1300 4900 60  0001 C CNN "Footprint"
 	1    1900 1050
@@ -79,7 +79,7 @@ F 3 "KEM_C1002_X7R_SMD.pdf" H 1200 5850 60  0001 C CNN
 F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 1200 5850 60  0001 C CNN "Descripción"
 F 5 "Kemet" H 1200 5850 60  0001 C CNN "Fabricante"
 F 6 "C0805C104K4RACTU" H 1200 5850 60  0001 C CNN "Nro de Parte"
-F 7 "..PCB/EDU-NXP/Datasheets" H 1200 5850 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 1200 5850 60  0001 C CNN "Path datasheet"
 F 8 "399-1167-1-ND" H 1200 5850 60  0001 C CNN "Digikey"
 F 9 "0805" H 1200 5850 60  0001 C CNN "Footprint"
 	1    1900 1700
@@ -131,7 +131,7 @@ F 3 "RC0805 Pb Free.pdf" H 5500 4400 30  0001 C CNN
 F 4 "RES 1K OHM 1/8W 5% 0805 SMD" V 5500 4400 60  0001 C CNN "Descripción"
 F 5 "Yageo" V 5500 4400 60  0001 C CNN "Fabricante"
 F 6 "RC0805JR-071KL" V 5500 4400 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 5500 4400 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" V 5500 4400 60  0001 C CNN "Path datasheet"
 F 8 "311-1.0KARCT-ND" V 5500 4400 60  0001 C CNN "Digikey"
 F 9 "0805" V 5500 4400 60  0001 C CNN "Footprint"
 	1    1600 3000
@@ -163,7 +163,7 @@ F 3 "AOA0000CE1.pdf" H 1300 4900 30  0001 C CNN
 F 4 "RES 10K OHM 1/8W 5% 0805 SMD" V 1300 4900 60  0001 C CNN "Descripción"
 F 5 "Panasonic Electronic Components" V 1300 4900 60  0001 C CNN "Fabricante"
 F 6 "ERJ-6GEYJ103V" V 1300 4900 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 1300 4900 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" V 1300 4900 60  0001 C CNN "Path datasheet"
 F 8 "P10KACT-ND" V 1300 4900 60  0001 C CNN "Digikey"
 F 9 "0805" V 1300 4900 60  0001 C CNN "Footprint"
 	1    1900 2650
@@ -180,7 +180,7 @@ F 3 "KEM_C1002_X7R_SMD.pdf" H 1200 5850 60  0001 C CNN
 F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 1200 5850 60  0001 C CNN "Descripción"
 F 5 "Kemet" H 1200 5850 60  0001 C CNN "Fabricante"
 F 6 "C0805C104K4RACTU" H 1200 5850 60  0001 C CNN "Nro de Parte"
-F 7 "..PCB/EDU-NXP/Datasheets" H 1200 5850 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 1200 5850 60  0001 C CNN "Path datasheet"
 F 8 "399-1167-1-ND" H 1200 5850 60  0001 C CNN "Digikey"
 F 9 "0805" H 1200 5850 60  0001 C CNN "Footprint"
 	1    1900 3300
@@ -232,7 +232,7 @@ F 3 "RC0805 Pb Free.pdf" H 5500 4400 30  0001 C CNN
 F 4 "RES 1K OHM 1/8W 5% 0805 SMD" V 5500 4400 60  0001 C CNN "Descripción"
 F 5 "Yageo" V 5500 4400 60  0001 C CNN "Fabricante"
 F 6 "RC0805JR-071KL" V 5500 4400 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 5500 4400 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" V 5500 4400 60  0001 C CNN "Path datasheet"
 F 8 "311-1.0KARCT-ND" V 5500 4400 60  0001 C CNN "Digikey"
 F 9 "0805" V 5500 4400 60  0001 C CNN "Footprint"
 	1    1600 4600
@@ -264,7 +264,7 @@ F 3 "AOA0000CE1.pdf" H 1300 4900 30  0001 C CNN
 F 4 "RES 10K OHM 1/8W 5% 0805 SMD" V 1300 4900 60  0001 C CNN "Descripción"
 F 5 "Panasonic Electronic Components" V 1300 4900 60  0001 C CNN "Fabricante"
 F 6 "ERJ-6GEYJ103V" V 1300 4900 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 1300 4900 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" V 1300 4900 60  0001 C CNN "Path datasheet"
 F 8 "P10KACT-ND" V 1300 4900 60  0001 C CNN "Digikey"
 F 9 "0805" V 1300 4900 60  0001 C CNN "Footprint"
 	1    1900 4250
@@ -281,7 +281,7 @@ F 3 "KEM_C1002_X7R_SMD.pdf" H 1200 5850 60  0001 C CNN
 F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 1200 5850 60  0001 C CNN "Descripción"
 F 5 "Kemet" H 1200 5850 60  0001 C CNN "Fabricante"
 F 6 "C0805C104K4RACTU" H 1200 5850 60  0001 C CNN "Nro de Parte"
-F 7 "..PCB/EDU-NXP/Datasheets" H 1200 5850 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 1200 5850 60  0001 C CNN "Path datasheet"
 F 8 "399-1167-1-ND" H 1200 5850 60  0001 C CNN "Digikey"
 F 9 "0805" H 1200 5850 60  0001 C CNN "Footprint"
 	1    1900 4900
@@ -333,7 +333,7 @@ F 3 "RC0805 Pb Free.pdf" H 5500 4400 30  0001 C CNN
 F 4 "RES 1K OHM 1/8W 5% 0805 SMD" V 5500 4400 60  0001 C CNN "Descripción"
 F 5 "Yageo" V 5500 4400 60  0001 C CNN "Fabricante"
 F 6 "RC0805JR-071KL" V 5500 4400 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 5500 4400 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" V 5500 4400 60  0001 C CNN "Path datasheet"
 F 8 "311-1.0KARCT-ND" V 5500 4400 60  0001 C CNN "Digikey"
 F 9 "0805" V 5500 4400 60  0001 C CNN "Footprint"
 	1    1600 6200
@@ -365,7 +365,7 @@ F 3 "AOA0000CE1.pdf" H 1300 4900 30  0001 C CNN
 F 4 "RES 10K OHM 1/8W 5% 0805 SMD" V 1300 4900 60  0001 C CNN "Descripción"
 F 5 "Panasonic Electronic Components" V 1300 4900 60  0001 C CNN "Fabricante"
 F 6 "ERJ-6GEYJ103V" V 1300 4900 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 1300 4900 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" V 1300 4900 60  0001 C CNN "Path datasheet"
 F 8 "P10KACT-ND" V 1300 4900 60  0001 C CNN "Digikey"
 F 9 "0805" V 1300 4900 60  0001 C CNN "Footprint"
 	1    1900 5850
@@ -382,7 +382,7 @@ F 3 "KEM_C1002_X7R_SMD.pdf" H 1200 5850 60  0001 C CNN
 F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 1200 5850 60  0001 C CNN "Descripción"
 F 5 "Kemet" H 1200 5850 60  0001 C CNN "Fabricante"
 F 6 "C0805C104K4RACTU" H 1200 5850 60  0001 C CNN "Nro de Parte"
-F 7 "..PCB/EDU-NXP/Datasheets" H 1200 5850 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 1200 5850 60  0001 C CNN "Path datasheet"
 F 8 "399-1167-1-ND" H 1200 5850 60  0001 C CNN "Digikey"
 F 9 "0805" H 1200 5850 60  0001 C CNN "Footprint"
 	1    1900 6500
@@ -432,7 +432,7 @@ F 3 "AOA0000CE1.pdf" H 1300 4900 30  0001 C CNN
 F 4 "RES 10K OHM 1/8W 5% 0805 SMD" V 1300 4900 60  0001 C CNN "Descripción"
 F 5 "Panasonic Electronic Components" V 1300 4900 60  0001 C CNN "Fabricante"
 F 6 "ERJ-6GEYJ103V" V 1300 4900 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 1300 4900 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" V 1300 4900 60  0001 C CNN "Path datasheet"
 F 8 "P10KACT-ND" V 1300 4900 60  0001 C CNN "Digikey"
 F 9 "0805" V 1300 4900 60  0001 C CNN "Footprint"
 	1    8100 3400
@@ -462,7 +462,7 @@ F 3 "RR Series Resistor Specifications.pdf" H 4050 3350 30  0001 C CNN
 F 4 "RES 680 OHM 1/10W .5% 0805 SMD" V 4050 3350 60  0001 C CNN "Descripción"
 F 5 "Susumu" V 4050 3350 60  0001 C CNN "Fabricante"
 F 6 "RR1220P-681-D" V 4050 3350 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 4050 3350 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" V 4050 3350 60  0001 C CNN "Path datasheet"
 F 8 "RR12P680DCT-ND" V 4050 3350 60  0001 C CNN "Digikey"
 F 9 "0805" V 4050 3350 60  0001 C CNN "Footprint"
 	1    8400 3350
@@ -487,7 +487,7 @@ F 3 "AOA0000CE1.pdf" H 1300 4900 30  0001 C CNN
 F 4 "RES 10K OHM 1/8W 5% 0805 SMD" V 1300 4900 60  0001 C CNN "Descripción"
 F 5 "Panasonic Electronic Components" V 1300 4900 60  0001 C CNN "Fabricante"
 F 6 "ERJ-6GEYJ103V" V 1300 4900 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 1300 4900 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" V 1300 4900 60  0001 C CNN "Path datasheet"
 F 8 "P10KACT-ND" V 1300 4900 60  0001 C CNN "Digikey"
 F 9 "0805" V 1300 4900 60  0001 C CNN "Footprint"
 	1    3750 3400
@@ -504,7 +504,7 @@ F 3 "RR Series Resistor Specifications.pdf" H 4050 3350 30  0001 C CNN
 F 4 "RES 680 OHM 1/10W .5% 0805 SMD" V 4050 3350 60  0001 C CNN "Descripción"
 F 5 "Susumu" V 4050 3350 60  0001 C CNN "Fabricante"
 F 6 "RR1220P-681-D" V 4050 3350 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 4050 3350 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" V 4050 3350 60  0001 C CNN "Path datasheet"
 F 8 "RR12P680DCT-ND" V 4050 3350 60  0001 C CNN "Digikey"
 F 9 "0805" V 4050 3350 60  0001 C CNN "Footprint"
 	1    4050 3350
@@ -529,7 +529,7 @@ F 3 "2N7000.pdf" H 3950 3900 60  0001 C CNN
 F 4 "MOSFET N-CH 60V 115MA SOT-23" H 3950 3900 60  0001 C CNN "Descripción"
 F 5 "Fairchild Semiconductor" H 3950 3900 60  0001 C CNN "Fabricante"
 F 6 "2N7002" H 3950 3900 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" H 3950 3900 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 3950 3900 60  0001 C CNN "Path datasheet"
 F 8 "2N7002NCT-ND" H 3950 3900 60  0001 C CNN "Digikey"
 F 9 "SOT-23" H 3950 3900 60  0001 C CNN "Footprint"
 	1    4900 3900
@@ -546,7 +546,7 @@ F 3 "AOA0000CE1.pdf" H 1300 4900 30  0001 C CNN
 F 4 "RES 10K OHM 1/8W 5% 0805 SMD" V 1300 4900 60  0001 C CNN "Descripción"
 F 5 "Panasonic Electronic Components" V 1300 4900 60  0001 C CNN "Fabricante"
 F 6 "ERJ-6GEYJ103V" V 1300 4900 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 1300 4900 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" V 1300 4900 60  0001 C CNN "Path datasheet"
 F 8 "P10KACT-ND" V 1300 4900 60  0001 C CNN "Digikey"
 F 9 "0805" V 1300 4900 60  0001 C CNN "Footprint"
 	1    4700 3400
@@ -576,7 +576,7 @@ F 3 "RR Series Resistor Specifications.pdf" H 4050 3350 30  0001 C CNN
 F 4 "RES 680 OHM 1/10W .5% 0805 SMD" V 4050 3350 60  0001 C CNN "Descripción"
 F 5 "Susumu" V 4050 3350 60  0001 C CNN "Fabricante"
 F 6 "RR1220P-681-D" V 4050 3350 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 4050 3350 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" V 4050 3350 60  0001 C CNN "Path datasheet"
 F 8 "RR12P680DCT-ND" V 4050 3350 60  0001 C CNN "Digikey"
 F 9 "0805" V 4050 3350 60  0001 C CNN "Footprint"
 	1    5000 3350
@@ -601,7 +601,7 @@ F 3 "2N7000.pdf" H 3950 3900 60  0001 C CNN
 F 4 "MOSFET N-CH 60V 115MA SOT-23" H 3950 3900 60  0001 C CNN "Descripción"
 F 5 "Fairchild Semiconductor" H 3950 3900 60  0001 C CNN "Fabricante"
 F 6 "2N7002" H 3950 3900 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" H 3950 3900 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 3950 3900 60  0001 C CNN "Path datasheet"
 F 8 "2N7002NCT-ND" H 3950 3900 60  0001 C CNN "Digikey"
 F 9 "SOT-23" H 3950 3900 60  0001 C CNN "Footprint"
 	1    5900 3900
@@ -618,7 +618,7 @@ F 3 "AOA0000CE1.pdf" H 1300 4900 30  0001 C CNN
 F 4 "RES 10K OHM 1/8W 5% 0805 SMD" V 1300 4900 60  0001 C CNN "Descripción"
 F 5 "Panasonic Electronic Components" V 1300 4900 60  0001 C CNN "Fabricante"
 F 6 "ERJ-6GEYJ103V" V 1300 4900 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 1300 4900 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" V 1300 4900 60  0001 C CNN "Path datasheet"
 F 8 "P10KACT-ND" V 1300 4900 60  0001 C CNN "Digikey"
 F 9 "0805" V 1300 4900 60  0001 C CNN "Footprint"
 	1    5700 3400
@@ -648,7 +648,7 @@ F 3 "RR Series Resistor Specifications.pdf" H 4050 3350 30  0001 C CNN
 F 4 "RES 680 OHM 1/10W .5% 0805 SMD" V 4050 3350 60  0001 C CNN "Descripción"
 F 5 "Susumu" V 4050 3350 60  0001 C CNN "Fabricante"
 F 6 "RR1220P-681-D" V 4050 3350 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 4050 3350 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" V 4050 3350 60  0001 C CNN "Path datasheet"
 F 8 "RR12P680DCT-ND" V 4050 3350 60  0001 C CNN "Digikey"
 F 9 "0805" V 4050 3350 60  0001 C CNN "Footprint"
 	1    6000 3350
@@ -686,7 +686,7 @@ F 3 "2N7000.pdf" H 3950 3900 60  0001 C CNN
 F 4 "MOSFET N-CH 60V 115MA SOT-23" H 3950 3900 60  0001 C CNN "Descripción"
 F 5 "Fairchild Semiconductor" H 3950 3900 60  0001 C CNN "Fabricante"
 F 6 "2N7002" H 3950 3900 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" H 3950 3900 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 3950 3900 60  0001 C CNN "Path datasheet"
 F 8 "2N7002NCT-ND" H 3950 3900 60  0001 C CNN "Digikey"
 F 9 "SOT-23" H 3950 3900 60  0001 C CNN "Footprint"
 	1    4900 6350
@@ -703,7 +703,7 @@ F 3 "AOA0000CE1.pdf" H 1300 4900 30  0001 C CNN
 F 4 "RES 10K OHM 1/8W 5% 0805 SMD" V 1300 4900 60  0001 C CNN "Descripción"
 F 5 "Panasonic Electronic Components" V 1300 4900 60  0001 C CNN "Fabricante"
 F 6 "ERJ-6GEYJ103V" V 1300 4900 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 1300 4900 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" V 1300 4900 60  0001 C CNN "Path datasheet"
 F 8 "P10KACT-ND" V 1300 4900 60  0001 C CNN "Digikey"
 F 9 "0805" V 1300 4900 60  0001 C CNN "Footprint"
 	1    4700 5850
@@ -733,7 +733,7 @@ F 3 "RR Series Resistor Specifications.pdf" H 4050 3350 30  0001 C CNN
 F 4 "RES 680 OHM 1/10W .5% 0805 SMD" V 4050 3350 60  0001 C CNN "Descripción"
 F 5 "Susumu" V 4050 3350 60  0001 C CNN "Fabricante"
 F 6 "RR1220P-681-D" V 4050 3350 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 4050 3350 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" V 4050 3350 60  0001 C CNN "Path datasheet"
 F 8 "RR12P680DCT-ND" V 4050 3350 60  0001 C CNN "Digikey"
 F 9 "0805" V 4050 3350 60  0001 C CNN "Footprint"
 	1    5000 5800
@@ -771,7 +771,7 @@ F 3 "S_110_LTST-C19FD1WT.pdf" H 5000 2600 60  0001 C CNN
 F 4 "LED RGB 605/525/470NM DIFF SMD" H 5000 2600 60  0001 C CNN "Descripción"
 F 5 "Lite-On Inc" H 5000 2600 60  0001 C CNN "Fabricante"
 F 6 "LTST-C19FD1WT" H 5000 2600 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" H 5000 2600 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 5000 2600 60  0001 C CNN "Path datasheet"
 F 8 "160-2022-1-ND" H 5000 2600 60  0001 C CNN "Digikey"
 F 9 "PLCC-4" H 5000 2600 60  0001 C CNN "Footprint"
 	1    5000 2600
@@ -830,7 +830,7 @@ F 3 "SEI-RMCF_RMCP.pdf" H 3550 3400 30  0001 C CNN
 F 4 "RES 330K OHM 1/8W 5% 0805" V 3550 3400 60  0001 C CNN "Descripción"
 F 5 "Stackpole Electronics Inc" V 3550 3400 60  0001 C CNN "Fabricante"
 F 6 "RMCF0805JT330K" V 3550 3400 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 3550 3400 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" V 3550 3400 60  0001 C CNN "Path datasheet"
 F 8 "RMCF0805JT330KCT-ND" V 3550 3400 60  0001 C CNN "Digikey"
 F 9 "0805" V 3550 3400 60  0001 C CNN "Footprint"
 	1    4500 3400
@@ -860,7 +860,7 @@ F 3 "SEI-RMCF_RMCP.pdf" H 3550 3400 30  0001 C CNN
 F 4 "RES 330K OHM 1/8W 5% 0805" V 3550 3400 60  0001 C CNN "Descripción"
 F 5 "Stackpole Electronics Inc" V 3550 3400 60  0001 C CNN "Fabricante"
 F 6 "RMCF0805JT330K" V 3550 3400 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 3550 3400 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" V 3550 3400 60  0001 C CNN "Path datasheet"
 F 8 "RMCF0805JT330KCT-ND" V 3550 3400 60  0001 C CNN "Digikey"
 F 9 "0805" V 3550 3400 60  0001 C CNN "Footprint"
 	1    5500 3400
@@ -890,7 +890,7 @@ F 3 "SEI-RMCF_RMCP.pdf" H 3550 3400 30  0001 C CNN
 F 4 "RES 330K OHM 1/8W 5% 0805" V 3550 3400 60  0001 C CNN "Descripción"
 F 5 "Stackpole Electronics Inc" V 3550 3400 60  0001 C CNN "Fabricante"
 F 6 "RMCF0805JT330K" V 3550 3400 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 3550 3400 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" V 3550 3400 60  0001 C CNN "Path datasheet"
 F 8 "RMCF0805JT330KCT-ND" V 3550 3400 60  0001 C CNN "Digikey"
 F 9 "0805" V 3550 3400 60  0001 C CNN "Footprint"
 	1    3550 3400
@@ -926,7 +926,7 @@ F 3 "SEI-RMCF_RMCP.pdf" H 3550 3400 30  0001 C CNN
 F 4 "RES 330K OHM 1/8W 5% 0805" V 3550 3400 60  0001 C CNN "Descripción"
 F 5 "Stackpole Electronics Inc" V 3550 3400 60  0001 C CNN "Fabricante"
 F 6 "RMCF0805JT330K" V 3550 3400 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 3550 3400 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" V 3550 3400 60  0001 C CNN "Path datasheet"
 F 8 "RMCF0805JT330KCT-ND" V 3550 3400 60  0001 C CNN "Digikey"
 F 9 "0805" V 3550 3400 60  0001 C CNN "Footprint"
 	1    7900 3400
@@ -958,7 +958,7 @@ F 3 "SEI-RMCF_RMCP.pdf" H 3550 3400 30  0001 C CNN
 F 4 "RES 330K OHM 1/8W 5% 0805" V 3550 3400 60  0001 C CNN "Descripción"
 F 5 "Stackpole Electronics Inc" V 3550 3400 60  0001 C CNN "Fabricante"
 F 6 "RMCF0805JT330K" V 3550 3400 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 3550 3400 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" V 3550 3400 60  0001 C CNN "Path datasheet"
 F 8 "RMCF0805JT330KCT-ND" V 3550 3400 60  0001 C CNN "Digikey"
 F 9 "0805" V 3550 3400 60  0001 C CNN "Footprint"
 	1    4500 5850
@@ -1005,7 +1005,7 @@ F 3 "SEI-RMCF_RMCP.pdf" H 3550 3400 30  0001 C CNN
 F 4 "RES 330K OHM 1/8W 5% 0805" V 3550 3400 60  0001 C CNN "Descripción"
 F 5 "Stackpole Electronics Inc" V 3550 3400 60  0001 C CNN "Fabricante"
 F 6 "RMCF0805JT330K" V 3550 3400 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 3550 3400 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" V 3550 3400 60  0001 C CNN "Path datasheet"
 F 8 "RMCF0805JT330KCT-ND" V 3550 3400 60  0001 C CNN "Digikey"
 F 9 "0805" V 3550 3400 60  0001 C CNN "Footprint"
 	1    7900 5850
@@ -1030,7 +1030,7 @@ F 3 "RR Series Resistor Specifications.pdf" H 4050 3350 30  0001 C CNN
 F 4 "RES 680 OHM 1/10W .5% 0805 SMD" V 4050 3350 60  0001 C CNN "Descripción"
 F 5 "Susumu" V 4050 3350 60  0001 C CNN "Fabricante"
 F 6 "RR1220P-681-D" V 4050 3350 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 4050 3350 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" V 4050 3350 60  0001 C CNN "Path datasheet"
 F 8 "RR12P680DCT-ND" V 4050 3350 60  0001 C CNN "Digikey"
 F 9 "0805" V 4050 3350 60  0001 C CNN "Footprint"
 	1    8400 5800
@@ -1060,7 +1060,7 @@ F 3 "AOA0000CE1.pdf" H 1300 4900 30  0001 C CNN
 F 4 "RES 10K OHM 1/8W 5% 0805 SMD" V 1300 4900 60  0001 C CNN "Descripción"
 F 5 "Panasonic Electronic Components" V 1300 4900 60  0001 C CNN "Fabricante"
 F 6 "ERJ-6GEYJ103V" V 1300 4900 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" V 1300 4900 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" V 1300 4900 60  0001 C CNN "Path datasheet"
 F 8 "P10KACT-ND" V 1300 4900 60  0001 C CNN "Digikey"
 F 9 "0805" V 1300 4900 60  0001 C CNN "Footprint"
 	1    8100 5850
@@ -1077,7 +1077,7 @@ F 3 "2N7000.pdf" H 3950 3900 60  0001 C CNN
 F 4 "MOSFET N-CH 60V 115MA SOT-23" H 3950 3900 60  0001 C CNN "Descripción"
 F 5 "Fairchild Semiconductor" H 3950 3900 60  0001 C CNN "Fabricante"
 F 6 "2N7002" H 3950 3900 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" H 3950 3900 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 3950 3900 60  0001 C CNN "Path datasheet"
 F 8 "2N7002NCT-ND" H 3950 3900 60  0001 C CNN "Digikey"
 F 9 "SOT-23" H 3950 3900 60  0001 C CNN "Footprint"
 	1    8300 6350
@@ -1096,7 +1096,7 @@ F 3 "qtlp630c-2.pdf" H 5500 4900 60  0001 C CNN
 F 4 "LED ALG RED WTR CLR 0805 SMD T/R" H 5500 4900 60  0001 C CNN "Descripción"
 F 5 "Everlight Electronics Co Ltd" H 5500 4900 60  0001 C CNN "Fabricante"
 F 6 "QTLP630C7TR" H 5500 4900 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" H 5500 4900 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 5500 4900 60  0001 C CNN "Path datasheet"
 F 8 "1080-1412-1-ND" H 5500 4900 60  0001 C CNN "Digikey"
 F 9 "0805" H 5500 4900 60  0001 C CNN "Footprint"
 	1    5000 5050
@@ -1113,7 +1113,7 @@ F 3 "qtlp630c-2.pdf" H 5500 4900 60  0001 C CNN
 F 4 "LED GREEN WATER CLR 0805 SMD T/R" H 5500 4900 60  0001 C CNN "Descripción"
 F 5 "Everlight Electronics Co Ltd" H 5500 4900 60  0001 C CNN "Fabricante"
 F 6 "QTLP630C7TR" H 5500 4900 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" H 5500 4900 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 5500 4900 60  0001 C CNN "Path datasheet"
 F 8 "1080-1411-1-ND" H 5500 4900 60  0001 C CNN "Digikey"
 F 9 "0805" H 5500 4900 60  0001 C CNN "Footprint"
 	1    8400 5050
@@ -1130,7 +1130,7 @@ F 3 "qtlp630c-2.pdf" H 5500 4900 60  0001 C CNN
 F 4 "LED YELLOW WTR CLR 0805 SMD T/R" H 5500 4900 60  0001 C CNN "Descripción"
 F 5 "Everlight Electronics Co Ltd" H 5500 4900 60  0001 C CNN "Fabricante"
 F 6 "QTLP630C7TR" H 5500 4900 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" H 5500 4900 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 5500 4900 60  0001 C CNN "Path datasheet"
 F 8 "1080-1410-1-ND" H 5500 4900 60  0001 C CNN "Digikey"
 F 9 "0805" H 5500 4900 60  0001 C CNN "Footprint"
 	1    8400 2600
@@ -1180,7 +1180,7 @@ F 3 "2N7000.pdf" H 3950 1450 60  0001 C CNN
 F 4 "MOSFET N-CH 60V 115MA SOT-23" H 3950 1450 60  0001 C CNN "Descripción"
 F 5 "Fairchild Semiconductor" H 3950 1450 60  0001 C CNN "Fabricante"
 F 6 "2N7002" H 3950 1450 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" H 3950 1450 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 3950 1450 60  0001 C CNN "Path datasheet"
 F 8 "2N7002NCT-ND" H 3950 1450 60  0001 C CNN "Digikey"
 F 9 "SOT-23" H 3950 1450 60  0001 C CNN "Footprint"
 	1    8300 3900
@@ -1197,7 +1197,7 @@ F 3 "2N7000.pdf" H 3950 3900 60  0001 C CNN
 F 4 "MOSFET N-CH 60V 115MA SOT-23" H 3950 3900 60  0001 C CNN "Descripción"
 F 5 "Fairchild Semiconductor" H 3950 3900 60  0001 C CNN "Fabricante"
 F 6 "2N7002" H 3950 3900 60  0001 C CNN "Nro de parte"
-F 7 "..PCB/EDU-NXP/Datasheets" H 3950 3900 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 3950 3900 60  0001 C CNN "Path datasheet"
 F 8 "2N7002NCT-ND" H 3950 3900 60  0001 C CNN "Digikey"
 F 9 "SOT-23" H 3950 3900 60  0001 C CNN "Footprint"
 	1    3950 3900

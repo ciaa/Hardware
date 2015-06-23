@@ -37,7 +37,7 @@ F 3 "~" H 6900 1450 60  0000 C CNN
 F 4 "FERRITE CHIP 100 OHM 200MA 0805" H 6900 1450 60  0001 C CNN "Descripcion"
 F 5 "Abracon Corporation" H 6900 1450 60  0001 C CNN "Fabricante"
 F 6 "~" H 6900 1450 60  0001 C CNN "Nro. parte"
-F 7 "../datasheets/passive/Ferrite/ACML-0603.pdf" H 6900 1450 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 6900 1450 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6900 1450 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6900 1450 60  0001 C CNN "Footprint estandar"
 	1    6900 1450
@@ -54,7 +54,7 @@ F 3 "~" H 5500 2650 60  0000 C CNN
 F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
 F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
 F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 6800 -600 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    5850 1950
@@ -71,7 +71,7 @@ F 3 "~" H 2850 10450 60  0000 C CNN
 F 4 "CAP TANT 10UF 6.3V 10%" H 2850 10450 60  0001 C CNN "Descripcion"
 F 5 "Kemet" H 2850 10450 60  0001 C CNN "Fabricante"
 F 6 "T491A106K006AT7280" H 2850 10450 60  0001 C CNN "Nro. parte"
-F 7 "~" H 2850 10450 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 2850 10450 60  0001 C CNN "Path datasheet"
 F 8 "399-10116-1-ND" H 2850 10450 60  0001 C CNN "Digikey/Mouser"
 F 9 "1206" H 2850 10450 60  0001 C CNN "Footprint estandar"
 	1    2850 10450
@@ -265,7 +265,7 @@ F 3 "~" H 5500 2650 60  0000 C CNN
 F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
 F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
 F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 6800 -600 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    6350 9550
@@ -282,7 +282,7 @@ F 3 "~" H 5500 2650 60  0000 C CNN
 F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
 F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
 F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 6800 -600 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    7300 1700
@@ -299,7 +299,7 @@ F 3 "~" H 5500 2650 60  0000 C CNN
 F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
 F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
 F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 6800 -600 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    6200 1700
@@ -316,7 +316,7 @@ F 3 "~" H 5500 2650 60  0000 C CNN
 F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
 F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
 F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 6800 -600 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    1000 10450
@@ -333,7 +333,7 @@ F 3 "~" H 5500 2650 60  0000 C CNN
 F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
 F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
 F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 6800 -600 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    1200 10450
@@ -350,7 +350,7 @@ F 3 "~" H 5500 2650 60  0000 C CNN
 F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
 F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
 F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 6800 -600 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    1400 10450
@@ -367,7 +367,7 @@ F 3 "~" H 5500 2650 60  0000 C CNN
 F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
 F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
 F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 6800 -600 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    1600 10450
@@ -384,7 +384,7 @@ F 3 "~" H 5500 2650 60  0000 C CNN
 F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
 F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
 F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 6800 -600 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    1800 10450
@@ -401,7 +401,7 @@ F 3 "~" H 5500 2650 60  0000 C CNN
 F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
 F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
 F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 6800 -600 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    2000 10450
@@ -418,7 +418,7 @@ F 3 "~" H 5500 2650 60  0000 C CNN
 F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
 F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
 F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 6800 -600 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    2200 10450
@@ -435,7 +435,7 @@ F 3 "~" H 5500 2650 60  0000 C CNN
 F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
 F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
 F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 6800 -600 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    2400 10450
@@ -452,7 +452,7 @@ F 3 "~" H 5500 2650 60  0000 C CNN
 F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
 F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
 F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 6800 -600 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    6650 7600
@@ -469,7 +469,7 @@ F 3 "~" H 5500 2650 60  0000 C CNN
 F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
 F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
 F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 6800 -600 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    7550 1700
@@ -486,7 +486,7 @@ F 3 "~" H 4750 2650 60  0000 C CNN
 F 4 "RES 4.7K OHM 1/10W 5% 0805 SMD" H 6500 650 60  0001 C CNN "Descripcion"
 F 5 "Yageo" H 6500 650 60  0001 C CNN "Fabricante"
 F 6 "~" H 6500 650 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive" H 4750 2650 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 4750 2650 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6500 650 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6500 650 60  0001 C CNN "Footprint estandar"
 	1    6650 7050
@@ -503,7 +503,7 @@ F 3 "~" H 1100 2950 60  0000 C CNN
 F 4 "CRYSTAL 32.768KHZ 12.5PF" H 1200 2950 60  0001 C CNN "Descripcion"
 F 5 "Abracon Corporation" H 1300 3050 60  0001 C CNN "Fabricante"
 F 6 "ABS25-32.768KHZ-T" H 1100 2950 60  0001 C CNN "Nro. parte"
-F 7 "~" H 1100 2950 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 1100 2950 60  0001 C CNN "Path datasheet"
 F 8 "535-9166-1-ND" H 1600 3350 60  0001 C CNN "Digikey/Mouser"
 F 9 "~" H 1100 2950 60  0001 C CNN "Footprint estandar"
 	1    1100 2950
@@ -520,7 +520,7 @@ F 3 "~" H 5400 2650 60  0000 C CNN
 F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6700 -600 60  0001 C CNN "Descripcion"
 F 5 "Kemet" H 6700 -600 60  0001 C CNN "Fabricante"
 F 6 "~" H 6700 -600 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/" H 6700 -600 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 6700 -600 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6700 -600 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6700 -600 60  0001 C CNN "Footprint estandar"
 	1    850  3250
@@ -537,7 +537,7 @@ F 3 "~" H 4750 2650 60  0000 C CNN
 F 4 "RES 4.7K OHM 1/10W 5% 0805 SMD" H 6500 650 60  0001 C CNN "Descripcion"
 F 5 "Yageo" H 6500 650 60  0001 C CNN "Fabricante"
 F 6 "~" H 6500 650 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive" H 4750 2650 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 4750 2650 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6500 650 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6500 650 60  0001 C CNN "Footprint estandar"
 	1    1100 4200
@@ -554,7 +554,7 @@ F 3 "~" H 4750 2650 60  0000 C CNN
 F 4 "RES 4.7K OHM 1/10W 5% 0805 SMD" H 6500 650 60  0001 C CNN "Descripcion"
 F 5 "Yageo" H 6500 650 60  0001 C CNN "Fabricante"
 F 6 "~" H 6500 650 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive" H 4750 2650 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 4750 2650 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6500 650 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6500 650 60  0001 C CNN "Footprint estandar"
 	1    1250 4200
@@ -571,7 +571,7 @@ F 3 "~" H 6900 1950 60  0000 C CNN
 F 4 "FERRITE CHIP 100 OHM 200MA 0805" H 6900 1950 60  0001 C CNN "Descripcion"
 F 5 "Abracon Corporation" H 6900 1950 60  0001 C CNN "Fabricante"
 F 6 "~" H 6900 1950 60  0001 C CNN "Nro. parte"
-F 7 "../datasheets/pas" H 6900 1950 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 6900 1950 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6900 1950 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6900 1950 60  0001 C CNN "Footprint estandar"
 	1    6900 1950
@@ -588,7 +588,7 @@ F 3 "~" H 5500 2650 60  0000 C CNN
 F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
 F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
 F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 6800 -600 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    2600 10450
@@ -679,7 +679,7 @@ F 3 "~" H 5500 2650 60  0000 C CNN
 F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6800 -600 60  0001 C CNN "Descripcion"
 F 5 "Kemet" H 6800 -600 60  0001 C CNN "Fabricante"
 F 6 "~" H 6800 -600 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/" H 6800 -600 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 6800 -600 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6800 -600 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6800 -600 60  0001 C CNN "Footprint estandar"
 	1    6500 1700
@@ -696,7 +696,7 @@ F 3 "~" H 7100 7700 60  0000 C CNN
 F 4 "~" H 7100 7700 60  0001 C CNN "Descripcion"
 F 5 "~" H 7100 7700 60  0001 C CNN "Fabricante"
 F 6 "~" H 7100 7700 60  0001 C CNN "Nro. parte"
-F 7 "~" H 7100 7700 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 7100 7700 60  0001 C CNN "Path datasheet"
 F 8 "~" H 7100 7700 60  0001 C CNN "Digikey/Mouser"
 F 9 "~" H 7100 7700 60  0001 C CNN "Footprint estandar"
 	1    7100 7700
@@ -713,7 +713,7 @@ F 3 "~" H 7000 7050 60  0000 C CNN
 F 4 "DIODE SMALL SIG 100V 0.2A" H 7000 7050 60  0001 C CNN "Descripcion"
 F 5 "Fairchild" H 7000 7050 60  0001 C CNN "Fabricante"
 F 6 "LL4148" H 7000 7050 60  0001 C CNN "Nro. parte"
-F 7 "../datasheets/passive/diode/LL4148.pdf" H 7000 7050 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 7000 7050 60  0001 C CNN "Path datasheet"
 F 8 "LL4148FSCT-ND" H 7000 7050 60  0001 C CNN "Digikey/Mouser"
 F 9 "SOD80 - Minimelf" H 7000 7050 60  0001 C CNN "Footprint estandar"
 	1    7000 7050
@@ -730,7 +730,7 @@ F 3 "~" H 5400 2650 60  0000 C CNN
 F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 6700 -600 60  0001 C CNN "Descripcion"
 F 5 "Kemet" H 6700 -600 60  0001 C CNN "Fabricante"
 F 6 "~" H 6700 -600 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/" H 6700 -600 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 6700 -600 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6700 -600 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6700 -600 60  0001 C CNN "Footprint estandar"
 	1    1350 3250
@@ -747,7 +747,7 @@ F 3 "~" H 4000 4800 60  0001 C CNN
 F 4 "MCU ARM 512KB FLASH" H 4000 4700 60  0001 C CNN "Descripcion"
 F 5 "Freescale Semiconductor" H 4000 4700 60  0001 C CNN "Fabricante"
 F 6 "MCIMX6D5EYM10AC" H 4000 4700 60  0001 C CNN "Nro. parte"
-F 7 "../datasheets/K60/K60P144M150SF3RM.pdf" H 4000 4700 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 4000 4700 60  0001 C CNN "Path datasheet"
 F 8 "MK60FX512VLQ15-ND" H 4000 4700 60  0001 C CNN "Digikey/Mouser"
 F 9 "~" H 4000 4800 60  0001 C CNN "Footprint estandar"
 	1    4000 4800
@@ -1149,7 +1149,7 @@ F 3 "~" H 850 2000 60  0000 C CNN
 F 4 "LED GRN WATER CLEAR 0603 SMD" H 850 2000 60  0001 C CNN "Descripcion"
 F 5 "Everlight Electronics Co Ltd" H 850 2000 60  0001 C CNN "Fabricante"
 F 6 "QTLP600C4TR" H 850 2000 60  0001 C CNN "Nro. parte"
-F 7 "../datasheets/passive/diode/ds300084.pdf" H 850 2000 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 850 2000 60  0001 C CNN "Path datasheet"
 F 8 "1080-1399-1-ND" H 850 2000 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 850 2000 60  0001 C CNN "Footprint estandar"
 	1    850  2000
@@ -1166,7 +1166,7 @@ F 3 "~" H 1200 2000 60  0000 C CNN
 F 4 "LED ALG RED WTR CLR 0603 SMD" H 1200 2000 60  0001 C CNN "Descripcion"
 F 5 "Everlight Electronics Co Ltd" H 1200 2000 60  0001 C CNN "Fabricante"
 F 6 "QTLP600C7TR" H 1200 2000 60  0001 C CNN "Nro. parte"
-F 7 "~" H 1200 2000 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 1200 2000 60  0001 C CNN "Path datasheet"
 F 8 "1080-1400-1-ND" H 1200 2000 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 1200 2000 60  0001 C CNN "Footprint estandar"
 	1    1200 2000
@@ -1183,7 +1183,7 @@ F 3 "~" H 4750 2650 60  0000 C CNN
 F 4 "RES 4.7K OHM 1/10W 5% 0805 SMD" H 6500 650 60  0001 C CNN "Descripcion"
 F 5 "Yageo" H 6500 650 60  0001 C CNN "Fabricante"
 F 6 "~" H 6500 650 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive" H 4750 2650 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 4750 2650 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6500 650 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6500 650 60  0001 C CNN "Footprint estandar"
 	1    1200 1500
@@ -1200,7 +1200,7 @@ F 3 "~" H 4750 2650 60  0000 C CNN
 F 4 "RES 4.7K OHM 1/10W 5% 0805 SMD" H 6500 650 60  0001 C CNN "Descripcion"
 F 5 "Yageo" H 6500 650 60  0001 C CNN "Fabricante"
 F 6 "~" H 6500 650 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive" H 4750 2650 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 4750 2650 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6500 650 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6500 650 60  0001 C CNN "Footprint estandar"
 	1    850  1500
@@ -1318,7 +1318,7 @@ F 3 "~" H 5650 2800 60  0000 C CNN
 F 4 "RES 10M OHM 1/10W 5% 0805 SMD" H 7400 800 60  0001 C CNN "Descripcion"
 F 5 "Yageo" H 7400 800 60  0001 C CNN "Fabricante"
 F 6 "~" H 7400 800 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive" H 5650 2800 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 5650 2800 60  0001 C CNN "Path datasheet"
 F 8 "~" H 7400 800 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 7400 800 60  0001 C CNN "Footprint estandar"
 	1    6900 2900
@@ -1423,7 +1423,7 @@ F 3 "~" H 4300 3850 60  0000 C CNN
 F 4 "RES 4.7K OHM 1/10W 5% 0805 SMD" H 6050 1850 60  0001 C CNN "Descripcion"
 F 5 "Yageo" H 6050 1850 60  0001 C CNN "Fabricante"
 F 6 "~" H 6050 1850 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive" H 4300 3850 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 4300 3850 60  0001 C CNN "Path datasheet"
 F 8 "~" H 6050 1850 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 6050 1850 60  0001 C CNN "Footprint estandar"
 	1    6200 8250
@@ -1498,7 +1498,7 @@ F 3 "~" H 10600 2850 60  0000 C CNN
 F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 11900 -400 60  0001 C CNN "Descripcion"
 F 5 "Kemet" H 11900 -400 60  0001 C CNN "Fabricante"
 F 6 "~" H 11900 -400 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/" H 11900 -400 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 11900 -400 60  0001 C CNN "Path datasheet"
 F 8 "~" H 11900 -400 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 11900 -400 60  0001 C CNN "Footprint estandar"
 	1    6550 3450
@@ -1515,7 +1515,7 @@ F 3 "~" H 11300 2850 60  0000 C CNN
 F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 12600 -400 60  0001 C CNN "Descripcion"
 F 5 "Kemet" H 12600 -400 60  0001 C CNN "Fabricante"
 F 6 "~" H 12600 -400 60  0001 C CNN "Nro. parte"
-F 7 "../datasheet/passive/" H 12600 -400 60  0001 C CNN "Path datasheet"
+F 7 "..PCB/EDU-FSL/Datasheets" H 12600 -400 60  0001 C CNN "Path datasheet"
 F 8 "~" H 12600 -400 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 12600 -400 60  0001 C CNN "Footprint estandar"
 	1    7250 3450
