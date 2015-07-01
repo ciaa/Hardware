@@ -1,0 +1,129 @@
+### Module positions - created on Wed 01 Jul 2015 04:47:14 PM ART ###
+### Printed by Pcbnew version pcbnew (2013-07-07 BZR 4022)-stable
+## Unit = inches, Angle = deg.
+## Side : F.Cu
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+C46      100nF            SMC0603             1.3288     0.5968      90.0    F.Cu
+C88      10nF             SMC0603             0.6488     0.5368      90.0    F.Cu
+D4       LED red          LED-0603            4.9588     2.0368     270.0    F.Cu
+D6       PSD12C           DO214AA-1-2         4.4300     2.8218      90.0    F.Cu
+D7       PSD12C           DO214AA-1-2         4.5600     3.0268       0.0    F.Cu
+D8       PSD12C           DO214AA-1-2         4.4950     2.5568     180.0    F.Cu
+D13      LED red          LED-0603            2.4250     2.7268     180.0    F.Cu
+D14      LED red          LED-0603            2.5750     2.7268     180.0    F.Cu
+D15      LED red          LED-0603            2.7250     2.7268     180.0    F.Cu
+D16      LED red          LED-0603            2.8750     2.7268     180.0    F.Cu
+D17      LED red          LED-0603            3.0250     2.7268     180.0    F.Cu
+D18      LED red          LED-0603            3.1700     2.7268     180.0    F.Cu
+D19      LED red          LED-0603            3.3150     2.7268     180.0    F.Cu
+D20      LED red          LED-0603            3.4650     2.7268     180.0    F.Cu
+D21      LED red          LED-0603            4.7300     1.4468      90.0    F.Cu
+D22      LED red          LED-0603            4.8000     1.4468      90.0    F.Cu
+D23      LED red          LED-0603            1.2288     1.1068     270.0    F.Cu
+D24      LED red          LED-0603            1.1488     1.1068     270.0    F.Cu
+D33      LED red          LED-0603            4.8700     1.4468      90.0    F.Cu
+D34      LED red          LED-0603            1.0688     1.1068     270.0    F.Cu
+D35      LED red          LED-0603            0.9888     1.1068     270.0    F.Cu
+D36      LED red          LED-0603            4.9350     1.4468      90.0    F.Cu
+FB1      MMZ1608B601C     SM0603              5.1688     1.9668      90.0    F.Cu
+FB2      MMZ1608B601C     SM0603              2.1288     3.0768     180.0    F.Cu
+FB3      MMZ1608B601C     SM0603              1.7188     3.0618     180.0    F.Cu
+FB4      MMZ1608B601C     SM0603              1.4488     2.9918     180.0    F.Cu
+FB5      MMZ1608B601C     SM0603              1.1888     3.0168     270.0    F.Cu
+FB7      BLM18KG221SN1    SM0603              5.1588     2.8868     270.0    F.Cu
+FB8      MMZ1608B601C     SM0603              4.4588     2.4068       0.0    F.Cu
+FB9      MMZ1608B601C     SM0603              3.8588     2.3868     270.0    F.Cu
+FB10     MMZ1608B601C     SM0603              5.1688     2.4268      90.0    F.Cu
+FB11     BLM18KG221SN1    SM0603              5.1688     2.6468     270.0    F.Cu
+FB12     BLM18BD470SN1    SM0603              0.6050     2.6868     180.0    F.Cu
+FB13     BLM18BD470SN1    SM0603              1.0388     2.3768     180.0    F.Cu
+FB15     BLM18KG221SN1    SM0603              5.0588     1.7368     270.0    F.Cu
+FB16     BLM18KG221SN1    SM0603              5.0988     2.2168     270.0    F.Cu
+FB17     BLM18BD470SN1    SM0603              0.6050     2.7568     180.0    F.Cu
+FB19     BLM18BD470SN1    SM0603              1.0388     2.4568     180.0    F.Cu
+FB21     MMZ1608B601C     SM0603              1.4288     0.5968     270.0    F.Cu
+J6       ZX62-AB-5PA      USB_microAB_ZX62    5.3288     1.8568      90.0    F.Cu
+J7       ZX62-B-5PA       USB_microAB_ZX62    5.3288     2.7568      90.0    F.Cu
+P16      ZX62-B-5PA       USB_microAB_ZX62    5.3288     2.3068      90.0    F.Cu
+PS1      USMF020          SM1210              4.5850     2.7268       0.0    F.Cu
+PS2      USMF020          SM1210              4.5900     2.8868       0.0    F.Cu
+Q1       PBSS5240XF       -SOT89-321          0.8288     0.6068     270.0    F.Cu
+Q2       FQT13N06L        SOT223_Opendous     3.5750     0.8068       0.0    F.Cu
+Q3       FQT13N06L        SOT223_Opendous     4.3750     0.8068       0.0    F.Cu
+Q4       FQT13N06L        SOT223_Opendous     3.1750     0.8068       0.0    F.Cu
+Q5       FQT13N06L        SOT223_Opendous     3.9750     0.8068       0.0    F.Cu
+Q14      BC817-40         -SOT23              1.2150     0.8068     180.0    F.Cu
+R7       0                SM0603_Resistor     1.4538     2.0718     180.0    F.Cu
+R8       0                SM0603_Resistor     1.1988     1.9668     270.0    F.Cu
+R9       0                SM0603_Resistor     1.4538     2.0018     180.0    F.Cu
+R13      0                SM0603_Resistor     1.6488     1.8468     180.0    F.Cu
+R14      0                SM0603_Resistor     1.6488     1.9168     180.0    F.Cu
+R15      10k              SM0603_Resistor     1.4538     1.9168     180.0    F.Cu
+R19      12.1k 1%         SM0603_Resistor     1.0788     1.5868     270.0    F.Cu
+R20      24.9             SM0603_Resistor     1.4088     1.5868     180.0    F.Cu
+R22      1k               SM0603_Resistor     4.8788     2.0368      90.0    F.Cu
+R32      390              SM0603_Resistor     4.1900     2.6468      90.0    F.Cu
+R33      100K             SM0603_Resistor     4.0888     2.6468      90.0    F.Cu
+R34      4K7              SM0603_Resistor     3.8688     2.5368      90.0    F.Cu
+R35      220              SM0603_Resistor     4.0700     2.9018     270.0    F.Cu
+R36      4K7              SM0603_Resistor     3.7188     2.4268       0.0    F.Cu
+R37      4K7              SM0603_Resistor     3.7988     2.5368     270.0    F.Cu
+R38      100K             SM0603_Resistor     3.9800     3.0368      90.0    F.Cu
+R39      390              SM0603_Resistor     4.0700     3.0368      90.0    F.Cu
+R41      4K7              SM0603_Resistor     1.1588     2.0868     270.0    F.Cu
+R46      60               SM0603_Resistor     0.8250     1.9068      90.0    F.Cu
+R55      237              SM0603_Resistor     1.8388     3.0618       0.0    F.Cu
+R60      100              SM0603_Resistor     1.2988     2.9368     180.0    F.Cu
+R61      4.7              SM0603_Resistor     1.4788     3.0718       0.0    F.Cu
+R64      100k             SM0603_Resistor     2.4250     2.8168       0.0    F.Cu
+R80      33k              SM0603              0.7488     0.8468      90.0    F.Cu
+R82      15k              SM0603              0.7488     0.9568     270.0    F.Cu
+R83      24.9             SM0603              0.7850     0.4668       0.0    F.Cu
+R86      0                SM0603_Resistor     3.7688     2.3268     270.0    F.Cu
+R87      0                SM0603_Resistor     3.6888     2.3268     270.0    F.Cu
+R88      0                SM0603_Resistor     3.6188     1.9968     270.0    F.Cu
+R89      0                SM0603_Resistor     3.5488     1.9968     270.0    F.Cu
+R91      10K              SM0603_Resistor     3.3800     2.4568       0.0    F.Cu
+R92      100K             SM0603_Resistor     3.3800     2.5268       0.0    F.Cu
+R93      15K              SM0603_Resistor     3.2988     1.7868     180.0    F.Cu
+R94      15K              SM0603_Resistor     3.4488     2.3118       0.0    F.Cu
+R96      10M              SM0603_Resistor     3.1688     2.0118     270.0    F.Cu
+R105     2.49k            SM0603              1.0750     0.6668     270.0    F.Cu
+R107     2.2k             SM1206              1.0850     0.8568      90.0    F.Cu
+R109     10K              SM0603              0.9050     0.4668     180.0    F.Cu
+R117     10k              SM0603_Resistor     3.5288     1.2368       0.0    F.Cu
+R118     10k              SM0603_Resistor     3.5288     1.3168       0.0    F.Cu
+R119     10k              SM0603_Resistor     3.5250     1.4668       0.0    F.Cu
+R120     10k              SM0603_Resistor     3.5288     1.3968       0.0    F.Cu
+R123     4.7              SM0603_Resistor     1.2688     3.0368      90.0    F.Cu
+R128     4.7              SM0603_Resistor     1.0388     3.0168     270.0    F.Cu
+R131     330              SM0603_Resistor     4.7550     1.2118     270.0    F.Cu
+R132     330              SM0603_Resistor     4.9188     1.1568     270.0    F.Cu
+R135     330              SM0603_Resistor     4.6800     1.2118     270.0    F.Cu
+R138     330              SM0603_Resistor     4.8300     1.2118     270.0    F.Cu
+R141     2.2k             SM0603_Resistor     2.4250     2.9068       0.0    F.Cu
+R142     2.2k             SM0603_Resistor     2.5750     2.9068       0.0    F.Cu
+R143     100k             SM0603_Resistor     2.5750     2.8168       0.0    F.Cu
+R144     2.2k             SM0603_Resistor     2.7250     2.9068       0.0    F.Cu
+R145     100k             SM0603_Resistor     2.7250     2.8168       0.0    F.Cu
+R146     2.2k             SM0603_Resistor     2.8750     2.9068       0.0    F.Cu
+R147     100k             SM0603_Resistor     2.8750     2.8168       0.0    F.Cu
+R148     2.2k             SM0603_Resistor     3.0250     2.9068       0.0    F.Cu
+R149     100k             SM0603_Resistor     3.0250     2.8168       0.0    F.Cu
+R150     2.2k             SM0603_Resistor     3.1900     2.9068       0.0    F.Cu
+R151     100k             SM0603_Resistor     3.1950     2.8168       0.0    F.Cu
+R152     2.2k             SM0603_Resistor     3.3150     2.9068       0.0    F.Cu
+R153     100k             SM0603_Resistor     3.3150     2.8168       0.0    F.Cu
+R154     2.2k             SM0603_Resistor     3.4650     2.9068       0.0    F.Cu
+R155     100k             SM0603_Resistor     3.4650     2.8168       0.0    F.Cu
+U4       NCP1117ST33T3G   SOT223              4.6838     2.0568       0.0    F.Cu
+U5       SN65HVD1176DR    -SOIC8              3.8588     2.6968     270.0    F.Cu
+U6       ST3232E          TSSOP16             1.2138     2.3818     180.0    F.Cu
+U9       PRTR5V0U2X       sot143B             3.4488     2.1968     180.0    F.Cu
+U10      MIC2025-2YM      -SOIC8              3.2188     1.5668     270.0    F.Cu
+U14      TXB0108          tssop-20            3.7888     2.1018     180.0    F.Cu
+U15      IS42S16800F-7TL  TSOP54-M08-T2       1.7938     2.5718     270.0    F.Cu
+U16      LPC4337JBD144    LQFP144-M05         2.6570     2.1267      90.0    F.Cu
+U18      LM358            -SOIC8              0.9188     0.8768     180.0    F.Cu
+ZA2      SMBJ20CA         -SMB                2.3451     3.0186     180.0    F.Cu
+## End
