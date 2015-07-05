@@ -7,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 8
 Title "USB OTG"
-Date "23 jun 2015"
+Date "5 jul 2015"
 Rev "0.0"
 Comp "EDU-CIAA - FSL . Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
@@ -185,7 +185,7 @@ U 1 1 52C9D9F8
 P 1600 4000
 F 0 "R1" V 1680 4000 40  0000 C CNN
 F 1 "10k" V 1607 4001 40  0000 C CNN
-F 2 "SM0805" V 1530 4000 30  0001 C CNN
+F 2 "r_0805" V 1530 4000 30  0001 C CNN
 F 3 "AOA0000CE1.pdf" H 1600 4000 30  0001 C CNN
 F 4 "RES 10K OHM 1/8W 5% 0805 SMD" H 1600 4000 60  0001 C CNN "Descripcion"
 F 5 "Panasonic Electronic Components" H 1600 4000 60  0001 C CNN "Fabricante"
@@ -526,7 +526,7 @@ U 1 1 5589B8F2
 P 1600 4200
 F 0 "R2" V 1680 4200 40  0000 C CNN
 F 1 "10k" V 1607 4201 40  0000 C CNN
-F 2 "SM0805" V 1530 4200 30  0001 C CNN
+F 2 "r_0805" V 1530 4200 30  0001 C CNN
 F 3 "AOA0000CE1.pdf" H 1600 4200 30  0001 C CNN
 F 4 "RES 10K OHM 1/8W 5% 0805 SMD" H 1600 4200 60  0001 C CNN "Descripcion"
 F 5 "Panasonic Electronic Components" H 1600 4200 60  0001 C CNN "Fabricante"

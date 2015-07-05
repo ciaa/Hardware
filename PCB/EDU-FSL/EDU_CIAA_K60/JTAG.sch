@@ -7,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 8
 Title "Conectores JTAG y DEBUG USB"
-Date "23 jun 2015"
+Date "5 jul 2015"
 Rev "0.0"
 Comp "EDU-CIAA - FSL . Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
@@ -1573,84 +1573,10 @@ F 3 "" H 9900 1600 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	9900 1600 9900 1550
-$Comp
-L OSCILADOR U4
-U 1 1 540E59A9
-P 1200 7150
-F 0 "U4" H 1100 7400 60  0000 C CNN
-F 1 "SI501" H 1100 7300 60  0000 C CNN
-F 2 "SI501_C" H 1200 7150 60  0001 C CNN
-F 3 "~" H 1200 7150 60  0000 C CNN
-F 4 "OSC MEMS 12.000MHZ CMOS SMD" H 1200 7150 60  0001 C CNN "Descripcion"
-F 5 "Silicon Laboratories" H 1200 7150 60  0001 C CNN "Fabricante"
-F 6 "501HCA12M0000CAG" H 1200 7150 60  0001 C CNN "Nro. parte"
-F 7 "..PCB/EDU-FSL/Datasheets" H 1200 7150 60  0001 C CNN "Path datasheet"
-F 8 "336-2889-ND" H 1200 7150 60  0001 C CNN "Digikey/Mouser"
-F 9 "DFN-4" H 1200 7150 60  0001 C CNN "Footprint estandar"
-	1    1200 7150
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR081
-U 1 1 540E59AF
-P 1200 7450
-F 0 "#PWR081" H 1200 7450 30  0001 C CNN
-F 1 "GND" H 1200 7380 30  0001 C CNN
-F 2 "" H 1200 7450 60  0000 C CNN
-F 3 "" H 1200 7450 60  0000 C CNN
-	1    1200 7450
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR082
-U 1 1 540E59B5
-P 750 7000
-F 0 "#PWR082" H 750 6960 30  0001 C CNN
-F 1 "+3.3V" H 750 7110 30  0000 C CNN
-F 2 "" H 750 7000 60  0000 C CNN
-F 3 "" H 750 7000 60  0000 C CNN
-	1    750  7000
-	1    0    0    -1  
-$EndComp
-Text Notes 850  6750 0    60   ~ 0
+Text Notes 750  6250 0    60   ~ 0
 OSC. 12MHz
-Wire Wire Line
-	750  7000 750  7400
-Connection ~ 750  7200
-Connection ~ 750  7100
-$Comp
-L C C8
-U 1 1 540E59CD
-P 950 7400
-F 0 "C8" V 850 7550 40  0000 C CNN
-F 1 "100nF" V 800 7550 40  0000 C CNN
-F 2 "c_0805" H 950 7400 60  0001 C CNN
-F 3 "~" H 950 7400 60  0000 C CNN
-F 4 "CAP CER 0.1UF 16V 10% X7R" H 950 7400 60  0001 C CNN "Descripcion"
-F 5 "Kemet" H 950 7400 60  0001 C CNN "Fabricante"
-F 6 "~" H 950 7400 60  0001 C CNN "Nro. parte"
-F 7 "..PCB/EDU-FSL/Datasheets" H 950 7400 60  0001 C CNN "Path datasheet"
-F 8 "~" H 950 7400 60  0001 C CNN "Digikey/Mouser"
-F 9 "0805" H 950 7400 60  0001 C CNN "Footprint estandar"
-	1    950  7400
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	750  7200 850  7200
-Wire Wire Line
-	750  7100 850  7100
-Wire Wire Line
-	1200 7300 1200 7450
-NoConn ~ 1900 6900
 Wire Notes Line
 	6300 6200 6300 5900
-Wire Wire Line
-	1200 7400 1150 7400
-Connection ~ 1200 7400
-Wire Wire Line
-	1550 7100 1700 7100
-Wire Wire Line
-	1700 6600 1900 6600
 $Comp
 L FILTER L7
 U 1 1 547F180E
@@ -1686,23 +1612,6 @@ F 9 "0805" H 8900 950 60  0001 C CNN "Footprint estandar"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
-U 1 1 547F99E2
-P 1700 6850
-F 0 "R6" V 1780 6850 40  0000 C CNN
-F 1 "100" V 1707 6851 40  0000 C CNN
-F 2 "r_0805" V 1630 6850 30  0001 C CNN
-F 3 "~" H 1700 6850 30  0000 C CNN
-F 4 "RES 100 OHM 1/10W 5% 0805 SMD" H 1700 6850 60  0001 C CNN "Descripcion"
-F 5 "YAGEO" H 1700 6850 60  0001 C CNN "Fabricante"
-F 6 "~" H 1700 6850 60  0001 C CNN "Nro. parte"
-F 7 "..PCB/EDU-FSL/Datasheets" H 1700 6850 60  0001 C CNN "Path datasheet"
-F 8 "~" H 1700 6850 60  0001 C CNN "Digikey/Mouser"
-F 9 "0805" H 1700 6850 60  0001 C CNN "Footprint estandar"
-	1    1700 6850
-	-1   0    0    1   
-$EndComp
-$Comp
 L FILTER L5
 U 1 1 5589B314
 P 1650 1850
@@ -1736,4 +1645,121 @@ F 9 "0805" H 1650 2750 60  0001 C CNN "Footprint estandar"
 	1    1650 2750
 	1    0    0    -1  
 $EndComp
+$Comp
+L GND #PWR081
+U 1 1 558C6510
+P 1550 7650
+F 0 "#PWR081" H 1550 7650 30  0001 C CNN
+F 1 "GND" H 1550 7580 30  0001 C CNN
+F 2 "" H 1550 7650 60  0000 C CNN
+F 3 "" H 1550 7650 60  0000 C CNN
+	1    1550 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 7600 1550 7650
+$Comp
+L R R6
+U 1 1 558C651E
+P 1200 6850
+F 0 "R6" V 1280 6850 40  0000 C CNN
+F 1 "10M" V 1207 6851 40  0000 C CNN
+F 2 "r_0805" H -50 6750 60  0001 C CNN
+F 3 "~" H -50 6750 60  0000 C CNN
+F 4 "RES 10M OHM 1/10W 5% 0805 SMD" H 1700 4750 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 1700 4750 60  0001 C CNN "Fabricante"
+F 6 "~" H 1700 4750 60  0001 C CNN "Nro. parte"
+F 7 "..PCB/EDU-FSL/Datasheets" H -50 6750 60  0001 C CNN "Path datasheet"
+F 8 "~" H 1700 4750 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 1700 4750 60  0001 C CNN "Footprint estandar"
+	1    1200 6850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR082
+U 1 1 558C6524
+P 850 7650
+F 0 "#PWR082" H 850 7650 30  0001 C CNN
+F 1 "GND" H 850 7580 30  0001 C CNN
+F 2 "" H 850 7650 60  0000 C CNN
+F 3 "" H 850 7650 60  0000 C CNN
+	1    850  7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  7600 850  7650
+$Comp
+L SMD_SEALING_GLASS_CRYSTAL Y3
+U 1 1 558C652F
+P 1200 7100
+F 0 "Y3" H 1200 7000 35  0000 C CNN
+F 1 "12MHz" H 1200 7600 79  0001 C CNN
+F 2 "FA238V-XTAL" H 2050 7000 60  0001 C CNN
+F 3 "~" H 1200 7100 60  0000 C CNN
+F 4 "887-1831-1-ND" H 1700 7500 60  0001 C CNN "Digikey/Mouser"
+F 5 "TXC_CORPORATION" H 1950 7300 60  0001 C CNN "Fabricante"
+F 6 "7S-12.000MAHE-T" H 1950 7400 60  0001 C CNN "Nro parte"
+F 7 "CRYSTAL_12MHZ_12PF_SMD" H 2100 7150 60  0001 C CNN "Descripcion"
+	1    1200 7100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	850  7600 1550 7600
+Wire Wire Line
+	1150 7250 1150 7600
+Connection ~ 1150 7600
+Wire Wire Line
+	1250 7250 1250 7600
+Connection ~ 1250 7600
+Wire Wire Line
+	1350 7100 1550 7100
+Wire Wire Line
+	850  7100 1050 7100
+Wire Wire Line
+	850  6600 850  7200
+Connection ~ 850  7100
+Wire Wire Line
+	1450 6850 1550 6850
+Connection ~ 1550 7100
+Connection ~ 850  6850
+Connection ~ 1550 6850
+Wire Wire Line
+	850  6850 950  6850
+$Comp
+L C C8
+U 1 1 558C6549
+P 850 7400
+F 0 "C8" H 950 7300 40  0000 C CNN
+F 1 "27pF" H 950 7200 40  0000 C CNN
+F 2 "c_0805" H 4900 6800 60  0001 C CNN
+F 3 "~" H 4900 6800 60  0000 C CNN
+F 4 "~" H 6200 3550 60  0001 C CNN "Nro. parte"
+F 5 "..PCB/EDU-FSL/Datasheets" H 6200 3550 60  0001 C CNN "Path datasheet"
+F 6 "~" H 6200 3550 60  0001 C CNN "Digikey/Mouser"
+F 7 "0805" H 6200 3550 60  0001 C CNN "Footprint estandar"
+	1    850  7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C53
+U 1 1 558C6553
+P 1550 7400
+F 0 "C53" H 1650 7300 40  0000 C CNN
+F 1 "27pF" H 1650 7200 40  0000 C CNN
+F 2 "c_0805" H 5600 6800 60  0001 C CNN
+F 3 "~" H 5600 6800 60  0000 C CNN
+F 4 "~" H 6900 3550 60  0001 C CNN "Nro. parte"
+F 5 "..PCB/EDU-FSL/Datasheets" H 6900 3550 60  0001 C CNN "Path datasheet"
+F 6 "~" H 6900 3550 60  0001 C CNN "Digikey/Mouser"
+F 7 "0805" H 6900 3550 60  0001 C CNN "Footprint estandar"
+	1    1550 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 6600 850  6600
+Wire Wire Line
+	1550 6850 1550 7200
+Wire Wire Line
+	1900 6900 1550 6900
+Connection ~ 1550 6900
 $EndSCHEMATC

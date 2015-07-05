@@ -7,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 8
 Title "EDU CIAA GPIO"
-Date "23 jun 2015"
+Date "5 jul 2015"
 Rev "1.0"
 Comp ""
 Comment1 ""

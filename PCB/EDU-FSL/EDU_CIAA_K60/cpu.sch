@@ -7,7 +7,7 @@ $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 7 8
 Title "Microcontrolador Freescale K60"
-Date "23 jun 2015"
+Date "5 jul 2015"
 Rev "0.0"
 Comp "EDU-CIAA - FSL . Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
@@ -1352,13 +1352,13 @@ Text HLabel 5700 6950 2    60   Output ~ 0
 TEC_COL1
 Text HLabel 2300 8750 0    60   Output ~ 0
 TEC_COL2
-Text HLabel 2300 1150 0    60   Input ~ 0
-TEC_F0
-Text HLabel 2300 1250 0    60   Input ~ 0
-TEC_F1
-Text HLabel 2300 1350 0    60   Input ~ 0
-TEC_F2
 Text HLabel 2300 1450 0    60   Input ~ 0
+TEC_F0
+Text HLabel 2300 1350 0    60   Input ~ 0
+TEC_F1
+Text HLabel 2300 1150 0    60   Input ~ 0
+TEC_F2
+Text HLabel 2300 1250 0    60   Input ~ 0
 TEC_F3
 Wire Wire Line
 	2300 1150 2400 1150
@@ -1492,36 +1492,32 @@ L C C49
 U 1 1 5583A0DF
 P 6550 3450
 F 0 "C49" H 6650 3350 40  0000 C CNN
-F 1 "18pF" H 6650 3250 40  0000 C CNN
+F 1 "27pF" H 6650 3250 40  0000 C CNN
 F 2 "c_0805" H 10600 2850 60  0001 C CNN
 F 3 "~" H 10600 2850 60  0000 C CNN
-F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 11900 -400 60  0001 C CNN "Descripcion"
-F 5 "Kemet" H 11900 -400 60  0001 C CNN "Fabricante"
-F 6 "~" H 11900 -400 60  0001 C CNN "Nro. parte"
-F 7 "..PCB/EDU-FSL/Datasheets" H 11900 -400 60  0001 C CNN "Path datasheet"
-F 8 "~" H 11900 -400 60  0001 C CNN "Digikey/Mouser"
-F 9 "0805" H 11900 -400 60  0001 C CNN "Footprint estandar"
+F 4 "~" H 11900 -400 60  0001 C CNN "Nro. parte"
+F 5 "..PCB/EDU-FSL/Datasheets" H 11900 -400 60  0001 C CNN "Path datasheet"
+F 6 "~" H 11900 -400 60  0001 C CNN "Digikey/Mouser"
+F 7 "0805" H 11900 -400 60  0001 C CNN "Footprint estandar"
 	1    6550 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C52
-U 1 1 5583A0EB
-P 7250 3450
-F 0 "C52" H 7350 3350 40  0000 C CNN
-F 1 "18pF" H 7350 3250 40  0000 C CNN
-F 2 "c_0805" H 11300 2850 60  0001 C CNN
-F 3 "~" H 11300 2850 60  0000 C CNN
-F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 12600 -400 60  0001 C CNN "Descripcion"
-F 5 "Kemet" H 12600 -400 60  0001 C CNN "Fabricante"
-F 6 "~" H 12600 -400 60  0001 C CNN "Nro. parte"
-F 7 "..PCB/EDU-FSL/Datasheets" H 12600 -400 60  0001 C CNN "Path datasheet"
-F 8 "~" H 12600 -400 60  0001 C CNN "Digikey/Mouser"
-F 9 "0805" H 12600 -400 60  0001 C CNN "Footprint estandar"
-	1    7250 3450
 	1    0    0    -1  
 $EndComp
 Connection ~ 7000 8000
 Wire Wire Line
 	7100 7350 7100 7400
+$Comp
+L C C52
+U 1 1 558C6489
+P 7250 3450
+F 0 "C52" H 7350 3350 40  0000 C CNN
+F 1 "27pF" H 7350 3250 40  0000 C CNN
+F 2 "c_0805" H 11300 2850 60  0001 C CNN
+F 3 "~" H 11300 2850 60  0000 C CNN
+F 4 "~" H 12600 -400 60  0001 C CNN "Nro. parte"
+F 5 "..PCB/EDU-FSL/Datasheets" H 12600 -400 60  0001 C CNN "Path datasheet"
+F 6 "~" H 12600 -400 60  0001 C CNN "Digikey/Mouser"
+F 7 "0805" H 12600 -400 60  0001 C CNN "Footprint estandar"
+	1    7250 3450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
