@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: mié 09 jul 2014 21:05:47 ART
+#
+$CMP SW_PUSH4
+D Push Button Tact 4 pins
+K Tact Switch
+$ENDCMP
+#
+#End Doc Library
