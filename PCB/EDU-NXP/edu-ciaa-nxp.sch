@@ -1,12 +1,13 @@
 EESchema Schematic File Version 2
 LIBS:edu-ciaa-nxp
+LIBS:edu-ciaa-nxp-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
 Title "EDU-CIAA-NXP Esquemático jerárquico"
-Date "31 mar 2015"
+Date "25 sep 2015"
 Rev "1.1"
 Comp ""
 Comment1 "Computadora Industrial Abierta Argentina Versión Educativa EDU-CIAA-NXP"
@@ -551,4 +552,30 @@ Text Notes 7500 700  0    100  ~ 20
 Computadora Industrial Abierta Argentina\nVersión Educativa EDU-CIAA (Procesador NXP)
 Text Notes 600  7450 0    140  ~ 28
 PROYECTO CIAA\nhttp://www.proyecto-ciaa.com.ar/
+Text Notes 9700 4450 0    60   ~ 0
+GND pin
+$Comp
+L CONN_1 TP1
+U 1 1 56061456
+P 9950 4550
+F 0 "TP1" H 10030 4550 40  0000 L CNN
+F 1 "4mm" H 9950 4605 157 0001 C CNN
+F 2 "" H 9950 4550 60  0000 C CNN
+F 3 "" H 9950 4550 60  0000 C CNN
+	1    9950 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 56065CAD
+P 9800 4650
+F 0 "#PWR01" H 9800 4650 30  0001 C CNN
+F 1 "GND" H 9800 4580 30  0001 C CNN
+F 2 "" H 9800 4650 60  0000 C CNN
+F 3 "" H 9800 4650 60  0000 C CNN
+	1    9800 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 4650 9800 4550
 $EndSCHEMATC

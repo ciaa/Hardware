@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = 21/03/2015 07:17:10 p.m.
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 25/09/2015 08:00:30 p.m.
 
 BeginCmp
 TimeStamp = /52C1CAF4/52C1CFDF;
@@ -10,7 +10,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52C1F703/52C5B383;
 Reference = C1;
-ValeurCmp = 10uF / 6V3;
+ValeurCmp = 10uF;
 IdModule  = c_1206_tantalio;
 EndCmp
 
@@ -486,21 +486,21 @@ EndCmp
 BeginCmp
 TimeStamp = /52C66C60/52C75800;
 Reference = FB2;
-ValeurCmp = MMZ1608B601C;
+ValeurCmp = HZ0805E601R-10;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C2B8A1/52D8A97B;
 Reference = FB3;
-ValeurCmp = MMZ1608B601C;
+ValeurCmp = HZ0805E601R-10;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C2B8A1/52DEAAB0;
 Reference = FB4;
-ValeurCmp = MMZ1608B601C;
+ValeurCmp = HZ0805E601R-10;
 IdModule  = SM0805;
 EndCmp
 
@@ -521,28 +521,28 @@ EndCmp
 BeginCmp
 TimeStamp = /52C1CAF4/52C1CFC2;
 Reference = FB7;
-ValeurCmp = MMZ1608B601C;
+ValeurCmp = HZ0805E601R-10;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C1CAF4/52C1CFDC;
 Reference = FB8;
-ValeurCmp = MMZ1608B601C;
+ValeurCmp = HZ0805E601R-10;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C1CAF4/540206D5;
 Reference = FB9;
-ValeurCmp = HZ0805E601R-10;
+ValeurCmp = MI0805M221R-10;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C1CAF4/5447BAE3;
 Reference = FB10;
-ValeurCmp = HZ0805E601R-10;
+ValeurCmp = MI0805M221R-10;
 IdModule  = SM0805;
 EndCmp
 
@@ -780,7 +780,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52C1F703/52C5B387;
 Reference = R9;
-ValeurCmp = 100 / 1/2W;
+ValeurCmp = 100;
 IdModule  = SM0805;
 EndCmp
 
@@ -1046,7 +1046,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52C1CAF4/52C1CF5A;
 Reference = R92;
-ValeurCmp = 12K 1%;
+ValeurCmp = 12K;
 IdModule  = SM0805;
 EndCmp
 
@@ -1221,7 +1221,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52CA0F12/539535E7;
 Reference = TH2;
-ValeurCmp = MF-MSMF110-2;
+ValeurCmp = MF-MSMF030-2;
 IdModule  = MF-MSMF;
 EndCmp
 
@@ -1235,8 +1235,15 @@ EndCmp
 BeginCmp
 TimeStamp = /52CA0F12/539E1660;
 Reference = TH4;
-ValeurCmp = MF-MSMF110-2;
+ValeurCmp = MF-MSMF030-2;
 IdModule  = MF-MSMF;
+EndCmp
+
+BeginCmp
+TimeStamp = /56061456;
+Reference = TP1;
+ValeurCmp = 4mm;
+IdModule  = GNDpin;
 EndCmp
 
 BeginCmp

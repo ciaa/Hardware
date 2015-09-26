@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  22/05/2015 03:19:55 p.m.
+PCBNEW-LibModule-V1  25/09/2015 08:31:49 p.m.
 # encoding utf-8
 Units mm
 $INDEX
@@ -11,6 +11,7 @@ DO-214AA(SMB)
 FA238V-XTAL
 Fiducial_1mm_BOT
 Fiducial_1mm_TOP
+GNDpin
 GS2
 LED-0805
 LQFP144-M05
@@ -247,20 +248,15 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE BK-913-ND
 $MODULE Con_2P
-Po 0 0 0 15 5423DE54 00000000 ~~
+Po 0 0 0 15 5605D73F 00000000 ~~
 Li Con_2P
 Sc 0
 AR 
 Op 0 0 0
 T0 0 3.81 0.762 0.762 0 0.12 N V 21 N "Con_2P"
 T1 0 0 0.762 0.762 0 0.12 N V 21 N "VAL**"
-DS -2.794 0.508 2.794 0.508 0.15 21
-DS -2.794 -1.524 -2.794 5.08 0.15 21
-DS -2.794 5.08 2.794 5.08 0.15 21
-DS 2.794 5.08 2.794 -1.524 0.15 21
-DS 2.794 -1.524 -2.794 -1.524 0.15 21
 $PAD
-Sh "1" C 2 2 0 0 0
+Sh "1" R 2 2 0 0 0
 Dr 1 0 0
 At STD N 00E0FFFF
 Ne 0 ""
@@ -400,6 +396,22 @@ Po 0 0
 .SolderMask 1.5
 $EndPAD
 $EndMODULE Fiducial_1mm_TOP
+$MODULE GNDpin
+Po 0 0 0 15 5605D1C3 00000000 ~~
+Li GNDpin
+Sc 0
+AR 
+Op 0 0 0
+T0 0.15 -1.7 0.8 0.8 0 0.12 N V 21 N "GND pin"
+T1 0.2 2.15 0.8 0.8 0 0.12 N V 21 N "VAL**"
+$PAD
+Sh "1" C 3 3 0 0 0
+Dr 1.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE GNDpin
 $MODULE GS2
 Po 0 0 0 15 426793E6 00000000 ~~
 Li GS2
@@ -2687,7 +2699,7 @@ Po 0 6.5
 $EndPAD
 $EndMODULE PUSH_SWITCH_THT
 $MODULE Pin_Array_5x2_1.27mm_SMD
-Po 0 0 0 15 54482DB2 00000000 ~~
+Po 0 0 0 15 5605D93A 00000000 ~~
 Li Pin_Array_5x2_1.27mm_SMD
 Sc 0
 AR 
@@ -2707,70 +2719,70 @@ T2 0 -2.032 0.6096 0.6096 0 0.1524 N V 21 N "5"
 DS -3.3782 -1.524 -3.3782 1.524 0.2032 21
 DS 3.3782 1.524 3.3782 -1.524 0.2032 21
 $PAD
-Sh "1" R 0.75 2.4 0 0 0
+Sh "1" R 0.75 2.79 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 2.54 -1.95
+Po 2.54 -2.13
 $EndPAD
 $PAD
-Sh "2" R 0.74 2.4 0 0 0
+Sh "2" R 0.74 2.79 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2.54 1.95
 $EndPAD
 $PAD
-Sh "3" R 0.75 2.4 0 0 0
+Sh "3" R 0.75 2.79 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1.27 -1.95
+Po 1.27 -2.13
 $EndPAD
 $PAD
-Sh "4" R 0.74 2.4 0 0 0
+Sh "4" R 0.74 2.79 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1.27 1.95
 $EndPAD
 $PAD
-Sh "5" R 0.74 2.4 0 0 0
+Sh "5" R 0.74 2.79 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0 -1.95
+Po 0 -2.13
 $EndPAD
 $PAD
-Sh "6" R 0.74 2.4 0 0 0
+Sh "6" R 0.74 2.79 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 0 1.95
 $EndPAD
 $PAD
-Sh "7" R 0.74 2.4 0 0 0
+Sh "7" R 0.74 2.79 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1.27 -1.95
+Po -1.27 -2.13
 $EndPAD
 $PAD
-Sh "8" R 0.75 2.4 0 0 0
+Sh "8" R 0.75 2.79 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1.27 1.95
 $EndPAD
 $PAD
-Sh "9" R 0.75 2.4 0 0 0
+Sh "9" R 0.75 2.79 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -2.54 -1.95
+Po -2.54 -2.13
 $EndPAD
 $PAD
-Sh "10" R 0.74 2.4 0 0 0
+Sh "10" R 0.74 2.79 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
