@@ -1,0 +1,24 @@
+#Proyecto EDU-CIAA-NXP
+
+
+Autores: Gonzalo Cuenca - Eduardo Filomena
+Fecha: Viernes 25 de septiembre de 2015
+
+## Cambios realizados en la versión EDU-CIAA-NXP   V1.2 ##
+
+### Modificaciones en el esquemático  ###
+Capacitor de desacople de 100 nF (C51) en la pila CR2032 (BT1)
+Test point de masa para el osciloscopio (TP1)
+
+### Modificaciones en el PCB  ###
+Capacitor de desacople de 100 nF (C51) en la pila CR2032 (BT1)
+Test point de masa para el osciloscopio (TP1)
+
+### Modificaciones en el BOM  ###
+Capacitor de desacople de 100 nF (C51) en la pila CR2032 (BT1)
+Test point de masa para el osciloscopio (TP1)
+Se cambió el conector (P3) por un modelo con polaridad
+Se quitó el conector de alimentación (P4)
+Se invirtieron los leds (D7) y (D8) para que queden rojo - amarillo - verde, para la aplicación semáforo
+
+###################################################################################
