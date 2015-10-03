@@ -8,7 +8,7 @@ encoding utf-8
 Sheet 5 7
 Title "EDU CIAA Fuente de alimentación"
 Date "25 sep 2015"
-Rev "1.0"
+Rev "1.2"
 Comp ""
 Comment1 ""
 Comment2 ""

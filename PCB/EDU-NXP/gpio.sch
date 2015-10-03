@@ -8,7 +8,7 @@ encoding utf-8
 Sheet 4 7
 Title "GPIO"
 Date "25 sep 2015"
-Rev "1.1"
+Rev "1.2"
 Comp ""
 Comment1 "Computadora Industrial Abierta Argentina Versión Educativa EDU-CIAA-NXP"
 Comment2 "Licencia: https://github.com/ciaa/Hardware/tree/master/Readme (LICENSE)"
