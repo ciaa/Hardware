@@ -5,9 +5,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 7 7
 Title "EDU CIAA EXPANSIÓN"
-Date "25 sep 2015"
+Date "3 oct 2015"
 Rev "1.2"
 Comp ""
 Comment1 ""

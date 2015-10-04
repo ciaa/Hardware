@@ -7,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
 Title "EDU-CIAA-NXP Esquemático jerárquico "
-Date "25 sep 2015"
+Date "3 oct 2015"
 Rev "1.2"
 Comp ""
 Comment1 "Computadora Industrial Abierta Argentina Versión Educativa EDU-CIAA-NXP"
@@ -559,9 +559,15 @@ L CONN_1 TP1
 U 1 1 56061456
 P 9950 4550
 F 0 "TP1" H 10030 4550 40  0000 L CNN
-F 1 "4mm" H 9950 4605 157 0001 C CNN
-F 2 "" H 9950 4550 60  0000 C CNN
+F 1 "~" H 9950 4605 157 0001 C CNN
+F 2 "4mm" H 9950 4550 60  0001 C CNN
 F 3 "" H 9950 4550 60  0000 C CNN
+F 4 "TEST POINT PC MULTIPURPOSE BRWN" H 9950 4550 60  0001 C CNN "Descripción"
+F 5 "Keystone Electronics" H 9950 4550 60  0001 C CNN "Fabricante"
+F 6 "5125" H 9950 4550 60  0001 C CNN "Nro parte"
+F 7 "..PCB/EDU-NXP/Datasheets" H 9950 4550 60  0001 C CNN "Path datasheet"
+F 8 "36-5125-ND" H 9950 4550 60  0001 C CNN "Digikey"
+F 9 "~" H 9950 4550 60  0001 C CNN "Footprint estandar"
 	1    9950 4550
 	1    0    0    -1  
 $EndComp

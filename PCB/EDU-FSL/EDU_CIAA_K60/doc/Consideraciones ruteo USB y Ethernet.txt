@@ -1,0 +1,44 @@
+CONSIDERACIONES RUTEO USB Y ETHERNET
+
+USB:
+
+Siguiendo las especificaciones para el ruteo del USB, la impedancia diferencial entre las señales USB_DM y USB_DP 
+debe ser de 90 ohms +/- 15% (76,5 ohms - 103,5 ohms). Utilizando la calculadora de Kicad (TrasLine -> Coupled Microstrip Line)
+ y PCB Toolkit V6.83 para una placa FR4 de 1,6mm de espesor y el espesor de cobre de 35um (1 Oz.) 
+se determinó un ancho de pista de 30 mils con una separación entre pistas de 8 mils lo que resulta en una 
+impedancia diferencial de 107 ohms la cual esta muy cerca del rango especificado. 
+Si se quisiese acercar más a la especificación se debera aumentar el ancho de pista (poco practico, se superaria el ancho 
+de las lineas de alimentación) o disminuir la separacion entre las pistas (Aumento en el costo de fabricación).
+
+ETHERNET: 
+
+Las especificaciones de ruteo de ethernet (segmento PHY - MAC) encontradas fueron:
+
+ - Impedancia de linea de 68 ohms
+ - Regla 2W: Distancia entre lineas dos veces el ancho de las mismas.
+ - Plano de tierra en capa opuesta
+
+Para los 68 ohms utilizando la calculadora de Kicad (TrasLine -> Coplanar Wave guide) se determinó un ancho de pista de 
+17 mils y una separación de 8 mils, pero como se puede observar no se cumple la regla 2W por lo que se decidió intercalar 
+con lineas de GND quedando la solución siguiente:
+
+Linea_1_Ethernet(17 mils) - espacio (8 mils)- Linea GND(18 mils) - espacio (8 mils) - Linea_2_Ethernet
+
+Verificando se cumple los 68 ohms de linea y tambien la regla 2W (8+18+8=34=2x17).
+
+Otra recomendación es que la longitud de las pistas asociadas a Ethernet sean de similar magnitud y en particular la de
+ datos (TXD0 y TXD1, RXD0 y RXD1).
+
+Para la versión EDU_CIAA_FSL las longitudes son (para tener en cuenta en el poncho ethernet):
+
+  RXD0: 36,023 mm
+  RXD1: 36,035 mm (+0,012mm)
+
+  TXD0: 31,496 mm
+  TXD1: 31,247 mm (-0,249mm)
+
+  TX_EN:   35,137 mm
+  MDC:     30,168 mm
+  CRS_DV:  32,142 mm
+  MDIO:    29,429 mm
+  REF_CLK: 32,935 mm
