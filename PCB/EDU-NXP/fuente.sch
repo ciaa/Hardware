@@ -7,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 7
 Title "EDU CIAA Fuente de alimentación"
-Date "3 oct 2015"
+Date "5 oct 2015"
 Rev "1.2"
 Comp ""
 Comment1 ""
@@ -519,7 +519,7 @@ L CONN_2 P4
 U 1 1 5423C2E9
 P 2700 4750
 F 0 "P4" H 2700 5000 40  0000 C CNN
-F 1 "5Vcc Input" H 2700 4500 40  0000 C CNN
+F 1 "WM4200-ND" H 2700 4500 40  0000 C CNN
 F 2 "Con_2P" H 2700 4750 60  0001 C CNN
 F 3 "022232021_sd.pdf" H 2700 4750 60  0001 C CNN
 F 4 "CONN HEADER 2POS .100 VERT TIN" H 2700 4750 60  0001 C CNN "Descripción"

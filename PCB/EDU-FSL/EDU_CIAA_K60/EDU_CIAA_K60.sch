@@ -7,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 8
 Title "EDU CIAA Freescale - Esquemático jerárquico"
-Date "3 oct 2015"
+Date "5 oct 2015"
 Rev "0.0"
 Comp "EDU-CIAA - FSL . Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
@@ -548,10 +548,10 @@ Wire Wire Line
 Wire Wire Line
 	5650 2850 6250 2850
 $Comp
-L GND #PWR01
+L GND #PWR1
 U 1 1 54A72980
 P 9950 5450
-F 0 "#PWR01" H 9950 5450 30  0001 C CNN
+F 0 "#PWR1" H 9950 5450 30  0001 C CNN
 F 1 "GND" H 9950 5380 30  0001 C CNN
 F 2 "" H 9950 5450 60  0000 C CNN
 F 3 "" H 9950 5450 60  0000 C CNN

@@ -7,7 +7,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
 Title "GPIO"
-Date "3 oct 2015"
+Date "5 oct 2015"
 Rev "1.2"
 Comp ""
 Comment1 "Computadora Industrial Abierta Argentina Versión Educativa EDU-CIAA-NXP"
