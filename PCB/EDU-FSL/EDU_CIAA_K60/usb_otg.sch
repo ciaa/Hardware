@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:EDU_CIAA_K60-rescue
 LIBS:edu-ciaa-fsl
 LIBS:EDU_CIAA_K60-cache
 EELAYER 27 0
@@ -7,7 +8,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 8
 Title "USB OTG"
-Date "5 oct 2015"
+Date "9 oct 2015"
 Rev "0.0"
 Comp "EDU-CIAA - FSL . Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
@@ -250,7 +251,7 @@ Text Label 8500 3200 0    60   ~ 0
 USB_DP_OTG
 Text Notes 9300 2700 0    60   ~ 0
 Par diferencial \n90 ohm
-Text Notes 7300 5750 0    60   ~ 0
+Text Notes 7350 5750 0    60   ~ 0
 FERRITE entre SHIELD y GND: para evitar que el ruido de GND\nsalga por SHIELD hacia el exterior. Este ferrite puede reemplazarse \npor un resistor de 0 ohm en caso de que la placa pase los tests de EMI. \nCHOKE MODO COMUN: Para disminuir EMI y bajar el nivel de ruido. \nSolo deben usarse si la placa no pasa los tests de EMI.
 Text Notes 2700 5100 0    60   ~ 0
 POWER SWITCH

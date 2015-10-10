@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:EDU_CIAA_K60-rescue
 LIBS:edu-ciaa-fsl
 LIBS:EDU_CIAA_K60-cache
 EELAYER 27 0
@@ -7,7 +8,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 8
 Title "Conectores JTAG y DEBUG USB"
-Date "5 oct 2015"
+Date "9 oct 2015"
 Rev "0.0"
 Comp "EDU-CIAA - FSL . Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
@@ -949,7 +950,7 @@ F 9 "TSSOP-20" H 6850 5000 60  0001 C CNN "Footprint estandar"
 	1    6850 5000
 	1    0    0    -1  
 $EndComp
-Text Notes 6100 3300 0    60   ~ 0
+Text Notes 6100 3250 0    60   ~ 0
 Pin ACBUS2 (FT_OE): default\ntri-stated input with an internal\n75KΩ pull up resistor to VCCIO.\n
 NoConn ~ 6350 5250
 NoConn ~ 6350 5350
@@ -1689,7 +1690,7 @@ $EndComp
 Wire Wire Line
 	850  7600 850  7650
 $Comp
-L SMD_SEALING_GLASS_CRYSTAL Y3
+L SMD_Sealing_Glass_Crystal Y3
 U 1 1 558C652F
 P 1200 7100
 F 0 "Y3" H 1200 7000 35  0000 C CNN

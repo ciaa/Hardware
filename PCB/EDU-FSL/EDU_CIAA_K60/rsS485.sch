@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:EDU_CIAA_K60-rescue
 LIBS:edu-ciaa-fsl
 LIBS:EDU_CIAA_K60-cache
 EELAYER 27 0
@@ -7,7 +8,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 8
 Title "CIAA RS485 "
-Date "5 oct 2015"
+Date "9 oct 2015"
 Rev "0.0"
 Comp "EDU-CIAA - FSL . Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"

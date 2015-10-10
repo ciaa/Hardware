@@ -1,6 +1,6 @@
-update=25/09/2015 09:08:56 p.m.
+update=09/10/2015 12:30:57 p.m.
 version=1
-last_client=eeschema
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=edu-ciaa-nxp.net
@@ -31,10 +31,6 @@ version=1
 [eeschema]
 version=1
 LibDir=kicadlibrary
-NetFmtName=PcbnewAdvanced
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
 [eeschema/libraries]
-LibName1=kicadlibrary/edu-ciaa-nxp
+LibName1=edu-ciaa-nxp-rescue
+LibName2=kicadlibrary/edu-ciaa-nxp

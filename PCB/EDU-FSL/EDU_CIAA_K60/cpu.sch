@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:EDU_CIAA_K60-rescue
 LIBS:edu-ciaa-fsl
 LIBS:EDU_CIAA_K60-cache
 EELAYER 27 0
@@ -7,7 +8,7 @@ $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 7 8
 Title "Microcontrolador Freescale K60"
-Date "5 oct 2015"
+Date "9 oct 2015"
 Rev "0.0"
 Comp "EDU-CIAA - FSL . Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
@@ -493,9 +494,11 @@ F 9 "0805" H 6500 650 60  0001 C CNN "Footprint estandar"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CRYSTAL_4PIN_MINI_GND Y1
+L CRYSTAL_4Pin_Mini_GND Y1
 U 1 1 538A5594
 P 1100 2950
+AR Path="/538A5594" Ref="Y1"  Part="1" 
+AR Path="/52C1CAF4/538A5594" Ref="Y1"  Part="1" 
 F 0 "Y1" H 1100 2800 40  0000 C CNN
 F 1 "32.768KHZ" H 1100 2850 40  0000 C CNN
 F 2 "4SOJ" H 1100 2950 60  0001 C CNN
@@ -1447,7 +1450,7 @@ $EndComp
 Wire Wire Line
 	6550 3650 6550 3700
 $Comp
-L SMD_SEALING_GLASS_CRYSTAL Y2
+L SMD_Sealing_Glass_Crystal Y2
 U 1 1 5583A3A3
 P 6900 3150
 F 0 "Y2" H 6900 3050 35  0000 C CNN

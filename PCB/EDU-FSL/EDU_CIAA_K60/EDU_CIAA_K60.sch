@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:EDU_CIAA_K60-rescue
 LIBS:edu-ciaa-fsl
 LIBS:EDU_CIAA_K60-cache
 EELAYER 27 0
@@ -7,7 +8,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 8
 Title "EDU CIAA Freescale - Esquemático jerárquico"
-Date "5 oct 2015"
+Date "9 oct 2015"
 Rev "0.0"
 Comp "EDU-CIAA - FSL . Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
@@ -50,9 +51,9 @@ F7 "TDO" I R 2600 7400 60
 F8 "TMS" O R 2600 7200 60 
 F9 "RESET" O R 2600 6950 60 
 $EndSheet
-Text Notes 8250 1150 0    118  ~ 0
+Text Notes 8200 1900 0    118  ~ 0
 Índice:\n1. Esquemático jerárquico\n2. CPU\n3. USB OTG\n4. GPIO\n5. Fuente de alimentación\n6. JTAG\n7. RS485\n8. ON BOARD IO
-Text Notes 10850 750  2    118  ~ 24
+Text Notes 11100 700  2    118  ~ 24
 Computadora Industrial Abierta Argentina\nVersión EDU - FSL (Freescale K60)
 Text Label 7800 4250 0    60   ~ 0
 USB_DEBUG_VBUS
@@ -247,13 +248,13 @@ $EndComp
 $Comp
 L OSHWA G2
 U 1 1 53A0DEBC
-P 10750 6400
-F 0 "G2" H 10720 6800 60  0001 C CNN
-F 1 "OSHWA" H 10750 6703 60  0001 C CNN
-F 2 "OSHWA" H 10750 6400 60  0001 C CNN
-F 3 "~" H 10750 6400 60  0000 C CNN
-F 4 "LOGO DE OPEN SOURCE HARDWARE" H 10750 6400 60  0001 C CNN "Descripcion"
-	1    10750 6400
+P 10700 6100
+F 0 "G2" H 10670 6500 60  0001 C CNN
+F 1 "OSHWA" H 10700 6403 60  0001 C CNN
+F 2 "OSHWA" H 10700 6100 60  0001 C CNN
+F 3 "~" H 10700 6100 60  0000 C CNN
+F 4 "LOGO DE OPEN SOURCE HARDWARE" H 10700 6100 60  0001 C CNN "Descripcion"
+	1    10700 6100
 	1    0    0    -1  
 $EndComp
 Text Label 6200 6050 2    60   ~ 0
@@ -574,12 +575,12 @@ Connection ~ 9800 5300
 $Comp
 L LOGO G1
 U 1 1 54A70CCE
-P 9800 6350
-F 0 "G1" H 9800 5947 60  0001 C CNN
-F 1 "LOGO" H 9800 6753 60  0001 C CNN
-F 2 "LOGO" H 9800 6350 60  0001 C CNN
-F 3 "~" H 9800 6350 60  0000 C CNN
-	1    9800 6350
+P 9800 6000
+F 0 "G1" H 9800 5597 60  0001 C CNN
+F 1 "LOGO" H 9800 6403 60  0001 C CNN
+F 2 "LOGO" H 9800 6000 60  0001 C CNN
+F 3 "~" H 9800 6000 60  0000 C CNN
+	1    9800 6000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
