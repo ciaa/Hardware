@@ -2,13 +2,13 @@ CONSIDERACIONES RUTEO USB Y ETHERNET
 
 USB:
 
-Siguiendo las especificaciones para el ruteo del USB, la impedancia diferencial entre las seÒales USB_DM y USB_DP 
+Siguiendo las especificaciones para el ruteo del USB, la impedancia diferencial entre las se√±ales USB_DM y USB_DP 
 debe ser de 90 ohms +/- 15% (76,5 ohms - 103,5 ohms). Utilizando la calculadora de Kicad (TrasLine -> Coupled Microstrip Line)
  y PCB Toolkit V6.83 para una placa FR4 de 1,6mm de espesor y el espesor de cobre de 35um (1 Oz.) 
-se determinÛ un ancho de pista de 30 mils con una separaciÛn entre pistas de 8 mils lo que resulta en una 
+se determin√≥ un ancho de pista de 30 mils con una separaci√≥n entre pistas de 8 mils lo que resulta en una 
 impedancia diferencial de 107 ohms la cual esta muy cerca del rango especificado. 
-Si se quisiese acercar m·s a la especificaciÛn se debera aumentar el ancho de pista (poco practico, se superaria el ancho 
-de las lineas de alimentaciÛn) o disminuir la separacion entre las pistas (Aumento en el costo de fabricaciÛn).
+Si se quisiese acercar m√°s a la especificaci√≥n se debera aumentar el ancho de pista (poco practico, se superaria el ancho 
+de las lineas de alimentaci√≥n) o disminuir la separacion entre las pistas (Aumento en el costo de fabricaci√≥n).
 
 ETHERNET: 
 
@@ -18,18 +18,18 @@ Las especificaciones de ruteo de ethernet (segmento PHY - MAC) encontradas fuero
  - Regla 2W: Distancia entre lineas dos veces el ancho de las mismas.
  - Plano de tierra en capa opuesta
 
-Para los 68 ohms utilizando la calculadora de Kicad (TrasLine -> Coplanar Wave guide) se determinÛ un ancho de pista de 
-17 mils y una separaciÛn de 8 mils, pero como se puede observar no se cumple la regla 2W por lo que se decidiÛ intercalar 
-con lineas de GND quedando la soluciÛn siguiente:
+Para los 68 ohms utilizando la calculadora de Kicad (TrasLine -> Coplanar Wave guide) se determin√≥ un ancho de pista de 
+17 mils y una separaci√≥n de 8 mils, pero como se puede observar no se cumple la regla 2W por lo que se decidi√≥ intercalar 
+con lineas de GND quedando la soluci√≥n siguiente:
 
 Linea_1_Ethernet(17 mils) - espacio (8 mils)- Linea GND(18 mils) - espacio (8 mils) - Linea_2_Ethernet
 
 Verificando se cumple los 68 ohms de linea y tambien la regla 2W (8+18+8=34=2x17).
 
-Otra recomendaciÛn es que la longitud de las pistas asociadas a Ethernet sean de similar magnitud y en particular la de
+Otra recomendaci√≥n es que la longitud de las pistas asociadas a Ethernet sean de similar magnitud y en particular la de
  datos (TXD0 y TXD1, RXD0 y RXD1).
 
-Para la versiÛn EDU_CIAA_FSL las longitudes son (para tener en cuenta en el poncho ethernet):
+Para la versi√≥n EDU_CIAA_FSL las longitudes son (para tener en cuenta en el poncho ethernet):
 
   RXD0: 36,023 mm
   RXD1: 36,035 mm (+0,012mm)

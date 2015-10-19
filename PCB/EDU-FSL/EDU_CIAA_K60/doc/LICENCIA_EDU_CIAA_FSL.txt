@@ -3,7 +3,7 @@ LICENSE:
  *    ACSE   : http://www.sase.com.ar/asociacion-civil-sistemas-embebidos/ciaa/
  *    CADIEEL: http://www.cadieel.org.ar
  * Copyright (c) 2014, Electrocomponentes S.A.
- * Copyright (c) 2014, INTI-CMNB Instituto Nacional de Tecnología Industrial.
+ * Copyright (c) 2014, INTI-CMNB Instituto Nacional de TecnologÃ­a Industrial.
  *
  * This file is part of CIAA Hardware.
  *
