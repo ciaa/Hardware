@@ -21,4 +21,6 @@ PCB: KiCad PCB project files.
 
 --EDU-NXP: EDU-CIAA-NXP (LPC4337 MCU) files.
 
+--EDU-XILINX: EDU-CIAA-XILINX (Artix7 FPGA) files.
+
 Readme: Common readme files.
