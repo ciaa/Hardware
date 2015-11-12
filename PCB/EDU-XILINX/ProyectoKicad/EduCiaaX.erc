@@ -1,0 +1,23 @@
+ERC report (25/09/2015 04:34:40 p.m.)
+
+***** Hoja /
+
+***** Hoja /Power/
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (3.500 in,1.350 in): Pin 1 (passive) of component JP2 is unconnected.
+
+***** Hoja /FPGAPower/
+
+***** Hoja /FPGAConfig/
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (8.500 in,3.350 in): Pin 2 (BiDi) of component U6 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (8.500 in,3.550 in): Pin 3 (BiDi) of component U6 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (9.750 in,3.750 in): Pin 4 (passive) of component U6 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (8.500 in,3.150 in): Pin 5 (BiDi) of component U6 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (8.500 in,3.750 in): Pin 7 (BiDi) of component U6 is unconnected.
+
+ >> Errores ERC: 0
