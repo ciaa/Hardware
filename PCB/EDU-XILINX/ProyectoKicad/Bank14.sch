@@ -496,22 +496,6 @@ Text Label 2700 3000 0    60   ~ 0
 IO_L19N_T3_14
 Text Label 2700 3100 0    60   ~ 0
 IO_L19P_T2_14
-Text Label 2700 3400 0    60   ~ 0
-IO_L20N_T3_14
-Text Label 2700 3500 0    60   ~ 0
-IO_L20P_T2_14
-Text Label 2700 3600 0    60   ~ 0
-IO_L21N_T3_14
-Text Label 2700 3700 0    60   ~ 0
-IO_L21P_T3_14
-Text Label 2700 3800 0    60   ~ 0
-IO_L22N_T3_14
-Text Label 2700 3900 0    60   ~ 0
-IO_L22P_T2_14
-Text Label 2700 4000 0    60   ~ 0
-IO_L23N_T3_14
-Text Label 2700 4100 0    60   ~ 0
-IO_L23P_T3_14
 Text Label 2700 4800 0    60   ~ 0
 IO_L4N_T0_14
 Text Label 2700 4900 0    60   ~ 0
@@ -535,14 +519,14 @@ IO_L9N_T1_14
 Text Label 2700 5900 0    60   ~ 0
 IO_L9P_T1_14
 $Comp
-L CONN_02X20 CON4
+L CONN_02X16 CON4
 U 1 1 56372270
-P 6250 2250
-F 0 "CON4" H 6250 3300 50  0000 C CNN
-F 1 "BANK 14" V 6250 2250 50  0000 C CNN
-F 2 "" H 6250 1300 60  0000 C CNN
-F 3 "" H 6250 1300 60  0000 C CNN
-	1    6250 2250
+P 6250 2050
+F 0 "CON4" H 6250 2900 50  0000 C CNN
+F 1 "BANK 14" V 6250 2050 50  0000 C CNN
+F 2 "" H 6250 1100 60  0000 C CNN
+F 3 "" H 6250 1100 60  0000 C CNN
+	1    6250 2050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -577,22 +561,6 @@ Wire Wire Line
 	6000 2700 5300 2700
 Wire Wire Line
 	5300 2800 6000 2800
-Wire Wire Line
-	6000 2900 5300 2900
-Wire Wire Line
-	5300 3000 6000 3000
-Wire Wire Line
-	6000 3100 5300 3100
-Wire Wire Line
-	5300 3200 6000 3200
-Wire Wire Line
-	6500 3200 7200 3200
-Wire Wire Line
-	7200 3100 6500 3100
-Wire Wire Line
-	6500 3000 7200 3000
-Wire Wire Line
-	7200 2900 6500 2900
 Wire Wire Line
 	6500 2800 7200 2800
 Wire Wire Line
@@ -663,14 +631,6 @@ Text Label 5350 2600 0    60   ~ 0
 IO_L18N_T2_14
 Text Label 5350 2700 0    60   ~ 0
 IO_L19N_T3_14
-Text Label 5350 2800 0    60   ~ 0
-IO_L20N_T3_14
-Text Label 5350 2900 0    60   ~ 0
-IO_L21N_T3_14
-Text Label 5350 3000 0    60   ~ 0
-IO_L22N_T3_14
-Text Label 5350 3100 0    60   ~ 0
-IO_L23N_T3_14
 Text Label 6550 1600 0    60   ~ 0
 IO_L7P_T1_14
 Text Label 6550 1700 0    60   ~ 0
@@ -695,14 +655,6 @@ Text Label 6550 2600 0    60   ~ 0
 IO_L18P_T2_14
 Text Label 6550 2700 0    60   ~ 0
 IO_L19P_T3_14
-Text Label 6550 2800 0    60   ~ 0
-IO_L20P_T3_14
-Text Label 6550 2900 0    60   ~ 0
-IO_L21P_T3_14
-Text Label 6550 3000 0    60   ~ 0
-IO_L22P_T3_14
-Text Label 6550 3100 0    60   ~ 0
-IO_L23P_T3_14
 $Comp
 L SW_PUSH_SMALL SW03
 U 1 1 5637FD01
@@ -815,9 +767,9 @@ Text Label 4450 6250 0    60   ~ 0
 BTN_02
 Text Label 4450 6550 0    60   ~ 0
 BTN_03
-Text Label 5350 3200 0    60   ~ 0
+Text Label 5350 2800 0    60   ~ 0
 GND
-Text Label 6550 3200 0    60   ~ 0
+Text Label 6550 2800 0    60   ~ 0
 VCC3V3
 Wire Wire Line
 	5650 6800 5600 6800
@@ -835,4 +787,68 @@ Wire Wire Line
 	5250 7000 4700 7000
 Wire Wire Line
 	4700 6800 5400 6800
+Text HLabel 9400 2100 2    60   BiDi ~ 0
+TxD
+Text HLabel 9400 2200 2    60   BiDi ~ 0
+RTS
+Text HLabel 9400 2300 2    60   BiDi ~ 0
+DTR
+Text HLabel 9400 2400 2    60   BiDi ~ 0
+RxD
+Text HLabel 9400 2500 2    60   BiDi ~ 0
+CTS
+Text HLabel 9400 2600 2    60   BiDi ~ 0
+DCD
+Text HLabel 9400 2700 2    60   BiDi ~ 0
+DSR
+Text HLabel 9400 2800 2    60   BiDi ~ 0
+RI
+Wire Wire Line
+	9400 2100 8300 2100
+Wire Wire Line
+	8300 2200 9400 2200
+Wire Wire Line
+	9400 2300 8300 2300
+Wire Wire Line
+	8300 2400 9400 2400
+Wire Wire Line
+	9400 2500 8300 2500
+Wire Wire Line
+	8300 2600 9400 2600
+Wire Wire Line
+	9400 2700 8300 2700
+Wire Wire Line
+	8300 2800 9400 2800
+Text Label 8400 2100 0    60   ~ 0
+TxD_FPGA
+Text Label 8400 2200 0    60   ~ 0
+RTS_FPGA
+Text Label 8400 2300 0    60   ~ 0
+DTR_FPGA
+Text Label 8400 2400 0    60   ~ 0
+RxD_FPGA
+Text Label 8400 2500 0    60   ~ 0
+CTS_FPGA
+Text Label 8400 2600 0    60   ~ 0
+DCD_FPGA
+Text Label 8400 2700 0    60   ~ 0
+DSR_FPGA
+Text Label 8400 2800 0    60   ~ 0
+RI_FPGA
+Text Label 2700 3400 0    60   ~ 0
+TxD_FPGA
+Text Label 2700 3500 0    60   ~ 0
+RTS_FPGA
+Text Label 2700 3600 0    60   ~ 0
+DTR_FPGA
+Text Label 2700 3700 0    60   ~ 0
+RxD_FPGA
+Text Label 2700 3800 0    60   ~ 0
+CTS_FPGA
+Text Label 2700 3900 0    60   ~ 0
+DCD_FPGA
+Text Label 2700 4000 0    60   ~ 0
+DSR_FPGA
+Text Label 2700 4100 0    60   ~ 0
+RI_FPGA
 $EndSCHEMATC
