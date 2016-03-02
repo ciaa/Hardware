@@ -1,0 +1,7 @@
+Revisión INTI-CMNB realizada luego del siguiente commit:
+
+commit 5a0808c99d43f36b603da4a2ea1d341e526cd22a
+Author: EFilomena <efilomena@bioingenieria.edu.ar>
+Date:   Fri Oct 9 21:02:31 2015 -0300
+
+    Actualización y reordenamiento de los directorios de la EDU-CIAA-FSL
