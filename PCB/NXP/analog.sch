@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:ciaa-nxp-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -68,7 +68,7 @@ LIBS:sw_push
 LIBS:mcp1416
 LIBS:fqt13n06l
 LIBS:ciaa-nxp-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -83,7 +83,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L C C36
+L C-RESCUE-ciaa-nxp C36
 U 1 1 52C09F11
 P 3200 1750
 F 0 "C36" H 3200 1850 40  0000 L CNN
@@ -94,7 +94,7 @@ F 3 "~" H 3200 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TVS ZA2
+L TVS-RESCUE-ciaa-nxp ZA2
 U 1 1 52C0BFC0
 P 3600 1800
 F 0 "ZA2" V 3650 1650 40  0000 C CNN
@@ -116,7 +116,7 @@ F 3 "~" H 3950 1150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R51
+L R-RESCUE-ciaa-nxp R51
 U 1 1 52C410AD
 P 8300 1650
 F 0 "R51" V 8380 1650 40  0000 C CNN
@@ -128,7 +128,7 @@ F 4 "5%" V 8200 1650 60  0001 C CNN "Tol"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CP1 C34
+L CP1-RESCUE-ciaa-nxp C34
 U 1 1 52C4213E
 P 7750 1000
 F 0 "C34" H 7800 1100 50  0000 L CNN
@@ -139,7 +139,7 @@ F 3 "~" H 7750 1000 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C35
+L C-RESCUE-ciaa-nxp C35
 U 1 1 52C4214D
 P 7750 1250
 F 0 "C35" H 7750 1350 40  0000 L CNN
@@ -150,7 +150,7 @@ F 3 "~" H 7750 1250 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GNDA #PWR0200
+L GNDA-RESCUE-ciaa-nxp #PWR0200
 U 1 1 52C42244
 P 7950 1350
 F 0 "#PWR0200" H 7950 1350 40  0001 C CNN
@@ -174,7 +174,7 @@ F 3 "" H 7550 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R54
+L R-RESCUE-ciaa-nxp R54
 U 1 1 52C423F1
 P 8300 3200
 F 0 "R54" V 8380 3200 40  0000 C CNN
@@ -186,7 +186,7 @@ F 4 "5%" V 8200 3200 60  0001 C CNN "Tol"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C39
+L C-RESCUE-ciaa-nxp C39
 U 1 1 52C42424
 P 8550 3400
 F 0 "C39" H 8550 3500 40  0000 L CNN
@@ -210,7 +210,7 @@ F 3 "" H 7550 4450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R57
+L R-RESCUE-ciaa-nxp R57
 U 1 1 52C43452
 P 8300 4450
 F 0 "R57" V 8380 4450 40  0000 C CNN
@@ -222,7 +222,7 @@ F 4 "5%" V 8200 4450 60  0001 C CNN "Tol"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C41
+L C-RESCUE-ciaa-nxp C41
 U 1 1 52C4345E
 P 8550 4650
 F 0 "C41" H 8550 4750 40  0000 L CNN
@@ -246,7 +246,7 @@ F 3 "" H 7550 6000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R60
+L R-RESCUE-ciaa-nxp R60
 U 1 1 52C43E59
 P 8300 6000
 F 0 "R60" V 8380 6000 40  0000 C CNN
@@ -258,7 +258,7 @@ F 4 "5%" V 8200 6000 60  0001 C CNN "Tol"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C43
+L C-RESCUE-ciaa-nxp C43
 U 1 1 52C43E65
 P 8550 6200
 F 0 "C43" H 8550 6300 40  0000 L CNN
@@ -318,7 +318,7 @@ Wire Wire Line
 Wire Wire Line
 	8050 6350 8050 6000
 $Comp
-L C C38
+L C-RESCUE-ciaa-nxp C38
 U 1 1 52D4C8E0
 P 4400 1350
 F 0 "C38" H 4400 1450 40  0000 L CNN
@@ -331,7 +331,7 @@ $EndComp
 Wire Wire Line
 	4300 1150 4400 1150
 $Comp
-L R R53
+L R-RESCUE-ciaa-nxp R53
 U 1 1 52D4C95C
 P 4400 1800
 F 0 "R53" V 4480 1800 40  0000 C CNN
@@ -344,7 +344,7 @@ F 5 "25 ppm/°C" V 4650 1800 60  0001 C CNN "TC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R55
+L R-RESCUE-ciaa-nxp R55
 U 1 1 52D4C99A
 P 4900 1800
 F 0 "R55" V 4980 1800 40  0000 C CNN
@@ -357,7 +357,7 @@ F 5 "25 ppm/°C" V 5150 1800 60  0000 C CNN "TC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R50
+L R-RESCUE-ciaa-nxp R50
 U 1 1 52D4C9C5
 P 5250 950
 F 0 "R50" V 5330 950 40  0000 C CNN
@@ -370,7 +370,7 @@ F 5 "25 ppm/°C" V 5050 950 60  0000 C CNN "TC"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R52
+L R-RESCUE-ciaa-nxp R52
 U 1 1 52D4C9D4
 P 5850 1250
 F 0 "R52" V 5930 1250 40  0000 C CNN
@@ -384,7 +384,7 @@ F 5 "25 ppm/°C" V 6100 1250 60  0000 C CNN "TC"
 $EndComp
 Connection ~ 4400 1150
 $Comp
-L R R56
+L R-RESCUE-ciaa-nxp R56
 U 1 1 52D4CAA4
 P 5850 1800
 F 0 "R56" V 5950 1800 40  0000 C CNN
@@ -402,7 +402,7 @@ Connection ~ 5850 2050
 Connection ~ 4900 2050
 Connection ~ 4400 2050
 Connection ~ 5850 1550
-Text Notes 600  600  0    60   ~ 0
+Text Notes 650  800  0    60   ~ 0
 0-10V: Jumper abierto, SPDT en 1-2.\n0-20mA: Jumper cerrado, SPDT en 2-3.
 $Comp
 L BAV199 D9
@@ -463,7 +463,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 6350 8050 6350
 $Comp
-L C C42
+L C-RESCUE-ciaa-nxp C42
 U 1 1 52D75247
 P 3200 3300
 F 0 "C42" H 3200 3400 40  0000 L CNN
@@ -474,7 +474,7 @@ F 3 "~" H 3200 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TVS ZA3
+L TVS-RESCUE-ciaa-nxp ZA3
 U 1 1 52D7524D
 P 3600 3350
 F 0 "ZA3" V 3650 3200 40  0000 C CNN
@@ -511,7 +511,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 3600 6750 3250
 $Comp
-L C C40
+L C-RESCUE-ciaa-nxp C40
 U 1 1 52D75271
 P 4400 2900
 F 0 "C40" H 4400 3000 40  0000 L CNN
@@ -524,7 +524,7 @@ $EndComp
 Wire Wire Line
 	4300 2700 4400 2700
 $Comp
-L R R61
+L R-RESCUE-ciaa-nxp R61
 U 1 1 52D7527A
 P 4400 3350
 F 0 "R61" V 4480 3350 40  0000 C CNN
@@ -537,7 +537,7 @@ F 5 "25 ppm/°C" V 4650 3350 60  0001 C CNN "TC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R62
+L R-RESCUE-ciaa-nxp R62
 U 1 1 52D75282
 P 4900 3350
 F 0 "R62" V 4980 3350 40  0000 C CNN
@@ -550,7 +550,7 @@ F 5 "25 ppm/°C" V 5150 3350 60  0000 C CNN "TC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R58
+L R-RESCUE-ciaa-nxp R58
 U 1 1 52D7528A
 P 5250 2500
 F 0 "R58" V 5330 2500 40  0000 C CNN
@@ -563,7 +563,7 @@ F 5 "25 ppm/°C" V 5050 2500 60  0000 C CNN "TC"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R59
+L R-RESCUE-ciaa-nxp R59
 U 1 1 52D75292
 P 5850 2800
 F 0 "R59" V 5930 2800 40  0000 C CNN
@@ -577,7 +577,7 @@ F 5 "25 ppm/°C" V 6100 2800 60  0000 C CNN "TC"
 $EndComp
 Connection ~ 4400 2700
 $Comp
-L R R63
+L R-RESCUE-ciaa-nxp R63
 U 1 1 52D7529B
 P 5850 3350
 F 0 "R63" V 5950 3350 40  0000 C CNN
@@ -652,7 +652,7 @@ Connection ~ 5850 2500
 Wire Wire Line
 	5850 3050 5850 3100
 $Comp
-L C C91
+L C-RESCUE-ciaa-nxp C91
 U 1 1 52D752D5
 P 3200 4550
 F 0 "C91" H 3200 4650 40  0000 L CNN
@@ -663,7 +663,7 @@ F 3 "~" H 3200 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TVS ZA4
+L TVS-RESCUE-ciaa-nxp ZA4
 U 1 1 52D752DB
 P 3600 4600
 F 0 "ZA4" V 3650 4450 40  0000 C CNN
@@ -700,7 +700,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 4850 6750 4500
 $Comp
-L C C44
+L C-RESCUE-ciaa-nxp C44
 U 1 1 52D752FF
 P 4400 4150
 F 0 "C44" H 4400 4250 40  0000 L CNN
@@ -713,7 +713,7 @@ $EndComp
 Wire Wire Line
 	4300 3950 4400 3950
 $Comp
-L R R123
+L R-RESCUE-ciaa-nxp R123
 U 1 1 52D75308
 P 4400 4600
 F 0 "R123" V 4480 4600 40  0000 C CNN
@@ -726,7 +726,7 @@ F 5 "25 ppm/°C" V 4650 4600 60  0001 C CNN "TC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R124
+L R-RESCUE-ciaa-nxp R124
 U 1 1 52D75310
 P 4900 4600
 F 0 "R124" V 4980 4600 40  0000 C CNN
@@ -739,7 +739,7 @@ F 5 "25 ppm/°C" V 5150 4600 60  0000 C CNN "TC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R121
+L R-RESCUE-ciaa-nxp R121
 U 1 1 52D75318
 P 5250 3750
 F 0 "R121" V 5330 3750 40  0000 C CNN
@@ -752,7 +752,7 @@ F 5 "25 ppm/°C" V 5050 3750 60  0000 C CNN "TC"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R122
+L R-RESCUE-ciaa-nxp R122
 U 1 1 52D75320
 P 5850 4050
 F 0 "R122" V 5930 4050 40  0000 C CNN
@@ -766,7 +766,7 @@ F 5 "25 ppm/°C" V 6100 4050 60  0000 C CNN "TC"
 $EndComp
 Connection ~ 4400 3950
 $Comp
-L R R125
+L R-RESCUE-ciaa-nxp R125
 U 1 1 52D75329
 P 5850 4600
 F 0 "R125" V 5950 4600 40  0000 C CNN
@@ -841,7 +841,7 @@ Connection ~ 5850 3750
 Wire Wire Line
 	5850 4300 5850 4350
 $Comp
-L C C93
+L C-RESCUE-ciaa-nxp C93
 U 1 1 52D75363
 P 3200 6100
 F 0 "C93" H 3200 6200 40  0000 L CNN
@@ -852,7 +852,7 @@ F 3 "~" H 3200 6100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TVS ZA5
+L TVS-RESCUE-ciaa-nxp ZA5
 U 1 1 52D75369
 P 3600 6150
 F 0 "ZA5" V 3650 6000 40  0000 C CNN
@@ -889,7 +889,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 6400 6750 6050
 $Comp
-L C C92
+L C-RESCUE-ciaa-nxp C92
 U 1 1 52D7538D
 P 4400 5700
 F 0 "C92" H 4400 5800 40  0000 L CNN
@@ -902,7 +902,7 @@ $EndComp
 Wire Wire Line
 	4300 5500 4400 5500
 $Comp
-L R R128
+L R-RESCUE-ciaa-nxp R128
 U 1 1 52D75396
 P 4400 6150
 F 0 "R128" V 4480 6150 40  0000 C CNN
@@ -915,7 +915,7 @@ F 5 "25 ppm/°C" V 4650 6150 60  0001 C CNN "TC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R129
+L R-RESCUE-ciaa-nxp R129
 U 1 1 52D7539E
 P 4900 6150
 F 0 "R129" V 4980 6150 40  0000 C CNN
@@ -928,7 +928,7 @@ F 5 "25 ppm/°C" V 5150 6150 60  0000 C CNN "TC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R126
+L R-RESCUE-ciaa-nxp R126
 U 1 1 52D753A6
 P 5250 5300
 F 0 "R126" V 5330 5300 40  0000 C CNN
@@ -941,7 +941,7 @@ F 5 "25 ppm/°C" V 5050 5300 60  0000 C CNN "TC"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R127
+L R-RESCUE-ciaa-nxp R127
 U 1 1 52D753AE
 P 5850 5600
 F 0 "R127" V 5930 5600 40  0000 C CNN
@@ -955,7 +955,7 @@ F 5 "25 ppm/°C" V 6100 5600 60  0000 C CNN "TC"
 $EndComp
 Connection ~ 4400 5500
 $Comp
-L R R130
+L R-RESCUE-ciaa-nxp R130
 U 1 1 52D753B7
 P 5850 6150
 F 0 "R130" V 5950 6150 40  0000 C CNN
@@ -1104,7 +1104,7 @@ F 3 "" H 7550 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR0206
+L GNDA-RESCUE-ciaa-nxp #PWR0206
 U 1 1 52DFB25F
 P 2900 2150
 F 0 "#PWR0206" H 2900 2150 40  0001 C CNN
@@ -1115,7 +1115,7 @@ F 3 "" H 2900 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR0207
+L GNDA-RESCUE-ciaa-nxp #PWR0207
 U 1 1 52DFB276
 P 7550 2300
 F 0 "#PWR0207" H 7550 2300 40  0001 C CNN
@@ -1126,7 +1126,7 @@ F 3 "" H 7550 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR0208
+L GNDA-RESCUE-ciaa-nxp #PWR0208
 U 1 1 52DFB8C4
 P 2900 3700
 F 0 "#PWR0208" H 2900 3700 40  0001 C CNN
@@ -1137,7 +1137,7 @@ F 3 "" H 2900 3700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR0209
+L GNDA-RESCUE-ciaa-nxp #PWR0209
 U 1 1 52DFB8CA
 P 8550 3600
 F 0 "#PWR0209" H 8550 3600 40  0001 C CNN
@@ -1148,7 +1148,7 @@ F 3 "" H 8550 3600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR0210
+L GNDA-RESCUE-ciaa-nxp #PWR0210
 U 1 1 52DFB8D0
 P 8550 4850
 F 0 "#PWR0210" H 8550 4850 40  0001 C CNN
@@ -1159,7 +1159,7 @@ F 3 "" H 8550 4850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR0211
+L GNDA-RESCUE-ciaa-nxp #PWR0211
 U 1 1 52DFB8D6
 P 2900 4950
 F 0 "#PWR0211" H 2900 4950 40  0001 C CNN
@@ -1170,7 +1170,7 @@ F 3 "" H 2900 4950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR0212
+L GNDA-RESCUE-ciaa-nxp #PWR0212
 U 1 1 52DFB8DC
 P 2900 6500
 F 0 "#PWR0212" H 2900 6500 40  0001 C CNN
@@ -1181,7 +1181,7 @@ F 3 "" H 2900 6500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR0213
+L GNDA-RESCUE-ciaa-nxp #PWR0213
 U 1 1 52DFB8E2
 P 8550 6400
 F 0 "#PWR0213" H 8550 6400 40  0001 C CNN
@@ -1192,7 +1192,7 @@ F 3 "" H 8550 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C37
+L C-RESCUE-ciaa-nxp C37
 U 1 1 52C422AE
 P 8550 1850
 F 0 "C37" H 8550 1950 40  0000 L CNN
@@ -1203,7 +1203,7 @@ F 3 "~" H 8550 1850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR0214
+L GNDA-RESCUE-ciaa-nxp #PWR0214
 U 1 1 52DFB8E8
 P 8550 2050
 F 0 "#PWR0214" H 8550 2050 40  0001 C CNN
@@ -1237,7 +1237,7 @@ F 3 "~" H 1050 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR0215
+L GNDA-RESCUE-ciaa-nxp #PWR0215
 U 1 1 52F6F94E
 P 1500 3550
 F 0 "#PWR0215" H 1500 3550 40  0001 C CNN
