@@ -1,0 +1,13 @@
+Cambios realizados a la CIAA-FSL-MINI
+=====================================
+
+* Fecha: 1/06/2016
+* Autores: Se toman como base los archivos de la CIAA-FSL. Ver PCB/FSL/
+
+* Fecha: 1/06/2016
+* Archivos: 
+* Autor:
+* Descripción:  
+* 
+* Ver:
+
