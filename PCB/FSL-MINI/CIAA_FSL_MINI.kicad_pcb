@@ -13,6 +13,13 @@
   )
 
   (page A4)
+  (title_block
+    (title CIAA-FSL-MINI)
+    (date 2016-06-02)
+    (rev "CORDOBA 0.1")
+    (company "Diego Brengi")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
@@ -468,7 +475,7 @@
       (net 48 /CPU/SD_DAT3))
     (pad 1 smd rect (at 3.2 1.55 270) (size 0.8 1.5) (layers F.Cu F.Paste F.Mask)
       (net 49 /CPU/SD_DAT2))
-    (model ${KIPRJMOD}/footprints/packages3d/SD.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/SD.wrl
       (at (xyz 0 0.04 0.035))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 180 180))
@@ -490,7 +497,7 @@
       (net 1 +3.3V))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -512,7 +519,7 @@
       (net 2 GND))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 1 +3.3V))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -534,7 +541,7 @@
       (net 3 "Net-(C203-Pad1)"))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -556,7 +563,7 @@
       (net 4 "Net-(C204-Pad1)"))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -582,7 +589,7 @@
       (net 5 "Net-(C205-Pad1)"))
     (pad 2 smd rect (at 1.4 0) (size 1.524 2.032) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/chip_cms_pol.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -608,7 +615,7 @@
       (net 3 "Net-(C203-Pad1)"))
     (pad 2 smd rect (at 1.4 0) (size 1.524 2.032) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/chip_cms_pol.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -630,7 +637,7 @@
       (net 4 "Net-(C204-Pad1)"))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -652,7 +659,7 @@
       (net 6 "Net-(C208-Pad1)"))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -674,7 +681,7 @@
       (net 7 "Net-(C209-Pad1)"))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -696,7 +703,7 @@
       (net 8 "Net-(C210-Pad1)"))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -722,7 +729,7 @@
       (net 8 "Net-(C210-Pad1)"))
     (pad 2 smd rect (at 1.4 0) (size 1.524 2.032) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/chip_cms_pol.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -744,7 +751,7 @@
       (net 1 +3.3V))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -770,7 +777,7 @@
       (net 1 +3.3V))
     (pad 2 smd rect (at 1.4 0) (size 1.524 2.032) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/chip_cms_pol.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -792,7 +799,7 @@
       (net 9 "Net-(C214-Pad1)"))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -814,7 +821,7 @@
       (net 10 "Net-(C215-Pad1)"))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -840,7 +847,7 @@
       (net 11 "Net-(C216-Pad1)"))
     (pad 2 smd rect (at 1.4 0) (size 1.524 2.032) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/chip_cms_pol.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -862,7 +869,7 @@
       (net 12 GNDPWR))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -884,7 +891,7 @@
       (net 13 +5V))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -910,7 +917,7 @@
       (net 14 /Fuente/USB_VBUS))
     (pad 2 smd rect (at 1.4 0 90) (size 1.524 2.032) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/chip_cms_pol.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -932,7 +939,7 @@
       (net 14 /Fuente/USB_VBUS))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -958,7 +965,7 @@
       (net 15 "Net-(C401-Pad1)"))
     (pad 2 smd rect (at 1.4 0) (size 1.524 2.032) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/chip_cms_pol.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -980,7 +987,7 @@
       (net 15 "Net-(C401-Pad1)"))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1002,7 +1009,7 @@
       (net 1 +3.3V))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1024,7 +1031,7 @@
       (net 1 +3.3V))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1046,7 +1053,7 @@
       (net 1 +3.3V))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1068,7 +1075,7 @@
       (net 13 +5V))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1090,7 +1097,7 @@
       (net 16 /CPU/VBAT))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1116,7 +1123,7 @@
       (net 1 +3.3V))
     (pad 2 smd rect (at 1.4 0 90) (size 1.524 2.032) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/chip_cms_pol.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -1138,7 +1145,7 @@
       (net 17 "Net-(C601-Pad1)"))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1160,7 +1167,7 @@
       (net 1 +3.3V))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1182,7 +1189,7 @@
       (net 1 +3.3V))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1204,7 +1211,7 @@
       (net 1 +3.3V))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1226,7 +1233,7 @@
       (net 18 "Net-(C605-Pad1)"))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1248,7 +1255,7 @@
       (net 1 +3.3V))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1270,7 +1277,7 @@
       (net 1 +3.3V))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1292,7 +1299,7 @@
       (net 1 +3.3V))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1314,7 +1321,7 @@
       (net 1 +3.3V))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1336,7 +1343,7 @@
       (net 1 +3.3V))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1358,7 +1365,7 @@
       (net 1 +3.3V))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1384,7 +1391,7 @@
       (net 1 +3.3V))
     (pad 2 smd rect (at 1.4 0) (size 1.524 2.032) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/chip_cms_pol.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -1406,7 +1413,7 @@
       (net 19 "Net-(C613-Pad1)"))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 20 /CPU/VREFL))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1428,7 +1435,7 @@
       (net 21 /CPU/VREFH))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 20 /CPU/VREFL))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1450,7 +1457,7 @@
       (net 22 "Net-(C615-Pad1)"))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1472,7 +1479,7 @@
       (net 20 /CPU/VREFL))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 21 /CPU/VREFH))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1494,7 +1501,7 @@
       (net 2 GND))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 23 "Net-(C617-Pad2)"))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1516,7 +1523,7 @@
       (net 1 +3.3V))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1538,7 +1545,7 @@
       (net 24 +3.3VADC))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 25 GNDA))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1560,7 +1567,7 @@
       (net 25 GNDA))
     (pad 2 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 24 +3.3VADC))
-    (model ${KIPRJMOD}/footprints/packages3d/c_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1589,7 +1596,7 @@
       (net 26 /CPU/ETH_RST))
     (pad 2 smd rect (at 1.575 0) (size 0.9 0.95) (layers F.Cu F.Paste F.Mask)
       (net 5 "Net-(C205-Pad1)"))
-    (model ${KIPRJMOD}/footprints/packages3d/sod123.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/sod123.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1618,7 +1625,7 @@
       (net 5 "Net-(C205-Pad1)"))
     (pad 2 smd rect (at 1.575 0) (size 0.9 0.95) (layers F.Cu F.Paste F.Mask)
       (net 1 +3.3V))
-    (model ${KIPRJMOD}/footprints/packages3d/sod123.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/sod123.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1647,7 +1654,7 @@
       (net 27 /CPU/USB_ID))
     (pad 1 smd rect (at -2 0) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask)
       (net 28 "/USB OTG/CHS_OTG"))
-    (model ${KIPRJMOD}/footprints/packages3d/DO-214AA_SMB.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/DO-214AA_SMB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1675,7 +1682,7 @@
       (net 29 "Net-(D401-Pad1)"))
     (pad 2 smd rect (at 0.825 0) (size 0.8 1) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/led_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/led_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1707,7 +1714,7 @@
       (net 30 /Fuente/CON5V))
     (pad 2 smd rect (at 2.2 0 90) (size 2.5 2.3) (layers F.Cu F.Paste F.Mask)
       (net 13 +5V))
-    (model ${KIPRJMOD}/footprints/packages3d/DO-214AA_SMB.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/DO-214AA_SMB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1739,7 +1746,7 @@
       (net 14 /Fuente/USB_VBUS))
     (pad 2 smd rect (at 2.2 0 90) (size 2.5 2.3) (layers F.Cu F.Paste F.Mask)
       (net 13 +5V))
-    (model ${KIPRJMOD}/footprints/packages3d/DO-214AA_SMB.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/DO-214AA_SMB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1769,7 +1776,7 @@
       (net 16 /CPU/VBAT))
     (pad 2 smd rect (at 0.95 1.2) (size 0.8 1.2) (layers F.Cu F.Paste F.Mask)
       (net 1 +3.3V))
-    (model ${KIPRJMOD}/footprints/packages3d/sot23.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1797,7 +1804,7 @@
       (net 32 "Net-(D601-Pad1)"))
     (pad 2 smd rect (at 0.825 0) (size 0.8 1) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/led_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/led_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1825,7 +1832,7 @@
       (net 33 "Net-(D602-Pad1)"))
     (pad 2 smd rect (at 0.825 0) (size 0.8 1) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/led_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/led_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1854,7 +1861,7 @@
       (net 23 "Net-(C617-Pad2)"))
     (pad 2 smd rect (at 1.575 0) (size 0.9 0.95) (layers F.Cu F.Paste F.Mask)
       (net 34 /CPU/RESET))
-    (model ${KIPRJMOD}/footprints/packages3d/sod123.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/sod123.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1966,7 +1973,7 @@
       (net 4 "Net-(C204-Pad1)"))
     (pad 2 smd rect (at 0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 3 "Net-(C203-Pad1)"))
-    (model ${KIPRJMOD}/footprints/packages3d/fb_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1994,7 +2001,7 @@
       (net 6 "Net-(C208-Pad1)"))
     (pad 2 smd rect (at 0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 3 "Net-(C203-Pad1)"))
-    (model ${KIPRJMOD}/footprints/packages3d/fb_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2022,7 +2029,7 @@
       (net 8 "Net-(C210-Pad1)"))
     (pad 2 smd rect (at 0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 1 +3.3V))
-    (model ${KIPRJMOD}/footprints/packages3d/fb_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2050,7 +2057,7 @@
       (net 11 "Net-(C216-Pad1)"))
     (pad 2 smd rect (at 0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 1 +3.3V))
-    (model ${KIPRJMOD}/footprints/packages3d/fb_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2078,7 +2085,7 @@
       (net 14 /Fuente/USB_VBUS))
     (pad 2 smd rect (at 0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 35 "Net-(FB301-Pad2)"))
-    (model ${KIPRJMOD}/footprints/packages3d/fb_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2106,7 +2113,7 @@
       (net 2 GND))
     (pad 2 smd rect (at 0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 28 "/USB OTG/CHS_OTG"))
-    (model ${KIPRJMOD}/footprints/packages3d/fb_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2134,7 +2141,7 @@
       (net 1 +3.3V))
     (pad 2 smd rect (at 0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 24 +3.3VADC))
-    (model ${KIPRJMOD}/footprints/packages3d/fb_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2162,7 +2169,7 @@
       (net 2 GND))
     (pad 2 smd rect (at 0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 25 GNDA))
-    (model ${KIPRJMOD}/footprints/packages3d/fb_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2190,7 +2197,7 @@
       (net 21 /CPU/VREFH))
     (pad 2 smd rect (at 0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 24 +3.3VADC))
-    (model ${KIPRJMOD}/footprints/packages3d/fb_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2218,7 +2225,7 @@
       (net 20 /CPU/VREFL))
     (pad 2 smd rect (at 0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 25 GNDA))
-    (model ${KIPRJMOD}/footprints/packages3d/fb_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2469,7 +2476,7 @@
       (net 41 "Net-(J201-Pad11)"))
     (pad 12 thru_hole circle (at -6.3246 -3.3782) (size 1.651 1.651) (drill 1.016) (layers *.Cu *.Mask)
       (net 1 +3.3V))
-    (model ${KIPRJMOD}/footprints/packages3d/RJ45_8.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/RJ45_8.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -2521,7 +2528,7 @@
       (net 28 "/USB OTG/CHS_OTG"))
     (pad 9 smd rect (at 1.2 0 180) (size 1.9 1.9) (layers F.Cu F.Paste F.Mask)
       (net 28 "/USB OTG/CHS_OTG"))
-    (model ${KIPRJMOD}/footprints/packages3d/usb_B_micro_smd.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/usb_B_micro_smd.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2788,7 +2795,7 @@
       (net 15 "Net-(C401-Pad1)"))
     (pad 2 smd rect (at 0.95 1.2) (size 0.8 1.2) (layers F.Cu F.Paste F.Mask)
       (net 1 +3.3V))
-    (model ${KIPRJMOD}/footprints/packages3d/sot23.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2813,7 +2820,7 @@
       (net 1 +3.3V))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 112 /CPU/ETH_MDIO))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2838,7 +2845,7 @@
       (net 1 +3.3V))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 5 "Net-(C205-Pad1)"))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2863,7 +2870,7 @@
       (net 113 "Net-(R203-Pad2)"))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 114 /CPU/ETH_RXD0))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2888,7 +2895,7 @@
       (net 115 "Net-(R204-Pad2)"))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 116 /CPU/ETH_RXD1))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2913,7 +2920,7 @@
       (net 117 "Net-(R205-Pad2)"))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 118 /CPU/ETH_RXER))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2938,7 +2945,7 @@
       (net 119 "Net-(R206-Pad2)"))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 120 /CPU/ETH_CRS_DV))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2963,7 +2970,7 @@
       (net 121 "Net-(R207-Pad2)"))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 1 +3.3V))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2988,7 +2995,7 @@
       (net 122 /Ethernet/REFCLK))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 123 "Net-(R208-Pad1)"))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3013,7 +3020,7 @@
       (net 124 /CPU/ETH_REF_CLK))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 125 "Net-(R209-Pad1)"))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3038,7 +3045,7 @@
       (net 2 GND))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 7 "Net-(C209-Pad1)"))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3063,7 +3070,7 @@
       (net 9 "Net-(C214-Pad1)"))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 36 /Ethernet/ETH_TXP))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3088,7 +3095,7 @@
       (net 9 "Net-(C214-Pad1)"))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 37 /Ethernet/ETH_TXM))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3113,7 +3120,7 @@
       (net 10 "Net-(C215-Pad1)"))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 38 /Ethernet/ETH_RXP))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3138,7 +3145,7 @@
       (net 10 "Net-(C215-Pad1)"))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 39 /Ethernet/ETX_RXM))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3163,7 +3170,7 @@
       (net 2 GND))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 12 GNDPWR))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3188,7 +3195,7 @@
       (net 41 "Net-(J201-Pad11)"))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 126 /Ethernet/LED_SPEED))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3213,7 +3220,7 @@
       (net 40 "Net-(J201-Pad10)"))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 127 /Ethernet/LED_LINK))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3238,7 +3245,7 @@
       (net 128 "/USB OTG/USB0_PPWR"))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3263,7 +3270,7 @@
       (net 129 "/USB OTG/USB0_PWR_FAULT"))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 1 +3.3V))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3288,7 +3295,7 @@
       (net 111 /CPU/SD_POW))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 1 +3.3V))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3313,7 +3320,7 @@
       (net 2 GND))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 48 /CPU/SD_DAT3))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3338,7 +3345,7 @@
       (net 49 /CPU/SD_DAT2))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 15 "Net-(C401-Pad1)"))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3363,7 +3370,7 @@
       (net 47 /CPU/SD_CMD))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 15 "Net-(C401-Pad1)"))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3388,7 +3395,7 @@
       (net 45 /CPU/SD_DAT0))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 15 "Net-(C401-Pad1)"))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3413,7 +3420,7 @@
       (net 44 /CPU/SD_DAT1))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 15 "Net-(C401-Pad1)"))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3438,7 +3445,7 @@
       (net 2 GND))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 15 "Net-(C401-Pad1)"))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3463,7 +3470,7 @@
       (net 29 "Net-(D401-Pad1)"))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 15 "Net-(C401-Pad1)"))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3488,7 +3495,7 @@
       (net 1 +3.3V))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 130 "Net-(R409-Pad1)"))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3513,7 +3520,7 @@
       (net 2 GND))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 131 "Net-(R410-Pad1)"))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3538,7 +3545,7 @@
       (net 2 GND))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 132 "Net-(R411-Pad1)"))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3563,7 +3570,7 @@
       (net 133 "Net-(R412-Pad2)"))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 1 +3.3V))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3588,7 +3595,7 @@
       (net 2 GND))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 134 "Net-(R413-Pad1)"))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3613,7 +3620,7 @@
       (net 2 GND))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 135 "Net-(R414-Pad1)"))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3638,7 +3645,7 @@
       (net 2 GND))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 136 "Net-(R415-Pad1)"))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3663,7 +3670,7 @@
       (net 2 GND))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 137 "Net-(R416-Pad1)"))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3688,7 +3695,7 @@
       (net 138 "Net-(R601-Pad2)"))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 32 "Net-(D601-Pad1)"))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3713,7 +3720,7 @@
       (net 139 /CPU/I2C_SDA))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 1 +3.3V))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3738,7 +3745,7 @@
       (net 140 "Net-(R603-Pad2)"))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 33 "Net-(D602-Pad1)"))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3763,7 +3770,7 @@
       (net 141 /CPU/I2C_SCL))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 1 +3.3V))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3788,7 +3795,7 @@
       (net 46 /CPU/SD_CLK))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 142 "Net-(R605-Pad1)"))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3813,7 +3820,7 @@
       (net 143 "Net-(R606-Pad2)"))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 144 "Net-(R606-Pad1)"))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3838,7 +3845,7 @@
       (net 23 "Net-(C617-Pad2)"))
     (pad 1 smd rect (at -0.85 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 1 +3.3V))
-    (model ${KIPRJMOD}/footprints/packages3d/r_0603.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3871,7 +3878,7 @@
     (pad 4 smd rect (at -4.55 2.25) (size 2.1 1.4) (layers F.Cu F.Paste F.Mask))
     (pad 2 smd rect (at 4.55 2.25) (size 2.1 1.4) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/smd_push.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/smd_push.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -3940,7 +3947,7 @@
       (net 145 /CPU/USB_DP))
     (pad 3 smd rect (at 0.8509 -0.5334) (size 0.889 0.7874) (layers F.Cu F.Paste F.Mask)
       (net 146 /CPU/USB_DM))
-    (model ${KIPRJMOD}/footprints/packages3d/srf2012.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/srf2012.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 0.8 0.8))
       (rotate (xyz 0 0 0))
@@ -3975,7 +3982,7 @@
       (net 147 "Net-(U201-Pad3)"))
     (pad 4 smd rect (at -2.54 -2.1) (size 1.8 2) (layers F.Cu F.Paste F.Mask)
       (net 1 +3.3V))
-    (model ${KIPRJMOD}/footprints/packages3d/crystal_fa-128.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/crystal_fa-128.wrl
       (at (xyz 0 0 0))
       (scale (xyz 3 3.25 1))
       (rotate (xyz 0 0 0))
@@ -4015,23 +4022,23 @@
       (net 1 +3.3V))
     (pad 8 smd rect (at 2.7 -1.905 270) (size 0.6 1.52) (layers F.Cu F.Paste F.Mask)
       (net 148 "Net-(U202-Pad6)"))
-    (model ${KIPRJMOD}/footprints/packages3d/so-8.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/so-8.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
   )
 
-  (module footprints:TQFP48 (layer F.Cu) (tedit 5411F7E0) (tstamp 574FC704)
+  (module footprints:TQFP48 (layer F.Cu) (tedit 574FD642) (tstamp 574FC704)
     (at 115 123)
     (descr "THIN QUAD FLAT PACK")
     (tags "THIN QUAD FLAT PACK")
     (path /52C34F34/52C1B449)
     (attr smd)
-    (fp_text reference U203 (at -1.397 -5.588) (layer B.SilkS)
+    (fp_text reference U203 (at -1.397 -5.588) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1143)))
     )
-    (fp_text value KSZ8041TLI (at 0 0) (layer B.SilkS)
+    (fp_text value KSZ8041TLI (at 0 0) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)))
     )
     (fp_circle (center -2.6 -2.6) (end -2.6 -2.65) (layer F.SilkS) (width 0.127))
@@ -4130,7 +4137,7 @@
     (pad 47 smd rect (at -2.25 -4.2) (size 0.26 1.4) (layers F.Cu F.Paste F.Mask)
       (net 5 "Net-(C205-Pad1)"))
     (pad 48 smd rect (at -2.75 -4.2) (size 0.26 1.4) (layers F.Cu F.Paste F.Mask))
-    (model ${KIPRJMOD}/footprints/packages3d/qfp-48.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/qfp-48.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -4169,7 +4176,7 @@
       (net 13 +5V))
     (pad 8 smd rect (at 2.7 -1.905 270) (size 0.6 1.52) (layers F.Cu F.Paste F.Mask)
       (net 14 /Fuente/USB_VBUS))
-    (model ${KIPRJMOD}/footprints/packages3d/so-8.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/so-8.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -4204,7 +4211,7 @@
       (net 146 /CPU/USB_DM))
     (pad 4 smd rect (at -0.96 -0.975) (size 0.54 0.75) (layers F.Cu F.Paste F.Mask)
       (net 14 /Fuente/USB_VBUS))
-    (model ${KIPRJMOD}/footprints/packages3d/sot143b.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/sot143b.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4243,7 +4250,7 @@
       (net 158 /CPU/SPIFI_HOLD))
     (pad 8 smd rect (at 3.7 -1.905 270) (size 0.6 1.8) (layers F.Cu F.Paste F.Mask)
       (net 1 +3.3V))
-    (model ${KIPRJMOD}/footprints/packages3d/so-8-wide.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/so-8-wide.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -4284,7 +4291,7 @@
       (net 136 "Net-(R415-Pad1)"))
     (pad 8 smd rect (at 2.7 -1.905 270) (size 0.6 1.52) (layers F.Cu F.Paste F.Mask)
       (net 1 +3.3V))
-    (model ${KIPRJMOD}/footprints/packages3d/so-8.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/so-8.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -4325,7 +4332,7 @@
       (net 137 "Net-(R416-Pad1)"))
     (pad 8 smd rect (at 2.7 -1.905 270) (size 0.6 1.52) (layers F.Cu F.Paste F.Mask)
       (net 1 +3.3V))
-    (model ${KIPRJMOD}/footprints/packages3d/so-8.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/so-8.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -4357,7 +4364,7 @@
       (net 13 +5V))
     (pad 1 smd rect (at -2.3 3.2) (size 1.2 1.6) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KIPRJMOD}/footprints/packages3d/sot223.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/sot223.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4653,7 +4660,7 @@
       (net 82 /CPU/DAC_OUT))
     (pad 37 smd rect (at -8.75 10.85 90) (size 1.5 0.3) (layers F.Cu F.Paste F.Mask)
       (net 19 "Net-(C613-Pad1)"))
-    (model ${KIPRJMOD}/footprints.3dshapes/lqfp144.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/lqfp144.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 -90))
@@ -4684,7 +4691,7 @@
       (net 1 +3.3V))
     (pad 3 smd rect (at 1.2 -0.95) (size 1.4 1.2) (layers F.Cu F.Paste F.Mask)
       (net 143 "Net-(R606-Pad2)"))
-    (model ${KIPRJMOD}/footprints/packages3d/crystal_fa-128.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/crystal_fa-128.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1.6 1.6 1.6))
       (rotate (xyz 0 0 0))
@@ -4717,7 +4724,7 @@
       (net 2 GND))
     (pad 3 smd rect (at -2.75 -1.6 90) (size 1.3 1.9) (layers F.Cu F.Paste F.Mask)
       (net 17 "Net-(C601-Pad1)"))
-    (model ${KIPRJMOD}/footprints/packages3d/crystal_smd_ma-406.wrl
+    (model ${KIPRJMOD}/FSL-MINI.3dshapes/crystal_smd_ma-406.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.5659999999999999 0.85 0.71))
       (rotate (xyz 0 0 180))
