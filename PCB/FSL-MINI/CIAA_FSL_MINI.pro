@@ -1,4 +1,4 @@
-update=jue 02 jun 2016 01:36:53 ART
+update=jue 02 jun 2016 01:51:20 ART
 version=1
 last_client=kicad
 [cvpcb]
@@ -35,3 +35,4 @@ version=1
 LibDir=kicadlibs
 [eeschema/libraries]
 LibName1=CIAAK60LIB
+LibName2=conn
