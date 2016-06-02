@@ -5,7 +5,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 13
+Sheet 3 6
 Title "Ethernet"
 Date "2 dec 2014"
 Rev "CEIBO 1.1"
@@ -838,7 +838,7 @@ F 9 "0603" H 7400 4100 60  0001 C CNN "Footprint estandar"
 	1    7400 4100
 	1    0    0    -1  
 $EndComp
-Text Notes 6100 5900 0    79   ~ 0
+Text Notes 5900 6150 0    79   ~ 0
 Strapping Options\nPHYADR: 001\nCONFIG: RMII\nISOLATE: Disabled\nSPEED: 100Mbps\nDUPLEX: Half Duplex\nNWAYEN: Enable Auto-Negotiation
 $Comp
 L +3.3V #PWR040
@@ -868,7 +868,7 @@ F 9 "0603" H 8300 5250 60  0001 C CNN "Footprint estandar"
 	1    8300 5250
 	1    0    0    -1  
 $EndComp
-Text Notes 8850 5500 0    60   ~ 0
+Text Notes 8850 5700 0    60   ~ 0
 Crear planos de GND separados\npara el chasis del RJ-45 y el GND\ngeneral de la placa
 $Comp
 L R R316
@@ -1214,13 +1214,13 @@ Wire Notes Line
 Wire Notes Line
 	8900 5200 8900 5400
 Wire Notes Line
-	6050 5750 8150 5750
+	5850 5300 7950 5300
 Wire Notes Line
-	8150 5750 8150 6650
+	7950 5300 7950 6200
 Wire Notes Line
-	8150 6650 6050 6650
+	7950 6200 5850 6200
 Wire Notes Line
-	6050 6650 6050 5750
+	5850 6200 5850 5300
 Wire Wire Line
 	9500 2850 9500 2950
 Wire Wire Line

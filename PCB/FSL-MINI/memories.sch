@@ -5,7 +5,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 13
+Sheet 5 6
 Title "CIAA Memorias NV"
 Date "2 dec 2014"
 Rev "CEIBO 1.1"
@@ -732,7 +732,7 @@ F 3 "" H 3750 4350 60  0000 C CNN
 	1    3750 4350
 	1    0    0    -1  
 $EndComp
-Text Notes 2000 7250 0    60   ~ 0
+Text Notes 2000 7400 0    60   ~ 0
 Detección de la memoria: Como el zócalo \nno posee switch mecánico, se utiliza \nun cambio de nivel en la línea DAT3,\npara lo cual es necesario un pull down\n(el valor 750k es el recomendado por FSL).
 $Comp
 L R R1009
@@ -976,11 +976,15 @@ Wire Wire Line
 	2900 6200 2900 5500
 Connection ~ 2900 5500
 Wire Notes Line
-	1950 7100 4050 7100
+	1950 6900 4050 6900
 Wire Notes Line
-	4050 7100 4050 7650
+	4050 6900 4050 7450
 Wire Notes Line
-	1950 7100 1950 7650
+	1950 6900 1950 7450
 Wire Notes Line
-	1950 7650 4050 7650
+	1950 7450 4050 7450
+Text Notes 3650 2900 0    60   ~ 0
+AVERIGUAR PROPOSITO
+Text Notes 8150 6350 0    60   ~ 0
+AVERIGUAR PROPOSITO
 $EndSCHEMATC

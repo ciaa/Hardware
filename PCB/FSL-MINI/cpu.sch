@@ -5,7 +5,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 2 13
+Sheet 2 6
 Title "Microcontrolador Freescale K60"
 Date "2 dec 2014"
 Rev "CEIBO 1.1"
@@ -1572,4 +1572,6 @@ F 9 "0603" H 6000 2750 60  0001 C CNN "Footprint estandar"
 	1    6000 2750
 	0    -1   -1   0   
 $EndComp
+Text Notes 7050 8350 0    60   ~ 0
+QUITAR BOTON \nSI HACE FALTA.\nBAJAR A CONN
 $EndSCHEMATC
