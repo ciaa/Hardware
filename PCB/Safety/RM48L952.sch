@@ -1,91 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:brooktre
-LIBS:cmos_ieee
-LIBS:cmos4000
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:diode
-LIBS:display
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic
-LIBS:hc11
-LIBS:intel
-LIBS:interface
-LIBS:ir
-LIBS:Lattice
-LIBS:linear
-LIBS:logo
-LIBS:maxim
-LIBS:memory
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
 LIBS:power
-LIBS:Power_Management
-LIBS:powerint
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:Xicor
-LIBS:xilinx
-LIBS:Zilog
-LIBS:DP83848
-LIBS:LM2831
-LIBS:PESD1CAN
-LIBS:RM48L952PGET
-LIBS:S70FL01GS
-LIBS:SN65HVD1040
-LIBS:TPS2552
-LIBS:TPS3106K33_DBV_6
-LIBS:TUSB1105
-LIBS:TMS570LS1227
 LIBS:CIAA_Safety_VTI_1.0-cache
 EELAYER 25 0
 EELAYER END
@@ -93,12 +7,12 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 5 5
 Title "MODULO PROCESADOR SAFETY"
-Date "2015-12-15"
+Date "2016-06-02"
 Rev "1.0"
 Comp "PROYECTO CIAA SAFETY"
-Comment1 "PROCESADOR - OSCILADOR - REGULADOR DE TENSIÓN Y RESTABLECIMIENTO DE SISTEMA"
-Comment2 "Ing. Fusari Diego"
-Comment3 ""
+Comment1 "Ing. Fusari Diego"
+Comment2 "MODULO PROCESADOR SAFETY"
+Comment3 "Licencia: Ver 'doc/LICENCIA.txt'"
 Comment4 ""
 $EndDescr
 Text HLabel 9980 3350 1    60   BiDi ~ 0
