@@ -530,7 +530,7 @@
       (net 10 +3V3))
     (pad 6 thru_hole oval (at -2.54 3.81 90) (size 1.5 2) (drill 1 (offset 0 -0.25)) (layers *.Cu *.Mask F.SilkS)
       (net 11 "Net-(P1-Pad6)"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Conectores JTAG/walter/conn_strip/vasch_strip_7x2_90.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/vasch_strip_7x2_90.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -613,7 +613,7 @@
       (net 20 +12V))
     (pad 30 thru_hole circle (at 29 0 270) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask F.SilkS)
       (net 21 -12V))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Pin Strip/pin_socket_2mm_30.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/pin_socket_2mm_30.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -696,7 +696,7 @@
       (net 40 /RM48L952/AD1IN[7]))
     (pad 30 thru_hole circle (at 29 0 270) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask F.SilkS)
       (net 41 /RM48L952/PCI_nERROR))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Pin Strip/pin_socket_2mm_30.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/pin_socket_2mm_30.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -779,7 +779,7 @@
       (net 50 /RM48L952/GPIO19))
     (pad 30 thru_hole circle (at 29 0 270) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask F.SilkS)
       (net 51 /RM48L952/GPIO18))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Pin Strip/pin_socket_2mm_30.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/pin_socket_2mm_30.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -862,7 +862,7 @@
       (net 70 /RM48L952/GPIO17))
     (pad 30 thru_hole circle (at 29 0 270) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask F.SilkS)
       (net 3 GND))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Pin Strip/pin_socket_2mm_30.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/pin_socket_2mm_30.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -932,7 +932,7 @@
       (net 83 /MEM_FLASH_SPI/SPI4SIMO[0]))
     (pad 16 smd rect (at -4.445 -4.81076 315) (size 0.55118 1.43002) (layers F.Cu F.Paste F.Mask)
       (net 80 /MEM_FLASH_SPI/SPI4CLK))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/IC/soic-16.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/soic-16.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1067,7 +1067,7 @@
       (net 3 GND))
     (pad 48 smd rect (at -4.09956 2.75082 45) (size 1.30048 0.29972) (layers F.Cu F.Paste F.Mask)
       (net 10 +3V3))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/IC/lqfp-48.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/lqfp-48.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1398,7 +1398,7 @@
       (net 72 +1V2))
     (pad 144 smd rect (at -10.72388 8.7503 315) (size 1.34874 0.28956) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/IC/tqfp-144.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/tqfp-144.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1437,7 +1437,7 @@
       (net 73 /RM48L952/OSCIN))
     (pad 2 smd rect (at 4.7498 0 315) (size 5.4991 1.99898) (layers F.Cu F.Paste F.Mask)
       (net 75 /RM48L952/OSCOUT))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Crystal/crystal_hc-49-smd.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/crystal_hc-49-smd.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1463,7 +1463,7 @@
       (net 18 +5V))
     (pad 2 smd rect (at -1.524 0 45) (size 1.95072 2.49936) (layers F.Cu F.Paste F.Mask)
       (net 105 "Net-(C1-Pad2)"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_tant_B.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_tant_B.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1490,7 +1490,7 @@
       (net 18 +5V))
     (pad 2 smd rect (at -0.75184 0 135) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 105 "Net-(C1-Pad2)"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1517,7 +1517,7 @@
       (net 106 "Net-(C3-Pad1)"))
     (pad 2 smd rect (at -0.75184 0 315) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1543,7 +1543,7 @@
       (net 18 +5V))
     (pad 2 smd rect (at -1.524 0 135) (size 1.95072 2.49936) (layers F.Cu F.Paste F.Mask)
       (net 107 "Net-(C4-Pad2)"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_tant_B.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_tant_B.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1570,7 +1570,7 @@
       (net 18 +5V))
     (pad 2 smd rect (at -0.75184 0 225) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 107 "Net-(C4-Pad2)"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1597,7 +1597,7 @@
       (net 108 "Net-(C6-Pad1)"))
     (pad 2 smd rect (at -0.75184 0 45) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1624,7 +1624,7 @@
       (net 10 +3V3))
     (pad 2 smd rect (at -0.75184 0 315) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1651,7 +1651,7 @@
       (net 10 +3V3))
     (pad 2 smd rect (at -0.75184 0 135) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1678,7 +1678,7 @@
       (net 3 GND))
     (pad 2 smd rect (at -0.75184 0 225) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 101 /ETHERNET/PFBIN2))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1705,7 +1705,7 @@
       (net 10 +3V3))
     (pad 2 smd rect (at -0.75184 0 45) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1732,7 +1732,7 @@
       (net 3 GND))
     (pad 2 smd rect (at -0.75184 0 135) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 10 +3V3))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1759,7 +1759,7 @@
       (net 3 GND))
     (pad 2 smd rect (at -0.75184 0 45) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 101 /ETHERNET/PFBIN2))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1786,7 +1786,7 @@
       (net 3 GND))
     (pad 2 smd rect (at -0.75184 0 45) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 101 /ETHERNET/PFBIN2))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1812,7 +1812,7 @@
       (net 101 /ETHERNET/PFBIN2))
     (pad 2 smd rect (at -1.524 0 315) (size 1.95072 2.49936) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_tant_B.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_tant_B.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1839,7 +1839,7 @@
       (net 10 +3V3))
     (pad 2 smd rect (at -0.75184 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model walter/smd_cap/c_0603.wrl
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1866,7 +1866,7 @@
       (net 3 GND))
     (pad 2 smd rect (at -0.75184 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 10 +3V3))
-    (model walter/smd_cap/c_0603.wrl
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1893,7 +1893,7 @@
       (net 3 GND))
     (pad 2 smd rect (at -0.75184 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 10 +3V3))
-    (model walter/smd_cap/c_0603.wrl
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1920,7 +1920,7 @@
       (net 10 +3V3))
     (pad 2 smd rect (at -0.75184 0 45) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1947,7 +1947,7 @@
       (net 72 +1V2))
     (pad 2 smd rect (at -0.75184 0 45) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1974,7 +1974,7 @@
       (net 10 +3V3))
     (pad 2 smd rect (at -0.75184 0 45) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2001,7 +2001,7 @@
       (net 72 +1V2))
     (pad 2 smd rect (at -0.75184 0 45) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2028,7 +2028,7 @@
       (net 3 GND))
     (pad 2 smd rect (at -0.75184 0 135) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 72 +1V2))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2055,7 +2055,7 @@
       (net 10 +3V3))
     (pad 2 smd rect (at -0.75184 0 135) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2082,7 +2082,7 @@
       (net 3 GND))
     (pad 2 smd rect (at -0.75184 0 135) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 72 +1V2))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2109,7 +2109,7 @@
       (net 72 +1V2))
     (pad 2 smd rect (at -0.75184 0 135) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2136,7 +2136,7 @@
       (net 3 GND))
     (pad 2 smd rect (at -0.75184 0 135) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 10 +3V3))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2163,7 +2163,7 @@
       (net 3 GND))
     (pad 2 smd rect (at -0.75184 0 135) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 10 +3V3))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2190,7 +2190,7 @@
       (net 72 +1V2))
     (pad 2 smd rect (at -0.75184 0 135) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2217,7 +2217,7 @@
       (net 3 GND))
     (pad 2 smd rect (at -0.75184 0 135) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 72 +1V2))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2244,7 +2244,7 @@
       (net 72 +1V2))
     (pad 2 smd rect (at -0.75184 0 135) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2271,7 +2271,7 @@
       (net 3 GND))
     (pad 2 smd rect (at -0.75184 0 135) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 10 +3V3))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2298,7 +2298,7 @@
       (net 3 GND))
     (pad 2 smd rect (at -0.75184 0 135) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 72 +1V2))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2325,7 +2325,7 @@
       (net 31 /RM48L952/VCCAD))
     (pad 2 smd rect (at -0.75184 0 135) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2352,7 +2352,7 @@
       (net 10 +3V3))
     (pad 2 smd rect (at -0.75184 0 225) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2379,7 +2379,7 @@
       (net 3 GND))
     (pad 2 smd rect (at -0.75184 0 45) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 72 +1V2))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2406,7 +2406,7 @@
       (net 3 GND))
     (pad 2 smd rect (at -0.75184 0 45) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 72 +1V2))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2444,7 +2444,7 @@
       (net 18 +5V))
     (pad 2 smd rect (at -1.80086 0 135) (size 2.60096 1.6002) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_elec_4x5_3.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_elec_4x5_3.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2471,7 +2471,7 @@
       (net 73 /RM48L952/OSCIN))
     (pad 2 smd rect (at -0.75184 0 45) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 74 /RM48L952/Kelvin_GND))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2498,7 +2498,7 @@
       (net 74 /RM48L952/Kelvin_GND))
     (pad 2 smd rect (at -0.75184 0 225) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 75 /RM48L952/OSCOUT))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2525,7 +2525,7 @@
       (net 95 /RM48L952/nRST))
     (pad 2 smd rect (at -0.75184 0 225) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2563,7 +2563,7 @@
       (net 72 +1V2))
     (pad 2 smd rect (at -1.80086 0 45) (size 2.60096 1.6002) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_elec_4x5_3.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_elec_4x5_3.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2601,7 +2601,7 @@
       (net 72 +1V2))
     (pad 2 smd rect (at -1.80086 0 315) (size 2.60096 1.6002) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_elec_4x5_3.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_elec_4x5_3.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2633,7 +2633,7 @@
       (net 109 "Net-(D1-Pad2)"))
     (pad 1 smd rect (at 1.74752 0 180) (size 1.4986 1.4986) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Leds/led_1206.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/led_1206.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2664,7 +2664,7 @@
       (net 192 "Net-(D2-Pad1)"))
     (pad 2 smd rect (at -2.00914 0 135) (size 1.99898 2.30124) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Diodos/do214aa.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/do214aa.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2696,7 +2696,7 @@
       (net 10 +3V3))
     (pad 1 smd rect (at 1.74752 0 180) (size 1.4986 1.4986) (layers F.Cu F.Paste F.Mask)
       (net 110 "Net-(D3-Pad1)"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Leds/led_1206.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/led_1206.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2728,7 +2728,7 @@
       (net 10 +3V3))
     (pad 1 smd rect (at 1.74752 0 180) (size 1.4986 1.4986) (layers F.Cu F.Paste F.Mask)
       (net 111 "Net-(D4-Pad1)"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Leds/led_1206.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/led_1206.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2787,7 +2787,7 @@
       (net 71 /RM48L952/GPIO0))
     (pad 3 thru_hole oval (at 2.54 0) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 52 /PCI_GPIO0))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Pines/pins_array_03x1.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/pins_array_03x1.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2833,7 +2833,7 @@
       (net 106 "Net-(C3-Pad1)"))
     (pad 2 thru_hole oval (at 1.27 0) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 130 "Net-(JP2-Pad2)"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Pines/pins_array_02x1.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/pins_array_02x1.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2879,7 +2879,7 @@
       (net 106 "Net-(C3-Pad1)"))
     (pad 2 thru_hole oval (at 1.27 0) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 131 "Net-(JP3-Pad2)"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Pines/pins_array_02x1.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/pins_array_02x1.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2925,7 +2925,7 @@
       (net 108 "Net-(C6-Pad1)"))
     (pad 2 thru_hole oval (at 1.27 0 180) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 133 "Net-(JP4-Pad2)"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Pines/pins_array_02x1.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/pins_array_02x1.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2971,7 +2971,7 @@
       (net 108 "Net-(C6-Pad1)"))
     (pad 2 thru_hole oval (at 1.27 0 180) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 134 "Net-(JP5-Pad2)"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Pines/pins_array_02x1.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/pins_array_02x1.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3002,7 +3002,7 @@
       (net 192 "Net-(D2-Pad1)"))
     (pad 2 smd rect (at 0 3 45) (size 2.5 1.5) (layers F.Cu F.Paste F.Mask)
       (net 72 +1V2))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Inductores/inductor_smd_6.5x4.8mm.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/inductor_smd_6.5x4.8mm.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3029,7 +3029,7 @@
       (net 77 "Net-(R1-Pad1)"))
     (pad 2 smd rect (at -0.75184 0 135) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 98 "/CAN 1/2/CAN2RX"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3056,7 +3056,7 @@
       (net 82 "/CAN 1/2/CAN2_STB"))
     (pad 2 smd rect (at -0.75184 0 135) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3083,7 +3083,7 @@
       (net 15 "/CAN 1/2/CAN2_H"))
     (pad 2 smd rect (at -0.75184 0 135) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 106 "Net-(C3-Pad1)"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3110,7 +3110,7 @@
       (net 106 "Net-(C3-Pad1)"))
     (pad 2 smd rect (at -0.75184 0 315) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 16 "/CAN 1/2/CAN2_L"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3137,7 +3137,7 @@
       (net 15 "/CAN 1/2/CAN2_H"))
     (pad 2 smd rect (at -0.75184 0 135) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 130 "Net-(JP2-Pad2)"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3164,7 +3164,7 @@
       (net 16 "/CAN 1/2/CAN2_L"))
     (pad 2 smd rect (at -0.75184 0 315) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 131 "Net-(JP3-Pad2)"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3191,7 +3191,7 @@
       (net 132 "Net-(R7-Pad1)"))
     (pad 2 smd rect (at -0.75184 0 45) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 88 "/CAN 1/2/CAN1RX"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Capacitores/c_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/c_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3218,7 +3218,7 @@
       (net 81 "/CAN 1/2/CAN1_STB"))
     (pad 2 smd rect (at -0.75184 0 225) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3245,7 +3245,7 @@
       (net 13 "/CAN 1/2/CAN1_H"))
     (pad 2 smd rect (at -0.75184 0 45) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 108 "Net-(C6-Pad1)"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3272,7 +3272,7 @@
       (net 108 "Net-(C6-Pad1)"))
     (pad 2 smd rect (at -0.75184 0 45) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 14 "/CAN 1/2/CAN1_L"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3299,7 +3299,7 @@
       (net 13 "/CAN 1/2/CAN1_H"))
     (pad 2 smd rect (at -0.75184 0 225) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 133 "Net-(JP4-Pad2)"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3326,7 +3326,7 @@
       (net 14 "/CAN 1/2/CAN1_L"))
     (pad 2 smd rect (at -0.75184 0 225) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 134 "Net-(JP5-Pad2)"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3353,7 +3353,7 @@
       (net 10 +3V3))
     (pad 2 smd rect (at -0.75184 0 225) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 135 "Net-(R13-Pad2)"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3380,7 +3380,7 @@
       (net 96 /ETHERNET/RMII_CRS_DV))
     (pad 2 smd rect (at -0.75184 0 225) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 136 "Net-(R14-Pad2)"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3407,7 +3407,7 @@
       (net 86 /ETHERNET/RMII_RX_ER))
     (pad 2 smd rect (at -0.75184 0 225) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 137 "Net-(R15-Pad2)"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3434,7 +3434,7 @@
       (net 89 /ETHERNET/RMII_RXD[0]))
     (pad 2 smd rect (at -0.75184 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 138 "Net-(R16-Pad2)"))
-    (model walter/smd_resistors/r_0603.wrl
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3461,7 +3461,7 @@
       (net 90 /ETHERNET/RMII_RXD[1]))
     (pad 2 smd rect (at -0.75184 0 225) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 139 "Net-(R17-Pad2)"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3488,7 +3488,7 @@
       (net 140 "Net-(R18-Pad1)"))
     (pad 2 smd rect (at -0.75184 0 135) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 93 /ETHERNET/RMII_TXEN))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3515,7 +3515,7 @@
       (net 141 "Net-(R19-Pad1)"))
     (pad 2 smd rect (at -0.75184 0 135) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 91 /ETHERNET/RMII_TXD[0]))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3542,7 +3542,7 @@
       (net 142 "Net-(R20-Pad1)"))
     (pad 2 smd rect (at -0.75184 0 135) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 92 /ETHERNET/RMII_TXD[1]))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3569,7 +3569,7 @@
       (net 10 +3V3))
     (pad 2 smd rect (at -0.75184 0 135) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 79 /ETHERNET/MDIO))
-    (model walter/smd_resistors/r_0603.wrl
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3596,7 +3596,7 @@
       (net 143 "Net-(R22-Pad1)"))
     (pad 2 smd rect (at -0.75184 0 135) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 10 +3V3))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3623,7 +3623,7 @@
       (net 10 +3V3))
     (pad 2 smd rect (at -0.75184 0 135) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 144 "Net-(R23-Pad2)"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3650,7 +3650,7 @@
       (net 10 +3V3))
     (pad 2 smd rect (at -0.75184 0 135) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 103 /ETHERNET/RESET_N))
-    (model walter/smd_resistors/r_0603.wrl
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3677,7 +3677,7 @@
       (net 10 +3V3))
     (pad 2 smd rect (at -0.75184 0 135) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 145 "Net-(R25-Pad2)"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3704,7 +3704,7 @@
       (net 10 +3V3))
     (pad 2 smd rect (at -0.75184 0 135) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 146 "Net-(R26-Pad2)"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3731,7 +3731,7 @@
       (net 144 "Net-(R23-Pad2)"))
     (pad 2 smd rect (at -0.75184 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 27 /ETHERNET/LED_LINK))
-    (model walter/smd_resistors/r_0603.wrl
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3758,7 +3758,7 @@
       (net 146 "Net-(R26-Pad2)"))
     (pad 2 smd rect (at -0.75184 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 28 /ETHERNET/LED_ACT))
-    (model walter/smd_resistors/r_0603.wrl
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3785,7 +3785,7 @@
       (net 3 GND))
     (pad 2 smd rect (at -0.75184 0 135) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 147 "Net-(R29-Pad2)"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3812,7 +3812,7 @@
       (net 10 +3V3))
     (pad 2 smd rect (at -0.75184 0 45) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 148 "Net-(R30-Pad2)"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3839,7 +3839,7 @@
       (net 149 "Net-(R31-Pad1)"))
     (pad 2 smd rect (at -0.75184 0 45) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 10 +3V3))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3866,7 +3866,7 @@
       (net 10 +3V3))
     (pad 2 smd rect (at -0.75184 0 90) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 104 "Net-(R32-Pad2)"))
-    (model walter/smd_resistors/r_0603.wrl
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3893,7 +3893,7 @@
       (net 22 /ETHERNET/TD+))
     (pad 2 smd rect (at -0.75184 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 10 +3V3))
-    (model walter/smd_resistors/r_0603.wrl
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3920,7 +3920,7 @@
       (net 10 +3V3))
     (pad 2 smd rect (at -0.75184 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 23 /ETHERNET/TD-))
-    (model walter/smd_resistors/r_0603.wrl
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3947,7 +3947,7 @@
       (net 24 /ETHERNET/RD+))
     (pad 2 smd rect (at -0.75184 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 10 +3V3))
-    (model walter/smd_resistors/r_0603.wrl
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3974,7 +3974,7 @@
       (net 10 +3V3))
     (pad 2 smd rect (at -0.75184 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 26 /ETHERNET/RD-))
-    (model walter/smd_resistors/r_0603.wrl
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4001,7 +4001,7 @@
       (net 100 "Net-(R37-Pad1)"))
     (pad 2 smd rect (at -0.75184 0 45) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4028,7 +4028,7 @@
       (net 18 +5V))
     (pad 2 smd rect (at -0.75184 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 109 "Net-(D1-Pad2)"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4055,7 +4055,7 @@
       (net 10 +3V3))
     (pad 2 smd rect (at -0.75184 0 315) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 85 /RM48L952/nPORRST))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4082,7 +4082,7 @@
       (net 99 "Net-(R40-Pad1)"))
     (pad 2 smd rect (at -0.75184 0 135) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 18 +5V))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4109,7 +4109,7 @@
       (net 19 /RM48L952/PCI_MR))
     (pad 2 smd rect (at -0.75184 0 45) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 102 "Net-(R41-Pad2)"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4136,7 +4136,7 @@
       (net 150 "Net-(R42-Pad1)"))
     (pad 2 smd rect (at -0.75184 0 315) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4163,7 +4163,7 @@
       (net 72 +1V2))
     (pad 2 smd rect (at -0.75184 0 45) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 150 "Net-(R42-Pad1)"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4190,7 +4190,7 @@
       (net 151 "Net-(R44-Pad1)"))
     (pad 2 smd rect (at -0.75184 0 315) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 72 +1V2))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4217,7 +4217,7 @@
       (net 3 GND))
     (pad 2 smd rect (at -0.75184 0 225) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 151 "Net-(R44-Pad1)"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4244,7 +4244,7 @@
       (net 110 "Net-(D3-Pad1)"))
     (pad 2 smd rect (at -0.75184 0 180) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 152 /RM48L952/STATUS))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4271,7 +4271,7 @@
       (net 111 "Net-(D4-Pad1)"))
     (pad 2 smd rect (at -0.75184 0 180) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 41 /RM48L952/PCI_nERROR))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4298,7 +4298,7 @@
       (net 10 +3V3))
     (pad 2 smd rect (at -0.75184 0) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 95 /RM48L952/nRST))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4325,7 +4325,7 @@
       (net 17 /RM48L952/PCI_nRST))
     (pad 2 smd rect (at -0.75184 0 315) (size 0.89916 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 95 /RM48L952/nRST))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Resistencias/r_0603.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/r_0603.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4363,7 +4363,7 @@
       (net 3 GND))
     (pad 2 smd rect (at 3.59918 0) (size 1.00076 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 102 "Net-(R41-Pad2)"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Switch/smd_push.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/smd_push.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4401,7 +4401,7 @@
       (net 3 GND))
     (pad 2 smd rect (at 3.59918 0) (size 1.00076 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 95 /RM48L952/nRST))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Switch/smd_push.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/smd_push.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4447,7 +4447,7 @@
       (net 15 "/CAN 1/2/CAN2_H"))
     (pad 8 smd rect (at -1.905 -2.794 135) (size 0.59944 1.99898) (layers F.Cu F.Paste F.Mask)
       (net 82 "/CAN 1/2/CAN2_STB"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/IC/so-8.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/so-8.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4477,7 +4477,7 @@
       (net 3 GND))
     (pad 2 smd rect (at 0.9525 1.05664 90) (size 0.59944 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 15 "/CAN 1/2/CAN2_H"))
-    (model walter/smd_trans/sot23.wrl
+    (model "${KIPRJMOD}/footprint.3dshapes/sot23.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4523,7 +4523,7 @@
       (net 13 "/CAN 1/2/CAN1_H"))
     (pad 8 smd rect (at -1.905 -2.794 225) (size 0.59944 1.99898) (layers F.Cu F.Paste F.Mask)
       (net 81 "/CAN 1/2/CAN1_STB"))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/IC/so-8.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/so-8.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4553,7 +4553,7 @@
       (net 3 GND))
     (pad 2 smd rect (at 0.9525 1.05664 90) (size 0.59944 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 13 "/CAN 1/2/CAN1_H"))
-    (model walter/smd_trans/sot23.wrl
+    (model "${KIPRJMOD}/footprint.3dshapes/sot23.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4591,7 +4591,7 @@
       (net 99 "Net-(R40-Pad1)"))
     (pad 5 smd rect (at -0.9525 -1.05664 225) (size 0.59944 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 18 +5V))
-    (model walter/smd_trans/sot23-5.wrl
+    (model "${KIPRJMOD}/footprint.3dshapes/sot23-5.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4632,7 +4632,7 @@
       (net 10 +3V3))
     (pad 5 smd rect (at 0 -1.05664 225) (size 0.59944 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 85 /RM48L952/nPORRST))
-    (model "../../../../../../Users/WIN 7/Desktop/Proyecto_CIAA/Librerias/3D Component/Transistor/sot23-6.wrl"
+    (model "${KIPRJMOD}/footprint.3dshapes/sot23-6.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4665,7 +4665,7 @@
       (net 94 /ETHERNET/RMII_REFCLK))
     (pad 4 smd rect (at -0.7239 -0.5715 45) (size 0.94996 0.84836) (layers F.Cu F.Paste F.Mask)
       (net 10 +3V3))
-    (model walter/crystal/crystal_fa-128.wrl
+    (model "${KIPRJMOD}/footprint.3dshapes/crystal_fa-128.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
