@@ -1,6 +1,7 @@
 EESchema Schematic File Version 2
 LIBS:CIAAK60LIB
-EELAYER 27 0
+LIBS:CIAA_K60-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -244,7 +245,7 @@ F 9 "~" H 5700 7250 60  0001 C CNN "Footprint estandar"
 	1    5700 6400
 	1    0    0    -1  
 $EndComp
-Text Notes 4800 2775 0    60   ~ 0
+Text Notes 4850 2900 0    60   ~ 0
 Conectores de expansión LVTTL.\nEn formato de pines, 2.54mm de pitch.
 Text HLabel 4350 4950 0    60   Output ~ 0
 AUX_UART_RX/SPI_MISO

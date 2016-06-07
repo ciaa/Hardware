@@ -1,6 +1,7 @@
 EESchema Schematic File Version 2
 LIBS:CIAAK60LIB
-EELAYER 27 0
+LIBS:CIAA_K60-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -147,12 +148,12 @@ $EndComp
 $Comp
 L GND #PWR027
 U 1 1 52C1B48F
-P 8300 5600
-F 0 "#PWR027" H 8300 5600 30  0001 C CNN
-F 1 "GND" H 8300 5530 30  0001 C CNN
-F 2 "" H 8300 5600 60  0000 C CNN
-F 3 "" H 8300 5600 60  0000 C CNN
-	1    8300 5600
+P 8050 5350
+F 0 "#PWR027" H 8050 5350 30  0001 C CNN
+F 1 "GND" H 8050 5280 30  0001 C CNN
+F 2 "" H 8050 5350 60  0000 C CNN
+F 3 "" H 8050 5350 60  0000 C CNN
+	1    8050 5350
 	1    0    0    -1  
 $EndComp
 Text Label 8650 4600 0    60   ~ 0
@@ -837,7 +838,7 @@ F 9 "0603" H 7400 4100 60  0001 C CNN "Footprint estandar"
 	1    7400 4100
 	1    0    0    -1  
 $EndComp
-Text Notes 6100 5900 0    79   ~ 0
+Text Notes 5850 6350 0    79   ~ 0
 Strapping Options\nPHYADR: 001\nCONFIG: RMII\nISOLATE: Disabled\nSPEED: 100Mbps\nDUPLEX: Half Duplex\nNWAYEN: Enable Auto-Negotiation
 $Comp
 L +3.3V #PWR040
@@ -867,7 +868,7 @@ F 9 "0603" H 8300 5250 60  0001 C CNN "Footprint estandar"
 	1    8300 5250
 	1    0    0    -1  
 $EndComp
-Text Notes 8850 5500 0    60   ~ 0
+Text Notes 8850 5700 0    60   ~ 0
 Crear planos de GND separados\npara el chasis del RJ-45 y el GND\ngeneral de la placa
 $Comp
 L R R316
@@ -1213,13 +1214,13 @@ Wire Notes Line
 Wire Notes Line
 	8900 5200 8900 5400
 Wire Notes Line
-	6050 5750 8150 5750
+	5800 5500 7900 5500
 Wire Notes Line
-	8150 5750 8150 6650
+	7900 5500 7900 6400
 Wire Notes Line
-	8150 6650 6050 6650
+	7900 6400 5800 6400
 Wire Notes Line
-	6050 6650 6050 5750
+	5800 6400 5800 5500
 Wire Wire Line
 	9500 2850 9500 2950
 Wire Wire Line

@@ -1,6 +1,7 @@
 EESchema Schematic File Version 2
 LIBS:CIAAK60LIB
-EELAYER 27 0
+LIBS:CIAA_K60-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -731,7 +732,7 @@ F 3 "" H 3750 4350 60  0000 C CNN
 	1    3750 4350
 	1    0    0    -1  
 $EndComp
-Text Notes 2000 7250 0    60   ~ 0
+Text Notes 2000 7600 0    60   ~ 0
 Detección de la memoria: Como el zócalo \nno posee switch mecánico, se utiliza \nun cambio de nivel en la línea DAT3,\npara lo cual es necesario un pull down\n(el valor 750k es el recomendado por FSL).
 $Comp
 L R R1009

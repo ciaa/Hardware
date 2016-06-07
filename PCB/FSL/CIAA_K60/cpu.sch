@@ -1,6 +1,7 @@
 EESchema Schematic File Version 2
 LIBS:CIAAK60LIB
-EELAYER 27 0
+LIBS:CIAA_K60-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
@@ -576,7 +577,7 @@ F 9 "0603" H 6650 7050 60  0001 C CNN "Footprint estandar"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CRYSTAL_4PIN_MINI_GND X202
+L CRYSTAL_4Pin_Mini_GND X202
 U 1 1 538A5594
 P 1200 2950
 F 0 "X202" H 1200 2800 40  0000 C CNN

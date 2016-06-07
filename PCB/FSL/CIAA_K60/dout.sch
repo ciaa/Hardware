@@ -1,6 +1,7 @@
 EESchema Schematic File Version 2
 LIBS:CIAAK60LIB
-EELAYER 27 0
+LIBS:CIAA_K60-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -544,7 +545,7 @@ F 9 "0603" H 7900 2300 60  0001 C CNN "Footprint estandar"
 $EndComp
 Text Notes 600  750  0    120  ~ 24
 SALIDAS DIGITALES
-Text Notes 7300 750  0    60   ~ 0
+Text Notes 7300 1000 0    60   ~ 0
 Salidas digitales Open-Drain \npor bornes (P10). \nCorriente limitada a 1A por PTC.\n
 $Comp
 L TB_1X3 J804

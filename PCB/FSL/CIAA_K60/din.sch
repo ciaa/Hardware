@@ -1,6 +1,7 @@
 EESchema Schematic File Version 2
 LIBS:CIAAK60LIB
-EELAYER 27 0
+LIBS:CIAA_K60-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -57,7 +58,7 @@ Text Label 1650 3850 2    60   ~ 0
 IN5
 Text Label 1650 4050 2    60   ~ 0
 IN6
-Text Notes 7850 1900 0    60   ~ 0
+Text Notes 7850 2050 0    60   ~ 0
 Entradas optoacopladas por bornera.\nRango de Voltaje de entrada aproximado: 10 a 30V (CC).\nProtección contra polarización inversa.
 $Comp
 L TB_1X3 J701
@@ -149,13 +150,13 @@ F 9 "1206" H 3650 1150 60  0001 C CNN "Footprint estandar"
 	1    3650 1150
 	0    -1   -1   0   
 $EndComp
-Text Notes 8550 3000 0    60   ~ 12
+Text Notes 8600 3100 0    60   ~ 12
 ANALISIS PARA DIFERENTES\n  TENSIONES DE ENTRADA
-Text Notes 8850 3300 0    60   ~ 0
+Text Notes 8800 3750 0    60   ~ 0
 VIN = 10V\nIf = 1,9 mA\nCTR = 100%\nPdin = 17 mW
-Text Notes 8850 3900 0    60   ~ 0
+Text Notes 8800 4300 0    60   ~ 0
 VIN = 24V\nIf = 4.8 mA\nCTR = 100%\nPdin = 110 mW
-Text Notes 8850 4500 0    60   ~ 0
+Text Notes 8850 4850 0    60   ~ 0
 VIN = 30V\nIf = 6.1 mA\nCTR = 100%\nPdin = 176 mW
 Text Notes 600  750  0    120  ~ 24
 ENTRADAS DIGITALES

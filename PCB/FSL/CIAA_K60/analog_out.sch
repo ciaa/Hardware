@@ -1,6 +1,7 @@
 EESchema Schematic File Version 2
 LIBS:CIAAK60LIB
-EELAYER 27 0
+LIBS:CIAA_K60-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -528,9 +529,9 @@ Wire Notes Line
 	2300 550  550  550 
 Text Notes 1600 2350 0    60   ~ 0
 Filtro Fuente de 24V
-Text Notes 3700 5400 0    60   ~ 0
+Text Notes 3700 5500 0    60   ~ 0
 Ganancia de Tensión dada por:\n1+ R1202/R1201 = 3.2
-Text Notes 3700 5650 0    60   ~ 0
+Text Notes 3700 5750 0    60   ~ 0
 Relación de conversión V/I\nIo=(DAC_OUT/R1201)*(R1203/R1205)
 Wire Notes Line
 	3650 5250 3650 5800

@@ -1,6 +1,7 @@
 EESchema Schematic File Version 2
 LIBS:CIAAK60LIB
-EELAYER 27 0
+LIBS:CIAA_K60-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -963,9 +964,9 @@ F 9 "0603" H 1800 3950 60  0001 C CNN "Footprint estandar"
 	1    1800 3950
 	1    0    0    -1  
 $EndComp
-Text Notes 5150 4300 0    60   ~ 0
+Text Notes 5150 4350 0    60   ~ 0
 Channel A:\n  MPSSE
-Text Notes 5650 6050 0    60   ~ 0
+Text Notes 5650 6100 0    60   ~ 0
  Channel B: \nASYNC Serial
 $Comp
 L 74HC244 U1301
@@ -984,7 +985,7 @@ F 9 "TSSOP-20" H 6850 5000 60  0001 C CNN "Footprint estandar"
 	1    6850 5000
 	1    0    0    -1  
 $EndComp
-Text Notes 6100 3300 0    60   ~ 0
+Text Notes 6100 3450 0    60   ~ 0
 Pin ACBUS2 (FT_OE): default\ntri-stated input with an internal\n75KΩ pull up resistor to VCCIO.\n
 NoConn ~ 6350 5250
 NoConn ~ 6350 5350

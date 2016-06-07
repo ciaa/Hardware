@@ -1,6 +1,7 @@
 EESchema Schematic File Version 2
 LIBS:CIAAK60LIB
-EELAYER 27 0
+LIBS:CIAA_K60-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1220,17 +1221,17 @@ Wire Wire Line
 	1700 2650 1650 2650
 Text Notes 3650 6900 0    60   ~ 0
 Filtro AF
-Text Notes 4500 7200 0    60   ~ 0
+Text Notes 4500 7300 0    60   ~ 0
 Resistencia de \nConversión I/V
 Wire Notes Line
 	2950 6800 2750 6800
-Text Notes 5000 6850 0    60   ~ 0
+Text Notes 5000 6950 0    60   ~ 0
 Atenuador a 3.3V\nFondo de Escala
 Text Notes 9650 5100 0    60   ~ 0
 Protección 3.3V
 Text Notes 9650 5350 0    60   ~ 0
 Buffer
-Text Notes 9650 5550 0    60   ~ 0
+Text Notes 9650 5650 0    60   ~ 0
 Filtro Anti-aliasing\nfc: 16KHz
 Wire Notes Line
 	8350 5750 8350 5550
@@ -1282,7 +1283,7 @@ Wire Notes Line
 	10600 5150 10600 4950
 Wire Notes Line
 	10600 4950 9600 4950
-Text Notes 650  800  0    120  ~ 24
+Text Notes 650  1000 0    120  ~ 24
 ENTRADAS \nANALÓGICAS
 Wire Notes Line
 	3250 6550 3250 6650

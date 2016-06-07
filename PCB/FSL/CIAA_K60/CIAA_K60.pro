@@ -1,6 +1,6 @@
-update=mar 24 jun 2014 18:08:24 ART
+update=mar 07 jun 2016 03:15:11 ART
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -8,16 +8,6 @@ NetIExt=net
 EquName1=devcms
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=kicadlibs
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
-[eeschema/libraries]
-LibName1=CIAAK60LIB
 [pcbnew]
 version=1
 LastNetListRead=CIAA_K60.net
@@ -40,3 +30,8 @@ ModuleOutlineThickness="    0,203200"
 [pcbnew/libraries]
 LibDir=footprints
 LibName1=CIAAFSL
+[eeschema]
+version=1
+LibDir=kicadlibs
+[eeschema/libraries]
+LibName1=CIAAK60LIB
