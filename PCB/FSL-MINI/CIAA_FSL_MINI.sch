@@ -1,6 +1,9 @@
 EESchema Schematic File Version 2
+LIBS:TXB0108
 LIBS:CIAAK60LIB
 LIBS:conn
+LIBS:shield_arduino
+LIBS:device
 LIBS:CIAA_FSL_MINI-cache
 EELAYER 25 0
 EELAYER END
@@ -399,6 +402,7 @@ F93 "SD_CLK" O R 4950 1850 60
 F94 "ETH_MDIO" B R 4950 3700 60 
 F95 "DAC_OUT" O R 4950 6400 60 
 F96 "RESET" I L 2950 6900 60 
+F97 "VrefH" I R 4950 6250 60 
 $EndSheet
 Text Label 6950 5850 0    60   ~ 0
 CON5V
@@ -595,7 +599,7 @@ Wire Wire Line
 Text Notes 6100 6500 0    60   ~ 0
 NOTAS DESARROLLO:\n1)Los conectores y su conexionado es provisorio\nfalta estudiar como distribuir las señales y cuales \nusar.\n2) No se borraron señales salientes de la jerarquía\nde la CPU.
 $Sheet
-S 850  1000 1250 6500
+S 850  1000 1250 6600
 U 5756CD3E
 F0 "I/O" 60
 F1 "IO.sch" 60
@@ -657,6 +661,7 @@ F56 "AIN2" O R 2100 7100 60
 F57 "AIN3" O R 2100 7000 60 
 F58 "RESET" O R 2100 6900 60 
 F59 "DAC_OUT" I R 2100 7400 60 
+F60 "ArefArduino" O R 2100 7500 60 
 $EndSheet
 Wire Wire Line
 	2950 1100 2100 1100
@@ -748,4 +753,10 @@ Wire Wire Line
 	2100 7400 5450 7400
 Wire Wire Line
 	5450 7400 5450 6400
+Wire Wire Line
+	2100 7500 5550 7500
+Wire Wire Line
+	5550 7500 5550 6250
+Wire Wire Line
+	5550 6250 4950 6250
 $EndSCHEMATC
