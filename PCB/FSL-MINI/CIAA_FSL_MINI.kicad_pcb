@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.2+dfsg1-2~bpo8+1-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.2-4+6225~38~ubuntu14.04.1-stable)
 
   (general
-    (links 406)
+    (links 0)
     (no_connects 406)
-    (area 88.949999 57.949999 159.550001 157.550001)
+    (area 72.000001 48.65 162.553213 162.0688)
     (thickness 1.6)
     (drawings 6)
     (tracks 0)

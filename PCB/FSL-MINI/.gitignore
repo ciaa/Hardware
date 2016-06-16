@@ -1,2 +1,7 @@
 *.bak
 *.xml
+commit_msg
+*.bck
+*.dcm
+*autosave*
+*-bak
