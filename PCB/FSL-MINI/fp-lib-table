@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name FSL-MINI)(type KiCad)(uri "$(KIPRJMOD)/FSL-MINI.pretty")(options "")(descr ""))
+)

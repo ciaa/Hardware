@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:ciaa-nxp-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -68,7 +68,7 @@ LIBS:sw_push
 LIBS:mcp1416
 LIBS:fqt13n06l
 LIBS:ciaa-nxp-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -154,7 +154,7 @@ Wire Wire Line
 Text Label 4800 1750 0    60   ~ 0
 USR_3.3V
 $Comp
-L +3.3V #PWR0126
+L +3.3V-RESCUE-ciaa-nxp #PWR0126
 U 1 1 52CA1E6C
 P 4000 1750
 F 0 "#PWR0126" H 4000 1710 30  0001 C CNN
@@ -180,7 +180,7 @@ $EndComp
 Wire Wire Line
 	7800 1750 7750 1750
 $Comp
-L GND #PWR0127
+L GND-RESCUE-ciaa-nxp #PWR0127
 U 1 1 52CA1EC3
 P 5300 2800
 F 0 "#PWR0127" H 5300 2800 30  0001 C CNN
@@ -191,7 +191,7 @@ F 3 "" H 5300 2800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0128
+L GND-RESCUE-ciaa-nxp #PWR0128
 U 1 1 52CA1EC9
 P 6550 2800
 F 0 "#PWR0128" H 6550 2800 30  0001 C CNN
@@ -233,7 +233,7 @@ Connection ~ 5350 4200
 Text HLabel 4750 3900 0    60   Output ~ 0
 AN0
 $Comp
-L R R117
+L R-RESCUE-ciaa-nxp R117
 U 1 1 52CA205E
 P 5050 3900
 F 0 "R117" V 5130 3900 40  0000 C CNN
@@ -250,7 +250,7 @@ Wire Wire Line
 Text HLabel 4750 4100 0    60   Output ~ 0
 AN1
 $Comp
-L R R119
+L R-RESCUE-ciaa-nxp R119
 U 1 1 52CA20C8
 P 5050 4100
 F 0 "R119" V 5130 4100 40  0000 C CNN
@@ -267,7 +267,7 @@ Wire Wire Line
 Text HLabel 6900 3900 2    60   Output ~ 0
 AN2
 $Comp
-L R R118
+L R-RESCUE-ciaa-nxp R118
 U 1 1 52CA20D1
 P 6600 3900
 F 0 "R118" V 6680 3900 40  0000 C CNN
@@ -284,7 +284,7 @@ Wire Wire Line
 Text HLabel 6900 4100 2    60   Output ~ 0
 AN3
 $Comp
-L R R120
+L R-RESCUE-ciaa-nxp R120
 U 1 1 52CA20DA
 P 6600 4100
 F 0 "R120" V 6680 4100 40  0000 C CNN
@@ -327,7 +327,7 @@ USB_VBUS
 Wire Wire Line
 	3950 4550 4400 4550
 $Comp
-L GND #PWR0130
+L GND-RESCUE-ciaa-nxp #PWR0130
 U 1 1 52CA37AA
 P 5200 6350
 F 0 "#PWR0130" H 5200 6350 30  0001 C CNN
@@ -365,7 +365,7 @@ Connection ~ 5400 5350
 Text Label 5000 3100 0    60   ~ 0
 USR_3.3V
 $Comp
-L GND #PWR0131
+L GND-RESCUE-ciaa-nxp #PWR0131
 U 1 1 52CCD2DC
 P 6300 3150
 F 0 "#PWR0131" H 6300 3150 30  0001 C CNN
@@ -412,7 +412,7 @@ USR_3.3V
 Wire Wire Line
 	5000 3500 5450 3500
 $Comp
-L GND #PWR0132
+L GND-RESCUE-ciaa-nxp #PWR0132
 U 1 1 52CCD441
 P 6300 3650
 F 0 "#PWR0132" H 6300 3650 30  0001 C CNN
@@ -495,7 +495,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 4750 5500 4750
 $Comp
-L GNDA #PWR0133
+L GNDA-RESCUE-ciaa-nxp #PWR0133
 U 1 1 52DEB0C3
 P 6300 4300
 F 0 "#PWR0133" H 6300 4300 40  0001 C CNN
@@ -506,7 +506,7 @@ F 3 "" H 6300 4300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR0134
+L GNDA-RESCUE-ciaa-nxp #PWR0134
 U 1 1 52DEB0D0
 P 5350 4300
 F 0 "#PWR0134" H 5350 4300 40  0001 C CNN

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:ciaa-nxp-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -68,7 +68,7 @@ LIBS:sw_push
 LIBS:mcp1416
 LIBS:fqt13n06l
 LIBS:ciaa-nxp-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -125,7 +125,7 @@ Wire Wire Line
 	2150 5000 2050 5000
 NoConn ~ 2050 5000
 $Comp
-L GND #PWR0117
+L GND-RESCUE-ciaa-nxp #PWR0117
 U 1 1 52BC3261
 P 1750 5000
 F 0 "#PWR0117" H 1750 5000 30  0001 C CNN
@@ -153,7 +153,7 @@ Wire Wire Line
 	3650 4600 3950 4600
 Connection ~ 3950 4600
 $Comp
-L GND #PWR0119
+L GND-RESCUE-ciaa-nxp #PWR0119
 U 1 1 52BC329E
 P 3950 5250
 F 0 "#PWR0119" H 3950 5250 30  0001 C CNN
@@ -180,7 +180,7 @@ F 3 "~" H 7350 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0120
+L GND-RESCUE-ciaa-nxp #PWR0120
 U 1 1 52BC3F9D
 P 5150 5000
 F 0 "#PWR0120" H 5150 5000 30  0001 C CNN
@@ -219,7 +219,7 @@ F 3 "~" H 7200 4650 300 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C32
+L C-RESCUE-ciaa-nxp C32
 U 1 1 52BC40A7
 P 7550 4650
 F 0 "C32" H 7550 4750 40  0000 L CNN
@@ -234,7 +234,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 4950 7550 4850
 $Comp
-L GND #PWR0121
+L GND-RESCUE-ciaa-nxp #PWR0121
 U 1 1 52BC411A
 P 7550 4950
 F 0 "#PWR0121" H 7550 4950 30  0001 C CNN
@@ -245,7 +245,7 @@ F 3 "" H 7550 4950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0122
+L GND-RESCUE-ciaa-nxp #PWR0122
 U 1 1 52BC4129
 P 7200 4950
 F 0 "#PWR0122" H 7200 4950 30  0001 C CNN
@@ -274,17 +274,14 @@ F 3 "" H 10500 3700 60  0000 C CNN
 	1    10500 3700
 	1    0    0    -1  
 $EndComp
-Connection ~ 8800 3300
 Wire Wire Line
 	10150 3400 9400 3400
 Wire Wire Line
 	9400 3400 9400 3450
-Connection ~ 9000 3450
 Wire Wire Line
 	10150 3500 9500 3500
 Wire Wire Line
 	9500 3500 9500 3600
-Connection ~ 8900 3600
 Wire Wire Line
 	10150 3600 9600 3600
 Wire Wire Line
@@ -296,7 +293,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 3700 9700 4950
 $Comp
-L GND #PWR0123
+L GND-RESCUE-ciaa-nxp #PWR0123
 U 1 1 52BC45E9
 P 9700 4950
 F 0 "#PWR0123" H 9700 4950 30  0001 C CNN
@@ -314,7 +311,7 @@ Wire Wire Line
 	10150 3900 10050 3900
 Connection ~ 10050 3900
 $Comp
-L C C33
+L C-RESCUE-ciaa-nxp C33
 U 1 1 52BC4969
 P 3950 4900
 F 0 "C33" H 3950 5000 40  0000 L CNN
@@ -348,7 +345,7 @@ F 3 "~" H 10050 4500 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R49
+L R-RESCUE-ciaa-nxp R49
 U 1 1 52C9D8D3
 P 1450 4600
 F 0 "R49" V 1530 4600 40  0000 C CNN
@@ -360,7 +357,7 @@ F 3 "~" H 1450 4600 30  0000 C CNN
 $EndComp
 Connection ~ 1750 4600
 $Comp
-L +3.3V #PWR0124
+L +3.3V-RESCUE-ciaa-nxp #PWR0124
 U 1 1 52C9D999
 P 1150 4600
 F 0 "#PWR0124" H 1150 4560 30  0001 C CNN
@@ -373,7 +370,7 @@ $EndComp
 Wire Wire Line
 	1150 4600 1200 4600
 $Comp
-L R R48
+L R-RESCUE-ciaa-nxp R48
 U 1 1 52C9D9F8
 P 1450 4400
 F 0 "R48" V 1530 4400 40  0000 C CNN
@@ -384,7 +381,7 @@ F 3 "~" H 1450 4400 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR0125
+L GND-RESCUE-ciaa-nxp #PWR0125
 U 1 1 52C9DA03
 P 1150 4450
 F 0 "#PWR0125" H 1150 4450 30  0001 C CNN
