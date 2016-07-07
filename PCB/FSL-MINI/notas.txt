@@ -1,0 +1,8 @@
+Lineas USB
+-Los anchos de pista y su separación son los mismos usados segun el pdf de impedancias 
+en FSL/CIAA_K60/doc/pautas/.
+
+Lineas ethernet
+-Los anchos de pista y su separación son calculados según:
+	Lineas diferenciales, 100 ohm
+	Lineas RMII, 68 ohm.
