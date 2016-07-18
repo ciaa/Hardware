@@ -1,0 +1,13 @@
+(fp_lib_table
+  (lib (name chip_rlc)(type KiCad)(uri "$(KIPRJMOD)/footprints/chip_rlc.pretty")(options "")(descr ""))
+  (lib (name conn)(type KiCad)(uri "$(KIPRJMOD)/footprints/conn.pretty")(options "")(descr ""))
+  (lib (name dfn-qfn)(type KiCad)(uri "$(KIPRJMOD)/footprints/dfn-qfn.pretty")(options "")(descr ""))
+  (lib (name bga)(type KiCad)(uri "$(KIPRJMOD)/footprints/bga.pretty")(options "")(descr ""))
+  (lib (name samtec)(type KiCad)(uri "$(KIPRJMOD)/footprints/samtec.pretty")(options "")(descr ""))
+  (lib (name misc)(type KiCad)(uri "$(KIPRJMOD)/footprints/misc.pretty")(options "")(descr ""))
+  (lib (name tantalum)(type KiCad)(uri "$(KIPRJMOD)/footprints/tantalum.pretty")(options "")(descr ""))
+  (lib (name to-sod-sot)(type KiCad)(uri "$(KIPRJMOD)/footprints/to-sod-sot.pretty")(options "")(descr ""))
+  (lib (name soic-sop-tssop)(type KiCad)(uri "$(KIPRJMOD)/footprints/soic-sop-tssop.pretty")(options "")(descr ""))
+  (lib (name xtal-res-osc)(type KiCad)(uri "$(KIPRJMOD)/footprints/xtal-res-osc.pretty")(options "")(descr ""))
+  (lib (name inductor)(type KiCad)(uri "$(KIPRJMOD)/footprints/inductor.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,6 @@
+ciaa_acc-cache.lib
+*.bak
+*.bck
+*.dcm
+/_autosave-ciaa_acc.kicad_pcb
+ciaa_acc.kicad_pcb-bak

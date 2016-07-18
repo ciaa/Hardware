@@ -1,0 +1,17 @@
+(module ABRACON-ABS06 (layer F.Cu) (tedit 570816E2)
+  (fp_text reference REF** (at 0 -1.2) (layer F.SilkS)
+    (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
+  )
+  (fp_text value ABRACON-ABS06 (at 0 -1.2) (layer F.Fab) hide
+    (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
+  )
+  (fp_line (start 0.3 0.6) (end -0.3 0.6) (layer F.SilkS) (width 0.1016))
+  (fp_line (start -0.3 -0.6) (end 0.3 -0.6) (layer F.SilkS) (width 0.1016))
+  (pad 1 smd rect (at -0.725 0) (size 0.75 1.4) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 0.725 0) (size 0.75 1.4) (layers F.Cu F.Paste F.Mask))
+  (model footprints/xtal-res-osc.3dshapes/ABRACON-ABS06.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.374 0.374 0.374))
+    (rotate (xyz -90 0 0))
+  )
+)

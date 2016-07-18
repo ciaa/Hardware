@@ -1,0 +1,18 @@
+(module L_10x9.8_SMD (layer F.Cu) (tedit 541206A2)
+  (attr smd)
+  (fp_text reference L1101 (at 0 -5.842) (layer F.SilkS)
+    (effects (font (size 0.7112 0.4572) (thickness 0.1143)))
+  )
+  (fp_text value 47uH (at -0.2921 -6.8834) (layer F.SilkS) hide
+    (effects (font (size 0.762 0.762) (thickness 0.127)))
+  )
+  (fp_line (start 1.4732 5.0038) (end -1.4732 5.0038) (layer F.SilkS) (width 0.127))
+  (fp_line (start 1.4732 -5.0038) (end -1.4732 -5.0038) (layer F.SilkS) (width 0.127))
+  (pad 1 smd rect (at -3.302 0) (size 3.5052 10.2108) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 3.302 0) (size 3.5052 10.2108) (layers F.Cu F.Paste F.Mask))
+  (model ${KIPRJMOD}/footprints/packages3d/inductor_smd_10x9.8.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1.25 1.25 1.25))
+    (rotate (xyz 0 0 0))
+  )
+)

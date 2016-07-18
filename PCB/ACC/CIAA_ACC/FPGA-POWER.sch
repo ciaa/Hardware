@@ -1,0 +1,91 @@
+EESchema Schematic File Version 2
+LIBS:XC7Z030_FBG676
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:DDR3_x16
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 13 14
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L XC7Z030_FBG676 U?
+U 11 1 56DEE21C
+P 7300 1950
+F 0 "U?" H 7300 3237 60  0000 C CNN
+F 1 "XC7Z030_FBG676" H 7300 3131 60  0000 C CNN
+F 2 "" H 7300 1950 60  0000 C CNN
+F 3 "" H 7300 1950 60  0000 C CNN
+	11   7300 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L XC7Z030_FBG676 U?
+U 12 1 56DEE304
+P 2400 4000
+F 0 "U?" H 2400 7387 60  0000 C CNN
+F 1 "XC7Z030_FBG676" H 2400 7281 60  0000 C CNN
+F 2 "" H 2400 4000 60  0000 C CNN
+F 3 "" H 2400 4000 60  0000 C CNN
+	12   2400 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L XC7Z030_FBG676 U?
+U 13 1 56DEE366
+P 6850 4500
+F 0 "U?" H 6850 5337 60  0000 C CNN
+F 1 "XC7Z030_FBG676" H 6850 5231 60  0000 C CNN
+F 2 "" H 6850 4500 60  0000 C CNN
+F 3 "" H 6850 4500 60  0000 C CNN
+	13   6850 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L XC7Z030_FBG676 U?
+U 14 1 56DEE3B6
+P 10000 4000
+F 0 "U?" H 10000 5587 60  0000 C CNN
+F 1 "XC7Z030_FBG676" H 10000 5481 60  0000 C CNN
+F 2 "" H 10000 4000 60  0000 C CNN
+F 3 "" H 10000 4000 60  0000 C CNN
+	14   10000 4000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

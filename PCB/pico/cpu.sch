@@ -1,0 +1,648 @@
+EESchema Schematic File Version 2
+LIBS:picociaa-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:nxp_armmcu
+LIBS:pcie-mini
+LIBS:ft2232h
+LIBS:lpc54102j512bd64
+LIBS:PRTR5V0U2X
+LIBS:93c56
+LIBS:SMD_Sealing_Glass_Crystal
+LIBS:led_arbg
+LIBS:sw_push4
+LIBS:logo
+LIBS:picociaa-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title "picoCIAA - CPU"
+Date "2016-06-03"
+Rev "1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LPC54102J512BD64 U5
+U 1 1 55F814ED
+P 5500 2950
+F 0 "U5" H 3100 5100 60  0000 C CNN
+F 1 "LPC54102J512BD64" H 3500 800 60  0000 C CNN
+F 2 "Housings_QFP:TQFP-64_10x10mm_Pitch0.5mm" H 4800 3250 60  0001 C CNN
+F 3 "" H 4800 3250 60  0000 C CNN
+	1    5500 2950
+	1    0    0    -1  
+$EndComp
+Text HLabel 2500 2550 0    60   BiDi ~ 0
+P0_14
+Wire Wire Line
+	2500 2550 2850 2550
+Text HLabel 2500 2650 0    60   Output ~ 0
+SWO/TDO
+Wire Wire Line
+	2500 2650 2850 2650
+Wire Wire Line
+	2850 2950 2500 2950
+Text HLabel 2500 2950 0    60   BiDi ~ 0
+P0_18
+Wire Wire Line
+	2500 3050 2850 3050
+Text HLabel 2500 3050 0    60   BiDi ~ 0
+P0_19
+Text HLabel 2500 3150 0    60   BiDi ~ 0
+P0_20
+Wire Wire Line
+	2500 3150 2850 3150
+Text HLabel 2500 1150 0    60   Input ~ 0
+RXD
+Wire Wire Line
+	2500 1150 2850 1150
+Text HLabel 2500 1250 0    60   Output ~ 0
+TXD
+Wire Wire Line
+	2500 1250 2850 1250
+Text HLabel 2500 950  0    60   Input ~ 0
+nRESET
+Wire Wire Line
+	2500 950  2850 950 
+$Comp
+L C-RESCUE-picociaa C20
+U 1 1 55FB8C5B
+P 1700 4550
+AR Path="/55FB8C5B" Ref="C20"  Part="1" 
+AR Path="/55F814A2/55FB8C5B" Ref="C20"  Part="1" 
+F 0 "C20" H 1750 4650 50  0000 L CNN
+F 1 "20pF" H 1750 4450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1738 4400 30  0001 C CNN
+F 3 "" H 1700 4550 60  0000 C CNN
+	1    1700 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L C-RESCUE-picociaa C21
+U 1 1 55FB8CDA
+P 1700 4950
+AR Path="/55FB8CDA" Ref="C21"  Part="1" 
+AR Path="/55F814A2/55FB8CDA" Ref="C21"  Part="1" 
+F 0 "C21" H 1750 5050 50  0000 L CNN
+F 1 "20pF" H 1750 4850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1738 4800 30  0001 C CNN
+F 3 "" H 1700 4950 60  0000 C CNN
+	1    1700 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1900 4550 2850 4550
+Wire Wire Line
+	2100 4600 2100 4550
+Connection ~ 2100 4550
+Wire Wire Line
+	1900 4950 2850 4950
+Wire Wire Line
+	2100 4900 2100 4950
+Connection ~ 2100 4950
+Wire Wire Line
+	1500 4550 1400 4550
+Wire Wire Line
+	1400 4550 1400 5000
+Wire Wire Line
+	1400 4950 1500 4950
+$Comp
+L GND #PWR043
+U 1 1 55FB8DE5
+P 1400 5000
+F 0 "#PWR043" H 1400 4750 60  0001 C CNN
+F 1 "GND" H 1400 4850 60  0000 C CNN
+F 2 "" H 1400 5000 60  0000 C CNN
+F 3 "" H 1400 5000 60  0000 C CNN
+	1    1400 5000
+	1    0    0    -1  
+$EndComp
+Connection ~ 1400 4950
+$Comp
+L FILTER FB4
+U 1 1 55FB9C9A
+P 9200 3700
+F 0 "FB4" H 9200 3850 50  0000 C CNN
+F 1 "FILTER" H 9200 3600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 9200 3700 60  0001 C CNN
+F 3 "" H 9200 3700 60  0000 C CNN
+	1    9200 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-picociaa C23
+U 1 1 55FB9CFD
+P 8700 3900
+AR Path="/55FB9CFD" Ref="C23"  Part="1" 
+AR Path="/55F814A2/55FB9CFD" Ref="C23"  Part="1" 
+F 0 "C23" H 8750 4000 50  0000 L CNN
+F 1 "100nF" H 8750 3800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8738 3750 30  0001 C CNN
+F 3 "" H 8700 3900 60  0000 C CNN
+	1    8700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-picociaa C22
+U 1 1 55FB9D31
+P 8400 4000
+AR Path="/55FB9D31" Ref="C22"  Part="1" 
+AR Path="/55F814A2/55FB9D31" Ref="C22"  Part="1" 
+F 0 "C22" H 8450 4100 50  0000 L CNN
+F 1 "10nF" H 8450 3900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8438 3850 30  0001 C CNN
+F 3 "" H 8400 4000 60  0000 C CNN
+	1    8400 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR044
+U 1 1 55FB9DF5
+P 8200 4600
+F 0 "#PWR044" H 8200 4350 60  0001 C CNN
+F 1 "GND" H 8200 4450 60  0000 C CNN
+F 2 "" H 8200 4600 60  0000 C CNN
+F 3 "" H 8200 4600 60  0000 C CNN
+	1    8200 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 4050 8200 4600
+Wire Wire Line
+	8200 4050 8100 4050
+Wire Wire Line
+	8100 4150 8200 4150
+Connection ~ 8200 4150
+Wire Wire Line
+	8100 4250 8200 4250
+Connection ~ 8200 4250
+Wire Wire Line
+	8100 4450 8200 4450
+Connection ~ 8200 4450
+Wire Wire Line
+	8100 4550 8200 4550
+Connection ~ 8200 4550
+$Comp
+L GND #PWR045
+U 1 1 55FBA08D
+P 8400 4200
+F 0 "#PWR045" H 8400 3950 60  0001 C CNN
+F 1 "GND" H 8400 4050 60  0000 C CNN
+F 2 "" H 8400 4200 60  0000 C CNN
+F 3 "" H 8400 4200 60  0000 C CNN
+	1    8400 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR046
+U 1 1 55FBA10B
+P 8700 4100
+F 0 "#PWR046" H 8700 3850 60  0001 C CNN
+F 1 "GND" H 8700 3950 60  0000 C CNN
+F 2 "" H 8700 4100 60  0000 C CNN
+F 3 "" H 8700 4100 60  0000 C CNN
+	1    8700 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 3700 8850 3700
+Connection ~ 8700 3700
+Wire Wire Line
+	8100 3800 8400 3800
+Wire Wire Line
+	8400 3800 8400 3700
+Connection ~ 8400 3700
+Connection ~ 8400 3800
+$Comp
+L +3V3 #PWR047
+U 1 1 55FBA3EE
+P 9550 3700
+F 0 "#PWR047" H 9550 3550 60  0001 C CNN
+F 1 "+3V3" H 9550 3840 60  0000 C CNN
+F 2 "" H 9550 3700 60  0000 C CNN
+F 3 "" H 9550 3700 60  0000 C CNN
+	1    9550 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L C-RESCUE-picociaa C24
+U 1 1 55FBB3E7
+P 9450 4500
+AR Path="/55FBB3E7" Ref="C24"  Part="1" 
+AR Path="/55F814A2/55FBB3E7" Ref="C24"  Part="1" 
+F 0 "C24" H 9500 4600 50  0000 L CNN
+F 1 "100nF" H 9500 4400 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 9488 4350 30  0001 C CNN
+F 3 "" H 9450 4500 60  0000 C CNN
+	1    9450 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR048
+U 1 1 55FBB3EE
+P 9450 4700
+F 0 "#PWR048" H 9450 4450 60  0001 C CNN
+F 1 "GND" H 9450 4550 60  0000 C CNN
+F 2 "" H 9450 4700 60  0000 C CNN
+F 3 "" H 9450 4700 60  0000 C CNN
+	1    9450 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-picociaa C25
+U 1 1 55FBB3F4
+P 9750 4500
+AR Path="/55FBB3F4" Ref="C25"  Part="1" 
+AR Path="/55F814A2/55FBB3F4" Ref="C25"  Part="1" 
+F 0 "C25" H 9800 4600 50  0000 L CNN
+F 1 "100nF" H 9800 4400 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 9788 4350 30  0001 C CNN
+F 3 "" H 9750 4500 60  0000 C CNN
+	1    9750 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR049
+U 1 1 55FBB3FB
+P 9750 4700
+F 0 "#PWR049" H 9750 4450 60  0001 C CNN
+F 1 "GND" H 9750 4550 60  0000 C CNN
+F 2 "" H 9750 4700 60  0000 C CNN
+F 3 "" H 9750 4700 60  0000 C CNN
+	1    9750 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-picociaa C26
+U 1 1 55FBB401
+P 10050 4500
+AR Path="/55FBB401" Ref="C26"  Part="1" 
+AR Path="/55F814A2/55FBB401" Ref="C26"  Part="1" 
+F 0 "C26" H 10100 4600 50  0000 L CNN
+F 1 "100nF" H 10100 4400 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 10088 4350 30  0001 C CNN
+F 3 "" H 10050 4500 60  0000 C CNN
+	1    10050 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR050
+U 1 1 55FBB408
+P 10050 4700
+F 0 "#PWR050" H 10050 4450 60  0001 C CNN
+F 1 "GND" H 10050 4550 60  0000 C CNN
+F 2 "" H 10050 4700 60  0000 C CNN
+F 3 "" H 10050 4700 60  0000 C CNN
+	1    10050 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-picociaa C27
+U 1 1 55FBB40E
+P 10350 4500
+AR Path="/55FBB40E" Ref="C27"  Part="1" 
+AR Path="/55F814A2/55FBB40E" Ref="C27"  Part="1" 
+F 0 "C27" H 10400 4600 50  0000 L CNN
+F 1 "100nF" H 10400 4400 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 10388 4350 30  0001 C CNN
+F 3 "" H 10350 4500 60  0000 C CNN
+	1    10350 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR051
+U 1 1 55FBB415
+P 10350 4700
+F 0 "#PWR051" H 10350 4450 60  0001 C CNN
+F 1 "GND" H 10350 4550 60  0000 C CNN
+F 2 "" H 10350 4700 60  0000 C CNN
+F 3 "" H 10350 4700 60  0000 C CNN
+	1    10350 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 4200 10350 4300
+Wire Wire Line
+	9450 4200 10350 4200
+Wire Wire Line
+	9450 4200 9450 4300
+Wire Wire Line
+	9750 4300 9750 4200
+Connection ~ 9750 4200
+Wire Wire Line
+	10050 4300 10050 4200
+Connection ~ 10050 4200
+$Comp
+L +3V3 #PWR052
+U 1 1 55FBB422
+P 9900 4150
+F 0 "#PWR052" H 9900 4000 60  0001 C CNN
+F 1 "+3V3" H 9900 4290 60  0000 C CNN
+F 2 "" H 9900 4150 60  0000 C CNN
+F 3 "" H 9900 4150 60  0000 C CNN
+	1    9900 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 4150 9900 4200
+Connection ~ 9900 4200
+$Comp
+L +3V3 #PWR053
+U 1 1 55FBB548
+P 8200 3250
+F 0 "#PWR053" H 8200 3100 60  0001 C CNN
+F 1 "+3V3" H 8200 3390 60  0000 C CNN
+F 2 "" H 8200 3250 60  0000 C CNN
+F 3 "" H 8200 3250 60  0000 C CNN
+	1    8200 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8100 3100 8150 3100
+Wire Wire Line
+	8150 3100 8150 3400
+Wire Wire Line
+	8150 3400 8100 3400
+Wire Wire Line
+	8100 3200 8150 3200
+Connection ~ 8150 3200
+Wire Wire Line
+	8100 3300 8150 3300
+Connection ~ 8150 3300
+Wire Wire Line
+	8200 3250 8150 3250
+Connection ~ 8150 3250
+Wire Wire Line
+	8450 1250 8100 1250
+Wire Wire Line
+	8450 1350 8100 1350
+Text HLabel 8450 1450 2    60   BiDi ~ 0
+P1_3
+Wire Wire Line
+	8450 1450 8100 1450
+Text HLabel 8450 1550 2    60   BiDi ~ 0
+P1_4
+Wire Wire Line
+	8450 1550 8100 1550
+Text HLabel 8450 1650 2    60   BiDi ~ 0
+P1_5
+Wire Wire Line
+	8450 1650 8100 1650
+Text HLabel 8450 1750 2    60   BiDi ~ 0
+P1_6
+Wire Wire Line
+	8450 1750 8100 1750
+Text HLabel 8450 1850 2    60   BiDi ~ 0
+P1_7
+Wire Wire Line
+	8450 1850 8100 1850
+Text HLabel 8450 1950 2    60   BiDi ~ 0
+P1_8
+Wire Wire Line
+	8450 1950 8100 1950
+Text HLabel 8450 2050 2    60   BiDi ~ 0
+P1_9
+Wire Wire Line
+	8450 2050 8100 2050
+Text HLabel 8450 2150 2    60   BiDi ~ 0
+P1_10
+Wire Wire Line
+	8450 2150 8100 2150
+Text HLabel 8450 2250 2    60   BiDi ~ 0
+P1_11
+Wire Wire Line
+	8450 2250 8100 2250
+Text HLabel 8450 2350 2    60   BiDi ~ 0
+P1_12
+Wire Wire Line
+	8450 2350 8100 2350
+Text HLabel 8450 2450 2    60   BiDi ~ 0
+P1_13
+Wire Wire Line
+	8450 2450 8100 2450
+Text HLabel 8450 2550 2    60   BiDi ~ 0
+P1_14
+Wire Wire Line
+	8450 2550 8100 2550
+Text HLabel 8450 2650 2    60   BiDi ~ 0
+P1_15
+Wire Wire Line
+	8450 2650 8100 2650
+Text HLabel 8450 2750 2    60   BiDi ~ 0
+P1_16
+Wire Wire Line
+	8450 2750 8100 2750
+Text HLabel 8450 2850 2    60   BiDi ~ 0
+P1_17
+Wire Wire Line
+	8450 2850 8100 2850
+Text HLabel 8450 1150 2    60   BiDi ~ 0
+P1_0
+Wire Wire Line
+	8450 1150 8100 1150
+Text HLabel 2500 1350 0    60   BiDi ~ 0
+P0_2
+Wire Wire Line
+	2500 1350 2850 1350
+Text HLabel 8450 1250 2    60   BiDi ~ 0
+P1_1
+Text HLabel 8450 1350 2    60   BiDi ~ 0
+P1_2
+Text HLabel 2500 1450 0    60   BiDi ~ 0
+P0_3
+Wire Wire Line
+	2500 1450 2850 1450
+Text HLabel 2500 1550 0    60   BiDi ~ 0
+P0_4
+Wire Wire Line
+	2500 1550 2850 1550
+Text HLabel 2500 1650 0    60   BiDi ~ 0
+P0_5
+Wire Wire Line
+	2500 1650 2850 1650
+Text HLabel 2500 1750 0    60   BiDi ~ 0
+P0_6
+Wire Wire Line
+	2500 1750 2850 1750
+Text HLabel 2500 1850 0    60   BiDi ~ 0
+P0_7
+Wire Wire Line
+	2500 1850 2850 1850
+Text HLabel 2500 1950 0    60   BiDi ~ 0
+P0_8
+Wire Wire Line
+	2500 1950 2850 1950
+Text HLabel 2500 2050 0    60   BiDi ~ 0
+P0_9
+Wire Wire Line
+	2500 2050 2850 2050
+Text HLabel 2500 2150 0    60   BiDi ~ 0
+P0_10
+Wire Wire Line
+	2500 2150 2850 2150
+Text HLabel 2500 2250 0    60   BiDi ~ 0
+P0_11
+Wire Wire Line
+	2500 2250 2850 2250
+Text HLabel 2500 2350 0    60   BiDi ~ 0
+P0_12
+Wire Wire Line
+	2500 2350 2850 2350
+Text HLabel 2500 2450 0    60   BiDi ~ 0
+P0_13
+Wire Wire Line
+	2500 2450 2850 2450
+Text HLabel 2500 2750 0    60   Input ~ 0
+SWCLK
+Wire Wire Line
+	2500 2750 2850 2750
+Text HLabel 2500 2850 0    60   BiDi ~ 0
+SWDIO
+Wire Wire Line
+	2500 2850 2850 2850
+Text HLabel 2500 3250 0    60   BiDi ~ 0
+P0_21
+Wire Wire Line
+	2500 3250 2850 3250
+Text HLabel 2500 3350 0    60   BiDi ~ 0
+P0_22
+Wire Wire Line
+	2500 3350 2850 3350
+Text HLabel 2500 3450 0    60   BiDi ~ 0
+P0_23
+Text HLabel 1600 3650 0    60   BiDi ~ 0
+P0_25
+Wire Wire Line
+	1600 3650 2850 3650
+Text HLabel 1600 3750 0    60   BiDi ~ 0
+P0_26
+Wire Wire Line
+	1600 3750 2850 3750
+Text HLabel 2500 3850 0    60   BiDi ~ 0
+P0_27
+Wire Wire Line
+	2500 3850 2850 3850
+Text HLabel 2500 3950 0    60   BiDi ~ 0
+P0_28
+Wire Wire Line
+	2500 3950 2850 3950
+Wire Wire Line
+	2500 4050 2850 4050
+Wire Wire Line
+	2500 4150 2850 4150
+Wire Wire Line
+	2500 4250 2850 4250
+Wire Wire Line
+	1700 3600 1700 3650
+Connection ~ 1700 3650
+Wire Wire Line
+	1900 3600 1900 3750
+Connection ~ 1900 3750
+$Comp
+L +3V3 #PWR054
+U 1 1 55FB1695
+P 1800 3050
+F 0 "#PWR054" H 1800 2900 60  0001 C CNN
+F 1 "+3V3" H 1800 3190 60  0000 C CNN
+F 2 "" H 1800 3050 60  0000 C CNN
+F 3 "" H 1800 3050 60  0000 C CNN
+	1    1800 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 3050 1800 3100
+Wire Wire Line
+	1700 3100 1900 3100
+Connection ~ 1800 3100
+Text Label 2550 950  0    60   ~ 0
+RST
+$Comp
+L R-RESCUE-picociaa R17
+U 1 1 55FB0FA8
+P 1700 3350
+F 0 "R17" V 1780 3350 50  0000 C CNN
+F 1 "2.2k" V 1700 3350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1630 3350 30  0001 C CNN
+F 3 "" H 1700 3350 30  0000 C CNN
+	1    1700 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L R-RESCUE-picociaa R18
+U 1 1 55FB0E57
+P 1900 3350
+F 0 "R18" V 1980 3350 50  0000 C CNN
+F 1 "2.2k" V 1907 3351 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1830 3350 30  0001 C CNN
+F 3 "" H 1900 3350 30  0000 C CNN
+	1    1900 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2500 3550 2850 3550
+Wire Wire Line
+	2500 3450 2850 3450
+Text HLabel 2500 3550 0    60   BiDi ~ 0
+P0_24
+Text HLabel 2500 4050 0    60   BiDi ~ 0
+P0_29
+Text HLabel 2500 4150 0    60   BiDi ~ 0
+P0_30
+Text HLabel 2500 4250 0    60   BiDi ~ 0
+P0_31
+$Comp
+L PWR_FLAG #FLG055
+U 1 1 56058E93
+P 8700 3700
+F 0 "#FLG055" H 8700 3795 30  0001 C CNN
+F 1 "PWR_FLAG" H 8700 3880 30  0000 C CNN
+F 2 "" H 8700 3700 60  0000 C CNN
+F 3 "" H 8700 3700 60  0000 C CNN
+	1    8700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Crystal X2
+U 1 1 565A47AC
+P 2100 4750
+F 0 "X2" H 2100 4900 50  0000 C CNN
+F 1 "32.768kHz" H 2100 4600 50  0000 C CNN
+F 2 "crystals:4SOJ" H 2100 4750 60  0001 C CNN
+F 3 "" H 2100 4750 60  0000 C CNN
+	1    2100 4750
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

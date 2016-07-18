@@ -800,7 +800,7 @@
       (layers TOP F.Paste F.Mask)
       (net 322 N-00000377)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -839,7 +839,7 @@
       (layers TOP F.Paste F.Mask)
       (net 322 N-00000377)
     )
-    (model packages3d/crystal_fa-128.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/crystal_fa-128.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1.6 1.6 1.6))
       (rotate (xyz 0 0 0))
@@ -878,7 +878,7 @@
       (layers TOP F.Paste F.Mask)
       (net 166 N-00000125)
     )
-    (model packages3d/crystal_fa-128.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/crystal_fa-128.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1.6 1.6 1.6))
       (rotate (xyz 0 0 0))
@@ -909,7 +909,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 70 /CPU/RS485_DIR)
     )
-    (model packages3d/pin_array_2.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/pin_array_2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -938,7 +938,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -978,7 +978,7 @@
       (layers TOP F.Paste F.Mask)
       (net 291 N-00000317)
     )
-    (model packages3d/sot223.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot223.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1018,7 +1018,7 @@
       (layers TOP F.Paste F.Mask)
       (net 295 N-00000321)
     )
-    (model packages3d/sot223.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot223.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1058,7 +1058,7 @@
       (layers TOP F.Paste F.Mask)
       (net 294 N-00000320)
     )
-    (model packages3d/sot223.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot223.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1098,7 +1098,7 @@
       (layers TOP F.Paste F.Mask)
       (net 292 N-00000318)
     )
-    (model packages3d/sot223.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot223.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1130,7 +1130,7 @@
       (layers TOP F.Paste F.Mask)
       (net 297 N-00000326)
     )
-    (model packages3d/ptc_1812.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/ptc_1812.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1162,7 +1162,7 @@
       (layers TOP F.Paste F.Mask)
       (net 296 N-00000322)
     )
-    (model packages3d/ptc_1812.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/ptc_1812.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1194,7 +1194,7 @@
       (layers TOP F.Paste F.Mask)
       (net 293 N-00000319)
     )
-    (model packages3d/ptc_1812.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/ptc_1812.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1226,7 +1226,7 @@
       (layers TOP F.Paste F.Mask)
       (net 298 N-00000327)
     )
-    (model packages3d/ptc_1812.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/ptc_1812.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1255,7 +1255,7 @@
       (layers TOP F.Paste F.Mask)
       (net 35 /CPU/DOUT7)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1284,7 +1284,7 @@
       (layers TOP F.Paste F.Mask)
       (net 34 /CPU/DOUT6)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1313,7 +1313,7 @@
       (layers TOP F.Paste F.Mask)
       (net 33 /CPU/DOUT5)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1342,7 +1342,7 @@
       (layers TOP F.Paste F.Mask)
       (net 32 /CPU/DOUT4)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1422,7 +1422,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1452,7 +1452,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/chip_cms_pol.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -1488,7 +1488,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1524,7 +1524,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1560,7 +1560,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1592,7 +1592,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/led_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/led_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1624,7 +1624,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/led_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/led_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1657,7 +1657,7 @@
       (layers BOT B.Paste B.Mask)
       (net 5 +5V)
     )
-    (model packages3d/sod123.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sod123.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1690,7 +1690,7 @@
       (layers BOT B.Paste B.Mask)
       (net 5 +5V)
     )
-    (model packages3d/sod123.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sod123.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1723,7 +1723,7 @@
       (layers BOT B.Paste B.Mask)
       (net 5 +5V)
     )
-    (model packages3d/sod123.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sod123.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1755,7 +1755,7 @@
       (layers TOP F.Paste F.Mask)
       (net 301 N-00000330)
     )
-    (model packages3d/led_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/led_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1787,7 +1787,7 @@
       (layers TOP F.Paste F.Mask)
       (net 304 N-00000333)
     )
-    (model packages3d/led_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/led_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1819,7 +1819,7 @@
       (layers TOP F.Paste F.Mask)
       (net 305 N-00000334)
     )
-    (model packages3d/led_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/led_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1852,7 +1852,7 @@
       (layers BOT B.Paste B.Mask)
       (net 5 +5V)
     )
-    (model packages3d/sod123.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sod123.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1888,7 +1888,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1945,7 +1945,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 143 "/Salidas Digitales/NO_3")
     )
-    (model packages3d/relay.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/relay.wrl
       (at (xyz 0.05 -0.145 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2002,7 +2002,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 140 "/Salidas Digitales/NO_0")
     )
-    (model packages3d/relay.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/relay.wrl
       (at (xyz 0.05 -0.145 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2059,7 +2059,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 141 "/Salidas Digitales/NO_1")
     )
-    (model packages3d/relay.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/relay.wrl
       (at (xyz 0.05 -0.145 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2116,7 +2116,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 142 "/Salidas Digitales/NO_2")
     )
-    (model packages3d/relay.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/relay.wrl
       (at (xyz 0.05 -0.145 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2147,7 +2147,7 @@
       (layers BOT B.Paste B.Mask)
       (net 285 N-00000302)
     )
-    (model packages3d/chip_cms_pol.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -2178,7 +2178,7 @@
       (layers BOT B.Paste B.Mask)
       (net 283 N-00000300)
     )
-    (model packages3d/chip_cms_pol.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -2209,7 +2209,7 @@
       (layers BOT B.Paste B.Mask)
       (net 281 N-00000298)
     )
-    (model packages3d/chip_cms_pol.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -2240,7 +2240,7 @@
       (layers BOT B.Paste B.Mask)
       (net 277 N-00000286)
     )
-    (model packages3d/chip_cms_pol.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -2271,7 +2271,7 @@
       (layers BOT B.Paste B.Mask)
       (net 275 N-00000284)
     )
-    (model packages3d/chip_cms_pol.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -2302,7 +2302,7 @@
       (layers BOT B.Paste B.Mask)
       (net 271 N-00000279)
     )
-    (model packages3d/chip_cms_pol.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -2333,7 +2333,7 @@
       (layers BOT B.Paste B.Mask)
       (net 270 N-00000278)
     )
-    (model packages3d/chip_cms_pol.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -2364,7 +2364,7 @@
       (layers BOT B.Paste B.Mask)
       (net 279 N-00000288)
     )
-    (model packages3d/chip_cms_pol.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -2397,7 +2397,7 @@
       (layers TOP F.Paste F.Mask)
       (net 148 "/USB OTG/CHS_OTG")
     )
-    (model packages3d/DO-214AA_SMB.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/DO-214AA_SMB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2429,7 +2429,7 @@
       (layers TOP F.Paste F.Mask)
       (net 7 +VIN)
     )
-    (model packages3d/ptc_1812.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/ptc_1812.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2458,7 +2458,7 @@
       (layers BOT B.Paste B.Mask)
       (net 78 /CPU/SD_DAT3)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2513,7 +2513,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/so-8-wide.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/so-8-wide.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -2545,7 +2545,7 @@
       (layers TOP F.Paste F.Mask)
       (net 282 N-00000299)
     )
-    (model packages3d/led_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/led_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2577,7 +2577,7 @@
       (layers TOP F.Paste F.Mask)
       (net 284 N-00000301)
     )
-    (model packages3d/led_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/led_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2609,7 +2609,7 @@
       (layers TOP F.Paste F.Mask)
       (net 274 N-00000283)
     )
-    (model packages3d/led_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/led_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2641,7 +2641,7 @@
       (layers TOP F.Paste F.Mask)
       (net 280 N-00000297)
     )
-    (model packages3d/led_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/led_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2673,7 +2673,7 @@
       (layers TOP F.Paste F.Mask)
       (net 276 N-00000285)
     )
-    (model packages3d/led_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/led_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2705,7 +2705,7 @@
       (layers TOP F.Paste F.Mask)
       (net 278 N-00000287)
     )
-    (model packages3d/led_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/led_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2737,7 +2737,7 @@
       (layers TOP F.Paste F.Mask)
       (net 272 N-00000280)
     )
-    (model packages3d/led_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/led_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2769,7 +2769,7 @@
       (layers TOP F.Paste F.Mask)
       (net 273 N-00000281)
     )
-    (model packages3d/led_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/led_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2801,7 +2801,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/led_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/led_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2833,7 +2833,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/led_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/led_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2862,7 +2862,7 @@
       (layers BOT B.Paste B.Mask)
       (net 161 N-00000112)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2891,7 +2891,7 @@
       (layers BOT B.Paste B.Mask)
       (net 162 N-00000113)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2917,7 +2917,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2943,7 +2943,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3108,7 +3108,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/tssop-20.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/tssop-20.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -3198,7 +3198,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/tssop-16.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/tssop-16.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -3280,7 +3280,7 @@
       (layers BOT B.Paste B.Mask)
       (net 248 N-00000253)
     )
-    (model packages3d/tssop-14.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/tssop-14.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -3539,7 +3539,7 @@
     (pad 32 smd rect (at 3.75 5.75 180) (size 0.2794 1.4)
       (layers TOP F.Paste F.Mask)
     )
-    (model packages3d/qfp-64.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/qfp-64.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -3750,7 +3750,7 @@
     (pad 48 smd rect (at -2.75 -4.2) (size 0.26 1.4)
       (layers TOP F.Paste F.Mask)
     )
-    (model packages3d/qfp-48.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/qfp-48.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -3791,7 +3791,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/smd_push.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/smd_push.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -3881,7 +3881,7 @@
       (layers BOT B.Paste B.Mask)
       (net 24 /CPU/DIN4)
     )
-    (model packages3d/so-16.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/so-16.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3971,7 +3971,7 @@
       (layers BOT B.Paste B.Mask)
       (net 20 /CPU/DIN0)
     )
-    (model packages3d/so-16.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/so-16.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4010,7 +4010,7 @@
       (layers TOP F.Paste F.Mask)
       (net 132 /JTAG/USB_JTAG_DM)
     )
-    (model packages3d/srf2012.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/srf2012.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 0.8 0.8))
       (rotate (xyz 0 0 0))
@@ -4049,7 +4049,7 @@
       (layers TOP F.Paste F.Mask)
       (net 90 /CPU/USB_DM)
     )
-    (model packages3d/srf2012.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/srf2012.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 0.8 0.8))
       (rotate (xyz 0 0 0))
@@ -4088,7 +4088,7 @@
       (layers BOT B.Paste B.Mask)
       (net 309 N-00000343)
     )
-    (model packages3d/sot89.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot89.wrl
       (at (xyz 0 0.08 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4132,7 +4132,7 @@
       (layers BOT B.Paste B.Mask)
       (net 291 N-00000317)
     )
-    (model packages3d/SOT23_5.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/SOT23_5.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.11 0.11 0.11))
       (rotate (xyz 0 0 0))
@@ -4176,7 +4176,7 @@
       (layers BOT B.Paste B.Mask)
       (net 295 N-00000321)
     )
-    (model packages3d/SOT23_5.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/SOT23_5.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.11 0.11 0.11))
       (rotate (xyz 0 0 0))
@@ -4220,7 +4220,7 @@
       (layers BOT B.Paste B.Mask)
       (net 294 N-00000320)
     )
-    (model packages3d/SOT23_5.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/SOT23_5.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.11 0.11 0.11))
       (rotate (xyz 0 0 0))
@@ -4264,7 +4264,7 @@
       (layers BOT B.Paste B.Mask)
       (net 292 N-00000318)
     )
-    (model packages3d/SOT23_5.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/SOT23_5.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.11 0.11 0.11))
       (rotate (xyz 0 0 0))
@@ -4300,7 +4300,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4336,7 +4336,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4372,7 +4372,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4408,7 +4408,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4444,7 +4444,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4480,7 +4480,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4516,7 +4516,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4552,7 +4552,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4588,7 +4588,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4624,7 +4624,7 @@
       (layers BOT B.Paste B.Mask)
       (net 4 +3.3VADC)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4660,7 +4660,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4696,7 +4696,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4732,7 +4732,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4768,7 +4768,7 @@
       (layers BOT B.Paste B.Mask)
       (net 134 /RS485_RS232_CAN/CAN_H)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4804,7 +4804,7 @@
       (layers BOT B.Paste B.Mask)
       (net 4 +3.3VADC)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4840,7 +4840,7 @@
       (layers BOT B.Paste B.Mask)
       (net 4 +3.3VADC)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4876,7 +4876,7 @@
       (layers BOT B.Paste B.Mask)
       (net 4 +3.3VADC)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4912,7 +4912,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4947,7 +4947,7 @@
       (layers BOT B.Paste B.Mask)
       (net 316 N-00000351)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4983,7 +4983,7 @@
       (layers TOP F.Paste F.Mask)
       (net 2 +24V_A)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5019,7 +5019,7 @@
       (layers BOT B.Paste B.Mask)
       (net 308 N-00000342)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5055,7 +5055,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5091,7 +5091,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5127,7 +5127,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5163,7 +5163,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5199,7 +5199,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5235,7 +5235,7 @@
       (layers BOT B.Paste B.Mask)
       (net 4 +3.3VADC)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5271,7 +5271,7 @@
       (layers BOT B.Paste B.Mask)
       (net 4 +3.3VADC)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5307,7 +5307,7 @@
       (layers BOT B.Paste B.Mask)
       (net 4 +3.3VADC)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5343,7 +5343,7 @@
       (layers BOT B.Paste B.Mask)
       (net 4 +3.3VADC)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5379,7 +5379,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5415,7 +5415,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5451,7 +5451,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5487,7 +5487,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5523,7 +5523,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5559,7 +5559,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/sot23.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5599,7 +5599,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/sot223.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot223.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5642,7 +5642,7 @@
       (layers TOP F.Paste F.Mask)
       (net 324 N-00000379)
     )
-    (model packages3d/sot143b.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot143b.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5685,7 +5685,7 @@
       (layers TOP F.Paste F.Mask)
       (net 113 /Fuente/USB_VBUS)
     )
-    (model packages3d/sot143b.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sot143b.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5741,7 +5741,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/so-8.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/so-8.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -5797,7 +5797,7 @@
       (layers BOT B.Paste B.Mask)
       (net 220 N-00000199)
     )
-    (model packages3d/so-8.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/so-8.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -5854,7 +5854,7 @@
       (layers BOT B.Paste B.Mask)
       (net 2 +24V_A)
     )
-    (model packages3d/so-8.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/so-8.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -5911,7 +5911,7 @@
       (layers BOT B.Paste B.Mask)
       (net 17 /CPU/CAN_STB)
     )
-    (model packages3d/so-8.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/so-8.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -5966,7 +5966,7 @@
       (layers BOT B.Paste B.Mask)
       (net 113 /Fuente/USB_VBUS)
     )
-    (model packages3d/so-8.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/so-8.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -6023,7 +6023,7 @@
       (layers TOP F.Paste F.Mask)
       (net 5 +5V)
     )
-    (model packages3d/so-8.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/so-8.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -6080,7 +6080,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/so-8.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/so-8.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -6137,7 +6137,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/so-8.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/so-8.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -6170,7 +6170,7 @@
       (layers TOP F.Paste F.Mask)
       (net 65 /CPU/RESET)
     )
-    (model packages3d/sod123.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sod123.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6203,7 +6203,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/sod123.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sod123.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6236,7 +6236,7 @@
       (layers TOP F.Paste F.Mask)
       (net 229 N-00000229)
     )
-    (model packages3d/sod123.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sod123.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6269,7 +6269,7 @@
       (layers TOP F.Paste F.Mask)
       (net 5 +5V)
     )
-    (model packages3d/sod123.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/sod123.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6300,7 +6300,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/r_2010.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_2010.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6329,7 +6329,7 @@
       (layers TOP F.Paste F.Mask)
       (net 282 N-00000299)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6358,7 +6358,7 @@
       (layers BOT B.Paste B.Mask)
       (net 206 N-00000182)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6387,7 +6387,7 @@
       (layers BOT B.Paste B.Mask)
       (net 21 /CPU/DIN1)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6416,7 +6416,7 @@
       (layers BOT B.Paste B.Mask)
       (net 20 /CPU/DIN0)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6445,7 +6445,7 @@
       (layers TOP F.Paste F.Mask)
       (net 278 N-00000287)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6474,7 +6474,7 @@
       (layers TOP F.Paste F.Mask)
       (net 274 N-00000283)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6503,7 +6503,7 @@
       (layers TOP F.Paste F.Mask)
       (net 273 N-00000281)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6532,7 +6532,7 @@
       (layers TOP F.Paste F.Mask)
       (net 272 N-00000280)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6561,7 +6561,7 @@
       (layers TOP F.Paste F.Mask)
       (net 276 N-00000285)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6590,7 +6590,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6619,7 +6619,7 @@
       (layers TOP F.Paste F.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6648,7 +6648,7 @@
       (layers TOP F.Paste F.Mask)
       (net 284 N-00000301)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6677,7 +6677,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6706,7 +6706,7 @@
       (layers BOT B.Paste B.Mask)
       (net 155 GNDA)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6735,7 +6735,7 @@
       (layers BOT B.Paste B.Mask)
       (net 316 N-00000351)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6764,7 +6764,7 @@
       (layers BOT B.Paste B.Mask)
       (net 315 N-00000350)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6793,7 +6793,7 @@
       (layers BOT B.Paste B.Mask)
       (net 313 N-00000348)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6822,7 +6822,7 @@
       (layers BOT B.Paste B.Mask)
       (net 155 GNDA)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6851,7 +6851,7 @@
       (layers BOT B.Paste B.Mask)
       (net 313 N-00000348)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6880,7 +6880,7 @@
       (layers TOP F.Paste F.Mask)
       (net 5 +5V)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6909,7 +6909,7 @@
       (layers BOT B.Paste B.Mask)
       (net 197 N-00000173)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6938,7 +6938,7 @@
       (layers BOT B.Paste B.Mask)
       (net 199 N-00000175)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6967,7 +6967,7 @@
       (layers BOT B.Paste B.Mask)
       (net 206 N-00000182)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6996,7 +6996,7 @@
       (layers BOT B.Paste B.Mask)
       (net 204 N-00000180)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7025,7 +7025,7 @@
       (layers BOT B.Paste B.Mask)
       (net 205 N-00000181)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7054,7 +7054,7 @@
       (layers BOT B.Paste B.Mask)
       (net 203 N-00000179)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7083,7 +7083,7 @@
       (layers BOT B.Paste B.Mask)
       (net 201 N-00000177)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7112,7 +7112,7 @@
       (layers TOP F.Paste F.Mask)
       (net 124 /JTAG/EEDATA)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7141,7 +7141,7 @@
       (layers BOT B.Paste B.Mask)
       (net 202 N-00000178)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7170,7 +7170,7 @@
       (layers BOT B.Paste B.Mask)
       (net 206 N-00000182)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7199,7 +7199,7 @@
       (layers BOT B.Paste B.Mask)
       (net 206 N-00000182)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7228,7 +7228,7 @@
       (layers BOT B.Paste B.Mask)
       (net 206 N-00000182)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7257,7 +7257,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7286,7 +7286,7 @@
       (layers TOP F.Paste F.Mask)
       (net 155 GNDA)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7315,7 +7315,7 @@
       (layers TOP F.Paste F.Mask)
       (net 155 GNDA)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7344,7 +7344,7 @@
       (layers TOP F.Paste F.Mask)
       (net 155 GNDA)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7373,7 +7373,7 @@
       (layers TOP F.Paste F.Mask)
       (net 304 N-00000333)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7402,7 +7402,7 @@
       (layers BOT B.Paste B.Mask)
       (net 31 /CPU/DOUT3)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7431,7 +7431,7 @@
       (layers TOP F.Paste F.Mask)
       (net 243 N-00000248)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7460,7 +7460,7 @@
       (layers BOT B.Paste B.Mask)
       (net 28 /CPU/DOUT0)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7489,7 +7489,7 @@
       (layers TOP F.Paste F.Mask)
       (net 292 N-00000318)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7518,7 +7518,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7547,7 +7547,7 @@
       (layers TOP F.Paste F.Mask)
       (net 294 N-00000320)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7576,7 +7576,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7605,7 +7605,7 @@
       (layers BOT B.Paste B.Mask)
       (net 251 N-00000256)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7634,7 +7634,7 @@
       (layers TOP F.Paste F.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7663,7 +7663,7 @@
       (layers BOT B.Paste B.Mask)
       (net 305 N-00000334)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7692,7 +7692,7 @@
       (layers BOT B.Paste B.Mask)
       (net 155 GNDA)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7721,7 +7721,7 @@
       (layers TOP F.Paste F.Mask)
       (net 253 N-00000258)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7750,7 +7750,7 @@
       (layers TOP F.Paste F.Mask)
       (net 254 N-00000259)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7779,7 +7779,7 @@
       (layers TOP F.Paste F.Mask)
       (net 155 GNDA)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7808,7 +7808,7 @@
       (layers TOP F.Paste F.Mask)
       (net 237 N-00000242)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7837,7 +7837,7 @@
       (layers BOT B.Paste B.Mask)
       (net 155 GNDA)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7866,7 +7866,7 @@
       (layers TOP F.Paste F.Mask)
       (net 258 N-00000263)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7895,7 +7895,7 @@
       (layers TOP F.Paste F.Mask)
       (net 238 N-00000243)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7924,7 +7924,7 @@
       (layers TOP F.Paste F.Mask)
       (net 155 GNDA)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7953,7 +7953,7 @@
       (layers BOT B.Paste B.Mask)
       (net 155 GNDA)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7982,7 +7982,7 @@
       (layers BOT B.Paste B.Mask)
       (net 155 GNDA)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8011,7 +8011,7 @@
       (layers TOP F.Paste F.Mask)
       (net 236 N-00000241)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8040,7 +8040,7 @@
       (layers TOP F.Paste F.Mask)
       (net 234 N-00000239)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8069,7 +8069,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8098,7 +8098,7 @@
       (layers BOT B.Paste B.Mask)
       (net 23 /CPU/DIN3)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8127,7 +8127,7 @@
       (layers BOT B.Paste B.Mask)
       (net 24 /CPU/DIN4)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8156,7 +8156,7 @@
       (layers TOP F.Paste F.Mask)
       (net 155 GNDA)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8185,7 +8185,7 @@
       (layers BOT B.Paste B.Mask)
       (net 25 /CPU/DIN5)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8214,7 +8214,7 @@
       (layers BOT B.Paste B.Mask)
       (net 26 /CPU/DIN6)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8243,7 +8243,7 @@
       (layers BOT B.Paste B.Mask)
       (net 27 /CPU/DIN7)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8272,7 +8272,7 @@
       (layers BOT B.Paste B.Mask)
       (net 125 /JTAG/FT_OE)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8301,7 +8301,7 @@
       (layers BOT B.Paste B.Mask)
       (net 29 /CPU/DOUT1)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8330,7 +8330,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8359,7 +8359,7 @@
       (layers BOT B.Paste B.Mask)
       (net 22 /CPU/DIN2)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8388,7 +8388,7 @@
       (layers TOP F.Paste F.Mask)
       (net 291 N-00000317)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8417,7 +8417,7 @@
       (layers TOP F.Paste F.Mask)
       (net 295 N-00000321)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8446,7 +8446,7 @@
       (layers BOT B.Paste B.Mask)
       (net 206 N-00000182)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8475,7 +8475,7 @@
       (layers BOT B.Paste B.Mask)
       (net 247 N-00000252)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8504,7 +8504,7 @@
       (layers BOT B.Paste B.Mask)
       (net 248 N-00000253)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8533,7 +8533,7 @@
       (layers BOT B.Paste B.Mask)
       (net 262 N-00000267)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8562,7 +8562,7 @@
       (layers TOP F.Paste F.Mask)
       (net 155 GNDA)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8591,7 +8591,7 @@
       (layers TOP F.Paste F.Mask)
       (net 300 N-00000329)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8620,7 +8620,7 @@
       (layers TOP F.Paste F.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8649,7 +8649,7 @@
       (layers BOT B.Paste B.Mask)
       (net 30 /CPU/DOUT2)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8678,7 +8678,7 @@
       (layers TOP F.Paste F.Mask)
       (net 155 GNDA)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8707,7 +8707,7 @@
       (layers TOP F.Paste F.Mask)
       (net 301 N-00000330)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8736,7 +8736,7 @@
       (layers TOP F.Paste F.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8765,7 +8765,7 @@
       (layers BOT B.Paste B.Mask)
       (net 180 N-00000152)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8794,7 +8794,7 @@
       (layers TOP F.Paste F.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8823,7 +8823,7 @@
       (layers BOT B.Paste B.Mask)
       (net 107 /Ethernet/ETH_TXM)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8852,7 +8852,7 @@
       (layers BOT B.Paste B.Mask)
       (net 106 /Ethernet/ETH_RXP)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8881,7 +8881,7 @@
       (layers BOT B.Paste B.Mask)
       (net 156 GNDPWR)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8910,7 +8910,7 @@
       (layers TOP F.Paste F.Mask)
       (net 38 /CPU/ETH_MDIO)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8939,7 +8939,7 @@
       (layers BOT B.Paste B.Mask)
       (net 229 N-00000229)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8968,7 +8968,7 @@
       (layers BOT B.Paste B.Mask)
       (net 109 /Ethernet/ETX_RXM)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8997,7 +8997,7 @@
       (layers BOT B.Paste B.Mask)
       (net 185 N-00000159)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9026,7 +9026,7 @@
       (layers BOT B.Paste B.Mask)
       (net 5 +5V)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9055,7 +9055,7 @@
       (layers TOP F.Paste F.Mask)
       (net 280 N-00000297)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9084,7 +9084,7 @@
       (layers BOT B.Paste B.Mask)
       (net 134 /RS485_RS232_CAN/CAN_H)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9113,7 +9113,7 @@
       (layers BOT B.Paste B.Mask)
       (net 195 N-00000171)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9142,7 +9142,7 @@
       (layers BOT B.Paste B.Mask)
       (net 195 N-00000171)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9171,7 +9171,7 @@
       (layers BOT B.Paste B.Mask)
       (net 190 N-00000164)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9200,7 +9200,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9229,7 +9229,7 @@
       (layers BOT B.Paste B.Mask)
       (net 67 /CPU/RS232_RTS)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9258,7 +9258,7 @@
       (layers BOT B.Paste B.Mask)
       (net 5 +5V)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9287,7 +9287,7 @@
       (layers BOT B.Paste B.Mask)
       (net 184 N-00000157)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9316,7 +9316,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9345,7 +9345,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9374,7 +9374,7 @@
       (layers TOP F.Paste F.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9403,7 +9403,7 @@
       (layers TOP F.Paste F.Mask)
       (net 165 N-00000124)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9432,7 +9432,7 @@
       (layers TOP F.Paste F.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9461,7 +9461,7 @@
       (layers TOP F.Paste F.Mask)
       (net 168 N-00000131)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9490,7 +9490,7 @@
       (layers TOP F.Paste F.Mask)
       (net 111 /Ethernet/LED_SPEED)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9519,7 +9519,7 @@
       (layers BOT B.Paste B.Mask)
       (net 108 /Ethernet/ETH_TXP)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9548,7 +9548,7 @@
       (layers BOT B.Paste B.Mask)
       (net 117 /GPIO/AN3)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9577,7 +9577,7 @@
       (layers BOT B.Paste B.Mask)
       (net 116 /GPIO/AN2)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9606,7 +9606,7 @@
       (layers BOT B.Paste B.Mask)
       (net 115 /GPIO/AN1)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9635,7 +9635,7 @@
       (layers BOT B.Paste B.Mask)
       (net 114 /GPIO/AN0)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9664,7 +9664,7 @@
       (layers TOP F.Paste F.Mask)
       (net 41 /CPU/ETH_RXD0)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9693,7 +9693,7 @@
       (layers TOP F.Paste F.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9722,7 +9722,7 @@
       (layers TOP F.Paste F.Mask)
       (net 217 N-00000196)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9751,7 +9751,7 @@
       (layers TOP F.Paste F.Mask)
       (net 42 /CPU/ETH_RXD1)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9780,7 +9780,7 @@
       (layers TOP F.Paste F.Mask)
       (net 43 /CPU/ETH_RXER)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9809,7 +9809,7 @@
       (layers TOP F.Paste F.Mask)
       (net 36 /CPU/ETH_CRS_DV)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9838,7 +9838,7 @@
       (layers BOT B.Paste B.Mask)
       (net 213 N-00000191)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9867,7 +9867,7 @@
       (layers BOT B.Paste B.Mask)
       (net 216 N-00000195)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9896,7 +9896,7 @@
       (layers TOP F.Paste F.Mask)
       (net 110 /Ethernet/LED_LINK)
     )
-    (model packages3d/r_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9928,7 +9928,7 @@
       (layers TOP F.Paste F.Mask)
       (net 1 +24V)
     )
-    (model packages3d/ptc_1812.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/ptc_1812.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9960,7 +9960,7 @@
       (layers TOP F.Paste F.Mask)
       (net 120 /GPIO/USR_5V)
     )
-    (model packages3d/ptc_1210.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/ptc_1210.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9992,7 +9992,7 @@
       (layers TOP F.Paste F.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/ptc_1210.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/ptc_1210.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10024,7 +10024,7 @@
       (layers TOP F.Paste F.Mask)
       (net 310 N-00000344)
     )
-    (model packages3d/ptc_1210.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/ptc_1210.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10056,7 +10056,7 @@
       (layers TOP F.Paste F.Mask)
       (net 192 N-00000166)
     )
-    (model packages3d/ptc_1210.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/ptc_1210.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10088,7 +10088,7 @@
       (layers TOP F.Paste F.Mask)
       (net 191 N-00000165)
     )
-    (model packages3d/ptc_1210.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/ptc_1210.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10176,7 +10176,7 @@
       (layers TOP F.Paste F.Mask)
       (net 65 /CPU/RESET)
     )
-    (model packages3d/pin_strip_5x2_smd.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/pin_strip_5x2_smd.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.5 0.5 0.5))
       (rotate (xyz 0 0 0))
@@ -10231,7 +10231,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 155 GNDA)
     )
-    (model packages3d/pin_strip_4x2.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/pin_strip_4x2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10278,7 +10278,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 12 /CPU/AUX_UART_CTS/SPI_CLK)
     )
-    (model packages3d/pin_strip_3x2.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/pin_strip_3x2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10313,7 +10313,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 309 N-00000343)
     )
-    (model packages3d/pin_strip_3.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/pin_strip_3.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10348,7 +10348,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 237 N-00000242)
     )
-    (model packages3d/pin_strip_3.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/pin_strip_3.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10383,7 +10383,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 236 N-00000241)
     )
-    (model packages3d/pin_strip_3.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/pin_strip_3.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10418,7 +10418,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 258 N-00000263)
     )
-    (model packages3d/pin_strip_3.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/pin_strip_3.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10453,7 +10453,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 253 N-00000258)
     )
-    (model packages3d/pin_strip_3.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/pin_strip_3.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10492,7 +10492,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 154 GND)
     )
-    (model packages3d/pin_strip_2x2.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/pin_strip_2x2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10523,7 +10523,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 235 N-00000240)
     )
-    (model packages3d/pin_array_2.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/pin_array_2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10554,7 +10554,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 186 N-00000160)
     )
-    (model packages3d/pin_array_2.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/pin_array_2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10585,7 +10585,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 196 N-00000172)
     )
-    (model packages3d/pin_array_2.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/pin_array_2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10616,7 +10616,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 245 N-00000250)
     )
-    (model packages3d/pin_array_2.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/pin_array_2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10647,7 +10647,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 189 N-00000163)
     )
-    (model packages3d/pin_array_2.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/pin_array_2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10678,7 +10678,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 246 N-00000251)
     )
-    (model packages3d/pin_array_2.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/pin_array_2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10709,7 +10709,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 190 N-00000164)
     )
-    (model packages3d/pin_array_2.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/pin_array_2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10740,7 +10740,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 250 N-00000255)
     )
-    (model packages3d/pin_array_2.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/pin_array_2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10771,7 +10771,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 186 N-00000160)
     )
-    (model packages3d/pin_array_2.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/pin_array_2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10882,7 +10882,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 54 /CPU/GPIO15)
     )
-    (model packages3d/pin_strip_11x2.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/pin_strip_11x2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -11048,7 +11048,7 @@
       (layers TOP F.Paste F.Mask)
       (net 77 /CPU/SD_DAT2)
     )
-    (model packages3d/SD.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/SD.wrl
       (at (xyz 0 0.04 0.035))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 180 180))
@@ -11078,7 +11078,7 @@
       (layers TOP F.Paste F.Mask)
       (net 207 N-00000183)
     )
-    (model packages3d/MF-SM300.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/MF-SM300.wrl
       (at (xyz 0 0 0.045))
       (scale (xyz 1.8 1.8 1.8))
       (rotate (xyz 90 0 90))
@@ -11662,7 +11662,7 @@
       (layers TOP F.Paste F.Mask)
       (net 167 N-00000130)
     )
-    (model packages3d/lqfp144.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/lqfp144.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 -90))
@@ -11707,7 +11707,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/dpack_5.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/dpack_5.wrl
       (at (xyz 0 -0.25 0))
       (scale (xyz 1 1 1.8))
       (rotate (xyz 0 0 0))
@@ -11739,7 +11739,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/led_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/led_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -11771,7 +11771,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/led_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/led_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -11803,7 +11803,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/led_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/led_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -11835,7 +11835,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/led_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/led_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -11867,7 +11867,7 @@
       (layers TOP F.Paste F.Mask)
       (net 300 N-00000329)
     )
-    (model packages3d/led_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/led_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -11894,7 +11894,7 @@
       (layers TOP F.Paste F.Mask)
       (net 5 +5V)
     )
-    (model packages3d/inductor_smd_10x9.8.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/inductor_smd_10x9.8.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1.25 1.25 1.25))
       (rotate (xyz 0 0 0))
@@ -11937,7 +11937,7 @@
       (layers TOP F.Paste F.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/crystal_fa-128.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/crystal_fa-128.wrl
       (at (xyz 0 0 0))
       (scale (xyz 3 3.25 1))
       (rotate (xyz 0 0 0))
@@ -12001,7 +12001,7 @@
       (layers TOP F.Paste F.Mask)
       (net 245 N-00000250)
     )
-    (model packages3d/fb_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12033,7 +12033,7 @@
       (layers BOT B.Paste B.Mask)
       (net 4 +3.3VADC)
     )
-    (model packages3d/fb_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12065,7 +12065,7 @@
       (layers TOP F.Paste F.Mask)
       (net 235 N-00000240)
     )
-    (model packages3d/fb_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12097,7 +12097,7 @@
       (layers TOP F.Paste F.Mask)
       (net 155 GNDA)
     )
-    (model packages3d/fb_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12129,7 +12129,7 @@
       (layers TOP F.Paste F.Mask)
       (net 148 "/USB OTG/CHS_OTG")
     )
-    (model packages3d/fb_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12161,7 +12161,7 @@
       (layers TOP F.Paste F.Mask)
       (net 233 N-00000238)
     )
-    (model packages3d/fb_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12193,7 +12193,7 @@
       (layers BOT B.Paste B.Mask)
       (net 320 N-00000361)
     )
-    (model packages3d/fb_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12225,7 +12225,7 @@
       (layers TOP F.Paste F.Mask)
       (net 246 N-00000251)
     )
-    (model packages3d/fb_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12257,7 +12257,7 @@
       (layers TOP F.Paste F.Mask)
       (net 155 GNDA)
     )
-    (model packages3d/fb_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12289,7 +12289,7 @@
       (layers TOP F.Paste F.Mask)
       (net 121 /JTAG/CHS_DBG)
     )
-    (model packages3d/fb_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12321,7 +12321,7 @@
       (layers BOT B.Paste B.Mask)
       (net 170 N-00000142)
     )
-    (model packages3d/fb_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12353,7 +12353,7 @@
       (layers BOT B.Paste B.Mask)
       (net 2 +24V_A)
     )
-    (model packages3d/fb_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12385,7 +12385,7 @@
       (layers TOP F.Paste F.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/fb_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12417,7 +12417,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/fb_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12449,7 +12449,7 @@
       (layers BOT B.Paste B.Mask)
       (net 232 N-00000232)
     )
-    (model packages3d/fb_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12481,7 +12481,7 @@
       (layers TOP F.Paste F.Mask)
       (net 250 N-00000255)
     )
-    (model packages3d/fb_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12513,7 +12513,7 @@
       (layers BOT B.Paste B.Mask)
       (net 181 N-00000154)
     )
-    (model packages3d/fb_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12545,7 +12545,7 @@
       (layers BOT B.Paste B.Mask)
       (net 4 +3.3VADC)
     )
-    (model packages3d/fb_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12577,7 +12577,7 @@
       (layers BOT B.Paste B.Mask)
       (net 232 N-00000232)
     )
-    (model packages3d/fb_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12609,7 +12609,7 @@
       (layers BOT B.Paste B.Mask)
       (net 179 N-00000151)
     )
-    (model packages3d/fb_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12641,7 +12641,7 @@
       (layers TOP F.Paste F.Mask)
       (net 131 /JTAG/USB_DEBUG_VBUS)
     )
-    (model packages3d/fb_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12673,7 +12673,7 @@
       (layers BOT B.Paste B.Mask)
       (net 321 N-00000362)
     )
-    (model packages3d/fb_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12705,7 +12705,7 @@
       (layers BOT B.Paste B.Mask)
       (net 175 N-00000147)
     )
-    (model packages3d/fb_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/fb_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12741,7 +12741,7 @@
       (layers BOT B.Paste B.Mask)
       (net 7 +VIN)
     )
-    (model packages3d/DO-214AA_SMB.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/DO-214AA_SMB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1.64044 1.64044 1.64044))
       (rotate (xyz 0 0 0))
@@ -12777,7 +12777,7 @@
       (layers BOT B.Paste B.Mask)
       (net 1 +24V)
     )
-    (model packages3d/DO-214AA_SMB.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/DO-214AA_SMB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1.64044 1.64044 1.64044))
       (rotate (xyz 0 0 0))
@@ -12813,7 +12813,7 @@
       (layers TOP F.Paste F.Mask)
       (net 208 N-00000184)
     )
-    (model packages3d/DO-214AA_SMB.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/DO-214AA_SMB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1.64044 1.64044 1.64044))
       (rotate (xyz 0 0 0))
@@ -12849,7 +12849,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/DO-214AA_SMB.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/DO-214AA_SMB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12885,7 +12885,7 @@
       (layers BOT B.Paste B.Mask)
       (net 5 +5V)
     )
-    (model packages3d/DO-214AA_SMB.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/DO-214AA_SMB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12921,7 +12921,7 @@
       (layers BOT B.Paste B.Mask)
       (net 265 N-00000270)
     )
-    (model packages3d/DO-214AA_SMB.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/DO-214AA_SMB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12957,7 +12957,7 @@
       (layers BOT B.Paste B.Mask)
       (net 252 N-00000257)
     )
-    (model packages3d/DO-214AA_SMB.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/DO-214AA_SMB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12993,7 +12993,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/DO-214AA_SMB.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/DO-214AA_SMB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -13029,7 +13029,7 @@
       (layers BOT B.Paste B.Mask)
       (net 5 +5V)
     )
-    (model packages3d/DO-214AA_SMB.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/DO-214AA_SMB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -13065,7 +13065,7 @@
       (layers BOT B.Paste B.Mask)
       (net 239 N-00000244)
     )
-    (model packages3d/DO-214AA_SMB.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/DO-214AA_SMB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -13101,7 +13101,7 @@
       (layers BOT B.Paste B.Mask)
       (net 196 N-00000172)
     )
-    (model packages3d/DO-214AA_SMB.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/DO-214AA_SMB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -13137,7 +13137,7 @@
       (layers BOT B.Paste B.Mask)
       (net 260 N-00000265)
     )
-    (model packages3d/DO-214AA_SMB.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/DO-214AA_SMB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -13173,7 +13173,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/DO-214AA_SMB.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/DO-214AA_SMB.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -13271,7 +13271,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_elec_8x10.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_elec_8x10.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -13379,7 +13379,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_elec_10x13_5.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_elec_10x13_5.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1.285714))
       (rotate (xyz 0 0 180))
@@ -13409,7 +13409,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/chip_cms_pol.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -13439,7 +13439,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/chip_cms_pol.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -13469,7 +13469,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/chip_cms_pol.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -13499,7 +13499,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/chip_cms_pol.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -13529,7 +13529,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/chip_cms_pol.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -13559,7 +13559,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/chip_cms_pol.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -13589,7 +13589,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/chip_cms_pol.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -13619,7 +13619,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/chip_cms_pol.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -13649,7 +13649,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/chip_cms_pol.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -13679,7 +13679,7 @@
       (layers TOP F.Paste F.Mask)
       (net 155 GNDA)
     )
-    (model packages3d/chip_cms_pol.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -13709,7 +13709,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/chip_cms_pol.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -13739,7 +13739,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/chip_cms_pol.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -13769,7 +13769,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/chip_cms_pol.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -13799,7 +13799,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/chip_cms_pol.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -13829,7 +13829,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/chip_cms_pol.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/chip_cms_pol.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.16 0.16 0.16))
       (rotate (xyz 0 0 0))
@@ -13855,7 +13855,7 @@
       (layers TOP F.Paste F.Mask)
       (net 155 GNDA)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -13881,7 +13881,7 @@
       (layers TOP F.Paste F.Mask)
       (net 97 /CPU/VREFL)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -13907,7 +13907,7 @@
       (layers BOT B.Paste B.Mask)
       (net 9 /CPU/AIN1)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -13933,7 +13933,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -13959,7 +13959,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -13985,7 +13985,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14011,7 +14011,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14037,7 +14037,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14063,7 +14063,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14089,7 +14089,7 @@
       (layers BOT B.Paste B.Mask)
       (net 155 GNDA)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14115,7 +14115,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14141,7 +14141,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14167,7 +14167,7 @@
       (layers BOT B.Paste B.Mask)
       (net 97 /CPU/VREFL)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14193,7 +14193,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14219,7 +14219,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14245,7 +14245,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14271,7 +14271,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14297,7 +14297,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14323,7 +14323,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14349,7 +14349,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14375,7 +14375,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14401,7 +14401,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14427,7 +14427,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14453,7 +14453,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14479,7 +14479,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14505,7 +14505,7 @@
       (layers BOT B.Paste B.Mask)
       (net 309 N-00000343)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14531,7 +14531,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14557,7 +14557,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14583,7 +14583,7 @@
       (layers BOT B.Paste B.Mask)
       (net 159 N-00000110)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14609,7 +14609,7 @@
       (layers TOP F.Paste F.Mask)
       (net 4 +3.3VADC)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14635,7 +14635,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14661,7 +14661,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14687,7 +14687,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14713,7 +14713,7 @@
       (layers BOT B.Paste B.Mask)
       (net 26 /CPU/DIN6)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14739,7 +14739,7 @@
       (layers BOT B.Paste B.Mask)
       (net 21 /CPU/DIN1)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14765,7 +14765,7 @@
       (layers BOT B.Paste B.Mask)
       (net 22 /CPU/DIN2)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14791,7 +14791,7 @@
       (layers BOT B.Paste B.Mask)
       (net 155 GNDA)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14817,7 +14817,7 @@
       (layers BOT B.Paste B.Mask)
       (net 23 /CPU/DIN3)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14843,7 +14843,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14869,7 +14869,7 @@
       (layers BOT B.Paste B.Mask)
       (net 24 /CPU/DIN4)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14895,7 +14895,7 @@
       (layers BOT B.Paste B.Mask)
       (net 155 GNDA)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14921,7 +14921,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14947,7 +14947,7 @@
       (layers BOT B.Paste B.Mask)
       (net 5 +5V)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14973,7 +14973,7 @@
       (layers BOT B.Paste B.Mask)
       (net 25 /CPU/DIN5)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -14999,7 +14999,7 @@
       (layers TOP F.Paste F.Mask)
       (net 249 N-00000254)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15025,7 +15025,7 @@
       (layers TOP F.Paste F.Mask)
       (net 4 +3.3VADC)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15051,7 +15051,7 @@
       (layers BOT B.Paste B.Mask)
       (net 155 GNDA)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15077,7 +15077,7 @@
       (layers BOT B.Paste B.Mask)
       (net 188 N-00000162)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15103,7 +15103,7 @@
       (layers BOT B.Paste B.Mask)
       (net 155 GNDA)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15129,7 +15129,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15155,7 +15155,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15181,7 +15181,7 @@
       (layers TOP F.Paste F.Mask)
       (net 5 +5V)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15207,7 +15207,7 @@
       (layers BOT B.Paste B.Mask)
       (net 27 /CPU/DIN7)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15233,7 +15233,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15259,7 +15259,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15285,7 +15285,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15311,7 +15311,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15337,7 +15337,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15363,7 +15363,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15389,7 +15389,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15415,7 +15415,7 @@
       (layers BOT B.Paste B.Mask)
       (net 177 N-00000149)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15441,7 +15441,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15467,7 +15467,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15493,7 +15493,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15519,7 +15519,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15545,7 +15545,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15571,7 +15571,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15597,7 +15597,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15623,7 +15623,7 @@
       (layers BOT B.Paste B.Mask)
       (net 96 /CPU/VREFH)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15649,7 +15649,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15675,7 +15675,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15701,7 +15701,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15727,7 +15727,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15753,7 +15753,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15779,7 +15779,7 @@
       (layers BOT B.Paste B.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15805,7 +15805,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15831,7 +15831,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15857,7 +15857,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15883,7 +15883,7 @@
       (layers BOT B.Paste B.Mask)
       (net 11 /CPU/AIN3)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15909,7 +15909,7 @@
       (layers BOT B.Paste B.Mask)
       (net 10 /CPU/AIN2)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15935,7 +15935,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15961,7 +15961,7 @@
       (layers BOT B.Paste B.Mask)
       (net 8 /CPU/AIN0)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15987,7 +15987,7 @@
       (layers TOP F.Paste F.Mask)
       (net 261 N-00000266)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -16013,7 +16013,7 @@
       (layers TOP F.Paste F.Mask)
       (net 264 N-00000269)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -16039,7 +16039,7 @@
       (layers TOP F.Paste F.Mask)
       (net 263 N-00000268)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -16065,7 +16065,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -16091,7 +16091,7 @@
       (layers TOP F.Paste F.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -16117,7 +16117,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -16143,7 +16143,7 @@
       (layers BOT B.Paste B.Mask)
       (net 154 GND)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -16169,7 +16169,7 @@
       (layers BOT B.Paste B.Mask)
       (net 20 /CPU/DIN0)
     )
-    (model packages3d/c_0603.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -16210,7 +16210,7 @@
       (layers TOP F.Paste F.Mask)
       (net 157 N-00000104)
     )
-    (model packages3d/crystal_smd_ma-406.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/crystal_smd_ma-406.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.5659999999999999 0.85 0.71))
       (rotate (xyz 0 0 180))
@@ -16243,7 +16243,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 209 N-00000185)
     )
-    (model packages3d/keystone_3008.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/keystone_3008.wrl
       (at (xyz 0 0.05 0))
       (scale (xyz 0.95 0.95 0.95))
       (rotate (xyz 0 0 90))
@@ -16359,7 +16359,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 135 /RS485_RS232_CAN/CAN_L)
     )
-    (model packages3d/bornier_3.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/bornier_3.wrl
       (at (xyz 0.199 0 0))
       (scale (xyz 1 0.8 1))
       (rotate (xyz 0 0 0))
@@ -16407,7 +16407,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 100 "/Entradas Digitales/IN2")
     )
-    (model packages3d/bornier_3.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/bornier_3.wrl
       (at (xyz 0.199 0 0))
       (scale (xyz 1 0.8 1))
       (rotate (xyz 0 0 0))
@@ -16455,7 +16455,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 103 "/Entradas Digitales/IN5")
     )
-    (model packages3d/bornier_3.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/bornier_3.wrl
       (at (xyz 0.199 0 0))
       (scale (xyz 1 0.8 1))
       (rotate (xyz 0 0 0))
@@ -16503,7 +16503,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 193 N-00000167)
     )
-    (model packages3d/bornier_3.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/bornier_3.wrl
       (at (xyz 0.199 0 0))
       (scale (xyz 1 0.8 1))
       (rotate (xyz 0 0 0))
@@ -16551,7 +16551,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 153 DCOM)
     )
-    (model packages3d/bornier_3.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/bornier_3.wrl
       (at (xyz 0.199 0 0))
       (scale (xyz 1 0.8 1))
       (rotate (xyz 0 0 0))
@@ -16599,7 +16599,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 143 "/Salidas Digitales/NO_3")
     )
-    (model packages3d/bornier_3.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/bornier_3.wrl
       (at (xyz 0.199 0 0))
       (scale (xyz 1 0.8 1))
       (rotate (xyz 0 0 0))
@@ -16647,7 +16647,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 140 "/Salidas Digitales/NO_0")
     )
-    (model packages3d/bornier_3.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/bornier_3.wrl
       (at (xyz 0.199 0 0))
       (scale (xyz 1 0.8 1))
       (rotate (xyz 0 0 0))
@@ -16695,7 +16695,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 155 GNDA)
     )
-    (model packages3d/bornier_3.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/bornier_3.wrl
       (at (xyz 0.199 0 0))
       (scale (xyz 1 0.8 1))
       (rotate (xyz 0 0 0))
@@ -16743,7 +16743,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 138 "/Salidas Digitales/C_2")
     )
-    (model packages3d/bornier_3.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/bornier_3.wrl
       (at (xyz 0.199 0 0))
       (scale (xyz 1 0.8 1))
       (rotate (xyz 0 0 0))
@@ -16791,7 +16791,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 212 N-00000190)
     )
-    (model packages3d/bornier_3.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/bornier_3.wrl
       (at (xyz 0.199 0 0))
       (scale (xyz 1 0.8 1))
       (rotate (xyz 0 0 0))
@@ -16834,7 +16834,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 310 N-00000344)
     )
-    (model packages3d/bornier_2.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/bornier_2.wrl
       (at (xyz 0.1 0 0))
       (scale (xyz 1 0.8 1))
       (rotate (xyz 0 0 0))
@@ -16877,7 +16877,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 239 N-00000244)
     )
-    (model packages3d/bornier_2.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/bornier_2.wrl
       (at (xyz 0.1 0 0))
       (scale (xyz 1 0.8 1))
       (rotate (xyz 0 0 0))
@@ -16920,7 +16920,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 154 GND)
     )
-    (model packages3d/bornier_2.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/bornier_2.wrl
       (at (xyz 0.1 0 0))
       (scale (xyz 1 0.8 1))
       (rotate (xyz 0 0 0))
@@ -16963,7 +16963,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 147 "/Salidas Digitales/O3")
     )
-    (model packages3d/bornier_2.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/bornier_2.wrl
       (at (xyz 0.1 0 0))
       (scale (xyz 1 0.8 1))
       (rotate (xyz 0 0 0))
@@ -17006,7 +17006,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 145 "/Salidas Digitales/O1")
     )
-    (model packages3d/bornier_2.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/bornier_2.wrl
       (at (xyz 0.1 0 0))
       (scale (xyz 1 0.8 1))
       (rotate (xyz 0 0 0))
@@ -17079,7 +17079,7 @@
       (layers TOP F.Paste F.Mask)
       (net 121 /JTAG/CHS_DBG)
     )
-    (model packages3d/usb_B_micro_smd.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/usb_B_micro_smd.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -17153,7 +17153,7 @@
       (layers TOP F.Paste F.Mask)
       (net 148 "/USB OTG/CHS_OTG")
     )
-    (model packages3d/usb_B_micro_smd.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/usb_B_micro_smd.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -17246,7 +17246,7 @@
       (layers *.Cu *.Mask F.SilkS)
       (net 156 GNDPWR)
     )
-    (model packages3d/db9_female_pin90deg.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/db9_female_pin90deg.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -17334,7 +17334,7 @@
       (layers *.Cu *.Mask)
       (net 3 +3.3V)
     )
-    (model packages3d/RJ45_8.wrl
+    (model  ${KIPRJMOD}/footprints.3dshapes/RJ45_8.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))

@@ -1,0 +1,147 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:CIAA_Safety_VTI_1.0-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 5
+Title "MEMORIA FLASH"
+Date "2016-06-02"
+Rev "1.0"
+Comp "PROYECTO CIAA SAFETY"
+Comment1 "Ing. Fusari Diego"
+Comment2 "MODULO PROCESADOR SAFETY"
+Comment3 "Licencia: Ver 'doc/LICENCIA.txt'"
+Comment4 ""
+$EndDescr
+Text HLabel 4290 3890 2    60   Input ~ 0
+SPI4CLK
+Text HLabel 2990 4790 0    60   Input ~ 0
+SPI4NCS[0]
+Text HLabel 4290 4040 2    60   Input ~ 0
+SPI4SIMO[0]
+Text HLabel 2990 4940 0    60   Output ~ 0
+SPI4SOMI[0]
+$Comp
+L S70FL01GS U5
+U 1 1 56C20C2A
+P 3640 4390
+F 0 "U5" H 3270 5140 60  0000 C CNN
+F 1 "S70FL01GS" H 3440 5040 60  0000 C CNN
+F 2 "w_smd_dil:soic-16" H 3490 5240 60  0001 C CNN
+F 3 "" H 3490 5240 60  0000 C CNN
+	1    3640 4390
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2990 4340
+NoConn ~ 2990 4490
+NoConn ~ 4290 4490
+NoConn ~ 4290 4640
+NoConn ~ 4290 4340
+NoConn ~ 4290 4190
+Wire Wire Line
+	2990 3890 2830 3890
+Wire Wire Line
+	2830 3390 2830 4040
+Wire Wire Line
+	2830 4040 2990 4040
+Connection ~ 2830 3890
+$Comp
+L C C7
+U 1 1 56C20E86
+P 2600 3740
+F 0 "C7" H 2625 3840 50  0000 L CNN
+F 1 "100nF" H 2320 3620 50  0000 L CNN
+F 2 "w_smd_cap:c_0603" H 2638 3590 30  0001 C CNN
+F 3 "" H 2600 3740 60  0000 C CNN
+	1    2600 3740
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3590 2600 3520
+Wire Wire Line
+	2600 3520 2830 3520
+Connection ~ 2830 3520
+$Comp
+L +3.3V #PWR062
+U 1 1 56C20F2E
+P 2830 3390
+F 0 "#PWR062" H 2830 3240 50  0001 C CNN
+F 1 "+3.3V" H 2830 3530 50  0000 C CNN
+F 2 "" H 2830 3390 60  0000 C CNN
+F 3 "" H 2830 3390 60  0000 C CNN
+	1    2830 3390
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR063
+U 1 1 56C20F96
+P 2600 4000
+F 0 "#PWR063" H 2600 3750 50  0001 C CNN
+F 1 "GND" H 2600 3850 50  0000 C CNN
+F 2 "" H 2600 4000 60  0000 C CNN
+F 3 "" H 2600 4000 60  0000 C CNN
+	1    2600 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3890 2600 4000
+Wire Wire Line
+	4290 4940 4640 4940
+$Comp
+L C C8
+U 1 1 56C210D1
+P 4410 5200
+F 0 "C8" H 4435 5300 50  0000 L CNN
+F 1 "100nF" H 4435 5100 50  0000 L CNN
+F 2 "w_smd_cap:c_0603" H 4448 5050 30  0001 C CNN
+F 3 "" H 4410 5200 60  0000 C CNN
+	1    4410 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4410 5050 4410 4940
+Connection ~ 4410 4940
+$Comp
+L GND #PWR064
+U 1 1 56C211FB
+P 4410 5430
+F 0 "#PWR064" H 4410 5180 50  0001 C CNN
+F 1 "GND" H 4410 5280 50  0000 C CNN
+F 2 "" H 4410 5430 60  0000 C CNN
+F 3 "" H 4410 5430 60  0000 C CNN
+	1    4410 5430
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4410 5430 4410 5350
+$Comp
+L +3.3V #PWR065
+U 1 1 56C212DF
+P 4640 4940
+F 0 "#PWR065" H 4640 4790 50  0001 C CNN
+F 1 "+3.3V" H 4640 5080 50  0000 C CNN
+F 2 "" H 4640 4940 60  0000 C CNN
+F 3 "" H 4640 4940 60  0000 C CNN
+	1    4640 4940
+	0    1    1    0   
+$EndComp
+NoConn ~ 2990 4640
+$Comp
+L GND #PWR066
+U 1 1 56C217DC
+P 4290 4790
+F 0 "#PWR066" H 4290 4540 50  0001 C CNN
+F 1 "GND" H 4290 4640 50  0000 C CNN
+F 2 "" H 4290 4790 60  0000 C CNN
+F 3 "" H 4290 4790 60  0000 C CNN
+	1    4290 4790
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 2990 4190
+Text Notes 1240 1470 0    196  ~ 39
+MEMORIA FLASH SPI - 512 Mb
+Text Notes 5660 4640 0    99   ~ 0
+S25FL01GS - Memoria Flash no volatil de 1Gb (128 MB). \nContiene dos bloques de 512 Mb de los cuales se utiliza \nuno solo por lo que puede reemplazarse por \nS25FL512S (64MB). 
+$EndSCHEMATC
