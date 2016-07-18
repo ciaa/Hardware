@@ -1,15 +1,14 @@
 EESchema Schematic File Version 2
-LIBS:EDU_CIAA_K60-rescue
 LIBS:edu-ciaa-fsl
 LIBS:EDU_CIAA_K60-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 7 8
+Sheet 8 8
 Title "Microcontrolador Freescale K60"
-Date "9 oct 2015"
-Rev "0.0"
+Date "26 feb 2016"
+Rev "1.0"
 Comp "EDU-CIAA - FSL . Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
 Comment2 ""
@@ -87,17 +86,6 @@ F 1 "GND" H 2850 10680 40  0001 C CNN
 F 2 "" H 2850 10750 60  0000 C CNN
 F 3 "" H 2850 10750 60  0000 C CNN
 	1    2850 10750
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR114
-U 1 1 52C1C30C
-P 1150 3500
-F 0 "#PWR114" H 1150 3500 40  0001 C CNN
-F 1 "GND" H 1150 3430 40  0001 C CNN
-F 2 "" H 1150 3500 60  0000 C CNN
-F 3 "" H 1150 3500 60  0000 C CNN
-	1    1150 3500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -202,7 +190,7 @@ Text HLabel 5700 8050 2    60   BiDi ~ 0
 GPIO3/SD_DAT1
 Text HLabel 5700 8150 2    60   BiDi ~ 0
 GPIO2/SD_DAT0
-Text HLabel 6530 8250 2    60   Output ~ 0
+Text HLabel 5705 8250 2    60   BiDi ~ 0
 GPIO6/SD_CLK
 Text HLabel 5700 8350 2    60   BiDi ~ 0
 GPIO1/SD_CMD
@@ -513,23 +501,6 @@ F 9 "~" H 1100 2950 60  0001 C CNN "Footprint estandar"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C32
-U 1 1 538A5E6A
-P 850 3250
-F 0 "C32" H 700 3400 40  0000 C CNN
-F 1 "20pF" H 700 3350 40  0000 C CNN
-F 2 "c_0805" H 5400 2650 60  0001 C CNN
-F 3 "KEM_C1003_C0G_SMD.pdf" H 5400 2650 60  0001 C CNN
-F 4 "CAP CER 20PF 50V 5% NP0 0805" H 6700 -600 60  0001 C CNN "Descripcion"
-F 5 "Kemet" H 6700 -600 60  0001 C CNN "Fabricante"
-F 6 "C0805C200J5GACTU" H 6700 -600 60  0001 C CNN "Nro. parte"
-F 7 "..PCB/EDU-FSL/Datasheets" H 6700 -600 60  0001 C CNN "Path datasheet"
-F 8 "399-8033-1-ND" H 6700 -600 60  0001 C CNN "Digikey/Mouser"
-F 9 "0805" H 6700 -600 60  0001 C CNN "Footprint estandar"
-	1    850  3250
-	1    0    0    -1  
-$EndComp
-$Comp
 L R R50
 U 1 1 538A6DD0
 P 1100 4200
@@ -723,23 +694,6 @@ F 9 "SOD80" H 7000 7050 60  0001 C CNN "Footprint estandar"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C36
-U 1 1 53993378
-P 1350 3250
-F 0 "C36" H 1450 3150 40  0000 C CNN
-F 1 "20pF" H 1450 3050 40  0000 C CNN
-F 2 "c_0805" H 5400 2650 60  0001 C CNN
-F 3 "KEM_C1003_C0G_SMD.pdf" H 5400 2650 60  0001 C CNN
-F 4 "CAP CER 20PF 50V 5% NP0 0805" H 6700 -600 60  0001 C CNN "Descripcion"
-F 5 "Kemet" H 6700 -600 60  0001 C CNN "Fabricante"
-F 6 "C0805C200J5GACTU" H 6700 -600 60  0001 C CNN "Nro. parte"
-F 7 "..PCB/EDU-FSL/Datasheets" H 6700 -600 60  0001 C CNN "Path datasheet"
-F 8 "399-8033-1-ND" H 6700 -600 60  0001 C CNN "Digikey/Mouser"
-F 9 "0805" H 6700 -600 60  0001 C CNN "Footprint estandar"
-	1    1350 3250
-	1    0    0    -1  
-$EndComp
-$Comp
 L MK60FX512VLQ15 U10
 U 1 1 5390F219
 P 4000 4800
@@ -761,8 +715,6 @@ Wire Wire Line
 	1000 10150 1000 10250
 Wire Wire Line
 	2600 10150 2600 10250
-Wire Wire Line
-	1150 3500 1150 3100
 Wire Wire Line
 	1200 10150 1200 10250
 Wire Wire Line
@@ -903,27 +855,17 @@ Wire Wire Line
 Wire Wire Line
 	2400 4550 2300 4550
 Wire Wire Line
-	850  3450 1350 3450
-Connection ~ 1150 3450
-Wire Wire Line
 	850  2750 2400 2750
 Wire Wire Line
-	850  2750 850  3050
-Wire Wire Line
 	950  2950 850  2950
-Connection ~ 850  2950
-Wire Wire Line
-	1350 3050 1350 2850
 Wire Wire Line
 	1350 2850 2400 2850
 Wire Wire Line
 	1250 2950 1350 2950
-Connection ~ 1350 2950
 Wire Wire Line
 	1050 3100 1050 3150
 Wire Wire Line
 	1050 3150 1150 3150
-Connection ~ 1150 3150
 Wire Wire Line
 	1100 3850 1100 3950
 Wire Wire Line
@@ -1029,8 +971,6 @@ Wire Wire Line
 	2400 7850 2300 7850
 Wire Wire Line
 	5700 8150 5600 8150
-Wire Wire Line
-	5600 8250 5950 8250
 Wire Wire Line
 	5600 8050 5700 8050
 Wire Wire Line
@@ -1173,7 +1113,7 @@ F 7 "..PCB/EDU-FSL/Datasheets" H 1200 2000 60  0001 C CNN "Path datasheet"
 F 8 "1080-1412-1-ND" H 1200 2000 60  0001 C CNN "Digikey/Mouser"
 F 9 "0805" H 1200 2000 60  0001 C CNN "Footprint estandar"
 	1    1200 2000
-	0    1    -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L R R51
@@ -1327,7 +1267,7 @@ F 9 "0805" H 7400 800 60  0001 C CNN "Footprint estandar"
 	1    6900 2900
 	0    -1   -1   0   
 $EndComp
-Text HLabel 5700 7050 2    60   Output ~ 0
+Text HLabel 5700 7050 2    60   BiDi ~ 0
 GPIO0/SD_POW
 Text HLabel 5700 5850 2    60   Input ~ 0
 PULS_0
@@ -1399,15 +1339,15 @@ Text HLabel 2300 9050 0    60   Input ~ 0
 WAKEUP
 Wire Wire Line
 	2300 9050 2400 9050
-Text HLabel 2300 8850 0    60   Input ~ 0
-ISP
+Text HLabel 2300 8850 0    60   BiDi ~ 0
+GPIO9
 Wire Wire Line
 	2400 8850 2300 8850
-Text HLabel 2300 3050 0    60   Input ~ 0
+Text HLabel 2300 3050 0    60   BiDi ~ 0
 GPIO8/ETH_RXER
 Wire Wire Line
 	2400 3050 2300 3050
-Text HLabel 2300 3850 0    60   Output ~ 0
+Text HLabel 2300 3850 0    60   BiDi ~ 0
 GPIO7/ETH_RST
 Wire Wire Line
 	2400 3850 2300 3850
@@ -1415,25 +1355,8 @@ NoConn ~ 2400 1850
 NoConn ~ 2400 1950
 NoConn ~ 2400 2050
 NoConn ~ 2400 2150
-$Comp
-L R R53
-U 1 1 555656E1
-P 6200 8250
-F 0 "R53" V 6240 8490 39  0000 C CNN
-F 1 "22" V 6200 8250 40  0000 C CNN
-F 2 "r_0805" H 4300 3850 60  0001 C CNN
-F 3 "SEI-RMCF_RMCP.pdf" H 4300 3850 60  0001 C CNN
-F 4 "RES 22 OHM 1/8W 5% 0805" H 6050 1850 60  0001 C CNN "Descripcion"
-F 5 "Stackpole Electronics Inc" H 6050 1850 60  0001 C CNN "Fabricante"
-F 6 "RMCF0805JT22R0" H 6050 1850 60  0001 C CNN "Nro. parte"
-F 7 "..PCB/EDU-FSL/Datasheets" H 4300 3850 60  0001 C CNN "Path datasheet"
-F 8 "RMCF0805JT22R0CT-ND" H 6050 1850 60  0001 C CNN "Digikey/Mouser"
-F 9 "0805" H 6050 1850 60  0001 C CNN "Footprint estandar"
-	1    6200 8250
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	6450 8250 6530 8250
+	5600 8250 5705 8250
 NoConn ~ 5600 4650
 NoConn ~ 5600 4750
 $Comp
@@ -1520,7 +1443,7 @@ F 0 "C52" H 7350 3350 40  0000 C CNN
 F 1 "20pF" H 7350 3250 40  0000 C CNN
 F 2 "c_0805" H 11300 2850 60  0001 C CNN
 F 3 "KEM_C1003_C0G_SMD.pdf" H 11300 2850 60  0001 C CNN
-F 4 "CAP CER 20PF 50V 5% NP0 0805" H 7250 3450 60  0001 C CNN "Descripción"
+F 4 "CAP CER 20PF 50V 5% NP0 0805" H 7250 3450 60  0001 C CNN "Descripcion"
 F 5 "Kemet" H 7250 3450 60  0001 C CNN "Fabricante"
 F 6 "C0805C200J5GACTU" H 12600 -400 60  0001 C CNN "Nro. parte"
 F 7 "..PCB/EDU-FSL/Datasheets" H 12600 -400 60  0001 C CNN "Path datasheet"
@@ -1529,4 +1452,56 @@ F 9 "0805" H 12600 -400 60  0001 C CNN "Footprint estandar"
 	1    7250 3450
 	1    0    0    -1  
 $EndComp
+$Comp
+L R R?
+U 1 1 56D8E2FD
+P 5975 4150
+F 0 "R?" V 6055 4150 40  0000 C CNN
+F 1 "10M" V 5982 4151 40  0000 C CNN
+F 2 "r_0805" H 4725 4050 60  0001 C CNN
+F 3 "SEI-RMCF_RMCP.pdf" H 4725 4050 60  0001 C CNN
+F 4 "RES 10M OHM 1/8W 5% 0805" H 6475 2050 60  0001 C CNN "Descripcion"
+F 5 "Stackpole Electronics Inc" H 6475 2050 60  0001 C CNN "Fabricante"
+F 6 "RMCF0805JT10M0" H 6475 2050 60  0001 C CNN "Nro. parte"
+F 7 "..PCB/EDU-FSL/Datasheets" H 4725 4050 60  0001 C CNN "Path datasheet"
+F 8 "RMCF0805JT10M0CT-ND" H 6475 2050 60  0001 C CNN "Digikey/Mouser"
+F 9 "0805" H 6475 2050 60  0001 C CNN "Footprint estandar"
+	1    5975 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 56D8E6C6
+P 6325 4025
+F 0 "#PWR?" H 6325 3985 40  0001 C CNN
+F 1 "+3.3V" H 6325 4135 40  0000 C CNN
+F 2 "" H 6325 4025 60  0000 C CNN
+F 3 "" H 6325 4025 60  0000 C CNN
+	1    6325 4025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6325 4075 6325 4025
+$Comp
+L GND #PWR114
+U 1 1 52C1C30C
+P 1100 3250
+F 0 "#PWR114" H 1100 3250 40  0001 C CNN
+F 1 "GND" H 1100 3180 40  0001 C CNN
+F 2 "" H 1100 3250 60  0000 C CNN
+F 3 "" H 1100 3250 60  0000 C CNN
+	1    1100 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 2950 1350 2850
+Wire Wire Line
+	850  2950 850  2750
+Wire Wire Line
+	1150 3150 1150 3100
+Wire Wire Line
+	1100 3150 1100 3250
+Wire Wire Line
+	1100 3250 1125 3250
+Connection ~ 1100 3150
 $EndSCHEMATC

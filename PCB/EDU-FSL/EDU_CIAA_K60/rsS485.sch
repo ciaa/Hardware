@@ -1,15 +1,14 @@
 EESchema Schematic File Version 2
-LIBS:EDU_CIAA_K60-rescue
 LIBS:edu-ciaa-fsl
 LIBS:EDU_CIAA_K60-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 8
 Title "CIAA RS485 "
-Date "9 oct 2015"
-Rev "0.0"
+Date "26 feb 2016"
+Rev "1.0"
 Comp "EDU-CIAA - FSL . Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
 Comment2 ""
@@ -165,7 +164,7 @@ F 9 "~" H 8700 3300 60  0001 C CNN "Footprint estandar"
 	1    8700 3300
 	-1   0    0    -1  
 $EndComp
-Text Notes 7000 2250 0    60   ~ 0
+Text Notes 7000 2325 0    60   ~ 0
 JP2, JP3, JP4: cortocircuitar en\ncaso que sea el último nodo de la red.
 $Comp
 L R R14
@@ -529,7 +528,7 @@ F 9 "0805" H 6500 650 60  0001 C CNN "Footprint estandar"
 	1    6900 5200
 	1    0    0    -1  
 $EndComp
-Text Notes 3900 5400 0    60   ~ 0
+Text Notes 3900 5575 0    60   ~ 0
 Los resistores de 390 y 220 se denominan bias resistors\ny son los recomendados en la especificación de Profibus.\nR18: De acuerdo a Fig 27 de la AN slla070d de TI.
 $Comp
 L +5V #PWR73

@@ -1,15 +1,14 @@
 EESchema Schematic File Version 2
-LIBS:EDU_CIAA_K60-rescue
 LIBS:edu-ciaa-fsl
 LIBS:EDU_CIAA_K60-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 8
 Title "Conectores JTAG y DEBUG USB"
-Date "9 oct 2015"
-Rev "0.0"
+Date "26 feb 2016"
+Rev "1.0"
 Comp "EDU-CIAA - FSL . Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
 Comment2 ""
@@ -929,9 +928,9 @@ F 9 "0805" H 1800 3950 60  0001 C CNN "Footprint estandar"
 	1    1800 3950
 	1    0    0    -1  
 $EndComp
-Text Notes 5150 4300 0    60   ~ 0
+Text Notes 5150 4375 0    60   ~ 0
 Channel A:\n  MPSSE
-Text Notes 5650 6050 0    60   ~ 0
+Text Notes 5650 6125 0    60   ~ 0
  Channel B: \nASYNC Serial
 $Comp
 L 74HC244 U6
@@ -950,7 +949,7 @@ F 9 "TSSOP-20" H 6850 5000 60  0001 C CNN "Footprint estandar"
 	1    6850 5000
 	1    0    0    -1  
 $EndComp
-Text Notes 6100 3250 0    60   ~ 0
+Text Notes 6100 3450 0    60   ~ 0
 Pin ACBUS2 (FT_OE): default\ntri-stated input with an internal\n75KΩ pull up resistor to VCCIO.\n
 NoConn ~ 6350 5250
 NoConn ~ 6350 5350
@@ -1411,7 +1410,7 @@ Wire Wire Line
 	8850 1550 8800 1550
 Wire Wire Line
 	7900 1550 7850 1550
-Text Notes 8650 6150 0    60   ~ 0
+Text Notes 8625 6225 0    60   ~ 0
 The external EEPROM can be used to customise\nthe USB VID, PID, Serial Number, Product\nDescription Strings and Power Descriptor
 Wire Notes Line
 	11100 6400 8400 6400
@@ -1574,7 +1573,7 @@ F 3 "" H 9900 1600 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	9900 1600 9900 1550
-Text Notes 750  6250 0    60   ~ 0
+Text Notes 975  6725 0    60   ~ 0
 OSC. 12MHz
 Wire Notes Line
 	6300 6200 6300 5900
@@ -1660,23 +1659,6 @@ $EndComp
 Wire Wire Line
 	1550 7600 1550 7650
 $Comp
-L R R6
-U 1 1 558C651E
-P 1200 6850
-F 0 "R6" V 1280 6850 40  0000 C CNN
-F 1 "10M" V 1207 6851 40  0000 C CNN
-F 2 "r_0805" H -50 6750 60  0001 C CNN
-F 3 "SEI-RMCF_RMCP.pdf" H -50 6750 60  0001 C CNN
-F 4 "RES 10M OHM 1/8W 5% 0805" H 1700 4750 60  0001 C CNN "Descripcion"
-F 5 "Stackpole Electronics Inc" H 1700 4750 60  0001 C CNN "Fabricante"
-F 6 "RMCF0805JT10M0" H 1700 4750 60  0001 C CNN "Nro. parte"
-F 7 "..PCB/EDU-FSL/Datasheets" H -50 6750 60  0001 C CNN "Path datasheet"
-F 8 "RMCF0805JT10M0CT-ND" H 1700 4750 60  0001 C CNN "Digikey/Mouser"
-F 9 "0805" H 1700 4750 60  0001 C CNN "Footprint estandar"
-	1    1200 6850
-	0    -1   -1   0   
-$EndComp
-$Comp
 L GND #PWR33
 U 1 1 558C6524
 P 850 7650
@@ -1721,13 +1703,7 @@ Wire Wire Line
 Wire Wire Line
 	850  6600 850  7200
 Connection ~ 850  7100
-Wire Wire Line
-	1450 6850 1550 6850
 Connection ~ 1550 7100
-Connection ~ 850  6850
-Connection ~ 1550 6850
-Wire Wire Line
-	850  6850 950  6850
 $Comp
 L C C8
 U 1 1 558C6549
@@ -1736,7 +1712,7 @@ F 0 "C8" H 950 7300 40  0000 C CNN
 F 1 "20pF" H 950 7200 40  0000 C CNN
 F 2 "c_0805" H 4900 6800 60  0001 C CNN
 F 3 "KEM_C1003_C0G_SMD.pdf" H 4900 6800 60  0001 C CNN
-F 4 "CAP CER 20PF 50V 5% NP0 0805" H 850 7400 60  0001 C CNN "Descripción"
+F 4 "CAP CER 20PF 50V 5% NP0 0805" H 850 7400 60  0001 C CNN "Descripcion"
 F 5 "Kemet" H 850 7400 60  0001 C CNN "Fabricante"
 F 6 "C0805C200J5GACTU" H 6200 3550 60  0001 C CNN "Nro. parte"
 F 7 "..PCB/EDU-FSL/Datasheets" H 6200 3550 60  0001 C CNN "Path datasheet"
@@ -1753,7 +1729,7 @@ F 0 "C53" H 1650 7300 40  0000 C CNN
 F 1 "20pF" H 1650 7200 40  0000 C CNN
 F 2 "c_0805" H 5600 6800 60  0001 C CNN
 F 3 "KEM_C1003_C0G_SMD.pdf" H 5600 6800 60  0001 C CNN
-F 4 "CAP CER 20PF 50V 5% NP0 0805" H 1550 7400 60  0001 C CNN "Descripción"
+F 4 "CAP CER 20PF 50V 5% NP0 0805" H 1550 7400 60  0001 C CNN "Descripcion"
 F 5 "Kemet" H 1550 7400 60  0001 C CNN "Fabricante"
 F 6 "C0805C200J5GACTU" H 6900 3550 60  0001 C CNN "Nro. parte"
 F 7 "..PCB/EDU-FSL/Datasheets" H 6900 3550 60  0001 C CNN "Path datasheet"
@@ -1765,8 +1741,7 @@ $EndComp
 Wire Wire Line
 	1900 6600 850  6600
 Wire Wire Line
-	1550 6850 1550 7200
-Wire Wire Line
 	1900 6900 1550 6900
-Connection ~ 1550 6900
+Wire Wire Line
+	1550 6900 1550 7200
 $EndSCHEMATC
