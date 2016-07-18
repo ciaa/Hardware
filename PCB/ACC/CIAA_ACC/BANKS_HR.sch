@@ -1,0 +1,689 @@
+EESchema Schematic File Version 2
+LIBS:CIAA_ACC
+LIBS:XC7Z030_FBG676
+LIBS:DDR3_x16
+LIBS:FMC_HPC
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ciaa_acc-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 16 16
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L XC7Z030_FBG676 U?
+U 2 1 56E704F4
+P 2350 2150
+AR Path="/56D9CF9B/56E704F4" Ref="U?"  Part="2" 
+AR Path="/56E6FE5C/56E704F4" Ref="U?"  Part="2" 
+AR Path="/56D9CF9B/56E6FE5C/56E704F4" Ref="U1"  Part="2" 
+F 0 "U1" H 1550 3600 60  0000 C CNN
+F 1 "XC7Z030-2FBG676I" H 2800 3600 60  0000 C CNN
+F 2 "bga:FBG676" H 2350 3631 60  0001 C CNN
+F 3 "" H 2350 2150 60  0000 C CNN
+F 4 "IC SOC CORTEX-A9 KINTEX7 676FBGA" H 2350 2150 60  0001 C CNN "Descripcion"
+F 5 "Xilinx" H 2350 2150 60  0001 C CNN "Fabricante"
+F 6 "XC7Z030-2FBG676I" H 2350 2150 60  0001 C CNN "Nro. parte"
+F 7 "XC7Z030-2FBG676I-ND" H 2350 2150 60  0001 C CNN "Digikey/Mouser"
+	2    2350 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L XC7Z030_FBG676 U?
+U 3 1 56E70500
+P 2350 5600
+AR Path="/56D9CF9B/56E70500" Ref="U?"  Part="3" 
+AR Path="/56E6FE5C/56E70500" Ref="U?"  Part="3" 
+AR Path="/56D9CF9B/56E6FE5C/56E70500" Ref="U1"  Part="3" 
+F 0 "U1" H 1550 7050 60  0000 C CNN
+F 1 "XC7Z030-2FBG676I" H 2800 7050 60  0000 C CNN
+F 2 "bga:FBG676" H 2350 7081 60  0001 C CNN
+F 3 "" H 2350 5600 60  0000 C CNN
+F 4 "IC SOC CORTEX-A9 KINTEX7 676FBGA" H 2350 5600 60  0001 C CNN "Descripcion"
+F 5 "Xilinx" H 2350 5600 60  0001 C CNN "Fabricante"
+F 6 "XC7Z030-2FBG676I" H 2350 5600 60  0001 C CNN "Nro. parte"
+F 7 "XC7Z030-2FBG676I-ND" H 2350 5600 60  0001 C CNN "Digikey/Mouser"
+	3    2350 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L FMC_HPC J5
+U 3 1 56E705EE
+P 9100 2750
+F 0 "J5" H 8300 4650 60  0000 C CNN
+F 1 "FMC_HPC" H 9800 4650 60  0000 C CNN
+F 2 "samtec:ASP-134486-01" H 9100 2750 60  0001 C CNN
+F 3 "" H 9100 2750 60  0000 C CNN
+F 4 "FMC HPC" H 9100 2750 60  0001 C CNN "Descripcion"
+F 5 "Samtec" H 9100 2750 60  0001 C CNN "Fabricante"
+F 6 "ASP-134486-01" H 9100 2750 60  0001 C CNN "Nro. parte"
+F 7 "ASP-134485-01" H 9100 2750 60  0001 C CNN "Reemplazo"
+	3    9100 2750
+	1    0    0    -1  
+$EndComp
+Text HLabel 3500 6100 2    40   Output ~ 0
+RS485_ENA
+Text HLabel 3500 6400 2    40   Output ~ 0
+UART_EMIO_TX
+Text HLabel 3500 6300 2    40   Input ~ 0
+UART_EMIO_RX
+Text HLabel 3500 5600 2    40   Input ~ 0
+DIN2
+Text HLabel 3500 4600 2    40   Input ~ 0
+DIN3
+Text HLabel 3500 5500 2    40   Input ~ 0
+DIN0
+Text HLabel 3500 4500 2    40   Input ~ 0
+DIN1
+Text HLabel 3500 5200 2    40   Output ~ 0
+DOUT0
+Text HLabel 3500 5100 2    40   Output ~ 0
+DOUT1
+Text HLabel 3500 4700 2    40   Output ~ 0
+DOUT2
+Text HLabel 3500 4800 2    40   Output ~ 0
+DOUT3
+Text Label 10250 1000 0    40   ~ 0
+FMC_LA_0_N
+Text Label 10250 1100 0    40   ~ 0
+FMC_LA_0_P
+Text Label 10250 1200 0    40   ~ 0
+FMC_LA_1_N
+Text Label 10250 1400 0    40   ~ 0
+FMC_LA_2_N
+Text Label 10250 1600 0    40   ~ 0
+FMC_LA_3_N
+Text Label 10250 1800 0    40   ~ 0
+FMC_LA_4_N
+Text Label 10250 2000 0    40   ~ 0
+FMC_LA_5_N
+Text Label 10250 2200 0    40   ~ 0
+FMC_LA_6_N
+Text Label 10250 2400 0    40   ~ 0
+FMC_LA_7_N
+Text Label 10250 2600 0    40   ~ 0
+FMC_LA_8_N
+Text Label 10250 2800 0    40   ~ 0
+FMC_LA_9_N
+Text Label 10250 3000 0    40   ~ 0
+FMC_LA_10_N
+Text Label 10250 3200 0    40   ~ 0
+FMC_LA_11_N
+Text Label 10250 3400 0    40   ~ 0
+FMC_LA_12_N
+Text Label 10250 3600 0    40   ~ 0
+FMC_LA_13_N
+Text Label 10250 3800 0    40   ~ 0
+FMC_LA_14_N
+Text Label 10250 4000 0    40   ~ 0
+FMC_LA_15_N
+Text Label 10250 4200 0    40   ~ 0
+FMC_LA_16_N
+Text Label 7950 1000 2    40   ~ 0
+FMC_LA_17_N
+Text Label 7950 1200 2    40   ~ 0
+FMC_LA_18_N
+Text Label 7950 1400 2    40   ~ 0
+FMC_LA_19_N
+Text Label 7950 1600 2    40   ~ 0
+FMC_LA_20_N
+Text Label 7950 1800 2    40   ~ 0
+FMC_LA_21_N
+Text Label 7950 2000 2    40   ~ 0
+FMC_LA_22_N
+Text Label 7950 2200 2    40   ~ 0
+FMC_LA_23_N
+Text Label 7950 2400 2    40   ~ 0
+FMC_LA_24_N
+Text Label 7950 2600 2    40   ~ 0
+FMC_LA_25_N
+Text Label 7950 2800 2    40   ~ 0
+FMC_LA_26_N
+Text Label 7950 3000 2    40   ~ 0
+FMC_LA_27_N
+Text Label 7950 3200 2    40   ~ 0
+FMC_LA_28_N
+Text Label 7950 3400 2    40   ~ 0
+FMC_LA_29_N
+Text Label 7950 3600 2    40   ~ 0
+FMC_LA_30_N
+Text Label 7950 3800 2    40   ~ 0
+FMC_LA_31_N
+Text Label 7950 4000 2    40   ~ 0
+FMC_LA_32_N
+Text Label 7950 4200 2    40   ~ 0
+FMC_LA_33_N
+Text Label 7950 1300 2    40   ~ 0
+FMC_LA_18_P
+Text Label 7950 1100 2    40   ~ 0
+FMC_LA_17_P
+Text Label 7950 1500 2    40   ~ 0
+FMC_LA_19_P
+Text Label 10250 1300 0    40   ~ 0
+FMC_LA_1_P
+Text Label 10250 1500 0    40   ~ 0
+FMC_LA_2_P
+Text Label 10250 1700 0    40   ~ 0
+FMC_LA_3_P
+Text Label 10250 1900 0    40   ~ 0
+FMC_LA_4_P
+Text Label 10250 2100 0    40   ~ 0
+FMC_LA_5_P
+Text Label 10250 2300 0    40   ~ 0
+FMC_LA_6_P
+Text Label 10250 2500 0    40   ~ 0
+FMC_LA_7_P
+Text Label 10250 2700 0    40   ~ 0
+FMC_LA_8_P
+Text Label 10250 2900 0    40   ~ 0
+FMC_LA_9_P
+Text Label 10250 3100 0    40   ~ 0
+FMC_LA_10_P
+Text Label 10250 3300 0    40   ~ 0
+FMC_LA_11_P
+Text Label 10250 3500 0    40   ~ 0
+FMC_LA_12_P
+Text Label 10250 3700 0    40   ~ 0
+FMC_LA_13_P
+Text Label 10250 3900 0    40   ~ 0
+FMC_LA_14_P
+Text Label 10250 4100 0    40   ~ 0
+FMC_LA_15_P
+Text Label 10250 4300 0    40   ~ 0
+FMC_LA_16_P
+Text Label 7950 1700 2    40   ~ 0
+FMC_LA_20_P
+Text Label 7950 1900 2    40   ~ 0
+FMC_LA_21_P
+Text Label 7950 2100 2    40   ~ 0
+FMC_LA_22_P
+Text Label 7950 2300 2    40   ~ 0
+FMC_LA_23_P
+Text Label 7950 2500 2    40   ~ 0
+FMC_LA_24_P
+Text Label 7950 2700 2    40   ~ 0
+FMC_LA_25_P
+Text Label 7950 2900 2    40   ~ 0
+FMC_LA_26_P
+Text Label 7950 3100 2    40   ~ 0
+FMC_LA_27_P
+Text Label 7950 3300 2    40   ~ 0
+FMC_LA_28_P
+Text Label 7950 3500 2    40   ~ 0
+FMC_LA_29_P
+Text Label 7950 3700 2    40   ~ 0
+FMC_LA_30_P
+Text Label 7950 3900 2    40   ~ 0
+FMC_LA_31_P
+Text Label 7950 4100 2    40   ~ 0
+FMC_LA_32_P
+Text Label 7950 4300 2    40   ~ 0
+FMC_LA_33_P
+Text Label 1200 1050 2    40   ~ 0
+FMC_LA_17_N
+Text Label 1200 1250 2    40   ~ 0
+FMC_LA_18_N
+Text Label 3500 2450 0    40   ~ 0
+FMC_LA_19_N
+Text Label 3500 2650 0    40   ~ 0
+FMC_LA_20_N
+Text Label 1200 2050 2    40   ~ 0
+FMC_LA_21_N
+Text Label 1200 1650 2    40   ~ 0
+FMC_LA_22_N
+Text Label 3500 2850 0    40   ~ 0
+FMC_LA_23_N
+Text Label 1200 6300 2    40   ~ 0
+FMC_LA_24_N
+Text Label 1200 6700 2    40   ~ 0
+FMC_LA_25_N
+Text Label 1200 6500 2    40   ~ 0
+FMC_LA_26_N
+Text Label 1200 5700 2    40   ~ 0
+FMC_LA_27_N
+Text Label 1200 6100 2    40   ~ 0
+FMC_LA_28_N
+Text Label 1200 5900 2    40   ~ 0
+FMC_LA_29_N
+Text Label 1200 5500 2    40   ~ 0
+FMC_LA_30_N
+Text Label 1200 5300 2    40   ~ 0
+FMC_LA_31_N
+Text Label 1200 5100 2    40   ~ 0
+FMC_LA_32_N
+Text Label 1200 4700 2    40   ~ 0
+FMC_LA_33_N
+Text Label 1200 1350 2    40   ~ 0
+FMC_LA_18_P
+Text Label 1200 1150 2    40   ~ 0
+FMC_LA_17_P
+Text Label 3500 2550 0    40   ~ 0
+FMC_LA_19_P
+Text Label 3500 2750 0    40   ~ 0
+FMC_LA_20_P
+Text Label 1200 2150 2    40   ~ 0
+FMC_LA_21_P
+Text Label 1200 1750 2    40   ~ 0
+FMC_LA_22_P
+Text Label 3500 2950 0    40   ~ 0
+FMC_LA_23_P
+Text Label 1200 6400 2    40   ~ 0
+FMC_LA_24_P
+Text Label 1200 6800 2    40   ~ 0
+FMC_LA_25_P
+Text Label 1200 6600 2    40   ~ 0
+FMC_LA_26_P
+Text Label 1200 5800 2    40   ~ 0
+FMC_LA_27_P
+Text Label 1200 6200 2    40   ~ 0
+FMC_LA_28_P
+Text Label 1200 6000 2    40   ~ 0
+FMC_LA_29_P
+Text Label 1200 5600 2    40   ~ 0
+FMC_LA_30_P
+Text Label 1200 5400 2    40   ~ 0
+FMC_LA_31_P
+Text Label 1200 5200 2    40   ~ 0
+FMC_LA_32_P
+Text Label 1200 4800 2    40   ~ 0
+FMC_LA_33_P
+Text Label 3500 3050 0    40   ~ 0
+FMC_LA_0_N
+Text Label 3500 3150 0    40   ~ 0
+FMC_LA_0_P
+Text Label 1200 850  2    40   ~ 0
+FMC_LA_1_N
+Text Label 3500 1450 0    40   ~ 0
+FMC_LA_2_N
+Text Label 3500 1050 0    40   ~ 0
+FMC_LA_3_N
+Text Label 3500 2050 0    40   ~ 0
+FMC_LA_4_N
+Text Label 1200 3250 2    40   ~ 0
+FMC_LA_5_N
+Text Label 3500 1850 0    40   ~ 0
+FMC_LA_6_N
+Text Label 1200 3050 2    40   ~ 0
+FMC_LA_7_N
+Text Label 1200 2450 2    40   ~ 0
+FMC_LA_8_N
+Text Label 1200 2850 2    40   ~ 0
+FMC_LA_9_N
+Text Label 1200 2250 2    40   ~ 0
+FMC_LA_10_N
+Text Label 1200 1450 2    40   ~ 0
+FMC_LA_11_N
+Text Label 1200 2650 2    40   ~ 0
+FMC_LA_12_N
+Text Label 1200 1850 2    40   ~ 0
+FMC_LA_13_N
+Text Label 3500 1250 0    40   ~ 0
+FMC_LA_14_N
+Text Label 3500 2250 0    40   ~ 0
+FMC_LA_15_N
+Text Label 3500 1650 0    40   ~ 0
+FMC_LA_16_N
+Text Label 1200 950  2    40   ~ 0
+FMC_LA_1_P
+Text Label 3500 1550 0    40   ~ 0
+FMC_LA_2_P
+Text Label 3500 1150 0    40   ~ 0
+FMC_LA_3_P
+Text Label 3500 2150 0    40   ~ 0
+FMC_LA_4_P
+Text Label 1200 3350 2    40   ~ 0
+FMC_LA_5_P
+Text Label 3500 1950 0    40   ~ 0
+FMC_LA_6_P
+Text Label 1200 3150 2    40   ~ 0
+FMC_LA_7_P
+Text Label 1200 2550 2    40   ~ 0
+FMC_LA_8_P
+Text Label 1200 2950 2    40   ~ 0
+FMC_LA_9_P
+Text Label 1200 2350 2    40   ~ 0
+FMC_LA_10_P
+Text Label 1200 1550 2    40   ~ 0
+FMC_LA_11_P
+Text Label 1200 2750 2    40   ~ 0
+FMC_LA_12_P
+Text Label 1200 1950 2    40   ~ 0
+FMC_LA_13_P
+Text Label 3500 1350 0    40   ~ 0
+FMC_LA_14_P
+Text Label 3500 2350 0    40   ~ 0
+FMC_LA_15_P
+Text Label 3500 1750 0    40   ~ 0
+FMC_LA_16_P
+Text HLabel 3500 6200 2    40   Input ~ 0
+FMC_PRSNT
+Text HLabel 3500 6000 2    40   BiDi ~ 0
+TMDS_D2_P
+Text HLabel 3500 5900 2    40   BiDi ~ 0
+TMDS_D2_N
+Text HLabel 3500 5800 2    40   BiDi ~ 0
+TMDS_D1_P
+Text HLabel 3500 5700 2    40   BiDi ~ 0
+TMDS_D1_N
+Text HLabel 3500 5400 2    40   BiDi ~ 0
+TMDS_D0_P
+Text HLabel 3500 5300 2    40   BiDi ~ 0
+TMDS_D0_N
+Text HLabel 3500 5000 2    40   BiDi ~ 0
+TMDS_CLK_P
+Text HLabel 3500 4900 2    40   BiDi ~ 0
+TMDS_CLK_N
+Text HLabel 3500 4300 2    40   BiDi ~ 0
+HDMI_CEC
+Text HLabel 3500 4400 2    40   BiDi ~ 0
+HDMI_HPD
+$Comp
+L LED DS13
+U 1 1 571347A0
+P 5650 1150
+F 0 "DS13" H 5650 1050 40  0000 C CNN
+F 1 "ERR" H 5750 1200 30  0000 C CNN
+F 2 "misc:LED-0603" V 5650 1150 50  0001 C CNN
+F 3 "" V 5650 1150 50  0000 C CNN
+F 4 "LED RED CLEAR 0603 SMD" H 5650 1150 60  0001 C CNN "Descripcion"
+F 5 "Everlight" H 5650 1150 60  0001 C CNN "Fabricante"
+F 6 "QTLP600C7TR" H 5650 1150 60  0001 C CNN "Nro. parte"
+F 7 "1080-1400-1-ND" H 5650 1150 60  0001 C CNN "Digikey/Mouser"
+	1    5650 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R155
+U 1 1 571347AB
+P 5650 1450
+F 0 "R155" V 5750 1450 50  0000 C CNN
+F 1 "330" V 5650 1450 50  0000 C CNN
+F 2 "chip_rlc:r_0402" V 5580 1450 50  0001 C CNN
+F 3 "" H 5650 1450 50  0000 C CNN
+F 4 "330 Ohm ±5% 0.063W, 1/16W Surface Mount Resistor Thick Film ±100ppm/°C 0402" H 5650 1450 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 5650 1450 60  0001 C CNN "Fabricante"
+F 6 "RC0402JR-07330RL" H 5650 1450 60  0001 C CNN "Nro. parte"
+F 7 "311-330JRCT-ND" H 5650 1450 60  0001 C CNN "Digikey/Mouser"
+	1    5650 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED DS12
+U 1 1 571347B6
+P 4900 1150
+F 0 "DS12" H 4900 1050 40  0000 C CNN
+F 1 "OK" H 5000 1200 30  0000 C CNN
+F 2 "misc:LED-0603" V 4900 1150 50  0001 C CNN
+F 3 "" V 4900 1150 50  0000 C CNN
+F 4 "LED GREEN CLEAR 0603 SMD" H 4900 1150 60  0001 C CNN "Descripcion"
+F 5 "Everlight" H 4900 1150 60  0001 C CNN "Fabricante"
+F 6 "QTLP600C4TR" H 4900 1150 60  0001 C CNN "Nro. parte"
+F 7 "1080-1399-1-ND" H 4900 1150 60  0001 C CNN "Digikey/Mouser"
+	1    4900 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R154
+U 1 1 57134807
+P 4900 1450
+F 0 "R154" V 4800 1450 50  0000 C CNN
+F 1 "220" V 4900 1450 50  0000 C CNN
+F 2 "chip_rlc:r_0402" V 4830 1450 50  0001 C CNN
+F 3 "" H 4900 1450 50  0000 C CNN
+F 4 "RES SMD 220 OHM 5% 1/16W 0402" H 4900 1450 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 4900 1450 60  0001 C CNN "Fabricante"
+F 6 "RC0402JR-07220RL" H 4900 1450 60  0001 C CNN "Nro. parte"
+F 7 "311-220JRCT-ND" H 4900 1450 60  0001 C CNN "Digikey/Mouser"
+	1    4900 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L +3.3V #PWR0563
+U 1 1 571382D7
+P 4900 1000
+F 0 "#PWR0563" H 4900 1090 20  0001 C CNN
+F 1 "+3.3V" H 4900 1100 30  0000 C CNN
+F 2 "" H 4900 1000 60  0000 C CNN
+F 3 "" H 4900 1000 60  0000 C CNN
+	1    4900 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOSFET_N Q3
+U 1 1 5713A4D8
+P 4800 1850
+F 0 "Q3" H 4941 1880 50  0000 L CNN
+F 1 "BSS806N" H 4950 1750 30  0000 L CNN
+F 2 "to-sod-sot:SOT-23" H 4800 1850 60  0001 C CNN
+F 3 "" H 4800 1850 60  0000 C CNN
+F 4 "MOSFET N-CH 20V 2.3A SOT23" H 4800 1850 60  0001 C CNN "Descripcion"
+F 5 "Infineon" H 4800 1850 60  0001 C CNN "Fabricante"
+F 6 "BSS806N H6327" H 4800 1850 60  0001 C CNN "Nro. parte"
+F 7 "BSS806N H6327CT-ND" H 4800 1850 60  0001 C CNN "Digikey/Mouser"
+	1    4800 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0564
+U 1 1 5713A86E
+P 4900 2100
+F 0 "#PWR0564" H 4900 1850 50  0001 C CNN
+F 1 "GND" H 4908 1926 50  0001 C CNN
+F 2 "" H 4900 2100 50  0000 C CNN
+F 3 "" H 4900 2100 50  0000 C CNN
+	1    4900 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR0565
+U 1 1 5713A9DA
+P 5650 1000
+F 0 "#PWR0565" H 5650 1090 20  0001 C CNN
+F 1 "+3.3V" H 5650 1100 30  0000 C CNN
+F 2 "" H 5650 1000 60  0000 C CNN
+F 3 "" H 5650 1000 60  0000 C CNN
+	1    5650 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOSFET_N Q4
+U 1 1 5713A9E4
+P 5550 1850
+F 0 "Q4" H 5691 1880 50  0000 L CNN
+F 1 "BSS806N" H 5700 1750 30  0000 L CNN
+F 2 "to-sod-sot:SOT-23" H 5550 1850 60  0001 C CNN
+F 3 "" H 5550 1850 60  0000 C CNN
+F 4 "MOSFET N-CH 20V 2.3A SOT23" H 5550 1850 60  0001 C CNN "Descripcion"
+F 5 "Infineon" H 5550 1850 60  0001 C CNN "Fabricante"
+F 6 "BSS806N H6327" H 5550 1850 60  0001 C CNN "Nro. parte"
+F 7 "BSS806N H6327CT-ND" H 5550 1850 60  0001 C CNN "Digikey/Mouser"
+	1    5550 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0566
+U 1 1 5713A9EA
+P 5650 2100
+F 0 "#PWR0566" H 5650 1850 50  0001 C CNN
+F 1 "GND" H 5658 1926 50  0001 C CNN
+F 2 "" H 5650 2100 50  0000 C CNN
+F 3 "" H 5650 2100 50  0000 C CNN
+	1    5650 2100
+	1    0    0    -1  
+$EndComp
+Text Label 4600 1850 2    40   ~ 0
+LED_OK
+Text Label 5350 1850 2    40   ~ 0
+LED_ERR
+Wire Wire Line
+	4900 1000 4900 1050
+Wire Wire Line
+	4900 1250 4900 1300
+Wire Wire Line
+	4900 1600 4900 1650
+Wire Wire Line
+	4900 2050 4900 2100
+Wire Wire Line
+	5650 2050 5650 2100
+Wire Wire Line
+	5650 1650 5650 1600
+Wire Wire Line
+	5650 1300 5650 1250
+Wire Wire Line
+	5650 1050 5650 1000
+Text Label 3500 850  0    40   ~ 0
+LED_OK
+Text Label 3500 950  0    40   ~ 0
+LED_ERR
+Text Notes 6000 5550 0    40   ~ 0
+LADO DERECHO LPC\nLADO IZQUIERDO HPC
+Text HLabel 8600 5750 2    40   Output ~ 0
+MGTREFCLK1_N
+Text HLabel 8600 5900 2    40   Output ~ 0
+MGTREFCLK1_P
+NoConn ~ 5150 5750
+NoConn ~ 5150 5850
+$Comp
+L C C267
+U 1 1 572366C2
+P 8250 5750
+F 0 "C267" V 8300 5850 50  0000 L CNN
+F 1 "100nF" V 8200 5450 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 8288 5600 50  0001 C CNN
+F 3 "" H 8250 5750 50  0000 C CNN
+F 4 "CAP CER 0.1UF 10V X5R 0201" H 8250 5750 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 8250 5750 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61A104ME15D" H 8250 5750 60  0001 C CNN "Nro. parte"
+F 7 "490-5405-1-ND" H 8250 5750 60  0001 C CNN "Digikey/Mouser"
+	1    8250 5750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C268
+U 1 1 57236729
+P 8250 5900
+F 0 "C268" V 8300 6000 50  0000 L CNN
+F 1 "100nF" V 8200 5600 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 8288 5750 50  0001 C CNN
+F 3 "" H 8250 5900 50  0000 C CNN
+F 4 "CAP CER 0.1UF 10V X5R 0201" H 8250 5900 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 8250 5900 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61A104ME15D" H 8250 5900 60  0001 C CNN "Nro. parte"
+F 7 "490-5405-1-ND" H 8250 5900 60  0001 C CNN "Digikey/Mouser"
+	1    8250 5900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 5900 8600 5900
+Wire Wire Line
+	8400 5750 8600 5750
+Wire Wire Line
+	7450 5850 7450 5900
+Text Label 7450 5750 0    40   ~ 0
+MGTREFCLK1_B_N
+Text Label 7450 5900 0    40   ~ 0
+MGTREFCLK1_B_P
+Wire Wire Line
+	7450 5750 8100 5750
+Wire Wire Line
+	7450 5900 8100 5900
+Text Label 7450 5250 0    40   ~ 0
+FMC_CLK0_C2M_N
+Text Label 7450 5350 0    40   ~ 0
+FMC_CLK0_C2M_P
+Text Label 7450 5450 0    40   ~ 0
+FMC_CLK0_M2C_N
+Text Label 7450 5550 0    40   ~ 0
+FMC_CLK0_M2C_P
+Text Label 1200 4300 2    40   ~ 0
+FMC_CLK0_C2M_N
+Text Label 1200 4400 2    40   ~ 0
+FMC_CLK0_C2M_P
+Text Label 1200 4500 2    40   ~ 0
+FMC_CLK0_M2C_N
+Text Label 1200 4600 2    40   ~ 0
+FMC_CLK0_M2C_P
+Text HLabel 5150 5250 0    40   Input ~ 0
+FMC_CLK1_C2M_N
+Text HLabel 5150 5350 0    40   Input ~ 0
+FMC_CLK1_C2M_P
+Text HLabel 5150 5450 0    40   Output ~ 0
+FMC_CLK1_M2C_N
+Text HLabel 5150 5550 0    40   Output ~ 0
+FMC_CLK1_M2C_P
+Wire Notes Line
+	750  1350 750  800 
+Text Notes 700  1250 1    40   ~ 0
+FMC CC Type
+Wire Notes Line
+	750  1350 800  1350
+Wire Notes Line
+	750  800  800  800 
+Text Notes 4050 2850 3    40   ~ 0
+FMC CC Type
+Wire Notes Line
+	3950 2975 3950 3150
+Wire Notes Line
+	3950 2975 3900 2975
+Wire Notes Line
+	3950 3150 3900 3150
+NoConn ~ 1200 5000
+Text HLabel 1200 4900 0    40   Output ~ 0
+HDMI_OUT_EN
+Text HLabel 3500 6600 2    40   Output ~ 0
+CAN_TX
+Text HLabel 3500 6500 2    40   Input ~ 0
+CAN_RX
+$Comp
+L FMC_HPC J?
+U 4 1 578945D4
+P 6300 5600
+F 0 "J5" H 5500 6100 60  0000 C CNN
+F 1 "FMC_HPC" H 7000 6100 60  0000 C CNN
+F 2 "samtec:ASP-134486-01" H 6300 5600 60  0001 C CNN
+F 3 "" H 6300 5600 60  0000 C CNN
+F 4 "FMC HPC" H 6300 5600 60  0001 C CNN "Descripcion"
+F 5 "Samtec" H 6300 5600 60  0001 C CNN "Fabricante"
+F 6 "ASP-134486-01" H 6300 5600 60  0001 C CNN "Nro. parte"
+F 7 "ASP-134485-01" H 6300 5600 60  0001 C CNN "Reemplazo"
+	4    6300 5600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

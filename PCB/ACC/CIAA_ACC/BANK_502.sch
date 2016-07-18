@@ -1,0 +1,3522 @@
+EESchema Schematic File Version 2
+LIBS:CIAA_ACC
+LIBS:XC7Z030_FBG676
+LIBS:DDR3_x16
+LIBS:FMC_HPC
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ciaa_acc-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 16
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L DDR3_x16 U2
+U 1 1 56DDAA8B
+P 6050 3150
+F 0 "U2" H 5250 5750 60  0000 C CNN
+F 1 "MT41K256M16TW-107 IT" H 6400 5750 60  0000 C CNN
+F 2 "bga:FBGA96" H 6050 3150 60  0001 C CNN
+F 3 "" H 6050 3150 60  0000 C CNN
+F 4 "IC DDR3 SDRAM 4GBIT 800MHZ FBGA" H 6050 3150 60  0001 C CNN "Descripcion"
+F 5 "Micron" H 6050 3150 60  0001 C CNN "Fabricante"
+F 6 "MT41K256M16TW-107 IT" H 6050 3150 60  0001 C CNN "Nro. parte"
+F 7 "MT41K256M16TW-107" H 6050 3150 60  0001 C CNN "Reemplazo"
+	1    6050 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L DDR3_x16 U3
+U 1 1 56E1C949
+P 9300 3150
+F 0 "U3" H 8500 5750 60  0000 C CNN
+F 1 "MT41K256M16TW-107 IT" H 9650 5750 60  0000 C CNN
+F 2 "bga:FBGA96" H 9300 3150 60  0001 C CNN
+F 3 "" H 9300 3150 60  0000 C CNN
+F 4 "IC DDR3 SDRAM 4GBIT 800MHZ FBGA" H 9300 3150 60  0001 C CNN "Descripcion"
+F 5 "Micron" H 9300 3150 60  0001 C CNN "Fabricante"
+F 6 "MT41K256M16TW-107 IT" H 9300 3150 60  0001 C CNN "Nro. parte"
+F 7 "MT41K256M16TW-107" H 9300 3150 60  0001 C CNN "Reemplazo"
+	1    9300 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L XC7Z030_FBG676 U?
+U 10 1 56E1EBA4
+P 2300 2550
+AR Path="/56D9CF9B/56E1EBA4" Ref="U?"  Part="10" 
+AR Path="/56D9CF9B/56DDA9EE/56E1EBA4" Ref="U1"  Part="10" 
+F 0 "U1" H 1500 4550 60  0000 C CNN
+F 1 "XC7Z030-2FBG676I" H 2750 4550 60  0000 C CNN
+F 2 "bga:FBG676" H 2300 4581 60  0001 C CNN
+F 3 "" H 2300 2550 60  0000 C CNN
+F 4 "IC SOC CORTEX-A9 KINTEX7 676FBGA" H 2300 2550 60  0001 C CNN "Descripcion"
+F 5 "Xilinx" H 2300 2550 60  0001 C CNN "Fabricante"
+F 6 "XC7Z030-2FBG676I" H 2300 2550 60  0001 C CNN "Nro. parte"
+F 7 "XC7Z030-2FBG676I-ND" H 2300 2550 60  0001 C CNN "Digikey/Mouser"
+	10   2300 2550
+	1    0    0    -1  
+$EndComp
+Text Label 7200 700  0    40   ~ 0
+DDR_A0
+Text Label 7200 800  0    40   ~ 0
+DDR_A1
+Text Label 7200 900  0    40   ~ 0
+DDR_A2
+Text Label 7200 1000 0    40   ~ 0
+DDR_A3
+Text Label 7200 1100 0    40   ~ 0
+DDR_A4
+Text Label 7200 1200 0    40   ~ 0
+DDR_A5
+Text Label 7200 1300 0    40   ~ 0
+DDR_A6
+Text Label 7200 1400 0    40   ~ 0
+DDR_A7
+Text Label 7200 1500 0    40   ~ 0
+DDR_A8
+Text Label 7200 1600 0    40   ~ 0
+DDR_A9
+Text Label 7200 1700 0    40   ~ 0
+DDR_A10
+Text Label 7200 1800 0    40   ~ 0
+DDR_A11
+Text Label 7200 1900 0    40   ~ 0
+DDR_A12
+Text Label 7200 2000 0    40   ~ 0
+DDR_A13
+Text Label 7200 2100 0    40   ~ 0
+DDR_A14
+Text Label 3450 2300 0    40   ~ 0
+DDR_BA0
+Text Label 3450 2400 0    40   ~ 0
+DDR_BA1
+Text Label 3450 2500 0    40   ~ 0
+DDR_BA2
+Text Label 3450 2700 0    40   ~ 0
+DDR_CAS
+Text Label 3450 2800 0    40   ~ 0
+DDR_CKE
+Text Label 3450 2900 0    40   ~ 0
+DDR_CS
+Text Label 3450 3000 0    40   ~ 0
+DDR_ODT
+Text Label 3450 3100 0    40   ~ 0
+DDR_RAS
+Text Label 3450 3200 0    40   ~ 0
+DDR_WE
+Text Label 3450 3400 0    40   ~ 0
+DDR_CLK_N
+Text Label 3450 3500 0    40   ~ 0
+DDR_CLK_P
+Text Label 1150 700  2    40   ~ 0
+DDR_DQ0
+Text Label 1150 800  2    40   ~ 0
+DDR_DQ1
+Text Label 1150 900  2    40   ~ 0
+DDR_DQ2
+Text Label 1150 1000 2    40   ~ 0
+DDR_DQ3
+Text Label 1150 1100 2    40   ~ 0
+DDR_DQ4
+Text Label 1150 1200 2    40   ~ 0
+DDR_DQ5
+Text Label 1150 1300 2    40   ~ 0
+DDR_DQ6
+Text Label 1150 1400 2    40   ~ 0
+DDR_DQ7
+Text Label 1150 1500 2    40   ~ 0
+DDR_DQ8
+Text Label 1150 1600 2    40   ~ 0
+DDR_DQ9
+Text Label 1150 1700 2    40   ~ 0
+DDR_DQ10
+Text Label 1150 1800 2    40   ~ 0
+DDR_DQ11
+Text Label 1150 1900 2    40   ~ 0
+DDR_DQ12
+Text Label 1150 2000 2    40   ~ 0
+DDR_DQ13
+Text Label 1150 2100 2    40   ~ 0
+DDR_DQ14
+Text Label 1150 2200 2    40   ~ 0
+DDR_DQ15
+Text Label 1150 2300 2    40   ~ 0
+DDR_DQ16
+Text Label 1150 2400 2    40   ~ 0
+DDR_DQ17
+Text Label 1150 2500 2    40   ~ 0
+DDR_DQ18
+Text Label 1150 2600 2    40   ~ 0
+DDR_DQ19
+Text Label 1150 2700 2    40   ~ 0
+DDR_DQ20
+Text Label 1150 2800 2    40   ~ 0
+DDR_DQ21
+Text Label 1150 2900 2    40   ~ 0
+DDR_DQ22
+Text Label 1150 3000 2    40   ~ 0
+DDR_DQ23
+Text Label 1150 3100 2    40   ~ 0
+DDR_DQ24
+Text Label 1150 3200 2    40   ~ 0
+DDR_DQ25
+Text Label 1150 3300 2    40   ~ 0
+DDR_DQ26
+Text Label 1150 3400 2    40   ~ 0
+DDR_DQ27
+Text Label 1150 3500 2    40   ~ 0
+DDR_DQ28
+Text Label 1150 3600 2    40   ~ 0
+DDR_DQ29
+Text Label 1150 3700 2    40   ~ 0
+DDR_DQ30
+Text Label 1150 3800 2    40   ~ 0
+DDR_DQ31
+$Comp
+L +1.5V #PWR01
+U 1 1 570AC2C8
+P 650 3950
+F 0 "#PWR01" H 650 4040 20  0001 C CNN
+F 1 "+1.5V" H 650 4050 30  0000 C CNN
+F 2 "" H 650 3950 60  0000 C CNN
+F 3 "" H 650 3950 60  0000 C CNN
+	1    650  3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L DDR_VTT #PWR02
+U 1 1 570AC622
+P 4150 650
+F 0 "#PWR02" H 4150 740 20  0001 C CNN
+F 1 "DDR_VTT" H 4150 750 30  0000 C CNN
+F 2 "" H 4150 650 60  0000 C CNN
+F 3 "" H 4150 650 60  0000 C CNN
+	1    4150 650 
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 570AD42F
+P 850 4000
+F 0 "R1" V 800 4200 50  0000 C CNN
+F 1 "80.6" V 850 4000 40  0000 C CNN
+F 2 "chip_rlc:r_0402" V 780 4000 50  0001 C CNN
+F 3 "" H 850 4000 50  0000 C CNN
+F 4 "RES SMD 80.6 OHM 1% 1/16W 0402" H 850 4000 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 850 4000 60  0001 C CNN "Fabricante"
+F 6 "RC0402FR-0780R6L" H 850 4000 60  0001 C CNN "Nro. parte"
+F 7 "311-80.6LRCT-ND" H 850 4000 60  0001 C CNN "Digikey/Mouser"
+	1    850  4000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 570ADF01
+P 850 4100
+F 0 "R2" V 800 4300 50  0000 C CNN
+F 1 "80.6" V 850 4100 40  0000 C CNN
+F 2 "chip_rlc:r_0402" V 780 4100 50  0001 C CNN
+F 3 "" H 850 4100 50  0000 C CNN
+F 4 "RES SMD 80.6 OHM 1% 1/16W 0402" H 850 4100 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 850 4100 60  0001 C CNN "Fabricante"
+F 6 "RC0402FR-0780R6L" H 850 4100 60  0001 C CNN "Nro. parte"
+F 7 "311-80.6LRCT-ND" H 850 4100 60  0001 C CNN "Digikey/Mouser"
+	1    850  4100
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 570AE380
+P 650 4150
+F 0 "#PWR03" H 650 3900 50  0001 C CNN
+F 1 "GND" H 658 3976 50  0001 C CNN
+F 2 "" H 650 4150 50  0000 C CNN
+F 3 "" H 650 4150 50  0000 C CNN
+	1    650  4150
+	1    0    0    -1  
+$EndComp
+Text Label 3450 3700 0    40   ~ 0
+DDR_DM0
+Text Label 3450 3800 0    40   ~ 0
+DDR_DM1
+Text Label 3450 3900 0    40   ~ 0
+DDR_DM2
+Text Label 3450 4000 0    40   ~ 0
+DDR_DM3
+Text Label 1150 4300 2    40   ~ 0
+DDR_DQS0_N
+Text Label 1150 4400 2    40   ~ 0
+DDR_DQS0_P
+Text Label 1150 4700 2    40   ~ 0
+DDR_DQS2_P
+Text Label 1150 4600 2    40   ~ 0
+DDR_DQS2_N
+Text Label 3450 4800 0    40   ~ 0
+DDR_DQS3_P
+Text Label 3450 4700 0    40   ~ 0
+DDR_DQS3_N
+Text Label 3450 4400 0    40   ~ 0
+DDR_DQS1_N
+Text Label 3450 4500 0    40   ~ 0
+DDR_DQS1_P
+$Comp
+L R R28
+U 1 1 570AFE13
+P 3950 4200
+F 0 "R28" V 4030 4200 50  0000 C CNN
+F 1 "4.7K" V 3950 4200 50  0000 C CNN
+F 2 "chip_rlc:r_0402" V 3880 4200 50  0001 C CNN
+F 3 "" H 3950 4200 50  0000 C CNN
+F 4 "RES SMD 4.7K OHM 5% 1/16W 0402" H 3950 4200 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 3950 4200 60  0001 C CNN "Fabricante"
+F 6 "RC0402JR-074K7L" H 3950 4200 60  0001 C CNN "Nro. parte"
+F 7 "311-4.7KJRCT-ND" H 3950 4200 60  0001 C CNN "Digikey/Mouser"
+	1    3950 4200
+	0    -1   -1   0   
+$EndComp
+Text Label 3450 4200 0    40   ~ 0
+DDR_RESET
+$Comp
+L GND #PWR04
+U 1 1 570AFED9
+P 4150 4200
+F 0 "#PWR04" H 4150 3950 50  0001 C CNN
+F 1 "GND" H 4158 4026 50  0001 C CNN
+F 2 "" H 4150 4200 50  0000 C CNN
+F 3 "" H 4150 4200 50  0000 C CNN
+	1    4150 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 570AFFA1
+P 3950 700
+F 0 "R3" V 3900 500 30  0000 C CNN
+F 1 "40.2" V 3950 700 40  0000 C CNN
+F 2 "chip_rlc:r_0402" V 3880 700 50  0001 C CNN
+F 3 "" H 3950 700 50  0000 C CNN
+F 4 "RES SMD 40.2 OHM 1% 1/16W 0402" H 3950 700 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 3950 700 60  0001 C CNN "Fabricante"
+F 6 "RC0402FR-0740R2L" H 3950 700 60  0001 C CNN "Nro. parte"
+F 7 "311-40.2LRCT-ND" H 3950 700 60  0001 C CNN "Digikey/Mouser"
+	1    3950 700 
+	0    1    1    0   
+$EndComp
+$Comp
+L R R17
+U 1 1 570B1115
+P 3950 2100
+F 0 "R17" V 3900 1900 30  0000 C CNN
+F 1 "40.2" V 3950 2100 40  0000 C CNN
+F 2 "chip_rlc:r_0402" V 3880 2100 50  0001 C CNN
+F 3 "" H 3950 2100 50  0000 C CNN
+F 4 "RES SMD 40.2 OHM 1% 1/16W 0402" H 3950 2100 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 3950 2100 60  0001 C CNN "Fabricante"
+F 6 "RC0402FR-0740R2L" H 3950 2100 60  0001 C CNN "Nro. parte"
+F 7 "311-40.2LRCT-ND" H 3950 2100 60  0001 C CNN "Digikey/Mouser"
+	1    3950 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 570B1164
+P 3950 800
+F 0 "R4" V 3900 600 30  0000 C CNN
+F 1 "40.2" V 3950 800 40  0000 C CNN
+F 2 "chip_rlc:r_0402" V 3880 800 50  0001 C CNN
+F 3 "" H 3950 800 50  0000 C CNN
+F 4 "RES SMD 40.2 OHM 1% 1/16W 0402" H 3950 800 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 3950 800 60  0001 C CNN "Fabricante"
+F 6 "RC0402FR-0740R2L" H 3950 800 60  0001 C CNN "Nro. parte"
+F 7 "311-40.2LRCT-ND" H 3950 800 60  0001 C CNN "Digikey/Mouser"
+	1    3950 800 
+	0    1    1    0   
+$EndComp
+$Comp
+L R R5
+U 1 1 570B11A7
+P 3950 900
+F 0 "R5" V 3900 700 30  0000 C CNN
+F 1 "40.2" V 3950 900 40  0000 C CNN
+F 2 "chip_rlc:r_0402" V 3880 900 50  0001 C CNN
+F 3 "" H 3950 900 50  0000 C CNN
+F 4 "RES SMD 40.2 OHM 1% 1/16W 0402" H 3950 900 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 3950 900 60  0001 C CNN "Fabricante"
+F 6 "RC0402FR-0740R2L" H 3950 900 60  0001 C CNN "Nro. parte"
+F 7 "311-40.2LRCT-ND" H 3950 900 60  0001 C CNN "Digikey/Mouser"
+	1    3950 900 
+	0    1    1    0   
+$EndComp
+$Comp
+L R R6
+U 1 1 570B11E8
+P 3950 1000
+F 0 "R6" V 3900 800 30  0000 C CNN
+F 1 "40.2" V 3950 1000 40  0000 C CNN
+F 2 "chip_rlc:r_0402" V 3880 1000 50  0001 C CNN
+F 3 "" H 3950 1000 50  0000 C CNN
+F 4 "RES SMD 40.2 OHM 1% 1/16W 0402" H 3950 1000 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 3950 1000 60  0001 C CNN "Fabricante"
+F 6 "RC0402FR-0740R2L" H 3950 1000 60  0001 C CNN "Nro. parte"
+F 7 "311-40.2LRCT-ND" H 3950 1000 60  0001 C CNN "Digikey/Mouser"
+	1    3950 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R7
+U 1 1 570B12A8
+P 3950 1100
+F 0 "R7" V 3900 900 30  0000 C CNN
+F 1 "40.2" V 3950 1100 40  0000 C CNN
+F 2 "chip_rlc:r_0402" V 3880 1100 50  0001 C CNN
+F 3 "" H 3950 1100 50  0000 C CNN
+F 4 "RES SMD 40.2 OHM 1% 1/16W 0402" H 3950 1100 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 3950 1100 60  0001 C CNN "Fabricante"
+F 6 "RC0402FR-0740R2L" H 3950 1100 60  0001 C CNN "Nro. parte"
+F 7 "311-40.2LRCT-ND" H 3950 1100 60  0001 C CNN "Digikey/Mouser"
+	1    3950 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L R R8
+U 1 1 570B1307
+P 3950 1200
+F 0 "R8" V 3900 1000 30  0000 C CNN
+F 1 "40.2" V 3950 1200 40  0000 C CNN
+F 2 "chip_rlc:r_0402" V 3880 1200 50  0001 C CNN
+F 3 "" H 3950 1200 50  0000 C CNN
+F 4 "RES SMD 40.2 OHM 1% 1/16W 0402" H 3950 1200 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 3950 1200 60  0001 C CNN "Fabricante"
+F 6 "RC0402FR-0740R2L" H 3950 1200 60  0001 C CNN "Nro. parte"
+F 7 "311-40.2LRCT-ND" H 3950 1200 60  0001 C CNN "Digikey/Mouser"
+	1    3950 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L R R9
+U 1 1 570B13B4
+P 3950 1300
+F 0 "R9" V 3900 1100 30  0000 C CNN
+F 1 "40.2" V 3950 1300 40  0000 C CNN
+F 2 "chip_rlc:r_0402" V 3880 1300 50  0001 C CNN
+F 3 "" H 3950 1300 50  0000 C CNN
+F 4 "RES SMD 40.2 OHM 1% 1/16W 0402" H 3950 1300 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 3950 1300 60  0001 C CNN "Fabricante"
+F 6 "RC0402FR-0740R2L" H 3950 1300 60  0001 C CNN "Nro. parte"
+F 7 "311-40.2LRCT-ND" H 3950 1300 60  0001 C CNN "Digikey/Mouser"
+	1    3950 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L R R10
+U 1 1 570B140F
+P 3950 1400
+F 0 "R10" V 3900 1200 30  0000 C CNN
+F 1 "40.2" V 3950 1400 40  0000 C CNN
+F 2 "chip_rlc:r_0402" V 3880 1400 50  0001 C CNN
+F 3 "" H 3950 1400 50  0000 C CNN
+F 4 "RES SMD 40.2 OHM 1% 1/16W 0402" H 3950 1400 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 3950 1400 60  0001 C CNN "Fabricante"
+F 6 "RC0402FR-0740R2L" H 3950 1400 60  0001 C CNN "Nro. parte"
+F 7 "311-40.2LRCT-ND" H 3950 1400 60  0001 C CNN "Digikey/Mouser"
+	1    3950 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R11
+U 1 1 570B147C
+P 3950 1500
+F 0 "R11" V 3900 1300 30  0000 C CNN
+F 1 "40.2" V 3950 1500 40  0000 C CNN
+F 2 "chip_rlc:r_0402" V 3880 1500 50  0001 C CNN
+F 3 "" H 3950 1500 50  0000 C CNN
+F 4 "RES SMD 40.2 OHM 1% 1/16W 0402" H 3950 1500 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 3950 1500 60  0001 C CNN "Fabricante"
+F 6 "RC0402FR-0740R2L" H 3950 1500 60  0001 C CNN "Nro. parte"
+F 7 "311-40.2LRCT-ND" H 3950 1500 60  0001 C CNN "Digikey/Mouser"
+	1    3950 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R12
+U 1 1 570B14DF
+P 3950 1600
+F 0 "R12" V 3900 1400 30  0000 C CNN
+F 1 "40.2" V 3950 1600 40  0000 C CNN
+F 2 "chip_rlc:r_0402" V 3880 1600 50  0001 C CNN
+F 3 "" H 3950 1600 50  0000 C CNN
+F 4 "RES SMD 40.2 OHM 1% 1/16W 0402" H 3950 1600 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 3950 1600 60  0001 C CNN "Fabricante"
+F 6 "RC0402FR-0740R2L" H 3950 1600 60  0001 C CNN "Nro. parte"
+F 7 "311-40.2LRCT-ND" H 3950 1600 60  0001 C CNN "Digikey/Mouser"
+	1    3950 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L R R13
+U 1 1 570B1576
+P 3950 1700
+F 0 "R13" V 3900 1500 30  0000 C CNN
+F 1 "40.2" V 3950 1700 40  0000 C CNN
+F 2 "chip_rlc:r_0402" V 3880 1700 50  0001 C CNN
+F 3 "" H 3950 1700 50  0000 C CNN
+F 4 "RES SMD 40.2 OHM 1% 1/16W 0402" H 3950 1700 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 3950 1700 60  0001 C CNN "Fabricante"
+F 6 "RC0402FR-0740R2L" H 3950 1700 60  0001 C CNN "Nro. parte"
+F 7 "311-40.2LRCT-ND" H 3950 1700 60  0001 C CNN "Digikey/Mouser"
+	1    3950 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R14
+U 1 1 570B1652
+P 3950 1800
+F 0 "R14" V 3900 1600 30  0000 C CNN
+F 1 "40.2" V 3950 1800 40  0000 C CNN
+F 2 "chip_rlc:r_0402" V 3880 1800 50  0001 C CNN
+F 3 "" H 3950 1800 50  0000 C CNN
+F 4 "RES SMD 40.2 OHM 1% 1/16W 0402" H 3950 1800 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 3950 1800 60  0001 C CNN "Fabricante"
+F 6 "RC0402FR-0740R2L" H 3950 1800 60  0001 C CNN "Nro. parte"
+F 7 "311-40.2LRCT-ND" H 3950 1800 60  0001 C CNN "Digikey/Mouser"
+	1    3950 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R15
+U 1 1 570B17A7
+P 3950 1900
+F 0 "R15" V 3900 1700 30  0000 C CNN
+F 1 "40.2" V 3950 1900 40  0000 C CNN
+F 2 "chip_rlc:r_0402" V 3880 1900 50  0001 C CNN
+F 3 "" H 3950 1900 50  0000 C CNN
+F 4 "RES SMD 40.2 OHM 1% 1/16W 0402" H 3950 1900 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 3950 1900 60  0001 C CNN "Fabricante"
+F 6 "RC0402FR-0740R2L" H 3950 1900 60  0001 C CNN "Nro. parte"
+F 7 "311-40.2LRCT-ND" H 3950 1900 60  0001 C CNN "Digikey/Mouser"
+	1    3950 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R16
+U 1 1 570B191D
+P 3950 2000
+F 0 "R16" V 3900 1800 30  0000 C CNN
+F 1 "40.2" V 3950 2000 40  0000 C CNN
+F 2 "chip_rlc:r_0402" V 3880 2000 50  0001 C CNN
+F 3 "" H 3950 2000 50  0000 C CNN
+F 4 "RES SMD 40.2 OHM 1% 1/16W 0402" H 3950 2000 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 3950 2000 60  0001 C CNN "Fabricante"
+F 6 "RC0402FR-0740R2L" H 3950 2000 60  0001 C CNN "Nro. parte"
+F 7 "311-40.2LRCT-ND" H 3950 2000 60  0001 C CNN "Digikey/Mouser"
+	1    3950 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R23
+U 1 1 570B3111
+P 3950 2900
+F 0 "R23" V 3900 2700 30  0000 C CNN
+F 1 "40.2" V 3950 2900 40  0000 C CNN
+F 2 "chip_rlc:r_0402" V 3880 2900 50  0001 C CNN
+F 3 "" H 3950 2900 50  0000 C CNN
+F 4 "RES SMD 40.2 OHM 1% 1/16W 0402" H 3950 2900 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 3950 2900 60  0001 C CNN "Fabricante"
+F 6 "RC0402FR-0740R2L" H 3950 2900 60  0001 C CNN "Nro. parte"
+F 7 "311-40.2LRCT-ND" H 3950 2900 60  0001 C CNN "Digikey/Mouser"
+	1    3950 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R24
+U 1 1 570B3405
+P 3950 3000
+F 0 "R24" V 3900 2800 30  0000 C CNN
+F 1 "40.2" V 3950 3000 40  0000 C CNN
+F 2 "chip_rlc:r_0402" V 3880 3000 50  0001 C CNN
+F 3 "" H 3950 3000 50  0000 C CNN
+F 4 "RES SMD 40.2 OHM 1% 1/16W 0402" H 3950 3000 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 3950 3000 60  0001 C CNN "Fabricante"
+F 6 "RC0402FR-0740R2L" H 3950 3000 60  0001 C CNN "Nro. parte"
+F 7 "311-40.2LRCT-ND" H 3950 3000 60  0001 C CNN "Digikey/Mouser"
+	1    3950 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R21
+U 1 1 570B3462
+P 3950 2700
+F 0 "R21" V 3900 2500 30  0000 C CNN
+F 1 "40.2" V 3950 2700 40  0000 C CNN
+F 2 "chip_rlc:r_0402" V 3880 2700 50  0001 C CNN
+F 3 "" H 3950 2700 50  0000 C CNN
+F 4 "RES SMD 40.2 OHM 1% 1/16W 0402" H 3950 2700 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 3950 2700 60  0001 C CNN "Fabricante"
+F 6 "RC0402FR-0740R2L" H 3950 2700 60  0001 C CNN "Nro. parte"
+F 7 "311-40.2LRCT-ND" H 3950 2700 60  0001 C CNN "Digikey/Mouser"
+	1    3950 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R25
+U 1 1 570B34C8
+P 3950 3100
+F 0 "R25" V 3900 2900 30  0000 C CNN
+F 1 "40.2" V 3950 3100 40  0000 C CNN
+F 2 "chip_rlc:r_0402" V 3880 3100 50  0001 C CNN
+F 3 "" H 3950 3100 50  0000 C CNN
+F 4 "RES SMD 40.2 OHM 1% 1/16W 0402" H 3950 3100 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 3950 3100 60  0001 C CNN "Fabricante"
+F 6 "RC0402FR-0740R2L" H 3950 3100 60  0001 C CNN "Nro. parte"
+F 7 "311-40.2LRCT-ND" H 3950 3100 60  0001 C CNN "Digikey/Mouser"
+	1    3950 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L R R26
+U 1 1 570B353B
+P 3950 3200
+F 0 "R26" V 3900 3000 30  0000 C CNN
+F 1 "40.2" V 3950 3200 40  0000 C CNN
+F 2 "chip_rlc:r_0402" V 3880 3200 50  0001 C CNN
+F 3 "" H 3950 3200 50  0000 C CNN
+F 4 "RES SMD 40.2 OHM 1% 1/16W 0402" H 3950 3200 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 3950 3200 60  0001 C CNN "Fabricante"
+F 6 "RC0402FR-0740R2L" H 3950 3200 60  0001 C CNN "Nro. parte"
+F 7 "311-40.2LRCT-ND" H 3950 3200 60  0001 C CNN "Digikey/Mouser"
+	1    3950 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L R R22
+U 1 1 570B35EF
+P 3950 2800
+F 0 "R22" V 3900 2600 30  0000 C CNN
+F 1 "40.2" V 3950 2800 40  0000 C CNN
+F 2 "chip_rlc:r_0402" V 3880 2800 50  0001 C CNN
+F 3 "" H 3950 2800 50  0000 C CNN
+F 4 "RES SMD 40.2 OHM 1% 1/16W 0402" H 3950 2800 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 3950 2800 60  0001 C CNN "Fabricante"
+F 6 "RC0402FR-0740R2L" H 3950 2800 60  0001 C CNN "Nro. parte"
+F 7 "311-40.2LRCT-ND" H 3950 2800 60  0001 C CNN "Digikey/Mouser"
+	1    3950 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R27
+U 1 1 570B4816
+P 3950 3500
+F 0 "R27" V 4050 3500 50  0000 C CNN
+F 1 "80.6" V 3950 3500 40  0000 C CNN
+F 2 "chip_rlc:r_0402" V 3880 3500 50  0001 C CNN
+F 3 "" H 3950 3500 50  0000 C CNN
+F 4 "RES SMD 80.6 OHM 1% 1/16W 0402" H 3950 3500 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 3950 3500 60  0001 C CNN "Fabricante"
+F 6 "RC0402FR-0780R6L" H 3950 3500 60  0001 C CNN "Nro. parte"
+F 7 "311-80.6LRCT-ND" H 3950 3500 60  0001 C CNN "Digikey/Mouser"
+	1    3950 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R18
+U 1 1 570B5855
+P 3950 2300
+F 0 "R18" V 3900 2100 30  0000 C CNN
+F 1 "40.2" V 3950 2300 40  0000 C CNN
+F 2 "chip_rlc:r_0402" V 3880 2300 50  0001 C CNN
+F 3 "" H 3950 2300 50  0000 C CNN
+F 4 "RES SMD 40.2 OHM 1% 1/16W 0402" H 3950 2300 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 3950 2300 60  0001 C CNN "Fabricante"
+F 6 "RC0402FR-0740R2L" H 3950 2300 60  0001 C CNN "Nro. parte"
+F 7 "311-40.2LRCT-ND" H 3950 2300 60  0001 C CNN "Digikey/Mouser"
+	1    3950 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L R R19
+U 1 1 570B5AD4
+P 3950 2400
+F 0 "R19" V 3900 2200 30  0000 C CNN
+F 1 "40.2" V 3950 2400 40  0000 C CNN
+F 2 "chip_rlc:r_0402" V 3880 2400 50  0001 C CNN
+F 3 "" H 3950 2400 50  0000 C CNN
+F 4 "RES SMD 40.2 OHM 1% 1/16W 0402" H 3950 2400 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 3950 2400 60  0001 C CNN "Fabricante"
+F 6 "RC0402FR-0740R2L" H 3950 2400 60  0001 C CNN "Nro. parte"
+F 7 "311-40.2LRCT-ND" H 3950 2400 60  0001 C CNN "Digikey/Mouser"
+	1    3950 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R20
+U 1 1 570B5B64
+P 3950 2500
+F 0 "R20" V 3900 2300 30  0000 C CNN
+F 1 "40.2" V 3950 2500 40  0000 C CNN
+F 2 "chip_rlc:r_0402" V 3880 2500 50  0001 C CNN
+F 3 "" H 3950 2500 50  0000 C CNN
+F 4 "RES SMD 40.2 OHM 1% 1/16W 0402" H 3950 2500 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 3950 2500 60  0001 C CNN "Fabricante"
+F 6 "RC0402FR-0740R2L" H 3950 2500 60  0001 C CNN "Nro. parte"
+F 7 "311-40.2LRCT-ND" H 3950 2500 60  0001 C CNN "Digikey/Mouser"
+	1    3950 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3450 2500 3800 2500
+Wire Wire Line
+	3450 2400 3800 2400
+Wire Wire Line
+	3450 2300 3800 2300
+Connection ~ 4150 2500
+Wire Wire Line
+	4100 2500 4150 2500
+Connection ~ 4150 2400
+Wire Wire Line
+	4100 2400 4150 2400
+Connection ~ 4150 2300
+Wire Wire Line
+	4100 2300 4150 2300
+Connection ~ 4150 2100
+Wire Wire Line
+	4150 3500 4100 3500
+Wire Wire Line
+	4150 3400 4150 3500
+Wire Wire Line
+	3450 3400 4150 3400
+Wire Wire Line
+	3450 3500 3800 3500
+Connection ~ 4150 3100
+Wire Wire Line
+	4100 3100 4150 3100
+Connection ~ 4150 3000
+Wire Wire Line
+	4100 3000 4150 3000
+Connection ~ 4150 2900
+Wire Wire Line
+	4100 2900 4150 2900
+Connection ~ 4150 2800
+Wire Wire Line
+	4100 2800 4150 2800
+Connection ~ 4150 2700
+Wire Wire Line
+	4100 2700 4150 2700
+Wire Wire Line
+	4150 3200 4100 3200
+Wire Wire Line
+	3800 3200 3450 3200
+Wire Wire Line
+	3800 3100 3450 3100
+Wire Wire Line
+	3800 3000 3450 3000
+Wire Wire Line
+	3800 2900 3450 2900
+Wire Wire Line
+	3800 2800 3450 2800
+Wire Wire Line
+	3450 2700 3800 2700
+Connection ~ 4150 2000
+Wire Wire Line
+	4100 2000 4150 2000
+Connection ~ 4150 1900
+Wire Wire Line
+	4100 1900 4150 1900
+Connection ~ 4150 1800
+Wire Wire Line
+	4100 1800 4150 1800
+Connection ~ 4150 1700
+Wire Wire Line
+	4100 1700 4150 1700
+Connection ~ 4150 1600
+Wire Wire Line
+	4100 1600 4150 1600
+Connection ~ 4150 1500
+Wire Wire Line
+	4100 1500 4150 1500
+Connection ~ 4150 1400
+Wire Wire Line
+	4100 1400 4150 1400
+Connection ~ 4150 1300
+Wire Wire Line
+	4100 1300 4150 1300
+Connection ~ 4150 1200
+Wire Wire Line
+	4100 1200 4150 1200
+Connection ~ 4150 1100
+Wire Wire Line
+	4100 1100 4150 1100
+Connection ~ 4150 1000
+Wire Wire Line
+	4100 1000 4150 1000
+Connection ~ 4150 900 
+Wire Wire Line
+	4100 900  4150 900 
+Connection ~ 4150 800 
+Wire Wire Line
+	4100 800  4150 800 
+Connection ~ 4150 700 
+Wire Wire Line
+	4100 700  4150 700 
+Wire Wire Line
+	4150 650  4150 3200
+Wire Wire Line
+	4150 2100 4100 2100
+Wire Wire Line
+	3800 4200 3450 4200
+Wire Wire Line
+	4150 4200 4100 4200
+Wire Wire Line
+	650  4100 650  4150
+Wire Wire Line
+	700  4100 650  4100
+Wire Wire Line
+	650  4000 650  3950
+Wire Wire Line
+	700  4000 650  4000
+Wire Wire Line
+	1000 4000 1150 4000
+Wire Wire Line
+	1000 4100 1150 4100
+NoConn ~ 7200 2200
+Text Label 10450 700  0    40   ~ 0
+DDR_A0
+Text Label 10450 800  0    40   ~ 0
+DDR_A1
+Text Label 10450 900  0    40   ~ 0
+DDR_A2
+Text Label 10450 1000 0    40   ~ 0
+DDR_A3
+Text Label 10450 1100 0    40   ~ 0
+DDR_A4
+Text Label 10450 1200 0    40   ~ 0
+DDR_A5
+Text Label 10450 1300 0    40   ~ 0
+DDR_A6
+Text Label 10450 1400 0    40   ~ 0
+DDR_A7
+Text Label 10450 1500 0    40   ~ 0
+DDR_A8
+Text Label 10450 1600 0    40   ~ 0
+DDR_A9
+Text Label 10450 1700 0    40   ~ 0
+DDR_A10
+Text Label 10450 1800 0    40   ~ 0
+DDR_A11
+Text Label 10450 1900 0    40   ~ 0
+DDR_A12
+Text Label 10450 2000 0    40   ~ 0
+DDR_A13
+Text Label 10450 2100 0    40   ~ 0
+DDR_A14
+NoConn ~ 10450 2200
+Text Label 3450 700  0    40   ~ 0
+DDR_A0
+Text Label 3450 800  0    40   ~ 0
+DDR_A1
+Text Label 3450 900  0    40   ~ 0
+DDR_A2
+Text Label 3450 1000 0    40   ~ 0
+DDR_A3
+Text Label 3450 1100 0    40   ~ 0
+DDR_A4
+Text Label 3450 1200 0    40   ~ 0
+DDR_A5
+Text Label 3450 1300 0    40   ~ 0
+DDR_A6
+Text Label 3450 1400 0    40   ~ 0
+DDR_A7
+Text Label 3450 1500 0    40   ~ 0
+DDR_A8
+Text Label 3450 1600 0    40   ~ 0
+DDR_A9
+Text Label 3450 1700 0    40   ~ 0
+DDR_A10
+Text Label 3450 1800 0    40   ~ 0
+DDR_A11
+Text Label 3450 1900 0    40   ~ 0
+DDR_A12
+Text Label 3450 2000 0    40   ~ 0
+DDR_A13
+Text Label 3450 2100 0    40   ~ 0
+DDR_A14
+Wire Wire Line
+	3450 700  3800 700 
+Wire Wire Line
+	3800 800  3450 800 
+Wire Wire Line
+	3800 900  3450 900 
+Wire Wire Line
+	3800 1000 3450 1000
+Wire Wire Line
+	3800 1100 3450 1100
+Wire Wire Line
+	3800 1200 3450 1200
+Wire Wire Line
+	3800 1300 3450 1300
+Wire Wire Line
+	3800 1400 3450 1400
+Wire Wire Line
+	3800 1500 3450 1500
+Wire Wire Line
+	3800 1600 3450 1600
+Wire Wire Line
+	3800 1700 3450 1700
+Wire Wire Line
+	3800 1800 3450 1800
+Wire Wire Line
+	3800 1900 3450 1900
+Wire Wire Line
+	3800 2000 3450 2000
+Wire Wire Line
+	3800 2100 3450 2100
+Text Label 10450 4000 0    40   ~ 0
+DDR_BA0
+Text Label 10450 4100 0    40   ~ 0
+DDR_BA1
+Text Label 10450 4200 0    40   ~ 0
+DDR_BA2
+Text Label 7200 4000 0    40   ~ 0
+DDR_BA0
+Text Label 7200 4100 0    40   ~ 0
+DDR_BA1
+Text Label 7200 4200 0    40   ~ 0
+DDR_BA2
+Text Label 7200 5500 0    40   ~ 0
+DDR_DQ0
+Text Label 7200 5600 0    40   ~ 0
+DDR_DQ1
+Text Label 7200 5700 0    40   ~ 0
+DDR_DQ2
+Text Label 7200 5800 0    40   ~ 0
+DDR_DQ3
+Text Label 7200 5900 0    40   ~ 0
+DDR_DQ4
+Text Label 7200 6000 0    40   ~ 0
+DDR_DQ5
+Text Label 7200 6100 0    40   ~ 0
+DDR_DQ6
+Text Label 7200 6200 0    40   ~ 0
+DDR_DQ7
+Text Label 4900 5500 2    40   ~ 0
+DDR_DQ8
+Text Label 4900 5600 2    40   ~ 0
+DDR_DQ9
+Text Label 4900 5700 2    40   ~ 0
+DDR_DQ10
+Text Label 4900 5800 2    40   ~ 0
+DDR_DQ11
+Text Label 4900 5900 2    40   ~ 0
+DDR_DQ12
+Text Label 4900 6000 2    40   ~ 0
+DDR_DQ13
+Text Label 4900 6100 2    40   ~ 0
+DDR_DQ14
+Text Label 4900 6200 2    40   ~ 0
+DDR_DQ15
+Text Label 10450 5500 0    40   ~ 0
+DDR_DQ16
+Text Label 10450 5600 0    40   ~ 0
+DDR_DQ17
+Text Label 10450 5700 0    40   ~ 0
+DDR_DQ18
+Text Label 10450 5800 0    40   ~ 0
+DDR_DQ19
+Text Label 10450 5900 0    40   ~ 0
+DDR_DQ20
+Text Label 10450 6000 0    40   ~ 0
+DDR_DQ21
+Text Label 10450 6100 0    40   ~ 0
+DDR_DQ22
+Text Label 10450 6200 0    40   ~ 0
+DDR_DQ23
+Text Label 8150 5500 2    40   ~ 0
+DDR_DQ24
+Text Label 8150 5600 2    40   ~ 0
+DDR_DQ25
+Text Label 8150 5700 2    40   ~ 0
+DDR_DQ26
+Text Label 8150 5800 2    40   ~ 0
+DDR_DQ27
+Text Label 8150 5900 2    40   ~ 0
+DDR_DQ28
+Text Label 8150 6000 2    40   ~ 0
+DDR_DQ29
+Text Label 8150 6100 2    40   ~ 0
+DDR_DQ30
+Text Label 8150 6200 2    40   ~ 0
+DDR_DQ31
+Text Label 4900 4200 2    40   ~ 0
+DDR_CAS
+Text Label 4900 4400 2    40   ~ 0
+DDR_CKE
+Text Label 7200 4600 0    40   ~ 0
+DDR_CS
+Text Label 4900 4600 2    40   ~ 0
+DDR_ODT
+Text Label 7200 4400 0    40   ~ 0
+DDR_RAS
+Text Label 4900 4800 2    40   ~ 0
+DDR_WE
+Text Label 8150 4200 2    40   ~ 0
+DDR_CAS
+Text Label 8150 4400 2    40   ~ 0
+DDR_CKE
+Text Label 10450 4600 0    40   ~ 0
+DDR_CS
+Text Label 8150 4600 2    40   ~ 0
+DDR_ODT
+Text Label 10450 4400 0    40   ~ 0
+DDR_RAS
+Text Label 8150 4800 2    40   ~ 0
+DDR_WE
+Text Label 4900 4000 2    40   ~ 0
+DDR_CLK_N
+Text Label 4900 3900 2    40   ~ 0
+DDR_CLK_P
+Text Label 8150 4000 2    40   ~ 0
+DDR_CLK_N
+Text Label 8150 3900 2    40   ~ 0
+DDR_CLK_P
+Text Label 7200 4800 0    40   ~ 0
+DDR_RESET
+Text Label 10450 4800 0    40   ~ 0
+DDR_RESET
+$Comp
+L R R29
+U 1 1 570C4117
+P 4700 3700
+F 0 "R29" V 4600 3700 50  0000 C CNN
+F 1 "240" V 4700 3700 40  0000 C CNN
+F 2 "chip_rlc:r_0402" V 4630 3700 50  0001 C CNN
+F 3 "" H 4700 3700 50  0000 C CNN
+F 4 "RES SMD 240 OHM 1% 1/16W 0402" H 4700 3700 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 4700 3700 60  0001 C CNN "Fabricante"
+F 6 "RC0402FR-07240RL" H 4700 3700 60  0001 C CNN "Nro. parte"
+F 7 "311-240LRCT-ND" H 4700 3700 60  0001 C CNN "Digikey/Mouser"
+	1    4700 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 570C4434
+P 4500 3750
+F 0 "#PWR05" H 4500 3500 50  0001 C CNN
+F 1 "GND" H 4508 3576 50  0001 C CNN
+F 2 "" H 4500 3750 50  0000 C CNN
+F 3 "" H 4500 3750 50  0000 C CNN
+	1    4500 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 3700 4900 3700
+$Comp
+L R R30
+U 1 1 570C5330
+P 7950 3700
+F 0 "R30" V 7850 3700 50  0000 C CNN
+F 1 "240" V 7950 3700 40  0000 C CNN
+F 2 "chip_rlc:r_0402" V 7880 3700 50  0001 C CNN
+F 3 "" H 7950 3700 50  0000 C CNN
+F 4 "RES SMD 240 OHM 1% 1/16W 0402" H 7950 3700 60  0001 C CNN "Descripcion"
+F 5 "Yageo" H 7950 3700 60  0001 C CNN "Fabricante"
+F 6 "RC0402FR-07240RL" H 7950 3700 60  0001 C CNN "Nro. parte"
+F 7 "311-240LRCT-ND" H 7950 3700 60  0001 C CNN "Digikey/Mouser"
+	1    7950 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 570C5336
+P 7750 3750
+F 0 "#PWR06" H 7750 3500 50  0001 C CNN
+F 1 "GND" H 7758 3576 50  0001 C CNN
+F 2 "" H 7750 3750 50  0000 C CNN
+F 3 "" H 7750 3750 50  0000 C CNN
+	1    7750 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 3750 7750 3700
+Wire Wire Line
+	7750 3700 7800 3700
+Wire Wire Line
+	8100 3700 8150 3700
+$Comp
+L GND #PWR07
+U 1 1 570C5DF4
+P 8050 3500
+F 0 "#PWR07" H 8050 3250 50  0001 C CNN
+F 1 "GND" H 8058 3326 50  0001 C CNN
+F 2 "" H 8050 3500 50  0000 C CNN
+F 3 "" H 8050 3500 50  0000 C CNN
+	1    8050 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 3500 8150 3500
+Wire Wire Line
+	8100 3500 8100 2700
+Wire Wire Line
+	8100 2700 8150 2700
+Connection ~ 8100 3500
+Wire Wire Line
+	8100 2800 8150 2800
+Connection ~ 8100 2800
+Wire Wire Line
+	8100 2900 8150 2900
+Connection ~ 8100 2900
+Wire Wire Line
+	8100 3000 8150 3000
+Connection ~ 8100 3000
+Wire Wire Line
+	8100 3100 8150 3100
+Connection ~ 8100 3100
+Wire Wire Line
+	8100 3200 8150 3200
+Connection ~ 8100 3200
+Wire Wire Line
+	8100 3300 8150 3300
+Connection ~ 8100 3300
+Wire Wire Line
+	8100 3400 8150 3400
+Connection ~ 8100 3400
+$Comp
+L GND #PWR08
+U 1 1 570C65AA
+P 4800 3500
+F 0 "#PWR08" H 4800 3250 50  0001 C CNN
+F 1 "GND" H 4808 3326 50  0001 C CNN
+F 2 "" H 4800 3500 50  0000 C CNN
+F 3 "" H 4800 3500 50  0000 C CNN
+	1    4800 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3500 4900 3500
+Wire Wire Line
+	4850 3500 4850 2700
+Wire Wire Line
+	4850 2700 4900 2700
+Connection ~ 4850 3500
+Wire Wire Line
+	4850 2800 4900 2800
+Connection ~ 4850 2800
+Wire Wire Line
+	4850 2900 4900 2900
+Connection ~ 4850 2900
+Wire Wire Line
+	4850 3000 4900 3000
+Connection ~ 4850 3000
+Wire Wire Line
+	4850 3100 4900 3100
+Connection ~ 4850 3100
+Wire Wire Line
+	4850 3200 4900 3200
+Connection ~ 4850 3200
+Wire Wire Line
+	4850 3300 4900 3300
+Connection ~ 4850 3300
+Wire Wire Line
+	4850 3400 4900 3400
+Connection ~ 4850 3400
+$Comp
+L GND #PWR09
+U 1 1 570C66CA
+P 7300 3800
+F 0 "#PWR09" H 7300 3550 50  0001 C CNN
+F 1 "GND" H 7308 3626 50  0001 C CNN
+F 2 "" H 7300 3800 50  0000 C CNN
+F 3 "" H 7300 3800 50  0000 C CNN
+	1    7300 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 3800 7300 3800
+Wire Wire Line
+	7250 3800 7250 2700
+Wire Wire Line
+	7250 2700 7200 2700
+Connection ~ 7250 3800
+Wire Wire Line
+	7200 2800 7250 2800
+Connection ~ 7250 2800
+Wire Wire Line
+	7200 2900 7250 2900
+Connection ~ 7250 2900
+Wire Wire Line
+	7200 3000 7250 3000
+Connection ~ 7250 3000
+Wire Wire Line
+	7200 3100 7250 3100
+Connection ~ 7250 3100
+Wire Wire Line
+	7200 3200 7250 3200
+Connection ~ 7250 3200
+Wire Wire Line
+	7200 3300 7250 3300
+Connection ~ 7250 3300
+Wire Wire Line
+	7200 3400 7250 3400
+Connection ~ 7250 3400
+Wire Wire Line
+	7200 3500 7250 3500
+Connection ~ 7250 3500
+Wire Wire Line
+	7200 3600 7250 3600
+Connection ~ 7250 3600
+Wire Wire Line
+	7200 3700 7250 3700
+Connection ~ 7250 3700
+$Comp
+L GND #PWR010
+U 1 1 570C72D5
+P 10550 3800
+F 0 "#PWR010" H 10550 3550 50  0001 C CNN
+F 1 "GND" H 10558 3626 50  0001 C CNN
+F 2 "" H 10550 3800 50  0000 C CNN
+F 3 "" H 10550 3800 50  0000 C CNN
+	1    10550 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 3800 10550 3800
+Wire Wire Line
+	10500 3800 10500 2700
+Wire Wire Line
+	10500 2700 10450 2700
+Connection ~ 10500 3800
+Wire Wire Line
+	10450 2800 10500 2800
+Connection ~ 10500 2800
+Wire Wire Line
+	10450 2900 10500 2900
+Connection ~ 10500 2900
+Wire Wire Line
+	10450 3000 10500 3000
+Connection ~ 10500 3000
+Wire Wire Line
+	10450 3100 10500 3100
+Connection ~ 10500 3100
+Wire Wire Line
+	10450 3200 10500 3200
+Connection ~ 10500 3200
+Wire Wire Line
+	10450 3300 10500 3300
+Connection ~ 10500 3300
+Wire Wire Line
+	10450 3400 10500 3400
+Connection ~ 10500 3400
+Wire Wire Line
+	10450 3500 10500 3500
+Connection ~ 10500 3500
+Wire Wire Line
+	10450 3600 10500 3600
+Connection ~ 10500 3600
+Wire Wire Line
+	10450 3700 10500 3700
+Connection ~ 10500 3700
+$Comp
+L VTT_REF #PWR011
+U 1 1 570C8DEE
+P 10550 2400
+F 0 "#PWR011" H 10550 2490 20  0001 C CNN
+F 1 "VTT_REF" H 10550 2500 30  0000 C CNN
+F 2 "" H 10550 2400 60  0000 C CNN
+F 3 "" H 10550 2400 60  0000 C CNN
+	1    10550 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 2400 10550 2400
+Wire Wire Line
+	10500 2400 10500 2500
+Connection ~ 10500 2400
+$Comp
+L GND #PWR012
+U 1 1 570CA1F0
+P 10900 2550
+F 0 "#PWR012" H 10900 2300 50  0001 C CNN
+F 1 "GND" H 10908 2376 50  0001 C CNN
+F 2 "" H 10900 2550 50  0000 C CNN
+F 3 "" H 10900 2550 50  0000 C CNN
+	1    10900 2550
+	1    0    0    -1  
+$EndComp
+Connection ~ 10500 2500
+Wire Wire Line
+	10900 2500 10900 2550
+Wire Wire Line
+	10900 2500 10850 2500
+Wire Wire Line
+	10550 2500 10450 2500
+$Comp
+L VTT_REF #PWR013
+U 1 1 570CAAA1
+P 7300 2400
+F 0 "#PWR013" H 7300 2490 20  0001 C CNN
+F 1 "VTT_REF" H 7300 2500 30  0000 C CNN
+F 2 "" H 7300 2400 60  0000 C CNN
+F 3 "" H 7300 2400 60  0000 C CNN
+	1    7300 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 2400 7300 2400
+Wire Wire Line
+	7250 2400 7250 2500
+Connection ~ 7250 2400
+$Comp
+L GND #PWR014
+U 1 1 570CAAB4
+P 7650 2550
+F 0 "#PWR014" H 7650 2300 50  0001 C CNN
+F 1 "GND" H 7658 2376 50  0001 C CNN
+F 2 "" H 7650 2550 50  0000 C CNN
+F 3 "" H 7650 2550 50  0000 C CNN
+	1    7650 2550
+	1    0    0    -1  
+$EndComp
+Connection ~ 7250 2500
+Wire Wire Line
+	7650 2500 7650 2550
+Wire Wire Line
+	7650 2500 7600 2500
+Wire Wire Line
+	7300 2500 7200 2500
+Text Label 7200 5000 0    40   ~ 0
+DDR_DM0
+Text Label 4900 5000 2    40   ~ 0
+DDR_DM1
+Text Label 10450 5000 0    40   ~ 0
+DDR_DM2
+Text Label 8150 5000 2    40   ~ 0
+DDR_DM3
+$Comp
+L +1.5V #PWR015
+U 1 1 570CC4B5
+P 4850 650
+F 0 "#PWR015" H 4850 740 20  0001 C CNN
+F 1 "+1.5V" H 4850 750 30  0000 C CNN
+F 2 "" H 4850 650 60  0000 C CNN
+F 3 "" H 4850 650 60  0000 C CNN
+	1    4850 650 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 2500 4850 2500
+Wire Wire Line
+	4850 2500 4850 650 
+Wire Wire Line
+	4900 700  4850 700 
+Connection ~ 4850 700 
+Wire Wire Line
+	4900 800  4850 800 
+Connection ~ 4850 800 
+Wire Wire Line
+	4900 900  4850 900 
+Connection ~ 4850 900 
+Wire Wire Line
+	4900 1000 4850 1000
+Connection ~ 4850 1000
+Wire Wire Line
+	4900 1100 4850 1100
+Connection ~ 4850 1100
+Wire Wire Line
+	4900 1200 4850 1200
+Connection ~ 4850 1200
+Wire Wire Line
+	4900 1300 4850 1300
+Connection ~ 4850 1300
+Wire Wire Line
+	4900 1400 4850 1400
+Connection ~ 4850 1400
+Wire Wire Line
+	4900 1500 4850 1500
+Connection ~ 4850 1500
+Wire Wire Line
+	4900 1700 4850 1700
+Connection ~ 4850 1700
+Wire Wire Line
+	4900 1800 4850 1800
+Connection ~ 4850 1800
+Wire Wire Line
+	4900 1900 4850 1900
+Connection ~ 4850 1900
+Wire Wire Line
+	4900 2000 4850 2000
+Connection ~ 4850 2000
+Wire Wire Line
+	4900 2100 4850 2100
+Connection ~ 4850 2100
+Wire Wire Line
+	4900 2200 4850 2200
+Connection ~ 4850 2200
+Wire Wire Line
+	4900 2300 4850 2300
+Connection ~ 4850 2300
+Wire Wire Line
+	4900 2400 4850 2400
+Connection ~ 4850 2400
+$Comp
+L +1.5V #PWR016
+U 1 1 570CDDC6
+P 8100 650
+F 0 "#PWR016" H 8100 740 20  0001 C CNN
+F 1 "+1.5V" H 8100 750 30  0000 C CNN
+F 2 "" H 8100 650 60  0000 C CNN
+F 3 "" H 8100 650 60  0000 C CNN
+	1    8100 650 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 2500 8100 2500
+Wire Wire Line
+	8100 2500 8100 650 
+Wire Wire Line
+	8150 700  8100 700 
+Connection ~ 8100 700 
+Wire Wire Line
+	8150 800  8100 800 
+Connection ~ 8100 800 
+Wire Wire Line
+	8150 900  8100 900 
+Connection ~ 8100 900 
+Wire Wire Line
+	8150 1000 8100 1000
+Connection ~ 8100 1000
+Wire Wire Line
+	8150 1100 8100 1100
+Connection ~ 8100 1100
+Wire Wire Line
+	8150 1200 8100 1200
+Connection ~ 8100 1200
+Wire Wire Line
+	8150 1300 8100 1300
+Connection ~ 8100 1300
+Wire Wire Line
+	8150 1400 8100 1400
+Connection ~ 8100 1400
+Wire Wire Line
+	8150 1500 8100 1500
+Connection ~ 8100 1500
+Wire Wire Line
+	8150 1700 8100 1700
+Connection ~ 8100 1700
+Wire Wire Line
+	8150 1800 8100 1800
+Connection ~ 8100 1800
+Wire Wire Line
+	8150 1900 8100 1900
+Connection ~ 8100 1900
+Wire Wire Line
+	8150 2000 8100 2000
+Connection ~ 8100 2000
+Wire Wire Line
+	8150 2100 8100 2100
+Connection ~ 8100 2100
+Wire Wire Line
+	8150 2200 8100 2200
+Connection ~ 8100 2200
+Wire Wire Line
+	8150 2300 8100 2300
+Connection ~ 8100 2300
+Wire Wire Line
+	8150 2400 8100 2400
+Connection ~ 8100 2400
+Text Label 8150 5200 2    40   ~ 0
+DDR_DQS3_P
+Text Label 8150 5300 2    40   ~ 0
+DDR_DQS3_N
+Text Label 4900 5300 2    40   ~ 0
+DDR_DQS1_N
+Text Label 4900 5200 2    40   ~ 0
+DDR_DQS1_P
+Text Label 7200 5300 0    40   ~ 0
+DDR_DQS0_N
+Text Label 7200 5200 0    40   ~ 0
+DDR_DQS0_P
+Text Label 10450 5200 0    40   ~ 0
+DDR_DQS2_P
+Text Label 10450 5300 0    40   ~ 0
+DDR_DQS2_N
+$Comp
+L C C37
+U 1 1 570DA98D
+P 3250 5550
+F 0 "C37" V 3300 5650 50  0000 L CNN
+F 1 "100nF" V 3200 5250 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 3288 5400 50  0001 C CNN
+F 3 "" H 3250 5550 50  0000 C CNN
+F 4 "CAP CER 0.1UF 10V X5R 0201" H 3250 5550 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 3250 5550 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61A104ME15D" H 3250 5550 60  0001 C CNN "Nro. parte"
+F 7 "490-5405-1-ND" H 3250 5550 60  0001 C CNN "Digikey/Mouser"
+	1    3250 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C34
+U 1 1 570DA997
+P 3100 5550
+F 0 "C34" V 3150 5650 50  0000 L CNN
+F 1 "10uF" V 3050 5300 50  0000 L CNN
+F 2 "chip_rlc:c_0603" H 3138 5400 50  0001 C CNN
+F 3 "" H 3100 5550 50  0000 C CNN
+F 4 "CAP CER 10UF 6.3V X5R 0603" H 3100 5550 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 3100 5550 60  0001 C CNN "Fabricante"
+F 6 "GRM188R60J106KE47D" H 3100 5550 60  0001 C CNN "Nro. parte"
+F 7 "490-12538-1-ND" H 3100 5550 60  0001 C CNN "Digikey/Mouser"
+	1    3100 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C31
+U 1 1 570DA9A1
+P 2950 5550
+F 0 "C31" V 3000 5650 50  0000 L CNN
+F 1 "10uF" V 2900 5300 50  0000 L CNN
+F 2 "chip_rlc:c_0603" H 2988 5400 50  0001 C CNN
+F 3 "" H 2950 5550 50  0000 C CNN
+F 4 "CAP CER 10UF 6.3V X5R 0603" H 2950 5550 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 2950 5550 60  0001 C CNN "Fabricante"
+F 6 "GRM188R60J106KE47D" H 2950 5550 60  0001 C CNN "Nro. parte"
+F 7 "490-12538-1-ND" H 2950 5550 60  0001 C CNN "Digikey/Mouser"
+	1    2950 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C40
+U 1 1 570DA9AB
+P 3400 5550
+F 0 "C40" V 3450 5650 50  0000 L CNN
+F 1 "100nF" V 3350 5250 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 3438 5400 50  0001 C CNN
+F 3 "" H 3400 5550 50  0000 C CNN
+F 4 "CAP CER 0.1UF 10V X5R 0201" H 3400 5550 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 3400 5550 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61A104ME15D" H 3400 5550 60  0001 C CNN "Nro. parte"
+F 7 "490-5405-1-ND" H 3400 5550 60  0001 C CNN "Digikey/Mouser"
+	1    3400 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C43
+U 1 1 570DA9B5
+P 3550 5550
+F 0 "C43" V 3600 5650 50  0000 L CNN
+F 1 "100nF" V 3500 5250 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 3588 5400 50  0001 C CNN
+F 3 "" H 3550 5550 50  0000 C CNN
+F 4 "CAP CER 0.1UF 10V X5R 0201" H 3550 5550 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 3550 5550 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61A104ME15D" H 3550 5550 60  0001 C CNN "Nro. parte"
+F 7 "490-5405-1-ND" H 3550 5550 60  0001 C CNN "Digikey/Mouser"
+	1    3550 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C46
+U 1 1 570DA9BF
+P 3700 5550
+F 0 "C46" V 3750 5650 50  0000 L CNN
+F 1 "100nF" V 3650 5250 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 3738 5400 50  0001 C CNN
+F 3 "" H 3700 5550 50  0000 C CNN
+F 4 "CAP CER 0.1UF 10V X5R 0201" H 3700 5550 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 3700 5550 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61A104ME15D" H 3700 5550 60  0001 C CNN "Nro. parte"
+F 7 "490-5405-1-ND" H 3700 5550 60  0001 C CNN "Digikey/Mouser"
+	1    3700 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C49
+U 1 1 570DA9C9
+P 3850 5550
+F 0 "C49" V 3900 5650 50  0000 L CNN
+F 1 "100nF" V 3800 5250 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 3888 5400 50  0001 C CNN
+F 3 "" H 3850 5550 50  0000 C CNN
+F 4 "CAP CER 0.1UF 10V X5R 0201" H 3850 5550 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 3850 5550 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61A104ME15D" H 3850 5550 60  0001 C CNN "Nro. parte"
+F 7 "490-5405-1-ND" H 3850 5550 60  0001 C CNN "Digikey/Mouser"
+	1    3850 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR017
+U 1 1 570DA9CF
+P 3850 5800
+F 0 "#PWR017" H 3850 5550 50  0001 C CNN
+F 1 "GND" H 3858 5626 50  0001 C CNN
+F 2 "" H 3850 5800 50  0000 C CNN
+F 3 "" H 3850 5800 50  0000 C CNN
+	1    3850 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR018
+U 1 1 570DA9D5
+P 3700 5800
+F 0 "#PWR018" H 3700 5550 50  0001 C CNN
+F 1 "GND" H 3708 5626 50  0001 C CNN
+F 2 "" H 3700 5800 50  0000 C CNN
+F 3 "" H 3700 5800 50  0000 C CNN
+	1    3700 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR019
+U 1 1 570DA9DB
+P 3550 5800
+F 0 "#PWR019" H 3550 5550 50  0001 C CNN
+F 1 "GND" H 3558 5626 50  0001 C CNN
+F 2 "" H 3550 5800 50  0000 C CNN
+F 3 "" H 3550 5800 50  0000 C CNN
+	1    3550 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR020
+U 1 1 570DA9E1
+P 3400 5800
+F 0 "#PWR020" H 3400 5550 50  0001 C CNN
+F 1 "GND" H 3408 5626 50  0001 C CNN
+F 2 "" H 3400 5800 50  0000 C CNN
+F 3 "" H 3400 5800 50  0000 C CNN
+	1    3400 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR021
+U 1 1 570DA9E7
+P 3250 5800
+F 0 "#PWR021" H 3250 5550 50  0001 C CNN
+F 1 "GND" H 3258 5626 50  0001 C CNN
+F 2 "" H 3250 5800 50  0000 C CNN
+F 3 "" H 3250 5800 50  0000 C CNN
+	1    3250 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR022
+U 1 1 570DA9ED
+P 3100 5800
+F 0 "#PWR022" H 3100 5550 50  0001 C CNN
+F 1 "GND" H 3108 5626 50  0001 C CNN
+F 2 "" H 3100 5800 50  0000 C CNN
+F 3 "" H 3100 5800 50  0000 C CNN
+	1    3100 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR023
+U 1 1 570DA9F3
+P 2950 5800
+F 0 "#PWR023" H 2950 5550 50  0001 C CNN
+F 1 "GND" H 2958 5626 50  0001 C CNN
+F 2 "" H 2950 5800 50  0000 C CNN
+F 3 "" H 2950 5800 50  0000 C CNN
+	1    2950 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR024
+U 1 1 570DA9F9
+P 2800 5800
+F 0 "#PWR024" H 2800 5550 50  0001 C CNN
+F 1 "GND" H 2808 5626 50  0001 C CNN
+F 2 "" H 2800 5800 50  0000 C CNN
+F 3 "" H 2800 5800 50  0000 C CNN
+	1    2800 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 5150 2800 5400
+Wire Wire Line
+	2800 5200 4000 5200
+Wire Wire Line
+	3850 5200 3850 5400
+Wire Wire Line
+	3700 5400 3700 5200
+Connection ~ 3700 5200
+Wire Wire Line
+	3550 5400 3550 5200
+Connection ~ 3550 5200
+Wire Wire Line
+	3400 5400 3400 5200
+Connection ~ 3400 5200
+Wire Wire Line
+	3250 5400 3250 5200
+Connection ~ 3250 5200
+Wire Wire Line
+	3100 5400 3100 5200
+Connection ~ 3100 5200
+Wire Wire Line
+	2950 5400 2950 5200
+Connection ~ 2950 5200
+Connection ~ 2800 5200
+Wire Wire Line
+	2800 5700 2800 5800
+Wire Wire Line
+	2950 5700 2950 5800
+Wire Wire Line
+	3100 5700 3100 5800
+Wire Wire Line
+	3250 5700 3250 5800
+Wire Wire Line
+	3400 5700 3400 5800
+Wire Wire Line
+	3550 5700 3550 5800
+Wire Wire Line
+	3700 5700 3700 5800
+Wire Wire Line
+	3850 5700 3850 5800
+$Comp
+L C C29
+U 1 1 570DAA25
+P 2800 6450
+F 0 "C29" V 2850 6550 50  0000 L CNN
+F 1 "100nF" V 2750 6150 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 2838 6300 50  0001 C CNN
+F 3 "" H 2800 6450 50  0000 C CNN
+F 4 "CAP CER 0.1UF 10V X5R 0201" H 2800 6450 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 2800 6450 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61A104ME15D" H 2800 6450 60  0001 C CNN "Nro. parte"
+F 7 "490-5405-1-ND" H 2800 6450 60  0001 C CNN "Digikey/Mouser"
+	1    2800 6450
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C32
+U 1 1 570DAA43
+P 2950 6450
+F 0 "C32" V 3000 6550 50  0000 L CNN
+F 1 "100nF" V 2900 6150 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 2988 6300 50  0001 C CNN
+F 3 "" H 2950 6450 50  0000 C CNN
+F 4 "CAP CER 0.1UF 10V X5R 0201" H 2950 6450 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 2950 6450 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61A104ME15D" H 2950 6450 60  0001 C CNN "Nro. parte"
+F 7 "490-5405-1-ND" H 2950 6450 60  0001 C CNN "Digikey/Mouser"
+	1    2950 6450
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR025
+U 1 1 570DAACB
+P 4000 6700
+F 0 "#PWR025" H 4000 6450 50  0001 C CNN
+F 1 "GND" H 4008 6526 50  0001 C CNN
+F 2 "" H 4000 6700 50  0000 C CNN
+F 3 "" H 4000 6700 50  0000 C CNN
+	1    4000 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR026
+U 1 1 570DAAD1
+P 3850 6700
+F 0 "#PWR026" H 3850 6450 50  0001 C CNN
+F 1 "GND" H 3858 6526 50  0001 C CNN
+F 2 "" H 3850 6700 50  0000 C CNN
+F 3 "" H 3850 6700 50  0000 C CNN
+	1    3850 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR027
+U 1 1 570DAAD7
+P 3700 6700
+F 0 "#PWR027" H 3700 6450 50  0001 C CNN
+F 1 "GND" H 3708 6526 50  0001 C CNN
+F 2 "" H 3700 6700 50  0000 C CNN
+F 3 "" H 3700 6700 50  0000 C CNN
+	1    3700 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR028
+U 1 1 570DAADD
+P 3550 6700
+F 0 "#PWR028" H 3550 6450 50  0001 C CNN
+F 1 "GND" H 3558 6526 50  0001 C CNN
+F 2 "" H 3550 6700 50  0000 C CNN
+F 3 "" H 3550 6700 50  0000 C CNN
+	1    3550 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR029
+U 1 1 570DAAE3
+P 3400 6700
+F 0 "#PWR029" H 3400 6450 50  0001 C CNN
+F 1 "GND" H 3408 6526 50  0001 C CNN
+F 2 "" H 3400 6700 50  0000 C CNN
+F 3 "" H 3400 6700 50  0000 C CNN
+	1    3400 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR030
+U 1 1 570DAAE9
+P 3250 6700
+F 0 "#PWR030" H 3250 6450 50  0001 C CNN
+F 1 "GND" H 3258 6526 50  0001 C CNN
+F 2 "" H 3250 6700 50  0000 C CNN
+F 3 "" H 3250 6700 50  0000 C CNN
+	1    3250 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR031
+U 1 1 570DAAEF
+P 3100 6700
+F 0 "#PWR031" H 3100 6450 50  0001 C CNN
+F 1 "GND" H 3108 6526 50  0001 C CNN
+F 2 "" H 3100 6700 50  0000 C CNN
+F 3 "" H 3100 6700 50  0000 C CNN
+	1    3100 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR032
+U 1 1 570DAAF5
+P 2950 6700
+F 0 "#PWR032" H 2950 6450 50  0001 C CNN
+F 1 "GND" H 2958 6526 50  0001 C CNN
+F 2 "" H 2950 6700 50  0000 C CNN
+F 3 "" H 2950 6700 50  0000 C CNN
+	1    2950 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 6600 2950 6700
+Wire Wire Line
+	3100 6600 3100 6700
+Wire Wire Line
+	3250 6600 3250 6700
+Wire Wire Line
+	3400 6600 3400 6700
+Wire Wire Line
+	3550 6600 3550 6700
+Wire Wire Line
+	3700 6600 3700 6700
+Wire Wire Line
+	3850 6600 3850 6700
+Wire Wire Line
+	4000 6600 4000 6700
+$Comp
+L GND #PWR033
+U 1 1 570DAB03
+P 2800 6700
+F 0 "#PWR033" H 2800 6450 50  0001 C CNN
+F 1 "GND" H 2808 6526 50  0001 C CNN
+F 2 "" H 2800 6700 50  0000 C CNN
+F 3 "" H 2800 6700 50  0000 C CNN
+	1    2800 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 6700 2800 6600
+$Comp
+L GND #PWR034
+U 1 1 570DAB0A
+P 4000 7600
+F 0 "#PWR034" H 4000 7350 50  0001 C CNN
+F 1 "GND" H 4008 7426 50  0001 C CNN
+F 2 "" H 4000 7600 50  0000 C CNN
+F 3 "" H 4000 7600 50  0000 C CNN
+	1    4000 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR035
+U 1 1 570DAB10
+P 3850 7600
+F 0 "#PWR035" H 3850 7350 50  0001 C CNN
+F 1 "GND" H 3858 7426 50  0001 C CNN
+F 2 "" H 3850 7600 50  0000 C CNN
+F 3 "" H 3850 7600 50  0000 C CNN
+	1    3850 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR036
+U 1 1 570DAB16
+P 3700 7600
+F 0 "#PWR036" H 3700 7350 50  0001 C CNN
+F 1 "GND" H 3708 7426 50  0001 C CNN
+F 2 "" H 3700 7600 50  0000 C CNN
+F 3 "" H 3700 7600 50  0000 C CNN
+	1    3700 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR037
+U 1 1 570DAB1C
+P 3550 7600
+F 0 "#PWR037" H 3550 7350 50  0001 C CNN
+F 1 "GND" H 3558 7426 50  0001 C CNN
+F 2 "" H 3550 7600 50  0000 C CNN
+F 3 "" H 3550 7600 50  0000 C CNN
+	1    3550 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR038
+U 1 1 570DAB22
+P 3400 7600
+F 0 "#PWR038" H 3400 7350 50  0001 C CNN
+F 1 "GND" H 3408 7426 50  0001 C CNN
+F 2 "" H 3400 7600 50  0000 C CNN
+F 3 "" H 3400 7600 50  0000 C CNN
+	1    3400 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR039
+U 1 1 570DAB28
+P 3250 7600
+F 0 "#PWR039" H 3250 7350 50  0001 C CNN
+F 1 "GND" H 3258 7426 50  0001 C CNN
+F 2 "" H 3250 7600 50  0000 C CNN
+F 3 "" H 3250 7600 50  0000 C CNN
+	1    3250 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR040
+U 1 1 570DAB2E
+P 3100 7600
+F 0 "#PWR040" H 3100 7350 50  0001 C CNN
+F 1 "GND" H 3108 7426 50  0001 C CNN
+F 2 "" H 3100 7600 50  0000 C CNN
+F 3 "" H 3100 7600 50  0000 C CNN
+	1    3100 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR041
+U 1 1 570DAB34
+P 2950 7600
+F 0 "#PWR041" H 2950 7350 50  0001 C CNN
+F 1 "GND" H 2958 7426 50  0001 C CNN
+F 2 "" H 2950 7600 50  0000 C CNN
+F 3 "" H 2950 7600 50  0000 C CNN
+	1    2950 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 7500 2950 7600
+Wire Wire Line
+	3100 7500 3100 7600
+Wire Wire Line
+	3250 7500 3250 7600
+Wire Wire Line
+	3400 7500 3400 7600
+Wire Wire Line
+	3550 7500 3550 7600
+Wire Wire Line
+	3700 7500 3700 7600
+Wire Wire Line
+	3850 7500 3850 7600
+Wire Wire Line
+	4000 7500 4000 7600
+$Comp
+L GND #PWR042
+U 1 1 570DAB42
+P 2800 7600
+F 0 "#PWR042" H 2800 7350 50  0001 C CNN
+F 1 "GND" H 2808 7426 50  0001 C CNN
+F 2 "" H 2800 7600 50  0000 C CNN
+F 3 "" H 2800 7600 50  0000 C CNN
+	1    2800 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 7600 2800 7500
+Wire Wire Line
+	2800 6050 2800 6300
+Wire Wire Line
+	2800 6100 4000 6100
+Wire Wire Line
+	3850 6100 3850 6300
+Wire Wire Line
+	3700 6300 3700 6100
+Connection ~ 3700 6100
+Wire Wire Line
+	3550 6300 3550 6100
+Connection ~ 3550 6100
+Wire Wire Line
+	3400 6300 3400 6100
+Connection ~ 3400 6100
+Wire Wire Line
+	3250 6300 3250 6100
+Connection ~ 3250 6100
+Wire Wire Line
+	3100 6300 3100 6100
+Connection ~ 3100 6100
+Wire Wire Line
+	2950 6300 2950 6100
+Connection ~ 2950 6100
+Connection ~ 2800 6100
+Wire Wire Line
+	4000 6100 4000 6300
+Connection ~ 3850 6100
+Wire Wire Line
+	2800 6950 2800 7200
+Wire Wire Line
+	2800 7000 4000 7000
+Wire Wire Line
+	3850 7000 3850 7200
+Wire Wire Line
+	3700 7200 3700 7000
+Connection ~ 3700 7000
+Wire Wire Line
+	3550 7200 3550 7000
+Connection ~ 3550 7000
+Wire Wire Line
+	3400 7200 3400 7000
+Connection ~ 3400 7000
+Wire Wire Line
+	3250 7200 3250 7000
+Connection ~ 3250 7000
+Wire Wire Line
+	3100 7200 3100 7000
+Connection ~ 3100 7000
+Wire Wire Line
+	2950 7200 2950 7000
+Connection ~ 2950 7000
+Connection ~ 2800 7000
+Wire Wire Line
+	4000 7000 4000 7200
+Connection ~ 3850 7000
+Text Notes 2500 6850 1    60   ~ 0
+Close to each chip
+Wire Wire Line
+	4550 3700 4500 3700
+Wire Wire Line
+	4500 3700 4500 3750
+$Comp
+L +1.5V #PWR043
+U 1 1 576E1C45
+P 2800 5150
+F 0 "#PWR043" H 2800 5240 20  0001 C CNN
+F 1 "+1.5V" H 2800 5250 30  0000 C CNN
+F 2 "" H 2800 5150 60  0000 C CNN
+F 3 "" H 2800 5150 60  0000 C CNN
+	1    2800 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C28
+U 1 1 576E316B
+P 2800 5550
+F 0 "C28" V 2850 5650 50  0000 L CNN
+F 1 "100uF" V 2750 5250 50  0000 L CNN
+F 2 "chip_rlc:c_1206" H 2838 5400 50  0001 C CNN
+F 3 "" H 2800 5550 50  0000 C CNN
+F 4 "100µF ±20% 6.3V X6T Ceramic Capacitor -55°C ~ 105°C Surface Mount, MLCC 1206 (3216 Metric) 0.126\" L x 0.063\" W (3.20mm x 1.60mm)" H 2800 5550 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 2800 5550 60  0001 C CNN "Fabricante"
+F 6 "GRM31CD80J107ME39L" H 2800 5550 60  0001 C CNN "Nro. parte"
+F 7 "490-10525-1-ND" H 2800 5550 60  0001 C CNN "Digikey/Mouser"
+	1    2800 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C52
+U 1 1 576E3663
+P 4000 5550
+F 0 "C52" V 4050 5650 50  0000 L CNN
+F 1 "100nF" V 3950 5250 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 4038 5400 50  0001 C CNN
+F 3 "" H 4000 5550 50  0000 C CNN
+F 4 "CAP CER 0.1UF 10V X5R 0201" H 4000 5550 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 4000 5550 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61A104ME15D" H 4000 5550 60  0001 C CNN "Nro. parte"
+F 7 "490-5405-1-ND" H 4000 5550 60  0001 C CNN "Digikey/Mouser"
+	1    4000 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L +1.5V #PWR044
+U 1 1 576E4562
+P 2800 6050
+F 0 "#PWR044" H 2800 6140 20  0001 C CNN
+F 1 "+1.5V" H 2800 6150 30  0000 C CNN
+F 2 "" H 2800 6050 60  0000 C CNN
+F 3 "" H 2800 6050 60  0000 C CNN
+	1    2800 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +1.5V #PWR045
+U 1 1 576E4672
+P 2800 6950
+F 0 "#PWR045" H 2800 7040 20  0001 C CNN
+F 1 "+1.5V" H 2800 7050 30  0000 C CNN
+F 2 "" H 2800 6950 60  0000 C CNN
+F 3 "" H 2800 6950 60  0000 C CNN
+	1    2800 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR046
+U 1 1 576E4A31
+P 4000 5800
+F 0 "#PWR046" H 4000 5550 50  0001 C CNN
+F 1 "GND" H 4008 5626 50  0001 C CNN
+F 2 "" H 4000 5800 50  0000 C CNN
+F 3 "" H 4000 5800 50  0000 C CNN
+	1    4000 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 5800 4000 5700
+Wire Wire Line
+	4000 5200 4000 5400
+Connection ~ 3850 5200
+$Comp
+L C C10
+U 1 1 576E602C
+P 1400 5550
+F 0 "C10" V 1450 5650 50  0000 L CNN
+F 1 "100nF" V 1350 5250 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 1438 5400 50  0001 C CNN
+F 3 "" H 1400 5550 50  0000 C CNN
+F 4 "CAP CER 0.1UF 10V X5R 0201" H 1400 5550 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 1400 5550 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61A104ME15D" H 1400 5550 60  0001 C CNN "Nro. parte"
+F 7 "490-5405-1-ND" H 1400 5550 60  0001 C CNN "Digikey/Mouser"
+	1    1400 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C7
+U 1 1 576E6036
+P 1250 5550
+F 0 "C7" V 1300 5650 50  0000 L CNN
+F 1 "10uF" V 1200 5300 50  0000 L CNN
+F 2 "chip_rlc:c_0603" H 1288 5400 50  0001 C CNN
+F 3 "" H 1250 5550 50  0000 C CNN
+F 4 "CAP CER 10UF 6.3V X5R 0603" H 1250 5550 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 1250 5550 60  0001 C CNN "Fabricante"
+F 6 "GRM188R60J106KE47D" H 1250 5550 60  0001 C CNN "Nro. parte"
+F 7 "490-12538-1-ND" H 1250 5550 60  0001 C CNN "Digikey/Mouser"
+	1    1250 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C4
+U 1 1 576E6040
+P 1100 5550
+F 0 "C4" V 1150 5650 50  0000 L CNN
+F 1 "10uF" V 1050 5300 50  0000 L CNN
+F 2 "chip_rlc:c_0603" H 1138 5400 50  0001 C CNN
+F 3 "" H 1100 5550 50  0000 C CNN
+F 4 "CAP CER 10UF 6.3V X5R 0603" H 1100 5550 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 1100 5550 60  0001 C CNN "Fabricante"
+F 6 "GRM188R60J106KE47D" H 1100 5550 60  0001 C CNN "Nro. parte"
+F 7 "490-12538-1-ND" H 1100 5550 60  0001 C CNN "Digikey/Mouser"
+	1    1100 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C13
+U 1 1 576E604A
+P 1550 5550
+F 0 "C13" V 1600 5650 50  0000 L CNN
+F 1 "100nF" V 1500 5250 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 1588 5400 50  0001 C CNN
+F 3 "" H 1550 5550 50  0000 C CNN
+F 4 "CAP CER 0.1UF 10V X5R 0201" H 1550 5550 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 1550 5550 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61A104ME15D" H 1550 5550 60  0001 C CNN "Nro. parte"
+F 7 "490-5405-1-ND" H 1550 5550 60  0001 C CNN "Digikey/Mouser"
+	1    1550 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C16
+U 1 1 576E6054
+P 1700 5550
+F 0 "C16" V 1750 5650 50  0000 L CNN
+F 1 "100nF" V 1650 5250 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 1738 5400 50  0001 C CNN
+F 3 "" H 1700 5550 50  0000 C CNN
+F 4 "CAP CER 0.1UF 10V X5R 0201" H 1700 5550 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 1700 5550 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61A104ME15D" H 1700 5550 60  0001 C CNN "Nro. parte"
+F 7 "490-5405-1-ND" H 1700 5550 60  0001 C CNN "Digikey/Mouser"
+	1    1700 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C19
+U 1 1 576E605E
+P 1850 5550
+F 0 "C19" V 1900 5650 50  0000 L CNN
+F 1 "100nF" V 1800 5250 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 1888 5400 50  0001 C CNN
+F 3 "" H 1850 5550 50  0000 C CNN
+F 4 "CAP CER 0.1UF 10V X5R 0201" H 1850 5550 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 1850 5550 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61A104ME15D" H 1850 5550 60  0001 C CNN "Nro. parte"
+F 7 "490-5405-1-ND" H 1850 5550 60  0001 C CNN "Digikey/Mouser"
+	1    1850 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C22
+U 1 1 576E6068
+P 2000 5550
+F 0 "C22" V 2050 5650 50  0000 L CNN
+F 1 "100nF" V 1950 5250 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 2038 5400 50  0001 C CNN
+F 3 "" H 2000 5550 50  0000 C CNN
+F 4 "CAP CER 0.1UF 10V X5R 0201" H 2000 5550 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 2000 5550 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61A104ME15D" H 2000 5550 60  0001 C CNN "Nro. parte"
+F 7 "490-5405-1-ND" H 2000 5550 60  0001 C CNN "Digikey/Mouser"
+	1    2000 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR047
+U 1 1 576E606E
+P 2000 5800
+F 0 "#PWR047" H 2000 5550 50  0001 C CNN
+F 1 "GND" H 2008 5626 50  0001 C CNN
+F 2 "" H 2000 5800 50  0000 C CNN
+F 3 "" H 2000 5800 50  0000 C CNN
+	1    2000 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR048
+U 1 1 576E6074
+P 1850 5800
+F 0 "#PWR048" H 1850 5550 50  0001 C CNN
+F 1 "GND" H 1858 5626 50  0001 C CNN
+F 2 "" H 1850 5800 50  0000 C CNN
+F 3 "" H 1850 5800 50  0000 C CNN
+	1    1850 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR049
+U 1 1 576E607A
+P 1700 5800
+F 0 "#PWR049" H 1700 5550 50  0001 C CNN
+F 1 "GND" H 1708 5626 50  0001 C CNN
+F 2 "" H 1700 5800 50  0000 C CNN
+F 3 "" H 1700 5800 50  0000 C CNN
+	1    1700 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR050
+U 1 1 576E6080
+P 1550 5800
+F 0 "#PWR050" H 1550 5550 50  0001 C CNN
+F 1 "GND" H 1558 5626 50  0001 C CNN
+F 2 "" H 1550 5800 50  0000 C CNN
+F 3 "" H 1550 5800 50  0000 C CNN
+	1    1550 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR051
+U 1 1 576E6086
+P 1400 5800
+F 0 "#PWR051" H 1400 5550 50  0001 C CNN
+F 1 "GND" H 1408 5626 50  0001 C CNN
+F 2 "" H 1400 5800 50  0000 C CNN
+F 3 "" H 1400 5800 50  0000 C CNN
+	1    1400 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR052
+U 1 1 576E608C
+P 1250 5800
+F 0 "#PWR052" H 1250 5550 50  0001 C CNN
+F 1 "GND" H 1258 5626 50  0001 C CNN
+F 2 "" H 1250 5800 50  0000 C CNN
+F 3 "" H 1250 5800 50  0000 C CNN
+	1    1250 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR053
+U 1 1 576E6092
+P 1100 5800
+F 0 "#PWR053" H 1100 5550 50  0001 C CNN
+F 1 "GND" H 1108 5626 50  0001 C CNN
+F 2 "" H 1100 5800 50  0000 C CNN
+F 3 "" H 1100 5800 50  0000 C CNN
+	1    1100 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR054
+U 1 1 576E6098
+P 950 5800
+F 0 "#PWR054" H 950 5550 50  0001 C CNN
+F 1 "GND" H 958 5626 50  0001 C CNN
+F 2 "" H 950 5800 50  0000 C CNN
+F 3 "" H 950 5800 50  0000 C CNN
+	1    950  5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  5150 950  5400
+Wire Wire Line
+	950  5200 2150 5200
+Wire Wire Line
+	2000 5200 2000 5400
+Wire Wire Line
+	1850 5400 1850 5200
+Connection ~ 1850 5200
+Wire Wire Line
+	1700 5400 1700 5200
+Connection ~ 1700 5200
+Wire Wire Line
+	1550 5400 1550 5200
+Connection ~ 1550 5200
+Wire Wire Line
+	1400 5400 1400 5200
+Connection ~ 1400 5200
+Wire Wire Line
+	1250 5400 1250 5200
+Connection ~ 1250 5200
+Wire Wire Line
+	1100 5400 1100 5200
+Connection ~ 1100 5200
+Connection ~ 950  5200
+Wire Wire Line
+	950  5700 950  5800
+Wire Wire Line
+	1100 5700 1100 5800
+Wire Wire Line
+	1250 5700 1250 5800
+Wire Wire Line
+	1400 5700 1400 5800
+Wire Wire Line
+	1550 5700 1550 5800
+Wire Wire Line
+	1700 5700 1700 5800
+Wire Wire Line
+	1850 5700 1850 5800
+Wire Wire Line
+	2000 5700 2000 5800
+$Comp
+L C C2
+U 1 1 576E60C4
+P 950 6450
+F 0 "C2" V 1000 6550 50  0000 L CNN
+F 1 "100nF" V 900 6150 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 988 6300 50  0001 C CNN
+F 3 "" H 950 6450 50  0000 C CNN
+F 4 "CAP CER 0.1UF 10V X5R 0201" H 950 6450 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 950 6450 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61A104ME15D" H 950 6450 60  0001 C CNN "Nro. parte"
+F 7 "490-5405-1-ND" H 950 6450 60  0001 C CNN "Digikey/Mouser"
+	1    950  6450
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C5
+U 1 1 576E60D8
+P 1100 6450
+F 0 "C5" V 1150 6550 50  0000 L CNN
+F 1 "100nF" V 1050 6150 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 1138 6300 50  0001 C CNN
+F 3 "" H 1100 6450 50  0000 C CNN
+F 4 "CAP CER 0.1UF 10V X5R 0201" H 1100 6450 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 1100 6450 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61A104ME15D" H 1100 6450 60  0001 C CNN "Nro. parte"
+F 7 "490-5405-1-ND" H 1100 6450 60  0001 C CNN "Digikey/Mouser"
+	1    1100 6450
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR055
+U 1 1 576E6124
+P 2150 6700
+F 0 "#PWR055" H 2150 6450 50  0001 C CNN
+F 1 "GND" H 2158 6526 50  0001 C CNN
+F 2 "" H 2150 6700 50  0000 C CNN
+F 3 "" H 2150 6700 50  0000 C CNN
+	1    2150 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR056
+U 1 1 576E612A
+P 2000 6700
+F 0 "#PWR056" H 2000 6450 50  0001 C CNN
+F 1 "GND" H 2008 6526 50  0001 C CNN
+F 2 "" H 2000 6700 50  0000 C CNN
+F 3 "" H 2000 6700 50  0000 C CNN
+	1    2000 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR057
+U 1 1 576E6130
+P 1850 6700
+F 0 "#PWR057" H 1850 6450 50  0001 C CNN
+F 1 "GND" H 1858 6526 50  0001 C CNN
+F 2 "" H 1850 6700 50  0000 C CNN
+F 3 "" H 1850 6700 50  0000 C CNN
+	1    1850 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR058
+U 1 1 576E6136
+P 1700 6700
+F 0 "#PWR058" H 1700 6450 50  0001 C CNN
+F 1 "GND" H 1708 6526 50  0001 C CNN
+F 2 "" H 1700 6700 50  0000 C CNN
+F 3 "" H 1700 6700 50  0000 C CNN
+	1    1700 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR059
+U 1 1 576E613C
+P 1550 6700
+F 0 "#PWR059" H 1550 6450 50  0001 C CNN
+F 1 "GND" H 1558 6526 50  0001 C CNN
+F 2 "" H 1550 6700 50  0000 C CNN
+F 3 "" H 1550 6700 50  0000 C CNN
+	1    1550 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR060
+U 1 1 576E6142
+P 1400 6700
+F 0 "#PWR060" H 1400 6450 50  0001 C CNN
+F 1 "GND" H 1408 6526 50  0001 C CNN
+F 2 "" H 1400 6700 50  0000 C CNN
+F 3 "" H 1400 6700 50  0000 C CNN
+	1    1400 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR061
+U 1 1 576E6148
+P 1250 6700
+F 0 "#PWR061" H 1250 6450 50  0001 C CNN
+F 1 "GND" H 1258 6526 50  0001 C CNN
+F 2 "" H 1250 6700 50  0000 C CNN
+F 3 "" H 1250 6700 50  0000 C CNN
+	1    1250 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR062
+U 1 1 576E614E
+P 1100 6700
+F 0 "#PWR062" H 1100 6450 50  0001 C CNN
+F 1 "GND" H 1108 6526 50  0001 C CNN
+F 2 "" H 1100 6700 50  0000 C CNN
+F 3 "" H 1100 6700 50  0000 C CNN
+	1    1100 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 6600 1100 6700
+Wire Wire Line
+	1250 6600 1250 6700
+Wire Wire Line
+	1400 6600 1400 6700
+Wire Wire Line
+	1550 6600 1550 6700
+Wire Wire Line
+	1700 6600 1700 6700
+Wire Wire Line
+	1850 6600 1850 6700
+Wire Wire Line
+	2000 6600 2000 6700
+Wire Wire Line
+	2150 6600 2150 6700
+$Comp
+L GND #PWR063
+U 1 1 576E615C
+P 950 6700
+F 0 "#PWR063" H 950 6450 50  0001 C CNN
+F 1 "GND" H 958 6526 50  0001 C CNN
+F 2 "" H 950 6700 50  0000 C CNN
+F 3 "" H 950 6700 50  0000 C CNN
+	1    950  6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  6700 950  6600
+$Comp
+L GND #PWR064
+U 1 1 576E6163
+P 2150 7600
+F 0 "#PWR064" H 2150 7350 50  0001 C CNN
+F 1 "GND" H 2158 7426 50  0001 C CNN
+F 2 "" H 2150 7600 50  0000 C CNN
+F 3 "" H 2150 7600 50  0000 C CNN
+	1    2150 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR065
+U 1 1 576E6169
+P 2000 7600
+F 0 "#PWR065" H 2000 7350 50  0001 C CNN
+F 1 "GND" H 2008 7426 50  0001 C CNN
+F 2 "" H 2000 7600 50  0000 C CNN
+F 3 "" H 2000 7600 50  0000 C CNN
+	1    2000 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR066
+U 1 1 576E616F
+P 1850 7600
+F 0 "#PWR066" H 1850 7350 50  0001 C CNN
+F 1 "GND" H 1858 7426 50  0001 C CNN
+F 2 "" H 1850 7600 50  0000 C CNN
+F 3 "" H 1850 7600 50  0000 C CNN
+	1    1850 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR067
+U 1 1 576E6175
+P 1700 7600
+F 0 "#PWR067" H 1700 7350 50  0001 C CNN
+F 1 "GND" H 1708 7426 50  0001 C CNN
+F 2 "" H 1700 7600 50  0000 C CNN
+F 3 "" H 1700 7600 50  0000 C CNN
+	1    1700 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR068
+U 1 1 576E617B
+P 1550 7600
+F 0 "#PWR068" H 1550 7350 50  0001 C CNN
+F 1 "GND" H 1558 7426 50  0001 C CNN
+F 2 "" H 1550 7600 50  0000 C CNN
+F 3 "" H 1550 7600 50  0000 C CNN
+	1    1550 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR069
+U 1 1 576E6181
+P 1400 7600
+F 0 "#PWR069" H 1400 7350 50  0001 C CNN
+F 1 "GND" H 1408 7426 50  0001 C CNN
+F 2 "" H 1400 7600 50  0000 C CNN
+F 3 "" H 1400 7600 50  0000 C CNN
+	1    1400 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR070
+U 1 1 576E6187
+P 1250 7600
+F 0 "#PWR070" H 1250 7350 50  0001 C CNN
+F 1 "GND" H 1258 7426 50  0001 C CNN
+F 2 "" H 1250 7600 50  0000 C CNN
+F 3 "" H 1250 7600 50  0000 C CNN
+	1    1250 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR071
+U 1 1 576E618D
+P 1100 7600
+F 0 "#PWR071" H 1100 7350 50  0001 C CNN
+F 1 "GND" H 1108 7426 50  0001 C CNN
+F 2 "" H 1100 7600 50  0000 C CNN
+F 3 "" H 1100 7600 50  0000 C CNN
+	1    1100 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 7500 1100 7600
+Wire Wire Line
+	1250 7500 1250 7600
+Wire Wire Line
+	1400 7500 1400 7600
+Wire Wire Line
+	1550 7500 1550 7600
+Wire Wire Line
+	1700 7500 1700 7600
+Wire Wire Line
+	1850 7500 1850 7600
+Wire Wire Line
+	2000 7500 2000 7600
+Wire Wire Line
+	2150 7500 2150 7600
+$Comp
+L GND #PWR072
+U 1 1 576E619B
+P 950 7600
+F 0 "#PWR072" H 950 7350 50  0001 C CNN
+F 1 "GND" H 958 7426 50  0001 C CNN
+F 2 "" H 950 7600 50  0000 C CNN
+F 3 "" H 950 7600 50  0000 C CNN
+	1    950  7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  7600 950  7500
+Wire Wire Line
+	950  6050 950  6300
+Wire Wire Line
+	950  6100 2150 6100
+Wire Wire Line
+	2000 6100 2000 6300
+Wire Wire Line
+	1850 6300 1850 6100
+Connection ~ 1850 6100
+Wire Wire Line
+	1700 6300 1700 6100
+Connection ~ 1700 6100
+Wire Wire Line
+	1550 6300 1550 6100
+Connection ~ 1550 6100
+Wire Wire Line
+	1400 6300 1400 6100
+Connection ~ 1400 6100
+Wire Wire Line
+	1250 6300 1250 6100
+Connection ~ 1250 6100
+Wire Wire Line
+	1100 6300 1100 6100
+Connection ~ 1100 6100
+Connection ~ 950  6100
+Wire Wire Line
+	2150 6100 2150 6300
+Connection ~ 2000 6100
+Wire Wire Line
+	950  6950 950  7200
+Wire Wire Line
+	950  7000 2150 7000
+Wire Wire Line
+	2000 7000 2000 7200
+Wire Wire Line
+	1850 7200 1850 7000
+Connection ~ 1850 7000
+Wire Wire Line
+	1700 7200 1700 7000
+Connection ~ 1700 7000
+Wire Wire Line
+	1550 7200 1550 7000
+Connection ~ 1550 7000
+Wire Wire Line
+	1400 7200 1400 7000
+Connection ~ 1400 7000
+Wire Wire Line
+	1250 7200 1250 7000
+Connection ~ 1250 7000
+Wire Wire Line
+	1100 7200 1100 7000
+Connection ~ 1100 7000
+Connection ~ 950  7000
+Wire Wire Line
+	2150 7000 2150 7200
+Connection ~ 2000 7000
+$Comp
+L C C1
+U 1 1 576E61CA
+P 950 5550
+F 0 "C1" V 1000 5650 50  0000 L CNN
+F 1 "100uF" V 900 5250 50  0000 L CNN
+F 2 "chip_rlc:c_1206" H 988 5400 50  0001 C CNN
+F 3 "" H 950 5550 50  0000 C CNN
+F 4 "100µF ±20% 6.3V X6T Ceramic Capacitor -55°C ~ 105°C Surface Mount, MLCC 1206 (3216 Metric) 0.126\" L x 0.063\" W (3.20mm x 1.60mm)" H 950 5550 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 950 5550 60  0001 C CNN "Fabricante"
+F 6 "GRM31CD80J107ME39L" H 950 5550 60  0001 C CNN "Nro. parte"
+F 7 "490-10525-1-ND" H 950 5550 60  0001 C CNN "Digikey/Mouser"
+	1    950  5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C25
+U 1 1 576E61D4
+P 2150 5550
+F 0 "C25" V 2200 5650 50  0000 L CNN
+F 1 "100nF" V 2100 5250 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 2188 5400 50  0001 C CNN
+F 3 "" H 2150 5550 50  0000 C CNN
+F 4 "CAP CER 0.1UF 10V X5R 0201" H 2150 5550 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 2150 5550 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61A104ME15D" H 2150 5550 60  0001 C CNN "Nro. parte"
+F 7 "490-5405-1-ND" H 2150 5550 60  0001 C CNN "Digikey/Mouser"
+	1    2150 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L +1.5V #PWR073
+U 1 1 576E6216
+P 950 6050
+F 0 "#PWR073" H 950 6140 20  0001 C CNN
+F 1 "+1.5V" H 950 6150 30  0000 C CNN
+F 2 "" H 950 6050 60  0000 C CNN
+F 3 "" H 950 6050 60  0000 C CNN
+	1    950  6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +1.5V #PWR074
+U 1 1 576E621C
+P 950 6950
+F 0 "#PWR074" H 950 7040 20  0001 C CNN
+F 1 "+1.5V" H 950 7050 30  0000 C CNN
+F 2 "" H 950 6950 60  0000 C CNN
+F 3 "" H 950 6950 60  0000 C CNN
+	1    950  6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR075
+U 1 1 576E6222
+P 2150 5800
+F 0 "#PWR075" H 2150 5550 50  0001 C CNN
+F 1 "GND" H 2158 5626 50  0001 C CNN
+F 2 "" H 2150 5800 50  0000 C CNN
+F 3 "" H 2150 5800 50  0000 C CNN
+	1    2150 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 5800 2150 5700
+Wire Wire Line
+	2150 5200 2150 5400
+Connection ~ 2000 5200
+$Comp
+L +1.5V #PWR076
+U 1 1 576E64E2
+P 950 5150
+F 0 "#PWR076" H 950 5240 20  0001 C CNN
+F 1 "+1.5V" H 950 5250 30  0000 C CNN
+F 2 "" H 950 5150 60  0000 C CNN
+F 3 "" H 950 5150 60  0000 C CNN
+	1    950  5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L DDR_VTT #PWR077
+U 1 1 576E7240
+P 4600 6950
+F 0 "#PWR077" H 4600 7040 20  0001 C CNN
+F 1 "DDR_VTT" H 4600 7050 30  0000 C CNN
+F 2 "" H 4600 6950 60  0000 C CNN
+F 3 "" H 4600 6950 60  0000 C CNN
+	1    4600 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C57
+U 1 1 576E7CB6
+P 4900 7350
+F 0 "C57" V 4950 7450 50  0000 L CNN
+F 1 "10uF" V 4850 7100 50  0000 L CNN
+F 2 "chip_rlc:c_0603" H 4938 7200 50  0001 C CNN
+F 3 "" H 4900 7350 50  0000 C CNN
+F 4 "CAP CER 10UF 6.3V X5R 0603" H 4900 7350 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 4900 7350 60  0001 C CNN "Fabricante"
+F 6 "GRM188R60J106KE47D" H 4900 7350 60  0001 C CNN "Nro. parte"
+F 7 "490-12538-1-ND" H 4900 7350 60  0001 C CNN "Digikey/Mouser"
+	1    4900 7350
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C59
+U 1 1 576E7CCA
+P 5200 7350
+F 0 "C59" V 5250 7450 50  0000 L CNN
+F 1 "100nF" V 5150 7050 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 5238 7200 50  0001 C CNN
+F 3 "" H 5200 7350 50  0000 C CNN
+F 4 "CAP CER 0.1UF 10V X5R 0201" H 5200 7350 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 5200 7350 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61A104ME15D" H 5200 7350 60  0001 C CNN "Nro. parte"
+F 7 "490-5405-1-ND" H 5200 7350 60  0001 C CNN "Digikey/Mouser"
+	1    5200 7350
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C60
+U 1 1 576E7CD4
+P 5350 7350
+F 0 "C60" V 5400 7450 50  0000 L CNN
+F 1 "100nF" V 5300 7050 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 5388 7200 50  0001 C CNN
+F 3 "" H 5350 7350 50  0000 C CNN
+F 4 "CAP CER 0.1UF 10V X5R 0201" H 5350 7350 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 5350 7350 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61A104ME15D" H 5350 7350 60  0001 C CNN "Nro. parte"
+F 7 "490-5405-1-ND" H 5350 7350 60  0001 C CNN "Digikey/Mouser"
+	1    5350 7350
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR078
+U 1 1 576E7CEE
+P 5650 7600
+F 0 "#PWR078" H 5650 7350 50  0001 C CNN
+F 1 "GND" H 5658 7426 50  0001 C CNN
+F 2 "" H 5650 7600 50  0000 C CNN
+F 3 "" H 5650 7600 50  0000 C CNN
+	1    5650 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR079
+U 1 1 576E7CF4
+P 5500 7600
+F 0 "#PWR079" H 5500 7350 50  0001 C CNN
+F 1 "GND" H 5508 7426 50  0001 C CNN
+F 2 "" H 5500 7600 50  0000 C CNN
+F 3 "" H 5500 7600 50  0000 C CNN
+	1    5500 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR080
+U 1 1 576E7CFA
+P 5350 7600
+F 0 "#PWR080" H 5350 7350 50  0001 C CNN
+F 1 "GND" H 5358 7426 50  0001 C CNN
+F 2 "" H 5350 7600 50  0000 C CNN
+F 3 "" H 5350 7600 50  0000 C CNN
+	1    5350 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR081
+U 1 1 576E7D00
+P 5200 7600
+F 0 "#PWR081" H 5200 7350 50  0001 C CNN
+F 1 "GND" H 5208 7426 50  0001 C CNN
+F 2 "" H 5200 7600 50  0000 C CNN
+F 3 "" H 5200 7600 50  0000 C CNN
+	1    5200 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR082
+U 1 1 576E7D06
+P 5050 7600
+F 0 "#PWR082" H 5050 7350 50  0001 C CNN
+F 1 "GND" H 5058 7426 50  0001 C CNN
+F 2 "" H 5050 7600 50  0000 C CNN
+F 3 "" H 5050 7600 50  0000 C CNN
+	1    5050 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR083
+U 1 1 576E7D0C
+P 4900 7600
+F 0 "#PWR083" H 4900 7350 50  0001 C CNN
+F 1 "GND" H 4908 7426 50  0001 C CNN
+F 2 "" H 4900 7600 50  0000 C CNN
+F 3 "" H 4900 7600 50  0000 C CNN
+	1    4900 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR084
+U 1 1 576E7D12
+P 4750 7600
+F 0 "#PWR084" H 4750 7350 50  0001 C CNN
+F 1 "GND" H 4758 7426 50  0001 C CNN
+F 2 "" H 4750 7600 50  0000 C CNN
+F 3 "" H 4750 7600 50  0000 C CNN
+	1    4750 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR085
+U 1 1 576E7D18
+P 4600 7600
+F 0 "#PWR085" H 4600 7350 50  0001 C CNN
+F 1 "GND" H 4608 7426 50  0001 C CNN
+F 2 "" H 4600 7600 50  0000 C CNN
+F 3 "" H 4600 7600 50  0000 C CNN
+	1    4600 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 6950 4600 7200
+Wire Wire Line
+	5650 7000 5650 7200
+Wire Wire Line
+	5500 7200 5500 7000
+Connection ~ 5500 7000
+Wire Wire Line
+	5350 7200 5350 7000
+Connection ~ 5350 7000
+Wire Wire Line
+	5200 7200 5200 7000
+Connection ~ 5200 7000
+Wire Wire Line
+	5050 7200 5050 7000
+Connection ~ 5050 7000
+Wire Wire Line
+	4900 7200 4900 7000
+Connection ~ 4900 7000
+Wire Wire Line
+	4750 7200 4750 7000
+Connection ~ 4750 7000
+Connection ~ 4600 7000
+Wire Wire Line
+	4600 7500 4600 7600
+Wire Wire Line
+	4750 7500 4750 7600
+Wire Wire Line
+	4900 7500 4900 7600
+Wire Wire Line
+	5050 7500 5050 7600
+Wire Wire Line
+	5200 7500 5200 7600
+Wire Wire Line
+	5350 7500 5350 7600
+Wire Wire Line
+	5500 7500 5500 7600
+Wire Wire Line
+	5650 7500 5650 7600
+$Comp
+L C C55
+U 1 1 576E7D3A
+P 4600 7350
+F 0 "C55" V 4650 7450 50  0000 L CNN
+F 1 "100uF" V 4550 7050 50  0000 L CNN
+F 2 "chip_rlc:c_1206" H 4638 7200 50  0001 C CNN
+F 3 "" H 4600 7350 50  0000 C CNN
+F 4 "100µF ±20% 6.3V X6T Ceramic Capacitor -55°C ~ 105°C Surface Mount, MLCC 1206 (3216 Metric) 0.126\" L x 0.063\" W (3.20mm x 1.60mm)" H 4600 7350 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 4600 7350 60  0001 C CNN "Fabricante"
+F 6 "GRM31CD80J107ME39L" H 4600 7350 60  0001 C CNN "Nro. parte"
+F 7 "490-10525-1-ND" H 4600 7350 60  0001 C CNN "Digikey/Mouser"
+	1    4600 7350
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C58
+U 1 1 576E7EDC
+P 5050 7350
+F 0 "C58" V 5100 7450 50  0000 L CNN
+F 1 "10uF" V 5000 7100 50  0000 L CNN
+F 2 "chip_rlc:c_0603" H 5088 7200 50  0001 C CNN
+F 3 "" H 5050 7350 50  0000 C CNN
+F 4 "CAP CER 10UF 6.3V X5R 0603" H 5050 7350 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 5050 7350 60  0001 C CNN "Fabricante"
+F 6 "GRM188R60J106KE47D" H 5050 7350 60  0001 C CNN "Nro. parte"
+F 7 "490-12538-1-ND" H 5050 7350 60  0001 C CNN "Digikey/Mouser"
+	1    5050 7350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 7000 5650 7000
+$Comp
+L C C8
+U 1 1 576E8596
+P 1250 6450
+F 0 "C8" V 1200 6250 50  0000 L CNN
+F 1 "10nF" V 1300 6500 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 1288 6300 50  0001 C CNN
+F 3 "" H 1250 6450 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 1250 6450 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 1250 6450 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 1250 6450 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 1250 6450 60  0001 C CNN "Digikey/Mouser"
+	1    1250 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C56
+U 1 1 576E883B
+P 4750 7350
+F 0 "C56" V 4800 7450 50  0000 L CNN
+F 1 "100uF" V 4700 7050 50  0000 L CNN
+F 2 "chip_rlc:c_1206" H 4788 7200 50  0001 C CNN
+F 3 "" H 4750 7350 50  0000 C CNN
+F 4 "100µF ±20% 6.3V X6T Ceramic Capacitor -55°C ~ 105°C Surface Mount, MLCC 1206 (3216 Metric) 0.126\" L x 0.063\" W (3.20mm x 1.60mm)" H 4750 7350 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 4750 7350 60  0001 C CNN "Fabricante"
+F 6 "GRM31CD80J107ME39L" H 4750 7350 60  0001 C CNN "Nro. parte"
+F 7 "490-10525-1-ND" H 4750 7350 60  0001 C CNN "Digikey/Mouser"
+	1    4750 7350
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C63
+U 1 1 577037B5
+P 7450 2500
+F 0 "C63" V 7350 2500 50  0000 L CNN
+F 1 "10nF" V 7550 2400 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 7488 2350 50  0001 C CNN
+F 3 "" H 7450 2500 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 7450 2500 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 7450 2500 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 7450 2500 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 7450 2500 60  0001 C CNN "Digikey/Mouser"
+	1    7450 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L C C64
+U 1 1 57703EDD
+P 10700 2500
+F 0 "C64" V 10600 2500 50  0000 L CNN
+F 1 "10nF" V 10800 2400 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 10738 2350 50  0001 C CNN
+F 3 "" H 10700 2500 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 10700 2500 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 10700 2500 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 10700 2500 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 10700 2500 60  0001 C CNN "Digikey/Mouser"
+	1    10700 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L C C11
+U 1 1 577047B7
+P 1400 6450
+F 0 "C11" V 1350 6250 50  0000 L CNN
+F 1 "10nF" V 1450 6500 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 1438 6300 50  0001 C CNN
+F 3 "" H 1400 6450 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 1400 6450 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 1400 6450 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 1400 6450 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 1400 6450 60  0001 C CNN "Digikey/Mouser"
+	1    1400 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C14
+U 1 1 57704894
+P 1550 6450
+F 0 "C14" V 1500 6250 50  0000 L CNN
+F 1 "10nF" V 1600 6500 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 1588 6300 50  0001 C CNN
+F 3 "" H 1550 6450 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 1550 6450 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 1550 6450 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 1550 6450 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 1550 6450 60  0001 C CNN "Digikey/Mouser"
+	1    1550 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C17
+U 1 1 57704974
+P 1700 6450
+F 0 "C17" V 1650 6250 50  0000 L CNN
+F 1 "10nF" V 1750 6500 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 1738 6300 50  0001 C CNN
+F 3 "" H 1700 6450 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 1700 6450 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 1700 6450 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 1700 6450 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 1700 6450 60  0001 C CNN "Digikey/Mouser"
+	1    1700 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C20
+U 1 1 57704A57
+P 1850 6450
+F 0 "C20" V 1800 6250 50  0000 L CNN
+F 1 "10nF" V 1900 6500 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 1888 6300 50  0001 C CNN
+F 3 "" H 1850 6450 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 1850 6450 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 1850 6450 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 1850 6450 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 1850 6450 60  0001 C CNN "Digikey/Mouser"
+	1    1850 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C23
+U 1 1 57704B3D
+P 2000 6450
+F 0 "C23" V 1950 6250 50  0000 L CNN
+F 1 "10nF" V 2050 6500 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 2038 6300 50  0001 C CNN
+F 3 "" H 2000 6450 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 2000 6450 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 2000 6450 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 2000 6450 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 2000 6450 60  0001 C CNN "Digikey/Mouser"
+	1    2000 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C26
+U 1 1 57704C2A
+P 2150 6450
+F 0 "C26" V 2100 6250 50  0000 L CNN
+F 1 "10nF" V 2200 6500 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 2188 6300 50  0001 C CNN
+F 3 "" H 2150 6450 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 2150 6450 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 2150 6450 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 2150 6450 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 2150 6450 60  0001 C CNN "Digikey/Mouser"
+	1    2150 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 57704D16
+P 950 7350
+F 0 "C3" V 900 7150 50  0000 L CNN
+F 1 "10nF" V 1000 7400 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 988 7200 50  0001 C CNN
+F 3 "" H 950 7350 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 950 7350 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 950 7350 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 950 7350 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 950 7350 60  0001 C CNN "Digikey/Mouser"
+	1    950  7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 57704FA4
+P 1100 7350
+F 0 "C6" V 1050 7150 50  0000 L CNN
+F 1 "10nF" V 1150 7400 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 1138 7200 50  0001 C CNN
+F 3 "" H 1100 7350 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 1100 7350 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 1100 7350 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 1100 7350 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 1100 7350 60  0001 C CNN "Digikey/Mouser"
+	1    1100 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C9
+U 1 1 5770509A
+P 1250 7350
+F 0 "C9" V 1200 7150 50  0000 L CNN
+F 1 "10nF" V 1300 7400 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 1288 7200 50  0001 C CNN
+F 3 "" H 1250 7350 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 1250 7350 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 1250 7350 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 1250 7350 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 1250 7350 60  0001 C CNN "Digikey/Mouser"
+	1    1250 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C12
+U 1 1 57705193
+P 1400 7350
+F 0 "C12" V 1350 7150 50  0000 L CNN
+F 1 "10nF" V 1450 7400 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 1438 7200 50  0001 C CNN
+F 3 "" H 1400 7350 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 1400 7350 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 1400 7350 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 1400 7350 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 1400 7350 60  0001 C CNN "Digikey/Mouser"
+	1    1400 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C15
+U 1 1 5770528B
+P 1550 7350
+F 0 "C15" V 1500 7150 50  0000 L CNN
+F 1 "10nF" V 1600 7400 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 1588 7200 50  0001 C CNN
+F 3 "" H 1550 7350 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 1550 7350 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 1550 7350 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 1550 7350 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 1550 7350 60  0001 C CNN "Digikey/Mouser"
+	1    1550 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C18
+U 1 1 57705386
+P 1700 7350
+F 0 "C18" V 1650 7150 50  0000 L CNN
+F 1 "10nF" V 1750 7400 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 1738 7200 50  0001 C CNN
+F 3 "" H 1700 7350 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 1700 7350 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 1700 7350 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 1700 7350 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 1700 7350 60  0001 C CNN "Digikey/Mouser"
+	1    1700 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C21
+U 1 1 57705484
+P 1850 7350
+F 0 "C21" V 1800 7150 50  0000 L CNN
+F 1 "10nF" V 1900 7400 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 1888 7200 50  0001 C CNN
+F 3 "" H 1850 7350 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 1850 7350 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 1850 7350 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 1850 7350 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 1850 7350 60  0001 C CNN "Digikey/Mouser"
+	1    1850 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C24
+U 1 1 57705585
+P 2000 7350
+F 0 "C24" V 1950 7150 50  0000 L CNN
+F 1 "10nF" V 2050 7400 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 2038 7200 50  0001 C CNN
+F 3 "" H 2000 7350 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 2000 7350 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 2000 7350 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 2000 7350 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 2000 7350 60  0001 C CNN "Digikey/Mouser"
+	1    2000 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C27
+U 1 1 57705689
+P 2150 7350
+F 0 "C27" V 2100 7150 50  0000 L CNN
+F 1 "10nF" V 2200 7400 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 2188 7200 50  0001 C CNN
+F 3 "" H 2150 7350 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 2150 7350 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 2150 7350 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 2150 7350 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 2150 7350 60  0001 C CNN "Digikey/Mouser"
+	1    2150 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C35
+U 1 1 57705BE6
+P 3100 6450
+F 0 "C35" V 3050 6250 50  0000 L CNN
+F 1 "10nF" V 3150 6500 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 3138 6300 50  0001 C CNN
+F 3 "" H 3100 6450 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 3100 6450 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 3100 6450 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 3100 6450 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 3100 6450 60  0001 C CNN "Digikey/Mouser"
+	1    3100 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C38
+U 1 1 57705D64
+P 3250 6450
+F 0 "C38" V 3200 6250 50  0000 L CNN
+F 1 "10nF" V 3300 6500 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 3288 6300 50  0001 C CNN
+F 3 "" H 3250 6450 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 3250 6450 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 3250 6450 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 3250 6450 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 3250 6450 60  0001 C CNN "Digikey/Mouser"
+	1    3250 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C41
+U 1 1 57705E75
+P 3400 6450
+F 0 "C41" V 3350 6250 50  0000 L CNN
+F 1 "10nF" V 3450 6500 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 3438 6300 50  0001 C CNN
+F 3 "" H 3400 6450 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 3400 6450 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 3400 6450 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 3400 6450 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 3400 6450 60  0001 C CNN "Digikey/Mouser"
+	1    3400 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C44
+U 1 1 57705F85
+P 3550 6450
+F 0 "C44" V 3500 6250 50  0000 L CNN
+F 1 "10nF" V 3600 6500 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 3588 6300 50  0001 C CNN
+F 3 "" H 3550 6450 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 3550 6450 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 3550 6450 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 3550 6450 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 3550 6450 60  0001 C CNN "Digikey/Mouser"
+	1    3550 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C47
+U 1 1 57706098
+P 3700 6450
+F 0 "C47" V 3650 6250 50  0000 L CNN
+F 1 "10nF" V 3750 6500 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 3738 6300 50  0001 C CNN
+F 3 "" H 3700 6450 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 3700 6450 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 3700 6450 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 3700 6450 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 3700 6450 60  0001 C CNN "Digikey/Mouser"
+	1    3700 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C50
+U 1 1 577061AE
+P 3850 6450
+F 0 "C50" V 3800 6250 50  0000 L CNN
+F 1 "10nF" V 3900 6500 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 3888 6300 50  0001 C CNN
+F 3 "" H 3850 6450 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 3850 6450 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 3850 6450 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 3850 6450 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 3850 6450 60  0001 C CNN "Digikey/Mouser"
+	1    3850 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C53
+U 1 1 577062C7
+P 4000 6450
+F 0 "C53" V 3950 6250 50  0000 L CNN
+F 1 "10nF" V 4050 6500 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 4038 6300 50  0001 C CNN
+F 3 "" H 4000 6450 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 4000 6450 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 4000 6450 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 4000 6450 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 4000 6450 60  0001 C CNN "Digikey/Mouser"
+	1    4000 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C30
+U 1 1 577069EF
+P 2800 7350
+F 0 "C30" V 2750 7150 50  0000 L CNN
+F 1 "10nF" V 2850 7400 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 2838 7200 50  0001 C CNN
+F 3 "" H 2800 7350 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 2800 7350 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 2800 7350 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 2800 7350 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 2800 7350 60  0001 C CNN "Digikey/Mouser"
+	1    2800 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C33
+U 1 1 57706B44
+P 2950 7350
+F 0 "C33" V 2900 7150 50  0000 L CNN
+F 1 "10nF" V 3000 7400 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 2988 7200 50  0001 C CNN
+F 3 "" H 2950 7350 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 2950 7350 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 2950 7350 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 2950 7350 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 2950 7350 60  0001 C CNN "Digikey/Mouser"
+	1    2950 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C36
+U 1 1 57706C66
+P 3100 7350
+F 0 "C36" V 3050 7150 50  0000 L CNN
+F 1 "10nF" V 3150 7400 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 3138 7200 50  0001 C CNN
+F 3 "" H 3100 7350 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 3100 7350 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 3100 7350 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 3100 7350 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 3100 7350 60  0001 C CNN "Digikey/Mouser"
+	1    3100 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C39
+U 1 1 57706D8F
+P 3250 7350
+F 0 "C39" V 3200 7150 50  0000 L CNN
+F 1 "10nF" V 3300 7400 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 3288 7200 50  0001 C CNN
+F 3 "" H 3250 7350 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 3250 7350 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 3250 7350 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 3250 7350 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 3250 7350 60  0001 C CNN "Digikey/Mouser"
+	1    3250 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C42
+U 1 1 57706EB7
+P 3400 7350
+F 0 "C42" V 3350 7150 50  0000 L CNN
+F 1 "10nF" V 3450 7400 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 3438 7200 50  0001 C CNN
+F 3 "" H 3400 7350 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 3400 7350 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 3400 7350 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 3400 7350 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 3400 7350 60  0001 C CNN "Digikey/Mouser"
+	1    3400 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C45
+U 1 1 57706FE2
+P 3550 7350
+F 0 "C45" V 3500 7150 50  0000 L CNN
+F 1 "10nF" V 3600 7400 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 3588 7200 50  0001 C CNN
+F 3 "" H 3550 7350 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 3550 7350 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 3550 7350 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 3550 7350 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 3550 7350 60  0001 C CNN "Digikey/Mouser"
+	1    3550 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C48
+U 1 1 57707110
+P 3700 7350
+F 0 "C48" V 3650 7150 50  0000 L CNN
+F 1 "10nF" V 3750 7400 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 3738 7200 50  0001 C CNN
+F 3 "" H 3700 7350 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 3700 7350 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 3700 7350 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 3700 7350 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 3700 7350 60  0001 C CNN "Digikey/Mouser"
+	1    3700 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C51
+U 1 1 57707241
+P 3850 7350
+F 0 "C51" V 3800 7150 50  0000 L CNN
+F 1 "10nF" V 3900 7400 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 3888 7200 50  0001 C CNN
+F 3 "" H 3850 7350 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 3850 7350 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 3850 7350 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 3850 7350 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 3850 7350 60  0001 C CNN "Digikey/Mouser"
+	1    3850 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C54
+U 1 1 57707375
+P 4000 7350
+F 0 "C54" V 3950 7150 50  0000 L CNN
+F 1 "10nF" V 4050 7400 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 4038 7200 50  0001 C CNN
+F 3 "" H 4000 7350 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 4000 7350 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 4000 7350 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 4000 7350 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 4000 7350 60  0001 C CNN "Digikey/Mouser"
+	1    4000 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C61
+U 1 1 57707687
+P 5500 7350
+F 0 "C61" V 5450 7150 50  0000 L CNN
+F 1 "10nF" V 5550 7400 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 5538 7200 50  0001 C CNN
+F 3 "" H 5500 7350 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 5500 7350 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 5500 7350 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 5500 7350 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 5500 7350 60  0001 C CNN "Digikey/Mouser"
+	1    5500 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C62
+U 1 1 57707A2F
+P 5650 7350
+F 0 "C62" V 5600 7150 50  0000 L CNN
+F 1 "10nF" V 5700 7400 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 5688 7200 50  0001 C CNN
+F 3 "" H 5650 7350 50  0000 C CNN
+F 4 "10000pF ±10% 16V X5R Ceramic Capacitor -55°C ~ 85°C Surface Mount, MLCC 0201 (0603 Metric) 0.024\" L x 0.012\" W (0.60mm x 0.30mm)" H 5650 7350 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 5650 7350 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61C103KA12D" H 5650 7350 60  0001 C CNN "Nro. parte"
+F 7 "490-7223-1-ND" H 5650 7350 60  0001 C CNN "Digikey/Mouser"
+	1    5650 7350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
