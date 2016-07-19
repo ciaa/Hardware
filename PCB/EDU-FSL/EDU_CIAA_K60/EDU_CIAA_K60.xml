@@ -2,14 +2,14 @@
 <export version="D">
   <design>
     <source>C:/ciaa/PCB/EDU-FSL/EDU_CIAA_K60/EDU_CIAA_K60.sch</source>
-    <date>09/10/2015 07:58:34 p.m.</date>
-    <tool>Eeschema 4.0.0-rc1-stable</tool>
+    <date>18/07/2016 21:50:35</date>
+    <tool>Eeschema 4.0.2-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>EDU CIAA Freescale - Esquemático jerárquico</title>
         <company>EDU-CIAA - FSL . Versión FSL (Freescale K60)</company>
-        <rev>0.0</rev>
-        <date>5 oct 2015</date>
+        <rev>1.0</rev>
+        <date>26 feb 2016</date>
         <source>EDU_CIAA_K60.sch</source>
         <comment number="1" value="Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"/>
         <comment number="2" value=""/>
@@ -21,8 +21,8 @@
       <title_block>
         <title>USB OTG</title>
         <company>EDU-CIAA - FSL . Versión FSL (Freescale K60)</company>
-        <rev>0.0</rev>
-        <date>5 oct 2015</date>
+        <rev>1.0</rev>
+        <date>26 feb 2016</date>
         <source>usb_otg.sch</source>
         <comment number="1" value="Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"/>
         <comment number="2" value=""/>
@@ -34,8 +34,8 @@
       <title_block>
         <title>Fuente de Alimentación</title>
         <company>EDU-CIAA - FSL . Versión FSL (Freescale K60)</company>
-        <rev>0.0</rev>
-        <date>5 oct 2015</date>
+        <rev>1.0</rev>
+        <date>26 feb 2016</date>
         <source>fuente.sch</source>
         <comment number="1" value="Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"/>
         <comment number="2" value=""/>
@@ -47,8 +47,8 @@
       <title_block>
         <title>Conectores JTAG y DEBUG USB</title>
         <company>EDU-CIAA - FSL . Versión FSL (Freescale K60)</company>
-        <rev>0.0</rev>
-        <date>5 oct 2015</date>
+        <rev>1.0</rev>
+        <date>26 feb 2016</date>
         <source>JTAG.sch</source>
         <comment number="1" value="Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"/>
         <comment number="2" value=""/>
@@ -60,8 +60,8 @@
       <title_block>
         <title>CIAA RS485 </title>
         <company>EDU-CIAA - FSL . Versión FSL (Freescale K60)</company>
-        <rev>0.0</rev>
-        <date>5 oct 2015</date>
+        <rev>1.0</rev>
+        <date>26 feb 2016</date>
         <source>rsS485.sch</source>
         <comment number="1" value="Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"/>
         <comment number="2" value=""/>
@@ -73,8 +73,8 @@
       <title_block>
         <title>EDU CIAA LEDS y PULSADORES</title>
         <company>EDU-CIAA - FSL . Versión FSL (Freescale K60)</company>
-        <rev>0.0</rev>
-        <date>5 oct 2015</date>
+        <rev>1.0</rev>
+        <date>26 feb 2016</date>
         <source>on_board_io.sch</source>
         <comment number="1" value="Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"/>
         <comment number="2" value=""/>
@@ -82,27 +82,27 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="7" name="/CPU/" tstamps="/52C1CAF4/">
+    <sheet number="7" name="/GPIO/" tstamps="/549F860E/">
       <title_block>
-        <title>Microcontrolador Freescale K60</title>
-        <company>EDU-CIAA - FSL . Versión FSL (Freescale K60)</company>
-        <rev>0.0</rev>
-        <date>5 oct 2015</date>
-        <source>cpu.sch</source>
-        <comment number="1" value="Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"/>
+        <title>EDU CIAA GPIO</title>
+        <company/>
+        <rev>1.0</rev>
+        <date>26 feb 2016</date>
+        <source>gpio.sch</source>
+        <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="8" name="/GPIO/" tstamps="/549F860E/">
+    <sheet number="8" name="/CPU/" tstamps="/52C1CAF4/">
       <title_block>
-        <title>EDU CIAA GPIO</title>
-        <company/>
+        <title>Microcontrolador Freescale K60</title>
+        <company>EDU-CIAA - FSL . Versión FSL (Freescale K60)</company>
         <rev>1.0</rev>
-        <date>5 oct 2015</date>
-        <source>gpio.sch</source>
-        <comment number="1" value=""/>
+        <date>26 feb 2016</date>
+        <source>cpu.sch</source>
+        <comment number="1" value="Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -514,9 +514,9 @@
       <fields>
         <field name="Descripcion">DIODE SCHOTTKY 30V 200MA</field>
         <field name="Fabricante">Fairchild Semiconductor</field>
-        <field name="Nro. parte">BAT54</field>
+        <field name="Nro. parte">BAT54C</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey/Mouser">BAT54FSCT-ND</field>
+        <field name="Digikey/Mouser">BAT54CFSCT-ND</field>
         <field name="Footprint estandar">SOT23-3</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="BAT54_C"/>
@@ -596,11 +596,11 @@
       <footprint>c_1206_tantalio</footprint>
       <datasheet>KEM_T2005_T491.pdf</datasheet>
       <fields>
-        <field name="Descripción">CAP TANT 10UF 10V 10% 1206</field>
+        <field name="Descripcion">CAP TANT 10UF 10V 10% 1206</field>
         <field name="Fabricante">Kemet</field>
-        <field name="Nro de parte">T491A106K010AT</field>
+        <field name="Nro. parte">T491A106K010AT</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheet</field>
-        <field name="Digikey">399-3684-2-ND</field>
+        <field name="Digikey/Mouser">399-3684-2-ND</field>
         <field name="Footprint">1206</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="CAPAPOL"/>
@@ -628,11 +628,11 @@
       <footprint>Con_2P</footprint>
       <datasheet>022232021_sd.pdf</datasheet>
       <fields>
-        <field name="Descripción">CONN HEADER 2POS .100 VERT TIN</field>
+        <field name="Descripcion">CONN HEADER 2POS .100 VERT TIN</field>
         <field name="Fabricante">Molex Inc</field>
-        <field name="Nro de parte">0022232021</field>
+        <field name="Nro. parte">0022232021</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheet</field>
-        <field name="Digikey">WM4200-ND</field>
+        <field name="Digikey/Mouser">WM4200-ND</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="TB_1X2"/>
       <sheetpath names="/Fuente/" tstamps="/52C2B8A1/"/>
@@ -643,11 +643,11 @@
       <footprint>SOD123F</footprint>
       <datasheet>MMSZ2V4T1-D.PDF</datasheet>
       <fields>
-        <field name="Descripción">DIODE ZENER 5.6V 500MW SOD123</field>
+        <field name="Descripcion">DIODE ZENER 5.6V 500MW SOD123</field>
         <field name="Fabricante">ON Semiconductor</field>
-        <field name="Nro de parte">MMSZ5V6T1G</field>
+        <field name="Nro. parte">MMSZ5V6T1G</field>
         <field name="Path datasheet">../PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">MMSZ5V6T1GOSCT-ND</field>
+        <field name="Digikey/Mouser">MMSZ5V6T1GOSCT-ND</field>
         <field name="Footprint">SOD-123</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="ZENER"/>
@@ -675,11 +675,11 @@
       <footprint>c_1206_tantalio</footprint>
       <datasheet>KEM_T2005_T491.pdf</datasheet>
       <fields>
-        <field name="Descripción">CAP TANT 10UF 10V 10% 1206</field>
+        <field name="Descripcion">CAP TANT 10UF 10V 10% 1206</field>
         <field name="Fabricante">Kemet</field>
-        <field name="Nro de parte">T491A106K010AT</field>
+        <field name="Nro. parte">T491A106K010AT</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">399-3684-2-ND</field>
+        <field name="Digikey/Mouser">399-3684-2-ND</field>
         <field name="Footprint">1206</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="CAPAPOL"/>
@@ -690,11 +690,11 @@
       <value>~</value>
       <footprint>4mm</footprint>
       <fields>
-        <field name="Descripción">TEST POINT PC MULTIPURPOSE BRWN</field>
+        <field name="Descripcion">TEST POINT PC MULTIPURPOSE BRWN</field>
         <field name="Fabricante">Keystone Electronics</field>
         <field name="Nro parte">5125</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">36-5125-ND</field>
+        <field name="Digikey/Mouser">36-5125-ND</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="CONN_1"/>
       <sheetpath names="/Fuente/" tstamps="/52C2B8A1/"/>
@@ -1273,22 +1273,6 @@
       <sheetpath names="/JTAG/" tstamps="/5386CF75/"/>
       <tstamp>5589B320</tstamp>
     </comp>
-    <comp ref="R6">
-      <value>10M</value>
-      <footprint>r_0805</footprint>
-      <datasheet>SEI-RMCF_RMCP.pdf</datasheet>
-      <fields>
-        <field name="Descripcion">RES 10M OHM 1/8W 5% 0805</field>
-        <field name="Fabricante">Stackpole Electronics Inc</field>
-        <field name="Nro. parte">RMCF0805JT10M0</field>
-        <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey/Mouser">RMCF0805JT10M0CT-ND</field>
-        <field name="Footprint estandar">0805</field>
-      </fields>
-      <libsource lib="edu-ciaa-fsl" part="R"/>
-      <sheetpath names="/JTAG/" tstamps="/5386CF75/"/>
-      <tstamp>558C651E</tstamp>
-    </comp>
     <comp ref="Y3">
       <value>12MHz</value>
       <footprint>FA238V-XTAL</footprint>
@@ -1309,7 +1293,7 @@
       <footprint>c_0805</footprint>
       <datasheet>KEM_C1003_C0G_SMD.pdf</datasheet>
       <fields>
-        <field name="Descripción">CAP CER 20PF 50V 5% NP0 0805</field>
+        <field name="Descripcion">CAP CER 20PF 50V 5% NP0 0805</field>
         <field name="Fabricante">Kemet</field>
         <field name="Nro. parte">C0805C200J5GACTU</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
@@ -1325,7 +1309,7 @@
       <footprint>c_0805</footprint>
       <datasheet>KEM_C1003_C0G_SMD.pdf</datasheet>
       <fields>
-        <field name="Descripción">CAP CER 20PF 50V 5% NP0 0805</field>
+        <field name="Descripcion">CAP CER 20PF 50V 5% NP0 0805</field>
         <field name="Fabricante">Kemet</field>
         <field name="Nro. parte">C0805C200J5GACTU</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
@@ -1342,7 +1326,7 @@
       <datasheet>sn65hvd1176.pdf</datasheet>
       <fields>
         <field name="Descripcion">IC RS485 PROFIBUS TXRX 8-SOIC</field>
-        <field name="Texas Instruments">Exar Corporation</field>
+        <field name="Fabricante">Exar Corporation</field>
         <field name="Nro. parte">SN65HVD1176DR</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
         <field name="Digikey/Mouser">296-26337-1-ND</field>
@@ -1385,7 +1369,7 @@
       <tstamp>52C5B34D</tstamp>
     </comp>
     <comp ref="D8">
-      <value>PSD12C</value>
+      <value>P6SMB12CAT3G</value>
       <footprint>DO-214AA_SMB</footprint>
       <datasheet>P6SMB11CAT3-D.PDF</datasheet>
       <fields>
@@ -1401,7 +1385,7 @@
       <tstamp>52C5B34F</tstamp>
     </comp>
     <comp ref="D7">
-      <value>PSD12C</value>
+      <value>P6SMB12CAT3G</value>
       <footprint>DO-214AA_SMB</footprint>
       <datasheet>P6SMB11CAT3-D.PDF</datasheet>
       <fields>
@@ -1417,7 +1401,7 @@
       <tstamp>52C5B350</tstamp>
     </comp>
     <comp ref="D9">
-      <value>PSD12C</value>
+      <value>P6SMB12CAT3G</value>
       <footprint>DO-214AA_SMB</footprint>
       <datasheet>P6SMB11CAT3-D.PDF</datasheet>
       <fields>
@@ -1628,11 +1612,11 @@
       <footprint>SM0805</footprint>
       <datasheet>RC0805 Pb Free.pdf</datasheet>
       <fields>
-        <field name="Descripción">RES 1K OHM 1/8W 5% 0805 SMD</field>
+        <field name="Descripcion">RES 1K OHM 1/8W 5% 0805 SMD</field>
         <field name="Fabricante">Yageo</field>
-        <field name="Nro de parte">RC0805JR-071KL</field>
+        <field name="Nro. parte">RC0805JR-071KL</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">311-1.0KARCT-ND</field>
+        <field name="Digikey/Mouser">311-1.0KARCT-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="R"/>
@@ -1644,11 +1628,11 @@
       <footprint>SM0805</footprint>
       <datasheet>AOA0000CE1.pdf</datasheet>
       <fields>
-        <field name="Descripción">RES 10K OHM 1/8W 5% 0805 SMD</field>
+        <field name="Descripcion">RES 10K OHM 1/8W 5% 0805 SMD</field>
         <field name="Fabricante">Panasonic Electronic Components</field>
-        <field name="Nro de parte">ERJ-6GEYJ103V</field>
+        <field name="Nro. parte">ERJ-6GEYJ103V</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">P10KACT-ND</field>
+        <field name="Digikey/Mouser">P10KACT-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="R"/>
@@ -1660,11 +1644,11 @@
       <footprint>c_0805</footprint>
       <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
       <fields>
-        <field name="Descripción">CAP CER 0.1UF 16V 10% X7R 0805</field>
+        <field name="Descripcion">CAP CER 0.1UF 16V 10% X7R 0805</field>
         <field name="Fabricante">Kemet</field>
-        <field name="Nro de Parte">C0805C104K4RACTU</field>
+        <field name="Nro. parte">C0805C104K4RACTU</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">399-1167-1-ND</field>
+        <field name="Digikey/Mouser">399-1167-1-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="C"/>
@@ -1676,11 +1660,11 @@
       <footprint>SM0805</footprint>
       <datasheet>RC0805 Pb Free.pdf</datasheet>
       <fields>
-        <field name="Descripción">RES 1K OHM 1/8W 5% 0805 SMD</field>
+        <field name="Descripcion">RES 1K OHM 1/8W 5% 0805 SMD</field>
         <field name="Fabricante">Yageo</field>
-        <field name="Nro de parte">RC0805JR-071KL</field>
+        <field name="Nro. parte">RC0805JR-071KL</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">311-1.0KARCT-ND</field>
+        <field name="Digikey/Mouser">311-1.0KARCT-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="R"/>
@@ -1692,11 +1676,11 @@
       <footprint>SM0805</footprint>
       <datasheet>AOA0000CE1.pdf</datasheet>
       <fields>
-        <field name="Descripción">RES 10K OHM 1/8W 5% 0805 SMD</field>
+        <field name="Descripcion">RES 10K OHM 1/8W 5% 0805 SMD</field>
         <field name="Fabricante">Panasonic Electronic Components</field>
-        <field name="Nro de parte">ERJ-6GEYJ103V</field>
+        <field name="Nro. parte">ERJ-6GEYJ103V</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">P10KACT-ND</field>
+        <field name="Digikey/Mouser">P10KACT-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="R"/>
@@ -1708,11 +1692,11 @@
       <footprint>c_0805</footprint>
       <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
       <fields>
-        <field name="Descripción">CAP CER 0.1UF 16V 10% X7R 0805</field>
+        <field name="Descripcion">CAP CER 0.1UF 16V 10% X7R 0805</field>
         <field name="Fabricante">Kemet</field>
-        <field name="Nro de Parte">C0805C104K4RACTU</field>
+        <field name="Nro. parte">C0805C104K4RACTU</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">399-1167-1-ND</field>
+        <field name="Digikey/Mouser">399-1167-1-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="C"/>
@@ -1724,11 +1708,11 @@
       <footprint>SM0805</footprint>
       <datasheet>RC0805 Pb Free.pdf</datasheet>
       <fields>
-        <field name="Descripción">RES 1K OHM 1/8W 5% 0805 SMD</field>
+        <field name="Descripcion">RES 1K OHM 1/8W 5% 0805 SMD</field>
         <field name="Fabricante">Yageo</field>
-        <field name="Nro de parte">RC0805JR-071KL</field>
+        <field name="Nro. parte">RC0805JR-071KL</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">311-1.0KARCT-ND</field>
+        <field name="Digikey/Mouser">311-1.0KARCT-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="R"/>
@@ -1740,11 +1724,11 @@
       <footprint>SM0805</footprint>
       <datasheet>AOA0000CE1.pdf</datasheet>
       <fields>
-        <field name="Descripción">RES 10K OHM 1/8W 5% 0805 SMD</field>
+        <field name="Descripcion">RES 10K OHM 1/8W 5% 0805 SMD</field>
         <field name="Fabricante">Panasonic Electronic Components</field>
-        <field name="Nro de parte">ERJ-6GEYJ103V</field>
+        <field name="Nro. parte">ERJ-6GEYJ103V</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">P10KACT-ND</field>
+        <field name="Digikey/Mouser">P10KACT-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="R"/>
@@ -1756,11 +1740,11 @@
       <footprint>c_0805</footprint>
       <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
       <fields>
-        <field name="Descripción">CAP CER 0.1UF 16V 10% X7R 0805</field>
+        <field name="Descripcion">CAP CER 0.1UF 16V 10% X7R 0805</field>
         <field name="Fabricante">Kemet</field>
-        <field name="Nro de Parte">C0805C104K4RACTU</field>
+        <field name="Nro. parte">C0805C104K4RACTU</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">399-1167-1-ND</field>
+        <field name="Digikey/Mouser">399-1167-1-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="C"/>
@@ -1772,11 +1756,11 @@
       <footprint>SM0805</footprint>
       <datasheet>RC0805 Pb Free.pdf</datasheet>
       <fields>
-        <field name="Descripción">RES 1K OHM 1/8W 5% 0805 SMD</field>
+        <field name="Descripcion">RES 1K OHM 1/8W 5% 0805 SMD</field>
         <field name="Fabricante">Yageo</field>
-        <field name="Nro de parte">RC0805JR-071KL</field>
+        <field name="Nro. parte">RC0805JR-071KL</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">311-1.0KARCT-ND</field>
+        <field name="Digikey/Mouser">311-1.0KARCT-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="R"/>
@@ -1788,11 +1772,11 @@
       <footprint>SM0805</footprint>
       <datasheet>AOA0000CE1.pdf</datasheet>
       <fields>
-        <field name="Descripción">RES 10K OHM 1/8W 5% 0805 SMD</field>
+        <field name="Descripcion">RES 10K OHM 1/8W 5% 0805 SMD</field>
         <field name="Fabricante">Panasonic Electronic Components</field>
-        <field name="Nro de parte">ERJ-6GEYJ103V</field>
+        <field name="Nro. parte">ERJ-6GEYJ103V</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">P10KACT-ND</field>
+        <field name="Digikey/Mouser">P10KACT-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="R"/>
@@ -1804,11 +1788,11 @@
       <footprint>c_0805</footprint>
       <datasheet>KEM_C1002_X7R_SMD.pdf</datasheet>
       <fields>
-        <field name="Descripción">CAP CER 0.1UF 16V 10% X7R 0805</field>
+        <field name="Descripcion">CAP CER 0.1UF 16V 10% X7R 0805</field>
         <field name="Fabricante">Kemet</field>
-        <field name="Nro de Parte">C0805C104K4RACTU</field>
+        <field name="Nro. parte">C0805C104K4RACTU</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">399-1167-1-ND</field>
+        <field name="Digikey/Mouser">399-1167-1-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="C"/>
@@ -1820,11 +1804,11 @@
       <footprint>SM0805</footprint>
       <datasheet>AOA0000CE1.pdf</datasheet>
       <fields>
-        <field name="Descripción">RES 10K OHM 1/8W 5% 0805 SMD</field>
+        <field name="Descripcion">RES 10K OHM 1/8W 5% 0805 SMD</field>
         <field name="Fabricante">Panasonic Electronic Components</field>
-        <field name="Nro de parte">ERJ-6GEYJ103V</field>
+        <field name="Nro. parte">ERJ-6GEYJ103V</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">P10KACT-ND</field>
+        <field name="Digikey/Mouser">P10KACT-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="R"/>
@@ -1836,11 +1820,11 @@
       <footprint>SM0805</footprint>
       <datasheet>RR Series Resistor Specifications.pdf</datasheet>
       <fields>
-        <field name="Descripción">RES 680 OHM 1/10W .5% 0805 SMD</field>
+        <field name="Descripcion">RES 680 OHM 1/10W .5% 0805 SMD</field>
         <field name="Fabricante">Susumu</field>
-        <field name="Nro de parte">RR1220P-681-D</field>
+        <field name="Nro. parte">RR1220P-681-D</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">RR12P680DCT-ND</field>
+        <field name="Digikey/Mouser">RR12P680DCT-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="R"/>
@@ -1852,11 +1836,11 @@
       <footprint>SM0805</footprint>
       <datasheet>AOA0000CE1.pdf</datasheet>
       <fields>
-        <field name="Descripción">RES 10K OHM 1/8W 5% 0805 SMD</field>
+        <field name="Descripcion">RES 10K OHM 1/8W 5% 0805 SMD</field>
         <field name="Fabricante">Panasonic Electronic Components</field>
-        <field name="Nro de parte">ERJ-6GEYJ103V</field>
+        <field name="Nro. parte">ERJ-6GEYJ103V</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">P10KACT-ND</field>
+        <field name="Digikey/Mouser">P10KACT-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="R"/>
@@ -1868,11 +1852,11 @@
       <footprint>SM0805</footprint>
       <datasheet>RR Series Resistor Specifications.pdf</datasheet>
       <fields>
-        <field name="Descripción">RES 680 OHM 1/10W .5% 0805 SMD</field>
+        <field name="Descripcion">RES 680 OHM 1/10W .5% 0805 SMD</field>
         <field name="Fabricante">Susumu</field>
-        <field name="Nro de parte">RR1220P-681-D</field>
+        <field name="Nro. parte">RR1220P-681-D</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">RR12P680DCT-ND</field>
+        <field name="Digikey/Mouser">RR12P680DCT-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="R"/>
@@ -1884,11 +1868,11 @@
       <footprint>SOT23GDS</footprint>
       <datasheet>2N7000.pdf</datasheet>
       <fields>
-        <field name="Descripción">MOSFET N-CH 60V 115MA SOT-23</field>
+        <field name="Descripcion">MOSFET N-CH 60V 115MA SOT-23</field>
         <field name="Fabricante">Fairchild Semiconductor</field>
-        <field name="Nro de parte">2N7002</field>
+        <field name="Nro. parte">2N7002</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">2N7002NCT-ND</field>
+        <field name="Digikey/Mouser">2N7002NCT-ND</field>
         <field name="Footprint">SOT-23</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="MOSFET_N"/>
@@ -1900,11 +1884,11 @@
       <footprint>SM0805</footprint>
       <datasheet>AOA0000CE1.pdf</datasheet>
       <fields>
-        <field name="Descripción">RES 10K OHM 1/8W 5% 0805 SMD</field>
+        <field name="Descripcion">RES 10K OHM 1/8W 5% 0805 SMD</field>
         <field name="Fabricante">Panasonic Electronic Components</field>
-        <field name="Nro de parte">ERJ-6GEYJ103V</field>
+        <field name="Nro. parte">ERJ-6GEYJ103V</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">P10KACT-ND</field>
+        <field name="Digikey/Mouser">P10KACT-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="R"/>
@@ -1916,11 +1900,11 @@
       <footprint>SM0805</footprint>
       <datasheet>RR Series Resistor Specifications.pdf</datasheet>
       <fields>
-        <field name="Descripción">RES 680 OHM 1/10W .5% 0805 SMD</field>
+        <field name="Descripcion">RES 680 OHM 1/10W .5% 0805 SMD</field>
         <field name="Fabricante">Susumu</field>
-        <field name="Nro de parte">RR1220P-681-D</field>
+        <field name="Nro. parte">RR1220P-681-D</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">RR12P680DCT-ND</field>
+        <field name="Digikey/Mouser">RR12P680DCT-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="R"/>
@@ -1932,11 +1916,11 @@
       <footprint>SOT23GDS</footprint>
       <datasheet>2N7000.pdf</datasheet>
       <fields>
-        <field name="Descripción">MOSFET N-CH 60V 115MA SOT-23</field>
+        <field name="Descripcion">MOSFET N-CH 60V 115MA SOT-23</field>
         <field name="Fabricante">Fairchild Semiconductor</field>
-        <field name="Nro de parte">2N7002</field>
+        <field name="Nro. parte">2N7002</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">2N7002NCT-ND</field>
+        <field name="Digikey/Mouser">2N7002NCT-ND</field>
         <field name="Footprint">SOT-23</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="MOSFET_N"/>
@@ -1948,11 +1932,11 @@
       <footprint>SM0805</footprint>
       <datasheet>AOA0000CE1.pdf</datasheet>
       <fields>
-        <field name="Descripción">RES 10K OHM 1/8W 5% 0805 SMD</field>
+        <field name="Descripcion">RES 10K OHM 1/8W 5% 0805 SMD</field>
         <field name="Fabricante">Panasonic Electronic Components</field>
-        <field name="Nro de parte">ERJ-6GEYJ103V</field>
+        <field name="Nro. parte">ERJ-6GEYJ103V</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">P10KACT-ND</field>
+        <field name="Digikey/Mouser">P10KACT-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="R"/>
@@ -1964,11 +1948,11 @@
       <footprint>SM0805</footprint>
       <datasheet>RR Series Resistor Specifications.pdf</datasheet>
       <fields>
-        <field name="Descripción">RES 680 OHM 1/10W .5% 0805 SMD</field>
+        <field name="Descripcion">RES 680 OHM 1/10W .5% 0805 SMD</field>
         <field name="Fabricante">Susumu</field>
-        <field name="Nro de parte">RR1220P-681-D</field>
+        <field name="Nro. parte">RR1220P-681-D</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">RR12P680DCT-ND</field>
+        <field name="Digikey/Mouser">RR12P680DCT-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="R"/>
@@ -1980,11 +1964,11 @@
       <footprint>SOT23GDS</footprint>
       <datasheet>2N7000.pdf</datasheet>
       <fields>
-        <field name="Descripción">MOSFET N-CH 60V 115MA SOT-23</field>
+        <field name="Descripcion">MOSFET N-CH 60V 115MA SOT-23</field>
         <field name="Fabricante">Fairchild Semiconductor</field>
-        <field name="Nro de parte">2N7002</field>
+        <field name="Nro. parte">2N7002</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">2N7002NCT-ND</field>
+        <field name="Digikey/Mouser">2N7002NCT-ND</field>
         <field name="Footprint">SOT-23</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="MOSFET_N"/>
@@ -1996,11 +1980,11 @@
       <footprint>SM0805</footprint>
       <datasheet>AOA0000CE1.pdf</datasheet>
       <fields>
-        <field name="Descripción">RES 10K OHM 1/8W 5% 0805 SMD</field>
+        <field name="Descripcion">RES 10K OHM 1/8W 5% 0805 SMD</field>
         <field name="Fabricante">Panasonic Electronic Components</field>
-        <field name="Nro de parte">ERJ-6GEYJ103V</field>
+        <field name="Nro. parte">ERJ-6GEYJ103V</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">P10KACT-ND</field>
+        <field name="Digikey/Mouser">P10KACT-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="R"/>
@@ -2012,11 +1996,11 @@
       <footprint>SM0805</footprint>
       <datasheet>RR Series Resistor Specifications.pdf</datasheet>
       <fields>
-        <field name="Descripción">RES 680 OHM 1/10W .5% 0805 SMD</field>
+        <field name="Descripcion">RES 680 OHM 1/10W .5% 0805 SMD</field>
         <field name="Fabricante">Susumu</field>
-        <field name="Nro de parte">RR1220P-681-D</field>
+        <field name="Nro. parte">RR1220P-681-D</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">RR12P680DCT-ND</field>
+        <field name="Digikey/Mouser">RR12P680DCT-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="R"/>
@@ -2028,11 +2012,11 @@
       <footprint>PLCC-4</footprint>
       <datasheet>S_110_LTST-C19FD1WT.pdf</datasheet>
       <fields>
-        <field name="Descripción">LED RGB 605/525/470NM DIFF SMD</field>
+        <field name="Descripcion">LED RGB 605/525/470NM DIFF SMD</field>
         <field name="Fabricante">Lite-On Inc</field>
-        <field name="Nro de parte">LTST-C19FD1WT</field>
+        <field name="Nro. parte">LTST-C19FD1WT</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">160-2022-1-ND</field>
+        <field name="Digikey/Mouser">160-2022-1-ND</field>
         <field name="Footprint">PLCC-4</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="LED_ARBG"/>
@@ -2044,11 +2028,11 @@
       <footprint>SM0805</footprint>
       <datasheet>SEI-RMCF_RMCP.pdf</datasheet>
       <fields>
-        <field name="Descripción">RES 330K OHM 1/8W 5% 0805</field>
+        <field name="Descripcion">RES 330K OHM 1/8W 5% 0805</field>
         <field name="Fabricante">Stackpole Electronics Inc</field>
-        <field name="Nro de parte">RMCF0805JT330K</field>
+        <field name="Nro. parte">RMCF0805JT330K</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">RMCF0805JT330KCT-ND</field>
+        <field name="Digikey/Mouser">RMCF0805JT330KCT-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="R"/>
@@ -2060,11 +2044,11 @@
       <footprint>SM0805</footprint>
       <datasheet>SEI-RMCF_RMCP.pdf</datasheet>
       <fields>
-        <field name="Descripción">RES 330K OHM 1/8W 5% 0805</field>
+        <field name="Descripcion">RES 330K OHM 1/8W 5% 0805</field>
         <field name="Fabricante">Stackpole Electronics Inc</field>
-        <field name="Nro de parte">RMCF0805JT330K</field>
+        <field name="Nro. parte">RMCF0805JT330K</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">RMCF0805JT330KCT-ND</field>
+        <field name="Digikey/Mouser">RMCF0805JT330KCT-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="R"/>
@@ -2076,11 +2060,11 @@
       <footprint>SM0805</footprint>
       <datasheet>SEI-RMCF_RMCP.pdf</datasheet>
       <fields>
-        <field name="Descripción">RES 330K OHM 1/8W 5% 0805</field>
+        <field name="Descripcion">RES 330K OHM 1/8W 5% 0805</field>
         <field name="Fabricante">Stackpole Electronics Inc</field>
-        <field name="Nro de parte">RMCF0805JT330K</field>
+        <field name="Nro. parte">RMCF0805JT330K</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">RMCF0805JT330KCT-ND</field>
+        <field name="Digikey/Mouser">RMCF0805JT330KCT-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="R"/>
@@ -2092,11 +2076,11 @@
       <footprint>SM0805</footprint>
       <datasheet>SEI-RMCF_RMCP.pdf</datasheet>
       <fields>
-        <field name="Descripción">RES 330K OHM 1/8W 5% 0805</field>
+        <field name="Descripcion">RES 330K OHM 1/8W 5% 0805</field>
         <field name="Fabricante">Stackpole Electronics Inc</field>
-        <field name="Nro de parte">RMCF0805JT330K</field>
+        <field name="Nro. parte">RMCF0805JT330K</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">RMCF0805JT330KCT-ND</field>
+        <field name="Digikey/Mouser">RMCF0805JT330KCT-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="R"/>
@@ -2108,11 +2092,11 @@
       <footprint>SM0805</footprint>
       <datasheet>SEI-RMCF_RMCP.pdf</datasheet>
       <fields>
-        <field name="Descripción">RES 330K OHM 1/8W 5% 0805</field>
+        <field name="Descripcion">RES 330K OHM 1/8W 5% 0805</field>
         <field name="Fabricante">Stackpole Electronics Inc</field>
-        <field name="Nro de parte">RMCF0805JT330K</field>
+        <field name="Nro. parte">RMCF0805JT330K</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">RMCF0805JT330KCT-ND</field>
+        <field name="Digikey/Mouser">RMCF0805JT330KCT-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="R"/>
@@ -2124,11 +2108,11 @@
       <footprint>SM0805</footprint>
       <datasheet>SEI-RMCF_RMCP.pdf</datasheet>
       <fields>
-        <field name="Descripción">RES 330K OHM 1/8W 5% 0805</field>
+        <field name="Descripcion">RES 330K OHM 1/8W 5% 0805</field>
         <field name="Fabricante">Stackpole Electronics Inc</field>
-        <field name="Nro de parte">RMCF0805JT330K</field>
+        <field name="Nro. parte">RMCF0805JT330K</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">RMCF0805JT330KCT-ND</field>
+        <field name="Digikey/Mouser">RMCF0805JT330KCT-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="R"/>
@@ -2140,11 +2124,11 @@
       <footprint>SM0805</footprint>
       <datasheet>RR Series Resistor Specifications.pdf</datasheet>
       <fields>
-        <field name="Descripción">RES 680 OHM 1/10W .5% 0805 SMD</field>
+        <field name="Descripcion">RES 680 OHM 1/10W .5% 0805 SMD</field>
         <field name="Fabricante">Susumu</field>
-        <field name="Nro de parte">RR1220P-681-D</field>
+        <field name="Nro. parte">RR1220P-681-D</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">RR12P680DCT-ND</field>
+        <field name="Digikey/Mouser">RR12P680DCT-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="R"/>
@@ -2156,11 +2140,11 @@
       <footprint>SM0805</footprint>
       <datasheet>AOA0000CE1.pdf</datasheet>
       <fields>
-        <field name="Descripción">RES 10K OHM 1/8W 5% 0805 SMD</field>
+        <field name="Descripcion">RES 10K OHM 1/8W 5% 0805 SMD</field>
         <field name="Fabricante">Panasonic Electronic Components</field>
-        <field name="Nro de parte">ERJ-6GEYJ103V</field>
+        <field name="Nro. parte">ERJ-6GEYJ103V</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">P10KACT-ND</field>
+        <field name="Digikey/Mouser">P10KACT-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="R"/>
@@ -2172,11 +2156,11 @@
       <footprint>SOT23GDS</footprint>
       <datasheet>2N7000.pdf</datasheet>
       <fields>
-        <field name="Descripción">MOSFET N-CH 60V 115MA SOT-23</field>
+        <field name="Descripcion">MOSFET N-CH 60V 115MA SOT-23</field>
         <field name="Fabricante">Fairchild Semiconductor</field>
-        <field name="Nro de parte">2N7002</field>
+        <field name="Nro. parte">2N7002</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">2N7002NCT-ND</field>
+        <field name="Digikey/Mouser">2N7002NCT-ND</field>
         <field name="Footprint">SOT-23</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="MOSFET_N"/>
@@ -2188,11 +2172,11 @@
       <footprint>LED-0805</footprint>
       <datasheet>qtlp630c-2.pdf</datasheet>
       <fields>
-        <field name="Descripción">LED ALG RED WTR CLR 0805 SMD T/R</field>
+        <field name="Descripcion">LED ALG RED WTR CLR 0805 SMD T/R</field>
         <field name="Fabricante">Everlight Electronics Co Ltd</field>
-        <field name="Nro de parte">QTLP630C7TR</field>
+        <field name="Nro. parte">QTLP630C7TR</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">1080-1412-1-ND</field>
+        <field name="Digikey/Mouser">1080-1412-1-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="LED"/>
@@ -2204,11 +2188,11 @@
       <footprint>LED-0805</footprint>
       <datasheet>qtlp630c-2.pdf</datasheet>
       <fields>
-        <field name="Descripción">LED GREEN WATER CLR 0805 SMD T/R</field>
+        <field name="Descripcion">LED GREEN WATER CLR 0805 SMD T/R</field>
         <field name="Fabricante">Everlight Electronics Co Ltd</field>
-        <field name="Nro de parte">QTLP630C7TR</field>
+        <field name="Nro. parte">QTLP630C7TR</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">1080-1411-1-ND</field>
+        <field name="Digikey/Mouser">1080-1411-1-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="LED"/>
@@ -2220,11 +2204,11 @@
       <footprint>LED-0805</footprint>
       <datasheet>qtlp630c-2.pdf</datasheet>
       <fields>
-        <field name="Descripción">LED YELLOW WTR CLR 0805 SMD T/R</field>
+        <field name="Descripcion">LED YELLOW WTR CLR 0805 SMD T/R</field>
         <field name="Fabricante">Everlight Electronics Co Ltd</field>
-        <field name="Nro de parte">QTLP630C7TR</field>
+        <field name="Nro. parte">QTLP630C7TR</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">1080-1410-1-ND</field>
+        <field name="Digikey/Mouser">1080-1410-1-ND</field>
         <field name="Footprint">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="LED"/>
@@ -2236,11 +2220,11 @@
       <footprint>SOT23GDS</footprint>
       <datasheet>2N7000.pdf</datasheet>
       <fields>
-        <field name="Descripción">MOSFET N-CH 60V 115MA SOT-23</field>
+        <field name="Descripcion">MOSFET N-CH 60V 115MA SOT-23</field>
         <field name="Fabricante">Fairchild Semiconductor</field>
-        <field name="Nro de parte">2N7002</field>
+        <field name="Nro. parte">2N7002</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">2N7002NCT-ND</field>
+        <field name="Digikey/Mouser">2N7002NCT-ND</field>
         <field name="Footprint">SOT-23</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="MOSFET_N"/>
@@ -2252,11 +2236,11 @@
       <footprint>SOT23GDS</footprint>
       <datasheet>2N7000.pdf</datasheet>
       <fields>
-        <field name="Descripción">MOSFET N-CH 60V 115MA SOT-23</field>
+        <field name="Descripcion">MOSFET N-CH 60V 115MA SOT-23</field>
         <field name="Fabricante">Fairchild Semiconductor</field>
-        <field name="Nro de parte">2N7002</field>
+        <field name="Nro. parte">2N7002</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">2N7002NCT-ND</field>
+        <field name="Digikey/Mouser">2N7002NCT-ND</field>
         <field name="Footprint">SOT-23</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="MOSFET_N"/>
@@ -2268,11 +2252,11 @@
       <footprint>PUSH_SWITCH_THT</footprint>
       <datasheet>ENG_CD_1825910_C7_baseFilename.pdf</datasheet>
       <fields>
-        <field name="Descripción">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Descripcion">SWITCH TACTILE SPST-NO 0.05A 24V</field>
         <field name="Fabricante">TE Connectivity</field>
-        <field name="Nro de parte">1825910-7</field>
+        <field name="Nro. parte">1825910-7</field>
         <field name="Path datasheet">../PCN/EDU-NXP/Datasheets</field>
-        <field name="Digikey">450-1804-ND</field>
+        <field name="Digikey/Mouser">450-1804-ND</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="SW_PUSH"/>
       <sheetpath names="/ON BOARD IO/" tstamps="/549E1D74/"/>
@@ -2283,11 +2267,11 @@
       <footprint>PUSH_SWITCH_THT</footprint>
       <datasheet>ENG_CD_1825910_C7_baseFilename.pdf</datasheet>
       <fields>
-        <field name="Descripción">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Descripcion">SWITCH TACTILE SPST-NO 0.05A 24V</field>
         <field name="Fabricante">TE Connectivity</field>
-        <field name="Nro de parte">1825910-7</field>
+        <field name="Nro. parte">1825910-7</field>
         <field name="Path datasheet">../PCN/EDU-NXP/Datasheets</field>
-        <field name="Digikey">450-1804-ND</field>
+        <field name="Digikey/Mouser">450-1804-ND</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="SW_PUSH"/>
       <sheetpath names="/ON BOARD IO/" tstamps="/549E1D74/"/>
@@ -2298,11 +2282,11 @@
       <footprint>PUSH_SWITCH_THT</footprint>
       <datasheet>ENG_CD_1825910_C7_baseFilename.pdf</datasheet>
       <fields>
-        <field name="Descripción">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Descripcion">SWITCH TACTILE SPST-NO 0.05A 24V</field>
         <field name="Fabricante">TE Connectivity</field>
-        <field name="Nro de parte">1825910-7</field>
+        <field name="Nro. parte">1825910-7</field>
         <field name="Path datasheet">../PCN/EDU-NXP/Datasheets</field>
-        <field name="Digikey">450-1804-ND</field>
+        <field name="Digikey/Mouser">450-1804-ND</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="SW_PUSH"/>
       <sheetpath names="/ON BOARD IO/" tstamps="/549E1D74/"/>
@@ -2313,15 +2297,157 @@
       <footprint>PUSH_SWITCH_THT</footprint>
       <datasheet>ENG_CD_1825910_C7_baseFilename.pdf</datasheet>
       <fields>
-        <field name="Descripción">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Descripcion">SWITCH TACTILE SPST-NO 0.05A 24V</field>
         <field name="Fabricante">TE Connectivity</field>
-        <field name="Nro de parte">1825910-7</field>
+        <field name="Nro. parte">1825910-7</field>
         <field name="Path datasheet">../PCN/EDU-NXP/Datasheets</field>
-        <field name="Digikey">450-1804-ND</field>
+        <field name="Digikey/Mouser">450-1804-ND</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="SW_PUSH"/>
       <sheetpath names="/ON BOARD IO/" tstamps="/549E1D74/"/>
       <tstamp>558AFED9</tstamp>
+    </comp>
+    <comp ref="F3">
+      <value>MF-MSMF030-2</value>
+      <footprint>MF-MSMF</footprint>
+      <datasheet>mfmsmf.pdf</datasheet>
+      <fields>
+        <field name="Descripcion">PTC RESETTABLE .30A 30V 1812</field>
+        <field name="Fabricante">Bourns Inc.</field>
+        <field name="Nro. parte">MF-MSMF030-2</field>
+        <field name="Path datasheet">../PCB/EDU-FSL/Datasheets</field>
+        <field name="Digikey/Mouser">MF-MSMF030-2CT-ND</field>
+        <field name="Footprint">1812</field>
+      </fields>
+      <libsource lib="edu-ciaa-fsl" part="THERMISTOR"/>
+      <sheetpath names="/GPIO/" tstamps="/549F860E/"/>
+      <tstamp>52CA1D91</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_20X2</value>
+      <footprint>PIN_ARRAY_20X2</footprint>
+      <libsource lib="edu-ciaa-fsl" part="CONN_20X2"/>
+      <sheetpath names="/GPIO/" tstamps="/549F860E/"/>
+      <tstamp>5398AC24</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_20X2</value>
+      <footprint>PIN_ARRAY_20X2</footprint>
+      <libsource lib="edu-ciaa-fsl" part="CONN_20X2"/>
+      <sheetpath names="/GPIO/" tstamps="/549F860E/"/>
+      <tstamp>5398AC33</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>470</value>
+      <footprint>SM0805</footprint>
+      <datasheet>AOA0000CE1.pdf</datasheet>
+      <fields>
+        <field name="Descripcion">RES 470 OHM 1/8W 5% 0805 SMD</field>
+        <field name="Fabricante">Panasonic Electronic Components</field>
+        <field name="Nro. parte">ERJ-6GEYJ471V</field>
+        <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
+        <field name="Digikey/Mouser">P470ACT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="edu-ciaa-fsl" part="R"/>
+      <sheetpath names="/GPIO/" tstamps="/549F860E/"/>
+      <tstamp>5398AC42</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>1k2</value>
+      <footprint>SM0805</footprint>
+      <datasheet>SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Descripcion">RES 1.2K OHM 1/8W 5% 0805</field>
+        <field name="Fabricante">Stackpole Electronics Inc</field>
+        <field name="Nro. parte">RMCF0805JT1K20</field>
+        <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
+        <field name="Digikey/Mouser">RMCF0805JT1K20CT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="edu-ciaa-fsl" part="R"/>
+      <sheetpath names="/GPIO/" tstamps="/549F860E/"/>
+      <tstamp>5398AC4F</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>1k2</value>
+      <footprint>SM0805</footprint>
+      <datasheet>SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Descripcion">RES 1.2K OHM 1/8W 5% 0805</field>
+        <field name="Fabricante">Stackpole Electronics Inc</field>
+        <field name="Nro. parte">RMCF0805JT1K20</field>
+        <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
+        <field name="Digikey/Mouser">RMCF0805JT1K20CT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="edu-ciaa-fsl" part="R"/>
+      <sheetpath names="/GPIO/" tstamps="/549F860E/"/>
+      <tstamp>5398AC55</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>1k2</value>
+      <footprint>SM0805</footprint>
+      <datasheet>SEI-RMCF_RMCP.pdf</datasheet>
+      <fields>
+        <field name="Descripcion">RES 1.2K OHM 1/8W 5% 0805</field>
+        <field name="Fabricante">Stackpole Electronics Inc</field>
+        <field name="Nro. parte">RMCF0805JT1K20</field>
+        <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
+        <field name="Digikey/Mouser">RMCF0805JT1K20CT-ND</field>
+        <field name="Footprint">0805</field>
+      </fields>
+      <libsource lib="edu-ciaa-fsl" part="R"/>
+      <sheetpath names="/GPIO/" tstamps="/549F860E/"/>
+      <tstamp>5398AC5B</tstamp>
+    </comp>
+    <comp ref="F5">
+      <value>MF-MSMF030-2</value>
+      <footprint>MF-MSMF</footprint>
+      <datasheet>mfmsmf.pdf</datasheet>
+      <fields>
+        <field name="Descripcion">PTC RESETTABLE .30A 30V 1812</field>
+        <field name="Fabricante">Bourns Inc.</field>
+        <field name="Nro. parte">MF-MSMF030-2</field>
+        <field name="Path datasheet">../PCB/EDU-FSL/Datasheets</field>
+        <field name="Digikey/Mouser">MF-MSMF030-2CT-ND</field>
+        <field name="Footprint">1812</field>
+      </fields>
+      <libsource lib="edu-ciaa-fsl" part="THERMISTOR"/>
+      <sheetpath names="/GPIO/" tstamps="/549F860E/"/>
+      <tstamp>539E1654</tstamp>
+    </comp>
+    <comp ref="F4">
+      <value>MF-MSMF030-2</value>
+      <footprint>MF-MSMF</footprint>
+      <datasheet>mfmsmf.pdf</datasheet>
+      <fields>
+        <field name="Descripcion">PTC RESETTABLE .30A 30V 1812</field>
+        <field name="Fabricante">Bourns Inc.</field>
+        <field name="Nro. parte">MF-MSMF030-2</field>
+        <field name="Path datasheet">../PCB/EDU-FSL/Datasheets</field>
+        <field name="Digikey/Mouser">MF-MSMF030-2CT-ND</field>
+        <field name="Footprint">1812</field>
+      </fields>
+      <libsource lib="edu-ciaa-fsl" part="THERMISTOR"/>
+      <sheetpath names="/GPIO/" tstamps="/549F860E/"/>
+      <tstamp>56130FF5</tstamp>
+    </comp>
+    <comp ref="F6">
+      <value>MF-MSMF030-2</value>
+      <footprint>MF-MSMF</footprint>
+      <datasheet>mfmsmf.pdf</datasheet>
+      <fields>
+        <field name="Descripcion">PTC RESETTABLE .30A 30V 1812</field>
+        <field name="Fabricante">Bourns Inc.</field>
+        <field name="Nro. parte">MF-MSMF030-2</field>
+        <field name="Path datasheet">../PCB/EDU-FSL/Datasheets</field>
+        <field name="Digikey/Mouser">MF-MSMF030-2CT-ND</field>
+        <field name="Footprint">1812</field>
+      </fields>
+      <libsource lib="edu-ciaa-fsl" part="THERMISTOR"/>
+      <sheetpath names="/GPIO/" tstamps="/549F860E/"/>
+      <tstamp>5613103B</tstamp>
     </comp>
     <comp ref="L9">
       <value>MI0805M221R-10</value>
@@ -2607,22 +2733,6 @@
       <sheetpath names="/CPU/" tstamps="/52C1CAF4/"/>
       <tstamp>538A5594</tstamp>
     </comp>
-    <comp ref="C32">
-      <value>20pF</value>
-      <footprint>c_0805</footprint>
-      <datasheet>KEM_C1003_C0G_SMD.pdf</datasheet>
-      <fields>
-        <field name="Descripcion">CAP CER 20PF 50V 5% NP0 0805</field>
-        <field name="Fabricante">Kemet</field>
-        <field name="Nro. parte">C0805C200J5GACTU</field>
-        <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey/Mouser">399-8033-1-ND</field>
-        <field name="Footprint estandar">0805</field>
-      </fields>
-      <libsource lib="edu-ciaa-fsl" part="C"/>
-      <sheetpath names="/CPU/" tstamps="/52C1CAF4/"/>
-      <tstamp>538A5E6A</tstamp>
-    </comp>
     <comp ref="R50">
       <value>2K2</value>
       <footprint>r_0805</footprint>
@@ -2734,22 +2844,6 @@
       <sheetpath names="/CPU/" tstamps="/52C1CAF4/"/>
       <tstamp>5398EE53</tstamp>
     </comp>
-    <comp ref="C36">
-      <value>20pF</value>
-      <footprint>c_0805</footprint>
-      <datasheet>KEM_C1003_C0G_SMD.pdf</datasheet>
-      <fields>
-        <field name="Descripcion">CAP CER 20PF 50V 5% NP0 0805</field>
-        <field name="Fabricante">Kemet</field>
-        <field name="Nro. parte">C0805C200J5GACTU</field>
-        <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey/Mouser">399-8033-1-ND</field>
-        <field name="Footprint estandar">0805</field>
-      </fields>
-      <libsource lib="edu-ciaa-fsl" part="C"/>
-      <sheetpath names="/CPU/" tstamps="/52C1CAF4/"/>
-      <tstamp>53993378</tstamp>
-    </comp>
     <comp ref="U10">
       <value>MK60FX512VLQ15</value>
       <footprint>LQFP144</footprint>
@@ -2846,22 +2940,6 @@
       <sheetpath names="/CPU/" tstamps="/52C1CAF4/"/>
       <tstamp>547F999C</tstamp>
     </comp>
-    <comp ref="R53">
-      <value>22</value>
-      <footprint>r_0805</footprint>
-      <datasheet>SEI-RMCF_RMCP.pdf</datasheet>
-      <fields>
-        <field name="Descripcion">RES 22 OHM 1/8W 5% 0805</field>
-        <field name="Fabricante">Stackpole Electronics Inc</field>
-        <field name="Nro. parte">RMCF0805JT22R0</field>
-        <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey/Mouser">RMCF0805JT22R0CT-ND</field>
-        <field name="Footprint estandar">0805</field>
-      </fields>
-      <libsource lib="edu-ciaa-fsl" part="R"/>
-      <sheetpath names="/CPU/" tstamps="/52C1CAF4/"/>
-      <tstamp>555656E1</tstamp>
-    </comp>
     <comp ref="Y2">
       <value>12MHz</value>
       <footprint>FA238V-XTAL</footprint>
@@ -2898,7 +2976,7 @@
       <footprint>c_0805</footprint>
       <datasheet>KEM_C1003_C0G_SMD.pdf</datasheet>
       <fields>
-        <field name="Descripción">CAP CER 20PF 50V 5% NP0 0805</field>
+        <field name="Descripcion">CAP CER 20PF 50V 5% NP0 0805</field>
         <field name="Fabricante">Kemet</field>
         <field name="Nro. parte">C0805C200J5GACTU</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
@@ -2909,147 +2987,21 @@
       <sheetpath names="/CPU/" tstamps="/52C1CAF4/"/>
       <tstamp>558C6489</tstamp>
     </comp>
-    <comp ref="F3">
-      <value>MF-MSMF030-2</value>
-      <footprint>MF-MSMF</footprint>
-      <datasheet>mfmsmf.pdf</datasheet>
-      <fields>
-        <field name="Descripción">PTC RESETTABLE .30A 30V 1812</field>
-        <field name="Fabricante">Bourns Inc.</field>
-        <field name="Nro de parte">MF-MSMF030-2</field>
-        <field name="Path datasheet">../PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">MF-MSMF030-2CT-ND</field>
-        <field name="Footprint">1812</field>
-      </fields>
-      <libsource lib="edu-ciaa-fsl" part="THERMISTOR"/>
-      <sheetpath names="/GPIO/" tstamps="/549F860E/"/>
-      <tstamp>52CA1D91</tstamp>
-    </comp>
-    <comp ref="P1">
-      <value>CONN_20X2</value>
-      <footprint>PIN_ARRAY_20X2</footprint>
-      <libsource lib="edu-ciaa-fsl" part="CONN_20X2"/>
-      <sheetpath names="/GPIO/" tstamps="/549F860E/"/>
-      <tstamp>5398AC24</tstamp>
-    </comp>
-    <comp ref="P2">
-      <value>CONN_20X2</value>
-      <footprint>PIN_ARRAY_20X2</footprint>
-      <libsource lib="edu-ciaa-fsl" part="CONN_20X2"/>
-      <sheetpath names="/GPIO/" tstamps="/549F860E/"/>
-      <tstamp>5398AC33</tstamp>
-    </comp>
-    <comp ref="R48">
-      <value>470</value>
-      <footprint>SM0805</footprint>
-      <datasheet>AOA0000CE1.pdf</datasheet>
-      <fields>
-        <field name="Descripción">RES 470 OHM 1/8W 5% 0805 SMD</field>
-        <field name="Fabricante">Panasonic Electronic Components</field>
-        <field name="Nro de parte">ERJ-6GEYJ471V</field>
-        <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">P470ACT-ND</field>
-        <field name="Footprint">0805</field>
-      </fields>
-      <libsource lib="edu-ciaa-fsl" part="R"/>
-      <sheetpath names="/GPIO/" tstamps="/549F860E/"/>
-      <tstamp>5398AC42</tstamp>
-    </comp>
-    <comp ref="R47">
-      <value>1k2</value>
-      <footprint>SM0805</footprint>
+    <comp ref="R6">
+      <value>2K2</value>
+      <footprint>r_0805</footprint>
       <datasheet>SEI-RMCF_RMCP.pdf</datasheet>
       <fields>
-        <field name="Descripción">RES 1.2K OHM 1/8W 5% 0805</field>
+        <field name="Descripcion">RES 2.2K OHM 1/8W 5% 0805</field>
         <field name="Fabricante">Stackpole Electronics Inc</field>
-        <field name="Nro de parte">RMCF0805JT1K20</field>
+        <field name="Nro. parte">RMCF0805JT2K20</field>
         <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">RMCF0805JT1K20CT-ND</field>
-        <field name="Footprint">0805</field>
+        <field name="Digikey/Mouser">RMCF0805JT2K20CT-ND</field>
+        <field name="Footprint estandar">0805</field>
       </fields>
       <libsource lib="edu-ciaa-fsl" part="R"/>
-      <sheetpath names="/GPIO/" tstamps="/549F860E/"/>
-      <tstamp>5398AC4F</tstamp>
-    </comp>
-    <comp ref="R46">
-      <value>1k2</value>
-      <footprint>SM0805</footprint>
-      <datasheet>SEI-RMCF_RMCP.pdf</datasheet>
-      <fields>
-        <field name="Descripción">RES 1.2K OHM 1/8W 5% 0805</field>
-        <field name="Fabricante">Stackpole Electronics Inc</field>
-        <field name="Nro de parte">RMCF0805JT1K20</field>
-        <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">RMCF0805JT1K20CT-ND</field>
-        <field name="Footprint">0805</field>
-      </fields>
-      <libsource lib="edu-ciaa-fsl" part="R"/>
-      <sheetpath names="/GPIO/" tstamps="/549F860E/"/>
-      <tstamp>5398AC55</tstamp>
-    </comp>
-    <comp ref="R45">
-      <value>1k2</value>
-      <footprint>SM0805</footprint>
-      <datasheet>SEI-RMCF_RMCP.pdf</datasheet>
-      <fields>
-        <field name="Descripción">RES 1.2K OHM 1/8W 5% 0805</field>
-        <field name="Fabricante">Stackpole Electronics Inc</field>
-        <field name="Nro de parte">RMCF0805JT1K20</field>
-        <field name="Path datasheet">..PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">RMCF0805JT1K20CT-ND</field>
-        <field name="Footprint">0805</field>
-      </fields>
-      <libsource lib="edu-ciaa-fsl" part="R"/>
-      <sheetpath names="/GPIO/" tstamps="/549F860E/"/>
-      <tstamp>5398AC5B</tstamp>
-    </comp>
-    <comp ref="F5">
-      <value>MF-MSMF030-2</value>
-      <footprint>MF-MSMF</footprint>
-      <datasheet>mfmsmf.pdf</datasheet>
-      <fields>
-        <field name="Descripción">PTC RESETTABLE .30A 30V 1812</field>
-        <field name="Fabricante">Bourns Inc.</field>
-        <field name="Nro de parte">MF-MSMF030-2</field>
-        <field name="Path datasheet">../PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">MF-MSMF030-2CT-ND</field>
-        <field name="Footprint">1812</field>
-      </fields>
-      <libsource lib="edu-ciaa-fsl" part="THERMISTOR"/>
-      <sheetpath names="/GPIO/" tstamps="/549F860E/"/>
-      <tstamp>539E1654</tstamp>
-    </comp>
-    <comp ref="F4">
-      <value>MF-MSMF030-2</value>
-      <footprint>MF-MSMF</footprint>
-      <datasheet>mfmsmf.pdf</datasheet>
-      <fields>
-        <field name="Descripción">PTC RESETTABLE .30A 30V 1812</field>
-        <field name="Fabricante">Bourns Inc.</field>
-        <field name="Nro de parte">MF-MSMF030-2</field>
-        <field name="Path datasheet">../PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">MF-MSMF030-2CT-ND</field>
-        <field name="Footprint">1812</field>
-      </fields>
-      <libsource lib="edu-ciaa-fsl" part="THERMISTOR"/>
-      <sheetpath names="/GPIO/" tstamps="/549F860E/"/>
-      <tstamp>56130FF5</tstamp>
-    </comp>
-    <comp ref="F6">
-      <value>MF-MSMF030-2</value>
-      <footprint>MF-MSMF</footprint>
-      <datasheet>mfmsmf.pdf</datasheet>
-      <fields>
-        <field name="Descripción">PTC RESETTABLE .30A 30V 1812</field>
-        <field name="Fabricante">Bourns Inc.</field>
-        <field name="Nro de parte">MF-MSMF030-2</field>
-        <field name="Path datasheet">../PCB/EDU-FSL/Datasheets</field>
-        <field name="Digikey">MF-MSMF030-2CT-ND</field>
-        <field name="Footprint">1812</field>
-      </fields>
-      <libsource lib="edu-ciaa-fsl" part="THERMISTOR"/>
-      <sheetpath names="/GPIO/" tstamps="/549F860E/"/>
-      <tstamp>5613103B</tstamp>
+      <sheetpath names="/CPU/" tstamps="/52C1CAF4/"/>
+      <tstamp>578EA15E</tstamp>
     </comp>
   </components>
   <libparts>
@@ -3787,684 +3739,694 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/CPU/LED1">
-      <node ref="U10" pin="112"/>
-      <node ref="R41" pin="1"/>
-      <node ref="R39" pin="1"/>
+    <net code="1" name="/GPIO/GPIO8">
+      <node ref="P2" pin="40"/>
+      <node ref="U10" pin="55"/>
     </net>
-    <net code="2" name="/CPU/LED3">
-      <node ref="U10" pin="114"/>
-      <node ref="R42" pin="1"/>
-      <node ref="R40" pin="1"/>
-    </net>
-    <net code="3" name="/CPU/LED2">
-      <node ref="R33" pin="1"/>
-      <node ref="R31" pin="1"/>
-      <node ref="U10" pin="113"/>
-    </net>
-    <net code="4" name="/CPU/LED0_B">
-      <node ref="U10" pin="111"/>
-      <node ref="R28" pin="1"/>
-      <node ref="R27" pin="1"/>
-    </net>
-    <net code="5" name="/CPU/LED0_G">
-      <node ref="R30" pin="1"/>
-      <node ref="U10" pin="110"/>
-      <node ref="R32" pin="1"/>
-    </net>
-    <net code="6" name="/CPU/LED0_R">
-      <node ref="R36" pin="1"/>
-      <node ref="R37" pin="1"/>
-      <node ref="U10" pin="109"/>
-    </net>
-    <net code="7" name="/CPU/PULS_3">
-      <node ref="U10" pin="106"/>
-      <node ref="R22" pin="1"/>
-    </net>
-    <net code="8" name="/CPU/PULS_2">
-      <node ref="U10" pin="105"/>
-      <node ref="R21" pin="1"/>
-    </net>
-    <net code="9" name="/CPU/PULS_1">
-      <node ref="U10" pin="104"/>
-      <node ref="R20" pin="1"/>
-    </net>
-    <net code="10" name="/CPU/PULS_0">
-      <node ref="R19" pin="1"/>
-      <node ref="U10" pin="103"/>
-    </net>
-    <net code="11" name="/GPIO/GPIO6">
-      <node ref="P2" pin="35"/>
-      <node ref="R53" pin="2"/>
-    </net>
-    <net code="12" name="/CPU/USB_JTAG_UART_RXD">
-      <node ref="U10" pin="12"/>
-      <node ref="U5" pin="38"/>
-    </net>
-    <net code="13" name="/CPU/USB_JTAG_UART_TXD">
-      <node ref="U5" pin="39"/>
-      <node ref="U10" pin="11"/>
-    </net>
-    <net code="14" name="/CPU/CAN_RD">
-      <node ref="U10" pin="98"/>
-      <node ref="P1" pin="27"/>
-    </net>
-    <net code="15" name="/CPU/RS232_RXD">
+    <net code="2" name="/CPU/RS232_RXD">
       <node ref="P1" pin="23"/>
       <node ref="U10" pin="91"/>
     </net>
-    <net code="16" name="/CPU/RS232_TXD">
+    <net code="3" name="/CPU/RS232_TXD">
       <node ref="U10" pin="92"/>
       <node ref="P1" pin="25"/>
     </net>
-    <net code="17" name="/CPU/AUX_UART_CTS/SPI_CLK">
-      <node ref="U10" pin="128"/>
-      <node ref="P2" pin="20"/>
-    </net>
-    <net code="18" name="/GPIO/ADC0_2">
-      <node ref="U10" pin="79"/>
-      <node ref="R46" pin="1"/>
-    </net>
-    <net code="19" name="/GPIO/ADC0_3">
-      <node ref="U10" pin="80"/>
-      <node ref="R45" pin="1"/>
-    </net>
-    <net code="20" name="/CPU/TEC_COL2">
-      <node ref="U10" pin="117"/>
-      <node ref="P1" pin="34"/>
-    </net>
-    <net code="21" name="/CPU/TEC_COL1">
-      <node ref="P1" pin="31"/>
-      <node ref="U10" pin="116"/>
-    </net>
-    <net code="22" name="/CPU/CAN_TD">
+    <net code="4" name="/CPU/CAN_TD">
       <node ref="U10" pin="97"/>
       <node ref="P1" pin="29"/>
     </net>
-    <net code="23" name="/GPIO/ENET_MDC">
-      <node ref="U10" pin="82"/>
-      <node ref="P2" pin="8"/>
+    <net code="5" name="/CPU/CAN_RD">
+      <node ref="U10" pin="98"/>
+      <node ref="P1" pin="27"/>
     </net>
-    <net code="24" name="/CPU/TEC_F3">
-      <node ref="U10" pin="84"/>
+    <net code="6" name="/GPIO/GPIO5">
+      <node ref="U10" pin="7"/>
+      <node ref="P2" pin="36"/>
+    </net>
+    <net code="7" name="/GPIO/GPIO6">
+      <node ref="P2" pin="35"/>
+      <node ref="U10" pin="3"/>
+    </net>
+    <net code="8" name="/GPIO/GPIO7">
+      <node ref="P2" pin="38"/>
+      <node ref="U10" pin="73"/>
+    </net>
+    <net code="9" name="/CPU/GPIO9">
+      <node ref="U10" pin="118"/>
+      <node ref="P1" pin="5"/>
+    </net>
+    <net code="10" name="/CPU/WAKEUP">
+      <node ref="P1" pin="6"/>
+      <node ref="U10" pin="120"/>
+    </net>
+    <net code="11" name="/CPU/LED3">
+      <node ref="R40" pin="1"/>
+      <node ref="R42" pin="1"/>
+      <node ref="U10" pin="114"/>
+    </net>
+    <net code="12" name="/CPU/TEC_COL1">
+      <node ref="U10" pin="116"/>
+      <node ref="P1" pin="31"/>
+    </net>
+    <net code="13" name="/CPU/TEC_COL0">
+      <node ref="U10" pin="115"/>
+      <node ref="P1" pin="39"/>
+    </net>
+    <net code="14" name="/CPU/TEC_COL2">
+      <node ref="U10" pin="117"/>
+      <node ref="P1" pin="34"/>
+    </net>
+    <net code="15" name="/GPIO/GPIO0">
+      <node ref="P2" pin="29"/>
+      <node ref="U10" pin="126"/>
+    </net>
+    <net code="16" name="/GPIO/GPIO4">
+      <node ref="P2" pin="33"/>
+      <node ref="U10" pin="8"/>
+    </net>
+    <net code="17" name="/GPIO/GPIO1">
+      <node ref="U10" pin="4"/>
+      <node ref="P2" pin="32"/>
+    </net>
+    <net code="18" name="/GPIO/GPIO2">
+      <node ref="P2" pin="31"/>
+      <node ref="U10" pin="2"/>
+    </net>
+    <net code="19" name="/GPIO/GPIO3">
+      <node ref="P2" pin="34"/>
+      <node ref="U10" pin="1"/>
+    </net>
+    <net code="20" name="/CPU/TEC_F3">
       <node ref="P1" pin="35"/>
+      <node ref="U10" pin="84"/>
     </net>
-    <net code="25" name="/CPU/TEC_F2">
+    <net code="21" name="/CPU/TEC_F2">
       <node ref="P1" pin="37"/>
       <node ref="U10" pin="83"/>
     </net>
-    <net code="26" name="/GPIO/GPIO5">
-      <node ref="U10" pin="7"/>
-      <node ref="P2" pin="36"/>
+    <net code="22" name="/CPU/TEC_F1">
+      <node ref="U10" pin="85"/>
+      <node ref="P1" pin="36"/>
+    </net>
+    <net code="23" name="/CPU/TEC_F0">
+      <node ref="P1" pin="33"/>
+      <node ref="U10" pin="86"/>
+    </net>
+    <net code="24" name="/GPIO/ENET_RXD1">
+      <node ref="U10" pin="64"/>
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="25" name="/CPU/AUX_UART_TX/SPI_MOSI">
+      <node ref="U10" pin="129"/>
+      <node ref="P2" pin="21"/>
+    </net>
+    <net code="26" name="/CPU/AUX_UART_RX/SPI_MISO">
+      <node ref="U10" pin="130"/>
+      <node ref="P2" pin="18"/>
     </net>
     <net code="27" name="/GPIO/ENET_REF_CLK">
       <node ref="P2" pin="15"/>
       <node ref="U10" pin="72"/>
     </net>
-    <net code="28" name="/GPIO/GPIO7">
-      <node ref="U10" pin="73"/>
-      <node ref="P2" pin="38"/>
-    </net>
-    <net code="29" name="/GPIO/GPIO8">
-      <node ref="P2" pin="40"/>
-      <node ref="U10" pin="55"/>
-    </net>
-    <net code="30" name="/CPU/ISP">
-      <node ref="U10" pin="118"/>
-      <node ref="P1" pin="5"/>
-    </net>
-    <net code="31" name="/CPU/WAKEUP">
-      <node ref="P1" pin="6"/>
-      <node ref="U10" pin="120"/>
-    </net>
-    <net code="32" name="/GPIO/DAC">
-      <node ref="U10" pin="38"/>
-      <node ref="R48" pin="1"/>
-    </net>
-    <net code="33" name="/GPIO/GPIO3">
-      <node ref="P2" pin="34"/>
-      <node ref="U10" pin="1"/>
-    </net>
-    <net code="34" name="/GPIO/GPIO1">
-      <node ref="U10" pin="4"/>
-      <node ref="P2" pin="32"/>
-    </net>
-    <net code="35" name="/GPIO/GPIO4">
-      <node ref="P2" pin="33"/>
-      <node ref="U10" pin="8"/>
-    </net>
-    <net code="36" name="/GPIO/GPIO2">
-      <node ref="U10" pin="2"/>
-      <node ref="P2" pin="31"/>
-    </net>
-    <net code="37" name="/GPIO/GPIO0">
-      <node ref="P2" pin="29"/>
-      <node ref="U10" pin="126"/>
-    </net>
-    <net code="38" name="/CPU/TEC_COL0">
-      <node ref="P1" pin="39"/>
-      <node ref="U10" pin="115"/>
-    </net>
-    <net code="39" name="/CPU/TEC_F1">
-      <node ref="P1" pin="36"/>
-      <node ref="U10" pin="85"/>
-    </net>
-    <net code="40" name="/GPIO/ADC0_1">
-      <node ref="R47" pin="1"/>
-      <node ref="U10" pin="78"/>
-    </net>
-    <net code="41" name="/CPU/TEC_F0">
-      <node ref="U10" pin="86"/>
-      <node ref="P1" pin="33"/>
-    </net>
-    <net code="42" name="/GPIO/ENET_TXD1">
-      <node ref="P2" pin="16"/>
-      <node ref="U10" pin="69"/>
-    </net>
-    <net code="43" name="/GPIO/ENET_TXD0">
-      <node ref="U10" pin="68"/>
-      <node ref="P2" pin="14"/>
-    </net>
-    <net code="44" name="/GPIO/ENET_MDIO">
-      <node ref="P2" pin="12"/>
-      <node ref="U10" pin="81"/>
-    </net>
-    <net code="45" name="/GPIO/ENET_CRS_DV">
-      <node ref="P2" pin="10"/>
-      <node ref="U10" pin="66"/>
-    </net>
-    <net code="46" name="/GPIO/ENET_RXD0">
-      <node ref="P2" pin="9"/>
-      <node ref="U10" pin="65"/>
-    </net>
-    <net code="47" name="/GPIO/ENET_TX_EN">
+    <net code="28" name="/GPIO/ENET_TX_EN">
       <node ref="U10" pin="67"/>
       <node ref="P2" pin="6"/>
     </net>
-    <net code="48" name="/GPIO/ENET_RXD1">
-      <node ref="U10" pin="64"/>
-      <node ref="P2" pin="4"/>
+    <net code="29" name="/GPIO/ENET_MDC">
+      <node ref="U10" pin="82"/>
+      <node ref="P2" pin="8"/>
     </net>
-    <net code="49" name="/CPU/AUX_UART_TX/SPI_MOSI">
-      <node ref="P2" pin="21"/>
-      <node ref="U10" pin="129"/>
+    <net code="30" name="/GPIO/ENET_CRS_DV">
+      <node ref="U10" pin="66"/>
+      <node ref="P2" pin="10"/>
     </net>
-    <net code="50" name="/CPU/AUX_UART_RX/SPI_MISO">
-      <node ref="P2" pin="18"/>
-      <node ref="U10" pin="130"/>
-    </net>
-    <net code="51" name="/CPU/I2C_SCL">
+    <net code="31" name="/CPU/I2C_SCL">
+      <node ref="P1" pin="21"/>
       <node ref="U10" pin="137"/>
       <node ref="R52" pin="2"/>
-      <node ref="P1" pin="21"/>
     </net>
-    <net code="52" name="/CPU/I2C_SDA">
-      <node ref="R50" pin="2"/>
-      <node ref="P1" pin="19"/>
-      <node ref="U10" pin="138"/>
+    <net code="32" name="/GPIO/ENET_RXD0">
+      <node ref="U10" pin="65"/>
+      <node ref="P2" pin="9"/>
     </net>
-    <net code="53" name="/CPU/RESET">
-      <node ref="U6" pin="12"/>
-      <node ref="J4" pin="10"/>
-      <node ref="P1" pin="3"/>
-      <node ref="D15" pin="2"/>
+    <net code="33" name="/GPIO/ENET_TXD1">
+      <node ref="U10" pin="69"/>
+      <node ref="P2" pin="16"/>
     </net>
-    <net code="54" name="/CPU/RS485_RXD">
-      <node ref="U10" pin="133"/>
-      <node ref="U9" pin="1"/>
-      <node ref="R13" pin="2"/>
+    <net code="34" name="/GPIO/ENET_TXD0">
+      <node ref="U10" pin="68"/>
+      <node ref="P2" pin="14"/>
     </net>
-    <net code="55" name="/CPU/TMS">
-      <node ref="J4" pin="2"/>
-      <node ref="U6" pin="14"/>
-      <node ref="U10" pin="53"/>
+    <net code="35" name="/GPIO/ADC0_3">
+      <node ref="R45" pin="1"/>
+      <node ref="U10" pin="80"/>
     </net>
-    <net code="56" name="/CPU/TDO">
-      <node ref="U6" pin="15"/>
-      <node ref="J4" pin="6"/>
-      <node ref="U10" pin="52"/>
+    <net code="36" name="/GPIO/ADC0_2">
+      <node ref="U10" pin="79"/>
+      <node ref="R46" pin="1"/>
     </net>
-    <net code="57" name="/CPU/TDI">
-      <node ref="U6" pin="16"/>
-      <node ref="J4" pin="8"/>
-      <node ref="U10" pin="51"/>
+    <net code="37" name="/GPIO/ADC0_1">
+      <node ref="U10" pin="78"/>
+      <node ref="R47" pin="1"/>
     </net>
-    <net code="58" name="/CPU/TCK">
-      <node ref="U6" pin="18"/>
-      <node ref="J4" pin="4"/>
-      <node ref="U10" pin="50"/>
+    <net code="38" name="/GPIO/DAC">
+      <node ref="R48" pin="1"/>
+      <node ref="U10" pin="38"/>
     </net>
-    <net code="59" name="/JTAG/USB_DEBUG_VBUS">
-      <node ref="C24" pin="1"/>
-      <node ref="C25" pin="1"/>
-      <node ref="L8" pin="2"/>
-      <node ref="D4" pin="1"/>
+    <net code="39" name="/GPIO/ENET_MDIO">
+      <node ref="U10" pin="81"/>
+      <node ref="P2" pin="12"/>
     </net>
-    <net code="60" name="/USB OTG/USB0_PWR_FAULT">
-      <node ref="U10" pin="124"/>
-      <node ref="R2" pin="2"/>
-      <node ref="U1" pin="2"/>
+    <net code="40" name="/CPU/AUX_UART_CTS/SPI_CLK">
+      <node ref="U10" pin="128"/>
+      <node ref="P2" pin="20"/>
     </net>
-    <net code="61" name="/USB OTG/USB0_PPWR">
-      <node ref="R1" pin="2"/>
-      <node ref="U10" pin="125"/>
-      <node ref="U1" pin="1"/>
-    </net>
-    <net code="62" name="/CPU/RS485_TXD">
-      <node ref="U10" pin="136"/>
-      <node ref="U9" pin="4"/>
-    </net>
-    <net code="63" name="Net-(FD2-Pad1)">
-      <node ref="FD2" pin="1"/>
-    </net>
-    <net code="64" name="/Fuente/USB_VBUS">
-      <node ref="U1" pin="6"/>
-      <node ref="U1" pin="8"/>
-      <node ref="D3" pin="1"/>
-      <node ref="U10" pin="22"/>
-      <node ref="L1" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="U2" pin="4"/>
-      <node ref="C2" pin="1"/>
-    </net>
-    <net code="65" name="Net-(FD6-Pad1)">
-      <node ref="FD6" pin="1"/>
-    </net>
-    <net code="66" name="Net-(FD5-Pad1)">
-      <node ref="FD5" pin="1"/>
-    </net>
-    <net code="67" name="Net-(FD4-Pad1)">
-      <node ref="FD4" pin="1"/>
-    </net>
-    <net code="68" name="Net-(FD3-Pad1)">
-      <node ref="FD3" pin="1"/>
-    </net>
-    <net code="69" name="/CPU/USB_ID">
-      <node ref="J1" pin="4"/>
-      <node ref="D1" pin="2"/>
-      <node ref="U10" pin="123"/>
-    </net>
-    <net code="70" name="Net-(FD1-Pad1)">
-      <node ref="FD1" pin="1"/>
-    </net>
-    <net code="71" name="/CPU/VBAT">
-      <node ref="C6" pin="1"/>
-      <node ref="D6" pin="3"/>
-      <node ref="U10" pin="42"/>
-    </net>
-    <net code="72" name="/GPIO/LCD_EN">
-      <node ref="P2" pin="23"/>
-      <node ref="U10" pin="139"/>
-    </net>
-    <net code="73" name="/GPIO/LCD1">
-      <node ref="U10" pin="141"/>
-      <node ref="P2" pin="30"/>
-    </net>
-    <net code="74" name="/GPIO/LCD_RS">
-      <node ref="P2" pin="24"/>
-      <node ref="U10" pin="140"/>
-    </net>
-    <net code="75" name="/GPIO/LCD4">
-      <node ref="U10" pin="144"/>
-      <node ref="P2" pin="22"/>
-    </net>
-    <net code="76" name="/GPIO/LCD3">
-      <node ref="U10" pin="143"/>
-      <node ref="P2" pin="26"/>
-    </net>
-    <net code="77" name="/GPIO/LCD2">
-      <node ref="P2" pin="28"/>
-      <node ref="U10" pin="142"/>
-    </net>
-    <net code="78" name="/CPU/USB_DM">
+    <net code="41" name="/CPU/USB_DM">
+      <node ref="T1" pin="3"/>
       <node ref="U10" pin="20"/>
       <node ref="U2" pin="2"/>
-      <node ref="T1" pin="3"/>
     </net>
-    <net code="79" name="/CPU/USB_DP">
-      <node ref="U10" pin="19"/>
-      <node ref="U2" pin="3"/>
-      <node ref="T1" pin="2"/>
+    <net code="42" name="/CPU/USB_JTAG_UART_RXD">
+      <node ref="U10" pin="12"/>
+      <node ref="U5" pin="38"/>
     </net>
-    <net code="80" name="/CPU/RS485_DIR">
+    <net code="43" name="/CPU/USB_JTAG_UART_TXD">
+      <node ref="U5" pin="39"/>
+      <node ref="U10" pin="11"/>
+    </net>
+    <net code="44" name="/CPU/I2C_SDA">
+      <node ref="U10" pin="138"/>
+      <node ref="R50" pin="2"/>
+      <node ref="P1" pin="19"/>
+    </net>
+    <net code="45" name="/CPU/LED0_G">
+      <node ref="U10" pin="110"/>
+      <node ref="R32" pin="1"/>
+      <node ref="R30" pin="1"/>
+    </net>
+    <net code="46" name="/CPU/RESET">
+      <node ref="D15" pin="2"/>
+      <node ref="J4" pin="10"/>
+      <node ref="P1" pin="3"/>
+      <node ref="U6" pin="12"/>
+    </net>
+    <net code="47" name="/CPU/LED1">
+      <node ref="U10" pin="112"/>
+      <node ref="R39" pin="1"/>
+      <node ref="R41" pin="1"/>
+    </net>
+    <net code="48" name="/CPU/LED0_R">
+      <node ref="U10" pin="109"/>
+      <node ref="R37" pin="1"/>
+      <node ref="R36" pin="1"/>
+    </net>
+    <net code="49" name="/CPU/LED0_B">
+      <node ref="R27" pin="1"/>
+      <node ref="U10" pin="111"/>
+      <node ref="R28" pin="1"/>
+    </net>
+    <net code="50" name="/CPU/PULS_3">
+      <node ref="U10" pin="106"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="51" name="/CPU/PULS_2">
+      <node ref="R21" pin="1"/>
+      <node ref="U10" pin="105"/>
+    </net>
+    <net code="52" name="/CPU/LED2">
+      <node ref="R31" pin="1"/>
+      <node ref="U10" pin="113"/>
+      <node ref="R33" pin="1"/>
+    </net>
+    <net code="53" name="/CPU/PULS_1">
+      <node ref="R20" pin="1"/>
+      <node ref="U10" pin="104"/>
+    </net>
+    <net code="54" name="/CPU/PULS_0">
+      <node ref="U10" pin="103"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="55" name="/CPU/RS485_TXD">
+      <node ref="U9" pin="4"/>
+      <node ref="U10" pin="136"/>
+    </net>
+    <net code="56" name="/CPU/RS485_DIR">
       <node ref="R14" pin="2"/>
       <node ref="U10" pin="131"/>
       <node ref="U9" pin="3"/>
       <node ref="JP1" pin="2"/>
     </net>
-    <net code="81" name="Net-(C44-Pad1)">
-      <node ref="U10" pin="37"/>
-      <node ref="C44" pin="1"/>
+    <net code="57" name="/CPU/RS485_RXD">
+      <node ref="U10" pin="133"/>
+      <node ref="R13" pin="2"/>
+      <node ref="U9" pin="1"/>
     </net>
-    <net code="82" name="Net-(R53-Pad1)">
-      <node ref="R53" pin="1"/>
-      <node ref="U10" pin="3"/>
+    <net code="58" name="/CPU/TMS">
+      <node ref="U6" pin="14"/>
+      <node ref="J4" pin="2"/>
+      <node ref="U10" pin="53"/>
     </net>
-    <net code="83" name="+3.3V">
-      <node ref="U5" pin="20"/>
-      <node ref="C38" pin="1"/>
-      <node ref="F5" pin="2"/>
-      <node ref="F3" pin="2"/>
-      <node ref="J4" pin="1"/>
-      <node ref="U5" pin="56"/>
-      <node ref="R52" pin="1"/>
-      <node ref="R50" pin="1"/>
-      <node ref="R7" pin="2"/>
-      <node ref="U6" pin="20"/>
-      <node ref="TP1" pin="1"/>
-      <node ref="C41" pin="1"/>
-      <node ref="U3" pin="2"/>
-      <node ref="D6" pin="2"/>
-      <node ref="C43" pin="1"/>
-      <node ref="R25" pin="1"/>
-      <node ref="R2" pin="1"/>
-      <node ref="C7" pin="1"/>
-      <node ref="R26" pin="1"/>
-      <node ref="U5" pin="42"/>
-      <node ref="U5" pin="31"/>
-      <node ref="C42" pin="1"/>
-      <node ref="U5" pin="50"/>
-      <node ref="L3" pin="1"/>
-      <node ref="R55" pin="1"/>
-      <node ref="R24" pin="1"/>
-      <node ref="R23" pin="1"/>
-      <node ref="U10" pin="5"/>
-      <node ref="U10" pin="56"/>
-      <node ref="C35" pin="1"/>
-      <node ref="C40" pin="1"/>
-      <node ref="C22" pin="1"/>
-      <node ref="C21" pin="1"/>
-      <node ref="C20" pin="1"/>
-      <node ref="U10" pin="16"/>
-      <node ref="U10" pin="70"/>
-      <node ref="L5" pin="1"/>
-      <node ref="L6" pin="1"/>
-      <node ref="U10" pin="122"/>
-      <node ref="U10" pin="108"/>
-      <node ref="C23" pin="1"/>
-      <node ref="R5" pin="1"/>
-      <node ref="C33" pin="1"/>
-      <node ref="U10" pin="135"/>
-      <node ref="C34" pin="1"/>
-      <node ref="C19" pin="1"/>
-      <node ref="C18" pin="1"/>
-      <node ref="U8" pin="8"/>
-      <node ref="U8" pin="6"/>
-      <node ref="U10" pin="43"/>
-      <node ref="R8" pin="1"/>
-      <node ref="R9" pin="1"/>
-      <node ref="C37" pin="1"/>
-      <node ref="U10" pin="94"/>
-      <node ref="C39" pin="1"/>
-      <node ref="R10" pin="1"/>
+    <net code="59" name="/CPU/TDO">
+      <node ref="U6" pin="15"/>
+      <node ref="U10" pin="52"/>
+      <node ref="J4" pin="6"/>
     </net>
-    <net code="84" name="Net-(C36-Pad1)">
-      <node ref="Y1" pin="1"/>
-      <node ref="C36" pin="1"/>
-      <node ref="U10" pin="40"/>
+    <net code="60" name="/CPU/TDI">
+      <node ref="U10" pin="51"/>
+      <node ref="U6" pin="16"/>
+      <node ref="J4" pin="8"/>
     </net>
-    <net code="85" name="Net-(U10-Pad36)">
-      <node ref="U10" pin="36"/>
+    <net code="61" name="/CPU/TCK">
+      <node ref="U10" pin="50"/>
+      <node ref="U6" pin="18"/>
+      <node ref="J4" pin="4"/>
     </net>
-    <net code="86" name="Net-(U10-Pad35)">
-      <node ref="U10" pin="35"/>
+    <net code="62" name="/JTAG/USB_DEBUG_VBUS">
+      <node ref="C25" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="L8" pin="2"/>
+      <node ref="D4" pin="1"/>
     </net>
-    <net code="87" name="Net-(C32-Pad1)">
-      <node ref="Y1" pin="3"/>
-      <node ref="C32" pin="1"/>
-      <node ref="U10" pin="41"/>
+    <net code="63" name="/USB OTG/USB0_PWR_FAULT">
+      <node ref="R2" pin="2"/>
+      <node ref="U10" pin="124"/>
+      <node ref="U1" pin="2"/>
     </net>
-    <net code="88" name="Net-(U10-Pad127)">
-      <node ref="U10" pin="127"/>
+    <net code="64" name="/USB OTG/USB0_PPWR">
+      <node ref="U1" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U10" pin="125"/>
     </net>
-    <net code="89" name="Net-(U10-Pad88)">
-      <node ref="U10" pin="88"/>
+    <net code="65" name="/CPU/USB_ID">
+      <node ref="J1" pin="4"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U10" pin="123"/>
     </net>
-    <net code="90" name="Net-(U10-Pad77)">
-      <node ref="U10" pin="77"/>
+    <net code="66" name="/CPU/USB_DP">
+      <node ref="U2" pin="3"/>
+      <node ref="T1" pin="2"/>
+      <node ref="U10" pin="19"/>
     </net>
-    <net code="91" name="Net-(U10-Pad119)">
-      <node ref="U10" pin="119"/>
+    <net code="67" name="Net-(FD2-Pad1)">
+      <node ref="FD2" pin="1"/>
     </net>
-    <net code="92" name="Net-(U10-Pad9)">
-      <node ref="U10" pin="9"/>
+    <net code="68" name="/Fuente/USB_VBUS">
+      <node ref="D3" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="U10" pin="22"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U1" pin="6"/>
     </net>
-    <net code="93" name="Net-(U10-Pad10)">
-      <node ref="U10" pin="10"/>
+    <net code="69" name="Net-(FD6-Pad1)">
+      <node ref="FD6" pin="1"/>
     </net>
-    <net code="94" name="Net-(U10-Pad13)">
-      <node ref="U10" pin="13"/>
+    <net code="70" name="Net-(FD5-Pad1)">
+      <node ref="FD5" pin="1"/>
     </net>
-    <net code="95" name="Net-(U10-Pad14)">
-      <node ref="U10" pin="14"/>
+    <net code="71" name="Net-(FD4-Pad1)">
+      <node ref="FD4" pin="1"/>
     </net>
-    <net code="96" name="Net-(U10-Pad15)">
-      <node ref="U10" pin="15"/>
+    <net code="72" name="Net-(FD3-Pad1)">
+      <node ref="FD3" pin="1"/>
     </net>
-    <net code="97" name="Net-(U10-Pad54)">
-      <node ref="U10" pin="54"/>
+    <net code="73" name="Net-(FD1-Pad1)">
+      <node ref="FD1" pin="1"/>
     </net>
-    <net code="98" name="Net-(U10-Pad87)">
-      <node ref="U10" pin="87"/>
+    <net code="74" name="/CPU/VBAT">
+      <node ref="U10" pin="42"/>
+      <node ref="C6" pin="1"/>
+      <node ref="D6" pin="3"/>
     </net>
-    <net code="99" name="Net-(U10-Pad47)">
-      <node ref="U10" pin="47"/>
+    <net code="75" name="/GPIO/LCD_EN">
+      <node ref="P2" pin="23"/>
+      <node ref="U10" pin="139"/>
     </net>
-    <net code="100" name="Net-(U10-Pad48)">
+    <net code="76" name="/GPIO/LCD1">
+      <node ref="U10" pin="141"/>
+      <node ref="P2" pin="30"/>
+    </net>
+    <net code="77" name="/GPIO/LCD_RS">
+      <node ref="U10" pin="140"/>
+      <node ref="P2" pin="24"/>
+    </net>
+    <net code="78" name="/GPIO/LCD4">
+      <node ref="P2" pin="22"/>
+      <node ref="U10" pin="144"/>
+    </net>
+    <net code="79" name="/GPIO/LCD3">
+      <node ref="U10" pin="143"/>
+      <node ref="P2" pin="26"/>
+    </net>
+    <net code="80" name="/GPIO/LCD2">
+      <node ref="P2" pin="28"/>
+      <node ref="U10" pin="142"/>
+    </net>
+    <net code="81" name="Net-(U10-Pad48)">
       <node ref="U10" pin="48"/>
     </net>
-    <net code="101" name="Net-(U10-Pad49)">
-      <node ref="U10" pin="49"/>
+    <net code="82" name="Net-(U10-Pad28)">
+      <node ref="U10" pin="28"/>
     </net>
-    <net code="102" name="Net-(U10-Pad99)">
-      <node ref="U10" pin="99"/>
+    <net code="83" name="Net-(U10-Pad87)">
+      <node ref="U10" pin="87"/>
     </net>
-    <net code="103" name="Net-(U10-Pad100)">
-      <node ref="U10" pin="100"/>
+    <net code="84" name="Net-(U10-Pad77)">
+      <node ref="U10" pin="77"/>
     </net>
-    <net code="104" name="Net-(U10-Pad101)">
+    <net code="85" name="Net-(U10-Pad47)">
+      <node ref="U10" pin="47"/>
+    </net>
+    <net code="86" name="Net-(U10-Pad27)">
+      <node ref="U10" pin="27"/>
+    </net>
+    <net code="87" name="Net-(U10-Pad96)">
+      <node ref="U10" pin="96"/>
+    </net>
+    <net code="88" name="Net-(U10-Pad76)">
+      <node ref="U10" pin="76"/>
+    </net>
+    <net code="89" name="Net-(U10-Pad101)">
       <node ref="U10" pin="101"/>
     </net>
-    <net code="105" name="Net-(U10-Pad102)">
-      <node ref="U10" pin="102"/>
+    <net code="90" name="Net-(U10-Pad100)">
+      <node ref="U10" pin="100"/>
     </net>
-    <net code="106" name="Net-(U10-Pad96)">
-      <node ref="U10" pin="96"/>
+    <net code="91" name="Net-(U10-Pad99)">
+      <node ref="U10" pin="99"/>
+    </net>
+    <net code="92" name="Net-(U10-Pad89)">
+      <node ref="U10" pin="89"/>
+    </net>
+    <net code="93" name="Net-(R49-Pad2)">
+      <node ref="R49" pin="2"/>
+      <node ref="U10" pin="58"/>
+    </net>
+    <net code="94" name="Net-(R51-Pad2)">
+      <node ref="U10" pin="59"/>
+      <node ref="R51" pin="2"/>
+    </net>
+    <net code="95" name="Net-(U10-Pad49)">
+      <node ref="U10" pin="49"/>
+    </net>
+    <net code="96" name="Net-(U10-Pad39)">
+      <node ref="U10" pin="39"/>
+    </net>
+    <net code="97" name="Net-(U10-Pad29)">
+      <node ref="U10" pin="29"/>
+    </net>
+    <net code="98" name="Net-(U10-Pad88)">
+      <node ref="U10" pin="88"/>
+    </net>
+    <net code="99" name="Net-(U10-Pad63)">
+      <node ref="U10" pin="63"/>
+    </net>
+    <net code="100" name="Net-(U10-Pad23)">
+      <node ref="U10" pin="23"/>
+    </net>
+    <net code="101" name="Net-(U10-Pad13)">
+      <node ref="U10" pin="13"/>
+    </net>
+    <net code="102" name="Net-(U10-Pad14)">
+      <node ref="U10" pin="14"/>
+    </net>
+    <net code="103" name="Net-(U10-Pad62)">
+      <node ref="U10" pin="62"/>
+    </net>
+    <net code="104" name="/CPU/VREFH">
+      <node ref="C47" pin="2"/>
+      <node ref="U10" pin="32"/>
+      <node ref="C45" pin="1"/>
+      <node ref="L9" pin="1"/>
+    </net>
+    <net code="105" name="Net-(U10-Pad25)">
+      <node ref="U10" pin="25"/>
+    </net>
+    <net code="106" name="Net-(U10-Pad26)">
+      <node ref="U10" pin="26"/>
     </net>
     <net code="107" name="Net-(U10-Pad95)">
       <node ref="U10" pin="95"/>
     </net>
-    <net code="108" name="Net-(C49-Pad1)">
-      <node ref="Y2" pin="3"/>
-      <node ref="R54" pin="1"/>
-      <node ref="C49" pin="1"/>
-      <node ref="U10" pin="46"/>
+    <net code="108" name="Net-(U10-Pad75)">
+      <node ref="U10" pin="75"/>
     </net>
-    <net code="109" name="Net-(C52-Pad1)">
-      <node ref="U10" pin="45"/>
-      <node ref="C52" pin="1"/>
-      <node ref="R54" pin="2"/>
-      <node ref="Y2" pin="1"/>
+    <net code="109" name="Net-(U10-Pad35)">
+      <node ref="U10" pin="35"/>
     </net>
-    <net code="110" name="Net-(U10-Pad60)">
-      <node ref="U10" pin="60"/>
+    <net code="110" name="Net-(U10-Pad36)">
+      <node ref="U10" pin="36"/>
     </net>
-    <net code="111" name="Net-(U10-Pad61)">
+    <net code="111" name="Net-(U10-Pad15)">
+      <node ref="U10" pin="15"/>
+    </net>
+    <net code="112" name="Net-(C48-Pad2)">
+      <node ref="D15" pin="1"/>
+      <node ref="U10" pin="74"/>
+      <node ref="S5" pin="1"/>
+      <node ref="R55" pin="2"/>
+      <node ref="C48" pin="2"/>
+      <node ref="S5" pin="2"/>
+    </net>
+    <net code="113" name="Net-(R6-Pad2)">
+      <node ref="U10" pin="54"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="114" name="Net-(U10-Pad24)">
+      <node ref="U10" pin="24"/>
+    </net>
+    <net code="115" name="GNDA">
+      <node ref="U10" pin="34"/>
+      <node ref="L4" pin="2"/>
+      <node ref="P1" pin="16"/>
+      <node ref="C50" pin="2"/>
+      <node ref="C51" pin="1"/>
+      <node ref="L10" pin="2"/>
+      <node ref="P1" pin="12"/>
+      <node ref="P1" pin="14"/>
+      <node ref="P1" pin="10"/>
+      <node ref="P1" pin="8"/>
+      <node ref="P1" pin="7"/>
+      <node ref="P1" pin="18"/>
+    </net>
+    <net code="116" name="Net-(U10-Pad132)">
+      <node ref="U10" pin="132"/>
+    </net>
+    <net code="117" name="Net-(U10-Pad102)">
+      <node ref="U10" pin="102"/>
+    </net>
+    <net code="118" name="Net-(U10-Pad127)">
+      <node ref="U10" pin="127"/>
+    </net>
+    <net code="119" name="Net-(U10-Pad119)">
+      <node ref="U10" pin="119"/>
+    </net>
+    <net code="120" name="Net-(C44-Pad1)">
+      <node ref="U10" pin="37"/>
+      <node ref="C44" pin="1"/>
+    </net>
+    <net code="121" name="+3.3V">
+      <node ref="R10" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="U8" pin="8"/>
+      <node ref="U8" pin="6"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="C37" pin="1"/>
+      <node ref="C35" pin="1"/>
+      <node ref="C42" pin="1"/>
+      <node ref="R52" pin="1"/>
+      <node ref="R50" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="L5" pin="1"/>
+      <node ref="L6" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U5" pin="56"/>
+      <node ref="U5" pin="31"/>
+      <node ref="U5" pin="42"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="U5" pin="20"/>
+      <node ref="U5" pin="50"/>
+      <node ref="F3" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U6" pin="20"/>
+      <node ref="U10" pin="43"/>
+      <node ref="U10" pin="16"/>
+      <node ref="R24" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C43" pin="1"/>
+      <node ref="U10" pin="122"/>
+      <node ref="U10" pin="5"/>
+      <node ref="F5" pin="2"/>
+      <node ref="R26" pin="1"/>
+      <node ref="U10" pin="108"/>
+      <node ref="U10" pin="135"/>
+      <node ref="R23" pin="1"/>
+      <node ref="U10" pin="94"/>
+      <node ref="C34" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="R25" pin="1"/>
+      <node ref="R55" pin="1"/>
+      <node ref="C41" pin="1"/>
+      <node ref="C40" pin="1"/>
+      <node ref="C39" pin="1"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="C38" pin="1"/>
+      <node ref="U10" pin="56"/>
+      <node ref="U10" pin="70"/>
+      <node ref="L3" pin="1"/>
+    </net>
+    <net code="122" name="Net-(U10-Pad61)">
       <node ref="U10" pin="61"/>
     </net>
-    <net code="112" name="Net-(U10-Pad62)">
-      <node ref="U10" pin="62"/>
+    <net code="123" name="Net-(C46-Pad1)">
+      <node ref="U10" pin="21"/>
+      <node ref="C46" pin="1"/>
     </net>
-    <net code="113" name="Net-(U10-Pad63)">
-      <node ref="U10" pin="63"/>
-    </net>
-    <net code="114" name="Net-(U10-Pad89)">
-      <node ref="U10" pin="89"/>
-    </net>
-    <net code="115" name="Net-(U10-Pad90)">
+    <net code="124" name="Net-(U10-Pad90)">
       <node ref="U10" pin="90"/>
     </net>
-    <net code="116" name="Net-(D14-Pad2)">
-      <node ref="R51" pin="1"/>
-      <node ref="D14" pin="2"/>
+    <net code="125" name="Net-(U10-Pad60)">
+      <node ref="U10" pin="60"/>
     </net>
-    <net code="117" name="Net-(R51-Pad2)">
-      <node ref="U10" pin="59"/>
-      <node ref="R51" pin="2"/>
+    <net code="126" name="Net-(U10-Pad30)">
+      <node ref="U10" pin="30"/>
     </net>
-    <net code="118" name="Net-(D13-Pad1)">
+    <net code="127" name="Net-(U10-Pad10)">
+      <node ref="U10" pin="10"/>
+    </net>
+    <net code="128" name="Net-(U10-Pad9)">
+      <node ref="U10" pin="9"/>
+    </net>
+    <net code="129" name="Net-(D13-Pad1)">
       <node ref="R49" pin="1"/>
       <node ref="D13" pin="1"/>
     </net>
-    <net code="119" name="Net-(R49-Pad2)">
-      <node ref="R49" pin="2"/>
-      <node ref="U10" pin="58"/>
+    <net code="130" name="Net-(D14-Pad1)">
+      <node ref="R51" pin="1"/>
+      <node ref="D14" pin="1"/>
     </net>
-    <net code="120" name="Net-(U10-Pad132)">
-      <node ref="U10" pin="132"/>
+    <net code="131" name="Net-(C52-Pad1)">
+      <node ref="C52" pin="1"/>
+      <node ref="U10" pin="45"/>
+      <node ref="R54" pin="2"/>
+      <node ref="Y2" pin="1"/>
     </net>
-    <net code="121" name="/CPU/VREFL">
-      <node ref="L10" pin="1"/>
-      <node ref="C47" pin="1"/>
-      <node ref="U10" pin="33"/>
-      <node ref="C44" pin="2"/>
-      <node ref="C45" pin="2"/>
+    <net code="132" name="Net-(C49-Pad1)">
+      <node ref="U10" pin="46"/>
+      <node ref="R54" pin="1"/>
+      <node ref="Y2" pin="3"/>
+      <node ref="C49" pin="1"/>
     </net>
-    <net code="122" name="/CPU/VREFH">
-      <node ref="C45" pin="1"/>
-      <node ref="C47" pin="2"/>
-      <node ref="U10" pin="32"/>
-      <node ref="L9" pin="1"/>
+    <net code="133" name="Net-(U10-Pad41)">
+      <node ref="U10" pin="41"/>
+      <node ref="Y1" pin="3"/>
     </net>
-    <net code="123" name="Net-(U10-Pad75)">
-      <node ref="U10" pin="75"/>
-    </net>
-    <net code="124" name="Net-(U10-Pad76)">
-      <node ref="U10" pin="76"/>
-    </net>
-    <net code="125" name="Net-(U10-Pad30)">
-      <node ref="U10" pin="30"/>
-    </net>
-    <net code="126" name="Net-(U10-Pad29)">
-      <node ref="U10" pin="29"/>
-    </net>
-    <net code="127" name="Net-(U10-Pad24)">
-      <node ref="U10" pin="24"/>
-    </net>
-    <net code="128" name="Net-(U10-Pad23)">
-      <node ref="U10" pin="23"/>
-    </net>
-    <net code="129" name="Net-(U10-Pad26)">
-      <node ref="U10" pin="26"/>
-    </net>
-    <net code="130" name="Net-(U10-Pad25)">
-      <node ref="U10" pin="25"/>
-    </net>
-    <net code="131" name="Net-(U10-Pad27)">
-      <node ref="U10" pin="27"/>
-    </net>
-    <net code="132" name="Net-(U10-Pad28)">
-      <node ref="U10" pin="28"/>
-    </net>
-    <net code="133" name="Net-(U10-Pad39)">
-      <node ref="U10" pin="39"/>
-    </net>
-    <net code="134" name="Net-(C48-Pad2)">
-      <node ref="S5" pin="1"/>
-      <node ref="D15" pin="1"/>
-      <node ref="S5" pin="2"/>
-      <node ref="U10" pin="74"/>
-      <node ref="C48" pin="2"/>
-      <node ref="R55" pin="2"/>
+    <net code="134" name="Net-(U10-Pad40)">
+      <node ref="U10" pin="40"/>
+      <node ref="Y1" pin="1"/>
     </net>
     <net code="135" name="+3.3VADC">
-      <node ref="L9" pin="2"/>
-      <node ref="L3" pin="2"/>
-      <node ref="U10" pin="31"/>
-      <node ref="C50" pin="1"/>
       <node ref="P1" pin="17"/>
+      <node ref="L9" pin="2"/>
+      <node ref="U10" pin="31"/>
       <node ref="C51" pin="2"/>
+      <node ref="L3" pin="2"/>
+      <node ref="C50" pin="1"/>
     </net>
-    <net code="136" name="Net-(C46-Pad1)">
-      <node ref="C46" pin="1"/>
-      <node ref="U10" pin="21"/>
+    <net code="136" name="/CPU/VREFL">
+      <node ref="L10" pin="1"/>
+      <node ref="C47" pin="1"/>
+      <node ref="C44" pin="2"/>
+      <node ref="C45" pin="2"/>
+      <node ref="U10" pin="33"/>
     </net>
     <net code="137" name="Net-(F2-Pad2)">
-      <node ref="F2" pin="2"/>
       <node ref="J5" pin="2"/>
+      <node ref="F2" pin="2"/>
     </net>
-    <net code="138" name="Net-(JP3-Pad1)">
-      <node ref="JP3" pin="1"/>
-      <node ref="R16" pin="1"/>
-    </net>
-    <net code="139" name="+5V">
-      <node ref="D2" pin="2"/>
-      <node ref="D16" pin="2"/>
-      <node ref="R15" pin="1"/>
-      <node ref="F4" pin="2"/>
-      <node ref="F6" pin="2"/>
-      <node ref="R3" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="C27" pin="2"/>
-      <node ref="C26" pin="1"/>
-      <node ref="R13" pin="1"/>
-      <node ref="U9" pin="8"/>
-      <node ref="D12" pin="1"/>
-      <node ref="D4" pin="2"/>
-      <node ref="TP2" pin="1"/>
-      <node ref="U3" pin="3"/>
-      <node ref="C5" pin="1"/>
-      <node ref="D3" pin="2"/>
-      <node ref="C1" pin="1"/>
-      <node ref="U1" pin="7"/>
-      <node ref="LED1" pin="4"/>
-      <node ref="D10" pin="1"/>
-      <node ref="D11" pin="1"/>
-    </net>
-    <net code="140" name="Net-(F1-Pad2)">
+    <net code="138" name="Net-(F1-Pad2)">
       <node ref="F1" pin="2"/>
       <node ref="J5" pin="1"/>
     </net>
-    <net code="141" name="Net-(JP2-Pad1)">
+    <net code="139" name="Net-(JP2-Pad1)">
       <node ref="JP2" pin="1"/>
       <node ref="R15" pin="2"/>
     </net>
-    <net code="142" name="Net-(J5-Pad3)">
-      <node ref="J5" pin="3"/>
-      <node ref="R18" pin="1"/>
+    <net code="140" name="Net-(JP3-Pad1)">
+      <node ref="JP3" pin="1"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="141" name="+5V">
+      <node ref="D10" pin="1"/>
+      <node ref="F4" pin="2"/>
+      <node ref="F6" pin="2"/>
+      <node ref="U9" pin="8"/>
+      <node ref="U1" pin="7"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C26" pin="1"/>
+      <node ref="LED1" pin="4"/>
+      <node ref="R15" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="TP2" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D16" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="142" name="Net-(D8-Pad2)">
+      <node ref="U9" pin="7"/>
+      <node ref="F2" pin="1"/>
+      <node ref="D8" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="D9" pin="1"/>
+      <node ref="JP4" pin="2"/>
     </net>
     <net code="143" name="Net-(JP4-Pad1)">
       <node ref="R17" pin="1"/>
       <node ref="JP4" pin="1"/>
     </net>
     <net code="144" name="Net-(D7-Pad1)">
-      <node ref="F1" pin="1"/>
-      <node ref="JP2" pin="2"/>
+      <node ref="D8" pin="1"/>
       <node ref="U9" pin="6"/>
       <node ref="JP3" pin="2"/>
-      <node ref="D8" pin="1"/>
+      <node ref="F1" pin="1"/>
       <node ref="D7" pin="1"/>
+      <node ref="JP2" pin="2"/>
     </net>
-    <net code="145" name="Net-(JP1-Pad1)">
-      <node ref="U9" pin="2"/>
+    <net code="145" name="Net-(J5-Pad3)">
+      <node ref="R18" pin="1"/>
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="146" name="Net-(JP1-Pad1)">
       <node ref="R12" pin="2"/>
+      <node ref="U9" pin="2"/>
       <node ref="JP1" pin="1"/>
     </net>
-    <net code="146" name="Net-(D8-Pad2)">
-      <node ref="R16" pin="2"/>
-      <node ref="JP4" pin="2"/>
-      <node ref="F2" pin="1"/>
-      <node ref="U9" pin="7"/>
-      <node ref="D8" pin="2"/>
-      <node ref="D9" pin="1"/>
-    </net>
-    <net code="147" name="Net-(D5-Pad1)">
-      <node ref="R3" pin="2"/>
-      <node ref="D5" pin="1"/>
-    </net>
-    <net code="148" name="Net-(D2-Pad1)">
+    <net code="147" name="Net-(D2-Pad1)">
       <node ref="D2" pin="1"/>
       <node ref="J2" pin="1"/>
+    </net>
+    <net code="148" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="R3" pin="2"/>
     </net>
     <net code="149" name="Net-(BT1-Pad1)">
       <node ref="BT1" pin="1"/>
@@ -4475,8 +4437,8 @@
       <node ref="T1" pin="4"/>
     </net>
     <net code="151" name="/USB OTG/USB_DP_OTG">
-      <node ref="J1" pin="3"/>
       <node ref="T1" pin="1"/>
+      <node ref="J1" pin="3"/>
     </net>
     <net code="152" name="Net-(U1-Pad5)">
       <node ref="U1" pin="5"/>
@@ -4485,535 +4447,517 @@
       <node ref="U1" pin="4"/>
     </net>
     <net code="154" name="/USB OTG/CHS_OTG">
+      <node ref="J1" pin="7"/>
+      <node ref="L2" pin="2"/>
+      <node ref="J1" pin="9"/>
       <node ref="J1" pin="6"/>
       <node ref="J1" pin="8"/>
-      <node ref="J1" pin="9"/>
-      <node ref="D1" pin="1"/>
-      <node ref="L2" pin="2"/>
       <node ref="U2" pin="1"/>
-      <node ref="J1" pin="7"/>
+      <node ref="D1" pin="1"/>
     </net>
     <net code="155" name="Net-(J1-Pad1)">
       <node ref="L1" pin="2"/>
       <node ref="J1" pin="1"/>
     </net>
-    <net code="156" name="Net-(U5-Pad21)">
-      <node ref="U5" pin="21"/>
+    <net code="156" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U8" pin="4"/>
     </net>
-    <net code="157" name="Net-(U5-Pad41)">
-      <node ref="U5" pin="41"/>
+    <net code="157" name="Net-(U6-Pad3)">
+      <node ref="U6" pin="3"/>
     </net>
-    <net code="158" name="Net-(U5-Pad22)">
-      <node ref="U5" pin="22"/>
+    <net code="158" name="+USB_JTAG_1V8">
+      <node ref="U5" pin="37"/>
+      <node ref="U5" pin="64"/>
+      <node ref="C16" pin="1"/>
+      <node ref="U5" pin="12"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U5" pin="49"/>
     </net>
-    <net code="159" name="Net-(U5-Pad32)">
-      <node ref="U5" pin="32"/>
+    <net code="159" name="Net-(U8-Pad7)">
+      <node ref="U8" pin="7"/>
     </net>
-    <net code="160" name="Net-(U5-Pad52)">
-      <node ref="U5" pin="52"/>
-    </net>
-    <net code="161" name="Net-(U5-Pad23)">
-      <node ref="U5" pin="23"/>
-    </net>
-    <net code="162" name="Net-(U5-Pad33)">
-      <node ref="U5" pin="33"/>
-    </net>
-    <net code="163" name="Net-(U5-Pad60)">
-      <node ref="U5" pin="60"/>
-    </net>
-    <net code="164" name="Net-(U5-Pad40)">
-      <node ref="U5" pin="40"/>
-    </net>
-    <net code="165" name="Net-(U5-Pad30)">
-      <node ref="U5" pin="30"/>
-    </net>
-    <net code="166" name="Net-(U5-Pad36)">
-      <node ref="U5" pin="36"/>
-    </net>
-    <net code="167" name="Net-(U5-Pad29)">
-      <node ref="U5" pin="29"/>
-    </net>
-    <net code="168" name="Net-(U5-Pad58)">
-      <node ref="U5" pin="58"/>
-    </net>
-    <net code="169" name="Net-(U5-Pad48)">
-      <node ref="U5" pin="48"/>
-    </net>
-    <net code="170" name="/JTAG/FT_OE">
-      <node ref="U6" pin="1"/>
-      <node ref="U5" pin="28"/>
-      <node ref="R7" pin="1"/>
-    </net>
-    <net code="171" name="Net-(U5-Pad57)">
-      <node ref="U5" pin="57"/>
-    </net>
-    <net code="172" name="Net-(U5-Pad46)">
-      <node ref="U5" pin="46"/>
-    </net>
-    <net code="173" name="Net-(U5-Pad43)">
-      <node ref="U5" pin="43"/>
-    </net>
-    <net code="174" name="Net-(U5-Pad26)">
-      <node ref="U5" pin="26"/>
-    </net>
-    <net code="175" name="Net-(U5-Pad55)">
-      <node ref="U5" pin="55"/>
-    </net>
-    <net code="176" name="Net-(U5-Pad45)">
-      <node ref="U5" pin="45"/>
-    </net>
-    <net code="177" name="Net-(U5-Pad54)">
-      <node ref="U5" pin="54"/>
-    </net>
-    <net code="178" name="Net-(U5-Pad44)">
-      <node ref="U5" pin="44"/>
-    </net>
-    <net code="179" name="Net-(U5-Pad34)">
-      <node ref="U5" pin="34"/>
-    </net>
-    <net code="180" name="Net-(U5-Pad24)">
-      <node ref="U5" pin="24"/>
-    </net>
-    <net code="181" name="Net-(R5-Pad2)">
-      <node ref="U5" pin="14"/>
-      <node ref="R5" pin="2"/>
-    </net>
-    <net code="182" name="Net-(U5-Pad53)">
-      <node ref="U5" pin="53"/>
-    </net>
-    <net code="183" name="Net-(R4-Pad2)">
-      <node ref="U5" pin="6"/>
-      <node ref="R4" pin="2"/>
-    </net>
-    <net code="184" name="/JTAG/FT_TMS">
-      <node ref="U6" pin="6"/>
-      <node ref="U5" pin="19"/>
-    </net>
-    <net code="185" name="/JTAG/FT_TDO">
-      <node ref="U6" pin="5"/>
-      <node ref="U5" pin="18"/>
-    </net>
-    <net code="186" name="/JTAG/FT_TDI">
-      <node ref="U6" pin="4"/>
-      <node ref="U5" pin="17"/>
-    </net>
-    <net code="187" name="/JTAG/FT_TCK">
-      <node ref="U5" pin="16"/>
-      <node ref="U6" pin="2"/>
-    </net>
-    <net code="188" name="/JTAG/FT_RST">
-      <node ref="U5" pin="27"/>
-      <node ref="U6" pin="8"/>
-    </net>
-    <net code="189" name="/JTAG/EECLK">
-      <node ref="R9" pin="2"/>
-      <node ref="U5" pin="62"/>
-      <node ref="U8" pin="2"/>
-    </net>
-    <net code="190" name="/JTAG/EECS">
-      <node ref="U8" pin="1"/>
+    <net code="160" name="/JTAG/EECS">
       <node ref="U5" pin="63"/>
       <node ref="R8" pin="2"/>
+      <node ref="U8" pin="1"/>
     </net>
-    <net code="191" name="/JTAG/USB_JTAG_DP">
-      <node ref="T2" pin="2"/>
-      <node ref="U7" pin="2"/>
-      <node ref="U5" pin="8"/>
+    <net code="161" name="/JTAG/EECLK">
+      <node ref="U8" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="U5" pin="62"/>
     </net>
-    <net code="192" name="Net-(J3-Pad2)">
-      <node ref="T2" pin="4"/>
-      <node ref="J3" pin="2"/>
+    <net code="162" name="Net-(J4-Pad7)">
+      <node ref="J4" pin="7"/>
     </net>
-    <net code="193" name="Net-(J3-Pad3)">
-      <node ref="T2" pin="1"/>
-      <node ref="J3" pin="3"/>
+    <net code="163" name="Net-(C12-Pad1)">
+      <node ref="C12" pin="1"/>
+      <node ref="L5" pin="2"/>
+      <node ref="C14" pin="1"/>
+      <node ref="U5" pin="9"/>
     </net>
-    <net code="194" name="Net-(J3-Pad1)">
+    <net code="164" name="Net-(J3-Pad1)">
       <node ref="U7" pin="4"/>
       <node ref="J3" pin="1"/>
       <node ref="L8" pin="1"/>
     </net>
-    <net code="195" name="/JTAG/USB_JTAG_DM">
-      <node ref="T2" pin="3"/>
-      <node ref="U7" pin="3"/>
+    <net code="165" name="/JTAG/USB_JTAG_DM">
       <node ref="U5" pin="7"/>
+      <node ref="U7" pin="3"/>
+      <node ref="T2" pin="3"/>
     </net>
-    <net code="196" name="Net-(U5-Pad59)">
+    <net code="166" name="/JTAG/USB_JTAG_DP">
+      <node ref="T2" pin="2"/>
+      <node ref="U7" pin="2"/>
+      <node ref="U5" pin="8"/>
+    </net>
+    <net code="167" name="Net-(U6-Pad9)">
+      <node ref="U6" pin="9"/>
+    </net>
+    <net code="168" name="Net-(U6-Pad7)">
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="169" name="Net-(J3-Pad4)">
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="170" name="/JTAG/FT_RST">
+      <node ref="U5" pin="27"/>
+      <node ref="U6" pin="8"/>
+    </net>
+    <net code="171" name="Net-(C11-Pad1)">
+      <node ref="C13" pin="1"/>
+      <node ref="L6" pin="2"/>
+      <node ref="U5" pin="4"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="172" name="Net-(U5-Pad60)">
+      <node ref="U5" pin="60"/>
+    </net>
+    <net code="173" name="Net-(U5-Pad40)">
+      <node ref="U5" pin="40"/>
+    </net>
+    <net code="174" name="Net-(U5-Pad30)">
+      <node ref="U5" pin="30"/>
+    </net>
+    <net code="175" name="Net-(C53-Pad1)">
+      <node ref="Y3" pin="1"/>
+      <node ref="C53" pin="1"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="176" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="U5" pin="14"/>
+    </net>
+    <net code="177" name="Net-(R4-Pad2)">
+      <node ref="U5" pin="6"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="178" name="Net-(U5-Pad59)">
       <node ref="U5" pin="59"/>
     </net>
-    <net code="197" name="/JTAG/CHS_DBG">
-      <node ref="U7" pin="1"/>
-      <node ref="L7" pin="2"/>
-      <node ref="J3" pin="9"/>
-      <node ref="J3" pin="6"/>
+    <net code="179" name="Net-(U5-Pad29)">
+      <node ref="U5" pin="29"/>
+    </net>
+    <net code="180" name="/JTAG/FT_TMS">
+      <node ref="U5" pin="19"/>
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="181" name="Net-(U5-Pad58)">
+      <node ref="U5" pin="58"/>
+    </net>
+    <net code="182" name="Net-(U5-Pad48)">
+      <node ref="U5" pin="48"/>
+    </net>
+    <net code="183" name="/JTAG/FT_OE">
+      <node ref="U5" pin="28"/>
+      <node ref="R7" pin="1"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="184" name="Net-(U5-Pad52)">
+      <node ref="U5" pin="52"/>
+    </net>
+    <net code="185" name="Net-(U5-Pad24)">
+      <node ref="U5" pin="24"/>
+    </net>
+    <net code="186" name="Net-(U5-Pad53)">
+      <node ref="U5" pin="53"/>
+    </net>
+    <net code="187" name="Net-(U5-Pad43)">
+      <node ref="U5" pin="43"/>
+    </net>
+    <net code="188" name="Net-(U5-Pad33)">
+      <node ref="U5" pin="33"/>
+    </net>
+    <net code="189" name="Net-(U5-Pad23)">
+      <node ref="U5" pin="23"/>
+    </net>
+    <net code="190" name="Net-(U5-Pad34)">
+      <node ref="U5" pin="34"/>
+    </net>
+    <net code="191" name="Net-(U5-Pad32)">
+      <node ref="U5" pin="32"/>
+    </net>
+    <net code="192" name="Net-(U5-Pad22)">
+      <node ref="U5" pin="22"/>
+    </net>
+    <net code="193" name="Net-(U5-Pad41)">
+      <node ref="U5" pin="41"/>
+    </net>
+    <net code="194" name="Net-(U5-Pad21)">
+      <node ref="U5" pin="21"/>
+    </net>
+    <net code="195" name="Net-(U5-Pad26)">
+      <node ref="U5" pin="26"/>
+    </net>
+    <net code="196" name="/JTAG/FT_TDO">
+      <node ref="U5" pin="18"/>
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="197" name="Net-(U5-Pad57)">
+      <node ref="U5" pin="57"/>
+    </net>
+    <net code="198" name="/JTAG/FT_TDI">
+      <node ref="U5" pin="17"/>
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="199" name="Net-(U5-Pad46)">
+      <node ref="U5" pin="46"/>
+    </net>
+    <net code="200" name="Net-(U5-Pad36)">
+      <node ref="U5" pin="36"/>
+    </net>
+    <net code="201" name="/JTAG/FT_TCK">
+      <node ref="U6" pin="2"/>
+      <node ref="U5" pin="16"/>
+    </net>
+    <net code="202" name="Net-(U5-Pad55)">
+      <node ref="U5" pin="55"/>
+    </net>
+    <net code="203" name="Net-(U5-Pad45)">
+      <node ref="U5" pin="45"/>
+    </net>
+    <net code="204" name="Net-(U5-Pad54)">
+      <node ref="U5" pin="54"/>
+    </net>
+    <net code="205" name="Net-(U5-Pad44)">
+      <node ref="U5" pin="44"/>
+    </net>
+    <net code="206" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3"/>
+      <node ref="T2" pin="1"/>
+    </net>
+    <net code="207" name="Net-(J3-Pad2)">
+      <node ref="T2" pin="4"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="208" name="Net-(C8-Pad1)">
+      <node ref="Y3" pin="3"/>
+      <node ref="U5" pin="2"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="209" name="/JTAG/CHS_DBG">
       <node ref="J3" pin="7"/>
       <node ref="J3" pin="8"/>
+      <node ref="J3" pin="9"/>
+      <node ref="J3" pin="6"/>
+      <node ref="L7" pin="2"/>
+      <node ref="U7" pin="1"/>
     </net>
-    <net code="198" name="/JTAG/EEDATA">
+    <net code="210" name="/JTAG/EEDATA">
       <node ref="U5" pin="61"/>
       <node ref="R11" pin="1"/>
       <node ref="U8" pin="3"/>
     </net>
-    <net code="199" name="Net-(C12-Pad1)">
-      <node ref="C12" pin="1"/>
-      <node ref="C14" pin="1"/>
-      <node ref="L5" pin="2"/>
-      <node ref="U5" pin="9"/>
+    <net code="211" name="Net-(Q3-PadG)">
+      <node ref="R33" pin="2"/>
+      <node ref="Q3" pin="G"/>
     </net>
-    <net code="200" name="Net-(C11-Pad1)">
-      <node ref="L6" pin="2"/>
-      <node ref="C11" pin="1"/>
-      <node ref="C13" pin="1"/>
-      <node ref="U5" pin="4"/>
+    <net code="212" name="Net-(D11-Pad2)">
+      <node ref="R35" pin="1"/>
+      <node ref="D11" pin="2"/>
     </net>
-    <net code="201" name="+USB_JTAG_1V8">
-      <node ref="U5" pin="64"/>
-      <node ref="U5" pin="49"/>
-      <node ref="U5" pin="12"/>
-      <node ref="C15" pin="1"/>
-      <node ref="C16" pin="1"/>
-      <node ref="U5" pin="37"/>
-      <node ref="C10" pin="1"/>
-      <node ref="C17" pin="1"/>
-      <node ref="C9" pin="1"/>
+    <net code="213" name="Net-(Q3-PadD)">
+      <node ref="R35" pin="2"/>
+      <node ref="Q3" pin="D"/>
     </net>
-    <net code="202" name="Net-(U8-Pad7)">
-      <node ref="U8" pin="7"/>
-    </net>
-    <net code="203" name="Net-(R10-Pad2)">
-      <node ref="R11" pin="2"/>
-      <node ref="R10" pin="2"/>
-      <node ref="U8" pin="4"/>
-    </net>
-    <net code="204" name="Net-(J4-Pad7)">
-      <node ref="J4" pin="7"/>
-    </net>
-    <net code="205" name="Net-(C53-Pad1)">
-      <node ref="U5" pin="3"/>
-      <node ref="C53" pin="1"/>
-      <node ref="Y3" pin="1"/>
-      <node ref="R6" pin="2"/>
-    </net>
-    <net code="206" name="Net-(U6-Pad3)">
-      <node ref="U6" pin="3"/>
-    </net>
-    <net code="207" name="Net-(C8-Pad1)">
-      <node ref="Y3" pin="3"/>
-      <node ref="U5" pin="2"/>
-      <node ref="R6" pin="1"/>
-      <node ref="C8" pin="1"/>
-    </net>
-    <net code="208" name="Net-(U6-Pad9)">
-      <node ref="U6" pin="9"/>
-    </net>
-    <net code="209" name="Net-(U6-Pad7)">
-      <node ref="U6" pin="7"/>
-    </net>
-    <net code="210" name="Net-(J3-Pad4)">
-      <node ref="J3" pin="4"/>
-    </net>
-    <net code="211" name="Net-(D10-Pad2)">
-      <node ref="D10" pin="2"/>
-      <node ref="R43" pin="1"/>
-    </net>
-    <net code="212" name="Net-(Q5-PadG)">
-      <node ref="Q5" pin="G"/>
-      <node ref="R41" pin="2"/>
-    </net>
-    <net code="213" name="Net-(Q5-PadD)">
-      <node ref="Q5" pin="D"/>
-      <node ref="R43" pin="2"/>
-    </net>
-    <net code="214" name="Net-(Q1-PadG)">
-      <node ref="R28" pin="2"/>
-      <node ref="Q1" pin="G"/>
-    </net>
-    <net code="215" name="Net-(LED1-Pad3)">
+    <net code="214" name="Net-(LED1-Pad3)">
       <node ref="LED1" pin="3"/>
       <node ref="R34" pin="1"/>
+    </net>
+    <net code="215" name="Net-(Q2-PadD)">
+      <node ref="R34" pin="2"/>
+      <node ref="Q2" pin="D"/>
     </net>
     <net code="216" name="Net-(Q2-PadG)">
       <node ref="R32" pin="2"/>
       <node ref="Q2" pin="G"/>
     </net>
     <net code="217" name="Net-(Q4-PadG)">
-      <node ref="Q4" pin="G"/>
       <node ref="R37" pin="2"/>
+      <node ref="Q4" pin="G"/>
     </net>
-    <net code="218" name="Net-(Q2-PadD)">
-      <node ref="R34" pin="2"/>
-      <node ref="Q2" pin="D"/>
+    <net code="218" name="Net-(LED1-Pad2)">
+      <node ref="R38" pin="1"/>
+      <node ref="LED1" pin="2"/>
     </net>
     <net code="219" name="Net-(Q4-PadD)">
       <node ref="Q4" pin="D"/>
       <node ref="R38" pin="2"/>
     </net>
-    <net code="220" name="Net-(Q1-PadD)">
-      <node ref="R29" pin="2"/>
-      <node ref="Q1" pin="D"/>
+    <net code="220" name="Net-(Q6-PadD)">
+      <node ref="Q6" pin="D"/>
+      <node ref="R44" pin="2"/>
     </net>
-    <net code="221" name="Net-(C28-Pad1)">
-      <node ref="R19" pin="2"/>
-      <node ref="SW1" pin="2"/>
-      <node ref="C28" pin="1"/>
-      <node ref="SW1" pin="1"/>
-      <node ref="R23" pin="2"/>
-    </net>
-    <net code="222" name="Net-(C29-Pad1)">
-      <node ref="C29" pin="1"/>
-      <node ref="SW2" pin="2"/>
-      <node ref="SW2" pin="1"/>
-      <node ref="R20" pin="2"/>
-      <node ref="R24" pin="2"/>
-    </net>
-    <net code="223" name="Net-(Q6-PadG)">
+    <net code="221" name="Net-(Q6-PadG)">
       <node ref="Q6" pin="G"/>
       <node ref="R42" pin="2"/>
     </net>
-    <net code="224" name="Net-(D11-Pad2)">
-      <node ref="R35" pin="1"/>
-      <node ref="D11" pin="2"/>
-    </net>
-    <net code="225" name="Net-(Q6-PadD)">
-      <node ref="R44" pin="2"/>
-      <node ref="Q6" pin="D"/>
-    </net>
-    <net code="226" name="Net-(D12-Pad2)">
-      <node ref="R44" pin="1"/>
+    <net code="222" name="Net-(D12-Pad2)">
       <node ref="D12" pin="2"/>
+      <node ref="R44" pin="1"/>
     </net>
-    <net code="227" name="Net-(C30-Pad1)">
-      <node ref="SW3" pin="2"/>
-      <node ref="SW3" pin="1"/>
-      <node ref="R21" pin="2"/>
-      <node ref="R25" pin="2"/>
-      <node ref="C30" pin="1"/>
+    <net code="223" name="Net-(Q1-PadG)">
+      <node ref="R28" pin="2"/>
+      <node ref="Q1" pin="G"/>
     </net>
-    <net code="228" name="Net-(C31-Pad1)">
-      <node ref="SW4" pin="1"/>
-      <node ref="SW4" pin="2"/>
-      <node ref="R26" pin="2"/>
-      <node ref="C31" pin="1"/>
-      <node ref="R22" pin="2"/>
+    <net code="224" name="Net-(Q5-PadG)">
+      <node ref="Q5" pin="G"/>
+      <node ref="R41" pin="2"/>
     </net>
-    <net code="229" name="Net-(LED1-Pad1)">
+    <net code="225" name="Net-(D10-Pad2)">
+      <node ref="R43" pin="1"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="226" name="Net-(Q5-PadD)">
+      <node ref="Q5" pin="D"/>
+      <node ref="R43" pin="2"/>
+    </net>
+    <net code="227" name="Net-(LED1-Pad1)">
       <node ref="LED1" pin="1"/>
       <node ref="R29" pin="1"/>
     </net>
-    <net code="230" name="Net-(LED1-Pad2)">
-      <node ref="LED1" pin="2"/>
-      <node ref="R38" pin="1"/>
+    <net code="228" name="Net-(Q1-PadD)">
+      <node ref="R29" pin="2"/>
+      <node ref="Q1" pin="D"/>
     </net>
-    <net code="231" name="Net-(Q3-PadG)">
-      <node ref="R33" pin="2"/>
-      <node ref="Q3" pin="G"/>
+    <net code="229" name="Net-(C30-Pad1)">
+      <node ref="SW3" pin="1"/>
+      <node ref="R25" pin="2"/>
+      <node ref="C30" pin="1"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="R21" pin="2"/>
     </net>
-    <net code="232" name="Net-(Q3-PadD)">
-      <node ref="Q3" pin="D"/>
-      <node ref="R35" pin="2"/>
+    <net code="230" name="Net-(C28-Pad1)">
+      <node ref="R19" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="C28" pin="1"/>
+      <node ref="R23" pin="2"/>
     </net>
-    <net code="233" name="GND">
-      <node ref="C5" pin="2"/>
+    <net code="231" name="Net-(C31-Pad1)">
+      <node ref="R26" pin="2"/>
+      <node ref="SW4" pin="2"/>
+      <node ref="SW4" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="232" name="Net-(C29-Pad1)">
+      <node ref="R24" pin="2"/>
+      <node ref="C29" pin="1"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="R20" pin="2"/>
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="233" name="Net-(P1-Pad9)">
+      <node ref="R45" pin="2"/>
+      <node ref="P1" pin="9"/>
+    </net>
+    <net code="234" name="Net-(P1-Pad11)">
+      <node ref="R46" pin="2"/>
+      <node ref="P1" pin="11"/>
+    </net>
+    <net code="235" name="Net-(P1-Pad13)">
+      <node ref="P1" pin="13"/>
+      <node ref="R47" pin="2"/>
+    </net>
+    <net code="236" name="Net-(P1-Pad15)">
+      <node ref="R48" pin="2"/>
+      <node ref="P1" pin="15"/>
+    </net>
+    <net code="237" name="Net-(F5-Pad1)">
+      <node ref="F5" pin="1"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="238" name="GND">
+      <node ref="D7" pin="2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="P2" pin="39"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R18" pin="2"/>
+      <node ref="P2" pin="19"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C27" pin="1"/>
+      <node ref="P2" pin="37"/>
       <node ref="U9" pin="5"/>
-      <node ref="MH3" pin="1"/>
-      <node ref="MH2" pin="1"/>
-      <node ref="P2" pin="13"/>
-      <node ref="MH1" pin="1"/>
-      <node ref="U3" pin="1"/>
-      <node ref="TP1" pin="2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="TP2" pin="2"/>
-      <node ref="TP3" pin="1"/>
-      <node ref="C7" pin="2"/>
-      <node ref="D16" pin="1"/>
-      <node ref="J2" pin="2"/>
-      <node ref="L4" pin="1"/>
-      <node ref="C4" pin="2"/>
-      <node ref="MH4" pin="1"/>
-      <node ref="D5" pin="2"/>
-      <node ref="C39" pin="2"/>
-      <node ref="Y2" pin="2"/>
-      <node ref="P2" pin="3"/>
+      <node ref="C33" pin="2"/>
+      <node ref="U10" pin="107"/>
+      <node ref="U10" pin="121"/>
+      <node ref="U10" pin="134"/>
+      <node ref="U10" pin="71"/>
+      <node ref="C42" pin="2"/>
       <node ref="C35" pin="2"/>
       <node ref="C37" pin="2"/>
       <node ref="C38" pin="2"/>
-      <node ref="P1" pin="38"/>
-      <node ref="P1" pin="28"/>
-      <node ref="Y2" pin="4"/>
-      <node ref="P1" pin="4"/>
-      <node ref="C40" pin="2"/>
-      <node ref="C46" pin="2"/>
-      <node ref="C42" pin="2"/>
-      <node ref="D13" pin="2"/>
-      <node ref="D14" pin="1"/>
-      <node ref="C33" pin="2"/>
-      <node ref="C43" pin="2"/>
-      <node ref="P2" pin="11"/>
-      <node ref="U10" pin="17"/>
-      <node ref="U10" pin="93"/>
-      <node ref="U10" pin="44"/>
-      <node ref="P2" pin="7"/>
-      <node ref="C34" pin="2"/>
-      <node ref="P2" pin="5"/>
-      <node ref="C49" pin="2"/>
-      <node ref="U10" pin="57"/>
-      <node ref="U10" pin="121"/>
-      <node ref="U10" pin="18"/>
+      <node ref="C39" pin="2"/>
       <node ref="Y1" pin="2"/>
-      <node ref="S5" pin="3"/>
       <node ref="C41" pin="2"/>
       <node ref="C48" pin="1"/>
-      <node ref="Y1" pin="4"/>
-      <node ref="C32" pin="2"/>
-      <node ref="U10" pin="107"/>
-      <node ref="U10" pin="134"/>
-      <node ref="R18" pin="2"/>
-      <node ref="C26" pin="2"/>
-      <node ref="R14" pin="1"/>
-      <node ref="P2" pin="17"/>
-      <node ref="P2" pin="27"/>
-      <node ref="P2" pin="37"/>
-      <node ref="P1" pin="26"/>
-      <node ref="P2" pin="25"/>
-      <node ref="R12" pin="1"/>
-      <node ref="D9" pin="2"/>
-      <node ref="D7" pin="2"/>
-      <node ref="C27" pin="1"/>
-      <node ref="C52" pin="2"/>
-      <node ref="U10" pin="71"/>
+      <node ref="C40" pin="2"/>
+      <node ref="S5" pin="3"/>
       <node ref="S5" pin="4"/>
-      <node ref="C36" pin="2"/>
       <node ref="U10" pin="6"/>
-      <node ref="P2" pin="19"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C43" pin="2"/>
+      <node ref="C46" pin="2"/>
+      <node ref="MH2" pin="1"/>
+      <node ref="MH3" pin="1"/>
+      <node ref="MH4" pin="1"/>
+      <node ref="MH1" pin="1"/>
+      <node ref="P2" pin="27"/>
+      <node ref="P2" pin="17"/>
+      <node ref="Y1" pin="4"/>
+      <node ref="U10" pin="44"/>
+      <node ref="P2" pin="25"/>
+      <node ref="U10" pin="93"/>
+      <node ref="U10" pin="17"/>
+      <node ref="U10" pin="57"/>
+      <node ref="U10" pin="18"/>
+      <node ref="P2" pin="13"/>
+      <node ref="P1" pin="26"/>
       <node ref="P1" pin="24"/>
       <node ref="P1" pin="32"/>
       <node ref="P1" pin="22"/>
-      <node ref="R17" pin="2"/>
+      <node ref="Y2" pin="2"/>
+      <node ref="Y2" pin="4"/>
+      <node ref="D13" pin="2"/>
+      <node ref="D14" pin="2"/>
+      <node ref="P2" pin="3"/>
       <node ref="P1" pin="40"/>
-      <node ref="P2" pin="39"/>
       <node ref="P1" pin="30"/>
       <node ref="P1" pin="20"/>
-      <node ref="U6" pin="11"/>
-      <node ref="U6" pin="10"/>
-      <node ref="U5" pin="5"/>
-      <node ref="J3" pin="5"/>
-      <node ref="U5" pin="1"/>
-      <node ref="U5" pin="10"/>
+      <node ref="P2" pin="11"/>
+      <node ref="P2" pin="7"/>
+      <node ref="P2" pin="5"/>
+      <node ref="P1" pin="4"/>
+      <node ref="P1" pin="38"/>
+      <node ref="P1" pin="28"/>
+      <node ref="C49" pin="2"/>
+      <node ref="C52" pin="2"/>
+      <node ref="U5" pin="25"/>
       <node ref="U5" pin="13"/>
+      <node ref="U5" pin="51"/>
+      <node ref="U5" pin="47"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U5" pin="35"/>
+      <node ref="U5" pin="15"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U5" pin="11"/>
+      <node ref="J1" pin="5"/>
+      <node ref="R1" pin="1"/>
+      <node ref="L7" pin="1"/>
+      <node ref="TP2" pin="2"/>
+      <node ref="TP1" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C8" pin="2"/>
       <node ref="Y3" pin="2"/>
       <node ref="Y3" pin="4"/>
-      <node ref="C8" pin="2"/>
-      <node ref="U6" pin="19"/>
-      <node ref="U6" pin="17"/>
-      <node ref="U6" pin="13"/>
-      <node ref="U5" pin="51"/>
-      <node ref="Q2" pin="S"/>
-      <node ref="U5" pin="11"/>
-      <node ref="C29" pin="2"/>
-      <node ref="C28" pin="2"/>
-      <node ref="C31" pin="2"/>
-      <node ref="Q4" pin="S"/>
-      <node ref="C16" pin="2"/>
-      <node ref="C10" pin="2"/>
-      <node ref="U8" pin="5"/>
-      <node ref="R4" pin="1"/>
-      <node ref="C17" pin="2"/>
-      <node ref="C23" pin="2"/>
-      <node ref="C13" pin="2"/>
-      <node ref="C22" pin="2"/>
-      <node ref="C12" pin="2"/>
-      <node ref="C9" pin="2"/>
-      <node ref="C14" pin="2"/>
+      <node ref="C53" pin="2"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="U3" pin="1"/>
       <node ref="C11" pin="2"/>
+      <node ref="C12" pin="2"/>
       <node ref="C21" pin="2"/>
       <node ref="C20" pin="2"/>
       <node ref="C19" pin="2"/>
       <node ref="C18" pin="2"/>
-      <node ref="C53" pin="2"/>
-      <node ref="U5" pin="47"/>
-      <node ref="J4" pin="9"/>
-      <node ref="U5" pin="15"/>
-      <node ref="U5" pin="25"/>
-      <node ref="U5" pin="35"/>
-      <node ref="J4" pin="5"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C16" pin="2"/>
       <node ref="J4" pin="3"/>
-      <node ref="R27" pin="2"/>
-      <node ref="C25" pin="2"/>
-      <node ref="C24" pin="2"/>
-      <node ref="R39" pin="2"/>
-      <node ref="R1" pin="1"/>
-      <node ref="R31" pin="2"/>
-      <node ref="U1" pin="3"/>
-      <node ref="Q3" pin="S"/>
-      <node ref="J1" pin="5"/>
-      <node ref="C3" pin="2"/>
-      <node ref="BT1" pin="2"/>
-      <node ref="R30" pin="2"/>
-      <node ref="R36" pin="2"/>
-      <node ref="C15" pin="2"/>
-      <node ref="Q6" pin="S"/>
       <node ref="C2" pin="2"/>
-      <node ref="R40" pin="2"/>
-      <node ref="SW2" pin="4"/>
-      <node ref="C30" pin="2"/>
-      <node ref="Q5" pin="S"/>
-      <node ref="SW4" pin="4"/>
-      <node ref="SW2" pin="3"/>
-      <node ref="L2" pin="1"/>
-      <node ref="L7" pin="1"/>
-      <node ref="SW4" pin="3"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U8" pin="5"/>
+      <node ref="J4" pin="9"/>
+      <node ref="J4" pin="5"/>
+      <node ref="C13" pin="2"/>
+      <node ref="U5" pin="10"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U5" pin="1"/>
+      <node ref="R4" pin="1"/>
       <node ref="C1" pin="2"/>
-      <node ref="SW3" pin="4"/>
+      <node ref="U6" pin="13"/>
+      <node ref="U6" pin="19"/>
+      <node ref="U6" pin="17"/>
+      <node ref="L2" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U6" pin="11"/>
+      <node ref="U6" pin="10"/>
+      <node ref="J3" pin="5"/>
+      <node ref="Q2" pin="S"/>
+      <node ref="C4" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="D16" pin="1"/>
+      <node ref="C30" pin="2"/>
+      <node ref="L4" pin="1"/>
+      <node ref="C28" pin="2"/>
+      <node ref="R17" pin="2"/>
+      <node ref="SW2" pin="3"/>
       <node ref="Q1" pin="S"/>
       <node ref="SW1" pin="3"/>
       <node ref="SW1" pin="4"/>
       <node ref="SW3" pin="3"/>
+      <node ref="SW3" pin="4"/>
+      <node ref="SW4" pin="3"/>
+      <node ref="SW4" pin="4"/>
+      <node ref="SW2" pin="4"/>
+      <node ref="Q5" pin="S"/>
+      <node ref="Q4" pin="S"/>
+      <node ref="C29" pin="2"/>
+      <node ref="Q3" pin="S"/>
+      <node ref="R39" pin="2"/>
+      <node ref="R36" pin="2"/>
+      <node ref="R27" pin="2"/>
+      <node ref="TP3" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R31" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="R40" pin="2"/>
+      <node ref="Q6" pin="S"/>
+      <node ref="R30" pin="2"/>
     </net>
-    <net code="234" name="Net-(P1-Pad15)">
-      <node ref="P1" pin="15"/>
-      <node ref="R48" pin="2"/>
-    </net>
-    <net code="235" name="Net-(P1-Pad13)">
-      <node ref="R47" pin="2"/>
-      <node ref="P1" pin="13"/>
-    </net>
-    <net code="236" name="Net-(P1-Pad11)">
-      <node ref="R46" pin="2"/>
-      <node ref="P1" pin="11"/>
-    </net>
-    <net code="237" name="Net-(P1-Pad9)">
-      <node ref="R45" pin="2"/>
-      <node ref="P1" pin="9"/>
-    </net>
-    <net code="238" name="GNDA">
-      <node ref="L4" pin="2"/>
-      <node ref="C51" pin="1"/>
-      <node ref="P1" pin="10"/>
-      <node ref="P1" pin="8"/>
-      <node ref="U10" pin="34"/>
-      <node ref="C50" pin="2"/>
-      <node ref="P1" pin="18"/>
-      <node ref="P1" pin="7"/>
-      <node ref="L10" pin="2"/>
-      <node ref="P1" pin="14"/>
-      <node ref="P1" pin="12"/>
-      <node ref="P1" pin="16"/>
-    </net>
-    <net code="239" name="Net-(F6-Pad1)">
-      <node ref="F6" pin="1"/>
-      <node ref="P2" pin="2"/>
-    </net>
-    <net code="240" name="Net-(F5-Pad1)">
-      <node ref="F5" pin="1"/>
-      <node ref="P2" pin="1"/>
-    </net>
-    <net code="241" name="Net-(F4-Pad1)">
+    <net code="239" name="Net-(F4-Pad1)">
       <node ref="P1" pin="2"/>
       <node ref="F4" pin="1"/>
     </net>
-    <net code="242" name="Net-(F3-Pad1)">
-      <node ref="F3" pin="1"/>
+    <net code="240" name="Net-(F3-Pad1)">
       <node ref="P1" pin="1"/>
+      <node ref="F3" pin="1"/>
+    </net>
+    <net code="241" name="Net-(F6-Pad1)">
+      <node ref="F6" pin="1"/>
+      <node ref="P2" pin="2"/>
     </net>
   </nets>
 </export>

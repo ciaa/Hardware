@@ -51,7 +51,7 @@ F8 "TMS" O R 2600 7200 60
 F9 "RESET" O R 2600 6950 60 
 $EndSheet
 Text Notes 8400 2750 0    118  ~ 0
-Índice:\n1. Esquemático jerárquico\n2. USB OTG    \n3. Fuente\n4. JTAG    \n5. RS485\n6. ON BOARD IO\n7. CPU\n8. GPIO
+Índice:\n1. Esquemático jerárquico\n2. USB OTG    \n3. Fuente\n4. JTAG    \n5. RS485\n6. ON BOARD IO\n7. GPIO\n8. CPU
 Text Notes 11000 950  2    118  ~ 24
 Computadora Industrial Abierta Argentina\nVersión EDU - FSL (Freescale K60)
 Text Label 7800 4250 0    60   ~ 0
@@ -469,10 +469,10 @@ Wire Wire Line
 Wire Wire Line
 	5650 2850 6250 2850
 $Comp
-L GND #PWR1
+L GND #PWR01
 U 1 1 54A72980
 P 9950 5450
-F 0 "#PWR1" H 9950 5450 30  0001 C CNN
+F 0 "#PWR01" H 9950 5450 30  0001 C CNN
 F 1 "GND" H 9950 5380 30  0001 C CNN
 F 2 "" H 9950 5450 60  0000 C CNN
 F 3 "" H 9950 5450 60  0000 C CNN
