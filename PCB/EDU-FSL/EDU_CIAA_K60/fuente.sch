@@ -7,8 +7,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 8
 Title "Fuente de Alimentación"
-Date "26 feb 2016"
-Rev "1.0"
+Date "2016-07-19"
+Rev "0.0"
 Comp "EDU-CIAA - FSL . Versión FSL (Freescale K60)"
 Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_FSL.txt'"
 Comment2 ""
@@ -18,12 +18,12 @@ $EndDescr
 $Comp
 L GND #PWR013
 U 1 1 52B78A1B
-P 2750 2600
-F 0 "#PWR013" H 2750 2600 30  0001 C CNN
-F 1 "GND" H 2750 2530 30  0001 C CNN
-F 2 "" H 2750 2600 60  0000 C CNN
-F 3 "" H 2750 2600 60  0000 C CNN
-	1    2750 2600
+P 3550 2400
+F 0 "#PWR013" H 3550 2400 30  0001 C CNN
+F 1 "GND" H 3550 2330 30  0001 C CNN
+F 2 "" H 3550 2400 60  0000 C CNN
+F 3 "" H 3550 2400 60  0000 C CNN
+	1    3550 2400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -530,7 +530,7 @@ F 9 "SOD-123F" H 4700 2950 60  0001 C CNN "Footprint estandar"
 	1    0    0    -1  
 $EndComp
 Text Notes 1650 1850 0    120  ~ 24
-DC INPUT: 5V CC
+DC INPUT: +5V\n
 Wire Wire Line
 	8650 2500 8650 2700
 Wire Wire Line
@@ -638,9 +638,9 @@ Wire Wire Line
 Wire Wire Line
 	9050 2200 9300 2200
 Wire Wire Line
-	2300 2300 2750 2300
+	2300 2100 3550 2100
 Wire Wire Line
-	2750 2300 2750 2600
+	3550 2100 3550 2400
 Wire Wire Line
 	7750 5700 7650 5700
 Wire Wire Line
@@ -684,9 +684,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 2950 4500 2950
 Wire Wire Line
-	3400 2950 3400 2100
-Wire Wire Line
-	3400 2100 2300 2100
+	3400 2300 2300 2300
 Wire Wire Line
 	5050 4150 5850 4150
 Connection ~ 5050 4150
@@ -840,4 +838,6 @@ Wire Notes Line
 	1550 1300 6650 1300
 Wire Notes Line
 	6650 1300 6650 4900
+Wire Wire Line
+	3400 2300 3400 2950
 $EndSCHEMATC

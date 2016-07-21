@@ -56,12 +56,10 @@ Text Notes 11000 950  2    118  ~ 24
 Computadora Industrial Abierta Argentina\nVersión EDU - FSL (Freescale K60)
 Text Label 7800 4250 0    60   ~ 0
 USB_DEBUG_VBUS
-Text Notes 10500 5000 0    60   ~ 0
+Text Notes 10525 4975 0    60   ~ 0
 Fiduciales\n
-Text Notes 10450 5100 0    60   ~ 0
+Text Notes 10650 5100 0    60   ~ 0
 TOP
-Text Notes 10750 5100 0    60   ~ 0
-BOTTOM\n
 Text Notes 9650 5000 0    60   ~ 0
 Mounting Holes\n
 Text Label 3300 7050 2    50   ~ 0
@@ -77,18 +75,18 @@ RESET
 $Comp
 L FIDUCIAL FD1
 U 1 1 5398FDD1
-P 10550 5200
-F 0 "FD1" H 10630 5250 40  0000 L CNN
-F 1 "FIDUCIAL" H 10550 5100 30  0001 C CNN
-F 2 "Fiducial_1mm" H 10550 5250 60  0001 C CNN
-F 3 "~" H 10550 5250 60  0001 C CNN
-F 4 "FIDUCIAL" H 10600 5000 60  0001 C CNN "Descripcion"
-F 5 "~" H 10830 5400 60  0001 C CNN "Fabricante"
-F 6 "~" H 10930 5500 60  0001 C CNN "Nro. parte"
-F 7 "..PCB/EDU-FSL/Datasheets" H 11030 5600 60  0001 C CNN "Path datasheet"
-F 8 "~" H 11130 5700 60  0001 C CNN "Digikey/Mouser"
-F 9 "~" H 11230 5800 60  0001 C CNN "Footprint estandar"
-	1    10550 5200
+P 10725 5200
+F 0 "FD1" H 10805 5250 40  0000 L CNN
+F 1 "FIDUCIAL" H 10725 5100 30  0001 C CNN
+F 2 "Fiducial_1mm" H 10725 5250 60  0001 C CNN
+F 3 "~" H 10725 5250 60  0001 C CNN
+F 4 "FIDUCIAL" H 10775 5000 60  0001 C CNN "Descripcion"
+F 5 "~" H 11005 5400 60  0001 C CNN "Fabricante"
+F 6 "~" H 11105 5500 60  0001 C CNN "Nro. parte"
+F 7 "..PCB/EDU-FSL/Datasheets" H 11205 5600 60  0001 C CNN "Path datasheet"
+F 8 "~" H 11305 5700 60  0001 C CNN "Digikey/Mouser"
+F 9 "~" H 11405 5800 60  0001 C CNN "Footprint estandar"
+	1    10725 5200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -111,86 +109,35 @@ $EndComp
 $Comp
 L FIDUCIAL FD2
 U 1 1 539948B8
-P 10550 5350
-F 0 "FD2" H 10630 5400 40  0000 L CNN
-F 1 "FIDUCIAL" H 10550 5250 30  0001 C CNN
-F 2 "Fiducial_1mm" H 10550 5400 60  0001 C CNN
-F 3 "~" H 10550 5400 60  0001 C CNN
-F 4 "FIDUCIAL" H 10600 5150 60  0001 C CNN "Descripcion"
-F 5 "~" H 10830 5550 60  0001 C CNN "Fabricante"
-F 6 "~" H 10930 5650 60  0001 C CNN "Nro. parte"
-F 7 "..PCB/EDU-FSL/Datasheets" H 11030 5750 60  0001 C CNN "Path datasheet"
-F 8 "~" H 11130 5850 60  0001 C CNN "Digikey/Mouser"
-F 9 "~" H 11230 5950 60  0001 C CNN "Footprint estandar"
-	1    10550 5350
+P 10725 5350
+F 0 "FD2" H 10805 5400 40  0000 L CNN
+F 1 "FIDUCIAL" H 10725 5250 30  0001 C CNN
+F 2 "Fiducial_1mm" H 10725 5400 60  0001 C CNN
+F 3 "~" H 10725 5400 60  0001 C CNN
+F 4 "FIDUCIAL" H 10775 5150 60  0001 C CNN "Descripcion"
+F 5 "~" H 11005 5550 60  0001 C CNN "Fabricante"
+F 6 "~" H 11105 5650 60  0001 C CNN "Nro. parte"
+F 7 "..PCB/EDU-FSL/Datasheets" H 11205 5750 60  0001 C CNN "Path datasheet"
+F 8 "~" H 11305 5850 60  0001 C CNN "Digikey/Mouser"
+F 9 "~" H 11405 5950 60  0001 C CNN "Footprint estandar"
+	1    10725 5350
 	1    0    0    -1  
 $EndComp
 $Comp
 L FIDUCIAL FD3
 U 1 1 539948C4
-P 10550 5500
-F 0 "FD3" H 10630 5550 40  0000 L CNN
-F 1 "FIDUCIAL" H 10550 5400 30  0001 C CNN
-F 2 "Fiducial_1mm" H 10550 5550 60  0001 C CNN
-F 3 "~" H 10550 5550 60  0001 C CNN
-F 4 "FIDUCIAL" H 10600 5300 60  0001 C CNN "Descripcion"
-F 5 "~" H 10830 5700 60  0001 C CNN "Fabricante"
-F 6 "~" H 10930 5800 60  0001 C CNN "Nro. parte"
-F 7 "..PCB/EDU-FSL/Datasheets" H 11030 5900 60  0001 C CNN "Path datasheet"
-F 8 "~" H 11130 6000 60  0001 C CNN "Digikey/Mouser"
-F 9 "~" H 11230 6100 60  0001 C CNN "Footprint estandar"
-	1    10550 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L FIDUCIAL FD4
-U 1 1 53995566
-P 10900 5200
-F 0 "FD4" H 10980 5250 40  0000 L CNN
-F 1 "FIDUCIAL" H 10900 5100 30  0001 C CNN
-F 2 "Fiducial_1mm" H 10900 5250 60  0001 C CNN
-F 3 "~" H 10900 5250 60  0001 C CNN
-F 4 "FIDUCIAL" H 10950 5000 60  0001 C CNN "Descripcion"
-F 5 "~" H 11180 5400 60  0001 C CNN "Fabricante"
-F 6 "~" H 11280 5500 60  0001 C CNN "Nro. parte"
-F 7 "..PCB/EDU-FSL/Datasheets" H 11380 5600 60  0001 C CNN "Path datasheet"
-F 8 "~" H 11480 5700 60  0001 C CNN "Digikey/Mouser"
-F 9 "~" H 11580 5800 60  0001 C CNN "Footprint estandar"
-	1    10900 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L FIDUCIAL FD5
-U 1 1 53996227
-P 10900 5350
-F 0 "FD5" H 10980 5400 40  0000 L CNN
-F 1 "FIDUCIAL" H 10900 5250 30  0001 C CNN
-F 2 "Fiducial_1mm" H 10900 5400 60  0001 C CNN
-F 3 "~" H 10900 5400 60  0001 C CNN
-F 4 "FIDUCIAL" H 10950 5150 60  0001 C CNN "Descripcion"
-F 5 "~" H 11180 5550 60  0001 C CNN "Fabricante"
-F 6 "~" H 11280 5650 60  0001 C CNN "Nro. parte"
-F 7 "..PCB/EDU-FSL/Datasheets" H 11380 5750 60  0001 C CNN "Path datasheet"
-F 8 "~" H 11480 5850 60  0001 C CNN "Digikey/Mouser"
-F 9 "~" H 11580 5950 60  0001 C CNN "Footprint estandar"
-	1    10900 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L FIDUCIAL FD6
-U 1 1 53996233
-P 10900 5500
-F 0 "FD6" H 10980 5550 40  0000 L CNN
-F 1 "FIDUCIAL" H 10900 5400 30  0001 C CNN
-F 2 "Fiducial_1mm" H 10900 5550 60  0001 C CNN
-F 3 "~" H 10900 5550 60  0001 C CNN
-F 4 "FIDUCIAL" H 10950 5300 60  0001 C CNN "Descripcion"
-F 5 "~" H 11180 5700 60  0001 C CNN "Fabricante"
-F 6 "~" H 11280 5800 60  0001 C CNN "Nro. parte"
-F 7 "..PCB/EDU-FSL/Datasheets" H 11380 5900 60  0001 C CNN "Path datasheet"
-F 8 "~" H 11480 6000 60  0001 C CNN "Digikey/Mouser"
-F 9 "~" H 11580 6100 60  0001 C CNN "Footprint estandar"
-	1    10900 5500
+P 10725 5500
+F 0 "FD3" H 10805 5550 40  0000 L CNN
+F 1 "FIDUCIAL" H 10725 5400 30  0001 C CNN
+F 2 "Fiducial_1mm" H 10725 5550 60  0001 C CNN
+F 3 "~" H 10725 5550 60  0001 C CNN
+F 4 "FIDUCIAL" H 10775 5300 60  0001 C CNN "Descripcion"
+F 5 "~" H 11005 5700 60  0001 C CNN "Fabricante"
+F 6 "~" H 11105 5800 60  0001 C CNN "Nro. parte"
+F 7 "..PCB/EDU-FSL/Datasheets" H 11205 5900 60  0001 C CNN "Path datasheet"
+F 8 "~" H 11305 6000 60  0001 C CNN "Digikey/Mouser"
+F 9 "~" H 11405 6100 60  0001 C CNN "Footprint estandar"
+	1    10725 5500
 	1    0    0    -1  
 $EndComp
 $Comp

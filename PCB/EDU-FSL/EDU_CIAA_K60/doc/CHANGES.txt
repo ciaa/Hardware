@@ -44,7 +44,7 @@ Cambios realizados a la CIAA-FSL
 * Descripción: Primer ruteo del PCB
 
 * Fecha: 19/02/2016
-* Autor:  Noelia Scotti - INTI
+* Autor:  Diego Brengi, Diego Alamon y Noelia Scotti.- INTI
 * Archivos:EDU-CIAA-FSL-Rev.pdf
 * Descripción: Revisión del esquemático, documentación y PCB
 
