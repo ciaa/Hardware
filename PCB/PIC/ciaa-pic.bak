@@ -190,7 +190,7 @@ U 1 1 52F3C91F
 P 5700 2800
 F 0 "GS6" H 5850 2700 50  0000 C CNN
 F 1 "GS3" H 5750 2601 40  0001 C CNN
-F 2 "" H 5700 2800 60  0000 C CNN
+F 2 "" H 5700 2800 60  0001 C CNN
 F 3 "" H 5700 2800 60  0000 C CNN
 	1    5700 2800
 	1    0    0    -1  
@@ -201,7 +201,7 @@ U 1 1 533F364A
 P 8950 4550
 F 0 "H1" H 9030 4550 40  0000 L CNN
 F 1 "4mm" H 8950 4605 157 0001 C CNN
-F 2 "" H 8950 4550 60  0000 C CNN
+F 2 "" H 8950 4550 60  0001 C CNN
 F 3 "" H 8950 4550 60  0000 C CNN
 	1    8950 4550
 	1    0    0    -1  
@@ -212,7 +212,7 @@ U 1 1 533F6096
 P 8950 4700
 F 0 "H2" H 9030 4700 40  0000 L CNN
 F 1 "4mm" H 8950 4755 157 0001 C CNN
-F 2 "" H 8950 4700 60  0000 C CNN
+F 2 "" H 8950 4700 60  0001 C CNN
 F 3 "" H 8950 4700 60  0000 C CNN
 	1    8950 4700
 	1    0    0    -1  
@@ -223,7 +223,7 @@ U 1 1 533F609C
 P 8950 4850
 F 0 "H3" H 9030 4850 40  0000 L CNN
 F 1 "4mm" H 8950 4905 157 0001 C CNN
-F 2 "" H 8950 4850 60  0000 C CNN
+F 2 "" H 8950 4850 60  0001 C CNN
 F 3 "" H 8950 4850 60  0000 C CNN
 	1    8950 4850
 	1    0    0    -1  
@@ -234,7 +234,7 @@ U 1 1 533F60A2
 P 8950 5000
 F 0 "H4" H 9030 5000 40  0000 L CNN
 F 1 "4mm" H 8950 5055 157 0001 C CNN
-F 2 "" H 8950 5000 60  0000 C CNN
+F 2 "" H 8950 5000 60  0001 C CNN
 F 3 "" H 8950 5000 60  0000 C CNN
 	1    8950 5000
 	1    0    0    -1  
@@ -459,8 +459,6 @@ Text Notes 9650 4450 0    79   ~ 0
 Fiduciales
 Text Notes 8350 4450 0    79   ~ 0
 Holes Fijacion
-Text Notes 6200 8800 0    200  ~ 0
-El título de la HOJA debe variar en cada hoja \nindicando a que se refiere. \nEj: Procesador, GPIO, USB, Fuente...
 Text Notes 400  8550 0    100  ~ 0
 La numeración de los componentes. como esta hecha?\nPor ejemplo en una hoja esta U12, U13 y U20.
 Text Notes 500  8950 0    100  ~ 0
