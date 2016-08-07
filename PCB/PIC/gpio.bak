@@ -366,4 +366,8 @@ F 3 "" H 6000 5150 60  0000 C CNN
 	1    6000 5150
 	1    0    0    -1  
 $EndComp
+Text Notes 9300 1300 0    99   ~ 20
+GPIO
+Text Notes 6900 3500 0    99   ~ 20
+SPI - ADC
 $EndSCHEMATC
