@@ -213,7 +213,7 @@ F 3 "" H 6450 4550 60  0000 C CNN
 	1    6450 4550
 	1    0    0    -1  
 $EndComp
-Text Notes 5150 900  0    60   ~ 0
+Text Notes 5150 900  0    60   ~ 12
 Conectores de expansión LVTTL.\nEn formato de pines, 2.54mm de pitch.
 $Comp
 L GNDA-RESCUE-ciaa-pic #PWR0236
@@ -350,7 +350,7 @@ U 1 1 565A56B2
 P 5900 2200
 F 0 "P1" H 5900 2550 60  0000 C CNN
 F 1 "CONN_6X2" V 5900 2200 60  0000 C CNN
-F 2 "" H 5900 2200 60  0001 C CNN
+F 2 "footprints:PIN_ARRAY_6X2" H 5900 2200 60  0001 C CNN
 F 3 "" H 5900 2200 60  0000 C CNN
 	1    5900 2200
 	1    0    0    -1  
@@ -366,4 +366,8 @@ F 3 "" H 6000 5150 60  0000 C CNN
 	1    6000 5150
 	1    0    0    -1  
 $EndComp
+Text Notes 9300 1300 0    99   ~ 20
+GPIO
+Text Notes 6900 3500 0    99   ~ 20
+SPI - ADC
 $EndSCHEMATC

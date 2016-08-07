@@ -190,7 +190,7 @@ U 1 1 52F3C91F
 P 5700 2800
 F 0 "GS6" H 5850 2700 50  0000 C CNN
 F 1 "GS3" H 5750 2601 40  0001 C CNN
-F 2 "" H 5700 2800 60  0001 C CNN
+F 2 "footprints:GS3" H 5700 2800 60  0001 C CNN
 F 3 "" H 5700 2800 60  0000 C CNN
 	1    5700 2800
 	1    0    0    -1  
@@ -455,18 +455,10 @@ F 4 "FIDUCIAL" H 10100 4600 60  0001 C CNN "Descripcion"
 	1    10050 4800
 	1    0    0    -1  
 $EndComp
-Text Notes 9650 4450 0    79   ~ 0
+Text Notes 9650 4450 0    79   ~ 16
 Fiduciales
-Text Notes 8350 4450 0    79   ~ 0
+Text Notes 8350 4450 0    79   ~ 16
 Holes Fijacion
-Text Notes 400  8550 0    100  ~ 0
-La numeración de los componentes. como esta hecha?\nPor ejemplo en una hoja esta U12, U13 y U20.
-Text Notes 500  8950 0    100  ~ 0
-Agregaría a todos por lo menos el campo Digikey#.
-Text Notes 450  9300 0    100  ~ 0
-Mover pin de jerarquía RESET y conectarlo\nen vez de usar etiqueta.
-Text Notes 6200 9700 0    100  ~ 0
-Opinión de proyecto (Tratar con quien corresponda):\nSe evaluó recortar un poco el hardware para bajar \nlos costos (principal problemas de las CIIAs). Por \nejemplo la mitad de canales A/D, Menos  E/S, etc.?
 $Sheet
 S 5650 6400 950  1000
 U 577C4855
