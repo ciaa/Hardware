@@ -172,10 +172,6 @@ Text Notes 8250 3800 0    118  ~ 0
 Índice:\n1. Esquemático jerárquico\n2. CPU\n3. Ethernet\n4. RS485/RS232/CAN\n5. USB OTG\n6. GPIO\n7. Entradas digitales\n8. Salidas digitales\n9. Entradas analógicas\n10. Salida analógica\n11. Memorias NV\n12. Fuente de alimentación
 Text Notes 11150 950  2    118  ~ 24
 Computadora Industrial Abierta Argentina\nVersión Microchip ( PIC32MZ )
-Text Label 2000 3550 0    60   ~ 0
-I2C_SDA
-Text Label 2000 3450 0    60   ~ 0
-I2C_SCL
 $Sheet
 S 750  6750 1100 600 
 U 52C2B8A1
@@ -201,7 +197,7 @@ U 1 1 533F364A
 P 8950 4550
 F 0 "H1" H 9030 4550 40  0000 L CNN
 F 1 "4mm" H 8950 4605 157 0001 C CNN
-F 2 "" H 8950 4550 60  0001 C CNN
+F 2 "footprints:1pin" H 8950 4550 60  0001 C CNN
 F 3 "" H 8950 4550 60  0000 C CNN
 	1    8950 4550
 	1    0    0    -1  
@@ -212,7 +208,7 @@ U 1 1 533F6096
 P 8950 4700
 F 0 "H2" H 9030 4700 40  0000 L CNN
 F 1 "4mm" H 8950 4755 157 0001 C CNN
-F 2 "" H 8950 4700 60  0001 C CNN
+F 2 "footprints:1pin" H 8950 4700 60  0001 C CNN
 F 3 "" H 8950 4700 60  0000 C CNN
 	1    8950 4700
 	1    0    0    -1  
@@ -223,7 +219,7 @@ U 1 1 533F609C
 P 8950 4850
 F 0 "H3" H 9030 4850 40  0000 L CNN
 F 1 "4mm" H 8950 4905 157 0001 C CNN
-F 2 "" H 8950 4850 60  0001 C CNN
+F 2 "footprints:1pin" H 8950 4850 60  0001 C CNN
 F 3 "" H 8950 4850 60  0000 C CNN
 	1    8950 4850
 	1    0    0    -1  
@@ -234,7 +230,7 @@ U 1 1 533F60A2
 P 8950 5000
 F 0 "H4" H 9030 5000 40  0000 L CNN
 F 1 "4mm" H 8950 5055 157 0001 C CNN
-F 2 "" H 8950 5000 60  0001 C CNN
+F 2 "footprints:1pin" H 8950 5000 60  0001 C CNN
 F 3 "" H 8950 5000 60  0000 C CNN
 	1    8950 5000
 	1    0    0    -1  
@@ -389,7 +385,7 @@ U 1 1 574C9AED
 P 9800 4600
 F 0 "F1" H 9880 4650 40  0000 L CNN
 F 1 "FIDUCIAL" H 9800 4500 30  0001 C CNN
-F 2 "Fiducials:Fiducial_Modern_CopperTop" H 9800 4650 60  0001 C CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 9800 4650 60  0001 C CNN
 F 3 "" H 9800 4650 60  0001 C CNN
 F 4 "FIDUCIAL" H 9850 4400 60  0001 C CNN "Descripcion"
 	1    9800 4600
@@ -401,7 +397,7 @@ U 1 1 574CA6A3
 P 10050 4600
 F 0 "F4" H 10130 4650 40  0000 L CNN
 F 1 "FIDUCIAL" H 10050 4500 30  0001 C CNN
-F 2 "Fiducials:Fiducial_Modern_CopperBottom" H 10050 4650 60  0001 C CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperBottom" H 10050 4650 60  0001 C CNN
 F 3 "" H 10050 4650 60  0001 C CNN
 F 4 "FIDUCIAL" H 10100 4400 60  0001 C CNN "Descripcion"
 	1    10050 4600
@@ -413,7 +409,7 @@ U 1 1 574CB075
 P 9800 5000
 F 0 "F3" H 9880 5050 40  0000 L CNN
 F 1 "FIDUCIAL" H 9800 4900 30  0001 C CNN
-F 2 "Fiducials:Fiducial_Modern_CopperTop" H 9800 5050 60  0001 C CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 9800 5050 60  0001 C CNN
 F 3 "" H 9800 5050 60  0001 C CNN
 F 4 "FIDUCIAL" H 9850 4800 60  0001 C CNN "Descripcion"
 	1    9800 5000
@@ -425,7 +421,7 @@ U 1 1 574CB07C
 P 10050 5000
 F 0 "F6" H 10130 5050 40  0000 L CNN
 F 1 "FIDUCIAL" H 10050 4900 30  0001 C CNN
-F 2 "Fiducials:Fiducial_Modern_CopperBottom" H 10050 5050 60  0001 C CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperBottom" H 10050 5050 60  0001 C CNN
 F 3 "" H 10050 5050 60  0001 C CNN
 F 4 "FIDUCIAL" H 10100 4800 60  0001 C CNN "Descripcion"
 	1    10050 5000
@@ -437,7 +433,7 @@ U 1 1 574CBFC2
 P 9800 4800
 F 0 "F2" H 9880 4850 40  0000 L CNN
 F 1 "FIDUCIAL" H 9800 4700 30  0001 C CNN
-F 2 "Fiducials:Fiducial_Modern_CopperTop" H 9800 4850 60  0001 C CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 9800 4850 60  0001 C CNN
 F 3 "" H 9800 4850 60  0001 C CNN
 F 4 "FIDUCIAL" H 9850 4600 60  0001 C CNN "Descripcion"
 	1    9800 4800
@@ -449,7 +445,7 @@ U 1 1 574CBFC9
 P 10050 4800
 F 0 "F5" H 10130 4850 40  0000 L CNN
 F 1 "FIDUCIAL" H 10050 4700 30  0001 C CNN
-F 2 "Fiducials:Fiducial_Modern_CopperBottom" H 10050 4850 60  0001 C CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperBottom" H 10050 4850 60  0001 C CNN
 F 3 "" H 10050 4850 60  0001 C CNN
 F 4 "FIDUCIAL" H 10100 4600 60  0001 C CNN "Descripcion"
 	1    10050 4800
