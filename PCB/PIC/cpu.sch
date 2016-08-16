@@ -372,7 +372,7 @@ Text HLabel 7000 3900 2    60   Input ~ 0
 CAN_RD
 Text HLabel 3650 5300 0    60   Output ~ 0
 CAN_TD
-Text HLabel 3650 5100 0    60   Output ~ 0
+Text HLabel 3650 4000 0    60   Output ~ 0
 SPI_SCK
 Text HLabel 3650 3150 0    60   Output ~ 0
 RS232_TXD
@@ -564,6 +564,7 @@ F 0 "U16" H 6450 1400 60  0000 C CNN
 F 1 "PIC32MZ2048EC" H 6450 9100 60  0000 C CNN
 F 2 "footprints:LQFP144-M05" H 5300 350 60  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/60001191E.pdf" H 5300 200 60  0001 C CNN
+F 4 "PIC32MZ2048ECH144-I/PL" H 5300 5250 60  0001 C CNN "manf#"
 	1    5300 5250
 	1    0    0    -1  
 $EndComp
@@ -619,6 +620,7 @@ F 0 "U25" H 1750 9300 70  0000 C CNN
 F 1 "TC25L5I32K7680" H 1750 8300 70  0000 C CNN
 F 2 "footprints:4SMD" H 1750 8200 60  0001 C CNN
 F 3 "http://www.digikey.com/product-detail/es/cts-frequency-controls/TC25L5I32K7680/CTX1183CT-ND/3511747" H 800 10050 60  0001 C CNN
+F 4 "TC25L5I32K7680" H 1750 8750 60  0001 C CNN "manf#"
 	1    1750 8750
 	1    0    0    -1  
 $EndComp
@@ -654,6 +656,7 @@ F 0 "U26" H 1200 5600 60  0000 C CNN
 F 1 "MCP9700" H 1600 5050 60  0000 C CNN
 F 2 "footprints:SOT23" H 2000 4850 60  0001 C CNN
 F 3 "http://www.digikey.com/product-detail/es/microchip-technology/MCP9700AT-E-TT/MCP9700AT-E-TTCT-ND/3622388" H 3450 50  60  0001 C CNN
+F 4 "MCP9700AT-E/TT" H 1350 5350 60  0001 C CNN "manf#"
 	1    1350 5350
 	1    0    0    -1  
 $EndComp
@@ -691,6 +694,7 @@ F 0 "SW1" H 1050 3650 50  0000 C CNN
 F 1 "SW_PUSH_4" H 1050 3900 50  0000 C CNN
 F 2 "footprints:PUSH_SWITCH" H 1050 3750 60  0001 C CNN
 F 3 "~" H 1050 3750 60  0000 C CNN
+F 4 "FSM2JSMAATR" H 1050 3750 60  0001 C CNN "manf#"
 	1    1050 3750
 	0    -1   -1   0   
 $EndComp
@@ -741,6 +745,7 @@ F 0 "U22" H 1700 2300 70  0000 C CNN
 F 1 "ASDMB-24.000MHZ-LC-T" H 1700 1300 70  0000 C CNN
 F 2 "footprints:4SMD" H 1700 1200 60  0001 C CNN
 F 3 "http://www.digikey.com/product-detail/es/abracon-llc/ASDMB-24.000MHZ-LC-T/535-11728-1-ND/2809937" H 3200 2900 60  0001 C CNN
+F 4 "ASDMB-24.000MHZ-LC-T" H 1700 1750 60  0001 C CNN "manf#"
 	1    1700 1750
 	1    0    0    -1  
 $EndComp
@@ -903,8 +908,6 @@ Wire Wire Line
 Wire Wire Line
 	3650 4200 3800 4200
 Wire Wire Line
-	3650 4000 3800 4000
-Wire Wire Line
 	3650 7100 3800 7100
 Wire Wire Line
 	3650 6500 3800 6500
@@ -952,7 +955,6 @@ Wire Wire Line
 	2200 10300 2200 10100
 Connection ~ 2200 10100
 Connection ~ 2400 10100
-Connection ~ 2500 10100
 Wire Wire Line
 	4650 9300 4650 9550
 Wire Wire Line
@@ -1119,7 +1121,6 @@ Wire Wire Line
 	3650 6900 3800 6900
 Wire Wire Line
 	3800 7000 3700 7000
-Connection ~ 1350 5850
 Connection ~ 1050 8950
 Connection ~ 1050 3450
 Connection ~ 1200 3450
@@ -1255,4 +1256,8 @@ Wire Wire Line
 	3650 7300 3800 7300
 Wire Wire Line
 	3650 7400 3800 7400
+Wire Wire Line
+	3650 4000 3800 4000
+Text HLabel 3650 5100 0    60   Output ~ 0
+USB_PWR_FAULT
 $EndSCHEMATC
