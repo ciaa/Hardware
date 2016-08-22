@@ -1235,6 +1235,4 @@ Text Notes 3300 4550 0    60   ~ 0
 SN65HVD230 - 231
 NoConn ~ 6650 3400
 NoConn ~ 6550 3400
-Text Notes 700  800  0    100  ~ 0
-Quien hizo el 485 y el CAN quería forzar\nla vista del lector. Tamaños de textos estan achicados.
 $EndSCHEMATC
