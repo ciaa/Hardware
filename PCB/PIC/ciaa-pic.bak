@@ -169,7 +169,7 @@ F9 "SPIFI_MISO" B R 1850 3850 60
 F10 "SQICS1" I R 1850 4250 60 
 $EndSheet
 Text Notes 8250 3800 0    118  ~ 0
-Índice:\n1. Esquemático jerárquico\n2. CPU\n3. Ethernet\n4. RS485/RS232/CAN\n5. USB OTG\n6. GPIO\n7. Entradas digitales\n8. Salidas digitales\n9. Entradas analógicas\n10. Salida analógica\n11. Memorias NV\n12. Fuente de alimentación
+Índice:\n1. Esquemático jerárquico\n2. Ethernet\n3. RS485/RS232/CAN\n4. USB OTG\n5. Entradas digitales\n6. Salidas digitales\n7. Entradas analógicas\n8. Salida analógica\n9. Memorias NV\n10. Fuente de alimentación\n11. CPU\n12. GPIO\n13. JTAG
 Text Notes 11150 950  2    118  ~ 24
 Computadora Industrial Abierta Argentina\nVersión Microchip ( PIC32MZ )
 $Sheet
@@ -360,23 +360,23 @@ $EndSheet
 $Comp
 L LOGO_CIAA #G1
 U 1 1 5737F003
-P 8850 6150
-F 0 "#G1" H 8850 5577 60  0001 C CNN
-F 1 "LOGO_CIAA" H 8850 6723 60  0001 C CNN
-F 2 "" H 8850 6150 60  0000 C CNN
-F 3 "" H 8850 6150 60  0000 C CNN
-	1    8850 6150
+P 8750 6050
+F 0 "#G1" H 8750 5477 60  0001 C CNN
+F 1 "LOGO_CIAA" H 8750 6623 60  0001 C CNN
+F 2 "" H 8750 6050 60  0000 C CNN
+F 3 "" H 8750 6050 60  0000 C CNN
+	1    8750 6050
 	1    0    0    -1  
 $EndComp
 $Comp
 L OSHWA #G2
 U 1 1 5738177A
-P 10000 6150
-F 0 "#G2" H 9970 6550 60  0001 C CNN
-F 1 "OSHWA" H 10000 6453 60  0001 C CNN
-F 2 "" H 10000 6150 60  0000 C CNN
-F 3 "" H 10000 6150 60  0000 C CNN
-	1    10000 6150
+P 9900 6050
+F 0 "#G2" H 9870 6450 60  0001 C CNN
+F 1 "OSHWA" H 9900 6353 60  0001 C CNN
+F 2 "" H 9900 6050 60  0000 C CNN
+F 3 "" H 9900 6050 60  0000 C CNN
+	1    9900 6050
 	1    0    0    -1  
 $EndComp
 $Comp

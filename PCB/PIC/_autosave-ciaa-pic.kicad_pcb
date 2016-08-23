@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.2+dfsg1-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.2+dfsg1-2~bpo8+1-stable)
 
   (general
     (links 991)
@@ -14,7 +14,7 @@
 
   (page A3)
   (layers
-    (0 F.Cu signal hide)
+    (0 F.Cu signal)
     (1 Inner2.Cu power hide)
     (2 Inner1.Cu power hide)
     (31 B.Cu signal hide)
@@ -64,7 +64,7 @@
     (pad_to_mask_clearance 0.0254)
     (pad_to_paste_clearance -0.0254)
     (aux_axis_origin 13.335 101.77272)
-    (visible_elements 7FFEB7FF)
+    (visible_elements 7FFE77FF)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions true)
