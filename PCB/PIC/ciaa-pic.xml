@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/hernan/repo_github/Hardware/PCB/PIC/ciaa-pic.sch</source>
-    <date>mar 23 ago 2016 16:53:45 ART</date>
+    <date>mié 24 ago 2016 16:08:45 ART</date>
     <tool>Eeschema 4.0.2+dfsg1-2~bpo8+1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -893,7 +893,7 @@
       <value>DB9</value>
       <footprint>footprints:K22X-E9P-NJ</footprint>
       <fields>
-        <field name="manf#">SDS107-PRW1-M09-SN63-11</field>
+        <field name="manf#">182-009-113R561 </field>
       </fields>
       <libsource lib="rs485_rs232_can" part="DB9"/>
       <sheetpath names="/RS485_RS232_CAN/" tstamps="/52C1F703/"/>
@@ -1214,6 +1214,9 @@
       <value>VP231</value>
       <footprint>footprints:-SOIC8</footprint>
       <datasheet>http://www.digikey.com/product-detail/es/texas-instruments/SN65HVD230DR/296-11654-1-ND/404366</datasheet>
+      <fields>
+        <field name="manf#">SN65HVD230DR </field>
+      </fields>
       <libsource lib="ciaa-pic-cache" part="VP231"/>
       <sheetpath names="/RS485_RS232_CAN/" tstamps="/52C1F703/"/>
       <tstamp>56A5857A</tstamp>
@@ -1291,6 +1294,9 @@
     <comp ref="R49">
       <value>10k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="manf#">RC0603JR-0710KL</field>
+      </fields>
       <libsource lib="ciaa-pic-rescue" part="R-RESCUE-ciaa-pic"/>
       <sheetpath names="/USB OTG/" tstamps="/52C66C60/"/>
       <tstamp>52C9D8D3</tstamp>
@@ -1298,6 +1304,9 @@
     <comp ref="R48">
       <value>10k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="manf#">RC0603JR-0710KL</field>
+      </fields>
       <libsource lib="ciaa-pic-rescue" part="R-RESCUE-ciaa-pic"/>
       <sheetpath names="/USB OTG/" tstamps="/52C66C60/"/>
       <tstamp>52C9D9F8</tstamp>
@@ -2542,6 +2551,9 @@
     <comp ref="C41">
       <value>100nF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="manf#">C0603C104K5RACTU</field>
+      </fields>
       <libsource lib="ciaa-pic-rescue" part="C-RESCUE-ciaa-pic"/>
       <sheetpath names="/Ent. Analógicas/" tstamps="/52C8476B/"/>
       <tstamp>52C4345E</tstamp>
@@ -2560,6 +2572,9 @@
     <comp ref="C43">
       <value>100nF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="manf#">C0603C104K5RACTU</field>
+      </fields>
       <libsource lib="ciaa-pic-rescue" part="C-RESCUE-ciaa-pic"/>
       <sheetpath names="/Ent. Analógicas/" tstamps="/52C8476B/"/>
       <tstamp>52C43E65</tstamp>
@@ -2636,12 +2651,17 @@
     </comp>
     <comp ref="D9">
       <value>BAV199</value>
+      <footprint>footprints:SOT23-DIODE</footprint>
+      <fields>
+        <field name="manf#">BAV199LT1G </field>
+      </fields>
       <libsource lib="w_device" part="BAV199"/>
       <sheetpath names="/Ent. Analógicas/" tstamps="/52C8476B/"/>
       <tstamp>52D74323</tstamp>
     </comp>
     <comp ref="JP8">
       <value>JUMPER3</value>
+      <footprint>footprints:GS3</footprint>
       <libsource lib="BLM15HG6015N1D" part="JUMPER3"/>
       <sheetpath names="/Ent. Analógicas/" tstamps="/52C8476B/"/>
       <tstamp>52D74E5B</tstamp>
@@ -2755,12 +2775,17 @@
     </comp>
     <comp ref="D10">
       <value>BAV199</value>
+      <footprint>footprints:SOT23-DIODE</footprint>
+      <fields>
+        <field name="manf#">BAV199LT1G </field>
+      </fields>
       <libsource lib="w_device" part="BAV199"/>
       <sheetpath names="/Ent. Analógicas/" tstamps="/52C8476B/"/>
       <tstamp>52D752A6</tstamp>
     </comp>
     <comp ref="JP10">
       <value>JUMPER3</value>
+      <footprint>footprints:GS3</footprint>
       <libsource lib="BLM15HG6015N1D" part="JUMPER3"/>
       <sheetpath names="/Ent. Analógicas/" tstamps="/52C8476B/"/>
       <tstamp>52D752B0</tstamp>
@@ -2874,12 +2899,17 @@
     </comp>
     <comp ref="D11">
       <value>BAV199</value>
+      <footprint>footprints:SOT23-DIODE</footprint>
+      <fields>
+        <field name="manf#">BAV199LT1G </field>
+      </fields>
       <libsource lib="w_device" part="BAV199"/>
       <sheetpath names="/Ent. Analógicas/" tstamps="/52C8476B/"/>
       <tstamp>52D75334</tstamp>
     </comp>
     <comp ref="JP12">
       <value>JUMPER3</value>
+      <footprint>footprints:GS3</footprint>
       <libsource lib="BLM15HG6015N1D" part="JUMPER3"/>
       <sheetpath names="/Ent. Analógicas/" tstamps="/52C8476B/"/>
       <tstamp>52D7533E</tstamp>
@@ -2993,12 +3023,17 @@
     </comp>
     <comp ref="D12">
       <value>BAV199</value>
+      <footprint>footprints:SOT23-DIODE</footprint>
+      <fields>
+        <field name="manf#">BAV199LT1G </field>
+      </fields>
       <libsource lib="w_device" part="BAV199"/>
       <sheetpath names="/Ent. Analógicas/" tstamps="/52C8476B/"/>
       <tstamp>52D753C2</tstamp>
     </comp>
     <comp ref="JP14">
       <value>JUMPER3</value>
+      <footprint>footprints:GS3</footprint>
       <libsource lib="BLM15HG6015N1D" part="JUMPER3"/>
       <sheetpath names="/Ent. Analógicas/" tstamps="/52C8476B/"/>
       <tstamp>52D753CC</tstamp>
@@ -3386,6 +3421,7 @@
     </comp>
     <comp ref="U20">
       <value>SST26VF064BA</value>
+      <footprint>footprints:SO8-sst</footprint>
       <fields>
         <field name="manf#">SST26VF064BAT-104I/SM</field>
       </fields>
@@ -3737,6 +3773,9 @@
     <comp ref="R90">
       <value>10K</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="manf#">RC0603JR-0710KL </field>
+      </fields>
       <libsource lib="ciaa-pic-rescue" part="R-RESCUE-ciaa-pic"/>
       <sheetpath names="/CPU/" tstamps="/52C1CAF4/"/>
       <tstamp>52C1CF64</tstamp>
@@ -3794,6 +3833,9 @@
     <comp ref="R142">
       <value>1K</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="manf#">RC0603JR-071KL </field>
+      </fields>
       <libsource lib="ciaa-pic-rescue" part="R-RESCUE-ciaa-pic"/>
       <sheetpath names="/CPU/" tstamps="/52C1CAF4/"/>
       <tstamp>53869DF0</tstamp>
@@ -3935,6 +3977,7 @@
     </comp>
     <comp ref="P14">
       <value>SPI</value>
+      <footprint>footprints:PIN_ARRAY_3X2</footprint>
       <libsource lib="logo" part="CONN_3X2"/>
       <sheetpath names="/GPIO/" tstamps="/52CA0F12/"/>
       <tstamp>52CCD42B</tstamp>
@@ -3948,6 +3991,7 @@
     </comp>
     <comp ref="P6">
       <value>CONN_4X2</value>
+      <footprint>footprints:pin_array_4x2</footprint>
       <libsource lib="logo" part="CONN_4X2"/>
       <sheetpath names="/GPIO/" tstamps="/52CA0F12/"/>
       <tstamp>56C2BE63</tstamp>
@@ -3984,6 +4028,10 @@
     </comp>
     <comp ref="C60">
       <value>1uF</value>
+      <footprint>footprints:c_0603</footprint>
+      <fields>
+        <field name="manf#">C0603C105K9PACTU</field>
+      </fields>
       <libsource lib="ciaa-pic-rescue" part="C-RESCUE-ciaa-pic"/>
       <sheetpath names="/JTAG/" tstamps="/577C4855/"/>
       <tstamp>52C1CF5E</tstamp>
@@ -5660,29 +5708,41 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="FT2232H">
-      <uri>/home/hernan/repo_github/Hardware/PCB/PIC/components/FT2232H.lib</uri>
-    </library>
     <library logical="ciaa-pic-rescue">
       <uri>/home/hernan/repo_github/Hardware/PCB/PIC/ciaa-pic-rescue.lib</uri>
-    </library>
-    <library logical="Pic32MZ">
-      <uri>/home/hernan/repo_github/Hardware/PCB/PIC/components/Pic32MZ.lib</uri>
-    </library>
-    <library logical="lm2596">
-      <uri>/home/hernan/repo_github/Hardware/PCB/PIC/components/lm2596.lib</uri>
-    </library>
-    <library logical="rs485_rs232_can">
-      <uri>/home/hernan/repo_github/Hardware/PCB/PIC/components/rs485_rs232_can.lib</uri>
     </library>
     <library logical="BLM15HG6015N1D">
       <uri>/home/hernan/repo_github/Hardware/PCB/PIC/components/BLM15HG6015N1D.lib</uri>
     </library>
-    <library logical="w_device">
-      <uri>/home/hernan/repo_github/Hardware/PCB/PIC/components/w_device.lib</uri>
+    <library logical="lm2596">
+      <uri>/home/hernan/repo_github/Hardware/PCB/PIC/components/lm2596.lib</uri>
+    </library>
+    <library logical="MIC2025">
+      <uri>/home/hernan/repo_github/Hardware/PCB/PIC/components/MIC2025.lib</uri>
     </library>
     <library logical="PRTR5V0U2X">
       <uri>/home/hernan/repo_github/Hardware/PCB/PIC/components/PRTR5V0U2X.lib</uri>
+    </library>
+    <library logical="rs485_rs232_can">
+      <uri>/home/hernan/repo_github/Hardware/PCB/PIC/components/rs485_rs232_can.lib</uri>
+    </library>
+    <library logical="Si50x">
+      <uri>/home/hernan/repo_github/Hardware/PCB/PIC/components/Si50x.lib</uri>
+    </library>
+    <library logical="w_device">
+      <uri>/home/hernan/repo_github/Hardware/PCB/PIC/components/w_device.lib</uri>
+    </library>
+    <library logical="TXB0108">
+      <uri>/home/hernan/repo_github/Hardware/PCB/PIC/components/TXB0108.lib</uri>
+    </library>
+    <library logical="FT2232H">
+      <uri>/home/hernan/repo_github/Hardware/PCB/PIC/components/FT2232H.lib</uri>
+    </library>
+    <library logical="93CXX">
+      <uri>/home/hernan/repo_github/Hardware/PCB/PIC/components/93CXX.lib</uri>
+    </library>
+    <library logical="PBSS5240">
+      <uri>/home/hernan/repo_github/Hardware/PCB/PIC/components/PBSS5240.lib</uri>
     </library>
     <library logical="lan_8740">
       <uri>/home/hernan/repo_github/Hardware/PCB/PIC/components/lan_8740.lib</uri>
@@ -5690,29 +5750,17 @@
     <library logical="mcp1416">
       <uri>/home/hernan/repo_github/Hardware/PCB/PIC/components/mcp1416.lib</uri>
     </library>
-    <library logical="PBSS5240">
-      <uri>/home/hernan/repo_github/Hardware/PCB/PIC/components/PBSS5240.lib</uri>
-    </library>
-    <library logical="93CXX">
-      <uri>/home/hernan/repo_github/Hardware/PCB/PIC/components/93CXX.lib</uri>
-    </library>
-    <library logical="TXB0108">
-      <uri>/home/hernan/repo_github/Hardware/PCB/PIC/components/TXB0108.lib</uri>
-    </library>
-    <library logical="Si50x">
-      <uri>/home/hernan/repo_github/Hardware/PCB/PIC/components/Si50x.lib</uri>
+    <library logical="Pic32MZ">
+      <uri>/home/hernan/repo_github/Hardware/PCB/PIC/components/Pic32MZ.lib</uri>
     </library>
     <library logical="logo">
       <uri>/home/hernan/repo_github/Hardware/PCB/PIC/components/logo.lib</uri>
     </library>
-    <library logical="ciaa-pic-cache">
-      <uri>/home/hernan/repo_github/Hardware/PCB/PIC/ciaa-pic-cache.lib</uri>
-    </library>
     <library logical="fqt13n06l">
       <uri>/home/hernan/repo_github/Hardware/PCB/PIC/components/fqt13n06l.lib</uri>
     </library>
-    <library logical="MIC2025">
-      <uri>/home/hernan/repo_github/Hardware/PCB/PIC/components/MIC2025.lib</uri>
+    <library logical="ciaa-pic-cache">
+      <uri>/home/hernan/repo_github/Hardware/PCB/PIC/ciaa-pic-cache.lib</uri>
     </library>
   </libraries>
   <nets>
