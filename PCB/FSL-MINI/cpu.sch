@@ -250,14 +250,6 @@ Text HLabel 2300 2350 0    60   Input ~ 0
 USB_ID
 Text HLabel 5700 1450 2    60   Input ~ 0
 AIN3
-Text HLabel 5700 9150 2    60   Input ~ 0
-DIN4
-Text HLabel 5700 7450 2    60   Input ~ 0
-DIN5
-Text HLabel 5700 7350 2    60   Input ~ 0
-DIN6
-Text HLabel 5700 7250 2    60   Input ~ 0
-DIN7
 Text HLabel 5700 6950 2    60   BiDi ~ 0
 GPIO0/I2C1_SDA
 Text HLabel 5700 5450 2    60   BiDi ~ 0
@@ -1533,8 +1525,6 @@ NoConn ~ 5600 2850
 Wire Wire Line
 	6500 1450 6500 1500
 Wire Wire Line
-	5600 9150 5700 9150
-Wire Wire Line
 	5600 9050 5700 9050
 Wire Wire Line
 	5600 8950 5700 8950
@@ -1550,12 +1540,6 @@ NoConn ~ 5600 3750
 NoConn ~ 5600 3850
 NoConn ~ 5600 3950
 NoConn ~ 5600 4050
-Wire Wire Line
-	5600 7250 5700 7250
-Wire Wire Line
-	5700 7350 5600 7350
-Wire Wire Line
-	5700 7450 5600 7450
 $Comp
 L R R606
 U 1 1 547F999C
@@ -1602,4 +1586,8 @@ Wire Wire Line
 	7650 900  7650 600 
 Wire Wire Line
 	7650 600  7600 600 
+NoConn ~ 5600 9150
+NoConn ~ 5600 7250
+NoConn ~ 5600 7350
+NoConn ~ 5600 7450
 $EndSCHEMATC
