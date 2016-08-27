@@ -1,0 +1,92 @@
+﻿Desarrollo CIAA-PIC
+===================
+
+Se toma el circuito esquem�tico de la CIAA-NXP como base para la CIAA-PIC
+
+
+Autores 
+=======
+
+* Fecha: 15/04/2014
+* Autores: El desarrollo de la CIAA-NXP se realiz� en forma colectiva en la siguiente lista/grupo:
+           https://groups.google.com/forum/#!forum/ciaa-hardware
+           Un listado de colaboradores:
+           https://docs.google.com/spreadsheet/ccc?key=0AhRC6m7OGuuYdGtRdEhlLUprcXZUYWQ2TDI0Slcta2c#gid=0
+           Web de la CIAA:
+           http://www.proyecto-ciaa.com.ar/devwiki/doku.php?id=versiones:v1_0:hardware:plan_desarrollo_hw#equipo_tecnico_a_cargo
+           Listado de desarrolladores obtenido del enlace anterior:
+           -Ing. Pablo Ridolfi;FIUBA, UTN-FRBA; Participaci�n en el dise�o del hardware. Vinculaci�n de esquem�ticos y selecci�n de componentes.
+           -Ing. Juan Cecconi; UTN-FRBA, Numetron S.R.L. Participaci�n en el dise�o del hardware. Selecci�n de componentes y simulaciones de performance.
+           -Sr. Dante Starkloff;  ASSISI S.R.L. Participaci�n en el dise�o del hardware. Asesor�a para el dise�o y montaje del PCB.
+           -Dar�o Sebasti�n Bali�a; Vortex Technologies; Dise�o de esquem�ticos RS232, RS485, CAN, USB, microSD, Ethernet (K60) y CPU (K60).
+           -Ing. Jorge Osio; UNLP, UNAJ, RYOTECH;  Dise�o de fuente de alimentaci�n, salidas a rel� y open drain, expansores GPIO.
+           -Mg. Ing. Guillermo Guichal; Emtech S.A.; Dise�o PCB de la CIAA-NXP.
+           -Ing. Mauro Koenig; Emtech S.A.; Dise�o PCB de la CIAA-NXP.
+           -Sr. Mart�n Ribelotta; Emtech S.A. Dise�o PCB de la CIAA-NXP.
+           -Ing. Ignacio Zaradnik; Electrocomponentes S.A., ACSE. Dise�o de esquem�tico y selecci�n de componentes.
+           -Sr. Jorge Fiszman; Adox S.A. Dise�o PCB de la CIAA-NXP: Ethernet, USB, microSD, CAN, RS232, RS485.
+           -Jose Fuentes; Max Control; Dise�o de esquem�ticos CIAA-ST.
+           -Entradas anal�gicas (en r�tulo): Javier Goglino - SesentaCuarenta.
+
+
+CIAA-PIC32
+==========
+
+
+* Fecha: 24/07/2015
+* Autor: Electronica Elemon S.A. 
+         Ing. Cesar Fuocco
+	   Nabla Electric S.A
+	   Ing. Rodriguez Hernan
+  
+* Archivos: Archivos .sch de Kicad.
+* Descripci�n: Se adapta el esquem�tico para el PIC32MZ de Microchip
+
+
+* Fecha: 4/08/2015
+* Autor: Electronica Elemon S.A. 
+         Ing. Cesar Fuocco
+	   Nabla Electric S.A
+	   Ing. Rodriguez Hernan
+  
+* Archivos: Archivos .sch de Kicad.
+* Descripci�n: Se realiza esquematico ethernet y se adaptan esquematicos DAC, USB, GPIO, 
+  memorias,CAN.
+
+* Fecha: 20/01/2016
+* Autor: Nabla Electric S.A
+	   Ing. Rodriguez Hernan
+	   Electronica Elemon S.A. 
+         Ing. Cesar Fuocco
+  
+* Archivos: Archivos .Kicad_pcb.
+* Descripción: Presentación preliminar de los componentes
+
+.
+* Fecha: 08/02/2016
+* Autor: Nabla Electric S.A
+	   Ing. Rodriguez Hernan (encargado de ruteo PCB)
+  
+* Archivos: Archivos .Kicad_pcb.
+* Descripción�n: Se termina la primer versión ruteada al 100%, sin revisar.
+
+
+* Fecha: 04/05/2016
+* Archivos: .sch de kicad y ciaa_pic.kicad_pcb
+* Autor: Diego Brengi
+* Descripción: Revisión Rápida CIAA-PIC.
+
+
+* Fecha: 29/05/2016
+* Archivos: .sch de kicad y ciaa_pic.kicad_pcb
+* Autor: Hernan Rodriguez
+* Descripción: Correcciones a la primer revisión del esquematico.
+
+
+
+
+
+
+
+
+
