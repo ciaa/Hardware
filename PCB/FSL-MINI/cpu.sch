@@ -257,15 +257,15 @@ GPIO1
 Text HLabel 5700 6850 2    60   BiDi ~ 0
 GPIO2/I2C1_SCL
 Text HLabel 5700 5550 2    60   BiDi ~ 0
-GPIO3
+GPIO3/SPI2_SCK
 Text HLabel 5700 6750 2    60   BiDi ~ 0
 GPIO4
 Text HLabel 5700 5650 2    60   BiDi ~ 0
-GPIO5
+GPIO5/SPI2_SOUT
 Text HLabel 2300 8150 0    60   Output ~ 0
 SPIFI_CS
 Text HLabel 5700 5750 2    60   BiDi ~ 0
-GPIO7
+GPIO7/SPI2_SIN
 Text HLabel 5700 6550 2    60   BiDi ~ 0
 GPIO8
 Text HLabel 5700 5850 2    60   BiDi ~ 0

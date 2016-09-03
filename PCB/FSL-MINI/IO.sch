@@ -24,12 +24,10 @@ Text HLabel 3550 2100 0    60   BiDi ~ 0
 GPIO2/I2C1_SCL
 Text HLabel 3700 4400 0    60   BiDi ~ 0
 GPIO4
-Text HLabel 3700 4500 0    60   BiDi ~ 0
-GPIO5
+Text HLabel 3550 1800 0    60   BiDi ~ 0
+GPIO5/SPI2_SOUT
 Text HLabel 3550 2200 0    60   BiDi ~ 0
 GPIO6/FTM3_CH4
-Text HLabel 3700 4700 0    60   BiDi ~ 0
-GPIO7
 Text HLabel 3700 4800 0    60   BiDi ~ 0
 GPIO8
 Text HLabel 3700 4900 0    60   BiDi ~ 0
@@ -54,11 +52,11 @@ Text HLabel 3550 1500 0    60   Output ~ 0
 GPIO_AN3
 Text HLabel 3700 6000 0    60   Input ~ 0
 AUX_UART_RTS/SPI_CS
-Text HLabel 3550 1700 0    60   Input ~ 0
+Text HLabel 3700 6100 0    60   Input ~ 0
 AUX_UART_CTS/SPI_CLK
-Text HLabel 3550 1900 0    60   Output ~ 0
+Text HLabel 3700 6300 0    60   Output ~ 0
 AUX_UART_RX/SPI_MISO
-Text HLabel 3550 1800 0    60   Input ~ 0
+Text HLabel 3700 6200 0    60   Input ~ 0
 AUX_UART_TX/SPI_MOSI/FTM3_CH2
 Text HLabel 3700 6500 0    60   Output ~ 0
 DIN0
@@ -119,8 +117,6 @@ Wire Wire Line
 	3750 1700 3550 1700
 Wire Wire Line
 	3750 1800 3550 1800
-Wire Wire Line
-	3750 1900 3550 1900
 Wire Wire Line
 	3900 6500 3700 6500
 Wire Wire Line
@@ -411,36 +407,18 @@ F 3 "" H 8050 1475 60  0000 C CNN
 	1    8250 2000
 	1    0    0    -1  
 $EndComp
-Text Label 3750 1700 0    60   ~ 0
-AUX_UART_CTS/SPI_CLK
-Text Label 3750 1800 0    60   ~ 0
-AUX_UART_TX/SPI_MOSI/FTM3_CH2
-Text Label 3750 1900 0    60   ~ 0
-AUX_UART_RX/SPI_MISO
 Wire Wire Line
-	2600 6100 3900 6100
+	3700 6100 3900 6100
 Wire Wire Line
-	2600 6200 3900 6200
+	3700 6200 3900 6200
 Wire Wire Line
-	2600 6300 3900 6300
-Text Label 2600 6100 2    60   ~ 0
-AUX_UART_CTS/SPI_CLK
-Text Label 2600 6200 2    60   ~ 0
-AUX_UART_TX/SPI_MOSI/FTM3_CH2
-Text Label 2600 6300 2    60   ~ 0
-AUX_UART_RX/SPI_MISO
+	3700 6300 3900 6300
 Wire Wire Line
 	9050 1500 9550 1500
 Wire Wire Line
 	9550 1700 9050 1700
 Wire Wire Line
 	9550 1600 9050 1600
-Text Label 9550 1500 0    60   ~ 0
-AUX_UART_CTS/SPI_CLK
-Text Label 9550 1700 0    60   ~ 0
-AUX_UART_TX/SPI_MOSI/FTM3_CH2
-Text Label 9550 1600 0    60   ~ 0
-AUX_UART_RX/SPI_MISO
 Wire Wire Line
 	9050 1400 9100 1400
 Wire Wire Line
@@ -547,14 +525,14 @@ Text HLabel 3550 2900 0    60   BiDi ~ 0
 GPIO1
 Wire Wire Line
 	3750 2900 3550 2900
-Text HLabel 3550 3000 0    60   BiDi ~ 0
-GPIO3
+Text HLabel 3550 1900 0    60   BiDi ~ 0
+GPIO3/SPI2_SCK
 Wire Wire Line
-	3750 3000 3550 3000
+	3750 1900 3550 1900
 Text Label 3750 2900 0    60   ~ 0
 GPIO1
-Text Label 3750 3000 0    60   ~ 0
-GPIO3
+Text Label 3750 1900 0    60   ~ 0
+GPIO3/SPI2_SCK
 Wire Wire Line
 	3250 4100 3900 4100
 Wire Wire Line
@@ -562,15 +540,13 @@ Wire Wire Line
 Text Label 3250 4100 2    60   ~ 0
 GPIO1
 Text Label 3250 4300 2    60   ~ 0
-GPIO3
+GPIO3/SPI2_SCK
 Wire Wire Line
 	9550 2200 9050 2200
 Wire Wire Line
 	9550 2000 9050 2000
 Text Label 9550 2200 0    60   ~ 0
 GPIO1
-Text Label 9550 2000 0    60   ~ 0
-GPIO3
 Wire Wire Line
 	3850 6400 3900 6400
 $Comp
@@ -642,4 +618,21 @@ F 3 "" H 4100 5450 50  0000 C CNN
 	1    4100 5450
 	1    0    0    -1  
 $EndComp
+Text Label 9550 1500 0    60   ~ 0
+GPIO3/SPI2_SCK
+Text HLabel 3550 1700 0    60   BiDi ~ 0
+GPIO7/SPI2_SIN
+Text Label 3750 1700 0    60   ~ 0
+GPIO7/SPI2_SIN
+Text Label 9550 1600 0    60   ~ 0
+GPIO7/SPI2_SIN
+Text Label 3700 4700 2    60   ~ 0
+GPIO7/SPI2_SIN
+Text Label 3750 1800 0    60   ~ 0
+GPIO5/SPI2_SOUT
+Text Label 9550 1700 0    60   ~ 0
+GPIO5/SPI2_SOUT
+Text Label 3700 4500 2    60   ~ 0
+GPIO5/SPI2_SOUT
+NoConn ~ 9550 2000
 $EndSCHEMATC
