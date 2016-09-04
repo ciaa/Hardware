@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/hernan/repo_github/HardwareCIAA/PCB/PIC/ciaa-pic.sch)
-    (date "dom 04 sep 2016 00:07:57 ART")
+    (date "dom 04 sep 2016 00:36:38 ART")
     (tool "Eeschema 4.0.2+dfsg1-2~bpo8+1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1473,6 +1473,7 @@
       (tstamp 52CA434B))
     (comp (ref D27)
       (value LL4148)
+      (footprint footprints:1n4148)
       (fields
         (field (name manf#) LL4148))
       (libsource (lib BLM15HG6015N1D) (part DIODE))
@@ -1538,6 +1539,7 @@
       (tstamp 52CDA914))
     (comp (ref D30)
       (value LL4148)
+      (footprint footprints:1n4148)
       (fields
         (field (name manf#) LL4148))
       (libsource (lib BLM15HG6015N1D) (part DIODE))
@@ -1561,6 +1563,7 @@
       (tstamp 52CDA957))
     (comp (ref D28)
       (value LL4148)
+      (footprint footprints:1n4148)
       (fields
         (field (name manf#) LL4148))
       (libsource (lib BLM15HG6015N1D) (part DIODE))
@@ -1584,6 +1587,7 @@
       (tstamp 52CDA99A))
     (comp (ref D31)
       (value LL4148)
+      (footprint footprints:1n4148)
       (fields
         (field (name manf#) LL4148))
       (libsource (lib BLM15HG6015N1D) (part DIODE))
@@ -2642,7 +2646,7 @@
       (tstamp 53BAF7E9))
     (comp (ref C66)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -2670,6 +2674,7 @@
       (tstamp 543D3AFF))
     (comp (ref C95)
       (value 2700pf)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) CL10B272KB8SFNC))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -2686,6 +2691,7 @@
       (tstamp 543D3CDD))
     (comp (ref C97)
       (value 5600pf)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) "CL10B562KB8SFNC "))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -2693,6 +2699,7 @@
       (tstamp 543D3E99))
     (comp (ref C96)
       (value 2700pf)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) CL10B272KB8SFNC))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -3646,7 +3653,7 @@
       (datasheet https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-238V_en.pdf)
       (fields
         (field (name manf#) "FA-238V 12.0000MB-W3 "))
-      (libsource (lib Si50x) (part FA-238V))
+      (libsource (lib ciaa-pic-cache) (part FA-238V))
       (sheetpath (names /JTAG/) (tstamps /577C4855/))
       (tstamp 57CC1042)))
   (libparts
@@ -3887,7 +3894,7 @@
       (pins
         (pin (num 1) (name cathode) (type passive))
         (pin (num 2) (name Anode) (type passive))))
-    (libpart (lib Si50x) (part FA-238V)
+    (libpart (lib ciaa-pic-cache) (part FA-238V)
       (fields
         (field (name Reference) U)
         (field (name Value) FA-238V))
@@ -4659,16 +4666,16 @@
       (uri /home/hernan/repo_github/HardwareCIAA/PCB/PIC/components/93CXX.lib))
     (library (logical PBSS5240)
       (uri /home/hernan/repo_github/HardwareCIAA/PCB/PIC/components/PBSS5240.lib))
+    (library (logical Pic32MZ)
+      (uri /home/hernan/repo_github/HardwareCIAA/PCB/PIC/components/Pic32MZ.lib))
     (library (logical lan_8740)
       (uri /home/hernan/repo_github/HardwareCIAA/PCB/PIC/components/lan_8740.lib))
     (library (logical mcp1416)
       (uri /home/hernan/repo_github/HardwareCIAA/PCB/PIC/components/mcp1416.lib))
-    (library (logical fqt13n06l)
-      (uri /home/hernan/repo_github/HardwareCIAA/PCB/PIC/components/fqt13n06l.lib))
-    (library (logical Pic32MZ)
-      (uri /home/hernan/repo_github/HardwareCIAA/PCB/PIC/components/Pic32MZ.lib))
     (library (logical logo)
       (uri /home/hernan/repo_github/HardwareCIAA/PCB/PIC/components/logo.lib))
+    (library (logical fqt13n06l)
+      (uri /home/hernan/repo_github/HardwareCIAA/PCB/PIC/components/fqt13n06l.lib))
     (library (logical ciaa-pic-cache)
       (uri /home/hernan/repo_github/HardwareCIAA/PCB/PIC/ciaa-pic-cache.lib)))
   (nets
