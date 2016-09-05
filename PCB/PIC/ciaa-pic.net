@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/hernan/repo_github/HardwareCIAA/PCB/PIC/ciaa-pic.sch)
-    (date "dom 04 sep 2016 00:36:38 ART")
+    (date "dom 04 sep 2016 13:39:09 ART")
     (tool "Eeschema 4.0.2+dfsg1-2~bpo8+1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -227,7 +227,7 @@
       (tstamp 574CBFC9))
     (comp (ref C7)
       (value 470pF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C471K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -243,7 +243,7 @@
       (tstamp 529F70A6))
     (comp (ref C6)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) "C0603C104K5RACTU "))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -251,7 +251,7 @@
       (tstamp 529F7101))
     (comp (ref C2)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) "C0603C104K5RACTU "))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -259,7 +259,7 @@
       (tstamp 529F71A7))
     (comp (ref C3)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) "C0603C104K5RACTU "))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -267,7 +267,7 @@
       (tstamp 529F71AD))
     (comp (ref R2)
       (value "4k7 1%")
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) RC0603FR-074K7L))
       (libsource (lib ciaa-pic-rescue) (part R-RESCUE-ciaa-pic))
@@ -275,7 +275,7 @@
       (tstamp 529F7377))
     (comp (ref R1)
       (value 1k5)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) 311-1.5KGRCT-ND))
       (libsource (lib ciaa-pic-rescue) (part R-RESCUE-ciaa-pic))
@@ -283,7 +283,7 @@
       (tstamp 529F7386))
     (comp (ref R3)
       (value 50)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) RC0603FR-0749R9L))
       (libsource (lib ciaa-pic-rescue) (part R-RESCUE-ciaa-pic))
@@ -291,7 +291,7 @@
       (tstamp 529F75AC))
     (comp (ref R4)
       (value 50)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) RC0603FR-0749R9L))
       (libsource (lib ciaa-pic-rescue) (part R-RESCUE-ciaa-pic))
@@ -299,7 +299,7 @@
       (tstamp 529F75BB))
     (comp (ref R5)
       (value 50)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) RC0603FR-0749R9L))
       (libsource (lib ciaa-pic-rescue) (part R-RESCUE-ciaa-pic))
@@ -307,7 +307,7 @@
       (tstamp 529F7742))
     (comp (ref R6)
       (value 50)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) RC0603FR-0749R9L))
       (libsource (lib ciaa-pic-rescue) (part R-RESCUE-ciaa-pic))
@@ -315,13 +315,13 @@
       (tstamp 529F7748))
     (comp (ref C10)
       (value 22nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
       (sheetpath (names /Ethernet/) (tstamps /52C34F34/))
       (tstamp 529F774E))
     (comp (ref C11)
       (value 12pF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) "CBR02C120F3GAC "))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -329,7 +329,7 @@
       (tstamp 529F7A1A))
     (comp (ref C12)
       (value 12pF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) "CBR02C120F3GAC "))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -337,7 +337,7 @@
       (tstamp 529F7AA0))
     (comp (ref C13)
       (value 12pF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) "CBR02C120F3GAC "))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -345,7 +345,7 @@
       (tstamp 529F7AAD))
     (comp (ref C14)
       (value 12pF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) "CBR02C120F3GAC "))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -353,7 +353,7 @@
       (tstamp 529F7ABA))
     (comp (ref R17)
       (value 270)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) RC0603JR-07270RL))
       (libsource (lib ciaa-pic-rescue) (part R-RESCUE-ciaa-pic))
@@ -361,7 +361,7 @@
       (tstamp 529F7EB8))
     (comp (ref R18)
       (value 270)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) RC0603JR-07270RL))
       (libsource (lib ciaa-pic-rescue) (part R-RESCUE-ciaa-pic))
@@ -369,7 +369,7 @@
       (tstamp 529F7EC7))
     (comp (ref R19)
       (value "12.1k 1%")
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) "RC0603FR-0712K1L "))
       (libsource (lib ciaa-pic-rescue) (part R-RESCUE-ciaa-pic))
@@ -377,7 +377,7 @@
       (tstamp 529F809E))
     (comp (ref C15)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -385,7 +385,7 @@
       (tstamp 529F82E9))
     (comp (ref R7)
       (value 0)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) RC0603JR-070RL))
       (libsource (lib ciaa-pic-rescue) (part R-RESCUE-ciaa-pic))
@@ -393,7 +393,7 @@
       (tstamp 529F8A77))
     (comp (ref R8)
       (value 0)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) RC0603JR-070RL))
       (libsource (lib ciaa-pic-rescue) (part R-RESCUE-ciaa-pic))
@@ -401,7 +401,7 @@
       (tstamp 529F8A86))
     (comp (ref R9)
       (value 0)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) RC0603JR-070RL))
       (libsource (lib ciaa-pic-rescue) (part R-RESCUE-ciaa-pic))
@@ -409,7 +409,7 @@
       (tstamp 529F8AE4))
     (comp (ref R10)
       (value 22)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) RC0603JR-0722RL))
       (libsource (lib ciaa-pic-rescue) (part R-RESCUE-ciaa-pic))
@@ -417,7 +417,7 @@
       (tstamp 529F8AEA))
     (comp (ref R11)
       (value 22)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) RC0603JR-0722RL))
       (libsource (lib ciaa-pic-rescue) (part R-RESCUE-ciaa-pic))
@@ -425,7 +425,7 @@
       (tstamp 529F8AFC))
     (comp (ref R12)
       (value 22)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) RC0603JR-0722RL))
       (libsource (lib ciaa-pic-rescue) (part R-RESCUE-ciaa-pic))
@@ -433,7 +433,7 @@
       (tstamp 529F8B02))
     (comp (ref R13)
       (value 0)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) " RC0603JR-070RL"))
       (libsource (lib ciaa-pic-rescue) (part R-RESCUE-ciaa-pic))
@@ -441,7 +441,7 @@
       (tstamp 529F8E9C))
     (comp (ref R14)
       (value 0)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) RC0603JR-070RL))
       (libsource (lib ciaa-pic-rescue) (part R-RESCUE-ciaa-pic))
@@ -449,7 +449,7 @@
       (tstamp 529F8EA2))
     (comp (ref C4)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -468,7 +468,7 @@
       (tstamp 52BC24C2))
     (comp (ref R20)
       (value 33)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) RC0603JR-0733RL))
       (libsource (lib ciaa-pic-rescue) (part R-RESCUE-ciaa-pic))
@@ -476,7 +476,7 @@
       (tstamp 52BC2833))
     (comp (ref R15)
       (value 10k)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) " RC0603JR-0710KL"))
       (libsource (lib ciaa-pic-rescue) (part R-RESCUE-ciaa-pic))
@@ -484,7 +484,7 @@
       (tstamp 52BC2A10))
     (comp (ref R16)
       (value 10k)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) " RC0603JR-0710KL"))
       (libsource (lib ciaa-pic-rescue) (part R-RESCUE-ciaa-pic))
@@ -492,7 +492,7 @@
       (tstamp 52BC2A34))
     (comp (ref R21)
       (value 100k)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) RC0603JR-07100KL))
       (libsource (lib ciaa-pic-rescue) (part R-RESCUE-ciaa-pic))
@@ -524,7 +524,7 @@
       (tstamp 538D135B))
     (comp (ref C63)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -564,7 +564,7 @@
       (tstamp 538DFC93))
     (comp (ref R31)
       (value "4k7 1%")
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) "RC0603FR-074K7L "))
       (libsource (lib ciaa-pic-rescue) (part R-RESCUE-ciaa-pic))
@@ -624,7 +624,7 @@
       (tstamp 529F720A))
     (comp (ref R25)
       (value 1M)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) RC0603FR-0749R9L))
       (libsource (lib ciaa-pic-rescue) (part R-RESCUE-ciaa-pic))
@@ -632,7 +632,7 @@
       (tstamp 57C62FEA))
     (comp (ref C64)
       (value 100nf)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) "CBR02C120F3GAC "))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -640,7 +640,7 @@
       (tstamp 57C630C8))
     (comp (ref U5)
       (value MAX3072)
-      (footprint SMD_Packages:SOIC-8-N)
+      (footprint footprints:-SOIC8)
       (datasheet http://www.digikey.com/product-detail/en/maxim-integrated/MAX3072EESA-T/MAX3072EESA-TCT-ND/3647905)
       (fields
         (field (name "MAX3072 manf#") MAX3072EESA+T)
@@ -651,7 +651,7 @@
       (tstamp 52C5B349))
     (comp (ref C22)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib rs485_rs232_can) (part C_MINI))
@@ -659,7 +659,7 @@
       (tstamp 52C5B34A))
     (comp (ref R33)
       (value 100K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) RC0603JR-07100KL))
       (libsource (lib rs485_rs232_can) (part R_MINI))
@@ -667,7 +667,7 @@
       (tstamp 52C5B34C))
     (comp (ref R35)
       (value 220)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) "RC0603JR-07220RL "))
       (libsource (lib rs485_rs232_can) (part R_MINI))
@@ -675,7 +675,7 @@
       (tstamp 52C5B34D))
     (comp (ref R38)
       (value 100K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) RC0603JR-07100KL))
       (libsource (lib rs485_rs232_can) (part R_MINI))
@@ -708,7 +708,7 @@
       (tstamp 52C5B351))
     (comp (ref C24)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib rs485_rs232_can) (part C_MINI))
@@ -716,7 +716,7 @@
       (tstamp 52C5B352))
     (comp (ref C26)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib rs485_rs232_can) (part C_MINI))
@@ -724,7 +724,7 @@
       (tstamp 52C5B353))
     (comp (ref C25)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib rs485_rs232_can) (part C_MINI))
@@ -732,7 +732,7 @@
       (tstamp 52C5B354))
     (comp (ref C27)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib rs485_rs232_can) (part C_MINI))
@@ -740,7 +740,7 @@
       (tstamp 52C5B355))
     (comp (ref C23)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib rs485_rs232_can) (part C_MINI))
@@ -756,7 +756,7 @@
       (tstamp 52C5B35E))
     (comp (ref R32)
       (value 390)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) RC0603JR-07390R))
       (libsource (lib rs485_rs232_can) (part R_MINI))
@@ -764,7 +764,7 @@
       (tstamp 52C5B362))
     (comp (ref R39)
       (value 390)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) RC0603JR-07390R))
       (libsource (lib rs485_rs232_can) (part R_MINI))
@@ -798,7 +798,7 @@
       (tstamp 52C5B36A))
     (comp (ref C29)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib rs485_rs232_can) (part C_MINI))
@@ -845,7 +845,7 @@
       (tstamp 52C5B378))
     (comp (ref C30)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib rs485_rs232_can) (part C_MINI))
@@ -875,7 +875,7 @@
       (tstamp 52C5B37D))
     (comp (ref R37)
       (value 4K7)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) RC0603JR-074K7L))
       (libsource (lib rs485_rs232_can) (part R_MINI))
@@ -883,7 +883,7 @@
       (tstamp 52C5B37E))
     (comp (ref R36)
       (value 4K7)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) RC0603JR-074K7L))
       (libsource (lib rs485_rs232_can) (part R_MINI))
@@ -930,7 +930,7 @@
       (tstamp 52C5B387))
     (comp (ref R41)
       (value 4K7)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) RC0603JR-074K7L))
       (libsource (lib rs485_rs232_can) (part R_MINI))
@@ -938,7 +938,7 @@
       (tstamp 52C5B38A))
     (comp (ref R34)
       (value 4K7)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (libsource (lib rs485_rs232_can) (part R_MINI))
       (sheetpath (names /RS485_RS232_CAN/) (tstamps /52C1F703/))
       (tstamp 52C5B38C))
@@ -1041,7 +1041,7 @@
       (tstamp 52BC4098))
     (comp (ref C32)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -1057,7 +1057,7 @@
       (tstamp 52BC445A))
     (comp (ref C33)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -1153,7 +1153,7 @@
       (tstamp 53F1373B))
     (comp (ref D13)
       (value "LED red")
-      (footprint LEDs:LED_0603)
+      (footprint footprints:LED-0603)
       (fields
         (field (name manf#) "QTLP600C7TR "))
       (libsource (lib ciaa-pic-rescue) (part LED-RESCUE-ciaa-pic))
@@ -1177,7 +1177,7 @@
       (tstamp 53F13DFF))
     (comp (ref D14)
       (value "LED red")
-      (footprint LEDs:LED_0603)
+      (footprint footprints:LED-0603)
       (fields
         (field (name manf#) "QTLP600C7TR "))
       (libsource (lib ciaa-pic-rescue) (part LED-RESCUE-ciaa-pic))
@@ -1201,7 +1201,7 @@
       (tstamp 53F13E7B))
     (comp (ref D15)
       (value "LED red")
-      (footprint LEDs:LED_0603)
+      (footprint footprints:LED-0603)
       (fields
         (field (name manf#) "QTLP600C7TR "))
       (libsource (lib ciaa-pic-rescue) (part LED-RESCUE-ciaa-pic))
@@ -1225,7 +1225,7 @@
       (tstamp 53F13EC1))
     (comp (ref D16)
       (value "LED red")
-      (footprint LEDs:LED_0603)
+      (footprint footprints:LED-0603)
       (fields
         (field (name manf#) "QTLP600C7TR "))
       (libsource (lib ciaa-pic-rescue) (part LED-RESCUE-ciaa-pic))
@@ -1241,7 +1241,7 @@
       (tstamp 53F13F60))
     (comp (ref D17)
       (value "LED red")
-      (footprint LEDs:LED_0603)
+      (footprint footprints:LED-0603)
       (fields
         (field (name manf#) "QTLP600C7TR "))
       (libsource (lib ciaa-pic-rescue) (part LED-RESCUE-ciaa-pic))
@@ -1249,7 +1249,7 @@
       (tstamp 53F13F72))
     (comp (ref D18)
       (value "LED red")
-      (footprint LEDs:LED_0603)
+      (footprint footprints:LED-0603)
       (fields
         (field (name manf#) "QTLP600C7TR "))
       (libsource (lib ciaa-pic-rescue) (part LED-RESCUE-ciaa-pic))
@@ -1257,7 +1257,7 @@
       (tstamp 53F13FB1))
     (comp (ref D19)
       (value "LED red")
-      (footprint LEDs:LED_0603)
+      (footprint footprints:LED-0603)
       (fields
         (field (name manf#) "QTLP600C7TR "))
       (libsource (lib ciaa-pic-rescue) (part LED-RESCUE-ciaa-pic))
@@ -1265,7 +1265,7 @@
       (tstamp 53F13FF0))
     (comp (ref D20)
       (value "LED red")
-      (footprint LEDs:LED_0603)
+      (footprint footprints:LED-0603)
       (fields
         (field (name manf#) "QTLP600C7TR "))
       (libsource (lib ciaa-pic-rescue) (part LED-RESCUE-ciaa-pic))
@@ -1619,7 +1619,7 @@
       (tstamp 52E0878B))
     (comp (ref D21)
       (value "LED red")
-      (footprint LEDs:LED_0603)
+      (footprint footprints:LED-0603)
       (fields
         (field (name manf#) "QTLP600C7TR "))
       (libsource (lib ciaa-pic-rescue) (part LED-RESCUE-ciaa-pic))
@@ -1635,7 +1635,7 @@
       (tstamp 52E08870))
     (comp (ref D22)
       (value "LED red")
-      (footprint LEDs:LED_0603)
+      (footprint footprints:LED-0603)
       (fields
         (field (name manf#) "QTLP600C7TR "))
       (libsource (lib ciaa-pic-rescue) (part LED-RESCUE-ciaa-pic))
@@ -1651,7 +1651,7 @@
       (tstamp 52E08895))
     (comp (ref D33)
       (value "LED red")
-      (footprint LEDs:LED_0603)
+      (footprint footprints:LED-0603)
       (fields
         (field (name manf#) "QTLP600C7TR "))
       (libsource (lib ciaa-pic-rescue) (part LED-RESCUE-ciaa-pic))
@@ -1659,7 +1659,7 @@
       (tstamp 52E0889B))
     (comp (ref D36)
       (value "LED red")
-      (footprint LEDs:LED_0603)
+      (footprint footprints:LED-0603)
       (fields
         (field (name manf#) "QTLP600C7TR "))
       (libsource (lib ciaa-pic-rescue) (part LED-RESCUE-ciaa-pic))
@@ -1675,7 +1675,7 @@
       (tstamp 52E032C2))
     (comp (ref D23)
       (value "LED red")
-      (footprint LEDs:LED_0603)
+      (footprint footprints:LED-0603)
       (fields
         (field (name manf#) QTLP600C7TR))
       (libsource (lib ciaa-pic-rescue) (part LED-RESCUE-ciaa-pic))
@@ -1691,7 +1691,7 @@
       (tstamp 52E032EB))
     (comp (ref D24)
       (value "LED red")
-      (footprint LEDs:LED_0603)
+      (footprint footprints:LED-0603)
       (fields
         (field (name manf#) QTLP600C7TR))
       (libsource (lib ciaa-pic-rescue) (part LED-RESCUE-ciaa-pic))
@@ -1715,7 +1715,7 @@
       (tstamp 52E03313))
     (comp (ref D35)
       (value "LED red")
-      (footprint LEDs:LED_0603)
+      (footprint footprints:LED-0603)
       (fields
         (field (name manf#) QTLP600C7TR))
       (libsource (lib ciaa-pic-rescue) (part LED-RESCUE-ciaa-pic))
@@ -1723,7 +1723,7 @@
       (tstamp 52E03319))
     (comp (ref D34)
       (value "LED red")
-      (footprint LEDs:LED_0603)
+      (footprint footprints:LED-0603)
       (fields
         (field (name manf#) QTLP600C7TR))
       (libsource (lib ciaa-pic-rescue) (part LED-RESCUE-ciaa-pic))
@@ -1779,7 +1779,7 @@
       (tstamp 52F6BFAF))
     (comp (ref C100)
       (value 1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C105K9PACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -1828,7 +1828,7 @@
       (tstamp 53F1AA7B))
     (comp (ref C101)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) "C0603C104K5RACTU "))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -1836,7 +1836,7 @@
       (tstamp 551B6445))
     (comp (ref C83)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) "C0603C104K5RACTU "))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -1860,7 +1860,7 @@
       (tstamp 551B7145))
     (comp (ref C102)
       (value 1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C105K9PACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -1868,7 +1868,7 @@
       (tstamp 551B7155))
     (comp (ref C89)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) "C0603C104K5RACTU "))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -1876,7 +1876,7 @@
       (tstamp 551B7165))
     (comp (ref C94)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) "C0603C104K5RACTU "))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -1884,7 +1884,7 @@
       (tstamp 551B8D84))
     (comp (ref C103)
       (value 1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C105K9PACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -1928,7 +1928,7 @@
       (tstamp 551B8DCA))
     (comp (ref C104)
       (value 1uF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C105K9PACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -1976,7 +1976,7 @@
       (tstamp 57C6C983))
     (comp (ref C36)
       (value 1nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C102K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -2017,7 +2017,7 @@
       (tstamp 52C4213E))
     (comp (ref C35)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -2042,7 +2042,7 @@
       (tstamp 52C423F1))
     (comp (ref C39)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -2059,7 +2059,7 @@
       (tstamp 52C43452))
     (comp (ref C41)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -2076,7 +2076,7 @@
       (tstamp 52C43E59))
     (comp (ref C43)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -2084,7 +2084,7 @@
       (tstamp 52C43E65))
     (comp (ref C38)
       (value 470pF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C471K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -2142,7 +2142,7 @@
       (tstamp 52D4CAA4))
     (comp (ref D9)
       (value BAV199)
-      (footprint footprints:SOT23-DIODE)
+      (footprint footprints:SOT23)
       (datasheet http://www.onsemi.com/pub_link/Collateral/BAV199LT1-D.PDF)
       (fields
         (field (name manf#) "BAV199LT1G "))
@@ -2163,7 +2163,7 @@
       (tstamp 52D74E74))
     (comp (ref C42)
       (value 1nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C102K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -2187,7 +2187,7 @@
       (tstamp 52D75253))
     (comp (ref C40)
       (value 470pF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C471K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -2245,7 +2245,7 @@
       (tstamp 52D7529B))
     (comp (ref D10)
       (value BAV199)
-      (footprint footprints:SOT23-DIODE)
+      (footprint footprints:SOT23)
       (datasheet http://www.onsemi.com/pub_link/Collateral/BAV199LT1-D.PDF)
       (fields
         (field (name manf#) "BAV199LT1G "))
@@ -2266,7 +2266,7 @@
       (tstamp 52D752B6))
     (comp (ref C91)
       (value 1nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C102K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -2290,7 +2290,7 @@
       (tstamp 52D752E1))
     (comp (ref C44)
       (value 470pF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C471K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -2348,7 +2348,7 @@
       (tstamp 52D75329))
     (comp (ref D11)
       (value BAV199)
-      (footprint footprints:SOT23-DIODE)
+      (footprint footprints:SOT23)
       (datasheet http://www.onsemi.com/pub_link/Collateral/BAV199LT1-D.PDF)
       (fields
         (field (name manf#) "BAV199LT1G "))
@@ -2369,7 +2369,7 @@
       (tstamp 52D75344))
     (comp (ref C93)
       (value 1nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C102K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -2393,7 +2393,7 @@
       (tstamp 52D7536F))
     (comp (ref C92)
       (value 470pF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C471K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -2451,7 +2451,7 @@
       (tstamp 52D753B7))
     (comp (ref D12)
       (value BAV199)
-      (footprint footprints:SOT23-DIODE)
+      (footprint footprints:SOT23)
       (datasheet http://www.onsemi.com/pub_link/Collateral/BAV199LT1-D.PDF)
       (fields
         (field (name manf#) "BAV199LT1G "))
@@ -2472,7 +2472,7 @@
       (tstamp 52D753D2))
     (comp (ref C37)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -2496,7 +2496,7 @@
       (tstamp 52F6F914))
     (comp (ref C46)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -2525,7 +2525,7 @@
       (tstamp 532D06DF))
     (comp (ref U18)
       (value LM358)
-      (footprint SMD_Packages:SOIC-8-N)
+      (footprint footprints:-SOIC8)
       (fields
         (field (name manf#) "LM358DG "))
       (libsource (lib ciaa-pic-rescue) (part LM358-RESCUE-ciaa-pic))
@@ -2597,7 +2597,7 @@
       (tstamp 532CE4DA))
     (comp (ref D48)
       (value BAV199)
-      (footprint footprints:-SOT89)
+      (footprint footprints:SOT23)
       (fields
         (field (name manf#) "BAV199LT1G "))
       (libsource (lib w_device) (part BAV199))
@@ -2605,7 +2605,7 @@
       (tstamp 532CF81C))
     (comp (ref C88)
       (value 10nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) "C0603C103K5RACTU "))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -2716,7 +2716,7 @@
       (tstamp 5493EE17))
     (comp (ref C84)
       (value 3300pf)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) GRM033R71E331KA01D))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -2724,7 +2724,7 @@
       (tstamp 543D3C4B))
     (comp (ref U12)
       (value 24AA1025)
-      (footprint SMD_Packages:SOIC-8-N)
+      (footprint footprints:SO8-sst)
       (fields
         (field (name manf#) 24AA1025T-I/SN))
       (libsource (lib logo) (part 24C512))
@@ -2732,7 +2732,7 @@
       (tstamp 52E536A7))
     (comp (ref C19)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) "C0603C104K5RACTU "))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -2740,7 +2740,7 @@
       (tstamp 52E536BF))
     (comp (ref U13)
       (value 24AA025E48)
-      (footprint SMD_Packages:SOIC-8-N)
+      (footprint footprints:SO8-sst)
       (fields
         (field (name manf#) 24AA025E48T-I/SN))
       (libsource (lib logo) (part 24C512))
@@ -2748,7 +2748,7 @@
       (tstamp 52E536EE))
     (comp (ref C20)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) "C0603C104K5RACTU "))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -2756,7 +2756,7 @@
       (tstamp 52E53706))
     (comp (ref R23)
       (value 0)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) RC0603JR-070RL)
         (field (name "#Digikey") " 311-0.0GRCT-ND"))
@@ -2765,7 +2765,7 @@
       (tstamp 52E53742))
     (comp (ref R24)
       (value 0)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) RC0603JR-070RL))
       (libsource (lib ciaa-pic-rescue) (part R-RESCUE-ciaa-pic))
@@ -2773,7 +2773,7 @@
       (tstamp 52E5375F))
     (comp (ref C45)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) "C0603C104K5RACTU "))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -2894,7 +2894,7 @@
       (tstamp 52CF8844))
     (comp (ref R22)
       (value 1k)
-      (footprint Resistors_SMD:R_0603)
+      (footprint footprints:SM0603_Resistor)
       (fields
         (field (name manf#) RC0603JR-071KL))
       (libsource (lib ciaa-pic-rescue) (part R-RESCUE-ciaa-pic))
@@ -2942,7 +2942,7 @@
       (tstamp 52F6ABD6))
     (comp (ref D25)
       (value "LED green")
-      (footprint LEDs:LED_0603)
+      (footprint footprints:LED-0603)
       (fields
         (field (name manf#) LTST-C191KGKT))
       (libsource (lib ciaa-pic-rescue) (part LED-RESCUE-ciaa-pic))
@@ -2958,7 +2958,7 @@
       (tstamp 551A51AA))
     (comp (ref C49)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -2966,7 +2966,7 @@
       (tstamp 52C1CF48))
     (comp (ref C50)
       (value 10nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) "C0603C103K5RACTU "))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -2974,7 +2974,7 @@
       (tstamp 52C1CF49))
     (comp (ref C51)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -2982,7 +2982,7 @@
       (tstamp 52C1CF4A))
     (comp (ref C52)
       (value 10nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) "C0603C103K5RACTU "))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -2990,7 +2990,7 @@
       (tstamp 52C1CF4B))
     (comp (ref C53)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -2998,7 +2998,7 @@
       (tstamp 52C1CF4C))
     (comp (ref C54)
       (value 10nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) "C0603C103K5RACTU "))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -3006,7 +3006,7 @@
       (tstamp 52C1CF4D))
     (comp (ref C55)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -3014,7 +3014,7 @@
       (tstamp 52C1CF4E))
     (comp (ref C56)
       (value 10nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) "C0603C103K5RACTU "))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -3022,7 +3022,7 @@
       (tstamp 52C1CF4F))
     (comp (ref C57)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -3030,7 +3030,7 @@
       (tstamp 52C1CF50))
     (comp (ref C58)
       (value 10nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) "C0603C103K5RACTU "))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -3038,7 +3038,7 @@
       (tstamp 52C1CF51))
     (comp (ref C48)
       (value 10nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) "C0603C103K5RACTU "))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -3046,7 +3046,7 @@
       (tstamp 52C1CF52))
     (comp (ref C47)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -3054,7 +3054,7 @@
       (tstamp 52C1CF53))
     (comp (ref C69)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -3070,7 +3070,7 @@
       (tstamp 52C1CF64))
     (comp (ref C82)
       (value 10nf)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) "C0603C103K5RACTU "))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -3118,7 +3118,7 @@
       (tstamp 53869DF0))
     (comp (ref C85)
       (value 10nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) "C0603C103K5RACTU "))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -3249,7 +3249,7 @@
       (tstamp 56C2BE63))
     (comp (ref C87)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -3257,7 +3257,7 @@
       (tstamp 52C1CF57))
     (comp (ref C86)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -3265,7 +3265,7 @@
       (tstamp 52C1CF58))
     (comp (ref C59)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -3290,7 +3290,7 @@
       (tstamp 52C1CF89))
     (comp (ref C90)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -3330,7 +3330,7 @@
       (tstamp 52C1CF91))
     (comp (ref C62)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -3338,7 +3338,7 @@
       (tstamp 52C1CFA4))
     (comp (ref C61)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU)
         (field (name manf#) C0603C104K5RACTU))
@@ -3431,7 +3431,7 @@
       (tstamp 52C1CFC2))
     (comp (ref C77)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -3439,7 +3439,7 @@
       (tstamp 52C1CFC3))
     (comp (ref C67)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -3447,7 +3447,7 @@
       (tstamp 52C1CFC9))
     (comp (ref C70)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -3455,7 +3455,7 @@
       (tstamp 52C1CFCB))
     (comp (ref C71)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -3463,7 +3463,7 @@
       (tstamp 52C1CFCC))
     (comp (ref C72)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -3471,7 +3471,7 @@
       (tstamp 52C1CFCD))
     (comp (ref C73)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -3479,7 +3479,7 @@
       (tstamp 52C1CFCE))
     (comp (ref C74)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -3487,7 +3487,7 @@
       (tstamp 52C1CFCF))
     (comp (ref C75)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -3495,7 +3495,7 @@
       (tstamp 52C1CFD0))
     (comp (ref C76)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -3575,7 +3575,7 @@
       (tstamp 5318F620))
     (comp (ref C81)
       (value 12p)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) " 06031A120CAT2A"))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -3583,7 +3583,7 @@
       (tstamp 53A5EF52))
     (comp (ref C79)
       (value 12p)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) " 06031A120CAT2A"))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -3591,13 +3591,13 @@
       (tstamp 53A5EF58))
     (comp (ref C98)
       (value 10nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
       (sheetpath (names /JTAG/) (tstamps /577C4855/))
       (tstamp 53D279D2))
     (comp (ref C99)
       (value 100nF)
-      (footprint Capacitors_SMD:C_0603)
+      (footprint footprints:c_0603)
       (fields
         (field (name manf#) C0603C104K5RACTU))
       (libsource (lib ciaa-pic-rescue) (part C-RESCUE-ciaa-pic))
@@ -3611,7 +3611,7 @@
       (tstamp 5498E227))
     (comp (ref D47)
       (value LED)
-      (footprint LEDs:LED_0603)
+      (footprint footprints:LED-0603)
       (fields
         (field (name manf#) "QTLP600C7TR "))
       (libsource (lib ciaa-pic-rescue) (part LED-RESCUE-ciaa-pic))
@@ -3619,7 +3619,7 @@
       (tstamp 549907A5))
     (comp (ref D49)
       (value LED)
-      (footprint LEDs:LED_0603)
+      (footprint footprints:LED-0603)
       (fields
         (field (name manf#) "QTLP600C7TR "))
       (libsource (lib ciaa-pic-rescue) (part LED-RESCUE-ciaa-pic))
@@ -3647,7 +3647,7 @@
       (libsource (lib logo) (part GS2))
       (sheetpath (names /JTAG/) (tstamps /577C4855/))
       (tstamp 54A1A092))
-    (comp (ref U15)
+    (comp (ref X1)
       (value FA-238V)
       (footprint footprints:4SMD)
       (datasheet https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-238V_en.pdf)
@@ -4666,12 +4666,12 @@
       (uri /home/hernan/repo_github/HardwareCIAA/PCB/PIC/components/93CXX.lib))
     (library (logical PBSS5240)
       (uri /home/hernan/repo_github/HardwareCIAA/PCB/PIC/components/PBSS5240.lib))
-    (library (logical Pic32MZ)
-      (uri /home/hernan/repo_github/HardwareCIAA/PCB/PIC/components/Pic32MZ.lib))
     (library (logical lan_8740)
       (uri /home/hernan/repo_github/HardwareCIAA/PCB/PIC/components/lan_8740.lib))
     (library (logical mcp1416)
       (uri /home/hernan/repo_github/HardwareCIAA/PCB/PIC/components/mcp1416.lib))
+    (library (logical Pic32MZ)
+      (uri /home/hernan/repo_github/HardwareCIAA/PCB/PIC/components/Pic32MZ.lib))
     (library (logical logo)
       (uri /home/hernan/repo_github/HardwareCIAA/PCB/PIC/components/logo.lib))
     (library (logical fqt13n06l)
@@ -5161,7 +5161,7 @@
       (node (ref C99) (pin 2))
       (node (ref D21) (pin 2))
       (node (ref C100) (pin 1))
-      (node (ref U15) (pin 2))
+      (node (ref X1) (pin 2))
       (node (ref R108) (pin 2))
       (node (ref D22) (pin 2))
       (node (ref C104) (pin 1))
@@ -5177,7 +5177,7 @@
       (node (ref C103) (pin 1))
       (node (ref U23) (pin 4))
       (node (ref U27) (pin 4))
-      (node (ref U15) (pin 4))
+      (node (ref X1) (pin 4))
       (node (ref U29) (pin 4))
       (node (ref C79) (pin 1))
       (node (ref C61) (pin 1))
@@ -6325,7 +6325,7 @@
     (net (code 371) (name "Net-(U17-Pad22)")
       (node (ref U17) (pin 22)))
     (net (code 372) (name "Net-(C79-Pad2)")
-      (node (ref U15) (pin 1))
+      (node (ref X1) (pin 1))
       (node (ref C79) (pin 2))
       (node (ref U17) (pin 2)))
     (net (code 373) (name "Net-(U17-Pad60)")
@@ -6364,7 +6364,7 @@
       (node (ref R84) (pin 1))
       (node (ref U14) (pin 10)))
     (net (code 385) (name "Net-(C81-Pad2)")
-      (node (ref U15) (pin 3))
+      (node (ref X1) (pin 3))
       (node (ref C81) (pin 2))
       (node (ref U17) (pin 3)))
     (net (code 386) (name "Net-(FB11-Pad1)")
