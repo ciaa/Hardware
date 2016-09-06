@@ -811,7 +811,7 @@ Wire Wire Line
 Wire Wire Line
 	7600 4400 7600 4350
 Wire Wire Line
-	9100 3850 9100 4700
+	9100 3850 9100 4850
 Wire Wire Line
 	8300 4050 8300 4250
 Wire Wire Line
@@ -1142,7 +1142,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 4050 9250 4050
 Wire Wire Line
-	10950 4150 10950 4700
+	10950 4150 10950 4750
 Connection ~ 2250 3300
 $Comp
 L RJ45-TRANSFO J5
@@ -1498,8 +1498,8 @@ Wire Wire Line
 	10150 1500 10150 1550
 Wire Wire Line
 	8700 4800 8700 4700
-Text Notes 9350 3200 2    60   ~ 12
-Señales TXP,TXN RXP,RXN \n100 ohm par diferencial, no vias, \nmisma longitud\n 
+Text Notes 9650 3250 2    60   ~ 12
+Señales TXP,TXN RXP,RXN \n100 ohm par diferencial, no vias, \nmisma longitud con plano de masa\n\n 
 Wire Wire Line
 	8600 3400 8600 3450
 Wire Wire Line
@@ -1525,62 +1525,57 @@ Wire Notes Line
 $Comp
 L R-RESCUE-ciaa-pic R25
 U 1 1 57C62FEA
-P 10400 5250
-F 0 "R25" V 10480 5250 40  0000 C CNN
-F 1 "1M" V 10407 5251 40  0000 C CNN
-F 2 "footprints:SM0603_Resistor" V 10330 5250 30  0001 C CNN
-F 3 "~" H 10400 5250 30  0000 C CNN
-F 4 "RC0603FR-0749R9L" V 10400 5250 60  0001 C CNN "manf#"
-	1    10400 5250
+P 10800 5300
+F 0 "R25" V 10880 5300 40  0000 C CNN
+F 1 "1M" V 10807 5301 40  0000 C CNN
+F 2 "footprints:SM0603_Resistor" V 10730 5300 30  0001 C CNN
+F 3 "~" H 10800 5300 30  0000 C CNN
+F 4 "RC0603FR-0749R9L" V 10800 5300 60  0001 C CNN "manf#"
+	1    10800 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L C-RESCUE-ciaa-pic C64
 U 1 1 57C630C8
-P 10000 5250
-F 0 "C64" H 10000 5350 40  0000 L CNN
-F 1 "100nf" H 10006 5165 40  0000 L CNN
-F 2 "footprints:c_0603" H 10038 5100 30  0001 C CNN
-F 3 "~" H 10000 5250 60  0000 C CNN
-F 4 "CBR02C120F3GAC " H 10000 5250 60  0001 C CNN "manf#"
-	1    10000 5250
+P 10400 5300
+F 0 "C64" H 10400 5400 40  0000 L CNN
+F 1 "100nf" H 10406 5215 40  0000 L CNN
+F 2 "footprints:c_0603" H 10438 5150 30  0001 C CNN
+F 3 "~" H 10400 5300 60  0000 C CNN
+F 4 "CBR02C120F3GAC " H 10400 5300 60  0001 C CNN "manf#"
+	1    10400 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND-RESCUE-ciaa-pic #PWR040
 U 1 1 57C6319C
-P 10200 5750
-F 0 "#PWR040" H 10200 5750 30  0001 C CNN
-F 1 "GND" H 10200 5680 30  0001 C CNN
-F 2 "" H 10200 5750 60  0000 C CNN
-F 3 "" H 10200 5750 60  0000 C CNN
-	1    10200 5750
+P 9100 4850
+F 0 "#PWR040" H 9100 4850 30  0001 C CNN
+F 1 "GND" H 9100 4780 30  0001 C CNN
+F 2 "" H 9100 4850 60  0000 C CNN
+F 3 "" H 9100 4850 60  0000 C CNN
+	1    9100 4850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10950 4700 9100 4700
+	10400 5100 10400 4950
 Wire Wire Line
-	10000 5050 10000 4900
+	10400 4950 10800 4950
 Wire Wire Line
-	10000 4900 10400 4900
+	10800 4950 10800 5050
 Wire Wire Line
-	10400 4900 10400 5000
+	10600 4950 10600 4750
+Connection ~ 10600 4950
 Wire Wire Line
-	10200 4900 10200 4700
-Connection ~ 10200 4700
-Connection ~ 10200 4900
+	10400 5500 10400 5650
 Wire Wire Line
-	10000 5450 10000 5600
+	10400 5650 10800 5650
 Wire Wire Line
-	10000 5600 10400 5600
-Wire Wire Line
-	10400 5600 10400 5500
-Wire Wire Line
-	10200 5750 10200 5600
-Connection ~ 10200 5600
+	10800 5650 10800 5550
+Connection ~ 10600 5650
 Text Notes 9550 4400 0    60   ~ 12
 MagJack SI-50170-F
-Text Notes 9750 5300 2    60   ~ 12
+Text Notes 9750 5300 2    60   ~ 0
 C11,C12,C13,C14 Ubicar lo mas cerca \nposible del conector ehernet (rj45)\n 
 Wire Notes Line
 	7950 3200 8450 3200
@@ -1616,4 +1611,39 @@ Wire Notes Line
 	7300 2050 7300 1900
 Text Notes 8450 2050 2    60   ~ 0
 C7, C8 Proximos a VDDCR\n\n 
+Text Notes 2800 4100 2    60   ~ 0
+Las lineas del clock deben \nser lo mas cortas\nposibles\n
+Text Notes 10700 1100 2    60   ~ 0
+Para mas informacoin sobre \nlas condiciones de ruteo del LAN8740 \nver el documento RC614945 rev A \nRouting Checklist for LAN8740 
+Wire Notes Line
+	8850 600  10850 600 
+Wire Notes Line
+	10850 600  10850 1200
+Wire Notes Line
+	10850 1200 8850 1200
+Wire Notes Line
+	8850 1200 8850 600 
+Wire Notes Line
+	6700 2600 7750 2600
+Wire Notes Line
+	6700 3050 7750 3050
+Wire Notes Line
+	6700 3050 6700 2600
+Wire Notes Line
+	7750 3050 7750 2600
+Wire Wire Line
+	10600 4750 10950 4750
+$Comp
+L GND-RESCUE-ciaa-pic #PWR041
+U 1 1 57CEC527
+P 10600 5850
+F 0 "#PWR041" H 10600 5850 30  0001 C CNN
+F 1 "GND" H 10600 5780 30  0001 C CNN
+F 2 "" H 10600 5850 60  0000 C CNN
+F 3 "" H 10600 5850 60  0000 C CNN
+	1    10600 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 5850 10600 5650
 $EndSCHEMATC
