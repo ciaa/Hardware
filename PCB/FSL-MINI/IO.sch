@@ -331,16 +331,6 @@ Wire Wire Line
 Wire Wire Line
 	7400 2600 7500 2600
 Wire Wire Line
-	7400 2700 7500 2700
-Text Label 7400 2400 2    60   ~ 0
-GPIO_AN0
-Text Label 7400 2500 2    60   ~ 0
-GPIO_AN1
-Text Label 7400 2600 2    60   ~ 0
-GPIO_AN2
-Text Label 7400 2700 2    60   ~ 0
-GPIO_AN3
-Wire Wire Line
 	3250 5600 3900 5600
 Wire Wire Line
 	3250 5700 3900 5700
@@ -635,4 +625,14 @@ GPIO5/SPI2_SOUT
 Text Label 3700 4500 2    60   ~ 0
 GPIO5/SPI2_SOUT
 NoConn ~ 9550 2000
+Text HLabel 7400 2400 0    60   Output ~ 0
+EC_AI0
+Text HLabel 7400 2500 0    60   Output ~ 0
+EC_AI1
+Text HLabel 7400 2600 0    60   Output ~ 0
+EC_AI2
+Wire Wire Line
+	7400 2700 7500 2700
+Text HLabel 7400 2700 0    60   Output ~ 0
+EC_AI3
 $EndSCHEMATC

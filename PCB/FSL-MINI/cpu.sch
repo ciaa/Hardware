@@ -853,7 +853,6 @@ F 9 "~" H 4000 4800 60  0001 C CNN "Footprint estandar"
 	1    4000 4800
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5600 3150
 Wire Wire Line
 	1000 10150 1000 10250
 Wire Wire Line
@@ -1048,8 +1047,6 @@ Connection ~ 1100 4600
 Wire Wire Line
 	1250 4450 1250 4500
 Connection ~ 1250 4500
-NoConn ~ 2400 5250
-NoConn ~ 2400 5350
 Wire Wire Line
 	2250 5500 2250 6350
 Wire Wire Line
@@ -1521,7 +1518,6 @@ Wire Wire Line
 	6350 2750 6350 3000
 Wire Wire Line
 	6350 3000 6450 3000
-NoConn ~ 5600 2850
 Wire Wire Line
 	6500 1450 6500 1500
 Wire Wire Line
@@ -1590,4 +1586,20 @@ NoConn ~ 5600 9150
 NoConn ~ 5600 7250
 NoConn ~ 5600 7350
 NoConn ~ 5600 7450
+Wire Wire Line
+	2400 5350 2050 5350
+Text HLabel 2050 5350 0    60   Input ~ 0
+EC_AI0
+Wire Wire Line
+	2400 5250 2050 5250
+Text HLabel 2050 5250 0    60   Input ~ 0
+EC_AI1
+Wire Wire Line
+	5600 3150 5700 3150
+Text HLabel 5700 3150 2    60   Input ~ 0
+EC_AI2
+Wire Wire Line
+	5600 2850 5700 2850
+Text HLabel 5700 2850 2    60   Input ~ 0
+EC_AI3
 $EndSCHEMATC
