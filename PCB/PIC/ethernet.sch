@@ -1613,16 +1613,16 @@ Text Notes 8450 2050 2    60   ~ 0
 C7, C8 Proximos a VDDCR\n\n 
 Text Notes 2800 4100 2    60   ~ 0
 Las lineas del clock deben \nser lo mas cortas\nposibles\n
-Text Notes 10700 1100 2    60   ~ 0
-Para mas informacoin sobre \nlas condiciones de ruteo del LAN8740 \nver el documento RC614945 rev A \nRouting Checklist for LAN8740 
+Text Notes 9550 1000 2    60   ~ 0
+\nver el documento RC614945 rev A \nRouting Checklist for LAN8740 
 Wire Notes Line
-	8850 600  10850 600 
+	7750 650  9750 650 
 Wire Notes Line
-	10850 600  10850 1200
+	9750 650  9750 1250
 Wire Notes Line
-	10850 1200 8850 1200
+	9750 1250 7750 1250
 Wire Notes Line
-	8850 1200 8850 600 
+	7750 1250 7750 650 
 Wire Notes Line
 	6700 2600 7750 2600
 Wire Notes Line
@@ -1646,4 +1646,14 @@ F 3 "" H 10600 5850 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	10600 5850 10600 5650
+Wire Notes Line
+	10100 4800 11150 4800
+Wire Notes Line
+	11150 4800 11150 6000
+Wire Notes Line
+	11150 6000 10100 6000
+Wire Notes Line
+	10100 6000 10100 4800
+Text Notes 11100 6350 2    60   ~ 0
+Plano de tierra en torno al\nconector ehernet (rj45)\n 
 $EndSCHEMATC

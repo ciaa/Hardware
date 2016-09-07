@@ -821,21 +821,21 @@ F 4 "OSTTC022162" H 5350 4150 60  0001 C CNN "manf#"
 	1    5350 4150
 	1    0    0    -1  
 $EndComp
-Text Label 5950 2650 2    60   ~ 0
-C1A
 Text Label 6300 2850 2    60   ~ 0
+C1A
+Text Label 5950 2650 2    60   ~ 0
 NC1A
-Text Label 5950 3050 2    60   ~ 0
-C2A
-Text Label 5950 3450 2    60   ~ 0
-C3A
 Text Label 6300 3250 2    60   ~ 0
-NC2A
+C2A
 Text Label 6300 3650 2    60   ~ 0
+C3A
+Text Label 5950 3050 2    60   ~ 0
+NC2A
+Text Label 5950 3450 2    60   ~ 0
 NC3A
-Text Label 5950 3850 2    60   ~ 0
-C4A
 Text Label 6300 4250 2    60   ~ 0
+C4A
+Text Label 5950 3850 2    60   ~ 0
 NC4A
 $Comp
 L GND-RESCUE-ciaa-pic #PWR0113
