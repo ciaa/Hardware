@@ -1,8 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:CIAAK60LIB
-LIBS:conn
-LIBS:shield_arduino
-LIBS:device
+LIBS:power
 LIBS:CIAA_FSL_MINI-cache
 EELAYER 25 0
 EELAYER END
@@ -30,11 +27,11 @@ Text HLabel 3550 2200 0    60   BiDi ~ 0
 GPIO6/FTM3_CH4
 Text HLabel 3700 4800 0    60   BiDi ~ 0
 GPIO8
-Text HLabel 3700 4900 0    60   BiDi ~ 0
+Text HLabel 3550 2500 0    60   BiDi ~ 0
 GPIO9
 Text HLabel 3550 2400 0    60   BiDi ~ 0
 GPIO11/FTM0_CH0
-Text HLabel 3550 2500 0    60   BiDi ~ 0
+Text HLabel 3250 5200 0    60   BiDi ~ 0
 GPIO12
 Text HLabel 3550 2600 0    60   BiDi ~ 0
 GPIO13/FTM0_CH1
@@ -289,9 +286,11 @@ RS232_RXD
 Text Label 5150 5500 2    60   ~ 0
 RS232_TXD
 $Comp
-L +3.3V #PWR0111
+L +3.3V-RESCUE-CIAA_FSL_MINI #PWR0111
 U 1 1 575CBE45
 P 6650 1750
+AR Path="/575CBE45" Ref="#PWR0111"  Part="1" 
+AR Path="/5756CD3E/575CBE45" Ref="#PWR0111"  Part="1" 
 F 0 "#PWR0111" H 6650 1710 30  0001 C CNN
 F 1 "+3.3V" H 6650 1860 30  0000 C CNN
 F 2 "" H 6650 1750 60  0000 C CNN
@@ -387,9 +386,11 @@ Wire Wire Line
 	6950 1600 6950 1800
 Connection ~ 6950 1800
 $Comp
-L ARDUINO_as_UNO SH701
+L ARDUINO_as_UNO-RESCUE-CIAA_FSL_MINI SH701
 U 1 1 5760AB8D
 P 8250 2000
+AR Path="/5760AB8D" Ref="SH701"  Part="1" 
+AR Path="/5756CD3E/5760AB8D" Ref="SH701"  Part="1" 
 F 0 "SH701" H 8300 1900 60  0000 C CNN
 F 1 "CONN_EXP" H 8275 3050 60  0000 C CNN
 F 2 "FSL-MINI:ARDUINO_as_UNO_R3" H 8050 1475 60  0001 C CNN
@@ -450,21 +451,15 @@ GPIO15/FTM0_CH2
 Wire Wire Line
 	9550 1800 9050 1800
 Wire Wire Line
-	9550 2600 9050 2600
+	9950 2600 9050 2600
 Wire Wire Line
-	9550 2400 9050 2400
+	9950 2400 9050 2400
 Wire Wire Line
-	9550 2300 9050 2300
+	9950 2300 9050 2300
 Wire Wire Line
 	9550 1900 9050 1900
 Text Label 9550 1800 0    60   ~ 0
 GPIO6/FTM3_CH4
-Text Label 9550 2600 0    60   ~ 0
-GPIO11/FTM0_CH0
-Text Label 9550 2400 0    60   ~ 0
-GPIO13/FTM0_CH1
-Text Label 9550 2300 0    60   ~ 0
-GPIO14/FTM0_CH3
 Text Label 9550 1900 0    60   ~ 0
 GPIO15/FTM0_CH2
 Wire Wire Line
@@ -490,11 +485,11 @@ Wire Wire Line
 Text Label 3750 2300 0    60   ~ 0
 GPIO10
 Text Label 3750 2500 0    60   ~ 0
-GPIO12
+GPIO9
 Wire Wire Line
 	9050 2500 9550 2500
 Text Label 9550 2500 0    60   ~ 0
-GPIO12
+GPIO9
 Wire Wire Line
 	9050 2700 9550 2700
 Text Label 9550 2700 0    60   ~ 0
@@ -505,8 +500,6 @@ Text Label 3250 5000 2    60   ~ 0
 GPIO10
 Wire Wire Line
 	3250 5200 3900 5200
-Text Label 3250 5200 2    60   ~ 0
-GPIO12
 Wire Wire Line
 	3250 5300 3900 5300
 Text Label 3250 5300 2    60   ~ 0
@@ -624,7 +617,6 @@ Text Label 9550 1700 0    60   ~ 0
 GPIO5/SPI2_SOUT
 Text Label 3700 4500 2    60   ~ 0
 GPIO5/SPI2_SOUT
-NoConn ~ 9550 2000
 Text HLabel 7400 2400 0    60   Output ~ 0
 EC_AI0
 Text HLabel 7400 2500 0    60   Output ~ 0
@@ -635,4 +627,14 @@ Wire Wire Line
 	7400 2700 7500 2700
 Text HLabel 7400 2700 0    60   Output ~ 0
 EC_AI3
+Text HLabel 9950 2300 2    60   Input ~ 0
+EC_PWM0
+Text HLabel 9950 2400 2    60   Input ~ 0
+EC_PWM1
+Text HLabel 9950 2600 2    60   Input ~ 0
+EC_PWM2
+Text Label 3700 4900 2    60   ~ 0
+GPIO9
+Text HLabel 9550 2000 2    60   BiDi ~ 0
+EC_GPIO
 $EndSCHEMATC

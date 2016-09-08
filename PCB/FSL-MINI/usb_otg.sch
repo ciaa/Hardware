@@ -1,8 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:CIAAK60LIB
-LIBS:conn
-LIBS:shield_arduino
-LIBS:device
+LIBS:power
 LIBS:CIAA_FSL_MINI-cache
 EELAYER 25 0
 EELAYER END
@@ -189,9 +186,11 @@ F 9 "0603" H 1600 4200 60  0001 C CNN "Footprint estandar"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3.3V #PWR040
+L +3.3V-RESCUE-CIAA_FSL_MINI #PWR040
 U 1 1 52C9D999
 P 1000 4000
+AR Path="/52C9D999" Ref="#PWR040"  Part="1" 
+AR Path="/52C66C60/52C9D999" Ref="#PWR040"  Part="1" 
 F 0 "#PWR040" H 1000 3960 30  0001 C CNN
 F 1 "+3.3V" H 1000 4110 30  0000 C CNN
 F 2 "" H 1000 4000 60  0000 C CNN

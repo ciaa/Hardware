@@ -1,8 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:CIAAK60LIB
-LIBS:conn
-LIBS:shield_arduino
-LIBS:device
+LIBS:power
 LIBS:CIAA_FSL_MINI-cache
 EELAYER 25 0
 EELAYER END
