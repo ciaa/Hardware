@@ -1149,4 +1149,6 @@ Text Label 6700 3500 0    60   ~ 0
 RXP
 Text Label 6800 3600 0    60   ~ 0
 RXN
+Text Label 5400 1500 0    60   ~ 0
+VDD_ETH
 $EndSCHEMATC
