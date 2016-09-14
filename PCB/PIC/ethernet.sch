@@ -1656,4 +1656,12 @@ Wire Notes Line
 	10100 6000 10100 4800
 Text Notes 11100 6350 2    60   ~ 0
 Plano de tierra en torno al\nconector ehernet (rj45)\n 
+Text Label 9100 3250 0    60   ~ 0
+TX+
+Text Label 9100 3450 0    60   ~ 0
+TX-
+Text Label 9100 3550 0    60   ~ 0
+RX+
+Text Label 9100 3750 0    60   ~ 0
+RX-
 $EndSCHEMATC

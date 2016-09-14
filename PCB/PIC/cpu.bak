@@ -631,7 +631,7 @@ F 3 "" H 1850 6950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 1550 6550
-Text Notes 950  9500 0    60   ~ 12
+Text Notes 950  9500 0    60   ~ 0
 Cristal Alternativo 7XZ-32.768KBA-T
 $Comp
 L TC25L5I32K7680 U25
