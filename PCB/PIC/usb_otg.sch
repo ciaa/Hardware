@@ -437,4 +437,8 @@ Wire Wire Line
 	1800 3800 1800 4350
 Wire Wire Line
 	1650 3650 1950 3650
+Text Label 8800 3200 0    60   ~ 0
+USB+
+Text Label 8800 3350 0    60   ~ 0
+USB-
 $EndSCHEMATC
