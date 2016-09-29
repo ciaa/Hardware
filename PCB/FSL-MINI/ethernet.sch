@@ -1131,13 +1131,13 @@ F 3 "" H 4100 2000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6500 3200 0    60   ~ 0
-TXP
+TX_P
 Text Label 6600 3400 0    60   ~ 0
-TXN
+TX_N
 Text Label 6700 3500 0    60   ~ 0
-RXP
+RX_P
 Text Label 6800 3600 0    60   ~ 0
-RXN
+RX_N
 $Comp
 L VDD_ETH #PWR?
 U 1 1 57DDACF0
