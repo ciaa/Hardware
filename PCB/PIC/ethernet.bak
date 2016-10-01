@@ -1613,16 +1613,8 @@ Text Notes 8450 2050 2    60   ~ 0
 C7, C8 Proximos a VDDCR\n\n 
 Text Notes 2800 4100 2    60   ~ 0
 Las lineas del clock deben \nser lo mas cortas\nposibles\n
-Text Notes 6400 1150 2    60   ~ 0
+Text Notes 10850 800  2    60   ~ 0
 \nver el documento RC614945 rev A \nRouting Checklist for LAN8740 
-Wire Notes Line
-	4600 800  6600 800 
-Wire Notes Line
-	6600 800  6600 1400
-Wire Notes Line
-	6600 1400 4600 1400
-Wire Notes Line
-	4600 1400 4600 800 
 Wire Notes Line
 	6700 2600 7750 2600
 Wire Notes Line
