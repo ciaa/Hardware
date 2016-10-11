@@ -919,69 +919,69 @@ Text Label 7200 4100 0    40   ~ 0
 DDR_BA1
 Text Label 7200 4200 0    40   ~ 0
 DDR_BA2
-Text Label 7200 5500 0    40   ~ 0
-DDR_DQ0
-Text Label 7200 5600 0    40   ~ 0
-DDR_DQ1
-Text Label 7200 5700 0    40   ~ 0
-DDR_DQ2
-Text Label 7200 5800 0    40   ~ 0
-DDR_DQ3
-Text Label 7200 5900 0    40   ~ 0
-DDR_DQ4
-Text Label 7200 6000 0    40   ~ 0
-DDR_DQ5
-Text Label 7200 6100 0    40   ~ 0
-DDR_DQ6
-Text Label 7200 6200 0    40   ~ 0
-DDR_DQ7
-Text Label 4900 5500 2    40   ~ 0
-DDR_DQ8
-Text Label 4900 5600 2    40   ~ 0
-DDR_DQ9
 Text Label 4900 5700 2    40   ~ 0
-DDR_DQ10
-Text Label 4900 5800 2    40   ~ 0
-DDR_DQ11
-Text Label 4900 5900 2    40   ~ 0
-DDR_DQ12
-Text Label 4900 6000 2    40   ~ 0
-DDR_DQ13
-Text Label 4900 6100 2    40   ~ 0
-DDR_DQ14
+DDR_DQ0
 Text Label 4900 6200 2    40   ~ 0
+DDR_DQ1
+Text Label 4900 5900 2    40   ~ 0
+DDR_DQ2
+Text Label 4900 5800 2    40   ~ 0
+DDR_DQ3
+Text Label 4900 5600 2    40   ~ 0
+DDR_DQ4
+Text Label 4900 6000 2    40   ~ 0
+DDR_DQ5
+Text Label 4900 5500 2    40   ~ 0
+DDR_DQ6
+Text Label 4900 6100 2    40   ~ 0
+DDR_DQ7
+Text Label 7200 5900 0    40   ~ 0
+DDR_DQ8
+Text Label 7200 6000 0    40   ~ 0
+DDR_DQ9
+Text Label 7200 5800 0    40   ~ 0
+DDR_DQ10
+Text Label 7200 5500 0    40   ~ 0
+DDR_DQ11
+Text Label 7200 5600 0    40   ~ 0
+DDR_DQ12
+Text Label 7200 5700 0    40   ~ 0
+DDR_DQ13
+Text Label 7200 6200 0    40   ~ 0
+DDR_DQ14
+Text Label 7200 6100 0    40   ~ 0
 DDR_DQ15
-Text Label 10450 5500 0    40   ~ 0
-DDR_DQ16
-Text Label 10450 5600 0    40   ~ 0
-DDR_DQ17
-Text Label 10450 5700 0    40   ~ 0
-DDR_DQ18
-Text Label 10450 5800 0    40   ~ 0
-DDR_DQ19
-Text Label 10450 5900 0    40   ~ 0
-DDR_DQ20
-Text Label 10450 6000 0    40   ~ 0
-DDR_DQ21
-Text Label 10450 6100 0    40   ~ 0
-DDR_DQ22
-Text Label 10450 6200 0    40   ~ 0
-DDR_DQ23
-Text Label 8150 5500 2    40   ~ 0
-DDR_DQ24
 Text Label 8150 5600 2    40   ~ 0
-DDR_DQ25
-Text Label 8150 5700 2    40   ~ 0
-DDR_DQ26
+DDR_DQ16
 Text Label 8150 5800 2    40   ~ 0
-DDR_DQ27
-Text Label 8150 5900 2    40   ~ 0
-DDR_DQ28
-Text Label 8150 6000 2    40   ~ 0
-DDR_DQ29
-Text Label 8150 6100 2    40   ~ 0
-DDR_DQ30
+DDR_DQ17
 Text Label 8150 6200 2    40   ~ 0
+DDR_DQ18
+Text Label 8150 6000 2    40   ~ 0
+DDR_DQ19
+Text Label 8150 6100 2    40   ~ 0
+DDR_DQ20
+Text Label 8150 5500 2    40   ~ 0
+DDR_DQ21
+Text Label 8150 5700 2    40   ~ 0
+DDR_DQ22
+Text Label 8150 5900 2    40   ~ 0
+DDR_DQ23
+Text Label 10450 5900 0    40   ~ 0
+DDR_DQ24
+Text Label 10450 6000 0    40   ~ 0
+DDR_DQ25
+Text Label 10450 6100 0    40   ~ 0
+DDR_DQ26
+Text Label 10450 6200 0    40   ~ 0
+DDR_DQ27
+Text Label 10450 5800 0    40   ~ 0
+DDR_DQ28
+Text Label 10450 5500 0    40   ~ 0
+DDR_DQ29
+Text Label 10450 5700 0    40   ~ 0
+DDR_DQ30
+Text Label 10450 5600 0    40   ~ 0
 DDR_DQ31
 Text Label 4900 4200 2    40   ~ 0
 DDR_CAS
@@ -1321,13 +1321,13 @@ Wire Wire Line
 	7650 2500 7600 2500
 Wire Wire Line
 	7300 2500 7200 2500
-Text Label 7200 5000 0    40   ~ 0
-DDR_DM0
 Text Label 4900 5000 2    40   ~ 0
+DDR_DM0
+Text Label 7200 5000 0    40   ~ 0
 DDR_DM1
-Text Label 10450 5000 0    40   ~ 0
-DDR_DM2
 Text Label 8150 5000 2    40   ~ 0
+DDR_DM2
+Text Label 10450 5000 0    40   ~ 0
 DDR_DM3
 $Comp
 L +1.5V #PWR015
@@ -1461,21 +1461,21 @@ Connection ~ 8100 2300
 Wire Wire Line
 	8150 2400 8100 2400
 Connection ~ 8100 2400
-Text Label 8150 5200 2    40   ~ 0
-DDR_DQS3_P
-Text Label 8150 5300 2    40   ~ 0
-DDR_DQS3_N
-Text Label 4900 5300 2    40   ~ 0
-DDR_DQS1_N
-Text Label 4900 5200 2    40   ~ 0
-DDR_DQS1_P
-Text Label 7200 5300 0    40   ~ 0
-DDR_DQS0_N
-Text Label 7200 5200 0    40   ~ 0
-DDR_DQS0_P
 Text Label 10450 5200 0    40   ~ 0
-DDR_DQS2_P
+DDR_DQS3_P
 Text Label 10450 5300 0    40   ~ 0
+DDR_DQS3_N
+Text Label 7200 5300 0    40   ~ 0
+DDR_DQS1_N
+Text Label 7200 5200 0    40   ~ 0
+DDR_DQS1_P
+Text Label 4900 5300 2    40   ~ 0
+DDR_DQS0_N
+Text Label 4900 5200 2    40   ~ 0
+DDR_DQS0_P
+Text Label 8150 5200 2    40   ~ 0
+DDR_DQS2_P
+Text Label 8150 5300 2    40   ~ 0
 DDR_DQS2_N
 $Comp
 L C C37
@@ -1490,36 +1490,6 @@ F 5 "Murata" H 3250 5550 60  0001 C CNN "Fabricante"
 F 6 "GRM033R61A104ME15D" H 3250 5550 60  0001 C CNN "Nro. parte"
 F 7 "490-5405-1-ND" H 3250 5550 60  0001 C CNN "Digikey/Mouser"
 	1    3250 5550
-	-1   0    0    1   
-$EndComp
-$Comp
-L C C34
-U 1 1 570DA997
-P 3100 5550
-F 0 "C34" V 3150 5650 50  0000 L CNN
-F 1 "10uF" V 3050 5300 50  0000 L CNN
-F 2 "chip_rlc:c_0603" H 3138 5400 50  0001 C CNN
-F 3 "" H 3100 5550 50  0000 C CNN
-F 4 "CAP CER 10UF 6.3V X5R 0603" H 3100 5550 60  0001 C CNN "Descripcion"
-F 5 "Murata" H 3100 5550 60  0001 C CNN "Fabricante"
-F 6 "GRM188R60J106KE47D" H 3100 5550 60  0001 C CNN "Nro. parte"
-F 7 "490-12538-1-ND" H 3100 5550 60  0001 C CNN "Digikey/Mouser"
-	1    3100 5550
-	-1   0    0    1   
-$EndComp
-$Comp
-L C C31
-U 1 1 570DA9A1
-P 2950 5550
-F 0 "C31" V 3000 5650 50  0000 L CNN
-F 1 "10uF" V 2900 5300 50  0000 L CNN
-F 2 "chip_rlc:c_0603" H 2988 5400 50  0001 C CNN
-F 3 "" H 2950 5550 50  0000 C CNN
-F 4 "CAP CER 10UF 6.3V X5R 0603" H 2950 5550 60  0001 C CNN "Descripcion"
-F 5 "Murata" H 2950 5550 60  0001 C CNN "Fabricante"
-F 6 "GRM188R60J106KE47D" H 2950 5550 60  0001 C CNN "Nro. parte"
-F 7 "490-12538-1-ND" H 2950 5550 60  0001 C CNN "Digikey/Mouser"
-	1    2950 5550
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -2132,36 +2102,6 @@ F 7 "490-5405-1-ND" H 1400 5550 60  0001 C CNN "Digikey/Mouser"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C7
-U 1 1 576E6036
-P 1250 5550
-F 0 "C7" V 1300 5650 50  0000 L CNN
-F 1 "10uF" V 1200 5300 50  0000 L CNN
-F 2 "chip_rlc:c_0603" H 1288 5400 50  0001 C CNN
-F 3 "" H 1250 5550 50  0000 C CNN
-F 4 "CAP CER 10UF 6.3V X5R 0603" H 1250 5550 60  0001 C CNN "Descripcion"
-F 5 "Murata" H 1250 5550 60  0001 C CNN "Fabricante"
-F 6 "GRM188R60J106KE47D" H 1250 5550 60  0001 C CNN "Nro. parte"
-F 7 "490-12538-1-ND" H 1250 5550 60  0001 C CNN "Digikey/Mouser"
-	1    1250 5550
-	-1   0    0    1   
-$EndComp
-$Comp
-L C C4
-U 1 1 576E6040
-P 1100 5550
-F 0 "C4" V 1150 5650 50  0000 L CNN
-F 1 "10uF" V 1050 5300 50  0000 L CNN
-F 2 "chip_rlc:c_0603" H 1138 5400 50  0001 C CNN
-F 3 "" H 1100 5550 50  0000 C CNN
-F 4 "CAP CER 10UF 6.3V X5R 0603" H 1100 5550 60  0001 C CNN "Descripcion"
-F 5 "Murata" H 1100 5550 60  0001 C CNN "Fabricante"
-F 6 "GRM188R60J106KE47D" H 1100 5550 60  0001 C CNN "Nro. parte"
-F 7 "490-12538-1-ND" H 1100 5550 60  0001 C CNN "Digikey/Mouser"
-	1    1100 5550
-	-1   0    0    1   
-$EndComp
-$Comp
 L C C13
 U 1 1 576E604A
 P 1550 5550
@@ -2761,21 +2701,6 @@ F 3 "" H 4600 6950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C57
-U 1 1 576E7CB6
-P 4900 7350
-F 0 "C57" V 4950 7450 50  0000 L CNN
-F 1 "10uF" V 4850 7100 50  0000 L CNN
-F 2 "chip_rlc:c_0603" H 4938 7200 50  0001 C CNN
-F 3 "" H 4900 7350 50  0000 C CNN
-F 4 "CAP CER 10UF 6.3V X5R 0603" H 4900 7350 60  0001 C CNN "Descripcion"
-F 5 "Murata" H 4900 7350 60  0001 C CNN "Fabricante"
-F 6 "GRM188R60J106KE47D" H 4900 7350 60  0001 C CNN "Nro. parte"
-F 7 "490-12538-1-ND" H 4900 7350 60  0001 C CNN "Digikey/Mouser"
-	1    4900 7350
-	-1   0    0    1   
-$EndComp
-$Comp
 L C C59
 U 1 1 576E7CCA
 P 5200 7350
@@ -2945,21 +2870,6 @@ F 5 "Murata" H 4600 7350 60  0001 C CNN "Fabricante"
 F 6 "GRM31CD80J107ME39L" H 4600 7350 60  0001 C CNN "Nro. parte"
 F 7 "490-10525-1-ND" H 4600 7350 60  0001 C CNN "Digikey/Mouser"
 	1    4600 7350
-	-1   0    0    1   
-$EndComp
-$Comp
-L C C58
-U 1 1 576E7EDC
-P 5050 7350
-F 0 "C58" V 5100 7450 50  0000 L CNN
-F 1 "10uF" V 5000 7100 50  0000 L CNN
-F 2 "chip_rlc:c_0603" H 5088 7200 50  0001 C CNN
-F 3 "" H 5050 7350 50  0000 C CNN
-F 4 "CAP CER 10UF 6.3V X5R 0603" H 5050 7350 60  0001 C CNN "Descripcion"
-F 5 "Murata" H 5050 7350 60  0001 C CNN "Fabricante"
-F 6 "GRM188R60J106KE47D" H 5050 7350 60  0001 C CNN "Nro. parte"
-F 7 "490-12538-1-ND" H 5050 7350 60  0001 C CNN "Digikey/Mouser"
-	1    5050 7350
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -3518,5 +3428,97 @@ F 6 "GRM033R61C103KA12D" H 5650 7350 60  0001 C CNN "Nro. parte"
 F 7 "490-7223-1-ND" H 5650 7350 60  0001 C CNN "Digikey/Mouser"
 	1    5650 7350
 	1    0    0    -1  
+$EndComp
+Text Notes 7750 7100 0    60   ~ 0
+DDR3 routing:\nMax. lenght: 5 inches\nTarget Zo (diff): 80 Ohms +/- 10%\nTarget Zo (single): 40 Ohms +/- 10%
+$Comp
+L C C4
+U 1 1 57C695D9
+P 1100 5550
+F 0 "C4" V 1150 5650 50  0000 L CNN
+F 1 "10uF" V 1050 5300 50  0000 L CNN
+F 2 "chip_rlc:c_0402" H 1138 5400 50  0001 C CNN
+F 3 "" H 1100 5550 50  0000 C CNN
+F 4 "10µF 6.3V Ceramic Capacitor X6S 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 1100 5550 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 1100 5550 60  0001 C CNN "Fabricante"
+F 6 "GRM155C80J106ME11D" H 1100 5550 60  0001 C CNN "Nro. parte"
+F 7 "490-13233-1-ND" H 1100 5550 60  0001 C CNN "Digikey/Mouser"
+	1    1100 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C7
+U 1 1 57C6A515
+P 1250 5550
+F 0 "C7" V 1300 5650 50  0000 L CNN
+F 1 "10uF" V 1200 5300 50  0000 L CNN
+F 2 "chip_rlc:c_0402" H 1288 5400 50  0001 C CNN
+F 3 "" H 1250 5550 50  0000 C CNN
+F 4 "10µF 6.3V Ceramic Capacitor X6S 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 1250 5550 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 1250 5550 60  0001 C CNN "Fabricante"
+F 6 "GRM155C80J106ME11D" H 1250 5550 60  0001 C CNN "Nro. parte"
+F 7 "490-13233-1-ND" H 1250 5550 60  0001 C CNN "Digikey/Mouser"
+	1    1250 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C31
+U 1 1 57C6A646
+P 2950 5550
+F 0 "C31" V 3000 5650 50  0000 L CNN
+F 1 "10uF" V 2900 5300 50  0000 L CNN
+F 2 "chip_rlc:c_0402" H 2988 5400 50  0001 C CNN
+F 3 "" H 2950 5550 50  0000 C CNN
+F 4 "10µF 6.3V Ceramic Capacitor X6S 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 2950 5550 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 2950 5550 60  0001 C CNN "Fabricante"
+F 6 "GRM155C80J106ME11D" H 2950 5550 60  0001 C CNN "Nro. parte"
+F 7 "490-13233-1-ND" H 2950 5550 60  0001 C CNN "Digikey/Mouser"
+	1    2950 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C34
+U 1 1 57C6AC34
+P 3100 5550
+F 0 "C34" V 3150 5650 50  0000 L CNN
+F 1 "10uF" V 3050 5300 50  0000 L CNN
+F 2 "chip_rlc:c_0402" H 3138 5400 50  0001 C CNN
+F 3 "" H 3100 5550 50  0000 C CNN
+F 4 "10µF 6.3V Ceramic Capacitor X6S 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 3100 5550 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 3100 5550 60  0001 C CNN "Fabricante"
+F 6 "GRM155C80J106ME11D" H 3100 5550 60  0001 C CNN "Nro. parte"
+F 7 "490-13233-1-ND" H 3100 5550 60  0001 C CNN "Digikey/Mouser"
+	1    3100 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C57
+U 1 1 57C6AD6B
+P 4900 7350
+F 0 "C57" V 4950 7450 50  0000 L CNN
+F 1 "10uF" V 4850 7100 50  0000 L CNN
+F 2 "chip_rlc:c_0402" H 4938 7200 50  0001 C CNN
+F 3 "" H 4900 7350 50  0000 C CNN
+F 4 "10µF 6.3V Ceramic Capacitor X6S 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 4900 7350 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 4900 7350 60  0001 C CNN "Fabricante"
+F 6 "GRM155C80J106ME11D" H 4900 7350 60  0001 C CNN "Nro. parte"
+F 7 "490-13233-1-ND" H 4900 7350 60  0001 C CNN "Digikey/Mouser"
+	1    4900 7350
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C58
+U 1 1 57C6B3E5
+P 5050 7350
+F 0 "C58" V 5100 7450 50  0000 L CNN
+F 1 "10uF" V 5000 7100 50  0000 L CNN
+F 2 "chip_rlc:c_0402" H 5088 7200 50  0001 C CNN
+F 3 "" H 5050 7350 50  0000 C CNN
+F 4 "10µF 6.3V Ceramic Capacitor X6S 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" H 5050 7350 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 5050 7350 60  0001 C CNN "Fabricante"
+F 6 "GRM155C80J106ME11D" H 5050 7350 60  0001 C CNN "Nro. parte"
+F 7 "490-13233-1-ND" H 5050 7350 60  0001 C CNN "Digikey/Mouser"
+	1    5050 7350
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC

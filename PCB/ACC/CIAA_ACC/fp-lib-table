@@ -10,4 +10,5 @@
   (lib (name soic-sop-tssop)(type KiCad)(uri "$(KIPRJMOD)/footprints/soic-sop-tssop.pretty")(options "")(descr ""))
   (lib (name xtal-res-osc)(type KiCad)(uri "$(KIPRJMOD)/footprints/xtal-res-osc.pretty")(options "")(descr ""))
   (lib (name inductor)(type KiCad)(uri "$(KIPRJMOD)/footprints/inductor.pretty")(options "")(descr ""))
+  (lib (name logos)(type KiCad)(uri "$(KIPRJMOD)/footprints/logos.pretty")(options "")(descr ""))
 )

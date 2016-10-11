@@ -98,27 +98,27 @@ F 7 "ASP-134485-01" H 9100 2750 60  0001 C CNN "Reemplazo"
 	3    9100 2750
 	1    0    0    -1  
 $EndComp
-Text HLabel 3500 6100 2    40   Output ~ 0
+Text HLabel 3500 4400 2    40   Output ~ 0
 RS485_ENA
-Text HLabel 3500 6400 2    40   Output ~ 0
+Text HLabel 3500 6000 2    40   Output ~ 0
 UART_EMIO_TX
-Text HLabel 3500 6300 2    40   Input ~ 0
+Text HLabel 3500 4300 2    40   Input ~ 0
 UART_EMIO_RX
-Text HLabel 3500 5600 2    40   Input ~ 0
+Text HLabel 3500 6600 2    40   Input ~ 0
 DIN2
-Text HLabel 3500 4600 2    40   Input ~ 0
+Text HLabel 3500 5400 2    40   Input ~ 0
 DIN3
-Text HLabel 3500 5500 2    40   Input ~ 0
+Text HLabel 3500 6500 2    40   Input ~ 0
 DIN0
-Text HLabel 3500 4500 2    40   Input ~ 0
+Text HLabel 3500 5300 2    40   Input ~ 0
 DIN1
-Text HLabel 3500 5200 2    40   Output ~ 0
-DOUT0
 Text HLabel 3500 5100 2    40   Output ~ 0
+DOUT0
+Text HLabel 3500 4900 2    40   Output ~ 0
 DOUT1
-Text HLabel 3500 4700 2    40   Output ~ 0
+Text HLabel 3500 5200 2    40   Output ~ 0
 DOUT2
-Text HLabel 3500 4800 2    40   Output ~ 0
+Text HLabel 3500 5000 2    40   Output ~ 0
 DOUT3
 Text Label 10250 1000 0    40   ~ 0
 FMC_LA_0_N
@@ -256,73 +256,73 @@ Text Label 7950 4100 2    40   ~ 0
 FMC_LA_32_P
 Text Label 7950 4300 2    40   ~ 0
 FMC_LA_33_P
-Text Label 1200 1050 2    40   ~ 0
+Text Label 1200 4500 2    40   ~ 0
 FMC_LA_17_N
-Text Label 1200 1250 2    40   ~ 0
+Text Label 1200 4300 2    40   ~ 0
 FMC_LA_18_N
-Text Label 3500 2450 0    40   ~ 0
+Text Label 1200 3050 2    40   ~ 0
 FMC_LA_19_N
-Text Label 3500 2650 0    40   ~ 0
-FMC_LA_20_N
-Text Label 1200 2050 2    40   ~ 0
-FMC_LA_21_N
 Text Label 1200 1650 2    40   ~ 0
+FMC_LA_20_N
+Text Label 1200 5100 2    40   ~ 0
+FMC_LA_21_N
+Text Label 1200 5700 2    40   ~ 0
 FMC_LA_22_N
-Text Label 3500 2850 0    40   ~ 0
+Text Label 1200 2450 2    40   ~ 0
 FMC_LA_23_N
 Text Label 1200 6300 2    40   ~ 0
 FMC_LA_24_N
-Text Label 1200 6700 2    40   ~ 0
+Text Label 1200 2650 2    40   ~ 0
 FMC_LA_25_N
-Text Label 1200 6500 2    40   ~ 0
+Text Label 1200 4700 2    40   ~ 0
 FMC_LA_26_N
-Text Label 1200 5700 2    40   ~ 0
+Text Label 1200 5500 2    40   ~ 0
 FMC_LA_27_N
-Text Label 1200 6100 2    40   ~ 0
+Text Label 1200 1850 2    40   ~ 0
 FMC_LA_28_N
 Text Label 1200 5900 2    40   ~ 0
 FMC_LA_29_N
-Text Label 1200 5500 2    40   ~ 0
+Text Label 1200 1450 2    40   ~ 0
 FMC_LA_30_N
 Text Label 1200 5300 2    40   ~ 0
 FMC_LA_31_N
-Text Label 1200 5100 2    40   ~ 0
+Text Label 1200 6100 2    40   ~ 0
 FMC_LA_32_N
-Text Label 1200 4700 2    40   ~ 0
+Text Label 1200 2050 2    40   ~ 0
 FMC_LA_33_N
-Text Label 1200 1350 2    40   ~ 0
+Text Label 1200 4400 2    40   ~ 0
 FMC_LA_18_P
-Text Label 1200 1150 2    40   ~ 0
+Text Label 1200 4600 2    40   ~ 0
 FMC_LA_17_P
-Text Label 3500 2550 0    40   ~ 0
+Text Label 1200 3150 2    40   ~ 0
 FMC_LA_19_P
-Text Label 3500 2750 0    40   ~ 0
-FMC_LA_20_P
-Text Label 1200 2150 2    40   ~ 0
-FMC_LA_21_P
 Text Label 1200 1750 2    40   ~ 0
+FMC_LA_20_P
+Text Label 1200 5200 2    40   ~ 0
+FMC_LA_21_P
+Text Label 1200 5800 2    40   ~ 0
 FMC_LA_22_P
-Text Label 3500 2950 0    40   ~ 0
+Text Label 1200 2550 2    40   ~ 0
 FMC_LA_23_P
 Text Label 1200 6400 2    40   ~ 0
 FMC_LA_24_P
-Text Label 1200 6800 2    40   ~ 0
+Text Label 1200 2750 2    40   ~ 0
 FMC_LA_25_P
-Text Label 1200 6600 2    40   ~ 0
+Text Label 1200 4800 2    40   ~ 0
 FMC_LA_26_P
-Text Label 1200 5800 2    40   ~ 0
+Text Label 1200 5600 2    40   ~ 0
 FMC_LA_27_P
-Text Label 1200 6200 2    40   ~ 0
+Text Label 1200 1950 2    40   ~ 0
 FMC_LA_28_P
 Text Label 1200 6000 2    40   ~ 0
 FMC_LA_29_P
-Text Label 1200 5600 2    40   ~ 0
+Text Label 1200 1550 2    40   ~ 0
 FMC_LA_30_P
 Text Label 1200 5400 2    40   ~ 0
 FMC_LA_31_P
-Text Label 1200 5200 2    40   ~ 0
+Text Label 1200 6200 2    40   ~ 0
 FMC_LA_32_P
-Text Label 1200 4800 2    40   ~ 0
+Text Label 1200 2150 2    40   ~ 0
 FMC_LA_33_P
 Text Label 3500 3050 0    40   ~ 0
 FMC_LA_0_N
@@ -332,87 +332,87 @@ Text Label 1200 850  2    40   ~ 0
 FMC_LA_1_N
 Text Label 3500 1450 0    40   ~ 0
 FMC_LA_2_N
-Text Label 3500 1050 0    40   ~ 0
-FMC_LA_3_N
-Text Label 3500 2050 0    40   ~ 0
-FMC_LA_4_N
-Text Label 1200 3250 2    40   ~ 0
-FMC_LA_5_N
-Text Label 3500 1850 0    40   ~ 0
-FMC_LA_6_N
-Text Label 1200 3050 2    40   ~ 0
-FMC_LA_7_N
-Text Label 1200 2450 2    40   ~ 0
-FMC_LA_8_N
-Text Label 1200 2850 2    40   ~ 0
-FMC_LA_9_N
-Text Label 1200 2250 2    40   ~ 0
-FMC_LA_10_N
-Text Label 1200 1450 2    40   ~ 0
-FMC_LA_11_N
-Text Label 1200 2650 2    40   ~ 0
-FMC_LA_12_N
-Text Label 1200 1850 2    40   ~ 0
-FMC_LA_13_N
-Text Label 3500 1250 0    40   ~ 0
-FMC_LA_14_N
-Text Label 3500 2250 0    40   ~ 0
-FMC_LA_15_N
 Text Label 3500 1650 0    40   ~ 0
+FMC_LA_3_N
+Text Label 3500 1050 0    40   ~ 0
+FMC_LA_4_N
+Text Label 3500 2650 0    40   ~ 0
+FMC_LA_5_N
+Text Label 3500 2250 0    40   ~ 0
+FMC_LA_6_N
+Text Label 3500 1850 0    40   ~ 0
+FMC_LA_7_N
+Text Label 3500 2050 0    40   ~ 0
+FMC_LA_8_N
+Text Label 3500 1250 0    40   ~ 0
+FMC_LA_9_N
+Text Label 1200 2850 2    40   ~ 0
+FMC_LA_10_N
+Text Label 1200 2250 2    40   ~ 0
+FMC_LA_11_N
+Text Label 1200 3250 2    40   ~ 0
+FMC_LA_12_N
+Text Label 3500 2450 0    40   ~ 0
+FMC_LA_13_N
+Text Label 3500 2850 0    40   ~ 0
+FMC_LA_14_N
+Text Label 1200 6500 2    40   ~ 0
+FMC_LA_15_N
+Text Label 1200 6700 2    40   ~ 0
 FMC_LA_16_N
 Text Label 1200 950  2    40   ~ 0
 FMC_LA_1_P
 Text Label 3500 1550 0    40   ~ 0
 FMC_LA_2_P
-Text Label 3500 1150 0    40   ~ 0
-FMC_LA_3_P
-Text Label 3500 2150 0    40   ~ 0
-FMC_LA_4_P
-Text Label 1200 3350 2    40   ~ 0
-FMC_LA_5_P
-Text Label 3500 1950 0    40   ~ 0
-FMC_LA_6_P
-Text Label 1200 3150 2    40   ~ 0
-FMC_LA_7_P
-Text Label 1200 2550 2    40   ~ 0
-FMC_LA_8_P
-Text Label 1200 2950 2    40   ~ 0
-FMC_LA_9_P
-Text Label 1200 2350 2    40   ~ 0
-FMC_LA_10_P
-Text Label 1200 1550 2    40   ~ 0
-FMC_LA_11_P
-Text Label 1200 2750 2    40   ~ 0
-FMC_LA_12_P
-Text Label 1200 1950 2    40   ~ 0
-FMC_LA_13_P
-Text Label 3500 1350 0    40   ~ 0
-FMC_LA_14_P
-Text Label 3500 2350 0    40   ~ 0
-FMC_LA_15_P
 Text Label 3500 1750 0    40   ~ 0
+FMC_LA_3_P
+Text Label 3500 1150 0    40   ~ 0
+FMC_LA_4_P
+Text Label 3500 2750 0    40   ~ 0
+FMC_LA_5_P
+Text Label 3500 2350 0    40   ~ 0
+FMC_LA_6_P
+Text Label 3500 1950 0    40   ~ 0
+FMC_LA_7_P
+Text Label 3500 2150 0    40   ~ 0
+FMC_LA_8_P
+Text Label 3500 1350 0    40   ~ 0
+FMC_LA_9_P
+Text Label 1200 2950 2    40   ~ 0
+FMC_LA_10_P
+Text Label 1200 2350 2    40   ~ 0
+FMC_LA_11_P
+Text Label 1200 3350 2    40   ~ 0
+FMC_LA_12_P
+Text Label 3500 2550 0    40   ~ 0
+FMC_LA_13_P
+Text Label 3500 2950 0    40   ~ 0
+FMC_LA_14_P
+Text Label 1200 6600 2    40   ~ 0
+FMC_LA_15_P
+Text Label 1200 6800 2    40   ~ 0
 FMC_LA_16_P
-Text HLabel 3500 6200 2    40   Input ~ 0
+Text HLabel 1200 5000 0    40   Input ~ 0
 FMC_PRSNT
-Text HLabel 3500 6000 2    40   BiDi ~ 0
+Text HLabel 3500 4800 2    40   BiDi ~ 0
 TMDS_D2_P
-Text HLabel 3500 5900 2    40   BiDi ~ 0
+Text HLabel 3500 4700 2    40   BiDi ~ 0
 TMDS_D2_N
-Text HLabel 3500 5800 2    40   BiDi ~ 0
+Text HLabel 3500 4600 2    40   BiDi ~ 0
 TMDS_D1_P
-Text HLabel 3500 5700 2    40   BiDi ~ 0
+Text HLabel 3500 4500 2    40   BiDi ~ 0
 TMDS_D1_N
-Text HLabel 3500 5400 2    40   BiDi ~ 0
+Text HLabel 3500 5600 2    40   BiDi ~ 0
 TMDS_D0_P
-Text HLabel 3500 5300 2    40   BiDi ~ 0
+Text HLabel 3500 5500 2    40   BiDi ~ 0
 TMDS_D0_N
-Text HLabel 3500 5000 2    40   BiDi ~ 0
+Text HLabel 3500 6400 2    40   BiDi ~ 0
 TMDS_CLK_P
-Text HLabel 3500 4900 2    40   BiDi ~ 0
+Text HLabel 3500 6300 2    40   BiDi ~ 0
 TMDS_CLK_N
-Text HLabel 3500 4300 2    40   BiDi ~ 0
+Text HLabel 3500 6200 2    40   BiDi ~ 0
 HDMI_CEC
-Text HLabel 3500 4400 2    40   BiDi ~ 0
+Text HLabel 3500 6100 2    40   BiDi ~ 0
 HDMI_HPD
 $Comp
 L LED DS13
@@ -475,10 +475,10 @@ F 7 "311-220JRCT-ND" H 4900 1450 60  0001 C CNN "Digikey/Mouser"
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR0563
+L +3.3V #PWR0552
 U 1 1 571382D7
 P 4900 1000
-F 0 "#PWR0563" H 4900 1090 20  0001 C CNN
+F 0 "#PWR0552" H 4900 1090 20  0001 C CNN
 F 1 "+3.3V" H 4900 1100 30  0000 C CNN
 F 2 "" H 4900 1000 60  0000 C CNN
 F 3 "" H 4900 1000 60  0000 C CNN
@@ -501,10 +501,10 @@ F 7 "BSS806N H6327CT-ND" H 4800 1850 60  0001 C CNN "Digikey/Mouser"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0564
+L GND #PWR0553
 U 1 1 5713A86E
 P 4900 2100
-F 0 "#PWR0564" H 4900 1850 50  0001 C CNN
+F 0 "#PWR0553" H 4900 1850 50  0001 C CNN
 F 1 "GND" H 4908 1926 50  0001 C CNN
 F 2 "" H 4900 2100 50  0000 C CNN
 F 3 "" H 4900 2100 50  0000 C CNN
@@ -512,10 +512,10 @@ F 3 "" H 4900 2100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR0565
+L +3.3V #PWR0554
 U 1 1 5713A9DA
 P 5650 1000
-F 0 "#PWR0565" H 5650 1090 20  0001 C CNN
+F 0 "#PWR0554" H 5650 1090 20  0001 C CNN
 F 1 "+3.3V" H 5650 1100 30  0000 C CNN
 F 2 "" H 5650 1000 60  0000 C CNN
 F 3 "" H 5650 1000 60  0000 C CNN
@@ -538,10 +538,10 @@ F 7 "BSS806N H6327CT-ND" H 5550 1850 60  0001 C CNN "Digikey/Mouser"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0566
+L GND #PWR0555
 U 1 1 5713A9EA
 P 5650 2100
-F 0 "#PWR0566" H 5650 1850 50  0001 C CNN
+F 0 "#PWR0555" H 5650 1850 50  0001 C CNN
 F 1 "GND" H 5658 1926 50  0001 C CNN
 F 2 "" H 5650 2100 50  0000 C CNN
 F 3 "" H 5650 2100 50  0000 C CNN
@@ -632,13 +632,13 @@ Text Label 7450 5450 0    40   ~ 0
 FMC_CLK0_M2C_N
 Text Label 7450 5550 0    40   ~ 0
 FMC_CLK0_M2C_P
-Text Label 1200 4300 2    40   ~ 0
+Text Label 1200 1050 2    40   ~ 0
 FMC_CLK0_C2M_N
-Text Label 1200 4400 2    40   ~ 0
+Text Label 1200 1150 2    40   ~ 0
 FMC_CLK0_C2M_P
-Text Label 1200 4500 2    40   ~ 0
+Text Label 1200 1250 2    40   ~ 0
 FMC_CLK0_M2C_N
-Text Label 1200 4600 2    40   ~ 0
+Text Label 1200 1350 2    40   ~ 0
 FMC_CLK0_M2C_P
 Text HLabel 5150 5250 0    40   Input ~ 0
 FMC_CLK1_C2M_N
@@ -649,13 +649,13 @@ FMC_CLK1_M2C_N
 Text HLabel 5150 5550 0    40   Output ~ 0
 FMC_CLK1_M2C_P
 Wire Notes Line
-	750  1350 750  800 
-Text Notes 700  1250 1    40   ~ 0
+	650  1350 650  800 
+Text Notes 600  1250 1    40   ~ 0
 FMC CC Type
 Wire Notes Line
-	750  1350 800  1350
+	650  1350 700  1350
 Wire Notes Line
-	750  800  800  800 
+	650  800  700  800 
 Text Notes 4050 2850 3    40   ~ 0
 FMC CC Type
 Wire Notes Line
@@ -664,15 +664,15 @@ Wire Notes Line
 	3950 2975 3900 2975
 Wire Notes Line
 	3950 3150 3900 3150
-NoConn ~ 1200 5000
-Text HLabel 1200 4900 0    40   Output ~ 0
+NoConn ~ 1200 4900
+Text HLabel 3500 5900 2    40   Output ~ 0
 HDMI_OUT_EN
-Text HLabel 3500 6600 2    40   Output ~ 0
+Text HLabel 3500 5700 2    40   Output ~ 0
 CAN_TX
-Text HLabel 3500 6500 2    40   Input ~ 0
+Text HLabel 3500 5800 2    40   Input ~ 0
 CAN_RX
 $Comp
-L FMC_HPC J?
+L FMC_HPC J5
 U 4 1 578945D4
 P 6300 5600
 F 0 "J5" H 5500 6100 60  0000 C CNN
@@ -686,4 +686,12 @@ F 7 "ASP-134485-01" H 6300 5600 60  0001 C CNN "Reemplazo"
 	4    6300 5600
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	700  4800 700  4250
+Text Notes 650  4700 1    40   ~ 0
+FMC CC Type
+Wire Notes Line
+	700  4800 750  4800
+Wire Notes Line
+	700  4250 750  4250
 $EndSCHEMATC

@@ -87,39 +87,39 @@ Text HLabel 3800 2750 2    40   Output ~ 0
 MGTXTX0_P
 Text HLabel 1500 2350 0    40   Input ~ 0
 MGTXRX0_N
-Text HLabel 1500 3550 0    40   Input ~ 0
+Text HLabel 3800 3850 2    40   Input ~ 0
 MGTREFCLK0_N
-Text HLabel 1500 3650 0    40   Input ~ 0
+Text HLabel 3800 3950 2    40   Input ~ 0
 MGTREFCLK0_P
 Text HLabel 1500 2450 0    40   Input ~ 0
 MGTXRX0_P
-Text HLabel 3800 3850 2    40   Input ~ 0
+Text HLabel 1500 3550 0    40   Input ~ 0
 MGTREFCLK1_N
-Text HLabel 3800 3950 2    40   Input ~ 0
+Text HLabel 1500 3650 0    40   Input ~ 0
 MGTREFCLK1_P
-Text Label 7350 2450 0    40   ~ 0
+Text Label 7350 3250 0    40   ~ 0
 DP0_C2M_N
-Text Label 7350 2550 0    40   ~ 0
+Text Label 7350 3350 0    40   ~ 0
 DP0_C2M_P
 Text Label 7350 2850 0    40   ~ 0
 DP1_C2M_N
 Text Label 7350 2950 0    40   ~ 0
 DP1_C2M_P
-Text Label 7350 3250 0    40   ~ 0
+Text Label 7350 2450 0    40   ~ 0
 DP2_C2M_N
-Text Label 7350 3350 0    40   ~ 0
+Text Label 7350 2550 0    40   ~ 0
 DP2_C2M_P
-Text Label 7350 2650 0    40   ~ 0
+Text Label 7350 3450 0    40   ~ 0
 DP0_M2C_N
-Text Label 7350 2750 0    40   ~ 0
+Text Label 7350 3550 0    40   ~ 0
 DP0_M2C_P
 Text Label 7350 3050 0    40   ~ 0
 DP1_M2C_N
 Text Label 7350 3150 0    40   ~ 0
 DP1_M2C_P
-Text Label 7350 3450 0    40   ~ 0
+Text Label 7350 2650 0    40   ~ 0
 DP2_M2C_N
-Text Label 7350 3550 0    40   ~ 0
+Text Label 7350 2750 0    40   ~ 0
 DP2_M2C_P
 NoConn ~ 7350 3650
 NoConn ~ 7350 3750
@@ -193,10 +193,10 @@ F 7 "311-100LRCT-ND" H 4050 2350 60  0001 C CNN "Digikey/Mouser"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +1.2V #PWR0335
+L +1.2V #PWR0306
 U 1 1 5726B551
 P 3850 2250
-F 0 "#PWR0335" H 3850 2340 20  0001 C CNN
+F 0 "#PWR0306" H 3850 2340 20  0001 C CNN
 F 1 "+1.2V" H 3850 2350 30  0000 C CNN
 F 2 "" H 3850 2250 60  0000 C CNN
 F 3 "" H 3850 2250 60  0000 C CNN

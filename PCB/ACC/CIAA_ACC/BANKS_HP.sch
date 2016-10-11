@@ -307,213 +307,195 @@ Text Label 8250 4050 2    40   ~ 0
 FMC_HB_11_P
 Text Label 7100 3100 0    40   ~ 0
 FMC_HB_0_N
-Text Label 4800 1700 2    40   ~ 0
+Text Label 7100 2300 0    40   ~ 0
 FMC_HB_1_N
-Text Label 4800 2100 2    40   ~ 0
+Text Label 3600 1800 0    40   ~ 0
 FMC_HB_2_N
-Text Label 4800 1900 2    40   ~ 0
+Text Label 4800 3300 2    40   ~ 0
 FMC_HB_3_N
-Text Label 4800 2900 2    40   ~ 0
+Text Label 7100 1400 0    40   ~ 0
 FMC_HB_4_N
-Text Label 4800 2300 2    40   ~ 0
+Text Label 3600 2200 0    40   ~ 0
 FMC_HB_5_N
-Text Label 4800 1300 2    40   ~ 0
+Text Label 1300 1000 2    40   ~ 0
 FMC_HB_6_N
-Text Label 4800 3100 2    40   ~ 0
+Text Label 7100 1700 0    40   ~ 0
 FMC_HB_7_N
-Text Label 4800 2700 2    40   ~ 0
+Text Label 3600 3000 0    40   ~ 0
 FMC_HB_8_N
-Text Label 4800 3500 2    40   ~ 0
+Text Label 3600 2600 0    40   ~ 0
 FMC_HB_9_N
-Text Label 7100 2700 0    40   ~ 0
+Text Label 1300 2400 2    40   ~ 0
 FMC_HB_10_N
 Text Label 7100 3200 0    40   ~ 0
 FMC_HB_0_P
-Text Label 4800 1800 2    40   ~ 0
+Text Label 7100 2400 0    40   ~ 0
 FMC_HB_1_P
-Text Label 4800 2200 2    40   ~ 0
+Text Label 3600 1900 0    40   ~ 0
 FMC_HB_2_P
-Text Label 4800 2000 2    40   ~ 0
+Text Label 4800 3400 2    40   ~ 0
 FMC_HB_3_P
-Text Label 4800 3000 2    40   ~ 0
+Text Label 7100 1500 0    40   ~ 0
 FMC_HB_4_P
-Text Label 4800 2400 2    40   ~ 0
+Text Label 3600 2300 0    40   ~ 0
 FMC_HB_5_P
-Text Label 4800 1400 2    40   ~ 0
+Text Label 1300 1100 2    40   ~ 0
 FMC_HB_6_P
-Text Label 4800 3200 2    40   ~ 0
+Text Label 7100 1800 0    40   ~ 0
 FMC_HB_7_P
-Text Label 4800 2800 2    40   ~ 0
+Text Label 3600 3100 0    40   ~ 0
 FMC_HB_8_P
-Text Label 4800 3600 2    40   ~ 0
+Text Label 3600 2700 0    40   ~ 0
 FMC_HB_9_P
-Text Label 7100 2800 0    40   ~ 0
+Text Label 1300 2500 2    40   ~ 0
 FMC_HB_10_P
 Text Notes 7050 7050 0    60   ~ 0
 PUCD: PUDC_B must be tied either directly (or through a 1KΩ or\nless resistor) to VCCO_34 or GND.\n\nDo not allow this pin to float before and\nduring configuration.
-Text Label 4800 2500 2    40   ~ 0
-FMC_HB_11_N
-Text Label 7100 2500 0    40   ~ 0
-FMC_HB_12_N
-Text Label 4800 3300 2    40   ~ 0
-FMC_HB_13_N
-Text Label 7100 1700 0    40   ~ 0
-FMC_HB_14_N
-Text Label 7100 2300 0    40   ~ 0
-FMC_HB_15_N
-Text Label 7100 1400 0    40   ~ 0
-FMC_HB_16_N
-Text Label 4800 1500 2    40   ~ 0
-FMC_HB_17_N
-Text Label 7100 1200 0    40   ~ 0
-FMC_HB_18_N
-Text Label 7100 2900 0    40   ~ 0
-FMC_HB_19_N
-Text Label 7100 1900 0    40   ~ 0
-FMC_HB_20_N
-Text Label 7100 2100 0    40   ~ 0
-FMC_HB_21_N
-Text Label 7100 2200 0    40   ~ 0
-FMC_HB_21_P
-Text Label 7100 2000 0    40   ~ 0
-FMC_HB_20_P
-Text Label 7100 3000 0    40   ~ 0
-FMC_HB_19_P
-Text Label 7100 1300 0    40   ~ 0
-FMC_HB_18_P
-Text Label 4800 1600 2    40   ~ 0
-FMC_HB_17_P
-Text Label 7100 1500 0    40   ~ 0
-FMC_HB_16_P
-Text Label 7100 2400 0    40   ~ 0
-FMC_HB_15_P
-Text Label 7100 1800 0    40   ~ 0
-FMC_HB_14_P
-Text Label 4800 3400 2    40   ~ 0
-FMC_HB_13_P
-Text Label 7100 2600 0    40   ~ 0
-FMC_HB_12_P
-Text Label 4800 2600 2    40   ~ 0
-FMC_HB_11_P
-Text Label 1300 1000 2    40   ~ 0
-FMC_HA_0_N
-Text Label 1300 1200 2    40   ~ 0
-FMC_HA_1_N
-Text Label 3600 2000 0    40   ~ 0
-FMC_HA_2_N
-Text Label 3600 1800 0    40   ~ 0
-FMC_HA_3_N
-Text Label 3600 2200 0    40   ~ 0
-FMC_HA_4_N
-Text Label 3600 1400 0    40   ~ 0
-FMC_HA_5_N
-Text Label 3600 3000 0    40   ~ 0
-FMC_HA_6_N
-Text Label 3600 1600 0    40   ~ 0
-FMC_HA_7_N
-Text Label 3600 2600 0    40   ~ 0
-FMC_HA_8_N
-Text Label 3600 1200 0    40   ~ 0
-FMC_HA_9_N
-Text Label 3600 3200 0    40   ~ 0
-FMC_HA_10_N
-Text Label 1300 2600 2    40   ~ 0
-FMC_HA_11_N
-Text Label 1300 1100 2    40   ~ 0
-FMC_HA_0_P
-Text Label 1300 1300 2    40   ~ 0
-FMC_HA_1_P
-Text Label 3600 2100 0    40   ~ 0
-FMC_HA_2_P
-Text Label 3600 1900 0    40   ~ 0
-FMC_HA_3_P
-Text Label 3600 2300 0    40   ~ 0
-FMC_HA_4_P
-Text Label 3600 1500 0    40   ~ 0
-FMC_HA_5_P
-Text Label 3600 3100 0    40   ~ 0
-FMC_HA_6_P
-Text Label 3600 1700 0    40   ~ 0
-FMC_HA_7_P
-Text Label 3600 2700 0    40   ~ 0
-FMC_HA_8_P
-Text Label 3600 1300 0    40   ~ 0
-FMC_HA_9_P
-Text Label 3600 3300 0    40   ~ 0
-FMC_HA_10_P
-Text Label 1300 2700 2    40   ~ 0
-FMC_HA_11_P
-Text Label 3600 2400 0    40   ~ 0
-FMC_HA_12_N
 Text Label 1300 3000 2    40   ~ 0
-FMC_HA_13_N
-Text Label 1300 1800 2    40   ~ 0
-FMC_HA_14_N
-Text Label 1300 3400 2    40   ~ 0
-FMC_HA_15_N
+FMC_HB_11_N
 Text Label 3600 2800 0    40   ~ 0
+FMC_HB_12_N
+Text Label 3600 2400 0    40   ~ 0
+FMC_HB_13_N
+Text Label 1300 1600 2    40   ~ 0
+FMC_HB_14_N
+Text Label 1300 1800 2    40   ~ 0
+FMC_HB_15_N
+Text Label 1300 2600 2    40   ~ 0
+FMC_HB_16_N
+Text Label 1300 1200 2    40   ~ 0
+FMC_HB_17_N
+Text Label 1300 2000 2    40   ~ 0
+FMC_HB_18_N
+Text Label 3600 3200 0    40   ~ 0
+FMC_HB_19_N
+Text Label 1300 3200 2    40   ~ 0
+FMC_HB_20_N
+Text Label 1300 2200 2    40   ~ 0
+FMC_HB_21_N
+Text Label 1300 2300 2    40   ~ 0
+FMC_HB_21_P
+Text Label 1300 3300 2    40   ~ 0
+FMC_HB_20_P
+Text Label 3600 3300 0    40   ~ 0
+FMC_HB_19_P
+Text Label 1300 2100 2    40   ~ 0
+FMC_HB_18_P
+Text Label 1300 1300 2    40   ~ 0
+FMC_HB_17_P
+Text Label 1300 2700 2    40   ~ 0
+FMC_HB_16_P
+Text Label 1300 1900 2    40   ~ 0
+FMC_HB_15_P
+Text Label 1300 1700 2    40   ~ 0
+FMC_HB_14_P
+Text Label 3600 2500 0    40   ~ 0
+FMC_HB_13_P
+Text Label 3600 2900 0    40   ~ 0
+FMC_HB_12_P
+Text Label 1300 3100 2    40   ~ 0
+FMC_HB_11_P
+Text Label 4800 1500 2    40   ~ 0
+FMC_HA_0_N
+Text Label 4800 1300 2    40   ~ 0
+FMC_HA_1_N
+Text Label 3600 1600 0    40   ~ 0
+FMC_HA_2_N
+Text Label 3600 1200 0    40   ~ 0
+FMC_HA_3_N
+Text Label 3600 2000 0    40   ~ 0
+FMC_HA_4_N
+Text Label 7100 1200 0    40   ~ 0
+FMC_HA_5_N
+Text Label 7100 2500 0    40   ~ 0
+FMC_HA_6_N
+Text Label 7100 2100 0    40   ~ 0
+FMC_HA_7_N
+Text Label 4800 1700 2    40   ~ 0
+FMC_HA_8_N
+Text Label 4800 1900 2    40   ~ 0
+FMC_HA_9_N
+Text Label 4800 2300 2    40   ~ 0
+FMC_HA_10_N
+Text Label 7100 2700 0    40   ~ 0
+FMC_HA_11_N
+Text Label 4800 1600 2    40   ~ 0
+FMC_HA_0_P
+Text Label 4800 1400 2    40   ~ 0
+FMC_HA_1_P
+Text Label 3600 1700 0    40   ~ 0
+FMC_HA_2_P
+Text Label 3600 1300 0    40   ~ 0
+FMC_HA_3_P
+Text Label 3600 2100 0    40   ~ 0
+FMC_HA_4_P
+Text Label 7100 1300 0    40   ~ 0
+FMC_HA_5_P
+Text Label 7100 2600 0    40   ~ 0
+FMC_HA_6_P
+Text Label 7100 2200 0    40   ~ 0
+FMC_HA_7_P
+Text Label 4800 1800 2    40   ~ 0
+FMC_HA_8_P
+Text Label 4800 2000 2    40   ~ 0
+FMC_HA_9_P
+Text Label 4800 2400 2    40   ~ 0
+FMC_HA_10_P
+Text Label 7100 2800 0    40   ~ 0
+FMC_HA_11_P
+Text Label 4800 2100 2    40   ~ 0
+FMC_HA_12_N
+Text Label 7100 1900 0    40   ~ 0
+FMC_HA_13_N
+Text Label 4800 2900 2    40   ~ 0
+FMC_HA_14_N
+Text Label 1300 2800 2    40   ~ 0
+FMC_HA_15_N
+Text Label 1300 3400 2    40   ~ 0
 FMC_HA_16_N
 Text Label 1300 1400 2    40   ~ 0
 FMC_HA_17_N
-Text Label 1300 2000 2    40   ~ 0
+Text Label 4800 2700 2    40   ~ 0
 FMC_HA_18_N
-Text Label 1300 2400 2    40   ~ 0
+Text Label 4800 3100 2    40   ~ 0
 FMC_HA_19_N
-Text Label 1300 2800 2    40   ~ 0
+Text Label 4800 3500 2    40   ~ 0
 FMC_HA_20_N
-Text Label 1300 2200 2    40   ~ 0
+Text Label 4800 2500 2    40   ~ 0
 FMC_HA_21_N
-Text Label 1300 1600 2    40   ~ 0
+Text Label 3600 1400 0    40   ~ 0
 FMC_HA_22_N
-Text Label 1300 3200 2    40   ~ 0
+Text Label 7100 2900 0    40   ~ 0
 FMC_HA_23_N
-Text Label 3600 2500 0    40   ~ 0
+Text Label 4800 2200 2    40   ~ 0
 FMC_HA_12_P
-Text Label 1300 3100 2    40   ~ 0
+Text Label 7100 2000 0    40   ~ 0
 FMC_HA_13_P
-Text Label 1300 1900 2    40   ~ 0
+Text Label 4800 3000 2    40   ~ 0
 FMC_HA_14_P
-Text Label 1300 3500 2    40   ~ 0
+Text Label 1300 2900 2    40   ~ 0
 FMC_HA_15_P
-Text Label 3600 2900 0    40   ~ 0
+Text Label 1300 3500 2    40   ~ 0
 FMC_HA_16_P
 Text Label 1300 1500 2    40   ~ 0
 FMC_HA_17_P
-Text Label 1300 2100 2    40   ~ 0
+Text Label 4800 2800 2    40   ~ 0
 FMC_HA_18_P
-Text Label 1300 2500 2    40   ~ 0
+Text Label 4800 3200 2    40   ~ 0
 FMC_HA_19_P
-Text Label 1300 2900 2    40   ~ 0
+Text Label 4800 3600 2    40   ~ 0
 FMC_HA_20_P
-Text Label 1300 2300 2    40   ~ 0
+Text Label 4800 2600 2    40   ~ 0
 FMC_HA_21_P
-Text Label 1300 1700 2    40   ~ 0
+Text Label 3600 1500 0    40   ~ 0
 FMC_HA_22_P
-Text Label 1300 3300 2    40   ~ 0
+Text Label 7100 3000 0    40   ~ 0
 FMC_HA_23_P
-Text Notes 3150 4250 0    40   ~ 0
-XADC on bank 35!
-Text HLabel 3600 4850 2    40   Input ~ 0
-XADC_AD0_B_P
-Text HLabel 3600 4750 2    40   Input ~ 0
-XADC_AD0_B_N
-Text HLabel 3600 5050 2    40   Input ~ 0
-XADC_AD8_B_P
-Text HLabel 3600 4950 2    40   Input ~ 0
-XADC_AD8_B_N
-Text HLabel 3600 5450 2    40   BiDi ~ 0
-XADC_GPIO_3
-Text HLabel 3600 5150 2    40   BiDi ~ 0
-XADC_GPIO_0
-Text HLabel 3600 5250 2    40   BiDi ~ 0
-XADC_GPIO_1
-Text HLabel 3600 5350 2    40   BiDi ~ 0
-XADC_GPIO_2
 $Comp
-L GND #PWR0560
+L GND #PWR0549
 U 1 1 5713C035
 P 4350 900
-F 0 "#PWR0560" H 4350 650 50  0001 C CNN
+F 0 "#PWR0549" H 4350 650 50  0001 C CNN
 F 1 "GND" H 4358 726 50  0001 C CNN
 F 2 "" H 4350 900 50  0000 C CNN
 F 3 "" H 4350 900 50  0000 C CNN
@@ -543,72 +525,68 @@ Wire Wire Line
 	4400 900  4350 900 
 Wire Wire Line
 	4700 900  4750 900 
-Text HLabel 3600 4550 2    40   Output ~ 0
+Text HLabel 850  5850 0    40   Output ~ 0
 FAN_PWM
 NoConn ~ 7100 1600
-Text Label 3800 6150 2    40   ~ 0
+Text Label 1300 6950 2    40   ~ 0
 GPIO0
-Text Label 3800 6250 2    40   ~ 0
+Text Label 1300 6550 2    40   ~ 0
 GPIO1
-Text Label 3800 6350 2    40   ~ 0
+Text Label 1300 7050 2    40   ~ 0
 GPIO2
-Text Label 3800 6450 2    40   ~ 0
+Text Label 1300 6350 2    40   ~ 0
 GPIO3
-Text Label 3800 6550 2    40   ~ 0
+Text Label 1300 6150 2    40   ~ 0
 GPIO4
-Text Label 3800 6650 2    40   ~ 0
+Text Label 1300 6450 2    40   ~ 0
 GPIO5
-Text Label 3800 6750 2    40   ~ 0
+Text Label 1300 5550 2    40   ~ 0
 GPIO6
-Text Label 3800 6850 2    40   ~ 0
+Text Label 1300 5750 2    40   ~ 0
 GPIO7
-Text Label 3900 5950 0    40   ~ 0
+Text Label 1000 6950 1    40   ~ 0
 GPIO[0..7]
 Entry Wire Line
-	3900 6050 3800 6150
+	1100 5550 1000 5450
 Entry Wire Line
-	3900 6150 3800 6250
+	1100 5750 1000 5650
 Entry Wire Line
-	3900 6450 3800 6550
+	1100 6450 1000 6350
 Entry Wire Line
-	3900 6350 3800 6450
+	1100 6350 1000 6250
 Entry Wire Line
-	3900 6250 3800 6350
+	1100 6150 1000 6050
 Entry Wire Line
-	3900 6550 3800 6650
+	1100 6550 1000 6450
 Entry Wire Line
-	3900 6650 3800 6750
+	1100 7050 1000 6950
 Entry Wire Line
-	3900 6750 3800 6850
+	1100 6950 1000 6850
 Wire Wire Line
-	3600 6150 3800 6150
+	1100 5550 1300 5550
 Wire Wire Line
-	3600 6250 3800 6250
+	1100 6150 1300 6150
 Wire Wire Line
-	3600 6350 3800 6350
+	1100 6350 1300 6350
 Wire Wire Line
-	3600 6450 3800 6450
+	1100 6450 1300 6450
 Wire Wire Line
-	3600 6550 3800 6550
+	1100 6550 1300 6550
 Wire Wire Line
-	3600 6650 3800 6650
+	1100 6950 1300 6950
 Wire Wire Line
-	3600 6750 3800 6750
+	1100 7050 1300 7050
 Wire Wire Line
-	3600 6850 3800 6850
-Text HLabel 4300 5950 2    40   BiDi ~ 0
+	1100 5750 1300 5750
+Text HLabel 850  5400 0    40   BiDi ~ 0
 GPIO[0..7]
-Wire Bus Line
-	3900 6750 3900 5950
-Wire Bus Line
-	3900 5950 4300 5950
-Text HLabel 1300 4550 0    40   Output ~ 0
+Text HLabel 1300 4750 0    40   Output ~ 0
 FMC_CLK1_C2M_N
-Text HLabel 1300 4650 0    40   Output ~ 0
+Text HLabel 1300 4850 0    40   Output ~ 0
 FMC_CLK1_C2M_P
-Text HLabel 1300 4750 0    40   Input ~ 0
+Text HLabel 1300 4550 0    40   Input ~ 0
 FMC_CLK1_M2C_N
-Text HLabel 1300 4850 0    40   Input ~ 0
+Text HLabel 1300 4650 0    40   Input ~ 0
 FMC_CLK1_M2C_P
 NoConn ~ 7100 1000
 NoConn ~ 7100 1100
@@ -646,30 +624,15 @@ SYSCLK_P
 Text Label 6250 5200 0    40   ~ 0
 SYSCLK_N
 $Comp
-L +3.3V #PWR0561
+L +3.3V #PWR0550
 U 1 1 57261336
 P 5250 4900
-F 0 "#PWR0561" H 5250 4990 20  0001 C CNN
+F 0 "#PWR0550" H 5250 4990 20  0001 C CNN
 F 1 "+3.3V" H 5250 5000 30  0000 C CNN
 F 2 "" H 5250 4900 60  0000 C CNN
 F 3 "" H 5250 4900 60  0000 C CNN
 	1    5250 4900
 	1    0    0    -1  
-$EndComp
-$Comp
-L C C266
-U 1 1 57262594
-P 5250 5150
-F 0 "C266" V 5350 5100 50  0000 L CNN
-F 1 "100nF" V 5150 5050 50  0000 L CNN
-F 2 "chip_rlc:c_0402" H 5288 5000 50  0001 C CNN
-F 3 "" H 5250 5150 50  0000 C CNN
-F 4 "CAP CER 0.1UF 10V X5R 0402" H 5250 5150 60  0001 C CNN "Descripcion"
-F 5 "Yageo" H 5250 5150 60  0001 C CNN "Fabricante"
-F 6 "CC0402KRX5R6BB104" H 5250 5150 60  0001 C CNN "Nro. parte"
-F 7 "311-1336-1-ND" H 5250 5150 60  0001 C CNN "Digikey/Mouser"
-	1    5250 5150
-	-1   0    0    1   
 $EndComp
 Text Label 4800 1200 2    40   ~ 0
 SYSCLK_P
@@ -714,10 +677,10 @@ Wire Wire Line
 	5450 5050 5400 5050
 Connection ~ 5400 5050
 $Comp
-L GND #PWR0562
+L GND #PWR0551
 U 1 1 5726519A
 P 5250 5400
-F 0 "#PWR0562" H 5250 5150 50  0001 C CNN
+F 0 "#PWR0551" H 5250 5150 50  0001 C CNN
 F 1 "GND" H 5258 5226 50  0001 C CNN
 F 2 "" H 5250 5400 50  0000 C CNN
 F 3 "" H 5250 5400 50  0000 C CNN
@@ -753,7 +716,7 @@ F 7 "XC7Z030-2FBG676I-ND" H 5950 2300 60  0001 C CNN "Digikey/Mouser"
 	5    5950 2300
 	1    0    0    -1  
 $EndComp
-Text HLabel 3600 4650 2    40   Output ~ 0
+Text HLabel 3600 6350 2    40   Output ~ 0
 VADJ_EN
 NoConn ~ 3600 5550
 NoConn ~ 3600 5650
@@ -767,20 +730,49 @@ NoConn ~ 1300 5150
 NoConn ~ 1300 5250
 NoConn ~ 1300 5350
 NoConn ~ 1300 5450
-NoConn ~ 1300 5550
 NoConn ~ 1300 5650
-NoConn ~ 1300 5750
-NoConn ~ 1300 5850
 NoConn ~ 1300 5950
 NoConn ~ 1300 6050
-NoConn ~ 1300 6150
 NoConn ~ 1300 6250
-NoConn ~ 1300 6350
-NoConn ~ 1300 6450
-NoConn ~ 1300 6550
 NoConn ~ 1300 6650
 NoConn ~ 1300 6750
 NoConn ~ 1300 6850
-NoConn ~ 1300 6950
-NoConn ~ 1300 7050
+$Comp
+L C C266
+U 1 1 57BF4863
+P 5250 5150
+F 0 "C266" V 5350 5100 50  0000 L CNN
+F 1 "100nF" V 5150 5050 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 5288 5000 50  0001 C CNN
+F 3 "" H 5250 5150 50  0000 C CNN
+F 4 "CAP CER 0.1UF 10V X5R 0201" H 5250 5150 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 5250 5150 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61A104ME15D" H 5250 5150 60  0001 C CNN "Nro. parte"
+F 7 "490-5405-1-ND" H 5250 5150 60  0001 C CNN "Digikey/Mouser"
+	1    5250 5150
+	-1   0    0    1   
+$EndComp
+Wire Bus Line
+	1000 6950 1000 5400
+Wire Bus Line
+	1000 5400 850  5400
+NoConn ~ 3600 6150
+NoConn ~ 3600 6250
+NoConn ~ 3600 6450
+NoConn ~ 3600 6550
+NoConn ~ 3600 6650
+NoConn ~ 3600 6750
+NoConn ~ 3600 6850
+Wire Wire Line
+	1300 5850 850  5850
+NoConn ~ 3600 4550
+NoConn ~ 3600 4650
+NoConn ~ 3600 4750
+NoConn ~ 3600 4850
+NoConn ~ 3600 4950
+NoConn ~ 3600 5050
+NoConn ~ 3600 5150
+NoConn ~ 3600 5250
+NoConn ~ 3600 5350
+NoConn ~ 3600 5450
 $EndSCHEMATC
