@@ -3,46 +3,16 @@ LIBS:CIAA_ACC
 LIBS:XC7Z030_FBG676
 LIBS:DDR3_x16
 LIBS:FMC_HPC
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:ciaa_acc-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 15 16
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "CIAA-ACC FMC HB Y HA"
+Date "2016-10-12"
+Rev "V1.0"
+Comp "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión ACC (HPC)"
+Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_ACC.txt'"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -349,7 +319,7 @@ Text Label 3600 2700 0    40   ~ 0
 FMC_HB_9_P
 Text Label 1300 2500 2    40   ~ 0
 FMC_HB_10_P
-Text Notes 7050 7050 0    60   ~ 0
+Text Notes 3750 7450 0    60   ~ 0
 PUCD: PUDC_B must be tied either directly (or through a 1KΩ or\nless resistor) to VCCO_34 or GND.\n\nDo not allow this pin to float before and\nduring configuration.
 Text Label 1300 3000 2    40   ~ 0
 FMC_HB_11_N

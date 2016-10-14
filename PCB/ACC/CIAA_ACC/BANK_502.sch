@@ -3,46 +3,16 @@ LIBS:CIAA_ACC
 LIBS:XC7Z030_FBG676
 LIBS:DDR3_x16
 LIBS:FMC_HPC
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:ciaa_acc-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 16
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "CIAA-ACC Memorias DDR3"
+Date "2016-10-12"
+Rev "V1.0"
+Comp "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión ACC (HPC)"
+Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_ACC.txt'"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -3429,7 +3399,7 @@ F 7 "490-7223-1-ND" H 5650 7350 60  0001 C CNN "Digikey/Mouser"
 	1    5650 7350
 	1    0    0    -1  
 $EndComp
-Text Notes 7750 7100 0    60   ~ 0
+Text Notes 5000 6900 0    60   ~ 0
 DDR3 routing:\nMax. lenght: 5 inches\nTarget Zo (diff): 80 Ohms +/- 10%\nTarget Zo (single): 40 Ohms +/- 10%
 $Comp
 L C C4
