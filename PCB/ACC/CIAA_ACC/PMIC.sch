@@ -3,6 +3,36 @@ LIBS:CIAA_ACC
 LIBS:XC7Z030_FBG676
 LIBS:DDR3_x16
 LIBS:FMC_HPC
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ciaa_acc-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -341,21 +371,6 @@ F 7 "SRP1238A-R22MCT-ND" H 3500 1450 60  0001 C CNN "Digikey/Mouser"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L POWER_JACK J1
-U 1 1 572AC8E3
-P 1550 3850
-F 0 "J1" H 1300 4050 50  0000 C CNN
-F 1 "5V 5A" H 1550 3700 50  0000 C CNN
-F 2 "conn:POWER_JACK" H 1550 3850 50  0001 C CNN
-F 3 "" H 1550 3850 50  0000 C CNN
-F 4 "CONN PWR JACK 2.5X5.5MM HIGH CUR" H 1550 3850 60  0001 C CNN "Descripcion"
-F 5 "CUI" H 1550 3850 60  0001 C CNN "Fabricante"
-F 6 "PJ-102BH" H 1550 3850 60  0001 C CNN "Nro. parte"
-F 7 "CP-102BH-ND" H 1550 3850 60  0001 C CNN "Digikey/Mouser"
-	1    1550 3850
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR0100
 U 1 1 572AD813
 P 1900 4000
@@ -366,7 +381,6 @@ F 3 "" H 1900 4000 50  0000 C CNN
 	1    1900 4000
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1850 3850
 $Comp
 L CPOL C76
 U 1 1 572AF686
@@ -3274,4 +3288,19 @@ Wire Wire Line
 	3650 3750 3650 4000
 Wire Wire Line
 	3650 4000 3400 4000
+$Comp
+L POWER_JACK_2 J1
+U 1 1 5805C862
+P 1550 3850
+F 0 "J1" H 1500 4050 50  0000 C CNN
+F 1 "5V 10A" H 1500 3700 50  0000 C CNN
+F 2 "conn:PJ-082BH" H 1550 3850 50  0001 C CNN
+F 3 "" H 1550 3850 50  0000 C CNN
+F 4 "Power Barrel Connector Jack 2.50mm ID (0.098\"), 5.50mm OD (0.217\") Through Hole, Right Angle" H 1550 3850 60  0001 C CNN "Descripcion"
+F 5 "CUI" H 1550 3850 60  0001 C CNN "Fabricante"
+F 6 "PJ-082BH" H 1550 3850 60  0001 C CNN "Nro. parte"
+F 7 "CP-082BHCT-ND" H 1550 3850 60  0001 C CNN "Digikey/Mouser"
+	1    1550 3850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
