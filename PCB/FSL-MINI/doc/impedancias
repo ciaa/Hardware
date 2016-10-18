@@ -3,3 +3,16 @@ SELECIÓN DE HERRAMIENTA PARA EL CÁLCULO DE IMPEDANCIAS DE LINEAS DIFERENCIALES
 Debido a la variedad de herramientas de software y fórmulas posibles para el cálculo de
 impedancias de lineas acopladas, es que se decide hallar la dispersión del conjunto de
 soluciones dado por estas herramientas y fórmulas.
+
+Para esto se considerarán un conjunto de dimensiones y características del PCB, en las que
+se ensayarán cada una de las herramientas a evaluar.
+
+
+CARACTERÍSTICAS Y DIMENSIONES:
+
+w (ancho de pista) = 14mils | 0,3556 mm
+t (espesor cobre) = 1oz | 0,035 mm | 1,3779528 mils
+h (espesor sustrato) = 15,75 mils | 0,4 mm
+Er (permitividad relativa sustrato):
+	Tomando como referencia un producto comercial (DURAVER-E-Cu quality 104 ML, utilizado
+	por mayer) Er estará entre 4.6 y 4.9
