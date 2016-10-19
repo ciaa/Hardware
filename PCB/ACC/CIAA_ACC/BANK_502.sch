@@ -38,11 +38,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 16
-Title "CIAA-ACC Memorias DDR3"
-Date "2016-10-12"
-Rev "V1.0"
-Comp "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión ACC (HPC)"
-Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_ACC.txt'"
+Title "CIAA-ACC DDR3 SDRAM Memories"
+Date "2016-10-17"
+Rev "V1.1"
+Comp "COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. CIAA-ACC (HPC)"
+Comment1 "Authors: See 'doc/CHANGES.txt' file.      License: See 'doc/LICENCIA_CIAA_ACC.txt' file."
 Comment2 ""
 Comment3 ""
 Comment4 ""

@@ -38,11 +38,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 16
-Title "CIAA-ACC  Esquemático jerárquico"
-Date "2016-10-12"
-Rev "V1.0"
-Comp "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión ACC (HPC)"
-Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_ACC.txt'"
+Title "CIAA-ACC  Hierarchical schematic"
+Date "2016-10-17"
+Rev "V1.1"
+Comp "COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. CIAA-ACC (HPC)"
+Comment1 "Authors: See 'doc/CHANGES.txt' file.      License: See 'doc/LICENCIA_CIAA_ACC.txt' file."
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -173,11 +173,11 @@ F13 "UART_EMIO_RX" O R 6200 2250 40
 F14 "CAN_TX" I R 6200 1400 40 
 F15 "CAN_RX" O R 6200 1450 40 
 $EndSheet
-Text Notes 5200 1150 0    60   ~ 0
+Text Notes 5050 2350 0    60   ~ 0
 BOOTSTRAP\nQSPI\nDEBUG UART\nSMBUS & I2C\nRS-485 & CAN
-Text Notes 8900 2100 0    60   ~ 0
+Text Notes 9200 2000 0    60   ~ 0
 DDR3
-Text Notes 3150 1750 0    60   ~ 0
+Text Notes 3300 2050 0    60   ~ 0
 USB JTAG-UART IF\nFMC JTAG
 Text Notes 3300 5800 0    60   ~ 0
 PCIe\nFMC Transceiver
@@ -219,11 +219,11 @@ F6 "FMC_CLK1_C2M_P" O R 6200 3150 40
 F7 "FMC_CLK1_M2C_N" I R 6200 3350 40 
 F8 "FMC_CLK1_M2C_P" I R 6200 3300 40 
 $EndSheet
-Text Notes 7150 2950 0    60   ~ 0
+Text Notes 7050 4200 0    60   ~ 0
 Banks 12, 13\nFMC LA
 Text Notes 5450 4050 0    60   ~ 0
 Banks 33,34,35\nFMC HA, HB\nSYSCLK
-Text Notes 7450 2050 0    60   ~ 0
+Text Notes 7350 2050 0    60   ~ 0
 Ethernet\nSDIO\nUSB OTG
 $Comp
 L TESTPOINT TP1
@@ -683,4 +683,26 @@ F30 "FMC_CLK1_C2M_P" I L 6900 3150 40
 F31 "FMC_CLK1_M2C_N" O L 6900 3350 40 
 F32 "FMC_CLK1_M2C_P" O L 6900 3300 40 
 $EndSheet
+Text Notes 4500 750  0    118  ~ 24
+Hierarchical Schematic
+Wire Notes Line
+	4450 550  6600 550 
+Wire Notes Line
+	6600 550  6600 800 
+Wire Notes Line
+	6600 800  4450 800 
+Wire Notes Line
+	4450 800  4450 550 
+Text Notes 1250 1900 0    60   ~ 0
+POWER\nSUPPLY
+Text Notes 1050 3200 0    60   ~ 0
+FPGA POWER PINS\nDECOUPLING CAPS\nBULK CAPS
+Text Notes 1050 4450 0    60   ~ 0
+FMC POWER PINS
+Text Notes 3300 3950 0    60   ~ 0
+PCIe/104 OneBank
+Text Notes 9100 3800 0    60   ~ 0
+Digital Inputs\nDigital Outputs
+Text Notes 9250 5500 0    60   ~ 0
+HDMI Dual Role\nRTC
 $EndSCHEMATC

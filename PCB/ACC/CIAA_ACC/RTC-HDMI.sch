@@ -39,10 +39,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 16
 Title "CIAA-ACC HDMI Dual Role"
-Date "2016-10-12"
-Rev "V1.0"
-Comp "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión ACC (HPC)"
-Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_ACC.txt'"
+Date "2016-10-17"
+Rev "V1.1"
+Comp "COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. CIAA-ACC (HPC)"
+Comment1 "Authors: See 'doc/CHANGES.txt' file.      License: See 'doc/LICENCIA_CIAA_ACC.txt' file."
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -856,4 +856,16 @@ $EndComp
 NoConn ~ 10400 1900
 Wire Wire Line
 	10050 1500 10000 1500
+Text Notes 3750 5050 0    100  ~ 20
+Real Time Clock
+Text Notes 4700 1000 0    118  ~ 24
+HDMI / RTC
+Wire Notes Line
+	4650 800  5850 800 
+Wire Notes Line
+	5850 800  5850 1050
+Wire Notes Line
+	5850 1050 4650 1050
+Wire Notes Line
+	4650 1050 4650 800 
 $EndSCHEMATC

@@ -38,11 +38,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 16
-Title "CIAA-ACC Entradas y salidas digitales"
-Date "2016-10-12"
-Rev "V1.0"
-Comp "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión ACC (HPC)"
-Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_ACC.txt'"
+Title "CIAA-ACC Digital Inputs and Outputs"
+Date "2016-10-17"
+Rev "V1.1"
+Comp "COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. CIAA-ACC (HPC)"
+Comment1 "Authors: See 'doc/CHANGES.txt' file.      License: See 'doc/LICENCIA_CIAA_ACC.txt' file."
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -1371,4 +1371,14 @@ Wire Wire Line
 	8900 2650 8900 2700
 Wire Wire Line
 	8900 2700 9300 2700
+Text Notes 4150 850  0    118  ~ 24
+Digital Inputs and Outputs
+Wire Notes Line
+	4100 650  6600 650 
+Wire Notes Line
+	6600 650  6600 950 
+Wire Notes Line
+	6600 950  4100 950 
+Wire Notes Line
+	4100 950  4100 650 
 $EndSCHEMATC

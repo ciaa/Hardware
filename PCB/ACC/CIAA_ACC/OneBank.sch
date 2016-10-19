@@ -38,11 +38,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 16
-Title "CIAA-ACC Conector PCIe OneBank"
-Date "2016-10-12"
-Rev "V1.0"
-Comp "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión ACC (HPC)"
-Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_ACC.txt'"
+Title "CIAA-ACC PCIe/104 OneBank Connector"
+Date "2016-10-17"
+Rev "V1.1"
+Comp "COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. CIAA-ACC (HPC)"
+Comment1 "Authors: See 'doc/CHANGES.txt' file.      License: See 'doc/LICENCIA_CIAA_ACC.txt' file."
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -888,4 +888,24 @@ Wire Wire Line
 	8300 2200 8050 2200
 Wire Wire Line
 	8050 2200 8050 1600
+Text Notes 2350 2100 0    118  ~ 24
+Mux/Demux Switch
+Text Notes 4250 800  0    118  ~ 24
+PCIe/104 OneBank Connector
+Wire Notes Line
+	4200 600  7000 600 
+Wire Notes Line
+	7000 600  7000 850 
+Wire Notes Line
+	7000 850  4200 850 
+Wire Notes Line
+	4200 850  4200 600 
+Wire Notes Line
+	4250 6600 6450 6600
+Wire Notes Line
+	6450 6600 6450 7250
+Wire Notes Line
+	6450 7250 4250 7250
+Wire Notes Line
+	4250 7250 4250 6600
 $EndSCHEMATC

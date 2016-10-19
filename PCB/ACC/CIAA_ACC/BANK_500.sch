@@ -39,10 +39,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 11 16
 Title "CIAA-ACC UART, QSPI, I2C, CAN, RS485 "
-Date "2016-10-12"
-Rev "V1.0"
-Comp "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión ACC (HPC)"
-Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_ACC.txt'"
+Date "2016-10-17"
+Rev "V1.1"
+Comp "COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. CIAA-ACC (HPC)"
+Comment1 "Authors: See 'doc/CHANGES.txt' file.      License: See 'doc/LICENCIA_CIAA_ACC.txt' file."
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -438,7 +438,7 @@ F 7 "311-20KJRCT-ND" H 10300 3000 60  0001 C CNN "Digikey/Mouser"
 $EndComp
 Text Notes 9250 3800 0    100  ~ 20
 BOOT SELECTOR
-Text Notes 8850 2200 0    100  ~ 20
+Text Notes 9650 700  0    100  ~ 20
 QSPI
 $Comp
 L +3.3V #PWR0313
@@ -1655,4 +1655,22 @@ F 7 "490-13233-1-ND" H 7050 5700 60  0001 C CNN "Digikey/Mouser"
 	1    7050 5700
 	-1   0    0    1   
 $EndComp
+Text Notes 4200 950  0    118  ~ 24
+UART, QSPI, I2C, CAN, RS485
+Wire Notes Line
+	4150 750  6900 750 
+Wire Notes Line
+	6900 750  6900 1000
+Wire Notes Line
+	6900 1000 4150 1000
+Wire Notes Line
+	4150 1000 4150 750 
+Wire Notes Line
+	9250 1950 10700 1950
+Wire Notes Line
+	10700 1950 10700 2400
+Wire Notes Line
+	10700 2400 9250 2400
+Wire Notes Line
+	9250 2400 9250 1950
 $EndSCHEMATC

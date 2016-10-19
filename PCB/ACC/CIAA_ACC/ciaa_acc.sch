@@ -38,11 +38,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 16
-Title "CIAA-ACC  Diagrama en bloques"
-Date "2016-10-12"
-Rev "V1.0"
-Comp "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión ACC (HPC)"
-Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_ACC.txt'"
+Title "CIAA-ACC Block Diagram"
+Date "2016-10-17"
+Rev "V1.1"
+Comp "COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. CIAA-ACC (HPC)"
+Comment1 "Authors: See 'doc/CHANGES.txt' file.      License: See 'doc/LICENCIA_CIAA_ACC.txt' file."
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -99,8 +99,8 @@ Text Notes 6950 4900 0    60   ~ 0
 Status LEDs
 Text Notes 5200 5550 0    60   ~ 12
 Power Jack\n     5V
-Text Notes 6250 5500 0    60   ~ 12
-Fuentes
+Text Notes 6250 5550 0    60   ~ 12
+Power \nsupply
 Text Notes 7200 5550 0    60   ~ 12
    RTC\nw/Battery
 Text Notes 4850 5150 0    60   ~ 0
@@ -478,4 +478,6 @@ F 3 "" H 4600 6750 60  0000 C CNN
 	1    4600 6750
 	1    0    0    -1  
 $EndComp
+Text Notes 3950 1200 0    118  ~ 24
+Computadora Industrial Abierta Argentina\n                   CIAA-ACC\nXilinx XC7Z030 (2x Cortex A9 + Kintex-7 FPGA)\n
 $EndSCHEMATC

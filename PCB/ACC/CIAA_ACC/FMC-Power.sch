@@ -38,11 +38,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 13 16
-Title "CIAA-ACC Pines GND del conector FMC"
-Date "2016-10-12"
-Rev "V1.0"
-Comp "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión ACC (HPC)"
-Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_ACC.txt'"
+Title "CIAA-ACC FMC POWER pins"
+Date "2016-10-17"
+Rev "V1.1"
+Comp "COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. CIAA-ACC (HPC)"
+Comment1 "Authors: See 'doc/CHANGES.txt' file.      License: See 'doc/LICENCIA_CIAA_ACC.txt' file."
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -651,6 +651,24 @@ Connection ~ 9450 3200
 Wire Wire Line
 	9550 3250 9550 3200
 Connection ~ 9550 3200
-Text Notes 4400 2100 0    60   ~ 0
-Carga capacitiva max admitida en VADJ: 38 uF
+Text Notes 4650 950  0    118  ~ 24
+FMC POWER PINS
+Wire Notes Line
+	4600 700  4600 1000
+Text Notes 3450 2350 0    60   ~ 0
+Max capacitive load \non VADJ = 38 uF 
+Wire Notes Line
+	3400 2150 4400 2150
+Wire Notes Line
+	4400 2150 4400 2400
+Wire Notes Line
+	4400 2400 3400 2400
+Wire Notes Line
+	3400 2400 3400 2150
+Wire Notes Line
+	4600 700  6250 700 
+Wire Notes Line
+	6250 700  6250 1000
+Wire Notes Line
+	6250 1000 4600 1000
 $EndSCHEMATC

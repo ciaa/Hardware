@@ -38,11 +38,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 15 16
-Title "CIAA-ACC FMC HB Y HA"
-Date "2016-10-12"
-Rev "V1.0"
-Comp "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión ACC (HPC)"
-Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_ACC.txt'"
+Title "CIAA-ACC FMC HB / FMC HA"
+Date "2016-10-17"
+Rev "V1.1"
+Comp "COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. CIAA-ACC (HPC)"
+Comment1 "Authors: See 'doc/CHANGES.txt' file.      License: See 'doc/LICENCIA_CIAA_ACC.txt' file."
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -775,4 +775,22 @@ NoConn ~ 3600 5150
 NoConn ~ 3600 5250
 NoConn ~ 3600 5350
 NoConn ~ 3600 5450
+Text Notes 4650 700  0    118  ~ 24
+FMC HB / FMC HA
+Wire Notes Line
+	4600 500  6350 500 
+Wire Notes Line
+	6350 500  6350 750 
+Wire Notes Line
+	6350 750  4600 750 
+Wire Notes Line
+	4600 750  4600 500 
+Wire Notes Line
+	3700 6950 6800 6950
+Wire Notes Line
+	6800 6950 6800 7550
+Wire Notes Line
+	6800 7550 3700 7550
+Wire Notes Line
+	3700 7550 3700 6950
 $EndSCHEMATC

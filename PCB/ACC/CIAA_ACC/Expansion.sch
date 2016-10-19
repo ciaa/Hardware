@@ -38,11 +38,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 16
-Title "CIAA-ACC Conector de expansión (GPIO, SPI, I2C) y FAN"
-Date "2016-10-12"
-Rev "V1.0"
-Comp "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión ACC (HPC)"
-Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_ACC.txt'"
+Title "CIAA-ACC Expansion Header (GPIO, SPI, I2C) / FAN Connector"
+Date "2016-10-17"
+Rev "V1.1"
+Comp "COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. CIAA-ACC (HPC)"
+Comment1 "Authors: See 'doc/CHANGES.txt' file.      License: See 'doc/LICENCIA_CIAA_ACC.txt' file."
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -961,4 +961,28 @@ F 3 "" H 5050 3350 60  0000 C CNN
 	1    5050 3350
 	1    0    0    -1  
 $EndComp
+Text Notes 4300 1100 0    118  ~ 24
+Expansion Header / FAN Connector
+Wire Notes Line
+	4200 900  7600 900 
+Wire Notes Line
+	7600 900  7600 1200
+Wire Notes Line
+	7600 1200 4200 1200
+Wire Notes Line
+	4200 1200 4200 900 
+Text Notes 8800 2550 0    118  ~ 24
+Expansion Header
+Wire Notes Line
+	8150 5000 9050 5000
+Wire Notes Line
+	9050 5000 9050 5200
+Wire Notes Line
+	9050 5200 8150 5200
+Wire Notes Line
+	8150 5200 8150 5000
+Text Notes 5500 1900 0    118  ~ 24
+Voltage level translator
+Text Notes 2850 2850 0    118  ~ 24
+FAN
 $EndSCHEMATC

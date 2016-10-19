@@ -38,11 +38,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 16
-Title "CIAA-ACC USB JTAG UART y FMC JTAG"
-Date "2016-10-12"
-Rev "V1.0"
-Comp "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión ACC (HPC)"
-Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_ACC.txt'"
+Title "CIAA-ACC USB JTAG UART / FMC JTAG"
+Date "2016-10-17"
+Rev "V1.1"
+Comp "COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. CIAA-ACC (HPC)"
+Comment1 "Authors: See 'doc/CHANGES.txt' file.      License: See 'doc/LICENCIA_CIAA_ACC.txt' file."
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -518,8 +518,8 @@ Text Label 3850 4450 0    40   ~ 0
 TDO
 Text Label 3850 4650 0    40   ~ 0
 RESET
-Text Notes 6900 3900 0    60   ~ 0
-TDI: Output from LPC\nTDO: Input of LPC\nRESET: System reset (drive as open drain)
+Text Notes 6900 4000 0    60   ~ 0
+TDI: Output from LPC\nTDO: Input of LPC\nRESET: System reset \n(drive as open drain)
 Text Label 4000 1750 0    40   ~ 0
 TDO
 NoConn ~ 8450 2200
@@ -639,7 +639,7 @@ F 3 "" H 1500 4000 50  0000 C CNN
 $EndComp
 Text HLabel 1250 4600 0    40   Output ~ 0
 FMC_PRSNT
-Text Notes 7350 4550 0    60   ~ 0
+Text Notes 8950 4350 0    60   ~ 0
 USB routing:\nMax. lenght: 14 inches\nTarget Zo (diff): 90 Ohms +/- 15%\nSpacing to other signals: 50 mils\nMatching tolerance (intra-pair): 10 mils
 $Comp
 L +3.3V #PWR0232
@@ -998,7 +998,7 @@ F 7 "311-33JRCT-ND" H 10050 5800 60  0001 C CNN "Digikey/Mouser"
 $EndComp
 Text Label 8700 5700 2    40   ~ 0
 FPGA_DONE
-Text Notes 9700 6200 0    100  ~ 20
+Text Notes 9000 4900 0    100  ~ 20
 FPGA CFG LEDS
 $Comp
 L CJS-1200TA J20
@@ -1054,6 +1054,38 @@ F 3 "" H 3950 2900 50  0000 C CNN
 	1    3950 2900
 	1    0    0    -1  
 $EndComp
+$Comp
+L C C128
+U 1 1 57CC1596
+P 9200 3300
+F 0 "C128" V 9250 3150 50  0000 L CNN
+F 1 "100nF" V 9100 3200 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 9238 3150 50  0001 C CNN
+F 3 "" H 9200 3300 50  0000 C CNN
+F 4 "CAP CER 0.1UF 10V X5R 0201" H 9200 3300 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 9200 3300 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61A104ME15D" H 9200 3300 60  0001 C CNN "Nro. parte"
+F 7 "490-5405-1-ND" H 9200 3300 60  0001 C CNN "Digikey/Mouser"
+	1    9200 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C130
+U 1 1 57CC18E8
+P 9450 3300
+F 0 "C130" V 9500 3150 50  0000 L CNN
+F 1 "100nF" V 9350 3200 50  0000 L CNN
+F 2 "chip_rlc:c_0201" H 9488 3150 50  0001 C CNN
+F 3 "" H 9450 3300 50  0000 C CNN
+F 4 "CAP CER 0.1UF 10V X5R 0201" H 9450 3300 60  0001 C CNN "Descripcion"
+F 5 "Murata" H 9450 3300 60  0001 C CNN "Fabricante"
+F 6 "GRM033R61A104ME15D" H 9450 3300 60  0001 C CNN "Nro. parte"
+F 7 "490-5405-1-ND" H 9450 3300 60  0001 C CNN "Digikey/Mouser"
+	1    9450 3300
+	-1   0    0    1   
+$EndComp
+Text Notes 4300 800  0    118  ~ 24
+USB JTAG UART / FMC JTAG
 Wire Wire Line
 	5750 4100 5650 4100
 Wire Wire Line
@@ -1385,34 +1417,28 @@ Connection ~ 3950 2550
 Wire Wire Line
 	3850 1450 4250 1450
 Connection ~ 4250 1550
-$Comp
-L C C128
-U 1 1 57CC1596
-P 9200 3300
-F 0 "C128" V 9250 3150 50  0000 L CNN
-F 1 "100nF" V 9100 3200 50  0000 L CNN
-F 2 "chip_rlc:c_0201" H 9238 3150 50  0001 C CNN
-F 3 "" H 9200 3300 50  0000 C CNN
-F 4 "CAP CER 0.1UF 10V X5R 0201" H 9200 3300 60  0001 C CNN "Descripcion"
-F 5 "Murata" H 9200 3300 60  0001 C CNN "Fabricante"
-F 6 "GRM033R61A104ME15D" H 9200 3300 60  0001 C CNN "Nro. parte"
-F 7 "490-5405-1-ND" H 9200 3300 60  0001 C CNN "Digikey/Mouser"
-	1    9200 3300
-	-1   0    0    1   
-$EndComp
-$Comp
-L C C130
-U 1 1 57CC18E8
-P 9450 3300
-F 0 "C130" V 9500 3150 50  0000 L CNN
-F 1 "100nF" V 9350 3200 50  0000 L CNN
-F 2 "chip_rlc:c_0201" H 9488 3150 50  0001 C CNN
-F 3 "" H 9450 3300 50  0000 C CNN
-F 4 "CAP CER 0.1UF 10V X5R 0201" H 9450 3300 60  0001 C CNN "Descripcion"
-F 5 "Murata" H 9450 3300 60  0001 C CNN "Fabricante"
-F 6 "GRM033R61A104ME15D" H 9450 3300 60  0001 C CNN "Nro. parte"
-F 7 "490-5405-1-ND" H 9450 3300 60  0001 C CNN "Digikey/Mouser"
-	1    9450 3300
-	-1   0    0    1   
-$EndComp
+Wire Notes Line
+	4200 600  6900 600 
+Wire Notes Line
+	6900 600  6900 900 
+Wire Notes Line
+	6900 900  4200 900 
+Wire Notes Line
+	4200 900  4200 600 
+Wire Notes Line
+	6850 3600 7950 3600
+Wire Notes Line
+	7950 3600 7950 4050
+Wire Notes Line
+	7950 4050 6850 4050
+Wire Notes Line
+	6850 4050 6850 3600
+Wire Notes Line
+	8900 3900 10850 3900
+Wire Notes Line
+	10850 3900 10850 4400
+Wire Notes Line
+	10850 4400 8900 4400
+Wire Notes Line
+	8900 4400 8900 3900
 $EndSCHEMATC

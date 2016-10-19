@@ -38,11 +38,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 10 16
-Title "CIAA-ACC PCIe procesador y FMC transceiver"
-Date "2016-10-12"
-Rev "V1.0"
-Comp "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión ACC (HPC)"
-Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_ACC.txt'"
+Title "CIAA-ACC FPGA PCIe / FMC transceiver"
+Date "2016-10-17"
+Rev "V1.1"
+Comp "COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. CIAA-ACC (HPC)"
+Comment1 "Authors: See 'doc/CHANGES.txt' file.      License: See 'doc/LICENCIA_CIAA_ACC.txt' file."
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -214,4 +214,30 @@ Wire Wire Line
 	4200 2450 3800 2450
 Text Notes 4050 2100 0    40   ~ 0
 MGTRREF must have matched\nlength with MGTAVTTRCAL.
+Text Notes 4400 1050 0    118  ~ 24
+PCIe / FMC Transceiver
+Wire Notes Line
+	4300 800  6600 800 
+Wire Notes Line
+	6600 800  6600 1100
+Wire Notes Line
+	6600 1100 4300 1100
+Wire Notes Line
+	4300 1100 4300 800 
+Wire Notes Line
+	8300 3700 10600 3700
+Wire Notes Line
+	10600 3700 10600 4250
+Wire Notes Line
+	10600 4250 8300 4250
+Wire Notes Line
+	8300 4250 8300 3700
+Wire Notes Line
+	8100 2450 9850 2450
+Wire Notes Line
+	9850 2450 9850 2750
+Wire Notes Line
+	9850 2750 8100 2750
+Wire Notes Line
+	8100 2750 8100 2450
 $EndSCHEMATC

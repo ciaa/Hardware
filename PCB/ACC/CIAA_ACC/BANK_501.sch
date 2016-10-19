@@ -39,10 +39,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 14 16
 Title "CIAA-ACC Ethernet, SDIO, USB OTG"
-Date "2016-10-12"
-Rev "V1.0"
-Comp "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión ACC (HPC)"
-Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_ACC.txt'"
+Date "2016-10-17"
+Rev "V1.1"
+Comp "COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. CIAA-ACC (HPC)"
+Comment1 "Authors: See 'doc/CHANGES.txt' file.      License: See 'doc/LICENCIA_CIAA_ACC.txt' file."
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -2765,4 +2765,14 @@ F 7 "490-5405-1-ND" H 4900 5500 60  0001 C CNN "Digikey/Mouser"
 	1    4900 5500
 	0    -1   -1   0   
 $EndComp
+Text Notes 950  800  0    118  ~ 24
+ETH, SDIO, USB OTG
+Wire Notes Line
+	900  600  2800 600 
+Wire Notes Line
+	2800 600  2800 850 
+Wire Notes Line
+	2800 850  900  850 
+Wire Notes Line
+	900  850  900  600 
 $EndSCHEMATC

@@ -38,11 +38,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 12 16
-Title "CIAA-ACC Pines VCC y GND de la FPGA"
-Date "2016-10-12"
-Rev "V1.0"
-Comp "CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. Versión ACC (HPC)"
-Comment1 "Autores: Ver 'doc/CHANGES.txt'      Licencia: Ver  'doc/LICENCIA_CIAA_ACC.txt'"
+Title "CIAA-ACC FPGA POWER pins"
+Date "2016-10-17"
+Rev "V1.1"
+Comp "COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. CIAA-ACC (HPC)"
+Comment1 "Authors: See 'doc/CHANGES.txt' file.      License: See 'doc/LICENCIA_CIAA_ACC.txt' file."
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -4362,4 +4362,24 @@ F 7 "490-5405-1-ND" H 6650 3900 60  0001 C CNN "Digikey/Mouser"
 	1    6650 3900
 	-1   0    0    1   
 $EndComp
+Text Notes 6200 2950 0    118  ~ 24
+FPGA POWER PINS
+Wire Notes Line
+	6150 3050 6150 2750
+Text Notes 7400 6350 0    118  ~ 24
+Bulk and decoupling capacitors
+Wire Notes Line
+	7300 6150 10300 6150
+Wire Notes Line
+	10300 6150 10300 6400
+Wire Notes Line
+	10300 6400 7300 6400
+Wire Notes Line
+	7300 6400 7300 6150
+Wire Notes Line
+	6150 2750 7900 2750
+Wire Notes Line
+	7900 2750 7900 3050
+Wire Notes Line
+	7900 3050 6150 3050
 $EndSCHEMATC
