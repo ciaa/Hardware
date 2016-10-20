@@ -1,18 +1,47 @@
 SELECIÓN DE HERRAMIENTA PARA EL CÁLCULO DE IMPEDANCIAS DE LINEAS DIFERENCIALES.
 
 Debido a la variedad de herramientas de software y fórmulas posibles para el cálculo de
-impedancias de lineas acopladas, es que se decide hallar la dispersión del conjunto de
-soluciones dado por estas herramientas y fórmulas.
+impedancias de lineas acopladas microstrip diferencial, es que se decide hallar la dispersión
+del conjunto de soluciones dado por estas herramientas y fórmulas.
 
 Para esto se considerarán un conjunto de dimensiones y características del PCB, en las que
 se ensayarán cada una de las herramientas a evaluar.
 
 
-CARACTERÍSTICAS Y DIMENSIONES:
 
-w (ancho de pista) = 14mils | 0,3556 mm
-t (espesor cobre) = 1oz | 0,035 mm | 1,3779528 mils
-h (espesor sustrato) = 15,75 mils | 0,4 mm
-Er (permitividad relativa sustrato):
-	Tomando como referencia un producto comercial (DURAVER-E-Cu quality 104 ML, utilizado
-	por mayer) Er estará entre 4.6 y 4.9
+CARACTERÍSTICAS Y DIMENSIONES PARA ENSAYO:
+
+Las características y algunas dimensiones son propias de los materiales a ensayar.  Se tomarán
+aquellos que han sido detallados en la versión FSL de la CIAA.
+El sustrato esta formado de 2 capas de DURAVER-E-Cu quality 104 ML en su presentación 7628 AT05 
+de 0.2 mm de espesor, resultando 0.4mm de espesor total.  La máscara antisoldante es 
+Lackwerke Peters SD 2467 SM-YG.
+
+a)Dimensiones:
+
+W (ancho de pista) = 14mils | 0,3556 mm
+S (separación entre pistas) = 8mils | 0,2032 mm
+Wcu (espesor cobre) = 1oz | 0,035 mm | 1,3779528 mils
+Ws (espesor sustrato) = 15,75 mils | 0,4 mm
+Wm (espesor máscara antisoldante) = 1mils | 0,0254 mm
+
+b) Características de los materiales:
+
+RESs (contenido de resina del sustrato) = 43,8 %
+ERs (permitividad relativa sustrato) @ 100Mhz = 4,47 aprox.
+TGs (tangente de perdida sustrato) = 0,0195 
+ERm (permitividad relativa mascara) = 3,7
+TGm (tangente de perdida mascara) = 0,029
+
+
+HERRAMIENTAS ENSAYADAS:
+
+a) Set de fórmulas.
+Se trata de un conjunto de fòrmulas bastante difundida entre notas de aplicaciòn sobre diseño
+de PCB y applets o aplicaciones web.
+Los datos requeridos por este conjunto de fórmulas son: ERs, Ws, W, Wcu, S.
+
+          87           /        /      Ws       \ \ 
+Zo = ------------ * ln | 5.98 * | ------------- | | 
+       __________      \        \ 0.8 * W + Wcu / / 
+     |/ERs + 1.41                                    
