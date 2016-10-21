@@ -3,35 +3,6 @@ LIBS:CIAA_ACC
 LIBS:XC7Z030_FBG676
 LIBS:DDR3_x16
 LIBS:FMC_HPC
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:ciaa_acc-cache
 EELAYER 25 0
 EELAYER END
@@ -480,4 +451,15 @@ F 3 "" H 4600 6750 60  0000 C CNN
 $EndComp
 Text Notes 3950 1200 0    118  ~ 24
 Computadora Industrial Abierta Argentina\n                   CIAA-ACC\nXilinx XC7Z030 (2x Cortex A9 + Kintex-7 FPGA)\n
+$Comp
+L LOGO_INTI G3
+U 1 1 580956D1
+P 2950 6750
+F 0 "G3" H 2950 6447 60  0001 C CNN
+F 1 "LOGO_INTI" H 2950 7053 60  0001 C CNN
+F 2 "logos:LOGO_INTI" H 2950 6750 60  0001 C CNN
+F 3 "" H 2950 6750 60  0000 C CNN
+	1    2950 6750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
