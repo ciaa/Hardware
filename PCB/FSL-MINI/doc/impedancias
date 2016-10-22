@@ -1,8 +1,8 @@
 SELECIÓN DE HERRAMIENTA PARA EL CÁLCULO DE IMPEDANCIAS DE LINEAS DIFERENCIALES.
 
 Debido a la variedad de herramientas de software y fórmulas posibles para el cálculo de
-impedancias de lineas acopladas microstrip diferencial, es que se decide hallar la dispersión
-del conjunto de soluciones dado por estas herramientas y fórmulas.
+impedancias de lineas acopladas microstrip diferencial con plano de masa, es que se decide hallar
+la dispersión del conjunto de soluciones dado por estas herramientas y fórmulas.
 
 Para esto se considerarán un conjunto de dimensiones y características del PCB, en las que
 se ensayarán cada una de las herramientas a evaluar.
@@ -34,14 +34,43 @@ ERm (permitividad relativa mascara) = 3,7
 TGm (tangente de perdida mascara) = 0,029
 
 
+
 HERRAMIENTAS ENSAYADAS:
 
-a) Set de fórmulas.
+a) Set de fórmulas 1.
 Se trata de un conjunto de fòrmulas bastante difundida entre notas de aplicaciòn sobre diseño
-de PCB y applets o aplicaciones web.
+de PCB y applets o aplicaciones web.  En estas se calcula primero la impedancia característica de
+una linea (Zo), y luego con Zo se calcula Zdiff.
 Los datos requeridos por este conjunto de fórmulas son: ERs, Ws, W, Wcu, S.
 
-          87           /        /      Ws       \ \ 
-Zo = ------------ * ln | 5.98 * | ------------- | | 
-       __________      \        \ 0.8 * W + Wcu / / 
-     |/ERs + 1.41                                    
+          87           /   5.98 Ws   \ 
+Zo = ------------ x ln | ----------- | 	(1)
+       __________      \ 0.8 W + Wcu / 
+     \/ERs + 1.41                                    
+
+
+                 /         /  /        S  \ \ \ 
+                 |         |  | - 0.96 -- | | | 
+                 |         |  \        Ws / | |
+Zdiff = 2 x Zo x |1 - 0.48 | e              | | 	(2)
+                 \         \                / /
+
+
+b) Set de fórmulas 2.
+Similar al set de fórmulas "a)" anterior, pero con una pequeña diferencia de valores en el
+cálculo de Zo.
+
+         88.75         /   5.97 Ws   \ 
+Zo = ------------ x ln | ----------- | 
+       __________      \ 0.8 W + Wcu / 
+     |/ERs + 1.47                    
+
+
+c) Set de fórmulas 3.
+Una nueva variación del set de fórmulas "a)" en el cálculo de Zo. Para este caso se hace la
+aclaración de que W sea menor o igual a 2Ws.
+
+             60              /        4 Ws        \ 
+Zo = ------------------ x ln | ------------------ | 
+       ________________      \ 0.67 (0.8 W + Wcu) / 
+     |/0.475 ERs + 0.67      
