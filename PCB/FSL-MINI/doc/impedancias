@@ -39,8 +39,8 @@ HERRAMIENTAS ENSAYADAS:
 
 a) Set de fórmulas 1.
 Se trata de un conjunto de fòrmulas bastante difundida entre notas de aplicaciòn sobre diseño
-de PCB y applets o aplicaciones web.  En estas se calcula primero la impedancia característica de
-una linea (Zo), y luego con Zo se calcula Zdiff.
+de PCB y applets o aplicaciones web.  Esta forma parte de la norma IPC 2141.  En estas se calcula 
+primero la impedancia característica de una linea (Zo), y luego con Zo se calcula Zdiff.
 Los datos requeridos por este conjunto de fórmulas son: ERs, Ws, W, Wcu, S.
 
           87           /   5.98 Ws   \ 
