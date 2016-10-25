@@ -14,7 +14,7 @@
   (pad 3 smd rect (at 0 0) (size 0.4 2) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -1.2 0) (size 0.4 2) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.2 0) (size 0.4 2) (layers F.Cu F.Paste F.Mask))
-  (model footprints/xtal-res.3dshapes/CSTCE_G.wrl
+  (model footprints/xtal-res-osc.3dshapes/CSTCE_G.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.395 0.395 0.395))
     (rotate (xyz 0 0 0))
