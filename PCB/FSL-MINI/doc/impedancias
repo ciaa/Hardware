@@ -39,9 +39,12 @@ HERRAMIENTAS ENSAYADAS:
 
 a) Set de fórmulas 1.
 Se trata de un conjunto de fòrmulas bastante difundida entre notas de aplicaciòn sobre diseño
-de PCB y applets o aplicaciones web.  Esta forma parte de la norma IPC 2141.  En estas se calcula 
-primero la impedancia característica de una linea (Zo), y luego con Zo se calcula Zdiff.
-Los datos requeridos por este conjunto de fórmulas son: ERs, Ws, W, Wcu, S.
+de PCB y applets o aplicaciones web.  Esta forma parte de la norma IPC 2141, a la que también 
+hace referencia un artículo de Polar Instruments 
+(http://www.polarinstruments.com/support/cits/IPC1999.pdf), empresa dedicada al desarrollo de
+software aplicable al diseño electrónico.
+Con estas fórmulas se calcula primero la impedancia característica de una linea (Zo), y luego
+con Zo se calcula Zdiff. Los datos requeridos por este conjunto de fórmulas son: ERs, Ws, W, Wcu, S.
 
           87           /   5.98 Ws   \ 
 Zo = ------------ x ln | ----------- | 	(1)
@@ -68,9 +71,49 @@ Zo = ------------ x ln | ----------- |
 
 c) Set de fórmulas 3.
 Una nueva variación del set de fórmulas "a)" en el cálculo de Zo. Para este caso se hace la
-aclaración de que W sea menor o igual a 2Ws.
+aclaración de que W <= 2Ws.
 
              60              /        4 Ws        \ 
 Zo = ------------------ x ln | ------------------ | 
        ________________      \ 0.67 (0.8 W + Wcu) / 
      |/0.475 ERs + 0.67      
+
+
+d) Programa de cálculo de KiCAD
+Kicad posee herramientas para el cálculo de lineas de transmisión.  Entre estas lo hay para lineas
+microstrip acopladas.  Las ecuaciones que la herramienta utiliza fueron tomadas de varias
+fuentes bibliográficas, las cuales son citadas dentro del archivo .c del código fuente que
+realiza el trabajo de cómputo
+(https://github.com/KiCad/kicad-source-mirror/blob/master/pcb_calculator/transline/c_microstrip.cpp).
+En esta herramienta se cálcula las impedancias diferenciales (Zodd) y comunes (Zeven)
+de las lineas apareadas, y posteriormente con Zodd puede calcularse Zdiff como:
+
+Zdiff = 2 x Zodd
+
+Esta herramienta de cálculo requiere de los datos ERs, TGs, Ws, Wcu, W, S, y ancho de banda (WB).
+Para la obtensión del ancho de banda se parte de los tiempos rise y fail del phy en sus lineas de
+datos complementarias.  Para el caso (LAN8720A) este tiempo es de 5 nseg.  Luego el ancho de banda
+se calcula como:
+
+WB = 0.35 / Tr = 0.35 / 5e-9 = 70 Mhz.
+
+La herramienta requiere otros parametros además de los especificados, pero estos no influyen
+o son insignificantes en el resultado si se mantienen sus valores por defecto.
+
+
+e) Programa de cálculo Saturn PCB Design.
+Saturn PCB Design (https://www.saturnpcb.com/pcb_toolkit.htm) es una suite de herramientas de 
+cálculo para diseño de PCB bastante referenciada y aconsejada por usuarios de foros y sitios web
+dedicados a la electrónica.  El programa hace referencia a las normas IPC, y bibliografía y 
+publicaciones varias de donde obtiene las fórmulas con que trabaja.
+Los datos requerídos por esta herramienta son W, S, Ws, Wcu, ERs, temperatura (supuesta en 20ºC).
+El programa hace aclaraciones sobre ciertos rangos constructivos necesarios para que el cómputo 
+sea válido.
+
+f) Programa de cálculo Microwave Impedance Calculator (MWI-2016).
+Este es un programa de cálculo ofrecido por el fabricante de materiales para PCB Rogers Corp
+(http://www.rogerscorp.com/index.aspx), que puede ser descargado del sitio, registración previa.
+El programa hace referencia a la bibliografía de la obtiene las fórmulas con las que trabaja.
+El programa incluye un listado de los materiales que fabrica, que llenarán varios de los datos
+necesarios para el cálculo, correspondiente con la selección de alguno de la lista.  Sin embargo,
+el programa permite la modifiación manual y personalizada de estos valores.
