@@ -110,6 +110,7 @@ Los datos requerídos por esta herramienta son W, S, Ws, Wcu, ERs, temperatura (
 El programa hace aclaraciones sobre ciertos rangos constructivos necesarios para que el cómputo 
 sea válido.
 
+
 f) Programa de cálculo Microwave Impedance Calculator (MWI-2016).
 Este es un programa de cálculo ofrecido por el fabricante de materiales para PCB Rogers Corp
 (http://www.rogerscorp.com/index.aspx), que puede ser descargado del sitio, registración previa.
@@ -117,3 +118,36 @@ El programa hace referencia a la bibliografía de la obtiene las fórmulas con l
 El programa incluye un listado de los materiales que fabrica, que llenarán varios de los datos
 necesarios para el cálculo, correspondiente con la selección de alguno de la lista.  Sin embargo,
 el programa permite la modifiación manual y personalizada de estos valores.
+
+
+g) Programa Arbitrary Transmission Line Calculator (atlc)
+Esta aplicación (http://atlc.sourceforge.net/), a diferencia de las anteriores, no realiza los
+cálculos partiendo de fórmulas.  Por el contrario, resuelve el problema mediante la busqueda de 
+la solución del sistema electromagnético, haciendo uso de las ec. de Mawell, analizando el
+problema mediante la teoría de campos.  Esto le permite calcular impedancias para cualquier
+forma posible de la sección de la linea de transmisión, sea microstrip, coaxil, etc., o
+completamente arbitraria.
+El programa toma como dato una imagen bmp no comprimida que describa la sección de la linea de
+transmisión.  Esta imagen debe guardar proporcionalidad con el problema real.  En ella, un pixel 
+cuadrado equivale a 0.1 mils cuadrados.
+Los colores usados para definir la formas de la sección son críticos, ya que el color es tomado
+por el programa como definición de cual zona es conductor, cual aislante, cual señal de entrada y
+cual de salida en el cálculo de una impedancia diferencial, etc.  Aun más, cada color
+predefinidamente representa valores de parámetros del material, como la Er.  Es posible usar otros
+colores para definir parámetros personalizados, pero para esto es necesario agregar los 
+parámetros necesarios en la linea de comandos que llama al programa, con las aclaraciónes sobre
+estas características personalizadas de los colores que escapan a los predefinidos.
+
+El programa es un programa de consola, invocado por linea de comando.  Existe, sin embargo, una
+aplicación orientada a lineas de transmición en pcb que internamente hace uso de atlc.  Este
+es "Multiple dielectric transmission line calculator" (mdtlc, http://mdtlc.sourceforge.net/).
+El programa facilita la definición de la linea de transmición, generando automaticamente la
+imagen bmp requerida, y permitiendo la fácil especificación de materiales personalizados.  Además,
+ya que atlc resuelve un sistema arbitrario, es posible considerar en la definición la presencia
+de varios sustratos diferentes, e inclusive de máscara antisoldante.
+
+Los datos usados con esta herramienta son, W, S, Wcu, Ws, Wm, RESs, ERs, TGs, ERm, TGm.
+
+
+
+RESULTADOS DE LAS HERRAMIENTAS ENSAYADAS:
