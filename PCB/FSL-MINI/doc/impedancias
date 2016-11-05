@@ -1,4 +1,4 @@
-SELECIÓN DE HERRAMIENTA PARA EL CÁLCULO DE IMPEDANCIAS DE LINEAS DIFERENCIALES.
+SELECCIÓN DE HERRAMIENTA PARA EL CÁLCULO DE IMPEDANCIAS DE LINEAS DIFERENCIALES.
 
 Debido a la variedad de herramientas de software y fórmulas posibles para el cálculo de
 impedancias de lineas acopladas microstrip diferencial con plano de masa, es que se decide hallar
@@ -7,6 +7,8 @@ la dispersión del conjunto de soluciones dado por estas herramientas y fórmula
 Para esto se considerarán un conjunto de dimensiones y características del PCB, en las que
 se ensayarán cada una de las herramientas a evaluar.
 
+*Archivos generados por algunos de los programas aqui ensayados, y otros archivos auxiliares
+para la creación de este documento, están guardados en la carpeta oculta ".impedancias".
 
 
 CARACTERÍSTICAS Y DIMENSIONES PARA ENSAYO:
@@ -151,3 +153,27 @@ Los datos usados con esta herramienta son, W, S, Wcu, Ws, Wm, RESs, ERs, TGs, ER
 
 
 RESULTADOS DE LAS HERRAMIENTAS ENSAYADAS:
+
+La siguiente tabla muestra los distintos resulados dados por las herramientas ensayadas:
+
++-------+---------+--------+---------+----------+-----------+--------+-------------+
+|       |   Set1  |  Set2  |   Set3  |   KiCAD  | SaturnPCB | MWI(1) | atlc(mdtlc) |
++-------+---------+--------+---------+----------+-----------+--------+-------------+
+| Zo    | 72.2341 |  73.25 | 72.2191 |     -    |    68.391 |  318.2 |      -      |
++-------+---------+--------+---------+----------+-----------+--------+-------------+
+| Zodd  |    -    |    -   |    -    |  54.1297 |     -     |  38.42 |      -      |
++-------+---------+--------+---------+----------+-----------+--------+-------------+
+| Zeven |    -    |    -   |    -    |  92.8316 |     -     |   1493 |      -      |
++-------+---------+--------+---------+----------+-----------+--------+-------------+
+| Zdiff |  101.88 | 103.31 | 101.863 | 108.2594 |    96.464 |   1199 |       96.89 |
++-------+---------+--------+---------+----------+-----------+--------+-------------+
+| Zcomm |    -    |    -   |    -    |     -    |     -     |    -   |      40.944 |
++-------+---------+--------+---------+----------+-----------+--------+-------------+
+*Valores expresados en ohms.
+
+(1)no admite menos de 1Ghz de frecuencia para el cálculo
+
+
+
+HERRAMIENTA DE CÁLCULO SELECCIONADA Y CRITERIO DE SELECCIÓN.
+ 
