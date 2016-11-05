@@ -173,7 +173,58 @@ La siguiente tabla muestra los distintos resulados dados por las herramientas en
 
 (1)no admite menos de 1Ghz de frecuencia para el cálculo
 
+Excepto MWI, el resto de las herramientas y/o set de fórmulas muestran valores bastante cercanos 
+entre si, y dentro del margen esperado, dado que el ejemplo es sobre el supuesto del cálculo de
+un par diferencial de norma 100base-T, que requiere una impedancia diferencial de 100 +-10% ohm.
 
 
-HERRAMIENTA DE CÁLCULO SELECCIONADA Y CRITERIO DE SELECCIÓN.
- 
+
+HERRAMIENTA SELECCIONADA PARA EL CÁCULO Y CRITERIO DE SELECCIÓN.
+
+La herramienta atlc es particularmente interesante.  Mientras que el resto realiza el cálculo
+partiendo de fórmulas que resultan aproximaciones al problema de lineas microstrip diferenciales,
+aproximaciones debidas a condicionamientos impuestos, fundamentalmente relaciones entre tamaños
+de las partes que describen el problema, atlc no hace uso de expresiones dedicadas al
+problema.  atlc, por el contrario, analiza el problema desde el punto de vista del sistema
+electromagnético propuesto, utilizando ecuaciones de campo, pudiendo librarse de los
+condicionamientos a las que están sujetas las otras herramientas.  Mientras que las otras
+herramientas pudieron haber derivado de una simplificación del problema partiendo de un analisis
+de campo del sistema, atlc llega a su resultado operando directamente desde el analisis de campo.
+Esto hace a atlc tentadoramente más confiable.
+Es por esto que se decide utilizar atlc (o más precisamente mdtlc, su versión gráfica) para el
+cálculo de las impedancias de aquellos circuitos en el PCB que lo requieran para su diseño.
+
+
+
+CÁLCULO DE IMPEDANCIA DE LÍNEAS DIFERENCIALES ETHERNET.
+
+La norma de capa física ethernet 100BASE-T impone una impedancia diferencial característica de
+100 +-10% ohm.  Los datos usados para el anterior ensayo de herramientas de cálculo de impedancias
+diferenciales se corresponden con los del problema real para las líneas de ethernet.
+Recordando aquellos datos:
+
+a)El sustrato esta formado de 2 capas de DURAVER-E-Cu quality 104 ML en su presentación 7628 AT05
+de 0.2 mm de espesor, resultando 0.4mm de espesor total.  La máscara antisoldante es
+Lackwerke Peters SD 2467 SM-YG.
+
+b)Dimensiones:
+
+W (ancho de pista) = 14mils | 0,3556 mm
+S (separación entre pistas) = 8mils | 0,2032 mm
+Wcu (espesor cobre) = 1oz | 0,035 mm | 1,3779528 mils
+Ws (espesor sustrato) = 15,75 mils | 0,4 mm
+Wm (espesor máscara antisoldante) = 1mils | 0,0254 mm
+
+c) Características de los materiales:
+
+RESs (contenido de resina del sustrato) = 43,8 %
+ERs (permitividad relativa sustrato) @ 100Mhz = 4,47 aprox.
+TGs (tangente de perdida sustrato) = 0,0195
+ERm (permitividad relativa mascara) = 3,7
+TGm (tangente de perdida mascara) = 0,029
+
+Computando con atlc, la impedancia Zdiff obtenida es 96.89 ohm.  Se decide mantenerse bajo el
+valor nominal requerido (100 ohm) ya que los extremos de las lineas, al acercarse a los componentes
+que conectan, deformarán el apareamiento del trazado, resultando en un aumento de la impedancia
+de las líneas.  Con esta impedancia asumida por debajo de la nominal, se pretende compensar el
+aumento de la impedancia que se producirá en los extremos mensionados.
