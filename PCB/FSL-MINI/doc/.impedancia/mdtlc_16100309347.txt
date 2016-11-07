@@ -1,0 +1,40 @@
+-------------------------------
+2D Impedance Calculator Program
+Version 0.2.1.88
+Time: Thu Nov 03 01:48:04 2016
+GPL Version 2.0
+-------------------------------
+Simulation pix map 307 pixels high by 1800 pixels wide.
+1658824 bytes allocated for bmp.
+Simulation pix map 630 pixels high by 1800 pixels wide.
+3403024 bytes allocated for bmp.
+Simulation pix map 630 pixels high by 1800 pixels wide.
+3403024 bytes allocated for bmp.
+ 
+INPUT PARAMETERS:
+ 
+      Layer             Thick   Specifications 
+       Solder Mask Top   1.00    Opening w=0.0  offset=0.0
+        Signal Layer 1   1.38  14.0-8.0-14.0  Etchback=0.00
+      Laminate Layer 2  15.75    Resin Content  54.6% 3.2-6.0 
+   Copper Plane Bottom   1.38    Opening w=0.0  offset=0.0
+ 
+      Layer             Thick   Er    Loss Tangent
+               Air top  43.50  1.00    0.00000
+       Solder Mask Top   1.00  3.70    0.02900
+        Signal Layer 1   1.38  4.20    0.00120
+      Laminate Layer 2  15.75  4.47    0.01950
+   Copper Plane Bottom   1.38  3.20
+ 
+ DC resistance by dimensions:
+ Rdc_trace_1= 35.18      Rdc_trace_2 = 35.18  milliohms/in 20C
+ 
+ DC resistance by pixel count:
+ Rdc_trace_1=  34.628     Rdc_trace_2 =  34.628 milliohm/in
+ C_odd      =   2.997 pF/in    C_even =   1.869 pF/in
+ Er_odd     =   2.937         Er_even =   3.264
+ Loss_tan_o = 0.01713     Loss_tan_e  = 0.01762  
+ Delay_odd  = 145.190      Delay_even = 153.058  ps/in.
+ Z_diff     =  96.890  ohms   Z_comm  =  40.944  ohms
+ 
+Log file save name:
