@@ -3,8 +3,5 @@ Lineas USB
 en FSL/CIAA_K60/doc/pautas/.
 
 Lineas ethernet
--Los anchos de pista y su separación son calculados según:
-	Lineas diferenciales, 100 ohm
-	Lineas RMII, 68 ohm.
 -Se ha elegido un ancho de pista de 14 mils y una separaciòn de 8 mils para el ruteado de
 las lineas diferenciales del ethernet.  Ver archivo "impedancias" en carpeta doc.
