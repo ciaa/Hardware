@@ -35,9 +35,9 @@ $EndComp
 Text HLabel 1750 2900 0    60   Output ~ 0
 USB_VBUS
 Text HLabel 1750 3050 0    60   BiDi ~ 0
-USB_DM
+USBD_N
 Text HLabel 1750 3200 0    60   BiDi ~ 0
-USB_DP
+USBD_P
 Text HLabel 1750 3350 0    60   Output ~ 0
 USB_ID
 Text HLabel 1750 3500 0    60   Input ~ 0
@@ -264,9 +264,9 @@ NoConn ~ 3800 4600
 Text Notes 650  750  0    120  ~ 24
 USB OTG
 Text Label 8500 3050 0    60   ~ 0
-USB_DM_OTG
+USB_D_OTG_N
 Text Label 8500 3200 0    60   ~ 0
-USB_DP_OTG
+USB_D_OTG_P
 Text Notes 9300 2700 0    60   ~ 0
 Par diferencial \n90 ohm
 Text Notes 7300 6100 0    60   ~ 0

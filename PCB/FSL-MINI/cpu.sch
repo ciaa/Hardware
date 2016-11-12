@@ -152,9 +152,9 @@ $EndComp
 Text HLabel 7200 6800 2    60   Input ~ 0
 RESET
 Text HLabel 2300 9350 0    60   BiDi ~ 0
-USB_DP
+USBD_P
 Text HLabel 2300 9250 0    60   BiDi ~ 0
-USB_DM
+USBD_N
 Text HLabel 2300 3550 0    60   Output ~ 0
 ETH_TXD0
 Text HLabel 2300 3650 0    60   Output ~ 0

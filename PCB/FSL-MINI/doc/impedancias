@@ -228,3 +228,21 @@ valor nominal requerido (100 ohm) ya que los extremos de las lineas, al acercars
 que conectan, deformarán el apareamiento del trazado, resultando en un aumento de la impedancia
 de las líneas.  Con esta impedancia asumida por debajo de la nominal, se pretende compensar el
 aumento de la impedancia que se producirá en los extremos mensionados.
+
+
+
+CÁLCULO DE IMPEDANCIAS PARA LINEAS DIFERENCIALES USB.
+
+La norma USB impone una impedancia diferencial característica de 90 +-15% ohm.  El cálculo se
+realiza sobre las características de los materiales ya mensionados.
+
+Dimensiones calculadas:
+
+W (ancho de pista) = 17mils | 0,4318 mm
+S (separación entre pistas) = 7mils | 0,1778 mm
+
+Computando con atlc, la impedancia Zdiff obtenida es 96.89 ohm.  Se decide mantenerse bajo el
+valor nominal requerido (87.276 ohm) ya que los extremos de las lineas, al acercarse a los
+componentes que conectan, deformarán el apareamiento del trazado, resultando en un aumento de la
+impedancia de las líneas.  Con esta impedancia asumida por debajo de la nominal, se pretende
+compensar el aumento de la impedancia que se producirá en los extremos mensionados.

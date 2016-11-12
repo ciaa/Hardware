@@ -1,6 +1,6 @@
 Lineas USB
--Los anchos de pista y su separación son los mismos usados segun el pdf de impedancias 
-en FSL/CIAA_K60/doc/pautas/.
+-Se ha elegido un ancho de pista de 17 mils y una separación de 7 mils para las lineas
+diferenciales.  Ver archivo "impedancias" en carpeta doc.
 
 Lineas ethernet
 -Se ha elegido un ancho de pista de 14 mils y una separaciòn de 8 mils para el ruteado de
