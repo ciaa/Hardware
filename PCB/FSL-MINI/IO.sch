@@ -19,19 +19,19 @@ Text HLabel 3550 2000 0    60   BiDi ~ 0
 GPIO0/I2C1_SDA
 Text HLabel 3550 2100 0    60   BiDi ~ 0
 GPIO2/I2C1_SCL
-Text HLabel 3700 4400 0    60   BiDi ~ 0
+Text HLabel 3700 4300 0    60   BiDi ~ 0
 GPIO4
 Text HLabel 3550 1800 0    60   BiDi ~ 0
 GPIO5/SPI2_SOUT
 Text HLabel 3550 2200 0    60   BiDi ~ 0
 GPIO6/FTM3_CH4
-Text HLabel 3700 4800 0    60   BiDi ~ 0
+Text HLabel 3700 4500 0    60   BiDi ~ 0
 GPIO8
 Text HLabel 3550 2500 0    60   BiDi ~ 0
 GPIO9
 Text HLabel 3550 2400 0    60   BiDi ~ 0
 GPIO11/FTM0_CH0
-Text HLabel 3250 5200 0    60   BiDi ~ 0
+Text HLabel 3250 4700 0    60   BiDi ~ 0
 GPIO12
 Text HLabel 3550 2600 0    60   BiDi ~ 0
 GPIO13/FTM0_CH1
@@ -79,17 +79,17 @@ Wire Wire Line
 Wire Wire Line
 	3750 2100 3550 2100
 Wire Wire Line
-	3900 4400 3700 4400
+	3900 4300 3700 4300
 Wire Wire Line
-	3900 4500 3700 4500
+	6550 4300 6300 4300
 Wire Wire Line
 	3750 2200 3550 2200
 Wire Wire Line
-	3900 4700 3700 4700
+	6550 4400 6300 4400
 Wire Wire Line
-	3900 4800 3700 4800
+	3900 4500 3700 4500
 Wire Wire Line
-	3900 4900 3700 4900
+	6550 4500 6300 4500
 Wire Wire Line
 	3750 2400 3550 2400
 Wire Wire Line
@@ -125,114 +125,114 @@ Wire Wire Line
 Wire Wire Line
 	3850 6900 3900 6900
 Wire Wire Line
-	5700 4100 5950 4100
+	3650 5400 3900 5400
 Wire Wire Line
-	5700 4300 5950 4300
+	3650 5500 3900 5500
 Wire Wire Line
-	5950 4400 5750 4400
+	6550 4800 6350 4800
 Wire Wire Line
-	5950 4500 5750 4500
+	6550 4900 6350 4900
 Wire Wire Line
-	5950 4600 5750 4600
+	6550 5000 6350 5000
 Wire Wire Line
-	5950 4700 5750 4700
+	6550 5100 6350 5100
 Wire Wire Line
-	5950 4800 5750 4800
+	3900 5600 3700 5600
 Wire Wire Line
-	5950 4900 5750 4900
+	3900 5700 3700 5700
 Wire Wire Line
-	5950 5000 5750 5000
+	3900 5800 3700 5800
 Wire Wire Line
-	5950 5100 5750 5100
+	3900 5900 3700 5900
 Wire Wire Line
-	5950 5200 5750 5200
+	6550 5800 6350 5800
 Wire Wire Line
-	5950 5300 5750 5300
+	6550 5700 6350 5700
 Wire Wire Line
 	3750 1000 3550 1000
 Wire Wire Line
 	3750 1100 3550 1100
 Wire Wire Line
-	5950 5600 5750 5600
+	6550 5900 6350 5900
 Wire Wire Line
-	5950 5700 5750 5700
+	6550 6000 6350 6000
 Wire Wire Line
-	5950 5800 5750 5800
+	6550 6100 6350 6100
 Wire Wire Line
-	5950 5900 5750 5900
+	6550 5200 6350 5200
 Wire Wire Line
-	5950 6000 5750 6000
+	6550 5300 6350 5300
 Wire Wire Line
-	5950 6100 5750 6100
+	6550 5400 6350 5400
 Wire Wire Line
-	5950 6200 5750 6200
+	3900 5200 3700 5200
 Wire Wire Line
-	5950 6300 5750 6300
+	3900 5300 3700 5300
 Wire Wire Line
-	5950 6400 5750 6400
+	6550 6900 6350 6900
 Wire Wire Line
-	5950 6500 5750 6500
+	6550 6800 6350 6800
 Wire Wire Line
-	5950 6600 5750 6600
+	6550 6700 6350 6700
 Wire Wire Line
-	5950 6700 5750 6700
+	6550 6600 6350 6600
 Wire Wire Line
 	3750 1600 3550 1600
 Wire Wire Line
-	5950 6900 5750 6900
+	3900 5100 3700 5100
 Wire Wire Line
 	3850 6900 3850 6950
-Text HLabel 5750 4800 0    60   Input ~ 0
+Text HLabel 3700 5600 0    60   Input ~ 0
 DOUT4
-Text HLabel 5750 4900 0    60   Input ~ 0
+Text HLabel 3700 5700 0    60   Input ~ 0
 DOUT5
-Text HLabel 5750 5000 0    60   Input ~ 0
+Text HLabel 3700 5800 0    60   Input ~ 0
 DOUT6
-Text HLabel 5750 5100 0    60   Input ~ 0
+Text HLabel 3700 5900 0    60   Input ~ 0
 DOUT7
-Text HLabel 5750 4400 0    60   Input ~ 0
+Text HLabel 6350 4800 0    60   Input ~ 0
 DOUT0
-Text HLabel 5750 4500 0    60   Input ~ 0
+Text HLabel 6350 4900 0    60   Input ~ 0
 DOUT1
-Text HLabel 5750 4600 0    60   Input ~ 0
+Text HLabel 6350 5000 0    60   Input ~ 0
 DOUT2
-Text HLabel 5750 4700 0    60   Input ~ 0
+Text HLabel 6350 5100 0    60   Input ~ 0
 DOUT3
-Text HLabel 5750 5300 0    60   Output ~ 0
+Text HLabel 6350 5700 0    60   Output ~ 0
 RS232_CTS
-Text HLabel 5750 5200 0    60   Input ~ 0
+Text HLabel 6350 5800 0    60   Input ~ 0
 RS232_RTS
 Text HLabel 3550 1100 0    60   Input ~ 0
 RS232_TXD
 Text HLabel 3550 1000 0    60   Output ~ 0
 RS232_RXD
-Text HLabel 5750 5700 0    60   Output ~ 0
+Text HLabel 6350 6000 0    60   Output ~ 0
 CAN_RD
-Text HLabel 5750 5600 0    60   Input ~ 0
+Text HLabel 6350 5900 0    60   Input ~ 0
 CAN_TD
-Text HLabel 5750 5800 0    60   Input ~ 0
+Text HLabel 6350 6100 0    60   Input ~ 0
 CAN_STB
-Text HLabel 5750 6000 0    60   Output ~ 0
+Text HLabel 6350 5300 0    60   Output ~ 0
 RS485_RXD
-Text HLabel 5750 5900 0    60   Input ~ 0
+Text HLabel 6350 5200 0    60   Input ~ 0
 RS485_DIR
-Text HLabel 5750 6100 0    60   Input ~ 0
+Text HLabel 6350 5400 0    60   Input ~ 0
 RS485_TXD
-Text HLabel 5750 6200 0    60   Input ~ 0
+Text HLabel 3700 5200 0    60   Input ~ 0
 USB_JTAG_UART_TXD
-Text HLabel 5750 6300 0    60   Output ~ 0
+Text HLabel 3700 5300 0    60   Output ~ 0
 USB_JTAG_UART_RXD
-Text HLabel 5750 6400 0    60   Output ~ 0
+Text HLabel 6350 6900 0    60   Output ~ 0
 AIN0
-Text HLabel 5750 6500 0    60   Output ~ 0
+Text HLabel 6350 6800 0    60   Output ~ 0
 AIN1
-Text HLabel 5750 6600 0    60   Output ~ 0
+Text HLabel 6350 6700 0    60   Output ~ 0
 AIN2
-Text HLabel 5750 6700 0    60   Output ~ 0
+Text HLabel 6350 6600 0    60   Output ~ 0
 AIN3
 Text HLabel 3550 1600 0    60   Output ~ 0
 RESET
-Text HLabel 5750 6900 0    60   Input ~ 0
+Text HLabel 3700 5100 0    60   Input ~ 0
 DAC_OUT
 Wire Wire Line
 	6550 1900 7500 1900
@@ -278,12 +278,12 @@ RS232_RXD
 Text Label 9550 2800 0    60   ~ 0
 RS232_TXD
 Wire Wire Line
-	5150 5400 5950 5400
+	5750 5600 6550 5600
 Wire Wire Line
-	5150 5500 5950 5500
-Text Label 5150 5400 2    60   ~ 0
+	5750 5500 6550 5500
+Text Label 5750 5600 2    60   ~ 0
 RS232_RXD
-Text Label 5150 5500 2    60   ~ 0
+Text Label 5750 5500 2    60   ~ 0
 RS232_TXD
 $Comp
 L +3.3V-RESCUE-CIAA_FSL_MINI #PWR0111
@@ -330,26 +330,26 @@ Wire Wire Line
 Wire Wire Line
 	7400 2600 7500 2600
 Wire Wire Line
-	3250 5600 3900 5600
+	5900 6200 6550 6200
 Wire Wire Line
-	3250 5700 3900 5700
+	5900 6300 6550 6300
 Wire Wire Line
-	3250 5800 3900 5800
+	5900 6400 6550 6400
 Wire Wire Line
-	3250 5900 3900 5900
-Text Label 3250 5600 2    60   ~ 0
+	5900 6500 6550 6500
+Text Label 5900 6200 2    60   ~ 0
 GPIO_AN0
-Text Label 3250 5700 2    60   ~ 0
+Text Label 5900 6300 2    60   ~ 0
 GPIO_AN1
-Text Label 3250 5800 2    60   ~ 0
+Text Label 5900 6400 2    60   ~ 0
 GPIO_AN2
-Text Label 3250 5900 2    60   ~ 0
+Text Label 5900 6500 2    60   ~ 0
 GPIO_AN3
 Text Label 3750 1600 0    60   ~ 0
 RST
 Wire Wire Line
-	5400 6800 5950 6800
-Text Label 5400 6800 2    60   ~ 0
+	3350 5000 3900 5000
+Text Label 3350 5000 2    60   ~ 0
 RST
 Wire Wire Line
 	7400 1700 7500 1700
@@ -423,10 +423,10 @@ GPIO0/I2C1_SDA
 Text Label 3750 2100 0    60   ~ 0
 GPIO2/I2C1_SCL
 Wire Wire Line
-	3250 4000 3900 4000
+	3250 4100 3900 4100
 Wire Wire Line
 	3250 4200 3900 4200
-Text Label 3250 4000 2    60   ~ 0
+Text Label 3250 4100 2    60   ~ 0
 GPIO0/I2C1_SDA
 Text Label 3250 4200 2    60   ~ 0
 GPIO2/I2C1_SCL
@@ -463,20 +463,20 @@ GPIO6/FTM3_CH4
 Text Label 9550 1900 0    60   ~ 0
 GPIO15/FTM0_CH2
 Wire Wire Line
-	3250 4600 3900 4600
-Text Label 3250 4600 2    60   ~ 0
+	3250 4400 3900 4400
+Text Label 3250 4400 2    60   ~ 0
 GPIO6/FTM3_CH4
 Wire Wire Line
-	3250 5100 3900 5100
-Text Label 3250 5100 2    60   ~ 0
+	6300 4600 6550 4600
+Text Label 6300 4600 2    60   ~ 0
 GPIO11/FTM0_CH0
 Wire Wire Line
-	3250 5400 3900 5400
+	3250 4800 3900 4800
 Wire Wire Line
-	3250 5500 3900 5500
-Text Label 3250 5400 2    60   ~ 0
+	3250 4900 3900 4900
+Text Label 3250 4800 2    60   ~ 0
 GPIO14/FTM0_CH3
-Text Label 3250 5500 2    60   ~ 0
+Text Label 3250 4900 2    60   ~ 0
 GPIO15/FTM0_CH2
 Text HLabel 3550 2300 0    60   BiDi ~ 0
 GPIO10
@@ -495,14 +495,14 @@ Wire Wire Line
 Text Label 9550 2700 0    60   ~ 0
 GPIO10
 Wire Wire Line
-	3250 5000 3900 5000
-Text Label 3250 5000 2    60   ~ 0
+	3250 4600 3900 4600
+Text Label 3250 4600 2    60   ~ 0
 GPIO10
 Wire Wire Line
-	3250 5200 3900 5200
+	3250 4700 3900 4700
 Wire Wire Line
-	3250 5300 3900 5300
-Text Label 3250 5300 2    60   ~ 0
+	6300 4700 6550 4700
+Text Label 6300 4700 2    60   ~ 0
 GPIO13/FTM0_CH1
 Text HLabel 3550 2900 0    60   BiDi ~ 0
 GPIO1
@@ -517,12 +517,12 @@ GPIO1
 Text Label 3750 1900 0    60   ~ 0
 GPIO3/SPI2_SCK
 Wire Wire Line
-	3250 4100 3900 4100
+	6300 4100 6550 4100
 Wire Wire Line
-	3250 4300 3900 4300
-Text Label 3250 4100 2    60   ~ 0
+	6300 4200 6550 4200
+Text Label 6300 4100 2    60   ~ 0
 GPIO1
-Text Label 3250 4300 2    60   ~ 0
+Text Label 6300 4200 2    60   ~ 0
 GPIO3/SPI2_SCK
 Wire Wire Line
 	9550 2200 9050 2200
@@ -543,51 +543,34 @@ F 3 "" H 3850 6400 60  0000 C CNN
 	1    3850 6400
 	0    -1   -1   0   
 $EndComp
-Text HLabel 5700 4100 0    60   Output ~ 0
+Text HLabel 3650 5400 0    60   Output ~ 0
 5VPIN
-Text HLabel 5700 4300 0    60   Output ~ 0
+Text HLabel 3650 5500 0    60   Output ~ 0
 BATPIN
 $Comp
 L GND #PWR0116
 U 1 1 57729C9E
-P 5800 4200
-F 0 "#PWR0116" H 5800 4200 30  0001 C CNN
-F 1 "GND" H 5800 4130 30  0001 C CNN
-F 2 "" H 5800 4200 60  0000 C CNN
-F 3 "" H 5800 4200 60  0000 C CNN
-	1    5800 4200
+P 6400 4000
+F 0 "#PWR0116" H 6400 4000 30  0001 C CNN
+F 1 "GND" H 6400 3930 30  0001 C CNN
+F 2 "" H 6400 4000 60  0000 C CNN
+F 3 "" H 6400 4000 60  0000 C CNN
+	1    6400 4000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5800 4150 5900 4150
+	6500 3950 6500 4000
 Wire Wire Line
-	5800 4150 5800 4200
-Wire Wire Line
-	5900 4150 5900 4200
-Wire Wire Line
-	5900 4200 5950 4200
-Wire Wire Line
-	5900 4000 5950 4000
-$Comp
-L +5V #PWR0117
-U 1 1 5772A2B1
-P 5900 4000
-F 0 "#PWR0117" H 5900 4090 20  0001 C CNN
-F 1 "+5V" V 5900 4150 30  0000 C CNN
-F 2 "" H 5900 4000 60  0000 C CNN
-F 3 "" H 5900 4000 60  0000 C CNN
-	1    5900 4000
-	0    -1   -1   0   
-$EndComp
+	6500 4000 6550 4000
 $Comp
 L CONN_01X30 P702
 U 1 1 57BE48D0
-P 6150 5450
-F 0 "P702" H 6150 7000 50  0000 C CNN
-F 1 "CONN_01X30" V 6250 5450 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x30" H 6150 5450 50  0001 C CNN
-F 3 "" H 6150 5450 50  0000 C CNN
-	1    6150 5450
+P 6750 5450
+F 0 "P702" H 6750 7000 50  0000 C CNN
+F 1 "CONN_01X30" V 6850 5450 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x30" H 6750 5450 50  0001 C CNN
+F 3 "" H 6750 5450 50  0000 C CNN
+	1    6750 5450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -609,13 +592,13 @@ Text Label 3750 1700 0    60   ~ 0
 GPIO7/SPI2_SIN
 Text Label 9550 1600 0    60   ~ 0
 GPIO7/SPI2_SIN
-Text Label 3700 4700 2    60   ~ 0
+Text Label 6300 4400 2    60   ~ 0
 GPIO7/SPI2_SIN
 Text Label 3750 1800 0    60   ~ 0
 GPIO5/SPI2_SOUT
 Text Label 9550 1700 0    60   ~ 0
 GPIO5/SPI2_SOUT
-Text Label 3700 4500 2    60   ~ 0
+Text Label 6300 4300 2    60   ~ 0
 GPIO5/SPI2_SOUT
 Text HLabel 7400 2400 0    60   Output ~ 0
 EC_AI0
@@ -633,8 +616,25 @@ Text HLabel 9950 2400 2    60   Input ~ 0
 EC_PWM1
 Text HLabel 9950 2600 2    60   Input ~ 0
 EC_PWM2
-Text Label 3700 4900 2    60   ~ 0
+Text Label 6300 4500 2    60   ~ 0
 GPIO9
 Text HLabel 9550 2000 2    60   BiDi ~ 0
 EC_GPIO
+Wire Wire Line
+	6500 3950 6400 3950
+Wire Wire Line
+	6400 3950 6400 4000
+Wire Wire Line
+	3850 4000 3900 4000
+$Comp
+L +5V #PWR0117
+U 1 1 582A8CD2
+P 3850 4000
+F 0 "#PWR0117" H 3850 4090 20  0001 C CNN
+F 1 "+5V" V 3850 4150 30  0000 C CNN
+F 2 "" H 3850 4000 60  0000 C CNN
+F 3 "" H 3850 4000 60  0000 C CNN
+	1    3850 4000
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
