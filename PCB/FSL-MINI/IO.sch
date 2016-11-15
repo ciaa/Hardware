@@ -19,19 +19,19 @@ Text HLabel 3550 2000 0    60   BiDi ~ 0
 GPIO0/I2C1_SDA
 Text HLabel 3550 2100 0    60   BiDi ~ 0
 GPIO2/I2C1_SCL
-Text HLabel 3700 4300 0    60   BiDi ~ 0
+Text HLabel 3700 4600 0    60   BiDi ~ 0
 GPIO4
 Text HLabel 3550 1800 0    60   BiDi ~ 0
 GPIO5/SPI2_SOUT
 Text HLabel 3550 2200 0    60   BiDi ~ 0
 GPIO6/FTM3_CH4
-Text HLabel 3700 4500 0    60   BiDi ~ 0
+Text HLabel 3700 4400 0    60   BiDi ~ 0
 GPIO8
 Text HLabel 3550 2500 0    60   BiDi ~ 0
 GPIO9
 Text HLabel 3550 2400 0    60   BiDi ~ 0
 GPIO11/FTM0_CH0
-Text HLabel 3250 4700 0    60   BiDi ~ 0
+Text HLabel 3250 4200 0    60   BiDi ~ 0
 GPIO12
 Text HLabel 3550 2600 0    60   BiDi ~ 0
 GPIO13/FTM0_CH1
@@ -79,7 +79,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 2100 3550 2100
 Wire Wire Line
-	3900 4300 3700 4300
+	3900 4600 3700 4600
 Wire Wire Line
 	6550 4300 6300 4300
 Wire Wire Line
@@ -87,7 +87,7 @@ Wire Wire Line
 Wire Wire Line
 	6550 4400 6300 4400
 Wire Wire Line
-	3900 4500 3700 4500
+	3900 4400 3700 4400
 Wire Wire Line
 	6550 4500 6300 4500
 Wire Wire Line
@@ -423,12 +423,12 @@ GPIO0/I2C1_SDA
 Text Label 3750 2100 0    60   ~ 0
 GPIO2/I2C1_SCL
 Wire Wire Line
-	3250 4100 3900 4100
+	3250 4800 3900 4800
 Wire Wire Line
-	3250 4200 3900 4200
-Text Label 3250 4100 2    60   ~ 0
+	3250 4700 3900 4700
+Text Label 3250 4800 2    60   ~ 0
 GPIO0/I2C1_SDA
-Text Label 3250 4200 2    60   ~ 0
+Text Label 3250 4700 2    60   ~ 0
 GPIO2/I2C1_SCL
 Text Label 6900 2800 2    60   ~ 0
 GPIO0/I2C1_SDA
@@ -463,18 +463,18 @@ GPIO6/FTM3_CH4
 Text Label 9550 1900 0    60   ~ 0
 GPIO15/FTM0_CH2
 Wire Wire Line
-	3250 4400 3900 4400
-Text Label 3250 4400 2    60   ~ 0
+	3250 4500 3900 4500
+Text Label 3250 4500 2    60   ~ 0
 GPIO6/FTM3_CH4
 Wire Wire Line
 	6300 4600 6550 4600
 Text Label 6300 4600 2    60   ~ 0
 GPIO11/FTM0_CH0
 Wire Wire Line
-	3250 4800 3900 4800
+	3250 4100 3900 4100
 Wire Wire Line
 	3250 4900 3900 4900
-Text Label 3250 4800 2    60   ~ 0
+Text Label 3250 4100 2    60   ~ 0
 GPIO14/FTM0_CH3
 Text Label 3250 4900 2    60   ~ 0
 GPIO15/FTM0_CH2
@@ -495,11 +495,11 @@ Wire Wire Line
 Text Label 9550 2700 0    60   ~ 0
 GPIO10
 Wire Wire Line
-	3250 4600 3900 4600
-Text Label 3250 4600 2    60   ~ 0
+	3250 4300 3900 4300
+Text Label 3250 4300 2    60   ~ 0
 GPIO10
 Wire Wire Line
-	3250 4700 3900 4700
+	3250 4200 3900 4200
 Wire Wire Line
 	6300 4700 6550 4700
 Text Label 6300 4700 2    60   ~ 0
