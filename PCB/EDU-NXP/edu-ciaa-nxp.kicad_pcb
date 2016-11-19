@@ -5808,6 +5808,11 @@
       (net 3 +5V))
     (pad 2 smd rect (at 1.04902 0 90) (size 1.19888 1.19888) (layers F.Cu F.Paste F.Mask)
       (net 140 N-00000228))
+    (model ${KIPRJMOD}/footprints/packages3d/LED-0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module LED-0805 (layer F.Cu) (tedit 54F82249) (tstamp 53BC4A63)
@@ -5836,6 +5841,11 @@
       (net 3 +5V))
     (pad 2 smd rect (at 1.04902 0 90) (size 1.19888 1.19888) (layers F.Cu F.Paste F.Mask)
       (net 150 N-00000238))
+    (model ${KIPRJMOD}/footprints/packages3d/LED-0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module LED-0805 (layer F.Cu) (tedit 54F82255) (tstamp 53BC4A9E)
@@ -5864,6 +5874,11 @@
       (net 3 +5V))
     (pad 2 smd rect (at 1.04902 0 90) (size 1.19888 1.19888) (layers F.Cu F.Paste F.Mask)
       (net 151 N-00000239))
+    (model ${KIPRJMOD}/footprints/packages3d/LED-0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module OSHWA (layer F.Cu) (tedit 544A9F4D) (tstamp 544AA523)
