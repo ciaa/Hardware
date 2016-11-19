@@ -1000,7 +1000,7 @@
       (net 120 N-00000202))
     (pad 3 thru_hole circle (at 5.08 0 180) (size 2.54 2.54) (drill 1.524) (layers *.Cu *.Mask F.SilkS)
       (net 117 N-00000199))
-    (model device/bornier_3.wrl
+    (model ${KIPRJMOD}/footprints/packages3d/bornier_3.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1680,7 +1680,7 @@
       (net 86 /CPU/USB_DM))
     (pad 4 smd rect (at -0.94996 -1.19888 270) (size 0.8001 1.00076) (layers F.Cu F.Paste F.Mask)
       (net 94 /CPU/USB_VBUS))
-    (model ${KIPRJMOD}/footprints/packages3d/smd_transistors/sot143b.wrl
+    (model ${KIPRJMOD}/footprints/packages3d/sot143b.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2178,7 +2178,7 @@
       (net 101 GND))
     (pad 2 smd rect (at 2.0066 0 180) (size 1.80086 2.19964) (layers F.Cu F.Paste F.Mask)
       (net 124 N-00000207))
-    (model smd/do214.wrl
+    (model ${KIPRJMOD}/footprints/packages3d/do214.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
