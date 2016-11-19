@@ -1,0 +1,58 @@
+Cambios realizados a la CIAA-FSL
+================================
+
+* Fecha: 15/04/2014
+* Autores: El desarrollo de la CIAA-FSL se realizó en forma colectiva en la siguiente lista/grupo:
+           https://groups.google.com/forum/#!forum/ciaa-hardware
+           Un listado de colaboradores:
+           https://docs.google.com/spreadsheet/ccc?key=0AhRC6m7OGuuYdGtRdEhlLUprcXZUYWQ2TDI0Slcta2c#gid=0
+           Web de la CIAA:
+           http://www.proyecto-ciaa.com.ar/devwiki/doku.php?id=versiones:v1_0:hardware:plan_desarrollo_hw#equipo_tecnico_a_cargo
+           Listado de desarrolladores obtenido del enlace anterior:
+           -Ing. Pablo Ridolfi;FIUBA, UTN-FRBA; Participación en el diseño del hardware. Vinculación de esquemáticos y selección de componentes.
+           -Ing. Juan Cecconi; UTN-FRBA, Numetron S.R.L. Participación en el diseño del hardware. Selección de componentes y simulaciones de performance.
+           -Sr. Dante Starkloff;  ASSISI S.R.L. Participación en el diseño del hardware. Asesoría para el diseño y montaje del PCB.
+           -Darío Sebastián Baliña; Vortex Technologies; Diseño de esquemáticos RS232, RS485, CAN, USB, microSD, Ethernet (K60) y CPU (K60).
+           -Ing. Jorge Osio; UNLP, UNAJ, RYOTECH;  Diseño de fuente de alimentación, salidas a relé y open drain, expansores GPIO.
+           -Mg. Ing. Guillermo Guichal; Emtech S.A.; Diseño PCB de la CIAA-NXP.
+           -Ing. Mauro Koenig; Emtech S.A.; Diseño PCB de la CIAA-NXP.
+           -Sr. Martín Ribelotta; Emtech S.A. Diseño PCB de la CIAA-NXP.
+           -Ing. Ignacio Zaradnik; Electrocomponentes S.A., ACSE. Diseño de esquemático y selección de componentes.
+           -Sr. Jorge Fiszman; Adox S.A. Diseño PCB de la CIAA-NXP: Ethernet, USB, microSD, CAN, RS232, RS485.
+           -Jose Fuentes; Max Control; Diseño de esquemáticos CIAA-ST.
+           -Entradas analógicas (en rótulo): Javier Goglino - SesentaCuarenta.
+
+* Archivos: Se toman los archivos .sch de Kicad para adaptarlos.
+* Descripción: Se toma el circuito esquemático de la CIAA-FSL como base para
+               la EDU-CIAA-FSL
+
+* Fecha: 15/06/2015
+* Autor: UNER
+           Eduardo Filoemena <efilomena EN bioingenieria.edu.ar> 
+* Archivos: Archivos .sch de Kicad.
+* Descripción: Se adapta el esquemático de la CIAA-FSL al modelo EDU-CIAA-FSL
+
+
+* Fecha: 02/08/2015
+* Autor: Federico Cipollone - Diego Brengi - Gerardo G García - Ignacio Zaradnik 
+* Archivos:EDU_CIAA_K60.kicad_pcb
+* Descripción: Primer ruteo del PCB
+
+* Fecha: 02/08/2015
+* Autor: Federico Cipollone - Diego Brengi - Gerardo G García - Ignacio Zaradnik - UNLaM
+* Archivos:EDU_CIAA_K60.kicad_pcb
+* Descripción: Primer ruteo del PCB
+
+* Fecha: 19/02/2016
+* Autor:  Diego Brengi, Diego Alamon y Noelia Scotti.- INTI
+* Archivos:EDU-CIAA-FSL-Rev.pdf
+* Descripción: Revisión del esquemático, documentación y PCB
+
+* Fecha: 18/07/2016
+* Autor:  Eduardo Filomena
+* Archivos:*.sch   *.TXT  *.doc
+* Descripción: Actualización de la documentación y de los esquemáticos según las revisiones presentadas
+
+
+
+

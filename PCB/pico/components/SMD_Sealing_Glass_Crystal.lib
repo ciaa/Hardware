@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# SMD_Sealing_Glass_Crystal
+#
+DEF SMD_Sealing_Glass_Crystal X 0 40 Y N 1 F N
+F0 "X" 0 -100 35 H V C CNN
+F1 "SMD_Sealing_Glass_Crystal" 0 500 79 H V C CNN
+F2 "4-SMD,_No_Lead_(DFN,_LCC)" 850 -100 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "887-1831-1-ND" 500 400 60 H I C CNN "Digikey/Mouser"
+F5 "TXC_CORPORATION" 750 200 60 H I C CNN "Fabricante"
+F6 "7S-12.000MAHE-T" 750 300 60 H I C CNN "Nro parte"
+F7 "CRYSTAL_12MHZ_12PF_SMD" 900 50 60 H I C CNN "Descripcion"
+DRAW
+S -50 50 -50 -50 0 1 2 N
+S -25 75 25 -75 0 1 2 N
+S 50 50 50 -50 0 1 2 N
+P 3 0 1 0  -50 0  -100 0  -100 0 N
+P 3 0 1 0  50 0  100 0  100 0 N
+P 5 0 1 0  -75 25  -75 100  75 100  75 25  75 25 N
+X A 1 -150 0 50 R 30 30 1 1 P
+X GND 2 -50 150 50 D 25 30 1 1 P
+X B 3 150 0 50 L 30 30 1 1 P
+X GND 4 50 150 50 D 25 30 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

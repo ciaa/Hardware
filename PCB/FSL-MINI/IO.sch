@@ -1,0 +1,728 @@
+EESchema Schematic File Version 2
+LIBS:TXB0108
+LIBS:CIAAK60LIB
+LIBS:conn
+LIBS:shield_arduino
+LIBS:device
+LIBS:CIAA_FSL_MINI-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X34 P701
+U 1 1 5756EACA
+P 2550 3550
+F 0 "P701" H 2550 5300 50  0000 C CNN
+F 1 "CONN_01X34" V 2650 3550 50  0000 C CNN
+F 2 "" H 2550 3550 50  0000 C CNN
+F 3 "" H 2550 3550 50  0000 C CNN
+	1    2550 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X34 P702
+U 1 1 5756EB33
+P 5900 3550
+F 0 "P702" H 5900 5300 50  0000 C CNN
+F 1 "CONN_01X34" V 6000 3550 50  0000 C CNN
+F 2 "" H 5900 3550 50  0000 C CNN
+F 3 "" H 5900 3550 50  0000 C CNN
+	1    5900 3550
+	1    0    0    -1  
+$EndComp
+Text HLabel 2150 1900 0    60   BiDi ~ 0
+GPIO0
+Text HLabel 2150 2000 0    60   BiDi ~ 0
+GPIO1
+Text HLabel 2150 2100 0    60   BiDi ~ 0
+GPIO2
+Text HLabel 2150 2200 0    60   BiDi ~ 0
+GPIO3
+Text HLabel 2150 2300 0    60   BiDi ~ 0
+GPIO4
+Text HLabel 2150 2400 0    60   BiDi ~ 0
+GPIO5
+Text HLabel 2150 2500 0    60   BiDi ~ 0
+GPIO6
+Text HLabel 2150 2600 0    60   BiDi ~ 0
+GPIO7
+Text HLabel 2150 2700 0    60   BiDi ~ 0
+GPIO8
+Text HLabel 2150 2800 0    60   BiDi ~ 0
+GPIO9
+Text HLabel 2150 2900 0    60   BiDi ~ 0
+GPIO10
+Text HLabel 2150 3000 0    60   BiDi ~ 0
+GPIO11
+Text HLabel 2150 3100 0    60   BiDi ~ 0
+GPIO12
+Text HLabel 2150 3200 0    60   BiDi ~ 0
+GPIO13
+Text HLabel 2150 3300 0    60   BiDi ~ 0
+GPIO14
+Text HLabel 2150 3400 0    60   BiDi ~ 0
+GPIO15
+Text HLabel 1800 1100 0    60   Output ~ 0
+GPIO_AN0
+Text HLabel 1800 1200 0    60   Output ~ 0
+GPIO_AN1
+Text HLabel 1800 1300 0    60   Output ~ 0
+GPIO_AN2
+Text HLabel 1800 1400 0    60   Output ~ 0
+GPIO_AN3
+Text HLabel 2150 3900 0    60   Input ~ 0
+AUX_UART_RTS/SPI_CS
+Text HLabel 2150 4000 0    60   Input ~ 0
+AUX_UART_CTS/SPI_CLK
+Text HLabel 2150 4200 0    60   Output ~ 0
+AUX_UART_RX/SPI_MISO
+Text HLabel 2150 4100 0    60   Input ~ 0
+AUX_UART_TX/SPI_MOSI
+Text HLabel 2150 4300 0    60   Output ~ 0
+DIN0
+Text HLabel 2150 4400 0    60   Output ~ 0
+DIN1
+Text HLabel 2150 4500 0    60   Output ~ 0
+DIN2
+Text HLabel 2150 4600 0    60   Output ~ 0
+DIN3
+Text HLabel 2150 4700 0    60   Output ~ 0
+DIN4
+Text HLabel 2150 4800 0    60   Output ~ 0
+DIN5
+Text HLabel 2150 4900 0    60   Output ~ 0
+DIN6
+Text HLabel 2150 5000 0    60   Output ~ 0
+DIN7
+$Comp
+L GND #PWR0113
+U 1 1 5757BEF5
+P 1900 5400
+F 0 "#PWR0113" H 1900 5400 30  0001 C CNN
+F 1 "GND" H 1900 5330 30  0001 C CNN
+F 2 "" H 1900 5400 60  0000 C CNN
+F 3 "" H 1900 5400 60  0000 C CNN
+	1    1900 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 1900 2150 1900
+Wire Wire Line
+	2350 2000 2150 2000
+Wire Wire Line
+	2350 2100 2150 2100
+Wire Wire Line
+	2350 2200 2150 2200
+Wire Wire Line
+	2350 2300 2150 2300
+Wire Wire Line
+	2350 2400 2150 2400
+Wire Wire Line
+	2350 2500 2150 2500
+Wire Wire Line
+	2350 2600 2150 2600
+Wire Wire Line
+	2350 2700 2150 2700
+Wire Wire Line
+	2350 2800 2150 2800
+Wire Wire Line
+	2350 2900 2150 2900
+Wire Wire Line
+	2350 3000 2150 3000
+Wire Wire Line
+	2350 3100 2150 3100
+Wire Wire Line
+	2350 3200 2150 3200
+Wire Wire Line
+	2350 3300 2150 3300
+Wire Wire Line
+	2350 3400 2150 3400
+Wire Wire Line
+	2000 1100 1800 1100
+Wire Wire Line
+	2000 1200 1800 1200
+Wire Wire Line
+	2000 1300 1800 1300
+Wire Wire Line
+	2000 1400 1800 1400
+Wire Wire Line
+	2350 3900 2150 3900
+Wire Wire Line
+	2350 4000 2150 4000
+Wire Wire Line
+	2350 4100 2150 4100
+Wire Wire Line
+	2350 4200 2150 4200
+Wire Wire Line
+	2350 4300 2150 4300
+Wire Wire Line
+	2350 4400 2150 4400
+Wire Wire Line
+	2350 4500 2150 4500
+Wire Wire Line
+	2350 4600 2150 4600
+Wire Wire Line
+	2350 4700 2150 4700
+Wire Wire Line
+	2350 4800 2150 4800
+Wire Wire Line
+	2350 4900 2150 4900
+Wire Wire Line
+	2350 5000 2150 5000
+Wire Wire Line
+	1900 5100 2350 5100
+Wire Wire Line
+	1900 5200 2350 5200
+Wire Wire Line
+	4800 1900 5700 1900
+Wire Wire Line
+	5250 2000 5700 2000
+Wire Wire Line
+	4550 2100 5700 2100
+Wire Wire Line
+	4500 2200 5700 2200
+Wire Wire Line
+	4500 2300 5700 2300
+Wire Wire Line
+	4500 2400 5700 2400
+Wire Wire Line
+	4500 2500 5700 2500
+Wire Wire Line
+	4500 2600 5700 2600
+Wire Wire Line
+	5700 2700 5500 2700
+Wire Wire Line
+	5700 2800 5500 2800
+Wire Wire Line
+	5700 2900 5500 2900
+Wire Wire Line
+	5700 3000 5500 3000
+Wire Wire Line
+	5700 3100 5500 3100
+Wire Wire Line
+	5700 3200 5500 3200
+Wire Wire Line
+	5700 3300 5500 3300
+Wire Wire Line
+	5700 3400 5500 3400
+Wire Wire Line
+	5700 3500 5500 3500
+Wire Wire Line
+	5700 3600 5500 3600
+Wire Wire Line
+	2000 900  1800 900 
+Wire Wire Line
+	2000 1000 1800 1000
+Wire Wire Line
+	5700 3900 5500 3900
+Wire Wire Line
+	5700 4000 5500 4000
+Wire Wire Line
+	5700 4100 5500 4100
+Wire Wire Line
+	5700 4200 5500 4200
+Wire Wire Line
+	5700 4300 5500 4300
+Wire Wire Line
+	5700 4400 5500 4400
+Wire Wire Line
+	5700 4500 5500 4500
+Wire Wire Line
+	5700 4600 5500 4600
+Wire Wire Line
+	5700 4700 5500 4700
+Wire Wire Line
+	5700 4800 5500 4800
+Wire Wire Line
+	5700 4900 5500 4900
+Wire Wire Line
+	5700 5000 5500 5000
+Wire Wire Line
+	2000 1500 1800 1500
+Wire Wire Line
+	5700 5200 5500 5200
+Wire Wire Line
+	1900 5100 1900 5400
+Connection ~ 1900 5200
+Text Label 4800 1900 0    60   ~ 0
+CON5V
+$Comp
+L GND #PWR0114
+U 1 1 5759757C
+P 4500 2700
+F 0 "#PWR0114" H 4500 2700 30  0001 C CNN
+F 1 "GND" H 4500 2630 30  0001 C CNN
+F 2 "" H 4500 2700 60  0000 C CNN
+F 3 "" H 4500 2700 60  0000 C CNN
+	1    4500 2700
+	1    0    0    -1  
+$EndComp
+Connection ~ 4500 2600
+Connection ~ 4500 2500
+Connection ~ 4500 2400
+Connection ~ 4500 2300
+Connection ~ 5250 1900
+Wire Wire Line
+	5250 2000 5250 1900
+Text Label 4600 2100 0    60   ~ 0
+CONBAT
+$Comp
+L PWR_FLAG #FLG0115
+U 1 1 57597593
+P 4550 1950
+F 0 "#FLG0115" H 4550 2045 30  0001 C CNN
+F 1 "PWR_FLAG" H 4550 2130 30  0000 C CNN
+F 2 "" H 4550 1950 60  0000 C CNN
+F 3 "" H 4550 1950 60  0000 C CNN
+	1    4550 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2100 4550 1950
+Wire Wire Line
+	4500 2200 4500 2700
+Text HLabel 5500 3100 0    60   Input ~ 0
+DOUT4
+Text HLabel 5500 3200 0    60   Input ~ 0
+DOUT5
+Text HLabel 5500 3300 0    60   Input ~ 0
+DOUT6
+Text HLabel 5500 3400 0    60   Input ~ 0
+DOUT7
+Text HLabel 5500 2700 0    60   Input ~ 0
+DOUT0
+Text HLabel 5500 2800 0    60   Input ~ 0
+DOUT1
+Text HLabel 5500 2900 0    60   Input ~ 0
+DOUT2
+Text HLabel 5500 3000 0    60   Input ~ 0
+DOUT3
+Text HLabel 5500 3600 0    60   Output ~ 0
+RS232_CTS
+Text HLabel 5500 3500 0    60   Input ~ 0
+RS232_RTS
+Text HLabel 1800 1000 0    60   Input ~ 0
+RS232_TXD
+Text HLabel 1800 900  0    60   Output ~ 0
+RS232_RXD
+Text HLabel 5500 4000 0    60   Output ~ 0
+CAN_RD
+Text HLabel 5500 3900 0    60   Input ~ 0
+CAN_TD
+Text HLabel 5500 4100 0    60   Input ~ 0
+CAN_STB
+Text HLabel 5500 4300 0    60   Output ~ 0
+RS485_RXD
+Text HLabel 5500 4200 0    60   Input ~ 0
+RS485_DIR
+Text HLabel 5500 4400 0    60   Input ~ 0
+RS485_TXD
+Text HLabel 5500 4500 0    60   Input ~ 0
+USB_JTAG_UART_TXD
+Text HLabel 5500 4600 0    60   Output ~ 0
+USB_JTAG_UART_RXD
+Text HLabel 5500 4700 0    60   Output ~ 0
+AIN0
+Text HLabel 5500 4800 0    60   Output ~ 0
+AIN1
+Text HLabel 5500 4900 0    60   Output ~ 0
+AIN2
+Text HLabel 5500 5000 0    60   Output ~ 0
+AIN3
+Text HLabel 1800 1500 0    60   Output ~ 0
+RESET
+Text HLabel 5500 5200 0    60   Input ~ 0
+DAC_OUT
+Wire Wire Line
+	7000 2200 7950 2200
+$Comp
+L GND #PWR0116
+U 1 1 575C93CA
+P 7500 2500
+F 0 "#PWR0116" H 7500 2500 30  0001 C CNN
+F 1 "GND" H 7500 2430 30  0001 C CNN
+F 2 "" H 7500 2500 60  0000 C CNN
+F 3 "" H 7500 2500 60  0000 C CNN
+	1    7500 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 2300 7950 2300
+Wire Wire Line
+	7500 2400 7950 2400
+Wire Wire Line
+	7500 2300 7500 2500
+Connection ~ 7500 2400
+$Comp
+L GND #PWR0117
+U 1 1 575C982B
+P 10150 1750
+F 0 "#PWR0117" H 10150 1750 30  0001 C CNN
+F 1 "GND" H 10150 1680 30  0001 C CNN
+F 2 "" H 10150 1750 60  0000 C CNN
+F 3 "" H 10150 1750 60  0000 C CNN
+	1    10150 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 1700 10150 1700
+Wire Wire Line
+	10150 1700 10150 1750
+Text Label 2000 900  0    60   ~ 0
+RS232_RXD
+Text Label 2000 1000 0    60   ~ 0
+RS232_TXD
+Wire Wire Line
+	7900 4750 8000 4750
+Wire Wire Line
+	7900 4650 8000 4650
+Text Label 7900 4750 2    60   ~ 0
+RS232_RXD
+Text Label 7900 4650 2    60   ~ 0
+RS232_TXD
+Wire Wire Line
+	4900 3700 5700 3700
+Wire Wire Line
+	4900 3800 5700 3800
+Text Label 4900 3700 2    60   ~ 0
+RS232_RXD
+Text Label 4900 3800 2    60   ~ 0
+RS232_TXD
+$Comp
+L +3.3V #PWR0118
+U 1 1 575CBE45
+P 7100 2050
+F 0 "#PWR0118" H 7100 2010 30  0001 C CNN
+F 1 "+3.3V" H 7100 2160 30  0000 C CNN
+F 2 "" H 7100 2050 60  0000 C CNN
+F 3 "" H 7100 2050 60  0000 C CNN
+	1    7100 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 2100 7950 2100
+Wire Wire Line
+	7100 2100 7100 2050
+$Comp
+L +5V #PWR0119
+U 1 1 575CCC79
+P 7000 2150
+F 0 "#PWR0119" H 7000 2240 20  0001 C CNN
+F 1 "+5V" H 7000 2240 30  0000 C CNN
+F 2 "" H 7000 2150 60  0000 C CNN
+F 3 "" H 7000 2150 60  0000 C CNN
+	1    7000 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 2150 7000 2200
+Text Label 2000 1100 0    60   ~ 0
+GPIO_AN0
+Text Label 2000 1200 0    60   ~ 0
+GPIO_AN1
+Text Label 2000 1300 0    60   ~ 0
+GPIO_AN2
+Text Label 2000 1400 0    60   ~ 0
+GPIO_AN3
+Wire Wire Line
+	7850 2700 7950 2700
+Wire Wire Line
+	7850 2800 7950 2800
+Wire Wire Line
+	7850 2900 7950 2900
+Wire Wire Line
+	7850 3000 7950 3000
+Text Label 7850 2700 2    60   ~ 0
+GPIO_AN0
+Text Label 7850 2800 2    60   ~ 0
+GPIO_AN1
+Text Label 7850 2900 2    60   ~ 0
+GPIO_AN2
+Text Label 7850 3000 2    60   ~ 0
+GPIO_AN3
+Wire Wire Line
+	1750 3500 2350 3500
+Wire Wire Line
+	1750 3600 2350 3600
+Wire Wire Line
+	1750 3700 2350 3700
+Wire Wire Line
+	1750 3800 2350 3800
+Text Label 1750 3500 2    60   ~ 0
+GPIO_AN0
+Text Label 1750 3600 2    60   ~ 0
+GPIO_AN1
+Text Label 1750 3700 2    60   ~ 0
+GPIO_AN2
+Text Label 1750 3800 2    60   ~ 0
+GPIO_AN3
+Text Label 2000 1500 0    60   ~ 0
+RST
+Wire Wire Line
+	5150 5100 5700 5100
+Text Label 5150 5100 2    60   ~ 0
+RST
+Wire Wire Line
+	7850 2000 7950 2000
+Text Label 7850 2000 2    60   ~ 0
+SH_RST
+Wire Wire Line
+	7950 3100 7750 3100
+Wire Wire Line
+	7750 3100 7750 3350
+Wire Wire Line
+	7750 3350 9600 3350
+Wire Wire Line
+	9600 3350 9600 1500
+Wire Wire Line
+	9600 1500 9500 1500
+Wire Wire Line
+	9500 1400 9650 1400
+Wire Wire Line
+	9650 1400 9650 3400
+Wire Wire Line
+	9650 3400 7700 3400
+Wire Wire Line
+	7700 3400 7700 3200
+Wire Wire Line
+	7700 3200 7950 3200
+Text HLabel 9700 1600 2    60   Output ~ 0
+ArefArduino
+Wire Wire Line
+	9500 1600 9700 1600
+NoConn ~ 7950 2500
+Wire Wire Line
+	7950 1900 7400 1900
+Wire Wire Line
+	7400 1900 7400 2100
+Connection ~ 7400 2100
+$Comp
+L ARDUINO_as_UNO SH?
+U 1 1 5760AB8D
+P 8700 2300
+F 0 "SH?" H 8750 2200 60  0000 C CNN
+F 1 "ARDUINO_as_UNO" H 8725 3350 60  0000 C CNN
+F 2 "" H 8500 1775 60  0000 C CNN
+F 3 "" H 8500 1775 60  0000 C CNN
+	1    8700 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L TXB0108 U?
+U 1 1 57628DD3
+P 8700 4900
+F 0 "U?" H 8350 5400 60  0000 C CNN
+F 1 "TXB0108" H 8500 4200 60  0000 C CNN
+F 2 "tssop-20" H 8700 4900 60  0001 C CNN
+F 3 "txb0108.pdf" H 8700 4900 60  0001 C CNN
+F 4 "IC 8-BIT TRNSTR 15KV ESD 20TSSOP" H 8700 4900 60  0001 C CNN "Descripción"
+F 5 "Texas Instruments" H 8700 4900 60  0001 C CNN "Fabricante"
+F 6 "TXB0108PWR" H 8700 4900 60  0001 C CNN "Nro de parte"
+F 7 "296-21527-1-ND" H 8700 4900 60  0001 C CNN "Digikey"
+	1    8700 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR0120
+U 1 1 576293B5
+P 7950 4150
+F 0 "#PWR0120" H 7950 4110 30  0001 C CNN
+F 1 "+3.3V" H 7950 4260 30  0000 C CNN
+F 2 "" H 7950 4150 60  0000 C CNN
+F 3 "" H 7950 4150 60  0000 C CNN
+	1    7950 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 4150 7950 4550
+$Comp
+L +5V #PWR0121
+U 1 1 576293EC
+P 9450 4150
+F 0 "#PWR0121" H 9450 4240 20  0001 C CNN
+F 1 "+5V" H 9450 4240 30  0000 C CNN
+F 2 "" H 9450 4150 60  0000 C CNN
+F 3 "" H 9450 4150 60  0000 C CNN
+	1    9450 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 4150 9450 4550
+Wire Wire Line
+	9450 4550 9400 4550
+Wire Wire Line
+	7950 4550 8000 4550
+$Comp
+L GND #PWR0122
+U 1 1 576299BA
+P 9550 5650
+F 0 "#PWR0122" H 9550 5650 30  0001 C CNN
+F 1 "GND" H 9550 5580 30  0001 C CNN
+F 2 "" H 9550 5650 60  0000 C CNN
+F 3 "" H 9550 5650 60  0000 C CNN
+	1    9550 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 5450 9550 5650
+Wire Wire Line
+	9550 5450 9400 5450
+$Comp
+L C_Small C?
+U 1 1 5762A48E
+P 9650 4350
+F 0 "C?" H 9660 4420 50  0000 L CNN
+F 1 "100nf" H 9660 4270 50  0000 L CNN
+F 2 "c_0805" H 9650 4350 50  0001 C CNN
+F 3 "KEM_C1002_X7R_SMD.pdf" H 9650 4350 50  0001 C CNN
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 9650 4350 60  0001 C CNN "Descripción"
+F 5 "Kemet" H 9650 4350 60  0001 C CNN "Fabricante"
+F 6 "C0805C104K4RACTU" H 9650 4350 60  0001 C CNN "Nro de Parte"
+F 7 "399-1167-1-ND" H 9650 4350 60  0001 C CNN "Digikey"
+	1    9650 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0123
+U 1 1 5762A565
+P 9650 4500
+F 0 "#PWR0123" H 9650 4500 30  0001 C CNN
+F 1 "GND" H 9650 4430 30  0001 C CNN
+F 2 "" H 9650 4500 60  0000 C CNN
+F 3 "" H 9650 4500 60  0000 C CNN
+	1    9650 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 4450 9650 4500
+Wire Wire Line
+	9450 4200 9650 4200
+Wire Wire Line
+	9650 4200 9650 4250
+Connection ~ 9450 4200
+$Comp
+L GND #PWR0124
+U 1 1 5762AFDA
+P 7750 4500
+F 0 "#PWR0124" H 7750 4500 30  0001 C CNN
+F 1 "GND" H 7750 4430 30  0001 C CNN
+F 2 "" H 7750 4500 60  0000 C CNN
+F 3 "" H 7750 4500 60  0000 C CNN
+	1    7750 4500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 4450 7750 4500
+Wire Wire Line
+	7950 4200 7750 4200
+Wire Wire Line
+	7750 4200 7750 4250
+Connection ~ 7950 4200
+$Comp
+L C_Small C?
+U 1 1 576330CE
+P 7750 4350
+F 0 "C?" H 7760 4420 50  0000 L CNN
+F 1 "100nf" H 7500 4250 50  0000 L CNN
+F 2 "c_0805" H 7750 4350 50  0001 C CNN
+F 3 "KEM_C1002_X7R_SMD.pdf" H 7750 4350 50  0001 C CNN
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 7750 4350 60  0001 C CNN "Descripción"
+F 5 "Kemet" H 7750 4350 60  0001 C CNN "Fabricante"
+F 6 "C0805C104K4RACTU" H 7750 4350 60  0001 C CNN "Nro de Parte"
+F 7 "399-1167-1-ND" H 7750 4350 60  0001 C CNN "Digikey"
+	1    7750 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR0125
+U 1 1 57633AB2
+P 7200 4850
+F 0 "#PWR0125" H 7200 4810 30  0001 C CNN
+F 1 "+3.3V" H 7200 4960 30  0000 C CNN
+F 2 "" H 7200 4850 60  0000 C CNN
+F 3 "" H 7200 4850 60  0000 C CNN
+	1    7200 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 57633B29
+P 7200 5650
+F 0 "C?" H 7210 5720 50  0000 L CNN
+F 1 "100nf" H 7210 5570 50  0000 L CNN
+F 2 "c_0805" H 7200 5650 50  0001 C CNN
+F 3 "KEM_C1002_X7R_SMD.pdf" H 7200 5650 50  0001 C CNN
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 7200 5650 60  0001 C CNN "Descripción"
+F 5 "Kemet" H 7200 5650 60  0001 C CNN "Fabricante"
+F 6 "C0805C104K4RACTU" H 7200 5650 60  0001 C CNN "Nro de Parte"
+F 7 "399-1167-1-ND" H 7200 5650 60  0001 C CNN "Digikey"
+	1    7200 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57637110
+P 7200 5150
+F 0 "R?" V 7280 5150 40  0000 C CNN
+F 1 "1k" V 7207 5151 40  0000 C CNN
+F 2 "" V 7130 5150 30  0000 C CNN
+F 3 "" H 7200 5150 30  0000 C CNN
+	1    7200 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0126
+U 1 1 576371E9
+P 7200 5800
+F 0 "#PWR0126" H 7200 5800 30  0001 C CNN
+F 1 "GND" H 7200 5730 30  0001 C CNN
+F 2 "" H 7200 5800 60  0000 C CNN
+F 3 "" H 7200 5800 60  0000 C CNN
+	1    7200 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 5750 7200 5800
+Wire Wire Line
+	7200 5400 7200 5550
+Wire Wire Line
+	7200 4900 7200 4850
+Wire Wire Line
+	8000 5450 7200 5450
+Connection ~ 7200 5450
+Wire Wire Line
+	9500 4750 9400 4750
+Wire Wire Line
+	9500 4650 9400 4650
+Text Label 9500 4750 0    60   ~ 0
+SH_RS232_RXD
+Text Label 9500 4650 0    60   ~ 0
+SH_RS232_TXD
+Wire Wire Line
+	9750 3200 9500 3200
+Wire Wire Line
+	9750 3100 9500 3100
+Text Label 9750 3200 0    60   ~ 0
+SH_RS232_RXD
+Text Label 9750 3100 0    60   ~ 0
+SH_RS232_TXD
+Wire Wire Line
+	7900 4850 8000 4850
+Text Label 7900 4850 2    60   ~ 0
+RST
+Wire Wire Line
+	9500 4850 9400 4850
+Text Label 9500 4850 0    60   ~ 0
+SH_RST
+$EndSCHEMATC

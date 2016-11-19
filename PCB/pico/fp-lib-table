@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name pciestuff)(type Legacy)(uri "$(KIPRJMOD)/footprints.pretty/pciestuff.mod")(options "")(descr ""))
+  (lib (name plcc4)(type Legacy)(uri "$(KIPRJMOD)/footprints.pretty/plcc-4.mod")(options "")(descr ""))
+  (lib (name MicroUSB-ZX62AB)(type Legacy)(uri "$(KIPRJMOD)/footprints.pretty/MicroUSB-ZX62AB.mod")(options "")(descr ""))
+  (lib (name crystals)(type Legacy)(uri "$(KIPRJMOD)/footprints.pretty/crystals.mod")(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri "$(KIPRJMOD)/footprints.pretty")(options "")(descr ""))
+)
