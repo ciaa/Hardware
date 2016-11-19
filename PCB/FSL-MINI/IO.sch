@@ -89,7 +89,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 4400 3700 4400
 Wire Wire Line
-	6550 4500 6300 4500
+	6550 4700 6300 4700
 Wire Wire Line
 	3750 2400 3550 2400
 Wire Wire Line
@@ -129,13 +129,13 @@ Wire Wire Line
 Wire Wire Line
 	3650 5500 3900 5500
 Wire Wire Line
-	6550 4800 6350 4800
-Wire Wire Line
 	6550 4900 6350 4900
+Wire Wire Line
+	6550 5100 6350 5100
 Wire Wire Line
 	6550 5000 6350 5000
 Wire Wire Line
-	6550 5100 6350 5100
+	6550 4800 6350 4800
 Wire Wire Line
 	3900 5600 3700 5600
 Wire Wire Line
@@ -190,13 +190,13 @@ Text HLabel 3700 5800 0    60   Input ~ 0
 DOUT6
 Text HLabel 3700 5900 0    60   Input ~ 0
 DOUT7
-Text HLabel 6350 4800 0    60   Input ~ 0
-DOUT0
 Text HLabel 6350 4900 0    60   Input ~ 0
+DOUT0
+Text HLabel 6350 5100 0    60   Input ~ 0
 DOUT1
 Text HLabel 6350 5000 0    60   Input ~ 0
 DOUT2
-Text HLabel 6350 5100 0    60   Input ~ 0
+Text HLabel 6350 4800 0    60   Input ~ 0
 DOUT3
 Text HLabel 6350 5700 0    60   Output ~ 0
 RS232_CTS
@@ -501,8 +501,8 @@ GPIO10
 Wire Wire Line
 	3250 4200 3900 4200
 Wire Wire Line
-	6300 4700 6550 4700
-Text Label 6300 4700 2    60   ~ 0
+	6300 4500 6550 4500
+Text Label 6300 4500 2    60   ~ 0
 GPIO13/FTM0_CH1
 Text HLabel 3550 2900 0    60   BiDi ~ 0
 GPIO1
@@ -616,7 +616,7 @@ Text HLabel 9950 2400 2    60   Input ~ 0
 EC_PWM1
 Text HLabel 9950 2600 2    60   Input ~ 0
 EC_PWM2
-Text Label 6300 4500 2    60   ~ 0
+Text Label 6300 4700 2    60   ~ 0
 GPIO9
 Text HLabel 9550 2000 2    60   BiDi ~ 0
 EC_GPIO
