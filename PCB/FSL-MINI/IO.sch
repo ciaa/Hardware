@@ -19,19 +19,19 @@ Text HLabel 3550 2000 0    60   BiDi ~ 0
 GPIO0/I2C1_SDA
 Text HLabel 3550 2100 0    60   BiDi ~ 0
 GPIO2/I2C1_SCL
-Text HLabel 3700 4600 0    60   BiDi ~ 0
+Text HLabel 3700 4100 0    60   BiDi ~ 0
 GPIO4
 Text HLabel 3550 1800 0    60   BiDi ~ 0
 GPIO5/SPI2_SOUT
 Text HLabel 3550 2200 0    60   BiDi ~ 0
 GPIO6/FTM3_CH4
-Text HLabel 3700 4400 0    60   BiDi ~ 0
+Text HLabel 3700 4300 0    60   BiDi ~ 0
 GPIO8
 Text HLabel 3550 2500 0    60   BiDi ~ 0
 GPIO9
 Text HLabel 3550 2400 0    60   BiDi ~ 0
 GPIO11/FTM0_CH0
-Text HLabel 3250 4200 0    60   BiDi ~ 0
+Text HLabel 3250 4500 0    60   BiDi ~ 0
 GPIO12
 Text HLabel 3550 2600 0    60   BiDi ~ 0
 GPIO13/FTM0_CH1
@@ -47,21 +47,21 @@ Text HLabel 3550 1400 0    60   Output ~ 0
 GPIO_AN2
 Text HLabel 3550 1500 0    60   Output ~ 0
 GPIO_AN3
-Text HLabel 3700 6000 0    60   Input ~ 0
+Text HLabel 3700 5900 0    60   Input ~ 0
 AUX_UART_RTS/SPI_CS
-Text HLabel 3700 6100 0    60   Input ~ 0
+Text HLabel 3700 5800 0    60   Input ~ 0
 AUX_UART_CTS/SPI_CLK
-Text HLabel 3700 6300 0    60   Output ~ 0
+Text HLabel 3700 5600 0    60   Output ~ 0
 AUX_UART_RX/SPI_MISO
-Text HLabel 3700 6200 0    60   Input ~ 0
+Text HLabel 3700 5700 0    60   Input ~ 0
 AUX_UART_TX/SPI_MOSI/FTM3_CH2
-Text HLabel 3700 6500 0    60   Output ~ 0
+Text HLabel 3700 6000 0    60   Output ~ 0
 DIN0
-Text HLabel 3700 6600 0    60   Output ~ 0
+Text HLabel 3700 6100 0    60   Output ~ 0
 DIN1
-Text HLabel 3700 6700 0    60   Output ~ 0
+Text HLabel 3700 6200 0    60   Output ~ 0
 DIN2
-Text HLabel 3700 6800 0    60   Output ~ 0
+Text HLabel 3700 6300 0    60   Output ~ 0
 DIN3
 $Comp
 L GND #PWR0110
@@ -79,7 +79,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 2100 3550 2100
 Wire Wire Line
-	3900 4600 3700 4600
+	3900 4100 3700 4100
 Wire Wire Line
 	6550 4300 6300 4300
 Wire Wire Line
@@ -87,7 +87,7 @@ Wire Wire Line
 Wire Wire Line
 	6550 4400 6300 4400
 Wire Wire Line
-	3900 4400 3700 4400
+	3900 4300 3700 4300
 Wire Wire Line
 	6550 4700 6300 4700
 Wire Wire Line
@@ -109,19 +109,19 @@ Wire Wire Line
 Wire Wire Line
 	3750 1500 3550 1500
 Wire Wire Line
-	3900 6000 3700 6000
+	3900 5900 3700 5900
 Wire Wire Line
 	3750 1700 3550 1700
 Wire Wire Line
 	3750 1800 3550 1800
 Wire Wire Line
-	3900 6500 3700 6500
+	3900 6000 3700 6000
 Wire Wire Line
-	3900 6600 3700 6600
+	3900 6100 3700 6100
 Wire Wire Line
-	3900 6700 3700 6700
+	3900 6200 3700 6200
 Wire Wire Line
-	3900 6800 3700 6800
+	3900 6300 3700 6300
 Wire Wire Line
 	3850 6900 3900 6900
 Wire Wire Line
@@ -137,13 +137,13 @@ Wire Wire Line
 Wire Wire Line
 	6550 4800 6350 4800
 Wire Wire Line
-	3900 5600 3700 5600
+	3900 6500 3700 6500
 Wire Wire Line
-	3900 5700 3700 5700
+	3900 6600 3700 6600
 Wire Wire Line
-	3900 5800 3700 5800
+	3900 6700 3700 6700
 Wire Wire Line
-	3900 5900 3700 5900
+	3900 6800 3700 6800
 Wire Wire Line
 	6550 5800 6350 5800
 Wire Wire Line
@@ -182,13 +182,13 @@ Wire Wire Line
 	3900 5100 3700 5100
 Wire Wire Line
 	3850 6900 3850 6950
-Text HLabel 3700 5600 0    60   Input ~ 0
+Text HLabel 3700 6500 0    60   Input ~ 0
 DOUT4
-Text HLabel 3700 5700 0    60   Input ~ 0
+Text HLabel 3700 6600 0    60   Input ~ 0
 DOUT5
-Text HLabel 3700 5800 0    60   Input ~ 0
+Text HLabel 3700 6700 0    60   Input ~ 0
 DOUT6
-Text HLabel 3700 5900 0    60   Input ~ 0
+Text HLabel 3700 6800 0    60   Input ~ 0
 DOUT7
 Text HLabel 6350 4900 0    60   Input ~ 0
 DOUT0
@@ -399,11 +399,11 @@ F 3 "" H 8050 1475 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3700 6100 3900 6100
+	3700 5800 3900 5800
 Wire Wire Line
-	3700 6200 3900 6200
+	3700 5700 3900 5700
 Wire Wire Line
-	3700 6300 3900 6300
+	3700 5600 3900 5600
 Wire Wire Line
 	9050 1500 9550 1500
 Wire Wire Line
@@ -463,18 +463,18 @@ GPIO6/FTM3_CH4
 Text Label 9550 1900 0    60   ~ 0
 GPIO15/FTM0_CH2
 Wire Wire Line
-	3250 4500 3900 4500
-Text Label 3250 4500 2    60   ~ 0
+	3250 4200 3900 4200
+Text Label 3250 4200 2    60   ~ 0
 GPIO6/FTM3_CH4
 Wire Wire Line
 	6300 4600 6550 4600
 Text Label 6300 4600 2    60   ~ 0
 GPIO11/FTM0_CH0
 Wire Wire Line
-	3250 4100 3900 4100
+	3250 4600 3900 4600
 Wire Wire Line
 	3250 4900 3900 4900
-Text Label 3250 4100 2    60   ~ 0
+Text Label 3250 4600 2    60   ~ 0
 GPIO14/FTM0_CH3
 Text Label 3250 4900 2    60   ~ 0
 GPIO15/FTM0_CH2
@@ -495,11 +495,11 @@ Wire Wire Line
 Text Label 9550 2700 0    60   ~ 0
 GPIO10
 Wire Wire Line
-	3250 4300 3900 4300
-Text Label 3250 4300 2    60   ~ 0
+	3250 4400 3900 4400
+Text Label 3250 4400 2    60   ~ 0
 GPIO10
 Wire Wire Line
-	3250 4200 3900 4200
+	3250 4500 3900 4500
 Wire Wire Line
 	6300 4500 6550 4500
 Text Label 6300 4500 2    60   ~ 0
