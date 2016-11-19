@@ -800,6 +800,11 @@
       (net 3 +5V))
     (pad 8 smd rect (at -1.905 -2.59842 270) (size 0.59944 2.19964) (layers F.Cu F.Paste F.Mask)
       (net 94 /CPU/USB_VBUS))
+    (model ${KIPRJMOD}/footprints/packages3d/so-8.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module -SOIC8 (layer F.Cu) (tedit 54F64686) (tstamp 53B00806)
@@ -837,6 +842,11 @@
       (net 101 GND))
     (pad 8 smd rect (at -1.905 -2.59842 270) (size 0.59944 2.19964) (layers F.Cu F.Paste F.Mask)
       (net 1 +3.3V))
+    (model ${KIPRJMOD}/footprints/packages3d/so-8.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module LQFP64-M05 (layer F.Cu) (tedit 54F9EFB1) (tstamp 5414E9CA)
@@ -1325,6 +1335,11 @@
       (net 125 N-00000208))
     (pad 8 smd rect (at -1.905 -2.59842) (size 0.59944 2.19964) (layers F.Cu F.Paste F.Mask)
       (net 3 +5V))
+    (model ${KIPRJMOD}/footprints/packages3d/so-8.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module tssop-20 (layer F.Cu) (tedit 54F646C2) (tstamp 53A8AFCF)
