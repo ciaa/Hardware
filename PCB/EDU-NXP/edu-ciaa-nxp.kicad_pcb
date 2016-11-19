@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.4-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.2+dfsg1-2~bpo8+1-stable)
 
   (general
     (links 510)
@@ -1002,12 +1002,7 @@
       (net 117 N-00000199))
     (model ${KIPRJMOD}/footprints/packages3d/bornier_3.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model ${KIPRJMOD}/footprints/packages3d/mkds_1,5-3.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 1 0.75 0.75))
       (rotate (xyz 0 0 0))
     )
   )
