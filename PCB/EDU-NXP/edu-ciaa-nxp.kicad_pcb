@@ -5607,6 +5607,11 @@
       (net 160 N-00000248))
     (pad 4 thru_hole oval (at 0 6.5) (size 2 3) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 101 GND))
+    (model ${KIPRJMOD}/footprints/packages3d/pcb_push.wrl
+      (at (xyz 0.09 -0.12 0))
+      (scale (xyz 1 0.95 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module PUSH_SWITCH_THT (layer F.Cu) (tedit 54F647BE) (tstamp 54F649F1)
@@ -5631,6 +5636,11 @@
       (net 153 N-00000241))
     (pad 4 thru_hole oval (at 0 6.5) (size 2 3) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 101 GND))
+    (model ${KIPRJMOD}/footprints/packages3d/pcb_push.wrl
+      (at (xyz 0.09 -0.12 0))
+      (scale (xyz 1 0.95 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module PUSH_SWITCH_THT (layer F.Cu) (tedit 54F9F777) (tstamp 53A8B709)
@@ -5655,6 +5665,11 @@
       (net 116 N-00000198))
     (pad 4 thru_hole oval (at 0 6.5 180) (size 2 3) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 101 GND))
+    (model ${KIPRJMOD}/footprints/packages3d/pcb_push.wrl
+      (at (xyz 0.09 -0.12 0))
+      (scale (xyz 1 0.95 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module PUSH_SWITCH_THT (layer F.Cu) (tedit 54F647D0) (tstamp 53A8B716)
@@ -5679,6 +5694,11 @@
       (net 159 N-00000247))
     (pad 4 thru_hole oval (at 0 6.5) (size 2 3) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 101 GND))
+    (model ${KIPRJMOD}/footprints/packages3d/pcb_push.wrl
+      (at (xyz 0.09 -0.12 0))
+      (scale (xyz 1 0.95 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module PUSH_SWITCH_THT (layer F.Cu) (tedit 54F647C8) (tstamp 53A8B723)
@@ -5703,6 +5723,11 @@
       (net 152 N-00000240))
     (pad 4 thru_hole oval (at 0 6.5) (size 2 3) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 101 GND))
+    (model ${KIPRJMOD}/footprints/packages3d/pcb_push.wrl
+      (at (xyz 0.09 -0.12 0))
+      (scale (xyz 1 0.95 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module c_1206_tantalio (layer F.Cu) (tedit 544988CD) (tstamp 53A8BBEA)
