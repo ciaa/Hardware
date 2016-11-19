@@ -523,8 +523,8 @@
       (net 101 GND))
     (model ${KIPRJMOD}/footprints/packages3d/keystone_3009.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (scale (xyz 0.8 0.65 0.8))
+      (rotate (xyz 0 0 180))
     )
   )
 
