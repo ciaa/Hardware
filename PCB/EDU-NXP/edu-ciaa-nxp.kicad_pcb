@@ -1461,6 +1461,11 @@
       (net 86 /CPU/USB_DM))
     (pad 4 smd rect (at 0 -0.85 270) (size 0.45 0.45) (layers F.Cu F.Paste F.Mask)
       (net 129 N-00000214))
+    (model ${KIPRJMOD}/footprints/packages3d/srf2012.wrl
+      (at (xyz 0.025 0.016 -0.005))
+      (scale (xyz 1 0.8 0.8))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module SRF2012 (layer F.Cu) (tedit 54F9F7FC) (tstamp 53A8AFE9)
@@ -1485,6 +1490,11 @@
       (net 90 /CPU/USB_JTAG_DM))
     (pad 4 smd rect (at 0 -0.85 270) (size 0.45 0.45) (layers F.Cu F.Paste F.Mask)
       (net 163 N-0000082))
+    (model ${KIPRJMOD}/footprints/packages3d/srf2012.wrl
+      (at (xyz 0.025 0.016 -0.005))
+      (scale (xyz 1 0.8 0.8))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module SOT23GDS (layer F.Cu) (tedit 5414E730) (tstamp 540F5D9D)
@@ -3395,6 +3405,11 @@
       (net 9 /CPU/CHJ3))
     (pad 7 thru_hole oval (at 4.175 2.8 180) (size 1.225 1.9) (drill oval 0.825 1.5) (layers *.Cu *.Mask F.SilkS)
       (net 9 /CPU/CHJ3))
+    (model ${KIPRJMOD}/footprints/packages3d/USB-ZX62D-AB-5P8.wrl
+      (at (xyz 0 -0.165 0.08))
+      (scale (xyz 0.395 0.395 0.395))
+      (rotate (xyz -90 0 -90))
+    )
   )
 
   (module USB_microAB_ZX62-AB-5P8 (layer F.Cu) (tedit 54FAD693) (tstamp 53C7A041)
@@ -3453,6 +3468,11 @@
       (net 100 /USB_OTG/CHJ2))
     (pad 7 thru_hole oval (at 4.175 2.8 180) (size 1.225 1.9) (drill oval 0.825 1.5) (layers *.Cu *.Mask F.SilkS)
       (net 100 /USB_OTG/CHJ2))
+    (model /home/brengi/git/github/Hardware/PCB/EDU-NXP/footprints/packages3d/USB-ZX62D-AB-5P8.wrl
+      (at (xyz 0 -0.165 0.08))
+      (scale (xyz 0.395 0.395 0.395))
+      (rotate (xyz -90 0 -90))
+    )
   )
 
   (module SM0805 (layer F.Cu) (tedit 54498621) (tstamp 53A8B386)
