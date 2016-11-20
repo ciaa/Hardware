@@ -3,7 +3,7 @@
   (general
     (links 510)
     (no_connects 0)
-    (area 182.345898 74.645999 268.679001 212.179001)
+    (area 164.332144 66.450001 295.417857 224.633174)
     (thickness 1.6)
     (drawings 143)
     (tracks 3267)
@@ -6227,6 +6227,11 @@
       (net 101 GND))
     (pad 2 thru_hole circle (at 1.27 1.778 270) (size 2 2) (drill 1) (layers *.Cu *.Mask F.SilkS)
       (net 126 N-00000209))
+    (model ${KIPRJMOD}/footprints/packages3d/connpos2x1.wrl
+      (at (xyz 0 -0.07000000000000001 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Pin_Array_5x2_1.27mm_SMD (layer F.Cu) (tedit 5605DB53) (tstamp 5605F7D3)
@@ -6289,6 +6294,11 @@
       (net 101 GND))
     (pad 10 smd rect (at -2.54 1.95 180) (size 0.74 2.79) (layers F.Cu F.Paste F.Mask)
       (net 59 /CPU/RESET))
+    (model ${KIPRJMOD}/footprints/packages3d/FTSH-105-01-L-DV-K-TR.wrl
+      (at (xyz 0 0 0.015))
+      (scale (xyz 0.395 0.395 0.395))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (module c_0805 (layer F.Cu) (tedit 5605DE0A) (tstamp 5605F88E)
