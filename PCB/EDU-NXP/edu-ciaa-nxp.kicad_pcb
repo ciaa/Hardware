@@ -3,7 +3,7 @@
   (general
     (links 510)
     (no_connects 0)
-    (area 164.332144 66.450001 295.417857 224.633174)
+    (area 182.345898 74.645999 268.679001 212.179001)
     (thickness 1.6)
     (drawings 143)
     (tracks 3267)
@@ -57,7 +57,7 @@
     (pad_drill 0)
     (pad_to_mask_clearance 0.0254)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFF7FBF)
+    (visible_elements 7FFFFFBF)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions true)
@@ -6199,6 +6199,11 @@
       (net 157 N-00000245))
     (pad 4 smd rect (at 0.7 0.6) (size 1 0.7) (layers F.Cu F.Paste F.Mask)
       (net 3 +5V))
+    (model ${KIPRJMOD}/footprints/packages3d/smdled.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.9 0.9 0.9))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module GNDpin (layer F.Cu) (tedit 5605D28C) (tstamp 5605D8FF)
