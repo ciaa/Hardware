@@ -1,7 +1,7 @@
 EESchema Schematic File Version 2
 LIBS:power
 LIBS:CIAA_FSL_MINI-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -31,7 +31,7 @@ Text HLabel 3550 2500 0    60   BiDi ~ 0
 GPIO9
 Text HLabel 3550 2400 0    60   BiDi ~ 0
 GPIO11/FTM0_CH0
-Text HLabel 3250 4500 0    60   BiDi ~ 0
+Text HLabel 6350 4300 0    60   BiDi ~ 0
 GPIO12
 Text HLabel 3550 2600 0    60   BiDi ~ 0
 GPIO13/FTM0_CH1
@@ -81,15 +81,15 @@ Wire Wire Line
 Wire Wire Line
 	3900 4100 3700 4100
 Wire Wire Line
-	6550 4300 6300 4300
+	6550 4600 6300 4600
 Wire Wire Line
 	3750 2200 3550 2200
 Wire Wire Line
-	6550 4400 6300 4400
+	6550 4700 6300 4700
 Wire Wire Line
 	3900 4300 3700 4300
 Wire Wire Line
-	6550 4700 6300 4700
+	6550 5400 6300 5400
 Wire Wire Line
 	3750 2400 3550 2400
 Wire Wire Line
@@ -159,11 +159,11 @@ Wire Wire Line
 Wire Wire Line
 	6550 6100 6350 6100
 Wire Wire Line
-	6550 5200 6350 5200
+	3900 4400 3700 4400
 Wire Wire Line
-	6550 5300 6350 5300
+	3900 4500 3700 4500
 Wire Wire Line
-	6550 5400 6350 5400
+	3900 4600 3700 4600
 Wire Wire Line
 	3900 5200 3700 5200
 Wire Wire Line
@@ -212,11 +212,11 @@ Text HLabel 6350 5900 0    60   Input ~ 0
 CAN_TD
 Text HLabel 6350 6100 0    60   Input ~ 0
 CAN_STB
-Text HLabel 6350 5300 0    60   Output ~ 0
+Text HLabel 3700 4500 0    60   Output ~ 0
 RS485_RXD
-Text HLabel 6350 5200 0    60   Input ~ 0
+Text HLabel 3700 4400 0    60   Input ~ 0
 RS485_DIR
-Text HLabel 6350 5400 0    60   Input ~ 0
+Text HLabel 3700 4600 0    60   Input ~ 0
 RS485_TXD
 Text HLabel 3700 5200 0    60   Input ~ 0
 USB_JTAG_UART_TXD
@@ -467,14 +467,14 @@ Wire Wire Line
 Text Label 3250 4200 2    60   ~ 0
 GPIO6/FTM3_CH4
 Wire Wire Line
-	6300 4600 6550 4600
-Text Label 6300 4600 2    60   ~ 0
+	6300 5300 6550 5300
+Text Label 6300 5300 2    60   ~ 0
 GPIO11/FTM0_CH0
 Wire Wire Line
-	3250 4600 3900 4600
+	5900 4400 6550 4400
 Wire Wire Line
 	3250 4900 3900 4900
-Text Label 3250 4600 2    60   ~ 0
+Text Label 5900 4400 2    60   ~ 0
 GPIO14/FTM0_CH3
 Text Label 3250 4900 2    60   ~ 0
 GPIO15/FTM0_CH2
@@ -495,14 +495,14 @@ Wire Wire Line
 Text Label 9550 2700 0    60   ~ 0
 GPIO10
 Wire Wire Line
-	3250 4400 3900 4400
-Text Label 3250 4400 2    60   ~ 0
+	5900 4200 6550 4200
+Text Label 5900 4200 2    60   ~ 0
 GPIO10
 Wire Wire Line
-	3250 4500 3900 4500
+	6350 4300 6550 4300
 Wire Wire Line
-	6300 4500 6550 4500
-Text Label 6300 4500 2    60   ~ 0
+	6300 5200 6550 5200
+Text Label 6300 5200 2    60   ~ 0
 GPIO13/FTM0_CH1
 Text HLabel 3550 2900 0    60   BiDi ~ 0
 GPIO1
@@ -519,10 +519,10 @@ GPIO3/SPI2_SCK
 Wire Wire Line
 	6300 4100 6550 4100
 Wire Wire Line
-	6300 4200 6550 4200
+	6300 4500 6550 4500
 Text Label 6300 4100 2    60   ~ 0
 GPIO1
-Text Label 6300 4200 2    60   ~ 0
+Text Label 6300 4500 2    60   ~ 0
 GPIO3/SPI2_SCK
 Wire Wire Line
 	9550 2200 9050 2200
@@ -592,13 +592,13 @@ Text Label 3750 1700 0    60   ~ 0
 GPIO7/SPI2_SIN
 Text Label 9550 1600 0    60   ~ 0
 GPIO7/SPI2_SIN
-Text Label 6300 4400 2    60   ~ 0
+Text Label 6300 4700 2    60   ~ 0
 GPIO7/SPI2_SIN
 Text Label 3750 1800 0    60   ~ 0
 GPIO5/SPI2_SOUT
 Text Label 9550 1700 0    60   ~ 0
 GPIO5/SPI2_SOUT
-Text Label 6300 4300 2    60   ~ 0
+Text Label 6300 4600 2    60   ~ 0
 GPIO5/SPI2_SOUT
 Text HLabel 7400 2400 0    60   Output ~ 0
 EC_AI0
@@ -616,7 +616,7 @@ Text HLabel 9950 2400 2    60   Input ~ 0
 EC_PWM1
 Text HLabel 9950 2600 2    60   Input ~ 0
 EC_PWM2
-Text Label 6300 4700 2    60   ~ 0
+Text Label 6300 5400 2    60   ~ 0
 GPIO9
 Text HLabel 9550 2000 2    60   BiDi ~ 0
 EC_GPIO
