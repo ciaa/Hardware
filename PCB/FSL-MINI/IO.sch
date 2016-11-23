@@ -1,7 +1,7 @@
 EESchema Schematic File Version 2
 LIBS:power
 LIBS:CIAA_FSL_MINI-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -252,7 +252,9 @@ Wire Wire Line
 Wire Wire Line
 	7050 2100 7500 2100
 Wire Wire Line
-	7050 2000 7050 2200
+	7050 2000 7050 2100
+Wire Wire Line
+	7050 2100 7050 2200
 Connection ~ 7050 2100
 $Comp
 L GND #PWR0112
@@ -299,7 +301,9 @@ F 3 "" H 6650 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6650 1800 7500 1800
+	6650 1800 6950 1800
+Wire Wire Line
+	6950 1800 7500 1800
 Wire Wire Line
 	6650 1800 6650 1750
 $Comp
@@ -356,7 +360,9 @@ Wire Wire Line
 Text Label 7400 1700 2    60   ~ 0
 RST
 Wire Wire Line
-	6900 2800 7500 2800
+	6900 2800 7300 2800
+Wire Wire Line
+	7300 2800 7500 2800
 Wire Wire Line
 	7300 2800 7300 3050
 Wire Wire Line
@@ -374,7 +380,9 @@ Wire Wire Line
 Wire Wire Line
 	7250 3100 7250 2900
 Wire Wire Line
-	6900 2900 7500 2900
+	6900 2900 7250 2900
+Wire Wire Line
+	7250 2900 7500 2900
 Text HLabel 9550 1300 2    60   Output ~ 0
 ArefA
 Wire Wire Line
@@ -517,10 +525,10 @@ GPIO1
 Text Label 3750 1900 0    60   ~ 0
 GPIO3/SPI2_SCK
 Wire Wire Line
-	6300 4100 6550 4100
+	5900 4100 6550 4100
 Wire Wire Line
 	6300 4500 6550 4500
-Text Label 6300 4100 2    60   ~ 0
+Text Label 5900 4100 2    60   ~ 0
 GPIO1
 Text Label 6300 4500 2    60   ~ 0
 GPIO3/SPI2_SCK
