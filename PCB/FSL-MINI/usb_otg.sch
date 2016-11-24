@@ -1,7 +1,7 @@
 EESchema Schematic File Version 2
 LIBS:power
 LIBS:CIAA_FSL_MINI-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8

@@ -1,7 +1,7 @@
 EESchema Schematic File Version 2
 LIBS:power
 LIBS:CIAA_FSL_MINI-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -47,13 +47,13 @@ Text HLabel 3550 1400 0    60   Output ~ 0
 GPIO_AN2
 Text HLabel 3550 1500 0    60   Output ~ 0
 GPIO_AN3
-Text HLabel 3700 5900 0    60   Input ~ 0
+Text HLabel 3700 5200 0    60   Input ~ 0
 AUX_UART_RTS/SPI_CS
-Text HLabel 3700 5800 0    60   Input ~ 0
+Text HLabel 3700 5100 0    60   Input ~ 0
 AUX_UART_CTS/SPI_CLK
-Text HLabel 3700 5600 0    60   Output ~ 0
+Text HLabel 3700 4900 0    60   Output ~ 0
 AUX_UART_RX/SPI_MISO
-Text HLabel 3700 5700 0    60   Input ~ 0
+Text HLabel 3700 5000 0    60   Input ~ 0
 AUX_UART_TX/SPI_MOSI/FTM3_CH2
 Text HLabel 3700 6000 0    60   Output ~ 0
 DIN0
@@ -109,7 +109,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 1500 3550 1500
 Wire Wire Line
-	3900 5900 3700 5900
+	3900 5200 3700 5200
 Wire Wire Line
 	3750 1700 3550 1700
 Wire Wire Line
@@ -125,9 +125,9 @@ Wire Wire Line
 Wire Wire Line
 	3850 6900 3900 6900
 Wire Wire Line
-	3650 5400 3900 5400
+	3650 5800 3900 5800
 Wire Wire Line
-	3650 5500 3900 5500
+	3650 5900 3900 5900
 Wire Wire Line
 	6550 4900 6350 4900
 Wire Wire Line
@@ -165,9 +165,9 @@ Wire Wire Line
 Wire Wire Line
 	3900 4600 3700 4600
 Wire Wire Line
-	3900 5200 3700 5200
+	3900 5400 3700 5400
 Wire Wire Line
-	3900 5300 3700 5300
+	3900 5500 3700 5500
 Wire Wire Line
 	6550 6900 6350 6900
 Wire Wire Line
@@ -179,7 +179,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 1600 3550 1600
 Wire Wire Line
-	3900 5100 3700 5100
+	3900 5700 3700 5700
 Wire Wire Line
 	3850 6900 3850 6950
 Text HLabel 3700 6500 0    60   Input ~ 0
@@ -218,9 +218,9 @@ Text HLabel 3700 4400 0    60   Input ~ 0
 RS485_DIR
 Text HLabel 3700 4600 0    60   Input ~ 0
 RS485_TXD
-Text HLabel 3700 5200 0    60   Input ~ 0
+Text HLabel 3700 5400 0    60   Input ~ 0
 USB_JTAG_UART_TXD
-Text HLabel 3700 5300 0    60   Output ~ 0
+Text HLabel 3700 5500 0    60   Output ~ 0
 USB_JTAG_UART_RXD
 Text HLabel 6350 6900 0    60   Output ~ 0
 AIN0
@@ -232,7 +232,7 @@ Text HLabel 6350 6600 0    60   Output ~ 0
 AIN3
 Text HLabel 3550 1600 0    60   Output ~ 0
 RESET
-Text HLabel 3700 5100 0    60   Input ~ 0
+Text HLabel 3700 5700 0    60   Input ~ 0
 DAC_OUT
 Wire Wire Line
 	6550 1900 7500 1900
@@ -252,9 +252,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 2100 7500 2100
 Wire Wire Line
-	7050 2000 7050 2100
-Wire Wire Line
-	7050 2100 7050 2200
+	7050 2000 7050 2200
 Connection ~ 7050 2100
 $Comp
 L GND #PWR0112
@@ -301,9 +299,7 @@ F 3 "" H 6650 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6650 1800 6950 1800
-Wire Wire Line
-	6950 1800 7500 1800
+	6650 1800 7500 1800
 Wire Wire Line
 	6650 1800 6650 1750
 $Comp
@@ -352,17 +348,15 @@ GPIO_AN3
 Text Label 3750 1600 0    60   ~ 0
 RST
 Wire Wire Line
-	3350 5000 3900 5000
-Text Label 3350 5000 2    60   ~ 0
+	3350 5600 3900 5600
+Text Label 3350 5600 2    60   ~ 0
 RST
 Wire Wire Line
 	7400 1700 7500 1700
 Text Label 7400 1700 2    60   ~ 0
 RST
 Wire Wire Line
-	6900 2800 7300 2800
-Wire Wire Line
-	7300 2800 7500 2800
+	6900 2800 7500 2800
 Wire Wire Line
 	7300 2800 7300 3050
 Wire Wire Line
@@ -380,9 +374,7 @@ Wire Wire Line
 Wire Wire Line
 	7250 3100 7250 2900
 Wire Wire Line
-	6900 2900 7250 2900
-Wire Wire Line
-	7250 2900 7500 2900
+	6900 2900 7500 2900
 Text HLabel 9550 1300 2    60   Output ~ 0
 ArefA
 Wire Wire Line
@@ -407,11 +399,11 @@ F 3 "" H 8050 1475 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3700 5800 3900 5800
+	3700 5100 3900 5100
 Wire Wire Line
-	3700 5700 3900 5700
+	3700 5000 3900 5000
 Wire Wire Line
-	3700 5600 3900 5600
+	3700 4900 3900 4900
 Wire Wire Line
 	9050 1500 9550 1500
 Wire Wire Line
@@ -481,10 +473,10 @@ GPIO11/FTM0_CH0
 Wire Wire Line
 	5900 4400 6550 4400
 Wire Wire Line
-	3250 4900 3900 4900
+	3250 5300 3900 5300
 Text Label 5900 4400 2    60   ~ 0
 GPIO14/FTM0_CH3
-Text Label 3250 4900 2    60   ~ 0
+Text Label 3250 5300 2    60   ~ 0
 GPIO15/FTM0_CH2
 Text HLabel 3550 2300 0    60   BiDi ~ 0
 GPIO10
@@ -551,9 +543,9 @@ F 3 "" H 3850 6400 60  0000 C CNN
 	1    3850 6400
 	0    -1   -1   0   
 $EndComp
-Text HLabel 3650 5400 0    60   Output ~ 0
+Text HLabel 3650 5800 0    60   Output ~ 0
 5VPIN
-Text HLabel 3650 5500 0    60   Output ~ 0
+Text HLabel 3650 5900 0    60   Output ~ 0
 BATPIN
 $Comp
 L GND #PWR0116
