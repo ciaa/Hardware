@@ -1,0 +1,10 @@
+(module Fiducial_1mm_BOT (layer F.Cu) (tedit 53458E71)
+  (fp_text reference F4 (at 0 -0.3175) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.00254)))
+  )
+  (fp_text value fiducial (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.00254)))
+  )
+  (pad 1 smd circle (at 0 0) (size 1 1) (layers B.Cu F.Mask)
+    (solder_mask_margin 1.5))
+)
