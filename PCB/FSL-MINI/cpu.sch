@@ -195,8 +195,6 @@ Text HLabel 6200 5350 2    60   Input ~ 0
 CAN_RD
 Text HLabel 6200 5250 2    60   Output ~ 0
 CAN_TD
-Text HLabel 5700 4150 2    60   Output ~ 0
-CAN_STB
 Text HLabel 1000 4500 0    60   Output ~ 0
 I2C_SCL
 Text HLabel 1000 4600 0    60   BiDi ~ 0
@@ -287,14 +285,8 @@ Text HLabel 5700 7050 2    60   Output ~ 0
 SD_POW
 Text HLabel 5700 3050 2    60   Output ~ 0
 DAC_OUT
-Text HLabel 2300 1150 0    60   Input ~ 0
-GPIO_AN1
-Text HLabel 2300 1350 0    60   Input ~ 0
-GPIO_AN2
 Text HLabel 5700 6650 2    60   BiDi ~ 0
 GPIO6/FTM3_CH4
-Text HLabel 2300 1450 0    60   Input ~ 0
-GPIO_AN3
 Text HLabel 2300 2450 0    60   Input ~ 0
 USB_PWR_FAULT
 Text HLabel 2300 2550 0    60   Output ~ 0
@@ -788,8 +780,6 @@ F 9 "0603" H 6500 1700 60  0001 C CNN "Footprint estandar"
 $EndComp
 Text HLabel 5700 6150 2    60   BiDi ~ 0
 GPIO15/FTM0_CH2
-Text HLabel 2300 1250 0    60   Input ~ 0
-GPIO_AN0
 $Comp
 L SW_PUSH SW601
 U 1 1 5397929E
@@ -967,14 +957,6 @@ Wire Wire Line
 	7150 6850 7150 6800
 Wire Wire Line
 	7150 6800 7200 6800
-Wire Wire Line
-	2400 1150 2300 1150
-Wire Wire Line
-	2300 1250 2400 1250
-Wire Wire Line
-	2400 1350 2300 1350
-Wire Wire Line
-	2400 1450 2300 1450
 Wire Wire Line
 	5700 1150 5600 1150
 Wire Wire Line
@@ -1399,8 +1381,6 @@ Wire Wire Line
 Wire Wire Line
 	5700 7050 5600 7050
 Wire Wire Line
-	5600 4150 5700 4150
-Wire Wire Line
 	5600 5350 6200 5350
 Wire Wire Line
 	6200 5250 5600 5250
@@ -1623,4 +1603,9 @@ Text HLabel 5700 4350 2    60   BiDi ~ 0
 EC_GPIO
 Wire Wire Line
 	5700 4350 5600 4350
+NoConn ~ 2400 1150
+NoConn ~ 2400 1250
+NoConn ~ 2400 1350
+NoConn ~ 2400 1450
+NoConn ~ 5600 4150
 $EndSCHEMATC
