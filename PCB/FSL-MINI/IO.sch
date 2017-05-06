@@ -113,11 +113,11 @@ Wire Wire Line
 Wire Wire Line
 	3650 5900 3900 5900
 Wire Wire Line
-	6550 4900 6350 4900
-Wire Wire Line
 	6550 5100 6350 5100
 Wire Wire Line
-	6550 5000 6350 5000
+	6550 6000 6350 6000
+Wire Wire Line
+	6550 5900 6350 5900
 Wire Wire Line
 	3900 6500 3700 6500
 Wire Wire Line
@@ -135,9 +135,9 @@ Wire Wire Line
 Wire Wire Line
 	3750 1500 3550 1500
 Wire Wire Line
-	6550 5900 6350 5900
+	6550 4800 6350 4800
 Wire Wire Line
-	6550 6000 6350 6000
+	6550 4900 6350 4900
 Wire Wire Line
 	3900 4400 3700 4400
 Wire Wire Line
@@ -170,11 +170,11 @@ Text HLabel 3700 6700 0    60   Input ~ 0
 DOUT6
 Text HLabel 3700 6800 0    60   Input ~ 0
 DOUT7
-Text HLabel 6350 4900 0    60   Input ~ 0
-DOUT0
 Text HLabel 6350 5100 0    60   Input ~ 0
+DOUT0
+Text HLabel 6350 6000 0    60   Input ~ 0
 DOUT1
-Text HLabel 6350 5000 0    60   Input ~ 0
+Text HLabel 6350 5900 0    60   Input ~ 0
 DOUT2
 Text HLabel 6350 5700 0    60   Output ~ 0
 RS232_CTS
@@ -184,9 +184,9 @@ Text HLabel 3550 1500 0    60   Input ~ 0
 RS232_TXD
 Text HLabel 3550 1400 0    60   Output ~ 0
 RS232_RXD
-Text HLabel 6350 6000 0    60   Output ~ 0
+Text HLabel 6350 4900 0    60   Output ~ 0
 CAN_RD
-Text HLabel 6350 5900 0    60   Input ~ 0
+Text HLabel 6350 4800 0    60   Input ~ 0
 CAN_TD
 Text HLabel 3700 4500 0    60   Output ~ 0
 RS485_RXD
@@ -606,8 +606,8 @@ PoE_MB_+
 Text GLabel 5950 6700 0    60   Input ~ 0
 PoE_MB_-
 Wire Wire Line
-	6550 4800 6350 4800
-Text HLabel 6350 4800 0    60   Input ~ 0
+	6550 5000 6350 5000
+Text HLabel 6350 5000 0    60   Input ~ 0
 DOUT3
 Wire Wire Line
 	6350 6500 6550 6500
