@@ -1,0 +1,21 @@
+Cambios realizados a la CIAA-ACC
+================================
+
+* Fecha: 18/07/2016
+* Archivos: Archivos Kicad del esquemático y el PCB V0.0 con sus librerías. 
+* Autores: Diego Alamon (INTI-CMNB) <dalamon EN inti.gob.ar>
+* Descripción: Se publica la primera versión V0.0 sin revisar del esquemático finalizado y del PCB ruteado.
+
+
+* Fecha: 11/10/2016
+* Archivos: Archivos Kicad del esquemático y el PCB V1.0 con sus librerías. 
+* Autores: Diego Alamon (INTI-CMNB) <dalamon EN inti.gob.ar>
+* Descripción: Se publica la versión V1.0 del esquemático finalizado y del PCB ruteado. 
+
+
+* Fecha: 17/10/2016
+* Archivos: Archivos Kicad del esquemático y el PCB V1.1 con sus librerías. 
+* Autores: Diego Alamon (INTI-CMNB) <dalamon EN inti.gob.ar>
+* Descripción: Se publica la versión V1.1 con el cambio del conector de power.
+
+

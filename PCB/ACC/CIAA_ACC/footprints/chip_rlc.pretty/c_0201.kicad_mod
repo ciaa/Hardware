@@ -1,0 +1,16 @@
+(module c_0201 (layer F.Cu) (tedit 56DDE3EE)
+  (fp_text reference REF** (at 0 -0.7) (layer F.SilkS)
+    (effects (font (size 0.7112 0.4572) (thickness 0.1143)))
+  )
+  (fp_text value c_0201 (at 0 -0.7) (layer F.Fab) hide
+    (effects (font (size 0.7112 0.4572) (thickness 0.1143)))
+  )
+  (fp_line (start 0 -0.15) (end 0 0.15) (layer F.SilkS) (width 0.1016))
+  (pad 1 smd rect (at -0.265 0) (size 0.28 0.3) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 0.265 0) (size 0.28 0.3) (layers F.Cu F.Paste F.Mask))
+  (model footprints/chip_rlc.3dshapes/c_0201.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.375 0.375 0.375))
+    (rotate (xyz 0 0 0))
+  )
+)

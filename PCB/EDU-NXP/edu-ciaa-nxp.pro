@@ -1,4 +1,4 @@
-update=09/10/2015 12:30:57 p.m.
+update=11/03/2017 11:56:14 a.m.
 version=1
 last_client=kicad
 [pcbnew]
@@ -26,11 +26,11 @@ LibDir=footprints
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=kicadlibrary
 [eeschema/libraries]
 LibName1=edu-ciaa-nxp-rescue
 LibName2=kicadlibrary/edu-ciaa-nxp
+[general]
+version=1

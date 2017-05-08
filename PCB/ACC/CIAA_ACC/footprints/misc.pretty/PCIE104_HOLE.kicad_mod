@@ -1,0 +1,9 @@
+(module PCIE104_HOLE (layer F.Cu) (tedit 5773DB2F)
+  (fp_text reference REF** (at 0 -3.7) (layer F.SilkS) hide
+    (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
+  )
+  (fp_text value PCIE104_HOLE (at 0 -3.7) (layer F.Fab) hide
+    (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 6.35 6.35) (drill 3.18) (layers *.Cu *.Mask))
+)

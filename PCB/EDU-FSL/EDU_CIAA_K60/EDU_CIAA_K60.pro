@@ -1,22 +1,11 @@
-update=09/10/2015 08:59:53 p.m.
+update=19/07/2016 8:22:24
 version=1
-last_client=pcbnew
+last_client=kicad
 [general]
 version=1
 [cvpcb]
 version=1
 NetIExt=net
-[eeschema]
-version=1
-LibDir=kicadlibs
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
-[eeschema/libraries]
-LibName1=EDU_CIAA_K60-rescue
-LibName2=edu-ciaa-fsl
 [pcbnew]
 version=1
 LastNetListRead=EDU_CIAA_K60.net
@@ -38,4 +27,9 @@ BoardOutlineThickness=0.508000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
 LibDir=footprints.pretty
+LibName1=edu-ciaa-fsl
+[eeschema]
+version=1
+LibDir=kicadlibs
+[eeschema/libraries]
 LibName1=edu-ciaa-fsl
