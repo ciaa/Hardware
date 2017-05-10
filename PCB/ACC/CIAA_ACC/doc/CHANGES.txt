@@ -2,20 +2,25 @@ Cambios realizados a la CIAA-ACC
 ================================
 
 * Fecha: 18/07/2016
-* Archivos: Archivos Kicad del esquem醫ico y el PCB V0.0 con sus librer韆s. 
+* Archivos: Archivos Kicad del esquem谩tico y el PCB V0.0 con sus librer铆as. 
 * Autores: Diego Alamon (INTI-CMNB) <dalamon EN inti.gob.ar>
-* Descripci髇: Se publica la primera versi髇 V0.0 sin revisar del esquem醫ico finalizado y del PCB ruteado.
+* Descripci贸n: Se publica la primera versi贸n V0.0 sin revisar del esquem谩tico finalizado y del PCB ruteado.
 
 
 * Fecha: 11/10/2016
-* Archivos: Archivos Kicad del esquem醫ico y el PCB V1.0 con sus librer韆s. 
+* Archivos: Archivos Kicad del esquem谩tico y el PCB V1.0 con sus librer铆as. 
 * Autores: Diego Alamon (INTI-CMNB) <dalamon EN inti.gob.ar>
-* Descripci髇: Se publica la versi髇 V1.0 del esquem醫ico finalizado y del PCB ruteado. 
+* Descripci贸n: Se publica la versi贸n V1.0 del esquem谩tico finalizado y del PCB ruteado. 
 
 
 * Fecha: 17/10/2016
-* Archivos: Archivos Kicad del esquem醫ico y el PCB V1.1 con sus librer韆s. 
+* Archivos: Archivos Kicad del esquem谩tico y el PCB V1.1 con sus librer铆as. 
 * Autores: Diego Alamon (INTI-CMNB) <dalamon EN inti.gob.ar>
-* Descripci髇: Se publica la versi髇 V1.1 con el cambio del conector de power.
+* Descripci贸n: Se publica la versi贸n V1.1 con el cambio del conector de power.
 
+
+* Fecha: 10/05/2017
+* Archivos: Archivos Kicad del PCB V1.1B. Se agreg贸 la identificaci贸n de capas en cobre. 
+* Autores: Diego Alamon (INTI-CMNB) <dalamon EN inti.gob.ar>
+* Descripci贸n: Se publica la versi贸n V1.1B con la identificaci贸n de capas.
 
