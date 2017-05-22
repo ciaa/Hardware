@@ -1,6 +1,6 @@
 *.bak
 *.xml
-commit_msg
+commitmsg
 *.bck
 *.dcm
 *autosave*
