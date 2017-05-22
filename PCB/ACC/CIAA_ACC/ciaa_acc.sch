@@ -38,6 +38,8 @@ Text Notes 3100 2750 0    60   ~ 0
 RS-485
 Text Notes 3200 3050 0    60   ~ 0
 CAN
+Text Notes 3150 3700 0    60   ~ 0
+Analog\nInputs
 Text Notes 3050 4100 0    60   ~ 0
    HDMI\n(dual role)
 Text Notes 3100 4400 0    60   ~ 0
@@ -114,6 +116,14 @@ Wire Notes Line
 	3750 3100 2900 3100
 Wire Notes Line
 	2900 3100 2900 2900
+Wire Notes Line
+	2900 3500 2900 3750
+Wire Notes Line
+	2900 3750 3750 3750
+Wire Notes Line
+	3750 3750 3750 3500
+Wire Notes Line
+	3750 3500 2900 3500
 Wire Notes Line
 	2900 3900 2900 4150
 Wire Notes Line
@@ -283,6 +293,8 @@ Wire Notes Line
 Wire Notes Line
 	3750 4000 4100 4000
 Wire Notes Line
+	3750 3600 4100 3600
+Wire Notes Line
 	3750 3000 4100 3000
 Wire Notes Line
 	3750 2700 4100 2700
@@ -352,6 +364,8 @@ Text Notes 4150 2800 0    60   ~ 0
 UART 1\nController
 Text Notes 4150 3100 0    60   ~ 0
 CAN\nController
+Text Notes 4150 3650 0    60   ~ 0
+XADC
 Text Notes 4150 4050 0    60   ~ 0
 PL IO
 Text Notes 4150 4400 0    60   ~ 0

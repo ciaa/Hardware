@@ -1,6 +1,22 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
+# FIDUCIAL
+#
+DEF ~FIDUCIAL F 0 30 N N 1 F N
+F0 "F" 80 50 40 H V L CNN
+F1 "FIDUCIAL" 0 -100 30 H I C CNN
+F2 "" 0 50 60 H I C CNN
+F3 "" 0 50 60 H I C CNN
+F4 "FIDUCIAL" 50 -200 60 H I C CNN "Descripcion"
+DRAW
+C 0 0 50 0 1 0 N
+C 0 0 71 0 1 0 N
+C 50 -50 0 0 1 0 N
+X 1 1 0 0 0 R 50 50 1 1 N N
+ENDDRAW
+ENDDEF
+#
 # +1.0V
 #
 DEF +1.0V #PWR 0 40 Y Y 1 F P

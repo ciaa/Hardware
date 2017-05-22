@@ -3,35 +3,6 @@ LIBS:CIAA_ACC
 LIBS:XC7Z030_FBG676
 LIBS:DDR3_x16
 LIBS:FMC_HPC
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:ciaa_acc-cache
 EELAYER 25 0
 EELAYER END
@@ -985,4 +956,56 @@ Text Notes 5500 1900 0    118  ~ 24
 Voltage level translator
 Text Notes 2850 2850 0    118  ~ 24
 FAN
+$Comp
+L FIDUCIAL F1
+U 1 1 59231D09
+P 3625 6800
+F 0 "F1" H 3705 6850 40  0000 L CNN
+F 1 "FIDUCIAL" H 3625 6700 30  0001 C CNN
+F 2 "misc:Fiducial_1mm" H 3625 6850 60  0001 C CNN
+F 3 "" H 3625 6850 60  0001 C CNN
+F 4 "Fiducial Top Layer" H 3625 6800 60  0001 C CNN "Desc"
+F 5 "FIDUCIAL" H 3675 6600 60  0001 C CNN "Descripcion"
+	1    3625 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL F2
+U 1 1 59232448
+P 3975 6800
+F 0 "F2" H 4055 6850 40  0000 L CNN
+F 1 "FIDUCIAL" H 3975 6700 30  0001 C CNN
+F 2 "misc:Fiducial_1mm" H 3975 6850 60  0001 C CNN
+F 3 "" H 3975 6850 60  0001 C CNN
+F 4 "Fiducial Top Layer" H 3975 6800 60  0001 C CNN "Desc"
+F 5 "FIDUCIAL" H 4025 6600 60  0001 C CNN "Descripcion"
+	1    3975 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL F3
+U 1 1 5923F9F1
+P 3625 7050
+F 0 "F3" H 3705 7100 40  0000 L CNN
+F 1 "FIDUCIAL" H 3625 6950 30  0001 C CNN
+F 2 "misc:Fiducial_1mm" H 3625 7100 60  0001 C CNN
+F 3 "" H 3625 7100 60  0001 C CNN
+F 4 "Fiducial Top Layer" H 3625 7050 60  0001 C CNN "Desc"
+F 5 "FIDUCIAL" H 3675 6850 60  0001 C CNN "Descripcion"
+	1    3625 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL F4
+U 1 1 5923FA73
+P 3975 7050
+F 0 "F4" H 4055 7100 40  0000 L CNN
+F 1 "FIDUCIAL" H 3975 6950 30  0001 C CNN
+F 2 "misc:Fiducial_1mm" H 3975 7100 60  0001 C CNN
+F 3 "" H 3975 7100 60  0001 C CNN
+F 4 "Fiducial Top Layer" H 3975 7050 60  0001 C CNN "Desc"
+F 5 "FIDUCIAL" H 4025 6850 60  0001 C CNN "Descripcion"
+	1    3975 7050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

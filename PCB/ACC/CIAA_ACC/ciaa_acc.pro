@@ -1,4 +1,4 @@
-update=19/10/2016 06:26:21 p.m.
+update=Mon 22 May 2017 01:21:17 PM -03
 version=1
 last_client=kicad
 [pcbnew]
@@ -41,5 +41,5 @@ LibDir=lib
 [eeschema/libraries]
 LibName1=lib/CIAA_ACC
 LibName2=lib/XC7Z030_FBG676
-LibName3=lib/DDR3_x16
-LibName4=lib/FMC_HPC
+LibName3=lib/FMC_HPC
+LibName4=lib/DDR3_x16
