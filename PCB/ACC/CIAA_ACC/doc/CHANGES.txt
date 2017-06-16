@@ -29,3 +29,10 @@ Cambios realizados a la CIAA-ACC
 * Archivos: Archivos Kicad del PCB V1.1C. Se agregaron cuatro fiduciales. 
 * Autores: Diego Alamon (INTI-CMNB) <dalamon EN inti.gob.ar>
 * Descripción: Se publica la versión V1.1C con los fiduciales.
+
+
+* Fecha: 05/06/2017
+* Archivos: Archivos Kicad del PCB V1.1D con gerber files. 
+* Autores: Diego Alamon (INTI-CMNB) <dalamon EN inti.gob.ar>
+* Descripción: Se publica la versión V1.1D con las modificaciones que solicitó
+el fabricante del PCB en la máscara antisoldante y la pasta. 

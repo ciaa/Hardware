@@ -1,0 +1,13 @@
+
+
+stackup_top_bottom.xlsx
+Primer stackup propuesto por EDADOC, sólo se usaron de aquí los anchos de pista de los layers top y bottom.
+
+
+stackup_inner_layers.xlsx
+Segundo stackup propuesto por EDADOC, sólo se usaron de aquí los anchos de pista de los layers internos. 
+
+
+stackup_revised.xlsx
+Archivo definitivo con los anchos de pista usados para diseñar la placa.
+

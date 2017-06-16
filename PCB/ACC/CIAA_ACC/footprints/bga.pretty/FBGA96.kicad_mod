@@ -1,10 +1,10 @@
 (module FBGA96 (layer F.Cu) (tedit 57A88F9B)
   (solder_mask_margin 0.0508)
   (attr smd)
-  (fp_text reference FBGA96 (at 0 -7.5) (layer F.SilkS) hide
+  (fp_text reference U2 (at 0 -7.5) (layer F.SilkS) hide
     (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
   )
-  (fp_text value REF** (at 0 -7.5) (layer F.SilkS)
+  (fp_text value "MT41K256M16TW-107 IT" (at 0 -7.5) (layer F.SilkS)
     (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
   )
   (fp_line (start -6.9977 9.017) (end -6.9977 -9.017) (layer F.CrtYd) (width 0.1016))
@@ -114,4 +114,9 @@
   (pad T7 smd circle (at 1.6 6) (size 0.45 0.45) (layers F.Cu F.Paste F.Mask))
   (pad T8 smd circle (at 2.4 6) (size 0.45 0.45) (layers F.Cu F.Paste F.Mask))
   (pad T9 smd circle (at 3.2 6) (size 0.45 0.45) (layers F.Cu F.Paste F.Mask))
+  (model ${KIPRJMOD}/footprints/bga.3dshapes/BGA96.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.39 0.39 0.39))
+    (rotate (xyz 0 0 0))
+  )
 )
