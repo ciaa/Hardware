@@ -1578,7 +1578,6 @@ Text HLabel 5700 4350 2    60   BiDi ~ 0
 EC_GPIO0
 Wire Wire Line
 	5700 4350 5600 4350
-NoConn ~ 2400 1450
 Text HLabel 2300 2050 0    60   Output ~ 0
 EC_PWM2
 Text HLabel 2300 2150 0    60   Output ~ 0
@@ -1629,4 +1628,8 @@ F 9 "~" H 4000 4800 60  0001 C CNN "Footprint estandar"
 $EndComp
 Wire Wire Line
 	5700 9150 5600 9150
+Text HLabel 2300 1450 0    60   BiDi ~ 0
+PTB5
+Wire Wire Line
+	2400 1450 2300 1450
 $EndSCHEMATC

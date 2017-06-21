@@ -31,11 +31,11 @@ Text HLabel 6350 4700 0    60   BiDi ~ 0
 GPIO9
 Text HLabel 6350 4600 0    60   BiDi ~ 0
 GPIO11
-Text HLabel 6350 4300 0    60   BiDi ~ 0
+Text HLabel 6350 4400 0    60   BiDi ~ 0
 GPIO12
 Text HLabel 6350 4500 0    60   BiDi ~ 0
 GPIO13
-Text HLabel 6350 4400 0    60   BiDi ~ 0
+Text HLabel 6350 4200 0    60   BiDi ~ 0
 GPIO14
 Text HLabel 3700 5300 0    60   BiDi ~ 0
 GPIO15
@@ -355,17 +355,17 @@ Wire Wire Line
 Wire Wire Line
 	6350 4600 6550 4600
 Wire Wire Line
-	6350 4400 6550 4400
+	6350 4200 6550 4200
 Wire Wire Line
 	3700 5300 3900 5300
-Text HLabel 6350 4200 0    60   BiDi ~ 0
+Text HLabel 6350 4300 0    60   BiDi ~ 0
 GPIO10
 Wire Wire Line
 	9050 2700 9550 2700
 Wire Wire Line
-	6350 4200 6550 4200
-Wire Wire Line
 	6350 4300 6550 4300
+Wire Wire Line
+	6350 4400 6550 4400
 Wire Wire Line
 	6350 4500 6550 4500
 Text HLabel 9550 2200 2    60   BiDi ~ 0
@@ -508,7 +508,6 @@ Text HLabel 6350 5600 0    60   Output ~ 0
 RS232_RXD
 Text HLabel 9550 2700 2    60   Input ~ 0
 EC_PWM3
-NoConn ~ 6350 5400
 NoConn ~ 6350 5300
 NoConn ~ 6350 5200
 Text HLabel 6900 2900 0    60   BiDi ~ 0
@@ -529,4 +528,6 @@ Text HLabel 9550 2500 2    60   BiDi ~ 0
 EC_GPIO2
 Wire Wire Line
 	9050 2500 9550 2500
+Text HLabel 6350 5400 0    60   BiDi ~ 0
+PTB5
 $EndSCHEMATC
