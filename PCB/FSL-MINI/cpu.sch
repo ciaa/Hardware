@@ -1493,8 +1493,6 @@ Wire Wire Line
 	5600 8750 5700 8750
 NoConn ~ 5600 3350
 NoConn ~ 5600 3450
-NoConn ~ 5600 3550
-NoConn ~ 5600 3650
 NoConn ~ 5600 3750
 NoConn ~ 5600 3850
 NoConn ~ 5600 3950
@@ -1632,4 +1630,12 @@ Text HLabel 2300 1450 0    60   BiDi ~ 0
 PTB5
 Wire Wire Line
 	2400 1450 2300 1450
+Text HLabel 5700 3650 2    60   Input ~ 0
+PGA1_DP
+Text HLabel 5700 3550 2    60   Input ~ 0
+PGA1_DM
+Wire Wire Line
+	5700 3650 5600 3650
+Wire Wire Line
+	5600 3550 5700 3550
 $EndSCHEMATC

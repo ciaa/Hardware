@@ -508,8 +508,6 @@ Text HLabel 6350 5600 0    60   Output ~ 0
 RS232_RXD
 Text HLabel 9550 2700 2    60   Input ~ 0
 EC_PWM3
-NoConn ~ 6350 5300
-NoConn ~ 6350 5200
 Text HLabel 6900 2900 0    60   BiDi ~ 0
 EC_I2C_SCL
 Text HLabel 6900 2800 0    60   BiDi ~ 0
@@ -530,4 +528,8 @@ Wire Wire Line
 	9050 2500 9550 2500
 Text HLabel 6350 5400 0    60   BiDi ~ 0
 PTB5
+Text HLabel 6350 5200 0    60   Output ~ 0
+PGA1_DP
+Text HLabel 6350 5300 0    60   Output ~ 0
+PGA1_DM
 $EndSCHEMATC
