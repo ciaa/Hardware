@@ -11,3 +11,9 @@ Segundo stackup propuesto por EDADOC, sólo se usaron de aquí los anchos de pis
 stackup_revised.xlsx
 Archivo definitivo con los anchos de pista usados para diseñar la placa.
 
+
+EDADOC_stackup.pdf
+Archivo con el stackup que usaron para fabricar la placa. A último momento cambiaron un prepreg y la impedancia de 50 ohm en top y bottom quedó de 56 ohm, porque pistas más anchas no entraban
+
+EDADOC_cálculos stackup.pdf
+Archivo con el stackup que usaron para fabricar la placa. Este pdf tiene los cálculos de impedancia.
