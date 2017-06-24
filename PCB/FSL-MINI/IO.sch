@@ -47,9 +47,9 @@ Text HLabel 3700 4900 0    60   Output ~ 0
 AUX_UART_RX/SPI_MISO
 Text HLabel 3700 5000 0    60   Input ~ 0
 AUX_UART_TX/SPI_MOSI/FTM3_CH2
-Text HLabel 3700 6000 0    60   Output ~ 0
+Text HLabel 6350 5200 0    60   Output ~ 0
 DIN0
-Text HLabel 3700 6100 0    60   Output ~ 0
+Text HLabel 6350 5300 0    60   Output ~ 0
 DIN1
 Text HLabel 3700 6200 0    60   Output ~ 0
 DIN2
@@ -69,7 +69,7 @@ $EndComp
 Wire Wire Line
 	3900 4100 3700 4100
 Wire Wire Line
-	6550 5300 6350 5300
+	3900 6100 3700 6100
 Wire Wire Line
 	6550 5400 6350 5400
 Wire Wire Line
@@ -79,9 +79,9 @@ Wire Wire Line
 Wire Wire Line
 	3900 5200 3700 5200
 Wire Wire Line
-	3900 6000 3700 6000
+	6550 5200 6350 5200
 Wire Wire Line
-	3900 6100 3700 6100
+	6550 5300 6350 5300
 Wire Wire Line
 	3900 6200 3700 6200
 Wire Wire Line
@@ -375,7 +375,7 @@ GPIO3/SPI2_SCK
 Wire Wire Line
 	6350 4100 6550 4100
 Wire Wire Line
-	6350 5200 6550 5200
+	3700 6000 3900 6000
 Wire Wire Line
 	9550 2200 9050 2200
 Wire Wire Line
@@ -528,8 +528,8 @@ Wire Wire Line
 	9050 2500 9550 2500
 Text HLabel 6350 5400 0    60   BiDi ~ 0
 PTB5
-Text HLabel 6350 5200 0    60   Output ~ 0
+Text HLabel 3700 6000 0    60   Output ~ 0
 PGA1_DP
-Text HLabel 6350 5300 0    60   Output ~ 0
+Text HLabel 3700 6100 0    60   Output ~ 0
 PGA1_DM
 $EndSCHEMATC
