@@ -36,3 +36,12 @@ Cambios realizados a la CIAA-ACC
 * Autores: Diego Alamon (INTI-CMNB) <dalamon EN inti.gob.ar>
 * Descripción: Se publica la versión V1.1D con las modificaciones que solicitó
 el fabricante del PCB en la máscara antisoldante y la pasta. 
+
+
+* Fecha: 21/06/2017
+* Archivos: Gerber editados por el fabricante del PCB EDADOC. Versión V1.1E. 
+* Autores: EDADOC 
+* Descripción: Se publica la versión V1.1E con las modificaciones que realizó el fabricante
+EDADOC.
+
+
