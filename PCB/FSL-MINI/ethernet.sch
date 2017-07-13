@@ -1156,4 +1156,14 @@ Text GLabel 8850 4100 0    60   Input ~ 0
 PoE_MB_+
 Text GLabel 8850 4200 0    60   Input ~ 0
 PoE_MB_-
+Text Notes 5900 3450 0    60   ~ 0
+pares\ndiferenciales\n100 ohm
+Wire Notes Line
+	6300 3600 6300 4100
+Wire Notes Line
+	6300 4100 6400 4100
+Wire Notes Line
+	6400 4100 6400 3600
+Wire Notes Line
+	6400 3600 6300 3600
 $EndSCHEMATC
