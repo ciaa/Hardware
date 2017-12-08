@@ -1,0 +1,16 @@
+Reference       Quantity    Value               Footprint                        Part number              digikey part number
+C12                 1       4.7u                Capacitor 0603                   CC0603KRX5R7BB475        311-1785-1-ND
+C2 C3 C4 C5 C6      5       100n                Capacitor 0603                   CC0603KRX7R7BB104        311-1088-1-ND
+C8                  1       10u                 Capacitor 0603                   GRM188R61C106KAALD       490-10728-1-ND
+C1 C10 C11 C7 C9    5       1u                  Capacitor 0603                   CC0603KRX7R7BB105        311-1446-1-ND
+D1 D3               2       LED GREEN           LED 0805                         LTST-C170GKT             160-1179-1-ND
+D2                  1       PMEG2005CT          SOT-23-3                         PMEG2005CT,215           1727-5188-1-ND
+D4                  1       SD0603S040S0R2      Diode 0603                       SD0603S040S0R2           478-7798-1-ND
+U1                  1       EFM32HG-48LQFP      LQFP-48 7x7mm                    EFM32HG222F64G-B-QFP48   336-3894-ND
+U2                  1       SPX3819M5-L-3-3     SOT-23-5                         SPX3819M5-L-3-3/TR       1016-1873-1-ND
+U3                  1       USBLC6-2            SOT-23-6                         USBLC6-2SC6              497-5235-1-ND
+SW1 SW2             2       Switch EVQ-PE105K   Switch SPST-NO 6mm x 3.5mm       EVQ-PE105K               P13594SCT-ND
+J3                  1       USB Micro-B         USB_Micro-B_Molex_47346-0001     Molex 473460001          WM17141CT-ND
+J4                  1       Header SMD 2x2      Pin Header 2x2 Pitch 2.54mm SMD  M20-8760242              952-3254-ND
+R1 R2               2       15R                 Resistor 0603                    RC0603JR-0715RL          311-15GRCT-ND
+R3 R4 R5 R6         4       1K                  Resistor 0603                    RC0603JR-0710KL          311-10KGRCT-ND

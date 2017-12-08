@@ -1,0 +1,35 @@
+G04 Gerber job file with board parameters*
+%TF.FileFunction,JobInfo*%
+%TF.Part,SinglePCB*%
+G04 Single PCB fabrication instructions*
+%TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-72d4889~60~ubuntu16.04.1*%
+%TF.CreationDate,2017-10-19T10:35:59-03:00*%
+%TF.ProjectId,ciaa-z3r0,636961612D7A3372302E6B696361645F,rev?*%
+%MOMM*%
+G04 Overall board parameters*
+%TJ.B.Size.X,18.950*%
+%TJ.B.Size.Y,51.960*%
+%TJ.B.LayerNum,2*%
+%TJ.B.Overall.Thickness,1.600*%
+%TJ.B.Legend.Present,Both*%
+%TJ.B.SolderMask.Present,Both*%
+G04 board design rules*
+%TJ.D.PadToPad.Out,0.200*%
+%TJ.D.PadToTrack.Out,0.200*%
+%TJ.D.TrackToTrack.Out,0.200*%
+%TJ.D.MinLineWidth.Out,0.250*%
+%TJ.D.TrackToRegion.Out,0.300*%
+%TJ.D.RegionToRegion.Out,0.300*%
+G04 Layer Structure*
+%TJ.L."Copper,L1,Top",Positive,ciaa-z3r0-F.Cu.gtl*%
+%TJ.L."Copper,L2,Bot",Positive,ciaa-z3r0-B.Cu.gbl*%
+%TJ.L."Glue,Bot",Positive,ciaa-z3r0-B.Adhes.gba*%
+%TJ.L."Glue,Top",Positive,ciaa-z3r0-F.Adhes.gta*%
+%TJ.L."SolderPaste,Bot",Positive,ciaa-z3r0-B.Paste.gbp*%
+%TJ.L."SolderPaste,Top",Positive,ciaa-z3r0-F.Paste.gtp*%
+%TJ.L."Legend,Bot",Positive,ciaa-z3r0-B.SilkS.gbo*%
+%TJ.L."Legend,Top",Positive,ciaa-z3r0-F.SilkS.gto*%
+%TJ.L."SolderMask,Bot",Negative,ciaa-z3r0-B.Mask.gbs*%
+%TJ.L."SolderMask,Top",Negative,ciaa-z3r0-F.Mask.gts*%
+%TJ.L."Profile",Positive,ciaa-z3r0-Edge.Cuts.gm1*%
+M02*
