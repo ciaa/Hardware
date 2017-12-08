@@ -1,0 +1,20 @@
+Application: kicad
+Version: no-vcs-found-91ed3e2~59~ubuntu16.04.1, release build
+Libraries:
+    wxWidgets 3.0.2
+    libcurl/7.47.0 OpenSSL/1.0.2g zlib/1.2.8 libidn/1.32 librtmp/2.3
+Platform: Linux 4.4.0-97-generic x86_64, 64 bit, Little endian, wxGTK
+Build Info:
+    wxWidgets: 3.0.2 (wchar_t,wx containers,compatible with 2.8)
+    Boost: 1.58.0
+    Curl: 7.47.0
+    KiCad compiler: GCC 5.4.0 with C++ ABI 1009
+Build settings:
+    USE_WX_GRAPHICS_CONTEXT=OFF
+    USE_WX_OVERLAY=OFF
+    KICAD_SCRIPTING=ON
+    KICAD_SCRIPTING_MODULES=ON
+    KICAD_SCRIPTING_WXPYTHON=ON
+    KICAD_SCRIPTING_ACTION_MENU=ON
+    BUILD_GITHUB_PLUGIN=ON
+    KICAD_USE_OCE=ON
