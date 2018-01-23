@@ -1,0 +1,326 @@
+* 
+* This is automatically generated file with optimized delays for DDR3/LPDDR3/DDR4/LPDDR4 technologies.
+* When applied on WriteLeveling page of the DDRx Wizard it minimizes skews for the strobe nets  and setup/hold time skews for the DQ/DM nets (and for CA nets in LPDDR3/LPDDR4).
+
+* Example: 
+* Net: DQ1  Delay: 0.334  Skew: -0.078  SimCase: W2  Corner: Fast  
+* where: 
+*    DQ1 is a net name
+*    0.334 is a recommended initial delay in ns, absolute value. For data nets it includes delay changes in the strobe net also.
+*    -0.078 is a recommended relative change for the initial delay comparing to previuosly applied. Used for GUI only, not used for simulations.
+*    W2 corresponds to {Writing to Slot 2} simulation. It can be W1, W2, etc for writing to Slot1, Slot2, etc. Or it can be R(1,1), R(1,2), R(2, 1), etc, for reading from (Slot1, Rank1), etc, simulations.
+*    Fast corresponds to the model corner. It can be Fast, Typ, Slow. It can be also ALL or All. In this case it will be applied to all the model corners used for simulations. 
+* 
+***
+*** current delay: 0.937, average skew: -0.154 
+Net: /Principal/BANK_502/DDR_DQS0_P  Delay: 1.092  Skew: -0.154  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.154, min setup margin: 0.039, min hold margin: 0.194 
+Net: /Principal/BANK_502/DDR_DM0  Delay: 0.545  Skew: 0.078  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.154, min setup margin: 0.139, min hold margin: 0.174 
+Net: /Principal/BANK_502/DDR_DQ0  Delay: 0.605  Skew: 0.018  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.154, min setup margin: 0.128, min hold margin: 0.186 
+Net: /Principal/BANK_502/DDR_DQ1  Delay: 0.594  Skew: 0.029  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.154, min setup margin: 0.138, min hold margin: 0.172 
+Net: /Principal/BANK_502/DDR_DQ2  Delay: 0.606  Skew: 0.017  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.154, min setup margin: 0.127, min hold margin: 0.186 
+Net: /Principal/BANK_502/DDR_DQ3  Delay: 0.593  Skew: 0.030  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.154, min setup margin: 0.131, min hold margin: 0.183 
+Net: /Principal/BANK_502/DDR_DQ4  Delay: 0.597  Skew: 0.026  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.154, min setup margin: 0.139, min hold margin: 0.174 
+Net: /Principal/BANK_502/DDR_DQ5  Delay: 0.605  Skew: 0.017  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.154, min setup margin: 0.147, min hold margin: 0.167 
+Net: /Principal/BANK_502/DDR_DQ6  Delay: 0.613  Skew: 0.010  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.154, min setup margin: 0.132, min hold margin: 0.177 
+Net: /Principal/BANK_502/DDR_DQ7  Delay: 0.600  Skew: 0.023  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.937, average skew: -0.182 
+Net: /Principal/BANK_502/DDR_DQS1_P  Delay: 1.119  Skew: -0.182  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.182, min setup margin: 0.071, min hold margin: 0.200 
+Net: /Principal/BANK_502/DDR_DM1  Delay: 0.586  Skew: 0.065  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.182, min setup margin: 0.127, min hold margin: 0.186 
+Net: /Principal/BANK_502/DDR_DQ10  Delay: 0.621  Skew: 0.030  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.182, min setup margin: 0.150, min hold margin: 0.167 
+Net: /Principal/BANK_502/DDR_DQ11  Delay: 0.642  Skew: 0.009  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.182, min setup margin: 0.135, min hold margin: 0.179 
+Net: /Principal/BANK_502/DDR_DQ12  Delay: 0.629  Skew: 0.022  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.182, min setup margin: 0.141, min hold margin: 0.169 
+Net: /Principal/BANK_502/DDR_DQ13  Delay: 0.637  Skew: 0.014  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.182, min setup margin: 0.148, min hold margin: 0.165 
+Net: /Principal/BANK_502/DDR_DQ14  Delay: 0.642  Skew: 0.009  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.182, min setup margin: 0.150, min hold margin: 0.162 
+Net: /Principal/BANK_502/DDR_DQ15  Delay: 0.645  Skew: 0.006  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.182, min setup margin: 0.139, min hold margin: 0.173 
+Net: /Principal/BANK_502/DDR_DQ8  Delay: 0.633  Skew: 0.017  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.182, min setup margin: 0.105, min hold margin: 0.208 
+Net: /Principal/BANK_502/DDR_DQ9  Delay: 0.600  Skew: 0.051  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.937, average skew: -0.273 
+Net: /Principal/BANK_502/DDR_DQS2_P  Delay: 1.210  Skew: -0.273  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.273, min setup margin: 0.066, min hold margin: 0.164 
+Net: /Principal/BANK_502/DDR_DM2  Delay: 0.692  Skew: 0.049  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.273, min setup margin: 0.165, min hold margin: 0.148 
+Net: /Principal/BANK_502/DDR_DQ16  Delay: 0.750  Skew: -0.009  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.273, min setup margin: 0.126, min hold margin: 0.187 
+Net: /Principal/BANK_502/DDR_DQ17  Delay: 0.711  Skew: 0.030  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.273, min setup margin: 0.157, min hold margin: 0.155 
+Net: /Principal/BANK_502/DDR_DQ18  Delay: 0.743  Skew: -0.001  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.273, min setup margin: 0.185, min hold margin: 0.125 
+Net: /Principal/BANK_502/DDR_DQ19  Delay: 0.771  Skew: -0.030  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.273, min setup margin: 0.126, min hold margin: 0.187 
+Net: /Principal/BANK_502/DDR_DQ20  Delay: 0.711  Skew: 0.030  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.273, min setup margin: 0.119, min hold margin: 0.202 
+Net: /Principal/BANK_502/DDR_DQ21  Delay: 0.700  Skew: 0.042  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.273, min setup margin: 0.186, min hold margin: 0.122 
+Net: /Principal/BANK_502/DDR_DQ22  Delay: 0.774  Skew: -0.032  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.273, min setup margin: 0.181, min hold margin: 0.128 
+Net: /Principal/BANK_502/DDR_DQ23  Delay: 0.768  Skew: -0.026  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.937, average skew: -0.274 
+Net: /Principal/BANK_502/DDR_DQS3_P  Delay: 1.212  Skew: -0.274  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.274, min setup margin: 0.051, min hold margin: 0.180 
+Net: /Principal/BANK_502/DDR_DM3  Delay: 0.679  Skew: 0.064  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.274, min setup margin: 0.161, min hold margin: 0.155 
+Net: /Principal/BANK_502/DDR_DQ24  Delay: 0.746  Skew: -0.003  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.274, min setup margin: 0.141, min hold margin: 0.178 
+Net: /Principal/BANK_502/DDR_DQ25  Delay: 0.724  Skew: 0.019  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.274, min setup margin: 0.165, min hold margin: 0.150 
+Net: /Principal/BANK_502/DDR_DQ26  Delay: 0.750  Skew: -0.007  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.274, min setup margin: 0.149, min hold margin: 0.167 
+Net: /Principal/BANK_502/DDR_DQ27  Delay: 0.734  Skew: 0.009  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.274, min setup margin: 0.133, min hold margin: 0.184 
+Net: /Principal/BANK_502/DDR_DQ28  Delay: 0.718  Skew: 0.025  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.274, min setup margin: 0.127, min hold margin: 0.188 
+Net: /Principal/BANK_502/DDR_DQ29  Delay: 0.712  Skew: 0.031  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.274, min setup margin: 0.128, min hold margin: 0.185 
+Net: /Principal/BANK_502/DDR_DQ30  Delay: 0.714  Skew: 0.029  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.469, average skew of its strobe/clock: -0.274, min setup margin: 0.150, min hold margin: 0.162 
+Net: /Principal/BANK_502/DDR_DQ31  Delay: 0.737  Skew: 0.006  SimCase: W1  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ0  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ0  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ1  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ1  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ10  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ10  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ11  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ11  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ12  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ12  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ13  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ13  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ14  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ14  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ15  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ15  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ16  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ16  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ17  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ17  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ18  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ18  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ19  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ19  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ2  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ2  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ20  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ20  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ21  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ21  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ22  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ22  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ23  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ23  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ24  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ24  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ25  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ25  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ26  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ26  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ27  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ27  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ28  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ28  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ29  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ29  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ3  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ3  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ30  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ30  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ31  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ31  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ4  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ4  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ5  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ5  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ6  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ6  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ7  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ7  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ8  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ8  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ9  Delay: 0.000  Skew: 0.000  SimCase: R(1,1)  Corner: Typ 
+***
+*** current delay: 0.000, average skew of its strobe/clock: 0.000, min setup margin: 0.000, min hold margin: 0.000 
+Net: /Principal/BANK_502/DDR_DQ9  Delay: 0.000  Skew: 0.000  SimCase: R(1,2)  Corner: Typ 
+

@@ -1,0 +1,380 @@
+// HyperLynx DDRx Setup File
+{Version 1.10}
+
+// The user may place any persistent comments in this section
+{Notes
+}
+
+// The HyperLynx BoardSim project file
+{Project "ciaa_acc.pjh"}
+
+// Multiboard project board list---
+// ...Format:
+//       boardName = HYPFileName;
+{Boards
+   // ***Not a multiboard project***
+}
+
+// Controller, DRAM, PLL and Register part types used in the DDRx simulations
+// ...Format:
+//       partName = IBISModelFile, IBISComponentName;
+//    where
+//       "partName" is the part type specified in the HYP file
+//       "IBISModelFile" is the IBIS file modeling the part
+//       "IBISComponentName" is a Component in the IBIS file
+{PartTypes
+   "bga:FBG676" = "zynq_ddr3_diffpin.ibs", "ZYNQ";
+   "bga:FBGA96" = "v00h_it.ibs", "MT41J256M16TW";
+}
+
+// Controller, DRAM, PLL and Register part instances used in the DDRx simulations
+// ...using Bxx:Uyy syntax instead of BoardSim's Uyy_Bxx format
+// ...because that's the format that the DDRx Wizard displays...
+// ...Format:
+//       partRefDes = partName;
+//    where
+//       "partRefDes" is the part's reference designator
+//       "partName" is the part type, declared in the "PartTypes" record
+{Parts
+   "U1" = "bga:FBG676";
+   "U2" = "bga:FBGA96";
+   "U3" = "bga:FBGA96";
+}
+
+// Setup and Simulation Options
+{Options
+   DDRType = DDR3;               // DDR, DDR2, DDR3, DDR4, LPDDR, LPDDR2, LPDDR3 or LPDDR4
+   DIMMType = UDIMM;             // UDIMM or RDIMM
+   DataTiming = Enabled;         // Disabled or Enabled
+   DataSimulations = Both;       // Both, ReadOnly or WriteOnly
+   ACCTiming = 1T;               // Disabled, 1T or 2T
+   StrobeTiming = Enabled;       // Disabled or Enabled
+   Thresholds = All;             // Vtt or All
+   RoundTripTime = Disabled;     // Disabled or Enabled
+   UseTLC = Disabled;            // Disabled or Enabled
+   DataBitInversion = Disabled;     // Disabled or Enabled
+   DynamicTerm = Enabled;        // Disabled or Enabled
+
+   // Number of bits to simulate: 
+   BitNumber = 128;              // 8 to 32768 
+
+   // Crosstalk simulation effects; permissible values:
+   //    = Disabled;
+   //    = Geometric, MaxAgressorDistance, MinCoupledSegLen, HorizontalNbrLimit, VerticalLayerLimit;
+   //    = Electrical, MinCoupledVoltage;
+   Crosstalk = Geometric, 15.00 mils, 50.00 mils, 1, 1;     // Disabled, Geometric or Electrical
+
+   PowerAware = Disabled;        // Disabled or Enabled
+
+   // File to specify write/read leveling deleys in DDR3/LPDDR3/DDR4/LPDDR4
+   DelaysFile = "DDR3Delays.txt";
+   UseDelaysFile = Disabled;     // Disabled or Enabled
+
+   // Advanced Coupling simulation effects: Area Fills, Pin, Trace
+   // Area Fill Coupling; permissible values:
+   //    = Disabled;
+   //    = Enabled, AreaFillSearchDist, IgnoreShorterThan;
+   AreaFillCoupling = Enabled, 40.00 mils, 40.00 mils;   // Disabled or Enabled
+
+   // Package Pin Coupling; permissible values:
+   //    = Disabled;
+   //    = Enabled, PinCouplingThreshold;
+   PinCoupling = Disabled;       // Disabled or Enabled
+
+   // Trace Coupling
+   SameNetCoupling = Enabled;    // Disabled or Enabled
+   NonParallelCoupling = Disabled;     // Disabled or Enabled
+
+   Corners = Typical;            // IC model corners: None,  or Slow, Typical, and/or Fast
+   VaryRef = Enabled;            // Disabled or Enabled
+   SimulateLoss = Enabled;       // Disabled or Enabled
+   IncludeVias = Enabled;        // Disabled or Enabled
+   MaxRunTime = 30.0 Min;        // Maximum run-time per net
+   SimulationRuns = Batch, Audit;   // Batch and/or Audit
+   XLSAutoFormat = Disabled;     // Disabled or Enabled
+   CreateHTMLReport = Enabled;   // Disabled or Enabled
+   SaveAll = Enabled;            // Disabled or Enabled
+   SavePoints = Disabled;        // Disabled or Enabled
+   AllCasesReport = Enabled;     // Disabled or Enabled
+   WorstCasesReport = Enabled;   // Disabled or Enabled
+   ViolationCasesReport = Enabled;     // Disabled or Enabled
+   UseXLSReport = Disabled;      // Disabled or Enabled
+   UseAC_FromIBIS = Enabled;     // Disabled or Enabled
+   Supply_V = 1500 mV;           // Selected supply voltage (mV)
+   DataStrobeType = Differential;   // SingleEnded or Differential
+   MaxOvershoot = Default;       // Default, or threshold voltage (mV)
+   MaxUndershoot = Default;      // Default, or threshold voltage (mV)
+   MaxOvershootCK = Default;     // Default, or threshold voltage (mV)
+   MaxUndershootCK = Default;    // Default, or threshold voltage (mV)
+   MaxOvershootACC = Default;    // Default, or threshold voltage (mV)
+   MaxUndershootACC = Default;   // Default, or threshold voltage (mV)
+   MaxOvershootArea = Default;   // Default, or area limit (V*ns)
+   MaxUndershootArea = Default;     // Default, or area limit (V*ns)
+   MaxOvershootAreaCK = Default;    // Default, or area limit (V*ns)
+   MaxUndershootAreaCK = Default;   // Default, or area limit (V*ns)
+   MaxOvershootAreaACC = Default;   // Default, or area limit (V*ns)
+   MaxUndershootAreaACC = Default;     // Default, or area limit (V*ns)
+   VIX = Default;                // Default, or VIX limit (mV)
+   VID_AC = Default;             // Default, or VID(AC) Min limit (mV). In DDR3 - VIHdiff/VILdiff(AC)
+   VID_DC = Default;             // Default, or VID(DC) Min limit (mV)
+   VSEH_VSEL = Default;          // Default, or VSEH/VSEL limit (mV)
+   TVAC_TDVAC = Default;         // Default, Disabled or Enabled
+   MonotonicityThreshold = 0.1 mV;     // Monotonic threshold value (mV)
+   ReportJitter = Disabled;      // Disabled or Enabled
+   IgnoreEdges = 1;              // Initial simulation edges to ignore (0-32)
+   Slots = 0;                    // Number of DIMM slots (0-4)
+   RanksPerSlot = 2;             // Number of DRAM ranks per slot (1-8)
+}
+
+// Data rate of the interface (MHz)
+// ...Standard DDR3 rates include 800, 1066, 1333, 1600, 1866 and 2133
+{DataRate 1066}
+
+// Controller part reference designator
+{Controller U1}
+
+// DRAM Rank part reference designators---
+// ...A "Rank" is a group of DRAM components that functions together
+// ...A full DDRx interface may contain up to four "Ranks," which typically
+//    consists of two "Slots" (or DIMMs), each with two slot "Ranks"
+// ...A "Slot" typically identifies a board (DIMM) in a multiboard implementation
+// ...Here, each global "Rank" grouping is an element of a [Slot,slotRank] array
+//    Slots and Ranks are indexed from 1, not 0 (i.e., they should be either "1" or "2")
+// ...Format:
+//       Slot[slot] = boardName;        // If multiboard; slot=1,2
+//       Rank[slot,rank] = PartList;    // slot=1,2; rank=1,2
+{DRAMRanks
+   Rank[1, 1] = U2;
+   Rank[1, 2] = U3;
+}
+
+// Data Nets---
+// ...All Data-type Nets are assumed to be on the same board as the Controller
+// ...Only the (+) side of a differential strobe pair is listed
+// ...Format:
+//      DataStrobeNet : DataMaskNet | DataNetList;
+//   where the DataMaskNet and the data nets in DataNetList are all associated with DataStrobeNet
+{DataNets
+   /Principal/BANK_502/DDR_DQS0_P: /Principal/BANK_502/DDR_DM0 | /Principal/BANK_502/DDR_DQ0..7;
+   /Principal/BANK_502/DDR_DQS1_P: /Principal/BANK_502/DDR_DM1 | /Principal/BANK_502/DDR_DQ8..15;
+   /Principal/BANK_502/DDR_DQS2_P: /Principal/BANK_502/DDR_DM2 | /Principal/BANK_502/DDR_DQ16..23;
+   /Principal/BANK_502/DDR_DQS3_P: /Principal/BANK_502/DDR_DM3 | /Principal/BANK_502/DDR_DQ24..31;
+}
+
+// Clock Nets---
+// ...All Clock Nets are assumed to be on the same board as the Controller
+// ...Only the (+) side of a differential clock pair is listed
+{ClockNets
+   /Principal/BANK_502/DDR_CLK_P;
+}
+
+// Address/Command Nets---
+// ...All nets are assumed to be on the same board as the Controller
+// ...Address and Command nets differ from Control nets in that Control nets
+//    always use 1T timing, whereas Address and Command nets may use either
+//    1T or 2T timing.
+// ...Address/Command nets include:
+//       Address:  A0..n
+//       Bank Address: BA0..n
+//       Command:  RAS, CAS, WE
+{AddrCommNets
+   /Principal/BANK_502/DDR_A0..14, /Principal/BANK_502/DDR_BA0..2, /Principal/BANK_502/DDR_CAS, /Principal/BANK_502/DDR_RAS,
+   /Principal/BANK_502/DDR_WE;
+}
+
+// Control Nets---
+// ...All nets are assumed to be on the same board as the Controller
+// ...Address and Command nets differ from Control nets in that Control nets
+//    always use 1T timing, whereas Address and Command nets may use either
+//    1T or 2T timing.
+// ...Control nets include:
+//       Chip Select:  S0..n
+//       Clock Enable: CKE0..n
+//       On-Die Termination:  ODT0..n
+{ControlNets
+   /Principal/BANK_502/DDR_CKE, /Principal/BANK_502/DDR_CS, /Principal/BANK_502/DDR_ODT;
+}
+
+// ODT Models---
+// ...ODT Models can be specified either by:
+//       IBIS Component name -- Applies models to a group of parts; the IBIS Component
+//          name should be one declared in the "PartTypes" record.
+//       Part Reference Designator -- Applies models to a single part; the reference
+//          designator should be one declared in the "Parts" record.
+// ...Generally, it is easier to specify models by IBIS Component name, as all parts defined
+//    by a common IBIS model would typically use the same ODT model selections.
+// ...Formats:
+//       ibisComponentName = ibisModelSelectorList;
+//       partRefDes = ibisModelSelectorList;
+//    ...where:
+//          "ibisComponentName" is the IBIS Component name.  If the Component name
+//             is ambiguous because multiple IBIS files use the same Component identifier,
+//             specify it as "ibisFileName[ibisComponentName]".
+//          "partRefDes" is an individual component's reference designator
+//          "ibisModelSelectorList" is a list of IBIS Model Selector specifiers.
+//          ...Each Model Selector specifier is of the form:
+//             msName(odtDisabledModel, odtEnabledModel)
+//          ...For example, "DQS(NO_ODT_MODEL, ODT_75_MODEL)"
+{ODTModels
+   "MT41J256M16TW" = DM(DM_INPUT_1066), DQ(DQ_IN_ODT40_1066), DQS(DQS_IN_ODT40_1066);
+   "ZYNQ" = SSTL15_DCI_F_PSDDR_MS(SSTL15_DCI_F_PSDDR_O);
+}
+
+// ODT Behavior---
+// ...Optional...required only for non-standard behaviors
+// ...Format:
+//       operation[Slot#] = EnabledDeviceList;
+//    ...where:
+//          "operation" is either "Read" or "Write"
+//          "EnabledDeviceList" is a list of devices that have ODT enabled for the operation:
+//             None              -- no ODT enabled
+//             Controller        -- the Controller device
+//             Rank[slot,slotRank]   -- DRAM devices in Rank[slot,slotRank]
+//    Slots and Ranks are indexed from 1, not 0
+// ...If a particular relevant operation is not specified, "standard" behavior is assumed
+//    (refer to Micron Technology document TN-47-07, Tables 2 and 3)
+{ODTBehavior
+   Read[1] = Controller, Rank[1, 1], Rank[1, 2];
+   Write[1] = Rank[1, 1], Rank[1, 2];
+   Read_En2[1] = None;
+   Write_En2[1] = None;
+}
+
+// Non-ODT IBIS Model Selectors---
+// ...These are used when a signal uses a Model Selector rather than a Model
+// ...These can be specified either by:
+//       IBIS Component name -- Applies models to a group of parts; the IBIS Component
+//          name should be one declared in the "PartTypes" record.
+//       Part Reference Designator -- Applies models to a single part; the reference
+//          designator should be one declared in the "Parts" record.
+// ...Generally, it is easier to specify models by IBIS Component name, as all parts defined
+//    by a common IBIS model would typically use the same model selections.
+// ...Formats:
+//       ibisComponentName = ibisModelSelectorList;
+//       partRefDes = ibisModelSelectorList;
+//    ...where:
+//          "ibisComponentName" is the IBIS Component name.  If the Component name
+//             is ambiguous because multiple IBIS files use the same Component identifier,
+//             specify it as "ibisFileName[ibisComponentName]".
+//          "partRefDes" is an individual component's reference designator
+//          "ibisModelSelectorList" is a list of IBIS Model Selector specifiers.
+//          ...Each Model Selector specifier is of the form:
+//             msName(ibisModelName)
+//          ...For example, "CLKIN(CLKIN_1066)"
+{IBISModelSelectors
+   "MT41J256M16TW" = CLKIN(CLKIN_1066), INPUT1(INPUT1_1066), INPUT2(INPUT2_1066);
+}
+
+// Timing Models---
+// ...Timing Models can be specified either by:
+//       Part Type -- Applies models to a group of parts; the Part Type
+//          identifier should be one declared in the "PartTypes" record.
+//       Part Reference Designator -- Applies models to a single part; the reference
+//          designator should be one declared in the "Parts" record.
+// ...Generally, it is easier to specify models by Part Type, as all parts defined
+//    by a common type would typically use the same timing model selections.
+// ...Formats:
+//       partType = timingModelFile, speedGrade;
+//       partRefDes = timingModelFile, speedGrade;
+//    ...where:
+//          "timingModelFile" is the timing model file name
+//          ...If this field is "", the default model file is used
+//          "speedGrade" is the speed grade of the part, identified by one of:
+//             DDR_800, DDR_1066, DDR_1333, DDR_1600, DDR_1866 or DDR_2133
+//          ...If this field is "", the default speed grade for the DDR type and data rate is used
+// ...Timing models (files and/or speed grades) only need to be specified if they are non-default.
+{TimingModels
+   // ***Default Timing Models will be used***
+}
+
+// Disabled Nets---
+// ...All nets are assumed to be on the same board as the Controller
+// ...These nets are from the Data, Data Mask, Data Strobe, Address, Command, and Control
+//    net groups, that are excluded from simulation.
+{DisabledNets
+   // ***No Disabled nets specified***
+}
+
+// Nets With Manual Stimulus---
+{ManualStimNets
+   // ***No nets with Manual Stimulus specified***
+}
+
+// All Stimulus ---
+// ...Format:
+//      Net = bit pattern;
+//   where bitpattern is a list of 0s and 1s
+{AllStimNets
+   /Principal/BANK_502/DDR_A0 = 11001000001111111010100100100110101011101101101110100111111001000000000101000110110000001001011000111110001010110001111000101110;
+   /Principal/BANK_502/DDR_A1 = 10001000111111111110100000100101010101110010000101001011000011010111011010110110010001101111110100000001101100000101011001000100;
+   /Principal/BANK_502/DDR_A2 = 00111000100111100110001110111101010011001011010011011010011110111101111001001001010111110001101000100011101001011000110100001101;
+   /Principal/BANK_502/DDR_A3 = 01100000011011011010010011011110101110111100000010100011100110001011000010011000100100010101100100111011101000101111000000111110;
+   /Principal/BANK_502/DDR_A4 = 00010101010011100110101011100010101010001100010111110010101111111001100000110111111010100111111000110011101001010010111100110001;
+   /Principal/BANK_502/DDR_A5 = 01011000100111001011011010001101011110011011111010111110010100101000110111010110001110000111100100101110001011101010001100010111;
+   /Principal/BANK_502/DDR_A6 = 11011101101111110000100000110001011010110011100100111110010011000000110100111001000000011101111000001100001010100011100000011010;
+   /Principal/BANK_502/DDR_A7 = 11011001000111010111110011010010100111111100101111010000100001111100101001101011000011011111010100110001101011000001100010101101;
+   /Principal/BANK_502/DDR_A8 = 01101100001110000100010001001010100010110100100001000011100100000100001101010101001101000101101000000101111110001010101101011010;
+   /Principal/BANK_502/DDR_A9 = 10100011111011000011010000001001111111110011001010111100010000010001100001000101111100101001000101011000101000101000111010101000;
+   /Principal/BANK_502/DDR_A10 = 01000100111010010101011011010101111001010011111100001011000101111111000001001010100000010111011000011010111100100000100101100001;
+   /Principal/BANK_502/DDR_A11 = 00001010011111100011011000110010011110010100011101100101111101000001011100001011010001110011000101000101000010010010110111000010;
+   /Principal/BANK_502/DDR_A12 = 10111100110110011001110010001110011001111100011001100111110000111011011100100100011111101100011000100011011101100101111001001001;
+   /Principal/BANK_502/DDR_A13 = 01101010000111110111100111101101100110110010110100001001001010101100000100110100111100111001010101011110100010010011111011111011;
+   /Principal/BANK_502/DDR_A14 = 10011101000110001101010011111101100100111010001010100010000001000110100110101010110010101000001000111110111111011110110000110010;
+   /Principal/BANK_502/DDR_BA0 = 11010010100011101110100110101110011111101101100001001100111011111111011001111010000110001001100101100011100101111000100011010001;
+   /Principal/BANK_502/DDR_BA1 = 01100111101010111101011000110010011100011101111111011100111110000110111011010110111000010010011010100001111110110111010100010110;
+   /Principal/BANK_502/DDR_BA2 = 11011011010101111010001111010101100101001010000110100100011111010011100101010010001011010111100101110010000101010000100111100000;
+   /Principal/BANK_502/DDR_CAS = 01100110011110111001100001101001101101110010110011110101011110111011100111111101000101001000011011010000011100011101011010111101;
+   /Principal/BANK_502/DDR_CKE = 00101011111101011110101101001010010101001101010010111000101100000110111110001100100100100101110101101101100110000101101010101010;
+   /Principal/BANK_502/DDR_CS = 11011110110110100100100111010010010101110101000100111001101011111011011110110011101000011000101011001101111000011100000010100101;
+   /Principal/BANK_502/DDR_DM0 = 10000010001000001100100100010001101100100010101111010101110001101110101010100011011001111101100101010101100110101110100010010111;
+   /Principal/BANK_502/DDR_DM1 = 10110110000010110100001110001101101100010010000101000101111110001100001010001101010111100110111011010111111011100111001111001110;
+   /Principal/BANK_502/DDR_DM2 = 11111000100100011000011111100010010100000101101110011011000000111011010111101101110100100111100101001010000101000110111110110101;
+   /Principal/BANK_502/DDR_DM3 = 00010111001110000000101111011110011110101100110000001100001101000001110011000001111010110100111011101010011011001111000011111110;
+   /Principal/BANK_502/DDR_DQ0 = 01011000110100000101011110111101100101000011011001100011100101010011001111010001101110010100010101010011100001101101110111011100;
+   /Principal/BANK_502/DDR_DQ1 = 01101111111110000000110100100101100111101011101101100000100000110001101101101110110000101100101011110001111000101010011011010101;
+   /Principal/BANK_502/DDR_DQ2 = 01100101011000100101110010100110011101101100011100001110010010000100110010111111000011001000000100101110100011111100011011100110;
+   /Principal/BANK_502/DDR_DQ3 = 11100111011010010100011100111010011111001100001010111100010001111100110000110000001101000110011011101100110010100001010111101001;
+   /Principal/BANK_502/DDR_DQ4 = 10101101101100110001010001011101100110001011000001000010100010101000101010110000101100001010000100110001000010010111000101101111;
+   /Principal/BANK_502/DDR_DQ5 = 11010110100110001001011111100001111111000011011011010101100111001100001000011110100000010000011011111101010011001001011010101010;
+   /Principal/BANK_502/DDR_DQ6 = 10011100000000100101001000000010000110001100110010111010011111111001110111001110010001110000010100100000100000111111001101011101;
+   /Principal/BANK_502/DDR_DQ7 = 00111100000111111001110110110010000110100110111111111011000010000011010100010011000111101010001011000010110101110010000010000010;
+   /Principal/BANK_502/DDR_DQ8 = 00110100110000110101100011010001111011110001110110110111111100010100001001000010110100101000100100111101100001011010001000110000;
+   /Principal/BANK_502/DDR_DQ9 = 00000101111011111101011011001101111110000001100000111111110011110111001101101101111011111010011011011011110101010011000110111001;
+   /Principal/BANK_502/DDR_DQ10 = 01011100000100011000100010001010000011110110000011010011001001000100010000101100111110011110100100000110000011000001000100001010;
+   /Principal/BANK_502/DDR_DQ11 = 11100101011111101011001001010110000101001111000101000010001110111110111001000011110000100000011010000110010110011000101111010001;
+   /Principal/BANK_502/DDR_DQ12 = 11101101001000001100001000110101110010010000001110011010111000100011000100110011000011000100110100011011100111101001011100101011;
+   /Principal/BANK_502/DDR_DQ13 = 01011101000111111011100000001101110101101000010100001010111101001010100110001101011101011011101110111100010110110000100011100010;
+   /Principal/BANK_502/DDR_DQ14 = 10100111111000011100100001101110001010111111111101100100001101111111111101011101101100010100100100000011100100000010010000000001;
+   /Principal/BANK_502/DDR_DQ15 = 01010100100011000110100011110010001100001111100001100111011000000011111110110000100000001111111110100001110101000101111101101110;
+   /Principal/BANK_502/DDR_DQ16 = 00010111010100011000110100111101110010111000111000001000101011011110100001110101000001101110100100111100000100100011011101011000;
+   /Principal/BANK_502/DDR_DQ17 = 10110100010111000010001010110001110100010000101110111011101000110110000011111010001111000101111110111110010001101110110101010100;
+   /Principal/BANK_502/DDR_DQ18 = 00111110100000100000011111010010000001011111001101000101110010000010111100101011111110101000010100100101100111111001000101110010;
+   /Principal/BANK_502/DDR_DQ19 = 10001101111111010010100011101010000101110111011011010011111111101000011011010100000011110111101110001111010011100110111000111101;
+   /Principal/BANK_502/DDR_DQ20 = 11000110001001110101011111001001111001110000010010111101000111100011000110000100110110010010000110110010101101010000001001000111;
+   /Principal/BANK_502/DDR_DQ21 = 01100111001011000110110001010101111101110000011111011110001010001001000110001010111000101111011110010010110010001101100100011111;
+   /Principal/BANK_502/DDR_DQ22 = 11100111111101100001110100010010000000110010110010110001100110111111011011001010011011001010000111001011001100110101100000101101;
+   /Principal/BANK_502/DDR_DQ23 = 01010111100111111010011100001110000100011010000100100000100011010101111010100111010101011001011110011001010000111100101100100100;
+   /Principal/BANK_502/DDR_DQ24 = 00011111110001100001011101101101100000010101100111011100010001011000000111110110100100011000010111000110101010011110110100010100;
+   /Principal/BANK_502/DDR_DQ25 = 11011010110111111011010111011101100110111101110001001100010110010100100001001001111000000011001110100100010001010110101000101100;
+   /Principal/BANK_502/DDR_DQ26 = 10010111000001110101001100111110011001001010000010000100100000000000111110111001001001100011100111011001101010010110111010011110;
+   /Principal/BANK_502/DDR_DQ27 = 10100010011001101111110110100010011110111010110100000101100101100000110101010111000111011011011110111101110011011111100101011011;
+   /Principal/BANK_502/DDR_DQ28 = 10110110100101001011100111100101100001101101011101101000011100100101101010010111010110110111100111100000001001101101110010111111;
+   /Principal/BANK_502/DDR_DQ29 = 00000010101101111011011100111001100011010101000001101001000001101111001000111001001011101001011110100010010110111010111101110011;
+   /Principal/BANK_502/DDR_DQ30 = 01001100011001011010101111011010011000001010111100001101111011111100100011001001111110101101110111111101101001001100111111000101;
+   /Principal/BANK_502/DDR_DQ31 = 01111011000101001011001101100010010011110010001010111101110000011111000000110100110000110111101111011010010100000001110001001000;
+   /Principal/BANK_502/DDR_ODT = 01100101111001011110001000000001101010000101101001000011001010011000011101100101010011000111100111101111101010100110100011101000;
+   /Principal/BANK_502/DDR_RAS = 11010011110000000111100100111101101010110100111111010100001101010010011101001010011101110101111111001101110100101001011001100000;
+   /Principal/BANK_502/DDR_WE = 10010101000101001010100001010010010011100011011110111011111111000111000001001010101100010111100111010010001110101111101011011010;
+}
+
+// DDR3 Write Leveling---
+// ...All Data Strobe Nets are assumed to be on the same board as the Controller
+// ...Only the (+) side of a differential strobe pair is listed
+// ...Format:
+//      DataStrobeNet = Slot1Delay, Slot2Delay, ...;
+//   where the SlotNDelays are listed in picoSeconds
+{WriteLeveling
+   // ***No write leveling delays specified***
+}
+
+{End}

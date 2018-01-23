@@ -1,0 +1,6 @@
+*
+* RefDes model auto-assign file *
+*
+U1, zynq_ddr3_diffpin.ibs, ZYNQ
+U2, v00h_it.ibs, MT41J256M16TW
+U3, v00h_it.ibs, MT41J256M16TW

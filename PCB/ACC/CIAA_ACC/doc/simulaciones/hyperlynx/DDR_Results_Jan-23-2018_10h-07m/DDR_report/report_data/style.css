@@ -1,0 +1,159 @@
+/* Hyperlynx theme */
+body {
+    font-family: Arial, sans;
+    font-size: 0.85em;
+}
+.pyr h1 {
+    font-size: 150%;
+}
+.pyr h2 {
+    font-size: 130%;
+}
+.pyr div.header {
+    background: url(logo.jpg) no-repeat;
+    padding-top: 72px;
+    text-align: center;
+    font-size: 120%;
+}
+.pyr ul.sections li {
+    list-style:none;
+    display:inline;
+}
+.pyr ul.sections a {
+    padding:5px 10px;
+    display:inline-block;
+    background:#666;
+    color:#fff;
+    text-decoration:none;
+}
+.pyr ul.sections a.active {
+    background:#eeeeee;
+    color:#000;
+}
+
+.pyr-section {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #cfe2f5;
+}
+.pyr-section:not(:last-child) {
+    page-break-after: always;
+}
+
+.pyr-container {
+    border-bottom: 1px solid #666666;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.pyr-component {
+    padding: 5px;
+    margin-bottom: 10px;
+    clear: both;
+    overflow: auto;
+}
+.pyr-component.image p {
+    font-size: 85%;
+    font-style: italic;
+}
+.pyr-component table {
+    border-collapse: collapse;
+}
+.pyr-component table td, .pyr-component table th, .pyr-component table caption {
+    border: 1px solid #cfe2f5;
+    padding: 0.5em;
+}
+.pyr-component table th, .pyr-component table caption {
+    background-color: #cccccc;
+    color: #000000;
+    font-weight: bold;
+}
+.pyr-component table tfoot {
+    display: table-header-group;
+}
+.pyr-component table td {
+    background-color: #74c5e0;
+}
+.pyr-component table.sorted thead tr {
+    cursor: pointer;
+}
+.pyr-component table th.sorting_asc::after {
+    content: "▲";
+}
+.pyr-component table th.sorting_desc::after {
+    content: "▼";
+}
+.pyr-component table th span {
+    font-style: italic;
+    color: #666;
+}
+.pyr-component .fail {
+    background-color: #c86464;
+    color: #000000;
+}
+.pyr-component .good {
+    background-color: #1D87F0;
+    color: #000000;
+}
+.pyr-component .pass {
+    background-color: #64c864;
+    color: #000000;
+}
+.pyr-component .header {
+    background-color: #cccccc;
+    color: #000000;
+    font-weight: bold;
+}
+.pyr-dialog {
+    position: absolute;
+    background: #eee;
+    border: 1px solid #000;
+    padding: 4px;
+    box-shadow: 2px 2px 2px #666;
+    font-size: 80%;
+}
+.pyr-dialog ul {
+    padding-left: 10px;
+}
+.pyr-dialog li {
+    display: block;
+}
+.pyr-overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 99999;
+    background-color: #ddd;
+    filter: alpha(opacity=95);
+    -moz-opacity: 0.95;
+    opacity: 0.95;
+    text-align: center;
+    padding-top: 20%;
+    font-weight: bold;
+    font-size: 120%;
+}
+.pyr-launch {
+    cursor: pointer;
+    color: #000;
+    text-decoration: underline;
+}
+
+/* Extensions */
+.csvarea{
+	display: block;
+    height: 120px;
+    width: 50%;
+}
+.csvcontainer{
+	display: none;
+}
+.dataTables_wrapper .dataTables_processing {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 5px 10px;
+}
