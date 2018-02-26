@@ -1,8 +1,8 @@
 EESchema Schematic File Version 2
 LIBS:CIAA_ACC
 LIBS:XC7Z030_FBG676
-LIBS:DDR3_x16
 LIBS:FMC_HPC
+LIBS:DDR3_x16
 LIBS:ciaa_acc-cache
 EELAYER 25 0
 EELAYER END
@@ -949,8 +949,6 @@ Text Notes 7300 4950 0    100  ~ 20
 ISOLATED DIGITAL OUTPUTS
 Text Notes 2450 5150 0    60   ~ 0
 Range: 12 to 24 V
-Text Notes 7400 5150 0    60   ~ 0
-Range:
 Text HLabel 3700 1900 2    40   Output ~ 0
 DIN0
 Text HLabel 3700 2700 2    40   Output ~ 0
@@ -1352,4 +1350,6 @@ Wire Notes Line
 	6600 950  4100 950 
 Wire Notes Line
 	4100 950  4100 650 
+Text Notes 7350 5150 0    60   ~ 0
+Range: up to 60 V
 $EndSCHEMATC

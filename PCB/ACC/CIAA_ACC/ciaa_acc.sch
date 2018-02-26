@@ -1,8 +1,8 @@
 EESchema Schematic File Version 2
 LIBS:CIAA_ACC
 LIBS:XC7Z030_FBG676
-LIBS:DDR3_x16
 LIBS:FMC_HPC
+LIBS:DDR3_x16
 LIBS:ciaa_acc-cache
 EELAYER 25 0
 EELAYER END
@@ -63,9 +63,9 @@ Expansion Header\n     SPI/I2C\n  16x GPIO (PL)
 Text Notes 7050 4050 0    60   ~ 0
 UART TTL
 Text Notes 6900 4350 0    60   ~ 0
-8x Digital Inputs\n   (Isolated)
+4x Digital Inputs\n   (Isolated)
 Text Notes 6850 4650 0    60   ~ 0
-8x Digital Outputs\n    (Isolated)
+4x Digital Outputs\n    (Isolated)
 Text Notes 6950 4900 0    60   ~ 0
 Status LEDs
 Text Notes 5200 5550 0    60   ~ 12

@@ -1,8 +1,8 @@
 EESchema Schematic File Version 2
 LIBS:CIAA_ACC
 LIBS:XC7Z030_FBG676
-LIBS:DDR3_x16
 LIBS:FMC_HPC
+LIBS:DDR3_x16
 LIBS:ciaa_acc-cache
 EELAYER 25 0
 EELAYER END
@@ -3299,7 +3299,7 @@ Text Notes 6400 2400 0    118  ~ 24
 Text Notes 9300 2400 0    118  ~ 24
 +1.5V 2A 
 Text Notes 3200 7600 0    65   ~ 0
-Voltage   Power\n\n+1V       25W\n+1.2V     0.6W\n+1.5V     3W  \n+1.8V     3.6W\n+3.3V     11.55W\n VADJ     6.6W\n\nTotal      50W
+\n+1V       25W\n+1.2V     0.6W\n+1.5V     3W  \n+1.8V     3.6W\n+3.3V     11.55W\n VADJ     6.6W\n\nTotal      50W
 Wire Notes Line
 	4150 6550 4150 7650
 Wire Notes Line
@@ -3332,4 +3332,6 @@ Wire Notes Line
 	10450 5950 8400 5950
 Wire Notes Line
 	8400 5950 8400 5700
+Text Notes 3200 6700 0    65   ~ 0
+Voltage    Power
 $EndSCHEMATC
