@@ -9,7 +9,7 @@ Doc: Common documents.
 
 PCB: KiCad PCB project files.
 
---ACC/CIAA_ACC (Xilinx Zynq XC7Z030) files.
+--ACC/CIAA_ACC: CIAA-ACC (Xilinx Zynq XC7Z030) files.
 
 --FSL: CIAA-Freescale (K60 MCU) files.
 
