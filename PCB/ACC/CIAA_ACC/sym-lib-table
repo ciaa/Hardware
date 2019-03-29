@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name CIAA_ACC)(type Legacy)(uri ${KIPRJMOD}/lib/CIAA_ACC.lib)(options "")(descr ""))
+  (lib (name XC7Z030_FBG676)(type Legacy)(uri ${KIPRJMOD}/lib/XC7Z030_FBG676.lib)(options "")(descr ""))
+  (lib (name FMC_HPC)(type Legacy)(uri ${KIPRJMOD}/lib/FMC_HPC.lib)(options "")(descr ""))
+  (lib (name DDR3_x16)(type Legacy)(uri ${KIPRJMOD}/lib/DDR3_x16.lib)(options "")(descr ""))
+)

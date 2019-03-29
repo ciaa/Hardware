@@ -1,17 +1,13 @@
-EESchema Schematic File Version 2
-LIBS:CIAA_ACC
-LIBS:XC7Z030_FBG676
-LIBS:FMC_HPC
-LIBS:DDR3_x16
+EESchema Schematic File Version 4
 LIBS:ciaa_acc-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 16
 Title "CIAA-ACC Block Diagram"
-Date "2016-10-17"
-Rev "V1.1"
+Date "2019-03-28"
+Rev "V1.3"
 Comp "COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. CIAA-ACC (HPC)"
 Comment1 "Authors: See 'doc/CHANGES.txt' file.      License: See 'doc/LICENCIA_CIAA_ACC.txt' file."
 Comment2 ""
@@ -38,8 +34,6 @@ Text Notes 3100 2750 0    60   ~ 0
 RS-485
 Text Notes 3200 3050 0    60   ~ 0
 CAN
-Text Notes 3150 3700 0    60   ~ 0
-Analog\nInputs
 Text Notes 3050 4100 0    60   ~ 0
    HDMI\n(dual role)
 Text Notes 3100 4400 0    60   ~ 0
@@ -59,7 +53,7 @@ Text Notes 7900 2600 0    60   ~ 0
 Text Notes 9050 2600 0    60   ~ 0
   USB\nMicro-B
 Text Notes 6850 3400 0    60   ~ 0
-Expansion Header\n     SPI/I2C\n  16x GPIO (PL)
+Expansion Header\n     SPI/I2C\n  8x GPIO (PL)
 Text Notes 7050 4050 0    60   ~ 0
 UART TTL
 Text Notes 6900 4350 0    60   ~ 0
@@ -116,14 +110,6 @@ Wire Notes Line
 	3750 3100 2900 3100
 Wire Notes Line
 	2900 3100 2900 2900
-Wire Notes Line
-	2900 3500 2900 3750
-Wire Notes Line
-	2900 3750 3750 3750
-Wire Notes Line
-	3750 3750 3750 3500
-Wire Notes Line
-	3750 3500 2900 3500
 Wire Notes Line
 	2900 3900 2900 4150
 Wire Notes Line
@@ -293,8 +279,6 @@ Wire Notes Line
 Wire Notes Line
 	3750 4000 4100 4000
 Wire Notes Line
-	3750 3600 4100 3600
-Wire Notes Line
 	3750 3000 4100 3000
 Wire Notes Line
 	3750 2700 4100 2700
@@ -364,8 +348,6 @@ Text Notes 4150 2800 0    60   ~ 0
 UART 1\nController
 Text Notes 4150 3100 0    60   ~ 0
 CAN\nController
-Text Notes 4150 3650 0    60   ~ 0
-XADC
 Text Notes 4150 4050 0    60   ~ 0
 PL IO
 Text Notes 4150 4400 0    60   ~ 0
@@ -379,9 +361,9 @@ PL IO
 Text Notes 6200 4900 0    60   ~ 0
 PL IO
 Text Notes 5800 4050 0    60   ~ 0
-UART 0 (EMIO)
-Text Notes 5850 3750 0    60   ~ 0
-SPI 0 (EMIO)\n       PL IO
+UART 2 (EMIO)
+Text Notes 6200 3050 0    60   ~ 0
+SPI 0
 Text Notes 6000 3350 0    60   ~ 0
     I2C 1\nController
 Text Notes 6000 2850 0    60   ~ 0
@@ -399,15 +381,11 @@ Wire Notes Line
 Wire Notes Line
 	6500 1600 6500 5000
 Wire Notes Line
-	6500 3650 7300 3650
-Wire Notes Line
 	8350 2650 8350 2950
 Wire Notes Line
 	8350 2950 6650 2950
 Wire Notes Line
 	6650 2950 6650 5200
-Wire Notes Line
-	7300 3650 7300 3450
 Wire Notes Line
 	2900 4350 2700 4350
 Wire Notes Line
@@ -420,15 +398,12 @@ Wire Notes Line
 	6400 5200 7450 5200
 Wire Notes Line
 	6400 5200 6400 5350
-Connection ~ 6650 3250
 Wire Notes Line
 	7450 5200 7450 5350
-Connection ~ 6650 5200
 Wire Notes Line
 	2700 5450 2900 5450
-Connection ~ 2700 4350
 $Comp
-L LOGO_CIAA G1
+L CIAA_ACC:LOGO_CIAA G1
 U 1 1 57F685CB
 P 3800 6750
 F 0 "G1" H 3800 6177 60  0001 C CNN
@@ -439,7 +414,7 @@ F 3 "" H 3800 6750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OSHWA G2
+L CIAA_ACC:OSHWA G2
 U 1 1 57F685DF
 P 4600 6750
 F 0 "G2" H 4570 7150 60  0001 C CNN
@@ -452,7 +427,7 @@ $EndComp
 Text Notes 3950 1200 0    118  ~ 24
 Computadora Industrial Abierta Argentina\n                   CIAA-ACC\nXilinx XC7Z030 (2x Cortex A9 + Kintex-7 FPGA)\n
 $Comp
-L LOGO_INTI G3
+L CIAA_ACC:LOGO_INTI G3
 U 1 1 580956D1
 P 2950 6750
 F 0 "G3" H 2950 6447 60  0001 C CNN
@@ -462,4 +437,8 @@ F 3 "" H 2950 6750 60  0000 C CNN
 	1    2950 6750
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	6500 3000 7250 3000
+Wire Notes Line
+	7250 3000 7250 3100
 $EndSCHEMATC

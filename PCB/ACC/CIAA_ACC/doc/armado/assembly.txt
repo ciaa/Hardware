@@ -1,0 +1,7 @@
+CIAA-ACC Assembly Notes
+
+1) Battery Holder: Remove through hole pins before solder. The battery holder footprint doesn't have holes because there is no space in the pcb.
+
+2) JP4: Solder 20 k resistor on the default position, see  silkscreen layer.
+
+3) DS6, DS6: Cathod is near the board edge.

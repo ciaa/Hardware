@@ -1,17 +1,13 @@
-EESchema Schematic File Version 2
-LIBS:CIAA_ACC
-LIBS:XC7Z030_FBG676
-LIBS:DDR3_x16
-LIBS:FMC_HPC
+EESchema Schematic File Version 4
 LIBS:ciaa_acc-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 10 16
 Title "CIAA-ACC FPGA PCIe / FMC transceiver"
-Date "2016-10-17"
-Rev "V1.1"
+Date "2019-03-28"
+Rev "V1.3"
 Comp "COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. CIAA-ACC (HPC)"
 Comment1 "Authors: See 'doc/CHANGES.txt' file.      License: See 'doc/LICENCIA_CIAA_ACC.txt' file."
 Comment2 ""
@@ -19,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L XC7Z030_FBG676 U1
+L XC7Z030_FBG676:XC7Z030_FBG676 U1
 U 7 1 56E1E5E1
 P 2650 2950
 F 0 "U1" H 1850 3700 60  0000 C CNN
@@ -34,7 +30,7 @@ F 7 "XC7Z030-2FBG676I-ND" H 2650 2950 60  0001 C CNN "Digikey#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L FMC_HPC J?
+L FMC_HPC:FMC_HPC J?
 U 8 1 56E6F704
 P 6200 3500
 AR Path="/56D9CF9B/56E6F704" Ref="J?"  Part="8" 
@@ -149,7 +145,7 @@ PCIe routing:\nTarget Zo (diff): 85 Ohms +/- 15%\nSpacing between links: 20 mils
 Text Notes 8150 2700 0    60   ~ 0
 Coupling capacitor for transceivers\nmust be in FMC mezzanine card.
 $Comp
-L R R115
+L CIAA_ACC:R R115
 U 1 1 57264074
 P 4050 2350
 F 0 "R115" V 4150 2350 50  0000 C CNN
@@ -164,7 +160,7 @@ F 7 "311-100LRCT-ND" H 4050 2350 60  0001 C CNN "Digikey#"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +1.2V #PWR0306
+L CIAA_ACC:+1.2V #PWR0306
 U 1 1 5726B551
 P 3850 2250
 F 0 "#PWR0306" H 3850 2340 20  0001 C CNN

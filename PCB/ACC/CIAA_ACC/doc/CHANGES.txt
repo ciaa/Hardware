@@ -45,3 +45,16 @@ el fabricante del PCB en la máscara antisoldante y la pasta.
 EDADOC.
 
 
+* Fecha: 24/05/18
+* Archivos: Archivos Kicad del esquemático V1.2. 
+* Autores: Diego Alamon (INTI-CMNB) <dalamon EN inti.gob.ar>
+* Descripción: Se publica la versión V1.2 con el cambio del jumper JP4 y correcciones en 
+el diagrama en bloques. Se cambian los códigos de Digikey de los componentes obsoletos. 
+
+
+* Fecha: 28/03/2019
+* Archivos: Archivos Kicad del esquemático V1.3. 
+* Autores: Noelia Scotti (INTI-CMNB) <nscotti EN inti.gob.ar>
+* Descripción: Se publica la versión V1.3 adecuada para Kicad 5. Corrección de
+campos para Kicost. Notas aclaratorias sobre algunos componentes.
+

@@ -1,4 +1,4 @@
-update=Mon 22 May 2017 01:21:17 PM -03
+update=Thu 28 Mar 2019 02:31:15 PM -03
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,21 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[eeschema]
+version=1
+LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=output_files/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
+SpiceAjustPassiveValues=0
 LabSize=118
-[eeschema]
-version=1
-LibDir=lib
-[eeschema/libraries]
-LibName1=lib/CIAA_ACC
-LibName2=lib/XC7Z030_FBG676
-LibName3=lib/FMC_HPC
-LibName4=lib/DDR3_x16
+ERC_TestSimilarLabels=1
