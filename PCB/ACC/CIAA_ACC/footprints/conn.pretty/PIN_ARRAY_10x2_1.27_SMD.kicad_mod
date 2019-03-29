@@ -1,5 +1,6 @@
-(module PIN_ARRAY_10x2_1.27_SMD (layer F.Cu) (tedit 57A367C7)
+(module PIN_ARRAY_10x2_1.27_SMD (layer F.Cu) (tedit 5C9E2DE9)
   (descr "1.27 mm pitch vertical smt pin header")
+  (attr smd)
   (fp_text reference REF** (at -0.954585 -1.380936) (layer F.SilkS)
     (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
   )
@@ -31,7 +32,7 @@
   (pad 8 smd rect (at 1.905 1.95) (size 0.75 2.4) (layers F.Cu F.Paste F.Mask))
   (pad 20 smd rect (at -5.715 1.95) (size 0.75 2.4) (layers F.Cu F.Paste F.Mask))
   (model footprints/conn.3dshapes/PIN_ARRAY_10x2_1.27_SMD.x3d
-    (at (xyz 0.125984251968504 0 0))
+    (offset (xyz 3.199999951940823 0 0))
     (scale (xyz 0.5 0.5 0.5))
     (rotate (xyz 0 0 0))
   )

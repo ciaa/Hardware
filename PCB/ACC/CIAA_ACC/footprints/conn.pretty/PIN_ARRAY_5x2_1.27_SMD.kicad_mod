@@ -1,5 +1,6 @@
-(module PIN_ARRAY_5x2_1.27_SMD (layer F.Cu) (tedit 57A3689F)
+(module PIN_ARRAY_5x2_1.27_SMD (layer F.Cu) (tedit 5C9E2DDB)
   (descr "1.27 mm pitch vertical smt pin header")
+  (attr smd)
   (fp_text reference REF** (at 0 -3.85) (layer F.SilkS)
     (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
   )

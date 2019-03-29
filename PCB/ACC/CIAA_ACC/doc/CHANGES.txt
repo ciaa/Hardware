@@ -58,3 +58,12 @@ el diagrama en bloques. Se cambian los códigos de Digikey de los componentes ob
 * Descripción: Se publica la versión V1.3 adecuada para Kicad 5. Corrección de
 campos para Kicost. Notas aclaratorias sobre algunos componentes.
 
+
+* Fecha: 29/03/2019
+* Archivos: PCB, footprints y gerber files. Versión V1.1F. 
+* Autores: Noelia Scotti (INTI-CMNB) <nscotti EN inti.gob.ar>
+Bruno Valinoti  (INTI-CMNB) <valinoti EN inti.gob.ar>
+* Descripción: Se publica la versión V1.1F con modificaciones menores. Se cambiaron
+los componentes SMD que no aparecían en los pos files. Se corrigió la ubicación
+de los designators U45 y U47. Se cambió el texto IND. ARG. por DISEÑADO EN ARG.  
+

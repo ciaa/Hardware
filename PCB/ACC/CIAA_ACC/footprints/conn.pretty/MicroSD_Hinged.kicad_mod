@@ -1,4 +1,5 @@
-(module MicroSD_Hinged (layer F.Cu) (tedit 56FE88EB)
+(module MicroSD_Hinged (layer F.Cu) (tedit 5C9E2DC9)
+  (attr smd)
   (fp_text reference MicroSD_Hinged (at 0 -7.1) (layer F.Fab) hide
     (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
   )
@@ -39,7 +40,7 @@
   (pad 2 smd rect (at 2.1 1.55) (size 0.8 1.5) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 3.2 1.55) (size 0.8 1.5) (layers F.Cu F.Paste F.Mask))
   (model footprints/conn.3dshapes/MicroSD_Hinged.wrl
-    (at (xyz 0 0.045 0.035))
+    (offset (xyz 0 1.142999982833862 0.8889999866485596))
     (scale (xyz 0.395 0.395 0.395))
     (rotate (xyz 0 180 180))
   )

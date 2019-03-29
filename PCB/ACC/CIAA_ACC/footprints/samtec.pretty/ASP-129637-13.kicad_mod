@@ -1,4 +1,5 @@
-(module ASP-129637-13 (layer F.Cu) (tedit 56E2EDB0)
+(module ASP-129637-13 (layer F.Cu) (tedit 5C9E2900)
+  (attr smd)
   (fp_text reference REF** (at 0 -5) (layer F.SilkS)
     (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
   )
@@ -67,7 +68,7 @@
   (pad "" np_thru_hole circle (at -9.3345 -1.905) (size 1.1684 1.1684) (drill 1.1684) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 9.3345 -1.905) (size 1.1684 1.1684) (drill 1.1684) (layers *.Cu *.Mask))
   (model footprints/samtec.3dshapes/ASP-129637-13.wrl
-    (at (xyz 0.42 0 0.22))
+    (offset (xyz 10.66799983978271 0 5.58799991607666))
     (scale (xyz 0.393 0.393 0.393))
     (rotate (xyz 270 0 180))
   )
