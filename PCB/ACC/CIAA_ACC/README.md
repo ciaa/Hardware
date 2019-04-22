@@ -6,4 +6,4 @@ Also you can visit [CIAA-ACC Wiki Page](http://www.proyecto-ciaa.com.ar/devwiki/
 
 ## License
 
-See the [repo license](../../LICENSE) and [AUTHORS file](doc/AUTHORS).
+See the [repo license](../../LICENSE) and [AUTHORS file](doc/AUTHORS.md).
