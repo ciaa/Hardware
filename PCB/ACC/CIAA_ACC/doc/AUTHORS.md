@@ -13,4 +13,4 @@ INTI-CMNB: http://www.inti.gob.ar/microynanoelectronica
 This file is part of CIAA Hardware.
 
 
-See the [CHANGES file](doc/CHANGES.txt) to see the designers names.
+See the [CHANGES file](doc/CHANGES.txt) to see the contributors names.
