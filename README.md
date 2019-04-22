@@ -5,9 +5,9 @@ CIAA Hardware repository. It contains KiCad project files and documentation for 
 
 Folder structure:
 
-Doc: Common documents.
+[Doc](Doc): Common documents.
 
-PCB: KiCad PCB project files.
+[PCB](PCB): KiCad PCB project files.
 
 --[CIAA-ACC](PCB/ACC/CIAA_ACC): Xilinx Zynq XC7Z030 files.
 
@@ -36,5 +36,3 @@ PCB: KiCad PCB project files.
 --[Z3R0](PCB/Z3R0): CIAA-Z3R0 (EFM32HG MCU) files.
 
 --[pico-CIAA](PCB/pico): pico-CIAA (LPC54102 MCU) files.
-
-Readme: Common readme files.
