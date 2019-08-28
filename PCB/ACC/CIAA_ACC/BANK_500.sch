@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:ciaa_acc-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 11 16
 Title "CIAA-ACC UART, QSPI, I2C, CAN, RS485 "
-Date "2019-03-28"
-Rev "V1.3"
+Date "2019-08-28"
+Rev "V1.4"
 Comp "COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. CIAA-ACC (HPC)"
 Comment1 "Authors: See 'doc/CHANGES.txt' file.      License: See 'doc/LICENCIA_CIAA_ACC.txt' file."
 Comment2 ""
@@ -1641,7 +1640,7 @@ Wire Notes Line
 Wire Notes Line
 	9250 2400 9250 1950
 Text Notes 6125 2200 0    40   ~ 0
-20K resistor for PLL\nPlease check the position!\nMust be in 1-2.
+20K resistor for PLL\nPlease check the position!\nMust be in 2-3.
 Wire Wire Line
 	9250 1650 9250 1700
 Wire Wire Line

@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:ciaa_acc-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 16
 Title "CIAA-ACC Expansion Header (GPIO, SPI, I2C) / FAN Connector"
-Date "2019-03-28"
-Rev "V1.3"
+Date "2019-08-28"
+Rev "V1.4"
 Comp "COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA. CIAA-ACC (HPC)"
 Comment1 "Authors: See 'doc/CHANGES.txt' file.      License: See 'doc/LICENCIA_CIAA_ACC.txt' file."
 Comment2 ""

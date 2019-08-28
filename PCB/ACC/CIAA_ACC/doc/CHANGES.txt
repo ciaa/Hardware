@@ -67,3 +67,9 @@ Bruno Valinoti  (INTI-CMNB) <valinoti EN inti.gob.ar>
 los componentes SMD que no aparecían en los pos files. Se corrigió la ubicación
 de los designators U45 y U47. Se cambió el texto IND. ARG. por DISEÑADO EN ARG.  
 
+
+* Fecha: 28/08/2019
+* Archivos: Archivos Kicad del esquemático V1.4. 
+* Autores: Noelia Scotti (INTI-CMNB) <nscotti EN inti.gob.ar>
+* Descripción: Se publica la versión V1.4 del sch con una corrección en la hoja 
+UART acerca del jumper JP4.
