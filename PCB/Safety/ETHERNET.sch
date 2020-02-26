@@ -1,88 +1,11 @@
-EESchema Schematic File Version 2
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:brooktre
-LIBS:cmos_ieee
-LIBS:cmos4000
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:diode
-LIBS:display
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic
-LIBS:hc11
-LIBS:intel
-LIBS:interface
-LIBS:ir
-LIBS:Lattice
-LIBS:linear
-LIBS:logo
-LIBS:maxim
-LIBS:memory
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:Power_Management
-LIBS:powerint
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:Xicor
-LIBS:xilinx
-LIBS:Zilog
+EESchema Schematic File Version 4
 LIBS:CIAA_Safety_VTI_1.0-cache
-EELAYER 25 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 8
-Title "MODULO PROCESADOR SAFETY"
+Title "MODULO PROCESADOR SAFETY-PUERTO ETHERNET"
 Date "2016-09-01"
 Rev "1.0"
 Comp "PROYECTO CIAA SAFETY"
@@ -92,7 +15,7 @@ Comment3 "Autor: Ing. Fusari Diego Salvador"
 Comment4 ""
 $EndDescr
 $Comp
-L +3.3V #PWR019
+L power:+3.3V #PWR019
 U 1 1 56C56FFD
 P 2120 4900
 F 0 "#PWR019" H 2120 4750 50  0001 C CNN
@@ -123,7 +46,7 @@ RESET_N
 Text Notes 8140 1390 0    196  ~ 39
 MODULO ETHERNET\nPHY 10/100
 $Comp
-L HR911105A J1
+L CIAA_Safety_VTI_1.0-rescue:HR911105A J1
 U 1 1 576A1C2A
 P 9620 4150
 F 0 "J1" H 9120 4550 60  0000 L CNN
@@ -143,7 +66,7 @@ RD+
 Text Label 8870 4400 2    39   ~ 0
 RD-
 $Comp
-L +3.3V #PWR020
+L power:+3.3V #PWR020
 U 1 1 576BB981
 P 9870 2900
 F 0 "#PWR020" H 9870 2750 50  0001 C CNN
@@ -155,7 +78,7 @@ F 3 "" H 9870 2900 60  0000 C CNN
 $EndComp
 NoConn ~ 9670 4800
 $Comp
-L R R14
+L CIAA_Safety_VTI_1.0-rescue:R R14
 U 1 1 577DEE82
 P 2360 3700
 F 0 "R14" V 2410 3860 50  0000 C CNN
@@ -167,7 +90,7 @@ F 4 "311-0.0GRCT-ND" H 2360 3700 60  0001 C CNN "Digikey"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R15
+L CIAA_Safety_VTI_1.0-rescue:R R15
 U 1 1 577DEEEF
 P 2360 3800
 F 0 "R15" V 2410 3960 50  0000 C CNN
@@ -179,7 +102,7 @@ F 4 "311-0.0GRCT-ND" H 2360 3800 60  0001 C CNN "Digikey"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R16
+L CIAA_Safety_VTI_1.0-rescue:R R16
 U 1 1 577DFBB2
 P 2360 3900
 F 0 "R16" V 2410 4060 50  0000 C CNN
@@ -193,7 +116,7 @@ $EndComp
 Text HLabel 1800 4500 0    60   Input ~ 0
 MDCLK
 $Comp
-L +3.3V #PWR021
+L power:+3.3V #PWR021
 U 1 1 577EDDF8
 P 6280 1550
 F 0 "#PWR021" H 6280 1400 50  0001 C CNN
@@ -207,11 +130,11 @@ Text Label 3090 4800 2    39   ~ 0
 LED_LINK
 NoConn ~ 5150 5350
 $Comp
-L R R29
+L CIAA_Safety_VTI_1.0-rescue:R R29
 U 1 1 577F7C3B
 P 5600 5600
 F 0 "R29" V 5680 5600 50  0000 C CNN
-F 1 "12.1K" V 5600 5600 39  0000 C CNN
+F 1 "12.1K-1%" V 5440 5600 39  0000 C CNN
 F 2 "w_smd_resistors:r_0603" V 5530 5600 30  0001 C CNN
 F 3 "" H 5600 5600 30  0000 C CNN
 F 4 "311-12.1HRCT-ND" H 5600 5600 60  0001 C CNN "Digikey"
@@ -219,7 +142,7 @@ F 4 "311-12.1HRCT-ND" H 5600 5600 60  0001 C CNN "Digikey"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C16
+L CIAA_Safety_VTI_1.0-rescue:C C16
 U 1 1 577FB779
 P 5860 2780
 F 0 "C16" H 5885 2880 50  0000 L CNN
@@ -231,7 +154,7 @@ F 4 "490-6150-1-ND" H 5860 2780 60  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR022
+L power:GND #PWR022
 U 1 1 577FB97E
 P 5860 3040
 F 0 "#PWR022" H 5860 2790 50  0001 C CNN
@@ -242,7 +165,7 @@ F 3 "" H 5860 3040 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C17
+L CIAA_Safety_VTI_1.0-rescue:C C17
 U 1 1 577FE91D
 P 6280 1970
 F 0 "C17" H 6305 2070 50  0000 L CNN
@@ -254,7 +177,7 @@ F 4 "478-5266-1-ND" H 6280 1970 60  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C15
+L CIAA_Safety_VTI_1.0-rescue:CP1 C15
 U 1 1 577FE9C2
 P 5860 1960
 F 0 "C15" H 5885 2060 50  0000 L CNN
@@ -266,7 +189,7 @@ F 4 "399-3685-1-ND" H 5860 1960 60  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR023
+L power:GND #PWR023
 U 1 1 577FF174
 P 6280 2220
 F 0 "#PWR023" H 6280 1970 50  0001 C CNN
@@ -277,7 +200,7 @@ F 3 "" H 6280 2220 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR024
+L power:GND #PWR024
 U 1 1 578012DF
 P 5860 2220
 F 0 "#PWR024" H 5860 1970 50  0001 C CNN
@@ -288,7 +211,7 @@ F 3 "" H 5860 2220 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C11
+L CIAA_Safety_VTI_1.0-rescue:CP1 C11
 U 1 1 578088BC
 P 4130 1550
 F 0 "C11" H 4155 1650 50  0000 L CNN
@@ -300,7 +223,7 @@ F 4 "399-3685-1-ND" H 4130 1550 60  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR025
+L power:GND #PWR025
 U 1 1 57809D1D
 P 4800 1820
 F 0 "#PWR025" H 4800 1570 50  0001 C CNN
@@ -311,7 +234,7 @@ F 3 "" H 4800 1820 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FILTER FB1
+L CIAA_Safety_VTI_1.0-rescue:FILTER FB1
 U 1 1 5780DDBD
 P 3570 1240
 F 0 "FB1" H 3570 1390 50  0000 C CNN
@@ -323,7 +246,7 @@ F 4 "587-1869-1-ND" H 3570 1240 60  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C13
+L CIAA_Safety_VTI_1.0-rescue:C C13
 U 1 1 5780F86A
 P 4800 1560
 F 0 "C13" H 4825 1660 50  0000 L CNN
@@ -337,7 +260,7 @@ $EndComp
 Text HLabel 4810 5530 0    60   Output ~ 0
 RMII_REFCLK
 $Comp
-L R R30
+L CIAA_Safety_VTI_1.0-rescue:R R30
 U 1 1 578433DE
 P 6770 3390
 F 0 "R30" V 6850 3390 50  0000 C CNN
@@ -349,7 +272,7 @@ F 4 "311-49.9HRCT-ND" H 6770 3390 60  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R35
+L CIAA_Safety_VTI_1.0-rescue:R R35
 U 1 1 5784F229
 P 9970 5250
 F 0 "R35" V 10050 5250 50  0000 C CNN
@@ -363,7 +286,7 @@ $EndComp
 Text Notes 6200 4060 0    39   ~ 0
 Par Diferencial\n   (100 ohm)
 $Comp
-L R R17
+L CIAA_Safety_VTI_1.0-rescue:R R17
 U 1 1 577BF0FF
 P 2360 4000
 F 0 "R17" V 2410 4160 50  0000 C CNN
@@ -375,7 +298,7 @@ F 4 "311-22GRCT-ND" H 2360 4000 60  0001 C CNN "Digikey"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R18
+L CIAA_Safety_VTI_1.0-rescue:R R18
 U 1 1 577BF53A
 P 2360 4100
 F 0 "R18" V 2410 4260 50  0000 C CNN
@@ -387,7 +310,7 @@ F 4 "311-22GRCT-ND" H 2360 4100 60  0001 C CNN "Digikey"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R19
+L CIAA_Safety_VTI_1.0-rescue:R R19
 U 1 1 577BF690
 P 2360 4200
 F 0 "R19" V 2410 4360 50  0000 C CNN
@@ -399,7 +322,7 @@ F 4 "311-22GRCT-ND" H 2360 4200 60  0001 C CNN "Digikey"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R21
+L CIAA_Safety_VTI_1.0-rescue:R R21
 U 1 1 577C3F11
 P 2360 4400
 F 0 "R21" V 2410 4560 50  0000 C CNN
@@ -411,7 +334,7 @@ F 4 "311-0.0GRCT-ND" H 2360 4400 60  0001 C CNN "Digikey"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R22
+L CIAA_Safety_VTI_1.0-rescue:R R22
 U 1 1 577C3FDC
 P 2360 4500
 F 0 "R22" V 2410 4660 50  0000 C CNN
@@ -423,7 +346,7 @@ F 4 "311-0.0GRCT-ND" H 2360 4500 60  0001 C CNN "Digikey"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R23
+L CIAA_Safety_VTI_1.0-rescue:R R23
 U 1 1 577C40C0
 P 2360 4600
 F 0 "R23" V 2410 4760 50  0000 C CNN
@@ -435,7 +358,7 @@ F 4 "311-10KGRCT-ND" H 2360 4600 60  0001 C CNN "Digikey"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R24
+L CIAA_Safety_VTI_1.0-rescue:R R24
 U 1 1 577C9AFA
 P 2360 4900
 F 0 "R24" V 2410 5060 50  0000 C CNN
@@ -447,7 +370,7 @@ F 4 "311-10KGRCT-ND" H 2360 4900 60  0001 C CNN "Digikey"
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR026
+L power:+3.3V #PWR026
 U 1 1 577CBC9A
 P 2120 4600
 F 0 "#PWR026" H 2120 4450 50  0001 C CNN
@@ -458,7 +381,7 @@ F 3 "" H 2120 4600 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R25
+L CIAA_Safety_VTI_1.0-rescue:R R25
 U 1 1 577CC6F3
 P 2720 3170
 F 0 "R25" V 2770 3330 50  0000 C CNN
@@ -470,7 +393,7 @@ F 4 "311-1.5KGRCT-ND" H 2720 3170 60  0001 C CNN "Digikey"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R26
+L CIAA_Safety_VTI_1.0-rescue:R R26
 U 1 1 577CCBD2
 P 2960 3170
 F 0 "R26" V 3010 3330 50  0000 C CNN
@@ -482,7 +405,7 @@ F 4 "311-10KGRCT-ND" H 2960 3170 60  0001 C CNN "Digikey"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C18
+L CIAA_Safety_VTI_1.0-rescue:C C18
 U 1 1 577CF2EA
 P 6280 2780
 F 0 "C18" H 6305 2880 50  0000 L CNN
@@ -494,7 +417,7 @@ F 4 "478-5266-1-ND" H 6280 2780 60  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR027
+L power:GND #PWR027
 U 1 1 577CF2F0
 P 6280 3040
 F 0 "#PWR027" H 6280 2790 50  0001 C CNN
@@ -505,7 +428,7 @@ F 3 "" H 6280 3040 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C12
+L CIAA_Safety_VTI_1.0-rescue:C C12
 U 1 1 577DB977
 P 4460 1560
 F 0 "C12" H 4485 1660 50  0000 L CNN
@@ -517,7 +440,7 @@ F 4 "478-5266-1-ND" H 4460 1560 60  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR028
+L power:GND #PWR028
 U 1 1 577EB871
 P 4460 1820
 F 0 "#PWR028" H 4460 1570 50  0001 C CNN
@@ -528,7 +451,7 @@ F 3 "" H 4460 1820 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR029
+L power:GND #PWR029
 U 1 1 577EB918
 P 4130 1820
 F 0 "#PWR029" H 4130 1570 50  0001 C CNN
@@ -539,7 +462,7 @@ F 3 "" H 4130 1820 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR030
+L power:+3.3V #PWR030
 U 1 1 577EE348
 P 2720 1070
 F 0 "#PWR030" H 2720 920 50  0001 C CNN
@@ -550,7 +473,7 @@ F 3 "" H 2720 1070 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C19
+L CIAA_Safety_VTI_1.0-rescue:C C19
 U 1 1 577F84EC
 P 6770 4800
 F 0 "C19" H 6795 4900 50  0000 L CNN
@@ -562,7 +485,7 @@ F 4 "445-1272-1-ND" H 6770 4800 60  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C20
+L CIAA_Safety_VTI_1.0-rescue:C C20
 U 1 1 577FBBF2
 P 7090 4800
 F 0 "C20" H 7115 4900 50  0000 L CNN
@@ -574,7 +497,7 @@ F 4 "445-1272-1-ND" H 7090 4800 60  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C22
+L CIAA_Safety_VTI_1.0-rescue:C C22
 U 1 1 577FC1AE
 P 7730 4800
 F 0 "C22" H 7755 4900 50  0000 L CNN
@@ -586,7 +509,7 @@ F 4 "445-1272-1-ND" H 7730 4800 60  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C23
+L CIAA_Safety_VTI_1.0-rescue:C C23
 U 1 1 577FC28D
 P 8030 4800
 F 0 "C23" H 8055 4900 50  0000 L CNN
@@ -598,7 +521,7 @@ F 4 "445-1272-1-ND" H 8030 4800 60  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR031
+L power:GND #PWR031
 U 1 1 578047BD
 P 7090 5330
 F 0 "#PWR031" H 7090 5080 50  0001 C CNN
@@ -625,7 +548,7 @@ Wire Wire Line
 Wire Wire Line
 	10220 3420 10220 3600
 Wire Wire Line
-	10220 4800 10220 4970
+	10220 4800 10220 4870
 Wire Wire Line
 	9870 4800 9870 4930
 Wire Wire Line
@@ -640,7 +563,7 @@ Wire Wire Line
 Wire Wire Line
 	5860 2110 5860 2220
 Wire Wire Line
-	6280 1550 6280 1820
+	6280 1550 6280 1710
 Connection ~ 5860 1710
 Wire Wire Line
 	4800 1240 4800 1410
@@ -649,7 +572,7 @@ Wire Wire Line
 Wire Wire Line
 	6770 3900 8870 3900
 Wire Wire Line
-	8650 4870 10450 4870
+	8650 4870 10220 4870
 Wire Wire Line
 	8650 4500 8650 4870
 Wire Wire Line
@@ -671,7 +594,7 @@ Wire Wire Line
 Wire Wire Line
 	2210 4200 1800 4200
 Wire Wire Line
-	2510 4400 3850 4400
+	2510 4400 2720 4400
 Wire Wire Line
 	2510 4500 3850 4500
 Wire Wire Line
@@ -692,7 +615,7 @@ Wire Wire Line
 	2720 3320 2720 4400
 Connection ~ 2720 4400
 Wire Wire Line
-	2510 4300 3850 4300
+	2510 4300 2960 4300
 Wire Wire Line
 	2960 3320 2960 4300
 Wire Wire Line
@@ -700,11 +623,11 @@ Wire Wire Line
 Wire Wire Line
 	6280 2500 6280 2630
 Wire Wire Line
-	5500 2500 6280 2500
+	5500 2500 5860 2500
 Wire Wire Line
 	5500 2500 5500 3300
 Wire Wire Line
-	5400 1710 6280 1710
+	5400 1710 5860 1710
 Wire Wire Line
 	5400 1710 5400 3300
 Connection ~ 6280 1710
@@ -717,13 +640,13 @@ Wire Wire Line
 Wire Wire Line
 	3850 4800 3090 4800
 Wire Wire Line
-	3920 1240 6770 1240
+	3920 1240 4130 1240
 Wire Wire Line
-	2510 1240 3220 1240
+	2510 1240 2720 1240
 Wire Wire Line
 	2960 1240 2960 3020
 Wire Wire Line
-	2720 1070 2720 3020
+	2720 1070 2720 1240
 Connection ~ 2960 1240
 Wire Wire Line
 	4130 1700 4130 1820
@@ -733,12 +656,12 @@ Connection ~ 2720 1240
 Wire Wire Line
 	6250 4200 6770 4200
 Wire Wire Line
-	6770 3540 6770 4650
+	6770 3540 6770 3900
 Wire Wire Line
 	6250 4300 7090 4300
 Connection ~ 6770 4200
 Wire Wire Line
-	7090 3540 7090 4650
+	7090 3540 7090 4100
 Connection ~ 7090 4100
 Wire Wire Line
 	7090 4100 8870 4100
@@ -746,15 +669,15 @@ Connection ~ 7090 4300
 Wire Wire Line
 	6770 4950 6770 5190
 Wire Wire Line
-	6770 5190 8030 5190
+	6770 5190 7090 5190
 Wire Wire Line
 	8030 5190 8030 4950
 Wire Wire Line
-	7090 4950 7090 5330
+	7090 4950 7090 5190
 Connection ~ 7090 5190
 Connection ~ 6770 3900
 $Comp
-L R R31
+L CIAA_Safety_VTI_1.0-rescue:R R31
 U 1 1 5780A944
 P 7090 3390
 F 0 "R31" V 7170 3390 50  0000 C CNN
@@ -766,7 +689,7 @@ F 4 "311-49.9HRCT-ND" H 7090 3390 60  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R32
+L CIAA_Safety_VTI_1.0-rescue:R R32
 U 1 1 5780B393
 P 7730 3400
 F 0 "R32" V 7810 3400 50  0000 C CNN
@@ -778,7 +701,7 @@ F 4 "311-49.9HRCT-ND" H 7730 3400 60  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R33
+L CIAA_Safety_VTI_1.0-rescue:R R33
 U 1 1 5780FD16
 P 8030 3400
 F 0 "R33" V 8110 3400 50  0000 C CNN
@@ -790,7 +713,7 @@ F 4 "311-49.9HRCT-ND" H 8030 3400 60  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C21
+L CIAA_Safety_VTI_1.0-rescue:C C21
 U 1 1 57810D74
 P 7380 3390
 F 0 "C21" H 7405 3490 50  0000 L CNN
@@ -802,7 +725,7 @@ F 4 "478-5266-1-ND" H 7380 3390 60  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C24
+L CIAA_Safety_VTI_1.0-rescue:C C24
 U 1 1 5781B56F
 P 8330 3400
 F 0 "C24" H 8355 3500 50  0000 L CNN
@@ -814,17 +737,17 @@ F 4 "478-5266-1-ND" H 8330 3400 60  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6770 1240 6770 3240
+	6770 1240 6770 2880
 Wire Wire Line
 	7090 3240 7090 2880
 Wire Wire Line
-	6770 2880 8650 2880
+	6770 2880 7090 2880
 Connection ~ 6770 2880
 Wire Wire Line
 	7380 2880 7380 3240
 Connection ~ 7090 2880
 $Comp
-L GND #PWR032
+L power:GND #PWR032
 U 1 1 578255DC
 P 7380 3630
 F 0 "#PWR032" H 7380 3380 50  0001 C CNN
@@ -839,7 +762,7 @@ Wire Wire Line
 Wire Wire Line
 	7730 4200 8870 4200
 Wire Wire Line
-	7730 3550 7730 4650
+	7730 3550 7730 4200
 Connection ~ 7730 4200
 Wire Wire Line
 	7730 4400 6250 4400
@@ -850,13 +773,13 @@ Wire Wire Line
 	7730 4950 7730 5190
 Connection ~ 7730 5190
 Wire Wire Line
-	8030 3550 8030 4650
+	8030 3550 8030 4400
 Connection ~ 8030 4500
 Wire Wire Line
 	8030 4500 6250 4500
 Connection ~ 8030 4400
 $Comp
-L GND #PWR033
+L power:GND #PWR033
 U 1 1 57832A53
 P 8330 3630
 F 0 "#PWR033" H 8330 3380 50  0001 C CNN
@@ -879,13 +802,13 @@ Wire Wire Line
 Connection ~ 8030 2880
 Connection ~ 8330 2880
 Wire Wire Line
-	8650 2880 8650 4300
+	8650 2880 8650 4000
 Wire Wire Line
 	10220 3420 10450 3420
 Wire Wire Line
 	10450 3420 10450 4870
 $Comp
-L GND #PWR034
+L power:GND #PWR034
 U 1 1 577E6515
 P 10220 4970
 F 0 "#PWR034" H 10220 4720 50  0001 C CNN
@@ -898,7 +821,7 @@ $EndComp
 Text Label 9870 4930 3    39   ~ 0
 LED_LINK
 $Comp
-L GND #PWR035
+L power:GND #PWR035
 U 1 1 577EA175
 P 9970 5500
 F 0 "#PWR035" H 9970 5250 50  0001 C CNN
@@ -917,7 +840,7 @@ LED_100M
 Text Label 9970 3600 1    39   ~ 0
 LED_100M
 $Comp
-L R R34
+L CIAA_Safety_VTI_1.0-rescue:R R34
 U 1 1 577F4386
 P 9870 3160
 F 0 "R34" V 9950 3160 50  0000 C CNN
@@ -935,13 +858,13 @@ Wire Wire Line
 Wire Wire Line
 	5600 5350 5600 5450
 Wire Wire Line
-	5700 5350 5700 6000
+	5700 5350 5700 5900
 Wire Wire Line
 	5700 5900 5600 5900
 Wire Wire Line
 	5600 5900 5600 5750
 $Comp
-L GND #PWR036
+L power:GND #PWR036
 U 1 1 5780143F
 P 5700 6000
 F 0 "#PWR036" H 5700 5750 50  0001 C CNN
@@ -960,7 +883,7 @@ Wire Wire Line
 Connection ~ 5200 1240
 Connection ~ 5300 1240
 $Comp
-L Si50X U6
+L CIAA_Safety_VTI_1.0-rescue:Si50X U6
 U 1 1 57808B64
 P 4360 6480
 F 0 "U6" H 4360 7030 70  0000 C CNN
@@ -972,7 +895,7 @@ F 4 "535-10072-1-ND" H 4360 6480 60  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LAN8720A-CP U7
+L CIAA_Safety_VTI_1.0-rescue:LAN8720A-CP U7
 U 1 1 577B9B24
 P 5150 4250
 F 0 "U7" H 4200 5050 60  0000 C CNN
@@ -984,7 +907,7 @@ F 4 "LAN8720AI-CP-CT-ND" H 5150 4250 60  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R28
+L CIAA_Safety_VTI_1.0-rescue:R R28
 U 1 1 5780CE00
 P 5050 5870
 F 0 "R28" V 5130 5870 50  0000 C CNN
@@ -996,13 +919,13 @@ F 4 "311-24.9HRCT-ND" H 5050 5870 60  0001 C CNN "Digikey"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5050 5350 5050 5720
+	5050 5350 5050 5530
 Wire Wire Line
 	5050 6680 4910 6680
 Wire Wire Line
 	5050 6020 5050 6680
 $Comp
-L R R27
+L CIAA_Safety_VTI_1.0-rescue:R R27
 U 1 1 57811779
 P 3740 5830
 F 0 "R27" V 3820 5830 50  0000 C CNN
@@ -1018,7 +941,7 @@ Wire Wire Line
 Wire Wire Line
 	3740 6280 3860 6280
 $Comp
-L +3.3V #PWR037
+L power:+3.3V #PWR037
 U 1 1 578137F4
 P 3740 5510
 F 0 "#PWR037" H 3740 5360 50  0001 C CNN
@@ -1031,7 +954,7 @@ $EndComp
 Wire Wire Line
 	3740 5510 3740 5680
 $Comp
-L GND #PWR038
+L power:GND #PWR038
 U 1 1 57815297
 P 3740 6810
 F 0 "#PWR038" H 3740 6560 50  0001 C CNN
@@ -1046,7 +969,7 @@ Wire Wire Line
 Wire Wire Line
 	3740 6680 3740 6810
 $Comp
-L C C14
+L CIAA_Safety_VTI_1.0-rescue:C C14
 U 1 1 57816845
 P 5260 6640
 F 0 "C14" H 5285 6740 50  0000 L CNN
@@ -1058,11 +981,11 @@ F 4 "478-5266-1-ND" H 5260 6640 60  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5260 6150 5260 6490
+	5260 6150 5260 6280
 Wire Wire Line
 	5260 6280 4910 6280
 $Comp
-L GND #PWR039
+L power:GND #PWR039
 U 1 1 57817F2A
 P 5260 6940
 F 0 "#PWR039" H 5260 6690 50  0001 C CNN
@@ -1094,7 +1017,7 @@ Wire Notes Line
 Wire Notes Line
 	6630 4340 6550 4340
 $Comp
-L R R20
+L CIAA_Safety_VTI_1.0-rescue:R R20
 U 1 1 57821324
 P 2360 4300
 F 0 "R20" V 2410 4460 50  0000 C CNN
@@ -1110,7 +1033,7 @@ Wire Wire Line
 	2210 4300 1800 4300
 Connection ~ 5260 6280
 $Comp
-L +3.3V #PWR040
+L power:+3.3V #PWR040
 U 1 1 57825E65
 P 5260 6150
 F 0 "#PWR040" H 5260 6000 50  0001 C CNN
@@ -1120,10 +1043,8 @@ F 3 "" H 5260 6150 60  0000 C CNN
 	1    5260 6150
 	1    0    0    -1  
 $EndComp
-Text Notes 5700 5650 1    39   ~ 0
-1%
 $Comp
-L C C10
+L CIAA_Safety_VTI_1.0-rescue:C C10
 U 1 1 5782B177
 P 2510 1540
 F 0 "C10" H 2535 1640 50  0000 L CNN
@@ -1137,7 +1058,7 @@ $EndComp
 Wire Wire Line
 	2510 1390 2510 1240
 $Comp
-L GND #PWR041
+L power:GND #PWR041
 U 1 1 5782B8D1
 P 2510 1800
 F 0 "#PWR041" H 2510 1550 50  0001 C CNN
@@ -1149,4 +1070,76 @@ F 3 "" H 2510 1800 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	2510 1800 2510 1690
+Wire Wire Line
+	8650 4000 8650 4300
+Wire Wire Line
+	10220 4870 10220 4970
+Wire Wire Line
+	10220 4870 10450 4870
+Wire Wire Line
+	5860 2500 6280 2500
+Wire Wire Line
+	5860 1710 6280 1710
+Wire Wire Line
+	2720 4400 3850 4400
+Wire Wire Line
+	6280 1710 6280 1820
+Wire Wire Line
+	2960 1240 3220 1240
+Wire Wire Line
+	2720 1240 2960 1240
+Wire Wire Line
+	2720 1240 2720 3020
+Wire Wire Line
+	6770 4200 6770 4650
+Wire Wire Line
+	7090 4100 7090 4300
+Wire Wire Line
+	7090 4300 7090 4650
+Wire Wire Line
+	7090 5190 7730 5190
+Wire Wire Line
+	7090 5190 7090 5330
+Wire Wire Line
+	6770 3900 6770 4200
+Wire Wire Line
+	6770 2880 6770 3240
+Wire Wire Line
+	7090 2880 7380 2880
+Wire Wire Line
+	7730 4200 7730 4400
+Wire Wire Line
+	7730 4400 7730 4650
+Wire Wire Line
+	7730 5190 8030 5190
+Wire Wire Line
+	8030 4500 8030 4650
+Wire Wire Line
+	8030 4400 8030 4500
+Wire Wire Line
+	7380 2880 7730 2880
+Wire Wire Line
+	7730 2880 8030 2880
+Wire Wire Line
+	8030 2880 8330 2880
+Wire Wire Line
+	8330 2880 8650 2880
+Wire Wire Line
+	5700 5900 5700 6000
+Wire Wire Line
+	4130 1240 4460 1240
+Wire Wire Line
+	4460 1240 4800 1240
+Wire Wire Line
+	4800 1240 5200 1240
+Wire Wire Line
+	5200 1240 5300 1240
+Wire Wire Line
+	5300 1240 6770 1240
+Wire Wire Line
+	5050 5530 5050 5720
+Wire Wire Line
+	2960 4300 3850 4300
+Wire Wire Line
+	5260 6280 5260 6490
 $EndSCHEMATC

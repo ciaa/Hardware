@@ -1,0 +1,12 @@
+(module MF-SM300 (layer F.Cu) (tedit 57D96F21)
+  (fp_text reference REF** (at -0.01016 -2.34442) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value MF-SM300 (at -0.01524 -3.78422) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -2.3876 1.5494) (end 2.3876 1.5494) (layer F.SilkS) (width 0.15))
+  (fp_line (start -2.3876 -1.524) (end 2.3876 -1.524) (layer F.SilkS) (width 0.15))
+  (pad 1 smd rect (at -3.7 0) (size 2.3 3.1) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 3.7 0) (size 2.3 3.1) (layers F.Cu F.Paste F.Mask))
+)

@@ -1,88 +1,11 @@
-EESchema Schematic File Version 2
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:brooktre
-LIBS:cmos_ieee
-LIBS:cmos4000
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:diode
-LIBS:display
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic
-LIBS:hc11
-LIBS:intel
-LIBS:interface
-LIBS:ir
-LIBS:Lattice
-LIBS:linear
-LIBS:logo
-LIBS:maxim
-LIBS:memory
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:Power_Management
-LIBS:powerint
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:Xicor
-LIBS:xilinx
-LIBS:Zilog
+EESchema Schematic File Version 4
 LIBS:CIAA_Safety_VTI_1.0-cache
-EELAYER 25 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 8
-Title "MODULO PROCESADOR SAFETY"
+Title "MÓDULO PROCESADOR SAFETY"
 Date "2015-12-15"
 Rev "1.0"
 Comp "PROYECTO CIAA SAFETY"
@@ -239,7 +162,7 @@ ISA_nRST
 Text Label 5900 7150 2    39   ~ 0
 ISA_MR
 $Comp
-L JUMPER3 JP1
+L CIAA_Safety_VTI_1.0-rescue:JUMPER3 JP1
 U 1 1 56E6345D
 P 7010 1650
 F 0 "JP1" H 7060 1550 50  0000 L CNN
@@ -269,7 +192,7 @@ TCK
 Text Label 2100 1320 0    39   ~ 0
 nTRST
 $Comp
-L +3.3V #PWR01
+L power:+3.3V #PWR01
 U 1 1 56F6A5B6
 P 1400 1520
 F 0 "#PWR01" H 1400 1370 50  0001 C CNN
@@ -280,7 +203,7 @@ F 3 "" H 1400 1520 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_02X07 P1
+L CIAA_Safety_VTI_1.0-rescue:CONN_02X07 P1
 U 1 1 56D0BED3
 P 1850 1620
 F 0 "P1" H 1850 2020 50  0000 C CNN
@@ -292,7 +215,7 @@ F 3 "" H 1850 420 60  0000 C CNN
 $EndComp
 NoConn ~ 2100 1520
 $Comp
-L GND #PWR02
+L power:GND #PWR02
 U 1 1 56D293A5
 P 2220 2080
 F 0 "#PWR02" H 2220 1830 50  0001 C CNN
@@ -739,7 +662,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 1620 2220 1620
 Wire Wire Line
-	2220 1420 2220 2080
+	2220 1420 2220 1620
 Wire Wire Line
 	2220 1720 2100 1720
 Wire Wire Line
@@ -893,4 +816,10 @@ Text Label 10260 5720 2    39   ~ 0
 V_MONITOR
 Text Notes 3200 1340 0    158  ~ 32
 APLICACIONES AERONAUTICAS
+Wire Wire Line
+	2220 1720 2220 1820
+Wire Wire Line
+	2220 1820 2220 2080
+Wire Wire Line
+	2220 1620 2220 1720
 $EndSCHEMATC
