@@ -47,15 +47,15 @@ FPGA specifications:
 ## Project directory structure
 
 ### Pinout
-[Pinout diagram](https://gitlab.com/maheredia/edu-fpga-hardware/-/blob/master/Pinout/Pinout%20EDU%20FPGA.pdf) of EDU-FPGA v1.2
+[Pinout diagram](Pinout/Pinout%20EDU%20FPGA.pdf) of EDU-FPGA v1.2
 ### Images
 Contains images resources for the repository
 
 ### Schematic
-Here you can find design files, like *.pro, *.sch, *.kicad_pcb. *-cache.lib, *-rescue.lib, footprints lib table, symbols lib table, [schematic.pdf](https://gitlab.com/maheredia/edu-fpga-hardware/-/blob/master/Schematic/schematic.pdf). Also, under this directory you can find:
+Here you can find design files, like *.pro, *.sch, *.kicad_pcb. *-cache.lib, *-rescue.lib, footprints lib table, symbols lib table, [schematic.pdf](Schematic/schematic.pdf). Also, under this directory you can find:
 
 #### BOM
-[BOM of EDU-FPGA v1.2 ](https://gitlab.com/maheredia/edu-fpga-hardware/-/blob/master/Schematic/BOM/BOM.ods)
+[BOM of EDU-FPGA v1.2 ](Schematic/BOM/BOM.ods)
 
 #### footprints.3dshapes
 3D shapes of components
@@ -64,7 +64,7 @@ Here you can find design files, like *.pro, *.sch, *.kicad_pcb. *-cache.lib, *-r
 Footprints of all components
 
 #### Gerbers
-[Gerbers files of EDU-FPGA v1.2](https://gitlab.com/maheredia/edu-fpga-hardware/-/tree/master/Schematic/Gerbers)
+[Gerbers files of EDU-FPGA v1.2](Schematic/Gerbers)
 
 #### Libraries
 Libraries of component's symbols created specifically for the project
