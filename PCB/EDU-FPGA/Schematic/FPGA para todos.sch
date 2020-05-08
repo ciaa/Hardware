@@ -1,0 +1,194 @@
+EESchema Schematic File Version 4
+LIBS:FPGA para todos-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 6
+Title "EDU-FPGA"
+Date "2020-05-07"
+Rev "1.2"
+Comp "UTN - Facultad Regional Haedo - Grupo ASE"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 1250 2100 1500 1000
+U 5BBD01B2
+F0 "Power" 50
+F1 "Power.sch" 50
+F2 "3.3V" I R 2750 2600 50 
+F3 "5V" I R 2750 2400 50 
+F4 "5V_USB" I R 2750 2300 50 
+F5 "GND" I R 2750 2700 50 
+F6 "USB_DM" I R 2750 2850 50 
+F7 "USB_DP" I R 2750 2950 50 
+F8 "1.2V" I R 2750 2500 50 
+$EndSheet
+$Sheet
+S 4300 2950 1400 1000
+U 5C8FB30B
+F0 "FTDI_config" 50
+F1 "FTDI_config.sch" 50
+F2 "3.3V" I L 4300 3100 50 
+F3 "USB_DP" I L 4300 3500 50 
+F4 "USB_DM" I L 4300 3400 50 
+F5 "GND" I L 4300 3200 50 
+F6 "FPGA_CLOCK" I R 5700 3100 50 
+F7 "Rx" I R 5700 3250 50 
+F8 "Tx" I R 5700 3350 50 
+F9 "RTS" I R 5700 3450 50 
+F10 "CTS" I R 5700 3550 50 
+F11 "DTR" I R 5700 3650 50 
+F12 "DSR" I R 5700 3750 50 
+F13 "DCD" I R 5700 3850 50 
+$EndSheet
+Text Label 2950 2300 0    50   ~ 0
+5V_USB
+Wire Wire Line
+	2750 2300 2950 2300
+Wire Wire Line
+	5700 3100 5950 3100
+Wire Wire Line
+	5700 3250 5950 3250
+Wire Wire Line
+	5700 3350 5950 3350
+Wire Wire Line
+	5700 3450 5950 3450
+Wire Wire Line
+	5700 3550 5950 3550
+Wire Wire Line
+	5700 3650 5950 3650
+Wire Wire Line
+	5700 3750 5950 3750
+Wire Wire Line
+	5700 3850 5950 3850
+Wire Wire Line
+	2750 2950 2900 2950
+Wire Wire Line
+	3000 2850 2750 2850
+Wire Wire Line
+	2750 2500 5950 2500
+Wire Wire Line
+	2750 2700 3100 2700
+Wire Wire Line
+	2750 2600 3200 2600
+Wire Wire Line
+	2900 2950 2900 3500
+Wire Wire Line
+	2900 3500 4300 3500
+Wire Wire Line
+	4300 3400 3000 3400
+Wire Wire Line
+	3000 3400 3000 2850
+Wire Wire Line
+	4300 3200 3100 3200
+Wire Wire Line
+	3100 3200 3100 2700
+Connection ~ 3100 2700
+Wire Wire Line
+	4300 3100 3200 3100
+Wire Wire Line
+	3200 3100 3200 2600
+Connection ~ 3200 2600
+Wire Wire Line
+	3200 2600 3475 2600
+$Sheet
+S 8050 2150 2325 1100
+U 5CC47B0D
+F0 "Peripherals" 50
+F1 "Peripherals.sch" 50
+F2 "3.3V" I R 10375 2350 50 
+F3 "GND" I R 10375 2500 50 
+F4 "B0[1..17]" I L 8050 2300 50 
+F5 "B2[1..10]" I L 8050 2800 50 
+F6 "B1[1..21]" I L 8050 2550 50 
+F7 "B3[1..20]" I L 8050 3050 50 
+F8 "5V" I R 10375 2625 50 
+$EndSheet
+Wire Bus Line
+	7500 2300 8050 2300
+Wire Bus Line
+	7500 2550 8050 2550
+Wire Bus Line
+	7500 2800 8050 2800
+Wire Bus Line
+	7500 3050 8050 3050
+Wire Notes Line
+	1075 4550 1075 1750
+Wire Notes Line
+	1075 1750 7725 1750
+Wire Notes Line
+	7725 1750 7725 4550
+Wire Notes Line
+	7725 4550 1100 4550
+Text Notes 1225 4425 0    89   ~ 0
+Core: Power supply + FTDI Interface + FPGA banks
+Wire Notes Line
+	7925 4550 7925 1675
+Text Notes 8075 4500 0    89   ~ 0
+User Peripherals
+$Sheet
+S 5950 2150 1550 1900
+U 5C9401B5
+F0 "FPGA_banks" 50
+F1 "FPGA_banks.sch" 50
+F2 "Rx" I L 5950 3250 50 
+F3 "Tx" I L 5950 3350 50 
+F4 "RTS" I L 5950 3450 50 
+F5 "CTS" I L 5950 3550 50 
+F6 "DTR" I L 5950 3650 50 
+F7 "DSR" I L 5950 3750 50 
+F8 "DCD" I L 5950 3850 50 
+F9 "FPGA_CLOCK" I L 5950 3100 50 
+F10 "GND" I L 5950 2700 50 
+F11 "3.3V" I L 5950 2600 50 
+F12 "1.2V" I L 5950 2500 50 
+F13 "B0[1..17]" I R 7500 2300 50 
+F14 "B2[1..10]" I R 7500 2800 50 
+F15 "B1[1..21]" I R 7500 2550 50 
+F16 "B3[1..20]" I R 7500 3050 50 
+$EndSheet
+Wire Wire Line
+	3475 2600 3475 1975
+Wire Wire Line
+	3475 1975 10525 1975
+Wire Wire Line
+	10525 1975 10525 2350
+Wire Wire Line
+	10525 2350 10375 2350
+Connection ~ 3475 2600
+Wire Wire Line
+	3475 2600 5950 2600
+Wire Wire Line
+	3375 2700 3375 1900
+Wire Wire Line
+	3375 1900 10600 1900
+Wire Wire Line
+	10600 1900 10600 2500
+Wire Wire Line
+	10600 2500 10375 2500
+Wire Wire Line
+	3100 2700 3375 2700
+Connection ~ 3375 2700
+Wire Wire Line
+	3375 2700 5950 2700
+Wire Notes Line
+	11050 1675 11050 4550
+Wire Notes Line
+	7925 1675 11050 1675
+Wire Notes Line
+	7925 4550 11050 4550
+Wire Wire Line
+	10375 2625 10700 2625
+Wire Wire Line
+	10700 2625 10700 1825
+Wire Wire Line
+	10700 1825 3275 1825
+Wire Wire Line
+	3275 1825 3275 2400
+Wire Wire Line
+	2750 2400 3275 2400
+$EndSCHEMATC
