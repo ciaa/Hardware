@@ -7,7 +7,9 @@ Also you can visit [CIAA-Z3R0 Wiki Page](http://www.proyecto-ciaa.com.ar/devwiki
  - [Authors](AUTHORS.md).
  - License: [CIAA Hardware license](LICENSE).
 
-This board uses EFM32 Happy gecko MCU (LQFP48).
+## Board description
+
+This board is designed for low cost, low power consumption and robotics applications.
 
 ### Schematic
 
