@@ -1,6 +1,6 @@
-The CIAA-Z3R0 board is part of CIAA Project: www.proyecto-ciaa.com.ar
+Copyright (c) 2017, Eric Pernia
+All rights reserved.
 
-Authors:
+## Contributors
 
- * 2017, Eric Nicolas Pernia.
-
+ - Mg. Eng. Eric Pernia.
