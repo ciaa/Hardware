@@ -39,7 +39,6 @@ More resources and information about **FPGA Para Todos** can be found on project
 
 FPGA specifications:
 
-
 | **Lattice iCE40HX4K TQ144**        |**Specs**|
 | ---------------------------------- | ------- |
 | Logic cells                        | 3520    |
@@ -77,12 +76,9 @@ Footprints of all components
 #### Libraries
 Libraries of component's symbols created specifically for the project
 
-#### Panelizado
+#### Panellised
 Soon, 4x4 panel of EDU-FPGA v1.2 will be available in this directory.
 <!--Here you can also find [Gerbers](Schematic/Panelizado/V1.2/Gerbers) of 4x4 panel.-->
 
 #### Simbolos_EDUFPGA.pretty
 Symbols of EDU-FPGA project logo
-
-
-
