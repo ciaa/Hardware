@@ -29,8 +29,6 @@ Folder structure:
 
 --[RX](PCB/RX): CIAA-Renesas files.
 
---[ST](PCB/ST): CIAA-ST (STM32F4 MCU) files.
-
 --[Safety](PCB/Safety): CIAA-Safety (RM48L952-PGE MCU) files.
 
 --[Z3R0](PCB/Z3R0): CIAA-Z3R0 (EFM32HG MCU) files.
