@@ -13,4 +13,4 @@ All rights reserved.
 
 ## License
 
-[CIAA Hardware license](LICENSE).
+[CIAA Project Hardware License](LICENSE).
