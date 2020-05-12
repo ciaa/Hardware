@@ -1,4 +1,5 @@
-Copyright (c) 2017, Eric Pernia
+Copyright (c) 2017, Eric Pernia.
+
 All rights reserved.
 
 ### Contributors
