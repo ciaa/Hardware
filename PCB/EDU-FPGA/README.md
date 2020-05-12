@@ -6,9 +6,10 @@ Also you can visit [EDU-CIAA-FPGA Wiki Page](http://www.proyecto-ciaa.com.ar/dev
  - [Authors](AUTHORS.md).
  - License: [CIAA Hardware license](LICENSE).
 
+## Board description
+
 ![Logo EDU-FPGA](https://gitlab.com/RamadrianG/wiki---fpga-para-todos/-/wikis/uploads/1a27ff0b03e42e60aa395881f77d3749/LOGO_3.png)
 
-## Board description
 EDU-FPGA is an open source FPGA development board based on [Lattice iCE40HX4K](http://www.latticesemi.com/iCE40), and is part of **FPGA Para Todos** project, which is aimed to bring educational resources for FPGA technologies. EDU-FPGA supports [IceStorm](http://www.clifford.at/icestorm/) open source toolchain and is designed to be a low cost solution for beginners and intermediate students or professionals who wants to start studying FPGA's technologies or deepen their knowledges on this field. Currently, there are two versions of the board: v1.0 and v1.2. The following image shows both:
 
 ![Versiones](Images/Versiones.jpeg)
