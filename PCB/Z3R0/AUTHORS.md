@@ -3,4 +3,4 @@ All rights reserved.
 
 ## Contributors
 
- - Mg. Eng. Eric Pernia.
+ - Mg. Eng. Eric Pernia <ericpernia@gmail.com>.
