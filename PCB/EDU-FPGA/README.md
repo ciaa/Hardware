@@ -1,6 +1,6 @@
 # EDU-CIAA-FPGA
 
-Here you will find KiCad design files, [gerber files](output_files) and [documentation](doc) for this board developed by Embedded Systems application group from [UTN FR Haedo](http://www.frh.utn.edu.ar/) as part of the [CIAA project](http://www.proyecto-ciaa.com.ar/).
+Here you will find KiCad design files, gerber files and documentation for this board developed by Embedded Systems application group from [UTN FR Haedo](http://www.frh.utn.edu.ar/) as part of the [CIAA project](http://www.proyecto-ciaa.com.ar/).
 Also you can visit [EDU-CIAA-FPGA Wiki Page](http://www.proyecto-ciaa.com.ar/devwiki/doku.php?id=desarrollo:edu-fpga).
 
  - [Authors](AUTHORS.md).
