@@ -5,4 +5,4 @@ developed by [INTI Argentina](http://www.inti.gob.ar/) - [CMNB](http://www.inti.
 Also you can visit [CIAA-ACC Wiki Page](http://www.proyecto-ciaa.com.ar/devwiki/doku.php?id=desarrollo:ciaa_acc:ciaa_acc_inicio).
 
  - [Authors](doc/AUTHORS.md).
- - License: [CIAA Hardware license](https://github.com/ciaa/Hardware/blob/master/LICENSE).
+ - License: [CIAA Hardware license](../../../LICENSE).
