@@ -5,7 +5,22 @@ Also you can visit [EDU-CIAA-FPGA Wiki Page](http://www.proyecto-ciaa.com.ar/dev
 
  - [Authors](AUTHORS.md).
  - License: [CIAA Hardware license](LICENSE).
+ 
+## Buy the board!
 
+The board can be acquired through Mercado Libre ecommerce platform:
+
+ - [Option A: One payment](https://articulo.mercadolibre.com.ar/MLA-876444808-placa-desarrollo-edu-fpga-lattice-ice40hx4k-_JM#position=1&type=item&tracking_id=b1710986-8dfb-414d-ae1f-01746e770309)
+ - [Option B: Pay in installments](https://articulo.mercadolibre.com.ar/MLA-878714026-placa-desarrollo-edu-fpga-lattice-ice40hx4k-cuotas-sin-int-_JM#position=2&type=item&tracking_id=b1710986-8dfb-414d-ae1f-01746e770309)
+ 
+The board has been manufactured and is guaranteed by [Outsource SRL](http://www.outsourcesrl.com/)
+
+## Links of interest
+
+* [Official web page (in Spanish)](https://bit.ly/EDUFPGAok)
+* [Youtube channel (in Spanish)](https://bit.ly/EDUFPGAyoutube)
+* [Wiki (in Spanish)](https://bit.ly/EDUFPGAwiki)
+ 
 ## Board description
 
 ![Logo EDU-FPGA](https://gitlab.com/RamadrianG/wiki---fpga-para-todos/-/wikis/uploads/1a27ff0b03e42e60aa395881f77d3749/LOGO_3.png)
