@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AS4C16M16SA
+D PC100/PC133 Compliant SDRAM, 256Mb (4Mb x 16 x 4 banks), TSOP II 54pin
+K SDRAM Synchronus DRAM PC133 PC100 256Mb 4Mbx16x4Banks
+F https://www.alliancememory.com/wp-content/uploads/pdf/dram/256Mb-AS4C16M16SA-C&I_V3.0_March%202015.pdf
+$ENDCMP
+#
+#End Doc Library

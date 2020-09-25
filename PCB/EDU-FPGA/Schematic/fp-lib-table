@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/footprints.pretty)(options "")(descr ""))
+  (lib (name simbolosFPGA)(type KiCad)(uri ${KIPRJMOD}/Simbolos_EDUFPGA.pretty)(options "")(descr ""))
+)

@@ -1,16 +1,13 @@
-Copyright (c) 2016, ACSE & CADIEEL
+Copyright (c) 2016, ACSE & CADIEEL.
 
-ACSE: http://www.sase.com.ar/asociacion-civil-sistemas-embebidos
+Copyright (c) 2019, INTI-CMNB Instituto Nacional de Tecnología Industrial.
 
-CADIEEL: http://www.cadieel.org.ar
+All rights reserved.
 
+ - ACSE: http://www.sase.com.ar/asociacion-civil-sistemas-embebidos
+ - CADIEEL: http://www.cadieel.org.ar
+ - INTI-CMNB: http://www.inti.gob.ar/microynanoelectronica
 
-Copyright (c) 2019, INTI-CMNB Instituto Nacional de Tecnología Industrial
-
-INTI-CMNB: http://www.inti.gob.ar/microynanoelectronica
-
-
-This file is part of CIAA Hardware.
-
+### Contributors
 
 See the [CHANGES file](CHANGES.txt) to see the contributors names.
